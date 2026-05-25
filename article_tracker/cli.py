@@ -88,8 +88,7 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
 
     # 6. Screen
     logger.info("Step 6: Screening by profile...")
-    profile_path = config.profile_path or config.screening.profile_path
-    classifier = TierClassifier.from_file(profile_path, config.screening.output_tiers)
+    classifier = TierClassifier.from_config(config.screening)
     screen_stats = classifier.classify(unique_articles)
     log.screening = screen_stats
     logger.info(f"  Core: {screen_stats['core']}, Proxy: {screen_stats['proxy']}, Eco: {screen_stats['eco']}, Noise: {screen_stats['noise']}")

@@ -1,90 +1,162 @@
-# Article Tracker - Unified Configuration
-# Copy this file to config.yaml and customize
+# ============================================
+# Article Tracker 统一配置文件
+# ============================================
 
+# ---------- arXiv 预印本源 ----------
 arxiv:
-  enabled: true
-  categories: ["cs.CV", "cs.AI", "cs.LG", "cs.CL"]
-  keywords: ["diffusion model", "vision-language", "segmentation"]
-  exclude_keywords: []
-  logic: "AND"
-  max_results: 50
-  sort_by: "submittedDate"
-  sort_order: "descending"
+  enabled: true                                    # 是否启用 arXiv 源
+  categories: ["cs.CV", "cs.AI", "cs.LG", "cs.CL"] # arXiv 学科分类
+  keywords:                                        # 搜索关键词（与 categories 取 AND/OR）
+    - "diffusion model"
+    - "vision-language"
+    - "segmentation"
+    - "deep learning"
+    - "large language model"
+  exclude_keywords:                                # 排除关键词
+    - "survey"
+    - "review"
+  logic: "AND"                                     # 关键词逻辑：AND / OR
+  max_results: 50                                  # 最大返回论文数
+  sort_by: "submittedDate"                         # 排序字段：submittedDate / lastUpdatedDate
+  sort_order: "descending"                         # 排序方向：descending / ascending
 
+# ---------- 顶刊正式论文源（Semantic Scholar 主搜索） ----------
 top_journal:
-  enabled: true
-  watchlist_path: "references/top-journal-families.md"
-  since_days: 7
-  max_per_journal: 50
+  enabled: true                                    # 是否启用顶刊源
+  since_days: 7                                    # 回溯天数（1=仅当天）
+  max_per_journal: 50                              # 每个期刊最大返回数
+  watchlist:                                       # 追踪的期刊家族（内联，无需单独文件）
+    ## Nature 家族
+    - name: "Nature"
+    - name: "Nature Communications"
+    - name: "Nature Climate Change"
+    - name: "Nature Ecology & Evolution"
+    - name: "Nature Methods"
+    - name: "Nature Geoscience"
+    - name: "Nature Machine Intelligence"
+    - name: "Nature Sustainability"
+    ## Science 家族
+    - name: "Science"
+    - name: "Science Advances"
+    - name: "Science Robotics"
+    ## Cell 家族
+    - name: "Cell"
+    - name: "Nature Cell Biology"
+    ## PNAS
+    - name: "Proceedings of the National Academy of Sciences"
+    ## 其他顶刊
+    - name: "The Lancet"
+    - name: "New England Journal of Medicine"
+    - name: "JAMA"
+    - name: "BMJ"
 
+# ---------- 去重策略 ----------
 dedup:
-  seen_path: ".state/seen.json"
-  title_threshold: 0.85
-  prefer_source: "top_journal"
+  seen_path: ".state/seen.json"                    # 去重状态文件（会提交到仓库，跨次持久化）
+  title_threshold: 0.85                            # 标题模糊匹配阈值（0~1，越大越严格）
+  prefer_source: "top_journal"                     # 同一篇论文优先保留哪个源的版本
 
+# ---------- 筛选策略（四层分类） ----------
 screening:
-  profile_path: "references/research-profile.md"
-  output_tiers: ["core", "proxy", "eco"]
+  output_tiers: ["core", "proxy", "eco"]           # 输出哪些层级（noise 不输出）
+  # --- Core：核心领域，高度相关 ---
+  core_keywords:
+    - "deep learning"
+    - "computer vision"
+    - "natural language processing"
+    - "large language model"
+    - "diffusion model"
+    - "vision-language"
+  # --- Proxy：方法相关但领域不同 ---
+  proxy_keywords:
+    - "representation learning"
+    - "self-supervised learning"
+    - "contrastive learning"
+    - "generative model"
+    - "reinforcement learning"
+    - "graph neural network"
+  # --- Eco：领域相关但方法不同 ---
+  eco_keywords:
+    - "optimization"
+    - "Bayesian inference"
+    - "causal inference"
+    - "federated learning"
+    - "neural architecture search"
+    - "knowledge distillation"
+  # --- Exclusion：排除关键词 ---
+  exclusion_keywords:
+    - "survey"
+    - "review"
+  # --- 必追踪期刊（无论关键词匹配与否） ---
+  must_track_journals:
+    - "Nature"
+    - "Science"
+    - "Cell"
 
+# ---------- LLM 双语摘要 ----------
 llm:
-  enabled: false
-  base_url: ""
-  model: ""
-  api_key_env: "DS_API_KEY"
-  api_key: ""
-  system_prompt_zh: ""
-  system_prompt_en: ""
-  timeout: 60
+  enabled: false                                   # 是否启用 LLM（需配 API Key）
+  base_url: ""                                     # OpenAI 兼容 API 地址（如 DeepSeek/SiliconFlow）
+  model: ""                                        # 模型名称
+  api_key_env: "DS_API_KEY"                        # 从环境变量读取 Key 的变量名
+  api_key: ""                                      # 直接填 Key（仅本地测试，勿提交）
+  system_prompt_zh: ""                             # 中文系统提示词（留空用默认）
+  system_prompt_en: ""                             # 英文系统提示词（留空用默认）
+  timeout: 60                                      # 单篇论文 LLM 请求超时（秒）
 
+# ---------- 输出通道（九通道，每通道独立开关） ----------
 output:
-  dir: "outputs"
-  json_enabled: true
-  md_enabled: true
-  pdf_enabled: false
-  excel_enabled: false
-  html_table_enabled: true
-  obsidian_enabled: false
-  obsidian_vault: ""
-  zotero_enabled: false
-  email:
-    enabled: false
-    sender: ""
-    to: []
-    smtp_server: ""
-    smtp_port: 465
-    smtp_user: ""
-    smtp_pass_env: "SMTP_PASS"
-    smtp_pass: ""
-    tls_mode: "auto"
-    subject_prefix: "Paper Tracker"
-  ghpages:
-    enabled: false
-    output_dir: "docs"
-    keep_runs: 30
-    accent: "#2563eb"
-    theme_mode: "auto"
+  dir: "outputs"                                   # 输出目录
+  json_enabled: true                               # JSON 输出
+  md_enabled: true                                 # Markdown 输出
+  pdf_enabled: false                               # PDF 输出（需 weasyprint）
+  excel_enabled: false                             # Excel 输出（需 openpyxl）
+  html_table_enabled: true                         # HTML 交互表输出
+  obsidian_enabled: false                          # Obsidian 笔记输出
+  obsidian_vault: ""                               # Obsidian vault 目录
+  zotero_enabled: false                            # Zotero 笔记输出
+  email:                                           # 邮件推送
+    enabled: false                                 # 是否启用
+    sender: ""                                     # 发件人邮箱
+    to: []                                         # 收件人列表
+    smtp_server: ""                                # SMTP 服务器地址
+    smtp_port: 465                                 # SMTP 端口（465=SSL, 587=STARTTLS）
+    smtp_user: ""                                  # SMTP 登录用户名
+    smtp_pass_env: "SMTP_PASS"                     # SMTP 密码环境变量名
+    smtp_pass: ""                                  # SMTP 密码（勿提交，用环境变量）
+    tls_mode: "auto"                               # TLS 模式：ssl / starttls / auto
+    subject_prefix: "Paper Tracker"                # 邮件主题前缀
+  ghpages:                                         # GitHub Pages 站点
+    enabled: false                                 # 是否启用
+    output_dir: "docs"                             # 站点输出目录
+    keep_runs: 30                                  # 保留历史天数
+    accent: "#2563eb"                              # 主题色
+    theme_mode: "auto"                             # 主题模式：light / dark / auto
 
+# ---------- 调度 ----------
 schedule:
-  enabled: false
-  cron: "0 3 * * *"
-  timezone: "Asia/Shanghai"
+  enabled: false                                   # 是否启用本地定时调度
+  cron: "30 1 * * *"                               # cron 表达式（北京时间 09:30 = UTC 01:30）
+  timezone: "Asia/Shanghai"                        # 时区
 
+# ---------- 新鲜度与回退 ----------
 freshness:
-  since_days: 7
-  max_age_days: 365
-  fallback_when_empty: false
-  fallback_top_n: 10
+  since_days: 7                                    # 只看最近 N 天内新论文（1=近24h，3650≈10年全量）
+  max_age_days: 365                                # 论文最大年龄（超过则过滤）
+  fallback_when_empty: false                       # 当无新增时，是否回退展示最近的 Top N 论文
+  fallback_top_n: 10                               # 回退时展示的论文数
 
-s2:
-  api_key_env: "S2_API_KEY"
-  api_key: ""
+# ---------- 外部 API 配置 ----------
+s2:                                                # Semantic Scholar（顶刊主搜索源）
+  api_key_env: "S2_API_KEY"                        # API Key 环境变量名
+  api_key: ""                                      # 直接填 Key（勿提交）
   base_url: "https://api.semanticscholar.org/graph/v1"
-
-openalex:
-  email_env: "OPENALEX_EMAIL"
-  email: ""
+openalex:                                          # OpenAlex（补充期刊元数据 + 摘要 fallback）
+  email_env: "OPENALEX_EMAIL"                      # 礼貌池邮箱环境变量名
+  email: ""                                        # 直接填邮箱（勿提交）
   base_url: "https://api.openalex.org"
 
-source_filter: "all"
-dry_run: false
-verbose: false
+# ---------- 运行参数 ----------
+source_filter: "all"                               # 源过滤：all / arxiv / top_journal
+dry_run: false                                     # 试运行（不产生输出文件）
+verbose: false                                     # 详细日志

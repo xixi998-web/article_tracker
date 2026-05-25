@@ -53,7 +53,7 @@ class TopJournalSource(BaseSource):
 
     def fetch(self, since: date | None = None) -> List[Article]:
         since = since or (date.today() - timedelta(days=self.config.since_days))
-        watchlist = build_watchlist(self.config.watchlist_path)
+        watchlist = self._get_watchlist()
         if not watchlist:
             return []
 
@@ -64,6 +64,13 @@ class TopJournalSource(BaseSource):
 
         self._enrich_openalex_metadata(all_articles)
         return all_articles
+
+    def _get_watchlist(self) -> List[Dict[str, Any]]:
+        if self.config.watchlist:
+            return [e.model_dump() for e in self.config.watchlist]
+        if self.config.watchlist_path:
+            return build_watchlist(self.config.watchlist_path)
+        return []
 
     def _fetch_from_s2(self, watchlist_entry: Dict[str, Any], since: date) -> List[Article]:
         api_key = self.s2_config.api_key

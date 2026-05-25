@@ -16,9 +16,26 @@ class TierClassifier:
         self.output_tiers = [ScreeningTier(t) for t in (output_tiers or ["core", "proxy", "eco"])]
 
     @classmethod
-    def from_file(cls, path: str, output_tiers: List[str] | None = None) -> "TierClassifier":
-        profile = ProfileLoader.load(path)
-        return cls(profile, output_tiers)
+    def from_file(cls, path: str | None, output_tiers: List[str] | None = None) -> "TierClassifier":
+        if path:
+            profile = ProfileLoader.load(path)
+            return cls(profile, output_tiers)
+        return cls(ResearchProfile(
+            core_keywords=["*"], proxy_keywords=[], eco_keywords=[], exclusion_keywords=[]
+        ), output_tiers)
+
+    @classmethod
+    def from_config(cls, screening_config, output_tiers: List[str] | None = None) -> "TierClassifier":
+        if screening_config.core_keywords:
+            profile = ResearchProfile(
+                core_keywords=screening_config.core_keywords or ["*"],
+                proxy_keywords=screening_config.proxy_keywords or [],
+                eco_keywords=screening_config.eco_keywords or [],
+                exclusion_keywords=screening_config.exclusion_keywords or [],
+                must_track_journals=screening_config.must_track_journals or [],
+            )
+            return cls(profile, output_tiers or screening_config.output_tiers)
+        return cls.from_file(screening_config.profile_path, output_tiers or screening_config.output_tiers)
 
     def classify(self, articles: List[Article]) -> dict:
         stats = {"core": 0, "proxy": 0, "eco": 0, "noise": 0}

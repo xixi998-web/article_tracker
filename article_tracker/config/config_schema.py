@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -16,11 +16,17 @@ class ArxivSourceConfig(BaseModel):
     sort_order: str = "descending"
 
 
+class WatchlistEntry(BaseModel):
+    name: str
+    issn: Optional[str] = None
+
+
 class TopJournalSourceConfig(BaseModel):
     enabled: bool = True
-    watchlist_path: str = "references/top-journal-families.md"
+    watchlist_path: Optional[str] = None
     since_days: int = 7
     max_per_journal: int = 50
+    watchlist: List[WatchlistEntry] = Field(default_factory=list)
 
 
 class DedupConfig(BaseModel):
@@ -30,8 +36,13 @@ class DedupConfig(BaseModel):
 
 
 class ScreeningConfig(BaseModel):
-    profile_path: str = "references/research-profile.md"
+    profile_path: Optional[str] = None
     output_tiers: List[str] = Field(default_factory=lambda: ["core", "proxy", "eco"])
+    core_keywords: List[str] = Field(default_factory=list)
+    proxy_keywords: List[str] = Field(default_factory=list)
+    eco_keywords: List[str] = Field(default_factory=list)
+    exclusion_keywords: List[str] = Field(default_factory=list)
+    must_track_journals: List[str] = Field(default_factory=list)
 
 
 class LLMConfig(BaseModel):
