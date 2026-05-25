@@ -73,15 +73,17 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
 
     # 5. Enrich: LLM bilingual summary
     if config.llm.enabled:
-        logger.info("Step 5: Generating LLM bilingual summaries...")
+        llm_limit = config.llm.max_papers
+        llm_articles = [a for a in unique_articles if a.screening_tier and a.screening_tier.value in config.screening.output_tiers][:llm_limit]
+        logger.info(f"Step 5: Generating LLM bilingual summaries for up to {llm_limit} papers...")
         llm_enricher = LLMEnricher(config.llm)
-        llm_stats = llm_enricher.enrich(unique_articles)
+        llm_stats = llm_enricher.enrich(llm_articles)
         log.enrichment["llm_success"] = llm_stats.get("success", 0)
         log.enrichment["llm_failed"] = llm_stats.get("failed", 0)
 
         if config.llm.enabled:
             logger.info("Step 5b: Translating titles/abstracts...")
-            for a in unique_articles:
+            for a in llm_articles:
                 llm_enricher.translate(a)
     else:
         logger.info("Step 5: LLM disabled, skipping.")

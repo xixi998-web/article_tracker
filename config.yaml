@@ -98,6 +98,7 @@ llm:
   enabled: true                                  # 是否启用 LLM（需配 API Key + base_url）
   base_url: "https://api.deepseek.com"           # OpenAI 兼容 API 地址（如 DeepSeek/SiliconFlow）
   model: "deepseek-v4-flash"                      # 模型名称
+  max_papers: 20                                  # LLM 最多总结的论文数（节省 API 调用）
   api_key_env: "DS_API_KEY"                        # 从环境变量读取 Key 的变量名
   api_key: ""                                      # 直接填 Key（仅本地测试，勿提交）
   system_prompt_zh: ""                             # 中文系统提示词（留空用默认）

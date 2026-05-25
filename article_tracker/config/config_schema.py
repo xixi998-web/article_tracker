@@ -51,6 +51,7 @@ class LLMConfig(BaseModel):
     model: str = ""
     api_key_env: str = "DS_API_KEY"
     api_key: str = ""
+    max_papers: int = 20
     system_prompt_zh: str = ""
     system_prompt_en: str = ""
     timeout: int = 60
