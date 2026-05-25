@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List
 
 from article_tracker.config.config_schema import GhPagesConfig
-from article_tracker.models.article import Article, ScreeningTier
+from article_tracker.models.article import Article
 
 
 def _esc(x):
@@ -14,17 +14,21 @@ def _esc(x):
 
 
 _CSS = """<style>
-:root{--bg:#f8fafc;--card:#fff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb;--radius:14px;--shadow:0 1px 3px rgba(0,0,0,.06)}
-[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--shadow:0 1px 3px rgba(0,0,0,.3)}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--bg);color:var(--text);line-height:1.6}
-.container{max-width:900px;margin:0 auto;padding:20px}
-.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px}
-.header h2{font-size:22px}
-.header-right{display:flex;gap:8px;align-items:center}
-.btn{padding:6px 14px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);cursor:pointer;font-size:13px;font-family:inherit}
-.btn:hover{border-color:var(--acc);color:var(--acc)}
-.badge{font-size:12px;color:var(--muted);background:var(--card);padding:4px 10px;border-radius:999px;border:1px solid var(--border)}
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
 .tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
 .tier-core{background:#dbeafe;color:#1d4ed8}
 .tier-proxy{background:#fef3c7;color:#92400e}
@@ -34,42 +38,42 @@ body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica
 [data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
 [data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
 [data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
-.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:12px;box-shadow:var(--shadow)}
-.title{font-size:17px;font-weight:700;margin-bottom:6px}
-.title a{color:var(--text);text-decoration:none}
-.title a:hover{color:var(--acc)}
-.meta{font-size:13px;color:var(--muted);margin-bottom:4px}
-.links{margin:8px 0;font-size:13px}
-.links a{color:var(--acc);text-decoration:none;margin-right:10px}
-.links a:hover{text-decoration:underline}
-details{margin-top:6px}
-summary{cursor:pointer;font-size:13px;color:var(--muted);font-weight:600;padding:4px 0;user-select:none}
-summary:hover{color:var(--acc)}
-.detail-body{font-size:14px;white-space:pre-wrap;margin-top:4px;padding:8px 12px;background:var(--bg);border-radius:8px;border:1px solid var(--border);font-family:inherit}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
-.history{margin-top:24px;border-top:1px solid var(--border);padding-top:16px}
-.history h3{font-size:16px;margin-bottom:8px}
-.history a{color:var(--acc);text-decoration:none;font-size:14px;display:inline-block;margin:2px 8px 2px 0}
-.history a:hover{text-decoration:underline}
-.stats{font-size:12px;color:var(--muted);margin-bottom:12px}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
 </style>"""
 
 _JS = """<script>
 (function(){
-  const s=localStorage.getItem('pt-theme')||'auto';
+  var root=document.documentElement;
   function apply(t){
-    if(t==='auto')document.documentElement.removeAttribute('data-theme');
-    else document.documentElement.setAttribute('data-theme',t);
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
   }
-  apply(s);
-  window.toggleTheme=function(){
-    const cur=localStorage.getItem('pt-theme')||'auto';
-    const next={light:'dark',dark:'auto',auto:'light'}[cur];
-    localStorage.setItem('pt-theme',next);apply(next);
-    document.getElementById('theme-btn').textContent='Theme: '+next;
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
   };
-  window.expandAll=function(){document.querySelectorAll('details').forEach(d=>d.open=true)};
-  window.collapseAll=function(){document.querySelectorAll('details').forEach(d=>d.open=false)};
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
 })();
 </script>"""
 
@@ -77,22 +81,16 @@ _JS = """<script>
 def _card(a: Article) -> str:
     tier = a.screening_tier.value if a.screening_tier else ""
     tier_cls = f"tier-{tier}" if tier else ""
-    title_link = f'<a href="{_esc(a.html_url or "")}">{_esc(a.title)}</a>' if a.html_url else _esc(a.title)
+    tier_badge = f'<span class="tier-badge {tier_cls}">{tier.upper()}</span>' if tier else ""
 
-    parts = [f'<div class="card"><div class="title">{title_link}']
-    if tier:
-        parts.append(f'<span class="tier-badge {tier_cls}">{tier.upper()}</span>')
-    parts.append('</div>')
+    parts = [f'<div class="card"><div class="title">{_esc(a.title)}{tier_badge}</div>']
 
-    metas = []
     if a.authors:
-        metas.append(f'Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}')
+        parts.append(f'<div class="meta-line">Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}</div>')
     if a.venue:
-        metas.append(f'Venue: {_esc(a.venue)}')
+        parts.append(f'<div class="meta-line">Venue: {_esc(a.venue)}</div>')
     if a.published:
-        metas.append(f'Published: {a.published[:10]}')
-    for m in metas:
-        parts.append(f'<div class="meta">{m}</div>')
+        parts.append(f'<div class="meta-line">Published: {a.published[:10]}</div>')
 
     links = []
     if a.html_url:
@@ -102,48 +100,62 @@ def _card(a: Article) -> str:
     for i, u in enumerate(a.code_links[:3]):
         links.append(f'<a href="{_esc(u)}">Code{i+1}</a>')
     if links:
-        parts.append(f'<div class="links">{" · ".join(links)}</div>')
+        parts.append(f'<div class="links" style="margin-top:8px">{" · ".join(links)}</div>')
 
     if a.abstract:
-        parts.append(f'<details><summary>Abstract</summary><div class="detail-body mono">{_esc(a.abstract)}</div></details>')
-    if a.digest_en:
-        parts.append(f'<details><summary>Summary</summary><div class="detail-body">{_esc(a.digest_en)}</div></details>')
-    if a.digest_zh:
-        parts.append(f'<details><summary>总结</summary><div class="detail-body">{_esc(a.digest_zh)}</div></details>')
+        parts.append(f'<details class="detail"><summary>Abstract</summary><div class="mono">{_esc(a.abstract)}</div></details>')
+
+    if a.digest_en or a.digest_zh:
+        parts.append('<details class="detail"><summary>Summary / 总结</summary>')
+        if a.digest_en:
+            parts.append(f'<div class="mono">{_esc(a.digest_en)}</div>')
+        if a.digest_zh:
+            parts.append(f'<div class="mono" style="margin-top:8px">{_esc(a.digest_zh)}</div>')
+        parts.append('</details>')
+
     if a.title_zh:
-        parts.append(f'<details><summary>中文标题</summary><div class="detail-body">{_esc(a.title_zh)}</div></details>')
+        parts.append(f'<details class="detail"><summary>中文标题</summary><div class="mono">{_esc(a.title_zh)}</div></details>')
 
     parts.append('</div>')
     return "\n".join(parts)
 
 
-def _build_page(articles: List[Article], today: str, history_links: str, accent: str, stats_text: str) -> str:
+def _build_page(articles: List[Article], now_str: str, history_links: str, accent: str, stats_text: str) -> str:
     cards = "\n".join(_card(a) for a in articles)
+    controls = """
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>"""
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Paper Tracker — {today}</title>
+<title>Paper Tracker</title>
 <style>:root{{--acc:{accent}}}</style>
 {_CSS}
 </head>
 <body>
 <div class="container">
 <div class="header">
-<h2>Paper Tracker</h2>
-<div class="header-right">
-<span class="badge">{today} · {stats_text}</span>
-<button class="btn" id="theme-btn" onclick="toggleTheme()">Theme: {(lambda:localStorage.getItem('pt-theme')or'auto')()}</button>
-<button class="btn" onclick="expandAll()">Expand</button>
-<button class="btn" onclick="collapseAll()">Collapse</button>
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+{controls}
+<span class="badge">{now_str} · {stats_text}</span>
 </div>
 </div>
+<div class="hr"></div>
+<div class="row">
 {cards}
-<div class="history">
-<h3>History</h3>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
 {history_links}
 </div>
+</details>
+<div class="footer">Generated by article_tracker</div>
 </div>
 {_JS}
 </body>
@@ -159,7 +171,7 @@ def publish_ghpages(articles: List[Article], config: GhPagesConfig) -> str | Non
 
     archive = out / "archive"
     archive.mkdir(exist_ok=True)
-    today = datetime.now().strftime("%Y-%m-%d")
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     tier_counts = {"core": 0, "proxy": 0, "eco": 0}
     for a in articles:
@@ -168,13 +180,15 @@ def publish_ghpages(articles: List[Article], config: GhPagesConfig) -> str | Non
     stats_text = f"Core {tier_counts['core']} · Proxy {tier_counts['proxy']} · Eco {tier_counts['eco']}"
 
     archive_files = sorted(archive.glob("*.html"), key=lambda p: p.name, reverse=True)
-    history_links = " · ".join(
+    history_links = "\n".join(
         f'<a href="archive/{af.name}">{af.stem}</a>' for af in archive_files[:config.keep_runs]
     )
 
-    html = _build_page(articles, today, history_links, config.accent, stats_text)
-    (out / "index.html").write_text(html, encoding="utf-8")
-    (archive / f"{today}.html").write_text(html, encoding="utf-8")
+    html_content = _build_page(articles, now_str, history_links, config.accent, stats_text)
+    (out / "index.html").write_text(html_content, encoding="utf-8")
+
+    stamp = datetime.now().strftime("%Y%m%d_%H%M")
+    (archive / f"{stamp}.html").write_text(html_content, encoding="utf-8")
 
     while len(list(archive.glob("*.html"))) > config.keep_runs:
         oldest = sorted(archive.glob("*.html"), key=lambda p: p.name)[0]

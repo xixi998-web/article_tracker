@@ -14,20 +14,25 @@ from article_tracker.models.article import Article
 
 logger = logging.getLogger(__name__)
 
-_BG = "#0b0f17"
-_CARD = "#111827"
-_TEXT = "#e5e7eb"
-_MUTED = "#9ca3af"
-_BORDER = "#1f2937"
-_ACC = "#2563eb"
-_RADIUS = "14px"
+_CSS = """
+.container{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:#0f172a}
+.card{border:1px solid #e5e7eb;border-radius:16px;padding:16px 18px;margin:14px 0;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;font-size:18px;margin:0 0 6px 0}
+.meta-line{color:#667085;font-size:13px;margin:2px 0}
+.links a{color:#2563eb;text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.section{border:1px solid #eef2f7;border-radius:10px;padding:8px 10px;background:#f8fafc;margin-top:8px}
+.section h4{margin:4px 0 6px 0;font-size:14px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+.hr{height:1px;background:#e5e7eb;margin:14px 0}
+.footer{color:#667085;font-size:13px;margin:20px 0 10px}
+"""
 
-_TIER_STYLE = {
-    "core": "background:#1e3a5f;color:#93c5fd;",
-    "proxy": "background:#422006;color:#fbbf24;",
-    "eco": "background:#064e3b;color:#6ee7b7;",
-    "noise": "background:#374151;color:#9ca3af;",
-}
+_TIER_CLS = {"core": "tier-core", "proxy": "tier-proxy", "eco": "tier-eco", "noise": "tier-noise"}
 
 
 def _esc(x: Optional[str]) -> str:
@@ -36,44 +41,40 @@ def _esc(x: Optional[str]) -> str:
 
 def _card(a: Article) -> str:
     tier = a.screening_tier.value if a.screening_tier else ""
-    title_link = f'<a href="{_esc(a.html_url)}" style="color:{_TEXT};text-decoration:none;">{_esc(a.title)}</a>' if a.html_url else _esc(a.title)
-    tier_badge = ""
-    if tier:
-        ts = _TIER_STYLE.get(tier, "")
-        tier_badge = f'<span style="display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px;{ts}">{tier.upper()}</span>'
+    tier_html = f'<span class="tier-badge {_TIER_CLS.get(tier, "")}">{tier.upper()}</span>' if tier else ""
 
-    parts = [f'<div style="background:{_CARD};border:1px solid {_BORDER};border-radius:{_RADIUS};padding:16px;margin-bottom:12px;">']
-    parts.append(f'<div style="font-size:17px;font-weight:700;margin-bottom:6px;">{title_link}{tier_badge}</div>')
+    parts = [f'<div class="card"><div class="title">{_esc(a.title)}{tier_html}</div>']
 
-    metas = []
     if a.authors:
-        metas.append(f'Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}')
+        parts.append(f'<div class="meta-line">Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}</div>')
     if a.venue:
-        metas.append(f'Venue: {_esc(a.venue)}')
+        parts.append(f'<div class="meta-line">Venue: {_esc(a.venue)}</div>')
     if a.published:
-        metas.append(f'Published: {a.published[:10]}')
-    for m in metas:
-        parts.append(f'<div style="font-size:13px;color:{_MUTED};margin-bottom:2px;">{m}</div>')
+        parts.append(f'<div class="meta-line">Published: {a.published[:10]}</div>')
 
     links = []
     if a.html_url:
-        links.append(f'<a href="{_esc(a.html_url)}" style="color:{_ACC};text-decoration:none;">Abs</a>')
+        links.append(f'<a href="{_esc(a.html_url)}">Abs</a>')
     if a.pdf_url:
-        links.append(f'<a href="{_esc(a.pdf_url)}" style="color:{_ACC};text-decoration:none;">PDF</a>')
+        links.append(f'<a href="{_esc(a.pdf_url)}">PDF</a>')
     for i, u in enumerate(a.code_links[:3]):
-        links.append(f'<a href="{_esc(u)}" style="color:{_ACC};text-decoration:none;">Code{i+1}</a>')
+        links.append(f'<a href="{_esc(u)}">Code{i+1}</a>')
     if links:
-        parts.append(f'<div style="margin:8px 0;font-size:13px;">{" &middot; ".join(links)}</div>')
+        parts.append(f'<div class="links" style="margin-top:8px">{" · ".join(links)}</div>')
 
-    detail_box = f'font-size:14px;white-space:pre-wrap;margin-top:4px;padding:8px 12px;background:{_BG};border-radius:8px;border:1px solid {_BORDER};'
     if a.abstract:
-        parts.append(f'<details><summary style="cursor:pointer;font-size:13px;color:{_MUTED};font-weight:600;">Abstract</summary><div style="{detail_box}">{_esc(a.abstract)}</div></details>')
-    if a.digest_en:
-        parts.append(f'<details><summary style="cursor:pointer;font-size:13px;color:{_MUTED};font-weight:600;">Summary</summary><div style="{detail_box}">{_esc(a.digest_en)}</div></details>')
-    if a.digest_zh:
-        parts.append(f'<details><summary style="cursor:pointer;font-size:13px;color:{_MUTED};font-weight:600;">总结</summary><div style="{detail_box}">{_esc(a.digest_zh)}</div></details>')
+        parts.append(f'<div class="section"><h4>Abstract</h4><div style="white-space:pre-wrap">{_esc(a.abstract)}</div></div>')
+
+    if a.digest_en or a.digest_zh:
+        inner = ""
+        if a.digest_en:
+            inner += f'<div style="white-space:pre-wrap">{_esc(a.digest_en)}</div>'
+        if a.digest_zh:
+            inner += f'<div style="white-space:pre-wrap;margin-top:8px">{_esc(a.digest_zh)}</div>'
+        parts.append(f'<div class="section"><h4>Summary / 总结</h4>{inner}</div>')
+
     if a.title_zh:
-        parts.append(f'<details><summary style="cursor:pointer;font-size:13px;color:{_MUTED};font-weight:600;">中文标题</summary><div style="{detail_box}">{_esc(a.title_zh)}</div></details>')
+        parts.append(f'<div class="section"><h4>中文标题</h4><div style="white-space:pre-wrap">{_esc(a.title_zh)}</div></div>')
 
     parts.append('</div>')
     return "\n".join(parts)
@@ -83,7 +84,7 @@ def send_email(articles: List[Article], config: EmailConfig, subject_prefix: str
     if not config.enabled:
         return None
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
     tier_counts = {"core": 0, "proxy": 0, "eco": 0}
     for a in articles:
         if a.screening_tier and a.screening_tier.value in tier_counts:
@@ -91,22 +92,20 @@ def send_email(articles: List[Article], config: EmailConfig, subject_prefix: str
     stats_text = f"Core {tier_counts['core']} · Proxy {tier_counts['proxy']} · Eco {tier_counts['eco']}"
 
     cards = "\n".join(_card(a) for a in articles[:50])
-    html_body = f"""<!doctype html>
-<html><head><meta charset="utf-8"></head>
-<body style="margin:0;padding:0;background:{_BG};font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:{_TEXT};line-height:1.6;">
-<div style="max-width:900px;margin:0 auto;padding:20px;">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px;">
-<h2 style="font-size:22px;margin:0;">{_esc(subject_prefix)}</h2>
-<span style="font-size:12px;color:{_MUTED};background:{_CARD};padding:4px 10px;border-radius:999px;border:1px solid {_BORDER};">{today} · {stats_text}</span>
-</div>
+    html_body = f"""<meta charset="utf-8">
+<div class="container">
+<h2 style="margin:8px 0 12px 0;">{_esc(subject_prefix)}</h2>
+<style>{_CSS}</style>
+<div style="font-size:12px;color:#667085;margin-bottom:12px;">{now_str} · {stats_text}</div>
+<div class="hr"></div>
 {cards}
-</div>
-</body></html>"""
+<div class="footer">Generated by article_tracker</div>
+</div>"""
 
     msg = MIMEMultipart()
     msg["From"] = config.sender
     msg["To"] = ", ".join(config.to)
-    msg["Subject"] = f"{subject_prefix} — {today}"
+    msg["Subject"] = f"{subject_prefix} — {now_str}"
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     try:
