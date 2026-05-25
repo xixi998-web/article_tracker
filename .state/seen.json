@@ -1246,5 +1246,17 @@
   "doi:10.3390/antibiotics15050505": {
     "source": "top_journal",
     "title": "Decoding Host–Pathogen Dynamics in Klebsiella pneumoniae Infections: Mechanisms of Cell Death Regulation and Host-Directed Therapies for Sepsis"
+  },
+  "doi:10.1002/pmic.70144": {
+    "source": "top_journal",
+    "title": "A Single‐Cell Proteomic Atlas of Cardiac Fibrosis Reveals Cell‐Type–Specific Remodeling and Discordant Protein Regulation"
+  },
+  "doi:10.1186/s13148-026-02156-3": {
+    "source": "top_journal",
+    "title": "Development, characterization, and inter-laboratory validation of methylated human cell free DNA candidate reference materials"
+  },
+  "doi:10.1097/mph.0000000000003219": {
+    "source": "top_journal",
+    "title": "The Clinico-Therapeutic Challenge of Tuberculosis in Pediatric Acute Leukemia and Stem Cell Transplant Patients: An Experience From a Tertiary Care Center Over 5 Years"
   }
 }
