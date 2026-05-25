@@ -958,5 +958,221 @@
   "doi:10.64898/2026.05.14.26353170": {
     "source": "top_journal",
     "title": "Acceptability of community-based maternal and newborn care in South Sudan: A qualitative study using the Theoretical Framework of Acceptability"
+  },
+  "arxiv:2605.23904v1": {
+    "source": "arxiv",
+    "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills"
+  },
+  "arxiv:2605.23901v1": {
+    "source": "arxiv",
+    "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws"
+  },
+  "arxiv:2605.23898v1": {
+    "source": "arxiv",
+    "title": "SPACENUM: Revisiting Spatial Numerical Understanding in VLMs"
+  },
+  "arxiv:2605.23897v1": {
+    "source": "arxiv",
+    "title": "ETCHR: Editing To Clarify and Harness Reasoning"
+  },
+  "arxiv:2605.23893v1": {
+    "source": "arxiv",
+    "title": "Complete-muE: Optimal Hyperparameter Transfer and Scaling for MoE Models"
+  },
+  "arxiv:2605.23891v1": {
+    "source": "arxiv",
+    "title": "Smart-Insertion-V: Photorealistic Video Insertion via a Closed-Loop Feedback Dual-Stream Framework"
+  },
+  "arxiv:2605.23883v1": {
+    "source": "arxiv",
+    "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs"
+  },
+  "arxiv:2605.23878v1": {
+    "source": "arxiv",
+    "title": "LaMo: Self-Supervised Latent Motion Priors for Physical Realism in Video Generation"
+  },
+  "arxiv:2605.23868v1": {
+    "source": "arxiv",
+    "title": "Vision Transformers Need Better Token Interaction"
+  },
+  "arxiv:2605.23867v1": {
+    "source": "arxiv",
+    "title": "Human Decision-Making with Persuasive and Narrative LLM Explanations"
+  },
+  "arxiv:2605.23861v1": {
+    "source": "arxiv",
+    "title": "Leveraging Foundation Models for Causal Generative Modeling"
+  },
+  "arxiv:2605.23857v1": {
+    "source": "arxiv",
+    "title": "Strong Teacher Not Needed? On Distillation in LLM Pretraining"
+  },
+  "arxiv:2605.23840v1": {
+    "source": "arxiv",
+    "title": "MuellerPT: Decomposition Driven Pretraining for Dense Learning in Mueller Polarimetry"
+  },
+  "arxiv:2605.23826v1": {
+    "source": "arxiv",
+    "title": "Decomposing Queries into Tool Calls for Long-Video Keyframe Retrieval"
+  },
+  "arxiv:2605.23809v1": {
+    "source": "arxiv",
+    "title": "Advanced AI Service Provisioning in O-RAN through LLM Engine Integration"
+  },
+  "arxiv:2605.23797v1": {
+    "source": "arxiv",
+    "title": "Debiased Negative Mining Improves Out-of-distribution Detection with Pre-trained Vision-Language Models"
+  },
+  "arxiv:2605.23790v1": {
+    "source": "arxiv",
+    "title": "Exploring deep learning for Event-Based Saliency Prediction with a Transformer-based model"
+  },
+  "arxiv:2605.23780v1": {
+    "source": "arxiv",
+    "title": "Beyond Binary Edits Robust Multimodal Knowledge Editing with Adversarial Subspace Alignment"
+  },
+  "arxiv:2605.23777v1": {
+    "source": "arxiv",
+    "title": "Machine learning applied to emerald gemstone grading: framework proposal and creation of a public dataset"
+  },
+  "arxiv:2605.23775v1": {
+    "source": "arxiv",
+    "title": "A Novel Approach for the Counting of Wood Logs Using cGANs and Image Processing Techniques"
+  },
+  "arxiv:2605.23754v1": {
+    "source": "arxiv",
+    "title": "LLM-driven design of physics-constrained constitutive models: two agents are better than one"
+  },
+  "arxiv:2605.23751v1": {
+    "source": "arxiv",
+    "title": "Approaching I/O-optimality for Approximate Attention"
+  },
+  "arxiv:2605.23747v1": {
+    "source": "arxiv",
+    "title": "Revitalizing Dense Material Segmentation: Stabilized Vision Transformers and the Generalization Paradox"
+  },
+  "arxiv:2605.23723v1": {
+    "source": "arxiv",
+    "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection"
+  },
+  "arxiv:2605.23696v1": {
+    "source": "arxiv",
+    "title": "Graph-based Complexity Forecasts in UK En Route Airspace Using Relevant Aircraft Interactions"
+  },
+  "arxiv:2605.23694v1": {
+    "source": "arxiv",
+    "title": "ChartFI: Benchmarking Faithfulness and Insightfulness of Chart Descriptions from Multimodal Large Language Models"
+  },
+  "arxiv:2605.23668v1": {
+    "source": "arxiv",
+    "title": "OnePred: Next-Query Prediction via Recursive Intent Memory in Multi-Turn Conversations"
+  },
+  "arxiv:2605.23657v1": {
+    "source": "arxiv",
+    "title": "OpenSkillEval: Automatically Auditing the Open Skill Ecosystem for LLM Agents"
+  },
+  "arxiv:2605.23656v1": {
+    "source": "arxiv",
+    "title": "Recursive Block-Diagonal Coupling for Resource-Efficient Training of Vision Models"
+  },
+  "arxiv:2605.23655v1": {
+    "source": "arxiv",
+    "title": "CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception"
+  },
+  "arxiv:2605.23653v1": {
+    "source": "arxiv",
+    "title": "ExpOS: Explainable Open-Surgery Skills Assessment Using 3D Hand Reconstruction"
+  },
+  "arxiv:2605.23651v1": {
+    "source": "arxiv",
+    "title": "How Human-Like Are Large Language Models? A Register-Aware Linguistic Evaluation Framework"
+  },
+  "arxiv:2605.23635v1": {
+    "source": "arxiv",
+    "title": "Dirichlet-Based Monte Carlo Dropout for Uncertainty Estimation in Neural Networks"
+  },
+  "arxiv:2605.23605v1": {
+    "source": "arxiv",
+    "title": "DiLaDiff: Distilled Latent-Augmented Diffusion for Language Modeling"
+  },
+  "arxiv:2605.23602v1": {
+    "source": "arxiv",
+    "title": "GlowGS: Generative Semantic Feature Learning for 3D Gaussian Splatting in Nighttime Glow Scenes"
+  },
+  "arxiv:2605.23597v1": {
+    "source": "arxiv",
+    "title": "Structure-Guided Entity Resolution: Fine-Tuning LLMs for Robust Name Matching in Complex Linguistic Contexts"
+  },
+  "arxiv:2605.23559v1": {
+    "source": "arxiv",
+    "title": "PathNavigate: A Training-Free Pathology Agent with Surprise-Guided Scan and Shared Slide Memory for Whole-Slide Image VQA"
+  },
+  "arxiv:2605.23508v1": {
+    "source": "arxiv",
+    "title": "DrawVideo: Generating Long Video from Storyboard Keyframe Sketches"
+  },
+  "arxiv:2605.23500v1": {
+    "source": "arxiv",
+    "title": "B-GRTO: Bootstrapped Group Relative Tool Optimization for Referring Segmentation"
+  },
+  "arxiv:2605.23497v1": {
+    "source": "arxiv",
+    "title": "Asking For An Old Friend: Diagnosing and Mitigating Temporal Failure Modes in LLM-based Statutory Question Answering"
+  },
+  "arxiv:2605.23482v1": {
+    "source": "arxiv",
+    "title": "Multimodal Distribution Matching for Vision-Language Dataset Distillation"
+  },
+  "arxiv:2605.23472v1": {
+    "source": "arxiv",
+    "title": "Rethinking Transfer Learning for Industrial Inspection: DINOv3 vs. ImageNet Pretraining Across RGB and X-ray Tasks"
+  },
+  "arxiv:2605.23471v1": {
+    "source": "arxiv",
+    "title": "CBANet: A Compact Attention-Based CNN-BiLSTM Network for Aggressive Driving Event Detection"
+  },
+  "arxiv:2605.23459v1": {
+    "source": "arxiv",
+    "title": "AI Assurance: A Comprehensive Testing Strategy for Enterprise AI Systems"
+  },
+  "arxiv:2605.23448v1": {
+    "source": "arxiv",
+    "title": "AI Security Research Should Better Incentivize Defense Research"
+  },
+  "arxiv:2605.23440v1": {
+    "source": "arxiv",
+    "title": "SSDAU: Structured Semantic Data Augmentation for Joint Entity and Relation Extraction"
+  },
+  "arxiv:2605.23428v1": {
+    "source": "arxiv",
+    "title": "FAST-ME: Foundation-aware Adaptive Stopping for Motion Estimation for Efficient IoT Video Analysis"
+  },
+  "arxiv:2605.23403v1": {
+    "source": "arxiv",
+    "title": "Hybrid Quantum-Classical Corrective Diffusion Modeling for Meteorological Downscaling"
+  },
+  "arxiv:2605.23362v1": {
+    "source": "arxiv",
+    "title": "Instance-Optimal Estimation with Multiple LLM Judges on a Budget"
+  },
+  "arxiv:2605.23348v1": {
+    "source": "arxiv",
+    "title": "XWind: A Cross-site Router for Large Language Model Inference Serving at Renewable Energy Farms"
+  },
+  "doi:10.64898/2026.05.16.725005": {
+    "source": "top_journal",
+    "title": "Global cell-state and gene-program representations reveal conserved and context-specific perturbation responses of cells"
+  },
+  "doi:10.1038/s41598-026-48754-2": {
+    "source": "top_journal",
+    "title": "Comparative analysis and correlation of cancer hotspot proteins and cell markers in tumor-normal adjacent breast and kidney samples using RPPA and LC-MS"
+  },
+  "doi:10.7150/jca.129718": {
+    "source": "top_journal",
+    "title": "Integrative Bulk and Single-Cell Transcriptome Profiling of Telomere-Related Genes Reveals a Robust Prognostic Signature and Immunotherapeutic Landscape in Neuroblastoma"
+  },
+  "doi:10.1149/1945-7111/ae6f4f": {
+    "source": "top_journal",
+    "title": "A New 0D Physics-Based Model for Proton-Exchange Membrane Fuel Cell Performance Simulation"
   }
 }
