@@ -32,7 +32,8 @@ jobs:
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
           DS_API_KEY: ${{ secrets.DS_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_TO: ${{ secrets.EMAIL_TC }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
         run: |

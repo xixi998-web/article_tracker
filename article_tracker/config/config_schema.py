@@ -59,7 +59,9 @@ class LLMConfig(BaseModel):
 class EmailConfig(BaseModel):
     enabled: bool = False
     sender: str = ""
+    sender_env: str = "EMAIL_SENDER"
     to: List[str] = Field(default_factory=list)
+    to_env: str = "EMAIL_TO"
     smtp_server: str = ""
     smtp_port: int = 465
     smtp_user: str = ""

@@ -117,14 +117,12 @@ output:
   zotero_enabled: false                            # Zotero 笔记输出
   email:                                           # 邮件推送
     enabled: true                                 # 是否启用
-    sender: ""                                     # 发件人邮箱（填你的 QQ 邮箱，如 123456789@qq.com）
-    to: []                                         # 收件人列表（填接收邮箱，如 ["123456789@qq.com"]）
-    smtp_server: "smtp.qq.com"                     # SMTP 服务器地址
-    smtp_port: 465                                 # SMTP 端口（465=SSL, 587=STARTTLS）
-    smtp_user: ""                                  # SMTP 登录用户名（填你的 QQ 邮箱）
-    smtp_pass_env: "SMTP_PASS"                     # SMTP 密码环境变量名
-    smtp_pass: ""                                  # SMTP 密码（勿提交，用环境变量）
-    tls_mode: "ssl"                                # TLS 模式：ssl / starttls / auto
+    sender_env: "EMAIL_SENDER"                    # 发件人邮箱环境变量名
+    to_env: "EMAIL_TO"                            # 收件人环境变量名（逗号分隔）
+    smtp_server: "smtp.qq.com"                    # SMTP 服务器地址
+    smtp_port: 465                                # SMTP 端口（465=SSL, 587=STARTTLS）
+    smtp_pass_env: "SMTP_PASS"                    # SMTP 密码环境变量名
+    tls_mode: "ssl"                               # TLS 模式：ssl / starttls / auto
     subject_prefix: "Paper Tracker"                # 邮件主题前缀
   ghpages:                                         # GitHub Pages 站点
     enabled: true                                 # 是否启用
