@@ -1,0 +1,51 @@
+name: Paper Tracker Daily
+
+on:
+  schedule:
+    - cron: '0 19 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: tracker-daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -e ".[all]"
+
+      - name: Run tracker
+        env:
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          DS_API_KEY: ${{ secrets.DS_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+        run: |
+          article_tracker track --config config.yaml --source all
+
+      - name: Deploy GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Paper tracker daily run failed"

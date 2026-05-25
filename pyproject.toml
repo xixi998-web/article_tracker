@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "article_tracker"
+version = "0.1.0"
+description = "Unified academic paper tracker: arXiv preprints + top-journal papers with multi-source enrichment, LLM summarization, and 9-channel output"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.27",
+    "pydantic>=2.5",
+    "click>=8.1",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "feedparser>=6.0",
+    "python-dateutil>=2.8",
+    "jinja2>=3.1",
+    "openpyxl>=3.1",
+    "markdown>=3.5",
+    "tenacity>=8.2",
+]
+
+[project.optional-dependencies]
+pdf = ["weasyprint>=60"]
+api = ["fastapi>=0.110", "uvicorn>=0.27"]
+schedule = ["apscheduler>=3.10"]
+all = ["article_tracker[pdf,api,schedule]"]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "ruff>=0.3"]
+
+[project.scripts]
+article_tracker = "article_tracker.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["article_tracker*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
