@@ -85,7 +85,7 @@ class TopJournalSource(BaseSource):
 
         since_str = since.isoformat()
         params = {
-            "query": f"venue:{journal_name}",
+            "query": journal_name,
             "fields": "paperId,title,authors,abstract,publicationDate,externalIds,url,openAccessPdf,journal",
             "limit": str(self.config.max_per_journal),
             "publicationDateOrYear": since_str,

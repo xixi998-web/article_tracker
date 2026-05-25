@@ -95,7 +95,7 @@ screening:
 
 # ---------- LLM 双语摘要 ----------
 llm:
-  enabled: true                                   # 是否启用 LLM（需配 API Key）
+  enabled: false                                  # 是否启用 LLM（需配 API Key + base_url）
   base_url: ""                                     # OpenAI 兼容 API 地址（如 DeepSeek/SiliconFlow）
   model: ""                                        # 模型名称
   api_key_env: "DS_API_KEY"                        # 从环境变量读取 Key 的变量名
