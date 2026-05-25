@@ -89,6 +89,8 @@ class ScheduleConfig(BaseModel):
 class FreshnessConfig(BaseModel):
     since_days: int = 7
     max_age_days: int = 365
+    fallback_when_empty: bool = False
+    fallback_top_n: int = 10
 
 
 class S2Config(BaseModel):

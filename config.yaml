@@ -72,6 +72,8 @@ schedule:
 freshness:
   since_days: 7
   max_age_days: 365
+  fallback_when_empty: false
+  fallback_top_n: 10
 
 s2:
   api_key_env: "S2_API_KEY"

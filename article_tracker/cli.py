@@ -98,6 +98,16 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
     filtered = classifier.filter_by_tiers(unique_articles)
     logger.info(f"  After tier filter: {len(filtered)} papers")
 
+    # 6b. Fallback when empty
+    if not filtered and config.freshness.fallback_when_empty:
+        logger.info("Step 6b: No new papers, falling back to recent top papers...")
+        all_screened = classifier.filter_by_tiers(unique_articles) if unique_articles else []
+        if not all_screened:
+            classifier.classify(all_articles)
+            all_screened = classifier.filter_by_tiers(all_articles)
+        filtered = all_screened[:config.freshness.fallback_top_n]
+        logger.info(f"  Fallback: showing top {len(filtered)} recent papers")
+
     # 7. Output
     if not dry_run:
         logger.info("Step 7: Generating outputs...")
