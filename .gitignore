@@ -6,7 +6,7 @@ dist/
 build/
 .eggs/
 
-.state/seen.json
+# .state/seen.json 需要提交到仓库，用于 CI/CD 跨次去重
 .env
 
 .pytest_cache/
