@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import re
+import time
 from datetime import date, datetime, timedelta
 from typing import Any, List, Optional
 
 import feedparser
+import httpx
 from dateutil import parser as dtp
 
 from article_tracker.config.config_schema import ArxivSourceConfig, FreshnessConfig
@@ -184,6 +186,8 @@ class ArxivSource(BaseSource):
         all_articles: List[Article] = []
         start = 0
         page_size = min(self.config.max_results, 200)
+        INTER_BATCH_DELAY = 3.0
+        MAX_429_RETRIES = 5
 
         while start < self.config.max_results:
             remaining = self.config.max_results - start
@@ -195,20 +199,51 @@ class ArxivSource(BaseSource):
                 "sortBy": self.config.sort_by,
                 "sortOrder": self.config.sort_order,
             }
-            last_err = None
-            for base in (ARXIV_HTTPS, ARXIV_HTTP):
-                try:
-                    resp = http_client.get(base, params=params)
-                    resp.raise_for_status()
-                    feed = feedparser.parse(resp.text)
-                    entries = feed.entries
+            entries = None
+            for retry in range(MAX_429_RETRIES + 1):
+                last_err = None
+                for base in (ARXIV_HTTPS, ARXIV_HTTP):
+                    try:
+                        resp = http_client.get(base, params=params)
+                        resp.raise_for_status()
+                        feed = feedparser.parse(resp.text)
+                        entries = feed.entries
+                        break
+                    except httpx.HTTPStatusError as e:
+                        if e.response.status_code == 429:
+                            last_err = e
+                            break
+                        last_err = e
+                        continue
+                    except Exception as e:
+                        last_err = e
+                        continue
+                else:
+                    if last_err and isinstance(last_err, httpx.HTTPStatusError) and last_err.response.status_code == 429:
+                        pass
+                    elif last_err:
+                        raise last_err
+                    else:
+                        break
+
+                if entries is not None:
                     break
-                except Exception as e:
-                    last_err = e
-                    continue
+
+                if isinstance(last_err, httpx.HTTPStatusError) and last_err.response.status_code == 429:
+                    delay = 30 * (retry + 1)
+                    import logging
+                    logging.getLogger(__name__).warning(f"arXiv 429, retry {retry+1}/{MAX_429_RETRIES} after {delay}s")
+                    time.sleep(delay)
+                else:
+                    if last_err:
+                        raise last_err
+                    break
             else:
                 if last_err:
                     raise last_err
+                break
+
+            if entries is None:
                 break
 
             if not entries:
@@ -230,5 +265,7 @@ class ArxivSource(BaseSource):
             start += len(entries)
             if len(entries) < batch:
                 break
+
+            time.sleep(INTER_BATCH_DELAY)
 
         return all_articles
