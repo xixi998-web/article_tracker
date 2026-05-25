@@ -33,6 +33,10 @@ class Config:
         return config
 
     @staticmethod
+    def from_raw(data: dict) -> UnifiedConfig:
+        return UnifiedConfig.model_validate(data)
+
+    @staticmethod
     def validate(path: str | Path) -> list[str]:
         try:
             Config.load(path)
