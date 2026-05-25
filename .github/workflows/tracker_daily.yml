@@ -2,7 +2,7 @@ name: Paper Tracker Daily
 
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '30 1 * * *'
   workflow_dispatch:
 
 concurrency:

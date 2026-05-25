@@ -1,0 +1,88 @@
+# Article Tracker - Unified Configuration
+# Copy this file to config.yaml and customize
+
+arxiv:
+  enabled: true
+  categories: ["cs.CV", "cs.AI", "cs.LG", "cs.CL"]
+  keywords: ["diffusion model", "vision-language", "segmentation"]
+  exclude_keywords: []
+  logic: "AND"
+  max_results: 50
+  sort_by: "submittedDate"
+  sort_order: "descending"
+
+top_journal:
+  enabled: true
+  watchlist_path: "references/top-journal-families.md"
+  since_days: 7
+  max_per_journal: 50
+
+dedup:
+  seen_path: ".state/seen.json"
+  title_threshold: 0.85
+  prefer_source: "top_journal"
+
+screening:
+  profile_path: "references/research-profile.md"
+  output_tiers: ["core", "proxy", "eco"]
+
+llm:
+  enabled: false
+  base_url: ""
+  model: ""
+  api_key_env: "DS_API_KEY"
+  api_key: ""
+  system_prompt_zh: ""
+  system_prompt_en: ""
+  timeout: 60
+
+output:
+  dir: "outputs"
+  json_enabled: true
+  md_enabled: true
+  pdf_enabled: false
+  excel_enabled: false
+  html_table_enabled: true
+  obsidian_enabled: false
+  obsidian_vault: ""
+  zotero_enabled: false
+  email:
+    enabled: false
+    sender: ""
+    to: []
+    smtp_server: ""
+    smtp_port: 465
+    smtp_user: ""
+    smtp_pass_env: "SMTP_PASS"
+    smtp_pass: ""
+    tls_mode: "auto"
+    subject_prefix: "Paper Tracker"
+  ghpages:
+    enabled: false
+    output_dir: "docs"
+    keep_runs: 30
+    accent: "#2563eb"
+    theme_mode: "auto"
+
+schedule:
+  enabled: false
+  cron: "0 3 * * *"
+  timezone: "Asia/Shanghai"
+
+freshness:
+  since_days: 7
+  max_age_days: 365
+
+s2:
+  api_key_env: "S2_API_KEY"
+  api_key: ""
+  base_url: "https://api.semanticscholar.org/graph/v1"
+
+openalex:
+  email_env: "OPENALEX_EMAIL"
+  email: ""
+  base_url: "https://api.openalex.org"
+
+source_filter: "all"
+dry_run: false
+verbose: false
