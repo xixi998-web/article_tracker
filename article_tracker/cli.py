@@ -111,6 +111,10 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
 
     # 7. Output
     if not dry_run:
+        max_out = config.output.max_papers
+        if len(filtered) > max_out:
+            logger.info(f"  Capping output to {max_out} papers (from {len(filtered)})")
+            filtered = filtered[:max_out]
         logger.info("Step 7: Generating outputs...")
         output_mgr = OutputManager(config)
         output_results = output_mgr.output(filtered)

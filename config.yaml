@@ -108,6 +108,7 @@ llm:
 # ---------- 输出通道（九通道，每通道独立开关） ----------
 output:
   dir: "outputs"                                   # 输出目录
+  max_papers: 30                                   # 每次最多推送/输出论文数
   json_enabled: true                               # JSON 输出
   md_enabled: true                                 # Markdown 输出
   pdf_enabled: false                               # PDF 输出（需 weasyprint）

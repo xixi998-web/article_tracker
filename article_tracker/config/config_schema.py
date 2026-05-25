@@ -82,6 +82,7 @@ class GhPagesConfig(BaseModel):
 
 class OutputConfig(BaseModel):
     dir: str = "outputs"
+    max_papers: int = 30
     json_enabled: bool = True
     md_enabled: bool = True
     pdf_enabled: bool = False
