@@ -1,1 +1,962 @@
-{}
+{
+  "doi:10.1007/s10755-026-09917-1": {
+    "source": "top_journal",
+    "title": "Evaluating the Impact of a Sit Spot Mindfulness Practice on Students’ Connectedness to Nature, Mental Wellbeing, and Mindfulness"
+  },
+  "doi:10.3389/fsoc.2026.1815556": {
+    "source": "top_journal",
+    "title": "The erratic nature of goodness: a reading of the parasitic nature of toxic masculinity through the character of Achuthan Nair in the select film duology"
+  },
+  "doi:10.1080/17449855.2026.2672201": {
+    "source": "top_journal",
+    "title": "Speaking with nature: The origins of Indian environmentalism"
+  },
+  "doi:10.1038/d41586-026-01563-z": {
+    "source": "top_journal",
+    "title": "Do you hate or love AI? Take Nature’s poll"
+  },
+  "doi:10.1021/jasms.5c00320": {
+    "source": "top_journal",
+    "title": "Nature of False Peptide Identifications in Data-Independent Acquisition-Based Proteome Analysis"
+  },
+  "doi:10.2174/0113892010449724260410073836": {
+    "source": "top_journal",
+    "title": "From Nature to Nanomedicine: The Promise and Challenges of\nNanocellulose-Based Drug Delivery Systems"
+  },
+  "doi:10.18316/recc.v31i1.12399": {
+    "source": "top_journal",
+    "title": "Learning through nature: integrating outdoor experiences into formal science education"
+  },
+  "doi:10.1073/pnas.2506601123": {
+    "source": "top_journal",
+    "title": "Reversing the great degradation of nature by reducing factors related to cropland expansion"
+  },
+  "doi:10.1038/s44185-026-00136-7": {
+    "source": "top_journal",
+    "title": "Microbial diversity as the next frontier of payments for ecosystem services in nature-positive finance"
+  },
+  "doi:10.1080/17411912.2026.2661654": {
+    "source": "top_journal",
+    "title": "Beyond tradition – Kraft der Naturstimmen/power of nature’s voices"
+  },
+  "doi:10.3917/sta.156.0177": {
+    "source": "top_journal",
+    "title": "Dominique Keller, Une histoire des hommes et de la nature dans les Vosges alsaciennes : du ski au Champ du Feu et dans le Bas-Rhin , Gorcy, Éditions Scripta, 2025, 220 p."
+  },
+  "doi:10.64898/2026.04.09.717548": {
+    "source": "top_journal",
+    "title": "The stability of thought: using experience sampling and brain imaging to determine the contextually bound nature of human cognition"
+  },
+  "doi:10.1108/cdi-10-2025-0592": {
+    "source": "top_journal",
+    "title": "The curvilinear nature of employee flourishing: longitudinal evidence on workplace dignity and positive emotions across career stages"
+  },
+  "doi:10.4135/9781446217399.n4": {
+    "source": "top_journal",
+    "title": "Knowledge Societies"
+  },
+  "doi:10.52779/9780639889498": {
+    "source": "top_journal",
+    "title": "Law, Religion and Work in Africa"
+  },
+  "doi:10.1101/2025.01.14.633076": {
+    "source": "top_journal",
+    "title": "Sequence-based Drug-Target Binding Site Pre-training Enables Cryptic Pocket Detection and Improves Binding Affinity and Kinetics Prediction"
+  },
+  "doi:10.1002/ltl.70056": {
+    "source": "top_journal",
+    "title": "What Leaders Can Learn From Great Fiction"
+  },
+  "doi:10.56093/ijan.v43i1.169440": {
+    "source": "top_journal",
+    "title": "Carbon Quantum Dots Essential Oils Complex as A Substitute for Antibiotic Growth Promoter in Broiler Chicken Diet"
+  },
+  "doi:10.1017/s0029665126103073": {
+    "source": "top_journal",
+    "title": "Microbial biosynthesis of vitamin D\n 2"
+  },
+  "doi:10.5194/soil-12-633-2026": {
+    "source": "top_journal",
+    "title": "Mineral-bound organic carbon exposed by hillslope thermokarst terrain: case study in Cape Bounty, Canadian High Arctic"
+  },
+  "doi:10.69682/arti.2026.93(3).128-132": {
+    "source": "top_journal",
+    "title": "SHAPING NATIONAL SELF-CONSCIOUSNESS AMONG TEENAGERS AND YOUTH"
+  },
+  "doi:10.26436/hjuoz.2026.14.2.1760": {
+    "source": "top_journal",
+    "title": "THE ASSYRIAN ORAL HERITAGE TREASURES: RAWE AS AN ORAL SINGING"
+  },
+  "doi:10.29303/goescienceed.v7i2.1910": {
+    "source": "top_journal",
+    "title": "Analisis Aksiologi dalam Pengelolaan Sumber Daya Alam dan Implikasinya terhadap Keberlanjutan Lingkungan"
+  },
+  "doi:10.59021/ijssbm.v3i1.137": {
+    "source": "top_journal",
+    "title": "AN OVERVIEW OF TEACHER-CHILD INTERACTIONS IN MALAYSIAN EARLY CHILDHOOD EDUCATION"
+  },
+  "doi:10.1094/pdis-03-26-0447-pdn": {
+    "source": "top_journal",
+    "title": "First report of leaf spot disease in\n Cathaya argyrophylla\n Caused by\n Diaporthe eres\n in China"
+  },
+  "doi:10.3126/paj.v9i1.94487": {
+    "source": "top_journal",
+    "title": "Travel and Transcendence: Spiritual Awakening in Matthiessen’s The Snow Leopard"
+  },
+  "doi:10.1007/s42114-026-01814-7": {
+    "source": "top_journal",
+    "title": "Porous TiO2 particles as reinforcing fillers for 3D printing thermosetting polymers"
+  },
+  "doi:10.1609/aaaiss.v8i1.42513": {
+    "source": "top_journal",
+    "title": "Uncertainty-of-Information-Driven GAN (UoI GAN): Quantifying and Communicating Uncertainty to Decision-Makers"
+  },
+  "doi:10.25299/ajaip.2026.vol23(1).26741": {
+    "source": "top_journal",
+    "title": "Negotiating Difference: Sunni–Shia Relations and Grassroots Religious Moderation in Jepara, Indonesia"
+  },
+  "doi:10.3389/fonc.2026.1827951": {
+    "source": "top_journal",
+    "title": "Global research trends and hotspots of colorectal cancer organoids: a bibliometric insight and visualization analysis via multiple databases"
+  },
+  "doi:10.3897/oneeco.11.e192685": {
+    "source": "top_journal",
+    "title": "Framework for Integrated Ecosystem Assessment (FIEA): A structured approach to support evidence-based decision-making"
+  },
+  "doi:10.3847/2041-8213/ae63bd": {
+    "source": "top_journal",
+    "title": "The Longest-period Young Transiting Exoplanets—A Duo of Puffy Giants inside a Debris Disk"
+  },
+  "doi:10.1609/aaaiss.v8i1.42567": {
+    "source": "top_journal",
+    "title": "Now You See It, Now You Don’t: A Theory of Machine Consciousness Must Explain Illusions"
+  },
+  "doi:10.69889/9s19yj20": {
+    "source": "top_journal",
+    "title": "Digital Assets and Modern Portfolio Management: A Study of Cryptocurrency Investment Strategies"
+  },
+  "doi:10.5070/w4.jwa.42240": {
+    "source": "top_journal",
+    "title": "The Paradox of Academic Trust and Accessibility"
+  },
+  "doi:10.1002/efd2.70161": {
+    "source": "top_journal",
+    "title": "Artificial Intelligence in the Food Industry: Transforming Safety, Efficiency, and Sustainability From Farm to Fork"
+  },
+  "doi:10.54254/2753-7064/2026.33704": {
+    "source": "top_journal",
+    "title": "A Review of Studies on Perfectionism and Foreign Language Anxiety among EFL Learners"
+  },
+  "doi:10.1093/jeb/voag033": {
+    "source": "top_journal",
+    "title": "Replication Fidelity Difference between Daughter Chains Persists during Evolution"
+  },
+  "doi:10.1093/9780198980742.001.0001": {
+    "source": "top_journal",
+    "title": "The Nazi Genocide of the Sinti and Roma Peoples"
+  },
+  "doi:10.1111/hequ.70145": {
+    "source": "top_journal",
+    "title": "‘I Don't Want to Kill Any More Mice’: Taboo and Silence in\n PhD\n Education"
+  },
+  "doi:10.54254/2753-8818/2026.33629": {
+    "source": "top_journal",
+    "title": "Spin-Active Defect Engineering in Hexagonal Boron Nitride for Room-Temperature Single-Photon Emission and Coherent Spin Control"
+  },
+  "doi:10.1075/sll.25009.ger": {
+    "source": "top_journal",
+    "title": "Conventionalization of size-and-shape specifiers in Zinacantec Family Homesign"
+  },
+  "doi:10.1075/ttmc.25013.dia": {
+    "source": "top_journal",
+    "title": "Transcreation as text production"
+  },
+  "doi:10.1007/s44445-026-00181-9": {
+    "source": "top_journal",
+    "title": "The Index for Preventive and Interceptive Orthodontic Treatment Needs (IPION): a scoping review"
+  },
+  "doi:10.1038/s41598-026-49410-5": {
+    "source": "top_journal",
+    "title": "BBB dynamics: the lifespan perspective"
+  },
+  "doi:10.1111/joa.70178": {
+    "source": "top_journal",
+    "title": "Histological analysis of incremental markings and crown growth characteristics in mandibular first molars of the red fox,\n Vulpes vulpes\n (Canidae, Mammalia)"
+  },
+  "doi:10.1002/ldr.70668": {
+    "source": "top_journal",
+    "title": "Study on the Evolution of Land Use Conflicts in the Mountain Terrace System of Southwest China"
+  },
+  "doi:10.54254/2753-8818/2025.ad33634": {
+    "source": "top_journal",
+    "title": "The Primordial Black Hole Hypothesis: A Review of a Dark Matter Candidate Without New Physics"
+  },
+  "doi:10.25258/ijddt.16.28s.33": {
+    "source": "top_journal",
+    "title": "A Cloud-Supported Hybrid Quantum Machine Learning Framework For High-Performance Molecular Simulation And Accelerated Drug Discovery"
+  },
+  "doi:10.64898/2026.05.12.724604": {
+    "source": "top_journal",
+    "title": "BiomniBench: Process-level Evaluation of LLM Agents for Real-world Biomedical Research"
+  },
+  "doi:10.37772/2309-9275-2026-1(26)-4": {
+    "source": "top_journal",
+    "title": "European integration directions of legal ensurance of the preservation and reproduction of the natural resource base"
+  },
+  "doi:10.59828/ijeve.v2i5.51": {
+    "source": "top_journal",
+    "title": "Non-Violence and Environmental Responsibility in Jain Thought: An Ecological Interpretation of the Concept of Sthāvara Baddha Jīva"
+  },
+  "doi:10.29303/goescienceed.v7i2.1905": {
+    "source": "top_journal",
+    "title": "Etika Ekosentrisme sebagai Paradigma Pengelolaan Sumber Daya Alam dan Lahan Berkelanjutan di Indonesia"
+  },
+  "doi:10.1088/2515-7620/ae6f7c": {
+    "source": "top_journal",
+    "title": "Collaborative modeling for groundwater sustainability evaluation in coastal aquifers using simulation optimization"
+  },
+  "doi:10.1590/0074-02760250269": {
+    "source": "top_journal",
+    "title": "Memories of Memórias: shaping a century of plague research and public health policy in Brazil"
+  },
+  "doi:10.1186/s44330-026-00075-6": {
+    "source": "top_journal",
+    "title": "Optimizing post-transplantation detection of subcutaneously transplanted islets using dithizone staining"
+  },
+  "doi:10.63371/ic.v5.n2.a1112": {
+    "source": "top_journal",
+    "title": "Uso de las Metodologías Activas en la Enseñanza del Álgebra en Educación Secundaria"
+  },
+  "doi:10.1038/s41598-026-51683-9": {
+    "source": "top_journal",
+    "title": "Expired dapagliflozin as a promising corrosion inhibitor for copper in 1.0 M nitric acid: experimental and computational validation"
+  },
+  "doi:10.1088/1361-6528/ae6f22": {
+    "source": "top_journal",
+    "title": "Unravelling the origin of ferromagnetism and critical scaling behavior in orbital altermagnetic candidate CuBr\n 2\n derived lead free Ruddlesden–Popper halide perovskite (PEA)\n 2\n CuBr\n 4"
+  },
+  "doi:10.5194/jm-45-359-2026": {
+    "source": "top_journal",
+    "title": "Testing the applicability of automated size and shape analyses in non-marine ostracods – a case study from the Tibetan Plateau"
+  },
+  "doi:10.3390/healthcare14101381": {
+    "source": "top_journal",
+    "title": "Giant Cell Tumor of the Sacrum: A Narrative Review of Management Challenges and Modalities"
+  },
+  "doi:10.64898/2026.05.14.725084": {
+    "source": "top_journal",
+    "title": "Interpretable Predictive Modeling for Medical Data Using Boolean Rule-aware Regression"
+  },
+  "doi:10.3390/ma19102120": {
+    "source": "top_journal",
+    "title": "Fiber Reinforcement Effects on Coal Gangue Concrete: A Review of Mechanical Properties, Durability and Sustainability"
+  },
+  "doi:10.9734/isrr/2026/v15i1199": {
+    "source": "top_journal",
+    "title": "Mapping Global HIV Inequality among Males Aged 15-24: A Hierarchical Beta Mixed -Effects Analysis (1990-2024)"
+  },
+  "doi:10.25258/ijddt.16.28s.10": {
+    "source": "top_journal",
+    "title": "Evaluation of efficacy and safety of brinzolamide compared to timolol as an adjunctive therapy to Travoprost in patients with POAG experiencing elevated IOP."
+  },
+  "doi:10.1051/0004-6361/202558459": {
+    "source": "top_journal",
+    "title": "ANAorb: A robust framework for the optimal modelling of binaries"
+  },
+  "doi:10.1038/s41598-026-51484-0": {
+    "source": "top_journal",
+    "title": "Evaluation of serum progranulin as a biomarker for early detection of neonatal sepsis in a microbiological context"
+  },
+  "doi:10.69682/arti.2026.93(3).69-73": {
+    "source": "top_journal",
+    "title": "INTERNAL AND EXTERNAL FACTORS THAT DETERMINE SUCCESS IN LEARNING"
+  },
+  "doi:10.1007/s00032-026-00434-6": {
+    "source": "top_journal",
+    "title": "On a Class of Semipositone Problems in Orlicz–Sobolev Spaces Involving Critical Exponential Growth"
+  },
+  "doi:10.59261/jlsp.v4i2.92": {
+    "source": "top_journal",
+    "title": "Debtor's Right of Cassation in PKPU Following Constitutional Court Decision 23/PUU-XIX/2021: Consequences for the Protection of Banks as Separate Creditors"
+  },
+  "doi:10.3390/app16105017": {
+    "source": "top_journal",
+    "title": "Application of Optical Technologies in Information Interaction Tasks"
+  },
+  "doi:10.17587/prin.17.239-252": {
+    "source": "top_journal",
+    "title": "Rare Events in Deep Learning Models"
+  },
+  "doi:10.59436/jsiane.v6i2.3.2583-2093": {
+    "source": "top_journal",
+    "title": "Nitrate Toxicity of Ground Water: Preventive & Mitigation Strategies"
+  },
+  "doi:10.2118/232451-ms": {
+    "source": "top_journal",
+    "title": "Integrating Machine Learning and Explainable AI to Predict Eur in Unconventional Gas Wells"
+  },
+  "doi:10.55606/eksekusi.v4i2.2422": {
+    "source": "top_journal",
+    "title": "Rekonstruksi Pengaturan Pemulihan Aset Berbasis Prinsip Beneficial Ownership untuk Mencegah Penyembunyian Kekayaan Ilegal"
+  },
+  "doi:10.9734/ajaar/2026/v26i4725": {
+    "source": "top_journal",
+    "title": "Enhancing Agricultural Productivity Using IoT Based Predictive Analysis and Decision Support Systems"
+  },
+  "doi:10.3126/prod.v4i1.94357": {
+    "source": "top_journal",
+    "title": "Ethnic Identity as a Social Construct: Reification and Plasticity in Boundary Formation of Ethnic Groups in Nepal"
+  },
+  "doi:10.29303/goescienceed.v6i2.1870": {
+    "source": "top_journal",
+    "title": "Menggali Kreativitas, Kompetensi, Konsep Manusia Dan Ilmu Pengetahuan Dalam Perspektif Al-Qur’an"
+  },
+  "doi:10.65746/jbrha73": {
+    "source": "top_journal",
+    "title": "A novel YOLO-NAS algorithm for android malware detection using histogram of oriented gradients (HOG) based feature extraction"
+  },
+  "doi:10.46654/f5sq3z57": {
+    "source": "top_journal",
+    "title": "Emerging Adults’ Restiveness and National Security Challenges in Nigeria"
+  },
+  "doi:10.1177/09596518261449561": {
+    "source": "top_journal",
+    "title": "Adaptive event-triggered sliding mode secure control for switched systems under PDT switching rules"
+  },
+  "doi:10.47470/0016-9900-2026-105-4-438-444": {
+    "source": "top_journal",
+    "title": "<i>HIF-1A</i> gene polymorphism (rs11549465) as a possible general genetic predictor of anemia in pregnant women and fetal intrauterine growth retardation in women living in the conditions of the high anthropogenic load"
+  },
+  "doi:10.1002/ett.70441": {
+    "source": "top_journal",
+    "title": "Optimized\n IoT\n ‐Based Surveillance System for Secure Management of Electronic Health Records"
+  },
+  "doi:10.59784/glosains.v7i2.715": {
+    "source": "top_journal",
+    "title": "Interdisciplinary Collaboration in Education and Rehabilitation Services for Children with Special Needs: A Phenomenological Study"
+  },
+  "doi:10.3390/jcm15103870": {
+    "source": "top_journal",
+    "title": "Characteristics and Prognostic Analysis in Diving-Induced Ear Trauma and Sudden Hearing Loss"
+  },
+  "doi:10.25258/ijddt.16.28s.80": {
+    "source": "top_journal",
+    "title": "Validation And Stability Assessment Of Novel Rp-Hplc Method For Quantitative Determination Of Chlorpropamide In Api And Pharmaceutical Dosage Form"
+  },
+  "doi:10.1145/3802025": {
+    "source": "top_journal",
+    "title": "Bw-Graph: An Efficient Graph Storage System Harmonizing Topology-Aware Tree with Paged CSR"
+  },
+  "doi:10.3389/fpos.2026.1834093": {
+    "source": "top_journal",
+    "title": "Media and information literacy in the face of election disinformation generated by artificial intelligence: experiences from Ecuador"
+  },
+  "doi:10.3390/jcm15103882": {
+    "source": "top_journal",
+    "title": "Multimodal Hand Hygiene Interventions and Clinical Healthcare-Associated Infection Outcomes in Acute Care Hospitals: A Systematic Review of Quasi-Experimental Studies"
+  },
+  "doi:10.69548/maa.1.2.52": {
+    "source": "top_journal",
+    "title": "A Multidisciplinary Comparative Analysis of the Story of Prophet Noah in the Qur’an and the Bible"
+  },
+  "doi:10.36922/msam026050011": {
+    "source": "top_journal",
+    "title": "Welding-based algebraic models to predict microstructure features in laser powder bed fusion"
+  },
+  "doi:10.1007/s00894-026-06767-8": {
+    "source": "top_journal",
+    "title": "Assessment of DFT functionals for chiroptical properties of Fe(acac)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$_3"
+  },
+  "doi:10.1177/09589287261449041": {
+    "source": "top_journal",
+    "title": "‘Family policy change’ and the dependent variable problem: A systematic review of theories, conceptualisations, and measurements"
+  },
+  "doi:10.25258/ijddt.16.28s.71": {
+    "source": "top_journal",
+    "title": "Exploring the Efficacy of Homeopathic Treatment in Chronic Allergic Bronchitis: Case Report"
+  },
+  "doi:10.25258/ijddt.16.28s.72": {
+    "source": "top_journal",
+    "title": "Exploring the Efficacy of Homeopathic Treatment in Epididymitis, Funiculitis, Reactive Hydrocele, Inguinal Lymphadenopathy: Case Report"
+  },
+  "doi:10.3389/frai.2026.1748985": {
+    "source": "top_journal",
+    "title": "Artificial intelligence techniques for classification of Alzheimer's disease using neuroimaging data: a review"
+  },
+  "doi:10.2118/232455-ms": {
+    "source": "top_journal",
+    "title": "Camelina Cultivation for Biofuel and Sustainability in Omani Oil Fields"
+  },
+  "doi:10.14738/ejas.1403.2407": {
+    "source": "top_journal",
+    "title": "Entrepreneurial Architecture and Enterprise Sustainability in Volatile Emerging Economies: Developing the Ndoro Enterprise Sustainability Architecture (NESA)"
+  },
+  "doi:10.1108/978-1-83662-900-9": {
+    "source": "top_journal",
+    "title": "Foreign Direct Investment"
+  },
+  "doi:10.3390/su18105072": {
+    "source": "top_journal",
+    "title": "Emotional Well-Being in Tourism Experiences on Pathways: Evidence from User-Generated Content"
+  },
+  "doi:10.3390/separations13050152": {
+    "source": "top_journal",
+    "title": "Vapor–Liquid Equilibrium and Design of Energy-Efficient High-Vacuum Pressure-Swing Distillation for Bio-Based Alcohol/Alkane Separation"
+  },
+  "doi:10.5327/z2176-94782690": {
+    "source": "top_journal",
+    "title": "Transdisciplinary Praxis in the construction of an environmental rationality"
+  },
+  "doi:10.3390/su18105050": {
+    "source": "top_journal",
+    "title": "A Multidimensional Evaluation of Sustainable Development Goal Concepts in Upper-Primary Textbooks"
+  },
+  "doi:10.54254/2754-1169/2026.33536": {
+    "source": "top_journal",
+    "title": "Research on the Correlation Between ESG Performance and Financial Performance in the Membership-based Retail Industry—Costco and Sam's Club"
+  },
+  "doi:10.1039/d6ra02869a": {
+    "source": "top_journal",
+    "title": "Green synthesis of Illicium verum-derived novel semiconducting Ag/Fe/Cu-trimetallic nanocomposites: A dual-functional platform for selective detection of pharmaceutical compounds and light-independent degradation of organic dyes"
+  },
+  "doi:10.35453/nedjr-ascn-2025-066.r1": {
+    "source": "top_journal",
+    "title": "MICROWAVE-ASSISTED PRETREATMENT FOR ENHANCED BIOGAS PRODUCTION FROM COW MANURE: A RESPONSE SURFACE METHODOLOGY STUDY"
+  },
+  "doi:10.1145/3802094": {
+    "source": "top_journal",
+    "title": "Octopus: Efficient Hypergraph Pattern Mining with Practical Processing-in-Memory Architecture"
+  },
+  "doi:10.2118/232477-ms": {
+    "source": "top_journal",
+    "title": "Conformance Control with Nanospheres to Optimize Waterflood in a Carbonate Reservoir in Block 5"
+  },
+  "doi:10.2118/232523-ms": {
+    "source": "top_journal",
+    "title": "Redefining the Limits of Conventional Acid Stimulation: Optimized Single-Phase Retarded Acid and Viscoelastic Acid System for Extended-Reach Injectors"
+  },
+  "doi:10.66173/jenmas.2026.106": {
+    "source": "top_journal",
+    "title": "First-Principles Study of Li2CaCdH6: Insights into Electronic, Structural, Mechanical, Optical, and Gravimetric H2 capacity"
+  },
+  "doi:10.56989/benkj.v6i5.1916": {
+    "source": "top_journal",
+    "title": "الكفاءات المهنية في التعليم التقني والتدريب المهني لمواكبة التطور التقني وتحقيق التنمية المستدامة في ليبيا"
+  },
+  "doi:10.1039/d6ra01881e": {
+    "source": "top_journal",
+    "title": "Computational exploration of hydrogen storage potential in Mg2LiXH6 (X = Ti, V) hydrides via DFT and AIMD simulations"
+  },
+  "doi:10.25258/ijddt.16.28s.31": {
+    "source": "top_journal",
+    "title": "Development And Quality Evaluation Of Herbal Tea Formulations: Focus On Sugar Profile, Aflatoxin And Pesticide Residues"
+  },
+  "doi:10.2118/232390-ms": {
+    "source": "top_journal",
+    "title": "Digital Transformation for Operational Excellence Through Nimr's Journey to Unparalleled WRFM Performance"
+  },
+  "doi:10.24233/biov.12.2.2026.565": {
+    "source": "top_journal",
+    "title": "Phytoremediation Effectiveness of Salvinia molesta and Hydrilla verticilla-ta L. in Treating Batik Industrial Wastewater"
+  },
+  "doi:10.3390/plants15101541": {
+    "source": "top_journal",
+    "title": "Plant Transformation States and Exposure Architecture: A Pharmacokinetic Framework for Plant-Derived Compounds in Bone Remodeling"
+  },
+  "doi:10.1108/jea-09-2025-0391": {
+    "source": "top_journal",
+    "title": "Hybrid leadership in wartime: adaptive, transactional and transformational practices of Ukrainian school principals"
+  },
+  "doi:10.2118/232750-ms": {
+    "source": "top_journal",
+    "title": "A Renewable Energy–Enabled Electro-Oxidation Platform for On-Site Treatment of Produced and Industrial Wastewater"
+  },
+  "doi:10.15421/032603": {
+    "source": "top_journal",
+    "title": "Analysis of rare flora in valley-terrace landscapes of the Ukrainian steppe zone and measures for its conservation"
+  },
+  "doi:10.1186/s13595-026-01331-z": {
+    "source": "top_journal",
+    "title": "Modeling crown width and canopy cover in Quercus suber L. stands: from forest management equations to 3PG-compatible formulations"
+  },
+  "doi:10.1177/25151274261420007": {
+    "source": "top_journal",
+    "title": "Corrigendum to “Stimulating Entrepreneurial Students’ Imagination to Think About the Future: The Benefits of Science-Fiction Writing”"
+  },
+  "doi:10.7717/peerj-cs.3846": {
+    "source": "top_journal",
+    "title": "From data to impact: a multivocal review of success factors and criteria for data science projects"
+  },
+  "doi:10.69481/prssg": {
+    "source": "top_journal",
+    "title": "Predictors of Research Self-Efficacy of STEM Graduates in a Science Investigatory Project Class: Toward a Research Self-Efficacy Promotion Model"
+  },
+  "doi:10.22158/sll.v10n2p104": {
+    "source": "top_journal",
+    "title": "The Paradigm Divergence of Collective Redemption and Individual Awakening: The Ethical Narrative of Chinese and Western Science Fiction—A Comparative Study Centered on Liu Cixin’s The Three-Body Problem and Asimov’s Foundation"
+  },
+  "doi:10.1108/lodj-05-2025-0373": {
+    "source": "top_journal",
+    "title": "Bridging leadership and engagement: a bibliometric and science mapping analysis of global research trends"
+  },
+  "doi:10.1108/jhom-01-2026-0058": {
+    "source": "top_journal",
+    "title": "Work engagement as a mediator between perceived organizational support and health science communication competency among medical staff: evidence from the JD-R model in tertiary public hospitals in China"
+  },
+  "doi:10.69682/arti.2026.93(3).5-11": {
+    "source": "top_journal",
+    "title": "A SCIENTIST WHO PLAYED AN IMPORTANT ROLE IN THE DEVELOPMENT OF PEDAGOGICAL SCIENCE IN AZERBAIJAN: ACADEMICIAN HUSEYN AHMEDOV"
+  },
+  "doi:10.36713/epra27727": {
+    "source": "top_journal",
+    "title": "MOTIVATION TOWARDS SCIENCE AMONG STEM STUDENTS AS PREDICTED BY WELL-BEING AND SCIENTIFIC INQUIRY"
+  },
+  "doi:10.35379/cusosbil.1686836": {
+    "source": "top_journal",
+    "title": "A VISUAL ANALYSIS OF RESEARCH TRENDS ON DISASTER AND HUMANITARIAN AID LOGISTICS USING THE WEB OF SCIENCE DATABASE"
+  },
+  "doi:10.3389/fspor.2026.1843352": {
+    "source": "top_journal",
+    "title": "Pioneers and paradigms in sprint science: a thematic historical mini review"
+  },
+  "doi:10.1186/s12961-026-01479-0": {
+    "source": "top_journal",
+    "title": "Engaging patients throughout the continuum of implementation science and practice: adapted evidence mapping review and practical guide for clinicians and researchers"
+  },
+  "doi:10.1146/annurev-biodatasci-092724-045605": {
+    "source": "top_journal",
+    "title": "The Data Science of Health in Space"
+  },
+  "doi:10.1177/00977004261433221": {
+    "source": "top_journal",
+    "title": "Mobilizing Vernacular Obstetric Science: The Production of Childbirth and Midwifery Knowledge in Rural Socialist China, 1940s–1970s"
+  },
+  "doi:10.1161/jaha.126.050184": {
+    "source": "top_journal",
+    "title": "Importance of Fostering International Collaboration for Optimal Outcomes of Kawasaki Disease Worldwide: A Science Advisory From the American Heart Association"
+  },
+  "doi:10.48175/ijarsct-35471": {
+    "source": "top_journal",
+    "title": "A Study on TPACK of Science Teachers at the Higher Secondary Level in Chengalpattu District"
+  },
+  "doi:10.1609/aaaiss.v8i1.42579": {
+    "source": "top_journal",
+    "title": "State Machine Structured Agents for Physical Science Reasoning"
+  },
+  "doi:10.3390/encyclopedia6050109": {
+    "source": "top_journal",
+    "title": "The Social Study of Science: The Resurgence of Historical Materialism"
+  },
+  "doi:10.1515/jib-2025-0049": {
+    "source": "top_journal",
+    "title": "The community engagement and empowerment cycle: FAIRagro’s framework to foster cultural change towards FAIR RDM practices in agrosystem science and beyond"
+  },
+  "doi:10.58421/gehu.v5i2.1407": {
+    "source": "top_journal",
+    "title": "Teaching Science with the Papuan Ethnoscience Approach: Between Gaps and Opportunities for Developing Science Learning in the Future: A Literature Review"
+  },
+  "doi:10.65955/febe-05-2026-00101": {
+    "source": "top_journal",
+    "title": "Bridging disciplines, building competencies: Innovating architecture and civil engineering education through integrated project management and spatial science in Saudi Arabia"
+  },
+  "doi:10.1097/nsg.0000000000000394": {
+    "source": "top_journal",
+    "title": "Role of genomic science in males with breast cancer"
+  },
+  "doi:10.1007/s11858-026-01798-0": {
+    "source": "top_journal",
+    "title": "Open science meets orange skies: K-12 educators’ engagement with computational notebooks to explore scientific events with human impacts"
+  },
+  "doi:10.1515/humaff-2025-0045": {
+    "source": "top_journal",
+    "title": "Poverty in Social Science Research: Different Operationalizations, Different Results"
+  },
+  "doi:10.1002/cfch.70023": {
+    "source": "top_journal",
+    "title": "An Experimental and Educational Framework for Nonenzymatic Polyphenol Conversion: Bridging Molecular Food Science and Materials Technology through Organic Chemistry"
+  },
+  "doi:10.3390/computers15050320": {
+    "source": "top_journal",
+    "title": "An Interpretable and Reproducibility-Focused Evaluation Pipeline for Automatic Short-Answer Grading in Low-Resource Mathematics and Science Educational Datasets"
+  },
+  "doi:10.1037/edu0001047": {
+    "source": "top_journal",
+    "title": "Engaging Latinx or Hispanic-Identifying Families in Science Education: A Longitudinal Intervention Study"
+  },
+  "doi:10.1159/000552605": {
+    "source": "top_journal",
+    "title": "Beyond the Qualitative-Quantitative Antinomy: The Intersubjective Foundations of Psychological Science"
+  },
+  "doi:10.1145/3802097": {
+    "source": "top_journal",
+    "title": "ORDER: Optimal Routing with Path Indexing in Exchange Graph [Data-Intensive & Data Science Application]"
+  },
+  "doi:10.1080/15512169.2026.2672977": {
+    "source": "top_journal",
+    "title": "Generative AI in the Political Science Classroom: Bringing Politics Back In"
+  },
+  "doi:10.1162/leon.a.2713": {
+    "source": "top_journal",
+    "title": "Art, Science, and the Deceased Body: Towards a Duty of Care"
+  },
+  "doi:10.1080/18366503.2026.2667548": {
+    "source": "top_journal",
+    "title": "Enabling national marine science in Australia with engineering, prototyping and technology development – robotics, autonomy and automation"
+  },
+  "doi:10.1038/s44220-026-00649-x": {
+    "source": "top_journal",
+    "title": "The Precision Mental Health Commission: transforming mental health through brain circuit science"
+  },
+  "doi:10.1038/d41586-026-01574-w": {
+    "source": "top_journal",
+    "title": "The Enhanced Games miss the point: science can clean up sport"
+  },
+  "doi:10.1080/24750158.2026.2657501": {
+    "source": "top_journal",
+    "title": "Artificial intelligence for academic libraries (Routledge Guides to Practice in Libraries, Archives and Information Science)"
+  },
+  "doi:10.1007/s43390-026-01410-1": {
+    "source": "top_journal",
+    "title": "Comment on “Bibliometric analysis of the top 50 most-cited articles on cervical deformities: a Web of Science database study”"
+  },
+  "doi:10.1080/10826084.2026.2670603": {
+    "source": "top_journal",
+    "title": "The Implementation of Medications for Opioid Use Disorder in Recovery Residences: Assessing the Impact of the Consolidated Framework for Implementation Science Constructs"
+  },
+  "doi:10.1017/s0008938926101800": {
+    "source": "top_journal",
+    "title": "Scattered Library: The Various Fates of the Remnants of Magnus Hirschfeld's Institute of Sexual Science Collection in France and Czechoslovakia, 1932–1942 By Hans P. Soetaert. Hannover: Ibidem Press, 2025. Pp. 850. Paper €69.90. ISBN 978-3-8382-1895-3."
+  },
+  "doi:10.1080/2331186x.2026.2666704": {
+    "source": "top_journal",
+    "title": "Patterson and Kehoe’s historical case for understanding science-technology-society and social Justice"
+  },
+  "doi:10.62487/saimsaraa6021d78": {
+    "source": "top_journal",
+    "title": "Roblox, Minecraft, and Fortnite in Education, Child Safety, and Metaverse Commerce: Scoping Review with ☸️SAIMSARA"
+  },
+  "doi:10.3389/fpsyg.2026.1729050": {
+    "source": "top_journal",
+    "title": "The unintended negative consequences of artificial intelligence use for psychologists"
+  },
+  "doi:10.1108/ejim-05-2025-0557": {
+    "source": "top_journal",
+    "title": "Open innovation in research infrastructures: the case of the Aerosol, Clouds and Trace Gases Research Infrastructure (ACTRIS)"
+  },
+  "doi:10.1007/s43621-026-03354-y": {
+    "source": "top_journal",
+    "title": "Systematic review of urban green space strategies for microclimate regulation and urban heat island mitigation in central business districts"
+  },
+  "doi:10.65736/chs03011": {
+    "source": "top_journal",
+    "title": "Ocean Architecture: Disciplinary Connotation, Boundaries, and System Construction"
+  },
+  "doi:10.3390/jcm15103892": {
+    "source": "top_journal",
+    "title": "Functional Biomechanical Tests of the Foot and Ankle in Physiotherapy and Sports—Outcome Measures, Wearable Sensor Integration, and Psychometric Properties: A Systematic Review"
+  },
+  "doi:10.54254/2754-1169/2026.lh33640": {
+    "source": "top_journal",
+    "title": "Anthropocene Accountability in Crisis: How AI-ESG Scholarship Obscures Planetary Boundaries: A Systematic Review (2018-2025)"
+  },
+  "doi:10.3390/pharmaceutics18050616": {
+    "source": "top_journal",
+    "title": "Intraocular Lens Modifications for Postoperative Complication Prevention: Advances in Surface Engineering, Drug Delivery, and Photo-Responsive Strategies"
+  },
+  "doi:10.3389/fnut.2026.1833420": {
+    "source": "top_journal",
+    "title": "Effects of different menthol administration routes on endurance performance and physiological responses in the heat: a network meta-analysis"
+  },
+  "doi:10.1186/s40900-026-00889-2": {
+    "source": "top_journal",
+    "title": "Depression detectives: piloting a methodology for online co-produced research"
+  },
+  "doi:10.36948/ijfmr.2026.v08i03.78771": {
+    "source": "top_journal",
+    "title": "Contemporary Advances In Non-Fluoridated Remineralizing Agents : A Literature Review"
+  },
+  "doi:10.9734/jabb/2026/v29i53965": {
+    "source": "top_journal",
+    "title": "Applications of Molecular Biology and Genomic Technologies in Modern Aquaculture: Current Advances and Future Perspectives"
+  },
+  "doi:10.35379/cusosbil.1652653": {
+    "source": "top_journal",
+    "title": "THE RELATIONSHIP BETWEEN ARTIFICIAL INTELLIGENCE AND EMPLOYMENT IN THE HEALTHCARE SECTOR"
+  },
+  "doi:10.61919/76cfnd75": {
+    "source": "top_journal",
+    "title": "Dual Roles of Specific microRNA Clusters as Tumor Suppressors and Oncogenes in Epithelial Cancers: A Systematic Review"
+  },
+  "doi:10.3389/fgstr.2026.1790420": {
+    "source": "top_journal",
+    "title": "GLP-1 and GLP-2 as intestinal reparative therapies in inflammatory bowel disease: mechanisms, translation, and clinical opportunity"
+  },
+  "doi:10.18502/mshsj.v10i4.21556": {
+    "source": "top_journal",
+    "title": "A Scoping Review of Digital Twins’ Applications and Challenges in Healthcare and Medicine"
+  },
+  "doi:10.2174/0115748936389384251201083618": {
+    "source": "top_journal",
+    "title": "AI-Driven Precision Medicine for Lysosomal Storage Diseases"
+  },
+  "doi:10.2174/0118742106425818260119104810": {
+    "source": "top_journal",
+    "title": "Customized Subperiosteal Dental Implants: A State-of-the-Art Narrative Review"
+  },
+  "doi:10.21926/obm.neurobiol.2602337": {
+    "source": "top_journal",
+    "title": "The Integration of Cognitive Neuroscience Principles in Communication Education: A Comprehensive Review of Curricular Designs and Skill Transfer Efficacy"
+  },
+  "doi:10.3390/diagnostics16101528": {
+    "source": "top_journal",
+    "title": "Radiotherapy-Induced Neuronal Dysfunction in Patients with Brain Tumors: Dose–Volume Effects, Imaging Biomarkers and Clinical Implications"
+  },
+  "doi:10.48175/ijarsct-35484": {
+    "source": "top_journal",
+    "title": "Weather Prediction Using Artificial Intelligence Approaches, Challenges, and Future Directions"
+  },
+  "doi:10.33369/pendipa.10.2.497-508": {
+    "source": "top_journal",
+    "title": "Analisis Kerentanan Sosial dan Kapasitas Adaptasi Masyarakat Terhadap Bencana Banjir di Kecamatan Sampara Kabupaten Konawe"
+  },
+  "doi:10.1039/d6sc02626e": {
+    "source": "top_journal",
+    "title": "Recycling nickel-rich cathodes toward structural and functional circularity: a perspective"
+  },
+  "doi:10.51878/elementary.v6i3.10823": {
+    "source": "top_journal",
+    "title": "EFEKTIVITAS MEDIA PEMBELAJARAN TIGA DIMENSI (3D) DALAM MENDUKUNG INOVASI PEMBELAJARAN DI ERA DIGITAL"
+  },
+  "doi:10.47957/ijpda.v14i2.721": {
+    "source": "top_journal",
+    "title": "GREEN ANALYTICAL CHEMISTRY IN PHARMACEUTICAL METHOD DEVELOPMENT: SUSTAINABLE APPROACHES"
+  },
+  "doi:10.3390/su18105086": {
+    "source": "top_journal",
+    "title": "Emerging Contaminants in Water Resources: Monitoring Gaps, Treatment Limitations and Governance Challenges with Insights from Portugal"
+  },
+  "doi:10.64063/3049-1681.vol.3.issue5.11": {
+    "source": "top_journal",
+    "title": "Biomimetic Mapping: A Comparative Analysis of Human Musculoskeletal Kinematics and High-Torque Robotic Actuation Systems"
+  },
+  "doi:10.3389/fonc.2026.1835395": {
+    "source": "top_journal",
+    "title": "Perioperative outcomes of robot-assisted versus video-assisted thoracoscopic surgery for non-small cell lung cancer: a meta-analysis focusing on real-world clinical studies in the past 10 years"
+  },
+  "doi:10.1186/s43161-026-00346-x": {
+    "source": "top_journal",
+    "title": "Treatment techniques for improving upper extremity function in chronic stroke patients (2020–2025): a narrative review"
+  },
+  "doi:10.3390/gidisord8020025": {
+    "source": "top_journal",
+    "title": "Minimally Invasive Pancreas-Preserving Duodenal Resections: Indications, Technical Strategies, and Outcomes"
+  },
+  "doi:10.29121/shodhkosh.v7.i10s.2026.8180": {
+    "source": "top_journal",
+    "title": "ARTIFICIAL INTELLIGENCE IN HOSPITALITY EDUCATION: A MULTI-INSTITUTIONAL ANALYSIS OF STUDENT’S AWARENESS, PERCEPTIONS AND PERCEIVED USEFULNESS IN INDIA"
+  },
+  "doi:10.1136/thorax-2025-224127": {
+    "source": "top_journal",
+    "title": "Gestational and postnatal age define airway epithelial maturation and RSV responses during the first year of life: results of an ex-vivo/in-vitro Airway Epithelial Cell Study"
+  },
+  "doi:10.3390/jcm15103867": {
+    "source": "top_journal",
+    "title": "Global Epidemiology of Post-Transplant Lymphoproliferative Disorder (PTLD) in Hematopoietic Stem Cell Transplantation (HSCT): A Systematic Review and Meta-Analysis of Incidence, Subtypes, Risk Factors, and Beyond"
+  },
+  "doi:10.3389/fonc.2026.1778785": {
+    "source": "top_journal",
+    "title": "Case Report: The revelation of a new pathogenic variant in the POT1 gene in a patient with a pediatric high-grade glioma and a renal cell carcinoma"
+  },
+  "doi:10.1002/inm3.70050": {
+    "source": "top_journal",
+    "title": "A new paradigm: 46 structural cell types function as environment-supporting innate immune cells, with endothelial and vascular smooth muscle cells as key prototypes"
+  },
+  "doi:10.37275/bsm.v10i7.1625": {
+    "source": "top_journal",
+    "title": "Membranous β-Catenin Expression Inversely Correlates with WHO/ISUP Grading in Clear Cell Renal Cell Carcinoma: An Indonesian Cross-Sectional H-Score Study"
+  },
+  "doi:10.1038/s41416-026-03468-0": {
+    "source": "top_journal",
+    "title": "Circulating tumour cell-derived xenograft as a preclinical platform for metastatic breast cancer"
+  },
+  "doi:10.1002/ijc.70469": {
+    "source": "top_journal",
+    "title": "Residence Near Agricultural Crops at Birth and Risk of Adult Testicular Germ Cell Tumors: A French Nationwide Case–Control Study Using Historical Aerial\n GIS\n Data"
+  },
+  "doi:10.3389/fimmu.2026.1807053": {
+    "source": "top_journal",
+    "title": "miR-142-5p promotes TSCM differentiation and suppresses progressive T-cell maturation via targeting PRKCB"
+  },
+  "doi:10.1158/2643-3230.bcd-26-0110": {
+    "source": "top_journal",
+    "title": "Rewiring the Leukemic Genome: 3D Chromatin Architecture in B-cell Acute Lymphoblastic Leukemia"
+  },
+  "doi:10.64898/2026.05.17.725794": {
+    "source": "top_journal",
+    "title": "Guard cell size and pore aperture influence stomatal closure kinetics"
+  },
+  "doi:10.3390/mi17050620": {
+    "source": "top_journal",
+    "title": "Characterization of a Metasurface Integrated 8-Plate Reconfigurable Coding Unit-Cell Coupler for Rotational Misalignment Resilience in UAV Wireless Power Transfer"
+  },
+  "doi:10.36850/94da-4482": {
+    "source": "top_journal",
+    "title": "Novel Cell Motility of Protozoa Living in the Hindgut of Termites"
+  },
+  "doi:10.1038/s42004-026-01991-y": {
+    "source": "top_journal",
+    "title": "Simulation-guided chemical direct reprogramming informed by temporal cellular conversion processes at the single-cell level"
+  },
+  "doi:10.64898/2026.05.13.723899": {
+    "source": "top_journal",
+    "title": "A Far-Red FRET biosensor for AMPK enables multiplexed imaging of single-cell bioenergetic homeostasis"
+  },
+  "doi:10.2174/0113862073444907260321211329": {
+    "source": "top_journal",
+    "title": "sh-lncRNA-SNHG4 Regulates Cell Proliferation, Apoptosis, and EMT in\nOsteosarcoma Cells via Regulating miR-204-5p to Target LRP8"
+  },
+  "doi:10.1111/trf.70274": {
+    "source": "top_journal",
+    "title": "Barriers and facilitators to cell saver use in damage control surgery"
+  },
+  "doi:10.1108/jica-07-2025-0061": {
+    "source": "top_journal",
+    "title": "Structural factors affecting the quality of sickle cell disease care in a low-resource setting"
+  },
+  "doi:10.3389/fgene.2026.1819908": {
+    "source": "top_journal",
+    "title": "Single-cell RNA sequencing unveils macrophage heterogeneity and cell-cell interactions in hepatocellular carcinoma progression"
+  },
+  "doi:10.3389/fnut.2026.1759992": {
+    "source": "top_journal",
+    "title": "Liubao tea as a functional fermented food: multi-omics insights into its modulation of lymphatic endothelial cell metabolism"
+  },
+  "doi:10.64898/2026.05.17.725652": {
+    "source": "top_journal",
+    "title": "Interpretable decoding of cell fate from a snapshot of combinatorial signaling"
+  },
+  "doi:10.1088/2631-7990/ae6f56": {
+    "source": "top_journal",
+    "title": "Ultrastrong and ductile additively manufactured maraging medium-entropy alloy via cell network-assisted control of reversion transformation"
+  },
+  "doi:10.64898/2026.05.15.723513": {
+    "source": "top_journal",
+    "title": "A Single-Nucleus Transcriptomic Atlas Reveals Cell Type-Specific Responses to OsHV-1 Infection in the Pacific Oyster"
+  },
+  "doi:10.64898/2026.05.14.725206": {
+    "source": "top_journal",
+    "title": "T cell-specific loss of IRF1 results in defective CD8 T cell activation and antitumor immunity"
+  },
+  "doi:10.64898/2026.05.13.725004": {
+    "source": "top_journal",
+    "title": "Workload-induced changes to cell state contribute to β-cell failure in diabetes"
+  },
+  "doi:10.5272/jimab.2026322.6860": {
+    "source": "top_journal",
+    "title": "COMPARISON OF EZH2, BCL-2, BER-EP4, AND CK20 EXPRESSION WITH THE KI67 PROLIFERATIVE INDEX AND OTHER ADVERSE CLINICAL INDICATORS, AND COMPARISON OF EXPRESSION WITH THE MORPHOLOGICAL TYPE OF BASAL CELL CARCINOMA"
+  },
+  "doi:10.1038/s41392-026-02692-7": {
+    "source": "top_journal",
+    "title": "Targeting EHMT2 overcomes 5-fluorouracil resistance in colorectal cancer by modulating cell cycle and apoptosis"
+  },
+  "doi:10.1159/000551675": {
+    "source": "top_journal",
+    "title": "Primary Orbital Extranodal NK/T-Cell Lymphoma: A European Case Report"
+  },
+  "doi:10.54254/2753-8818/2026.au33565": {
+    "source": "top_journal",
+    "title": "Research Advances in Cell Injury, Cell Death and Related Inflammatory Factors in the Pathogenesis of Diabetes"
+  },
+  "doi:10.36469/001c.161356": {
+    "source": "top_journal",
+    "title": "Estimated Cost of Adverse Event Management in Treatment Naïve Non-small Cell Lung Cancer Patients with Common EGFR Mutations Treated with Amivantamab Plus Lazertinib and Osimertinib Plus Chemotherapy"
+  },
+  "doi:10.1002/jha2.70306": {
+    "source": "top_journal",
+    "title": "Prevalence of Low Bone Mineral Density Increases With Age in Sickle Cell Disease"
+  },
+  "doi:10.64898/2026.05.17.725711": {
+    "source": "top_journal",
+    "title": "A pipeline for cell migration analysis in live-cell imaging data from human iPSC-derived forebrain assembloids"
+  },
+  "doi:10.1186/s40164-026-00780-6": {
+    "source": "top_journal",
+    "title": "Preclinical and clinical studies on CAR-NK cell therapy: latest update from 2025 ASH Annual Meeting"
+  },
+  "doi:10.51271/jchor-0081": {
+    "source": "top_journal",
+    "title": "CD34+ cell dose as a determinant of engraftment kinetics after autologous stem cell transplantation in lymphoma"
+  },
+  "doi:10.3389/fonc.2026.1774491": {
+    "source": "top_journal",
+    "title": "Case Report: gastric signet-ring-cell adenocarcinoma in a young adult with tracheoesophageal fistula/esophageal atresia and complex gastrointestinal history"
+  },
+  "doi:10.1158/1078-0432.ccr-26-0216": {
+    "source": "top_journal",
+    "title": "Dissecting the Tumor Microenvironment to Identify Biomarkers of Outcome to Anti-PD-1 Therapy in Clear Cell Renal Cell Carcinoma: analyses of the HCRN GU16-260 trial"
+  },
+  "doi:10.64898/2026.05.14.725199": {
+    "source": "top_journal",
+    "title": "PD-1 blockade drug holiday improves exhausted progenitor CD8 T cell (Tpex) reinvigoration by avoiding Tpex adaptive resistance"
+  },
+  "doi:10.2174/0115734013449945260430104235": {
+    "source": "top_journal",
+    "title": "Phytochemical Characterization and Anti-Proliferative Effects of Spent\nTea Dust Bioactive Compounds against Hep-G2 and MCF-7 Cell Lines"
+  },
+  "doi:10.3389/fimmu.2026.1791993": {
+    "source": "top_journal",
+    "title": "Aberrant IL-21/STAT3 signaling disrupts regulatory T cell function and CD4+ T cell homeostasis in children with type 1 diabetes"
+  },
+  "doi:10.64898/2026.05.16.725622": {
+    "source": "top_journal",
+    "title": "Root-level loss of immunoglobulin and B-cell immune genes in clingfishes"
+  },
+  "doi:10.3389/fimmu.2026.1778251": {
+    "source": "top_journal",
+    "title": "Tumor immune microenvironment in non-small cell lung cancer progression"
+  },
+  "doi:10.1096/fj.202601104r": {
+    "source": "top_journal",
+    "title": "Mts/\n PP2AC\n Induces Cell Migration via Rho1‐Slpr‐Mediated\n JNK\n Pathway"
+  },
+  "doi:10.1038/s41598-026-52272-6": {
+    "source": "top_journal",
+    "title": "Repeated intravesical platelet-rich plasma injections alleviate symptoms via T-cell modulation and mitochondrial dysfunction in non-ulcer interstitial cystitis/bladder pain syndrome"
+  },
+  "doi:10.1007/s00277-026-07060-7": {
+    "source": "top_journal",
+    "title": "Eltrombopag restores T-cell homeostasis in aplastic anemia by regulating oxidative metabolism and reactive oxygen species levels"
+  },
+  "doi:10.1007/s10495-026-02342-x": {
+    "source": "top_journal",
+    "title": "Single-cell profiling and machine learning identify cuproptosis-related fibroblast subpopulations and fibrogenesis modulator AEBP1 in endometriosis"
+  },
+  "doi:10.64898/2026.05.17.725762": {
+    "source": "top_journal",
+    "title": "Cell-type-resolved RNP topologies reveal dynamic structural mechanisms of splicing and therapeutic targets"
+  },
+  "doi:10.64898/2026.05.14.725263": {
+    "source": "top_journal",
+    "title": "Circulating miR-1285-3p promotes age-associated B cell differentiation through the OXPHOS-IKZF2 axis in SLE"
+  },
+  "doi:10.3390/cancers18101626": {
+    "source": "top_journal",
+    "title": "Circulating Biomarkers in Localized Anal Squamous Cell Carcinoma Across Treatment Timepoints: A Systematic Review"
+  },
+  "doi:10.64898/2026.05.14.725155": {
+    "source": "top_journal",
+    "title": "SOX9 and SEMA7A regulate cell plasticity in the postpartum mammary gland with implications for breast cancer"
+  },
+  "doi:10.64898/2026.05.17.725801": {
+    "source": "top_journal",
+    "title": "Developmental and regulatory logic of cannabis glandular trichomes resolved by single cell multiomics"
+  },
+  "doi:10.1007/s00392-026-02939-x": {
+    "source": "top_journal",
+    "title": "The inflammatory fingerprint reveals immune cell populations associated with disease activity in cardiac sarcoidosis"
+  },
+  "doi:10.64898/2026.05.14.26353170": {
+    "source": "top_journal",
+    "title": "Acceptability of community-based maternal and newborn care in South Sudan: A qualitative study using the Theoretical Framework of Acceptability"
+  }
+}
