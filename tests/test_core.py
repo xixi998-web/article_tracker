@@ -116,6 +116,26 @@ class TestTierClassifier:
         filtered = classifier.filter_by_tiers([a1, a2, a3])
         assert len(filtered) == 2
 
+    def test_must_track_journals_empty_no_privilege(self):
+        profile = ResearchProfile(
+            core_keywords=["deep learning"], proxy_keywords=["optimization"], eco_keywords=["statistics"],
+            exclusion_keywords=[], must_track_journals=[],
+        )
+        classifier = TierClassifier(profile)
+        a = Article(title="RNA Sequencing Analysis", abstract="A study of gene expression", venue="Nature", source_type=SourceType.top_journal, doi="10.1038/test")
+        stats = classifier.classify([a])
+        assert a.screening_tier == ScreeningTier.noise
+
+    def test_must_track_journals_nonempty_privilege(self):
+        profile = ResearchProfile(
+            core_keywords=["deep learning"], proxy_keywords=["optimization"], eco_keywords=["statistics"],
+            exclusion_keywords=[], must_track_journals=["Nature"],
+        )
+        classifier = TierClassifier(profile)
+        a = Article(title="RNA Sequencing Analysis", abstract="A study of gene expression", venue="Nature", source_type=SourceType.top_journal, doi="10.1038/test")
+        stats = classifier.classify([a])
+        assert a.screening_tier == ScreeningTier.core
+
 
 class TestSeenStore:
     def test_mark_and_check(self, tmp_path):
