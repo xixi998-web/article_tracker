@@ -89,13 +89,13 @@ screening:
   output_tiers: ["core", "proxy", "eco"]           # 输出哪些层级（noise 不输出）
   # --- Core：核心领域，高度相关（前3个用于S2搜索） ---
   core_keywords:
-    - "3D reconstruction"
-    - "Gaussian splatting"
-    - "SLAM"
-    - "neural radiance field"
     - "feed-forward 3D"
     - "dynamic reconstruction"
     - "streaming reconstruction"
+    - "3D reconstruction"
+    - "Gaussian splatting"
+    - "neural radiance field"
+    - "SLAM"
     - "LiDAR"
     - "large language model"
   # --- Proxy：方法相关但领域不同 ---
