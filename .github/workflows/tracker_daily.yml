@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 23 * * *'
   workflow_dispatch:
+    inputs:
+      config:
+        description: 'Config file path (e.g. config.yaml or config_soil_acidification.yaml)'
+        required: false
+        default: 'config.yaml'
 
 concurrency:
   group: tracker-daily
@@ -37,7 +42,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
         run: |
-          article_tracker track --config config.yaml --source all
+          article_tracker track --config ${{ github.event.inputs.config || 'config.yaml' }} --source all
 
       - name: Commit dedup state
         if: always()
