@@ -24,8 +24,12 @@ def _normalize_endpoint(base_url: str) -> str:
 
 
 def _json_loose(s: str) -> Dict[str, Any]:
+    s = s.strip()
+    s = re.sub(r"^```(?:json)?\s*\n?", "", s)
+    s = re.sub(r"\n?```\s*$", "", s)
     m = re.search(r"\{[\s\S]*\}", s)
     if not m:
+        logger.debug(f"_json_loose: no JSON object found in response: {s[:200]}")
         return {}
     raw = m.group(0)
     try:
@@ -35,13 +39,14 @@ def _json_loose(s: str) -> Dict[str, Any]:
         try:
             return json.loads(t)
         except Exception:
+            logger.debug(f"_json_loose: failed to parse JSON: {raw[:200]}")
             return {}
 
 
 def _chat_request(
     base_url: str, api_key: str, model: str,
     messages: List[Dict[str, str]],
-    temperature: float = 0.2, max_tokens: int = 600, timeout: int = 60,
+    temperature: float = 0.2, max_tokens: int = 1024, timeout: int = 60,
 ) -> str:
     from article_tracker.infra import http_client
     url = _normalize_endpoint(base_url)
@@ -64,6 +69,7 @@ class LLMEnricher:
     def enrich(self, articles: List[Article]) -> dict:
         stats = {"success": 0, "failed": 0, "skipped": 0}
         if not self.config.enabled or not self.api_key:
+            logger.warning(f"LLM skipped: enabled={self.config.enabled}, api_key={'set' if self.api_key else 'empty'}")
             stats["skipped"] = len(articles)
             return stats
         for article in articles:
@@ -74,10 +80,12 @@ class LLMEnricher:
                     article.digest_zh = result.get("digest_zh", "")
                     stats["success"] += 1
                 else:
+                    logger.warning(f"LLM bilingual digest returned empty for: {article.title[:60]}")
                     stats["failed"] += 1
             except Exception as e:
                 logger.warning(f"LLM failed for '{article.title[:50]}': {e}")
                 stats["failed"] += 1
+        logger.info(f"LLM enrich stats: {stats}")
         return stats
 
     def _generate_bilingual(self, article: Article) -> Optional[Dict[str, str]]:
@@ -124,12 +132,14 @@ class LLMEnricher:
         try:
             text = _chat_request(
                 self.config.base_url, self.api_key, self.config.model,
-                messages, temperature=0.0, max_tokens=600, timeout=self.config.timeout,
+                messages, temperature=0.0, max_tokens=1024, timeout=self.config.timeout,
             )
             data = _json_loose(text)
             if data.get("title_zh"):
                 article.title_zh = data["title_zh"].strip()
             if data.get("abstract_zh"):
                 article.abstract_zh = data["abstract_zh"].strip()
+            if not data.get("title_zh") and not data.get("abstract_zh"):
+                logger.warning(f"LLM translate returned empty for: {article.title[:60]}")
         except Exception as e:
             logger.warning(f"Translation failed: {e}")
