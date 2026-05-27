@@ -84,48 +84,41 @@ dedup:
 # ---------- 筛选策略（四层分类） ----------
 screening:
   output_tiers: ["core", "proxy", "eco"]           # 输出哪些层级（noise 不输出）
-  # --- Core：核心领域，高度相关 ---
+  # --- Core：核心领域，高度相关（前3个用于S2搜索） ---
   core_keywords:
     - "3D reconstruction"
+    - "Gaussian splatting"
+    - "SLAM"
+    - "neural radiance field"
     - "feed-forward 3D"
     - "dynamic reconstruction"
     - "streaming reconstruction"
-    - "SLAM"
-    - "lidar"
     - "LiDAR"
     - "large language model"
-    - "neural radiance field"
-    - "Gaussian splatting"
   # --- Proxy：方法相关但领域不同 ---
   proxy_keywords:
+    - "NeRF"
+    - "3D Gaussian"
+    - "differentiable rendering"
+    - "neural rendering"
     - "point cloud"
     - "depth estimation"
     - "multi-view stereo"
     - "structure from motion"
     - "visual odometry"
-    - "scene understanding"
-    - "neural rendering"
-    - "3D Gaussian"
-    - "NeRF"
-    - "voxel"
     - "mesh reconstruction"
-    - "occupancy network"
     - "signed distance function"
-    - "differentiable rendering"
   # --- Eco：领域相关但方法不同 ---
   eco_keywords:
-    - "computer vision"
-    - "deep learning"
-    - "representation learning"
-    - "self-supervised learning"
-    - "graph neural network"
-    - "transformer"
-    - "image synthesis"
+    - "scene understanding"
     - "optical flow"
     - "camera pose"
     - "feature matching"
     - "robotics"
     - "autonomous driving"
+    - "image synthesis"
+    - "voxel"
+    - "occupancy network"
   # --- Exclusion：排除关键词 ---
   exclusion_keywords:
     - "survey"
