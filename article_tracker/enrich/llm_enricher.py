@@ -109,13 +109,14 @@ class LLMEnricher:
         ]
         text = _chat_request(
             self.config.base_url, self.api_key, self.config.model,
-            messages, temperature=0.2, max_tokens=600, timeout=self.config.timeout,
+            messages, temperature=0.2, max_tokens=1024, timeout=self.config.timeout,
         )
         data = _json_loose(text)
         en = (data.get("digest_en") or "").strip()
         zh = (data.get("digest_zh") or "").strip()
         if en or zh:
             return {"digest_en": en, "digest_zh": zh}
+        logger.warning(f"LLM digest parse failed for '{article.title[:50]}'. Raw response (first 300 chars): {text[:300]}")
         return None
 
     def translate(self, article: Article) -> None:
