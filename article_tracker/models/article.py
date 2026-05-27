@@ -56,6 +56,7 @@ class Article(BaseModel):
     primary_category: Optional[str] = None
     comments: Optional[str] = None
     screening_tier: Optional[ScreeningTier] = None
+    is_fallback: bool = False
     digest_en: Optional[str] = None
     digest_zh: Optional[str] = None
     title_zh: Optional[str] = None

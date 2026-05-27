@@ -42,8 +42,9 @@ def _esc(x: Optional[str]) -> str:
 def _card(a: Article) -> str:
     tier = a.screening_tier.value if a.screening_tier else ""
     tier_html = f'<span class="tier-badge {_TIER_CLS.get(tier, "")}">{tier.upper()}</span>' if tier else ""
+    fallback_html = ' <span class="tier-badge tier-noise">FALLBACK</span>' if a.is_fallback else ""
 
-    parts = [f'<div class="card"><div class="title">{_esc(a.title)}{tier_html}</div>']
+    parts = [f'<div class="card"><div class="title">{_esc(a.title)}{tier_html}{fallback_html}</div>']
 
     if a.authors:
         parts.append(f'<div class="meta-line">Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}</div>')

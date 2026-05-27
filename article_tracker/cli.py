@@ -95,7 +95,7 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
                 aid = a.doi or a.arxiv_id or a.title
                 if aid not in seen_ids and len(filtered) < min_papers:
                     seen_ids.add(aid)
-                    a._fallback = True
+                    a.is_fallback = True
                     filtered.append(a)
         logger.info(f"  After fallback: {len(filtered)} papers (minimum {min_papers})")
 

@@ -82,8 +82,9 @@ def _card(a: Article) -> str:
     tier = a.screening_tier.value if a.screening_tier else ""
     tier_cls = f"tier-{tier}" if tier else ""
     tier_badge = f'<span class="tier-badge {tier_cls}">{tier.upper()}</span>' if tier else ""
+    fallback_badge = '<span class="tier-badge tier-noise" style="margin-left:4px">FALLBACK</span>' if a.is_fallback else ""
 
-    parts = [f'<div class="card"><div class="title">{_esc(a.title)}{tier_badge}</div>']
+    parts = [f'<div class="card"><div class="title">{_esc(a.title)}{tier_badge}{fallback_badge}</div>']
 
     if a.authors:
         parts.append(f'<div class="meta-line">Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}</div>')
