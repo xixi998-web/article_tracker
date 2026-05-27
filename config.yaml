@@ -140,7 +140,7 @@ output:
 # ---------- 调度 ----------
 schedule:
   enabled: true                                   # 是否启用本地定时调度
-  cron: "30 1 * * *"                               # cron 表达式（北京时间 09:30 = UTC 01:30）
+  cron: "0 23 * * *"                               # cron 表达式（北京时间 07:00 = UTC 23:00 前一天）
   timezone: "Asia/Shanghai"                        # 时区
 
 # ---------- 新鲜度与回退 ----------
