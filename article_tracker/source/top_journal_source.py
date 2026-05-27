@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import time
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -63,18 +64,21 @@ class TopJournalSource(BaseSource):
         seen_ids: set[str] = set()
 
         if self.core_keywords:
+            top_keywords = self.core_keywords[:3]
             for entry in watchlist:
-                for kw in self.core_keywords:
+                for kw in top_keywords:
                     articles = self._fetch_from_s2(entry, since, extra_query=kw)
                     for a in articles:
                         aid = a.doi or a.arxiv_id or a.s2_id or a.title
                         if aid not in seen_ids:
                             seen_ids.add(aid)
                             all_articles.append(a)
+                    time.sleep(1.0)
         else:
             for entry in watchlist[:self.config.max_per_journal]:
                 articles = self._fetch_from_s2(entry, since)
                 all_articles.extend(articles)
+                time.sleep(1.0)
 
         self._enrich_openalex_metadata(all_articles)
         return all_articles
@@ -109,6 +113,11 @@ class TopJournalSource(BaseSource):
 
         try:
             resp = http_client.get(f"{base_url}/paper/search", params=params, headers=headers)
+            if resp.status_code == 429:
+                import logging
+                logging.getLogger(__name__).warning("S2 429 rate limit, sleeping 30s...")
+                time.sleep(30)
+                resp = http_client.get(f"{base_url}/paper/search", params=params, headers=headers)
             resp.raise_for_status()
             data = resp.json()
         except Exception:
