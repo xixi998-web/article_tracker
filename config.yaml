@@ -7,14 +7,14 @@ arxiv:
   enabled: true                                    # 是否启用 arXiv 源
   categories: ["cs.CV", "cs.AI", "cs.LG", "cs.CL", "cs.RO"] # arXiv 学科分类
   keywords:                                        # 搜索关键词（与 categories 取 AND/OR）
+    - "feed-forward 3D"
+    - "dynamic reconstruction"
+    - "streaming reconstruction"
     - "3D reconstruction"
     - "Gaussian splatting"
     - "neural radiance field"
     - "NeRF"
     - "SLAM"
-    - "feed-forward 3D"
-    - "dynamic reconstruction"
-    - "streaming reconstruction"
     - "LiDAR"
     - "lidar"
     - "large language model"
