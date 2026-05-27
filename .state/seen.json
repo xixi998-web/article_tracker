@@ -3630,5 +3630,125 @@
   "doi:10.3390/app16105120": {
     "source": "top_journal",
     "title": "MSIFT+: A Mahalanobis Distance- and BBF-Based Feature Matching Framework for Vision-Guided Robotic Grasping"
+  },
+  "arxiv:2605.21112": {
+    "source": "top_journal",
+    "title": "RCGDet3D: Rethinking 4D Radar-Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding"
+  },
+  "arxiv:2605.20569": {
+    "source": "top_journal",
+    "title": "End-to-End Unmixing with Material Prompts for Hyperspectral Object Tracking"
+  },
+  "doi:10.20965/jaciii.2026.p0899": {
+    "source": "top_journal",
+    "title": "Space-Air-Ground Integrated Intelligent Monitoring System for Geological Hazards Based on Multi-Source Information Fusion Technology"
+  },
+  "doi:10.3390/en19102450": {
+    "source": "top_journal",
+    "title": "Multi-Source Information Fusion for Degradation Assessment of Metal-Oxide Surge Arresters in Power Systems"
+  },
+  "doi:10.1088/1674-1056/ae705e": {
+    "source": "top_journal",
+    "title": "A Novel Multimodal Fusion Spiking Neuron Circuit Based on Threshold Switching Memristors"
+  },
+  "doi:10.20965/jaciii.2026.p0749": {
+    "source": "top_journal",
+    "title": "Cross-Attention Audio–Visual Fusion Based on Multi-Scale Vision Transformers for Emotion Recognition"
+  },
+  "doi:10.3390/computers15050323": {
+    "source": "top_journal",
+    "title": "EHNet: Super-Resolution via Enhanced Dual Convolution and Hybrid-Channel Fusion"
+  },
+  "doi:10.3390/w18101239": {
+    "source": "top_journal",
+    "title": "Water Security: A Systematic Review of Definitions, Indicators, and Artificial Intelligence Applications"
+  },
+  "doi:10.1108/idd-05-2025-0120": {
+    "source": "top_journal",
+    "title": "Mapping the intellectual structure of artificial intelligence-enabled customer engagement: a bibliometric analysis and framework-based review for future research directions"
+  },
+  "doi:10.47820/recima21.v7i5.8064": {
+    "source": "top_journal",
+    "title": "GENERATIVE ARTIFICIAL INTELLIGENCE MODELS APPLIED TO STEEL STRUCTURES: A SYSTEMATIC LITERATURE REVIEW"
+  },
+  "doi:10.51137/wrp.ijarbm.629": {
+    "source": "top_journal",
+    "title": "Artificial Intelligence-Based Predictive Analytics in Project Management: A Concept-Centric Systematic Literature Review"
+  },
+  "doi:10.3390/make8050134": {
+    "source": "top_journal",
+    "title": "Explainable Artificial Intelligence (XAI) for Cancer Classification in Medical Imaging: A Systematic Review"
+  },
+  "doi:10.64898/2026.05.15.26353363": {
+    "source": "top_journal",
+    "title": "Can Artificial Intelligence Match Dermoscopy in Melanoma Detection? Evidence from a Systematic Review and Meta-analysis of Pigmented Skin Lesions"
+  },
+  "doi:10.23900/artefactum.v25i2.2685": {
+    "source": "top_journal",
+    "title": "BETWEEN BENEFITS AND LIMITATIONS: A LITERATURE REVIEW ON THE USE OF ARTIFICIAL INTELLIGENCE IN MEDICAL EDUCATION"
+  },
+  "doi:10.1007/s43390-026-01439-2": {
+    "source": "top_journal",
+    "title": "Comment on “Digital Twins and Multimodal Artificial Intelligence in Spine Care: A Scoping Review of Concepts, Evidence, and Translational Barriers”"
+  },
+  "arxiv:2605.20649": {
+    "source": "top_journal",
+    "title": "AMAR: Lightweight Attention-Based Multi-User Activity Recognition from Wi-Fi CSI"
+  },
+  "doi:10.3390/biomimetics11050355": {
+    "source": "top_journal",
+    "title": "A Bio-Inspired Lightweight Human Action Recognition Method Based on Human Keypoint Detection"
+  },
+  "doi:10.32628/cseit2612339": {
+    "source": "top_journal",
+    "title": "Real-Time Multimodal Threat Detection Using Fused Face Recognition, Gait Analysis, and Micro-Expression Classification"
+  },
+  "doi:10.3389/fimmu.2026.1805961": {
+    "source": "top_journal",
+    "title": "Family-wise resistance to infectious salmon anemia suggests that early systemic recognition protects against disease but not viral transcription"
+  },
+  "doi:10.55041/ijsmt.v2i5.323": {
+    "source": "top_journal",
+    "title": "Online Artificial Intelligence for Mental Health Support System"
+  },
+  "doi:10.1038/s42003-026-10207-x": {
+    "source": "top_journal",
+    "title": "Sensing the spectrum: diverse stimuli for the NLRP3 inflammasome"
+  },
+  "doi:10.3389/fnins.2026.1742862": {
+    "source": "top_journal",
+    "title": "Automated classification of conversation valence and arousal using autonomic nervous system responses"
+  },
+  "arxiv:2605.20713": {
+    "source": "top_journal",
+    "title": "SAVER: Selective As-Needed Vision Evidence for Multimodal Information Extraction"
+  },
+  "doi:10.1007/s00138-026-01834-9": {
+    "source": "top_journal",
+    "title": "Multi-modal Gaussian splatting for 3D object detection"
+  },
+  "doi:10.1007/s00138-026-01835-8": {
+    "source": "top_journal",
+    "title": "Enhancing object SLAM for outdoor environments: robust reconstruction and relocalization"
+  },
+  "doi:10.55041/isjem07524": {
+    "source": "top_journal",
+    "title": "A STUDY ON THE EFFECTIVENESS OF DATA VISUALIZATION TOOLS IN BUSINESS REPORTING"
+  },
+  "doi:10.1002/rob.70245": {
+    "source": "top_journal",
+    "title": "QRIVAS: Quadruped Robot‐Based Intelligent Visual Acquisition System for Bridge Component Inspection"
+  },
+  "arxiv:2605.20917": {
+    "source": "top_journal",
+    "title": "SubTGraph: Large-Scale Subterranean Environment Synthesis with Controllable Topological Variability for Robotic Autonomy Validation"
+  },
+  "doi:10.3389/fonc.2026.1684584": {
+    "source": "top_journal",
+    "title": "Simplified PADUA renal nephrometry system, an imaging features scoring system, predicts perioperative outcomes in partial nephrectomy: a meta-analysis"
+  },
+  "doi:10.31648/paom/208673": {
+    "source": "top_journal",
+    "title": "Effects of using lower limb exoskeleton on function and psychosocial well-being of stroke survivors: A review"
   }
 }
