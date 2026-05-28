@@ -134,10 +134,11 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
         for ch, result in output_results.items():
             logger.info(f"  {ch}: {result}")
 
-        # Persist seen store
+        # Mark only outputted papers as seen, then persist
         if not no_dedup:
+            dedup.mark_seen(filtered)
             seen_store.persist()
-            logger.info(f"  Seen store persisted ({seen_store.count} records)")
+            logger.info(f"  Seen store persisted ({seen_store.count} records, {len(filtered)} papers marked as seen)")
     else:
         logger.info("Step 7: Dry run, skipping output.")
 

@@ -16,10 +16,11 @@ class Deduplicator:
     def deduplicate(self, articles: List[Article]) -> Tuple[List[Article], dict]:
         stats = {"input": len(articles), "dedup_doi": 0, "dedup_arxiv_id": 0, "dedup_title": 0, "new": 0}
         unique: List[Article] = []
+        batch_keys: set[str] = set()
 
         for article in articles:
             dedup_key, key_type = self._find_dedup_key(article)
-            if dedup_key and self.seen.has(dedup_key):
+            if dedup_key and (self.seen.has(dedup_key) or dedup_key in batch_keys):
                 if key_type == "doi":
                     stats["dedup_doi"] += 1
                 elif key_type == "arxiv_id":
@@ -35,11 +36,17 @@ class Deduplicator:
                 continue
 
             if dedup_key:
-                self.seen.mark(dedup_key, {"source": article.source_type.value, "title": article.title})
+                batch_keys.add(dedup_key)
             unique.append(article)
 
         stats["new"] = len(unique)
         return unique, stats
+
+    def mark_seen(self, articles: List[Article]) -> None:
+        for article in articles:
+            dedup_key, _ = self._find_dedup_key(article)
+            if dedup_key and not self.seen.has(dedup_key):
+                self.seen.mark(dedup_key, {"source": article.source_type.value, "title": article.title})
 
     def _find_dedup_key(self, article: Article) -> Tuple[str | None, str]:
         if article.dedup_key_doi:
