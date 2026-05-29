@@ -4058,5 +4058,41 @@
   "arxiv:2605.20733v1": {
     "source": "arxiv",
     "title": "Sketch2MinSurf: Vision-Language Guided Generation of Editable Minimal Surfaces from Hand-Drawn Sketches"
+  },
+  "arxiv:2605.23287": {
+    "source": "top_journal",
+    "title": "LangFlash: Feed-forward 3D Language Gaussian Splatting from Sparse Unposed Images"
+  },
+  "doi:10.3390/rs18111681": {
+    "source": "top_journal",
+    "title": "An Enhanced Image Feature Extraction and Matching Method for Three-Dimensional Reconstruction of Forest Scenes"
+  },
+  "doi:10.1111/cgf.70501": {
+    "source": "top_journal",
+    "title": "HydroGaussian: Physically‐Guided Hierarchical Gaussian Splatting for Underwater Scene Reconstruction"
+  },
+  "doi:10.1371/journal.pone.0349557": {
+    "source": "top_journal",
+    "title": "RPINet: Dual-branch attention-guided fusion of remote sensing images and point clouds for urban scene segmentation"
+  },
+  "arxiv:2605.23889": {
+    "source": "top_journal",
+    "title": "HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction"
+  },
+  "arxiv:2605.23386": {
+    "source": "top_journal",
+    "title": "Droneulator: A Portable UAV Simulator for Agricultural Workflows with RotorPy and Godot 4"
+  },
+  "arxiv:2605.23892": {
+    "source": "top_journal",
+    "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers"
+  },
+  "doi:10.3390/aerospace13060486": {
+    "source": "top_journal",
+    "title": "Efficient High-Precision Measurement for Micro-Orifice Parameters of Impinging Injectors"
+  },
+  "doi:10.3390/computers15060329": {
+    "source": "top_journal",
+    "title": "LLM-SGCF: A Robust Malware Detection Framework with Spatially Guided Convolution"
   }
 }
