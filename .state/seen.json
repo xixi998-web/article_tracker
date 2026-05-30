@@ -4094,5 +4094,21 @@
   "doi:10.3390/computers15060329": {
     "source": "top_journal",
     "title": "LLM-SGCF: A Robust Malware Detection Framework with Spatially Guided Convolution"
+  },
+  "doi:10.3390/electronics15112260": {
+    "source": "top_journal",
+    "title": "Jensen–Shannon Divergence Weighted Computational Imaging for Multi-Depth Target Reconstruction with Single-Photon Lidar"
+  },
+  "arxiv:2605.24630": {
+    "source": "top_journal",
+    "title": "DexSIM: Real-time Dexterous Simulation with Unified Causal Video Diffusion"
+  },
+  "arxiv:2605.24670": {
+    "source": "top_journal",
+    "title": "Fractional-gradient Sparsity with Autoencoding Sequential Deep Image Prior for 3D CT Reconstruction"
+  },
+  "doi:10.1145/3770855.3817631": {
+    "source": "top_journal",
+    "title": "VaaWIT: Visual-Aware Adaptation of Large Language Models for Multilingual Web Image Translation"
   }
 }
