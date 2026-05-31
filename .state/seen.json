@@ -4110,5 +4110,93 @@
   "doi:10.1145/3770855.3817631": {
     "source": "top_journal",
     "title": "VaaWIT: Visual-Aware Adaptation of Large Language Models for Multilingual Web Image Translation"
+  },
+  "arxiv:2605.30328v1": {
+    "source": "arxiv",
+    "title": "Supercharging Thermal Gaussian Splatting with Depth Estimation"
+  },
+  "arxiv:2605.28125v1": {
+    "source": "arxiv",
+    "title": "CLEAR-NeRF: Collinearity and Local-region Enhanced Accurate 3D Reconstruction in Unbounded Scenes"
+  },
+  "arxiv:2605.30310v1": {
+    "source": "arxiv",
+    "title": "City-Mesh3R: Simulation-Ready City-Scale 3D Mesh Reconstruction from Multi-View Images"
+  },
+  "arxiv:2605.29452v1": {
+    "source": "arxiv",
+    "title": "Comparative evaluation of photogrammetric reconstruction methods and 3D Gaussian Splatting for road surface roughness analysis"
+  },
+  "arxiv:2605.29997v1": {
+    "source": "arxiv",
+    "title": "FRUC: Feedforward Dynamic Scene Reconstruction from Uncalibrated Collaborative Driving Views"
+  },
+  "arxiv:2605.29549v1": {
+    "source": "arxiv",
+    "title": "Learning Representations from 3D Gaussian Splats"
+  },
+  "arxiv:2605.29136v1": {
+    "source": "arxiv",
+    "title": "Eulerian Gaussian Splatting using Hashed Probability Pyramids"
+  },
+  "arxiv:2605.30215v1": {
+    "source": "arxiv",
+    "title": "Déjà View: Looping Transformers for Multi-View 3D Reconstruction"
+  },
+  "arxiv:2605.30111v1": {
+    "source": "arxiv",
+    "title": "xModel-KD: Cross-modal Knowledge Distillation for 3D Scene Perception using LiDAR"
+  },
+  "arxiv:2605.30342v1": {
+    "source": "arxiv",
+    "title": "Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field"
+  },
+  "arxiv:2605.30320v1": {
+    "source": "arxiv",
+    "title": "MonoPhysics: Estimating Geometry, Appearance, and Physical Parameters from Monocular Videos"
+  },
+  "arxiv:2605.29583v1": {
+    "source": "arxiv",
+    "title": "BitC-3DGS: High-Capacity 3D Gaussian Splatting Watermarking via Bit Compression"
+  },
+  "arxiv:2605.29097v1": {
+    "source": "arxiv",
+    "title": "GeRaF: Neural Geometry Reconstruction from Radio Frequency Signals"
+  },
+  "arxiv:2605.28237v1": {
+    "source": "arxiv",
+    "title": "POINav: Benchmarking and Enhancing Final-Meters Arrival in Real-World Vision-Language Navigation"
+  },
+  "arxiv:2605.25975v2": {
+    "source": "arxiv",
+    "title": "F-RNG: Feed-Forward Relightable Neural Gaussians"
+  },
+  "arxiv:2605.28172v1": {
+    "source": "arxiv",
+    "title": "Provably Guaranteed Polytopic Uncertainty Quantification for SLAM"
+  },
+  "arxiv:2605.30065v1": {
+    "source": "arxiv",
+    "title": "Boosting Zero-Shot 3D Style Transfer with 2D Pre-trained Priors"
+  },
+  "arxiv:2605.29098v1": {
+    "source": "arxiv",
+    "title": "Seeing through boxes: Non-Line-of-Sight 3D Reconstruction from Radar Signals"
+  },
+  "arxiv:2605.28279v1": {
+    "source": "arxiv",
+    "title": "IMU Propagation as Preintegration"
+  },
+  "arxiv:2605.28048v1": {
+    "source": "arxiv",
+    "title": "SAFEVPR: Patch-Based Conformal Verification for Safe Cross-Condition Sequence Visual Place Recognition"
+  },
+  "arxiv:2605.26368v2": {
+    "source": "arxiv",
+    "title": "Unified Panoramic Geometry Estimation via Multi-View Foundation Models"
+  },
+  "arxiv:2605.30268v1": {
+    "source": "arxiv",
+    "title": "PhyGenHOI: Physically-Aware 4D Generation of Dynamic Human-Object Interactions"
   }
 }
