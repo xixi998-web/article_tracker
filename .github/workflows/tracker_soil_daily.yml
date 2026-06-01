@@ -1,0 +1,75 @@
+name: Soil Acidification Tracker Daily
+
+on:
+  schedule:
+    - cron: '4 1 * * *'
+  workflow_dispatch:
+    inputs:
+      config:
+        description: 'Config file path'
+        required: false
+        default: 'config_soil_acidification.yaml'
+
+concurrency:
+  group: tracker-soil-daily
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -e ".[all]"
+
+      - name: Run tracker
+        env:
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          DS_API_KEY: ${{ secrets.DS_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+        run: |
+          article_tracker track --config ${{ github.event.inputs.config || 'config_soil_acidification.yaml' }} --source all
+
+      - name: Commit dedup state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f .state/seen.json || true
+          git diff --cached --quiet || git commit -m "chore: update seen.json [skip ci]"
+          git push
+
+      - name: Prepare GitHub Pages
+        if: always()
+        run: |
+          mkdir -p docs
+          touch docs/.nojekyll
+          if [ ! -f docs/index.html ]; then
+            echo '<!doctype html><html><head><meta charset="utf-8"><title>Soil Acidification Tracker</title></head><body><h1>Soil Acidification Tracker</h1><p>No results yet. Results will appear after the next tracker run.</p></body></html>' > docs/index.html
+          fi
+
+      - name: Deploy GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Soil acidification tracker daily run failed"
