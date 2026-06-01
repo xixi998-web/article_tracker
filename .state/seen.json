@@ -4198,5 +4198,37 @@
   "arxiv:2605.30268v1": {
     "source": "arxiv",
     "title": "PhyGenHOI: Physically-Aware 4D Generation of Dynamic Human-Object Interactions"
+  },
+  "arxiv:2605.25751": {
+    "source": "top_journal",
+    "title": "SplitAvatar: One-shot Head Avatar with Autoregressive Gaussian Splitting"
+  },
+  "arxiv:2605.25975": {
+    "source": "top_journal",
+    "title": "F-RNG: Feed-Forward Relightable Neural Gaussians"
+  },
+  "arxiv:2605.26103": {
+    "source": "top_journal",
+    "title": "Global Structure-from-Motion Meets Feedforward Reconstruction"
+  },
+  "arxiv:2605.25909": {
+    "source": "top_journal",
+    "title": "R5DGS: Semantic-Aware 4D Gaussian Splatting with Rigid Body Constraints for Efficient Dynamic Scene Reconstruction"
+  },
+  "doi:10.3389/fmars.2026.1850912": {
+    "source": "top_journal",
+    "title": "Autonomous underwater stereo vision system for non-invasive fish length estimation in marine environments"
+  },
+  "doi:10.3389/fenrg.2026.1801189": {
+    "source": "top_journal",
+    "title": "Image processing workflow yielding high contrast synchrotron nanoscale computed tomography data from Ni-YSZ electrodes"
+  },
+  "doi:10.3390/technologies14060321": {
+    "source": "top_journal",
+    "title": "Time-Varying Biological Time-Series Prediction and Pattern Recognition Using Koopman Theory and Large Language Models"
+  },
+  "arxiv:2605.25804": {
+    "source": "top_journal",
+    "title": "Event-to-Video Reconstruction using Spatio-Temporal and Frequency-Enhanced Deep Neural Networks"
   }
 }
