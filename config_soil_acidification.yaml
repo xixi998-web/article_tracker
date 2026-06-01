@@ -145,10 +145,10 @@ output:
     enabled: true
     sender_env: "EMAIL_SENDER"
     to_env: "EMAIL_TO"
-    smtp_server: "smtp.qq.com"
+    smtp_server: "smtp.126.com"
     smtp_port: 465
     smtp_pass_env: "SMTP_PASS"
-    tls_mode: "ssl"
+    tls_mode: "auto"
     subject_prefix: "Soil Acidification Tracker"
   ghpages:
     enabled: true
@@ -160,7 +160,7 @@ output:
 # ---------- 调度 ----------
 schedule:
   enabled: true
-  cron: "0 23 * * *"
+  cron: "4 9 * * *"
   timezone: "Asia/Shanghai"
 
 # ---------- 新鲜度与回退 ----------
