@@ -4278,5 +4278,101 @@
   "doi:10.3389/fevo.2026.1834223": {
     "source": "top_journal",
     "title": "Fly ash-mediated simultaneous pH regulation and heavy metal elimination for application of low-intensity acid mine drainage in active coal mines: a comparative study of fly ash from four coal fired power plants"
+  },
+  "arxiv:2605.31419v1": {
+    "source": "arxiv",
+    "title": "Triangle Splatting SLAM"
+  },
+  "arxiv:2605.30488v1": {
+    "source": "arxiv",
+    "title": "CoMo3R-SLAM: Collaborative Monocular Dense SLAM with Learned 3D Reconstruction Priors for Outdoor Multi-Agent Systems"
+  },
+  "arxiv:2605.31124v1": {
+    "source": "arxiv",
+    "title": "QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer"
+  },
+  "arxiv:2605.30863v1": {
+    "source": "arxiv",
+    "title": "DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction"
+  },
+  "arxiv:2605.30784v1": {
+    "source": "arxiv",
+    "title": "Text-guided Feature Disentanglement for Cross-modal Gait Recognition"
+  },
+  "arxiv:2605.30215v2": {
+    "source": "arxiv",
+    "title": "Déjà View: Looping Transformers for Multi-View 3D Reconstruction"
+  },
+  "arxiv:2605.26519v2": {
+    "source": "arxiv",
+    "title": "$R^3$: 3D Reconstruction via Relative Regression"
+  },
+  "doi:10.3390/ijgi15060237": {
+    "source": "top_journal",
+    "title": "A Closed-Loop Framework for Tunnel Blasting Optimization Using Multi-View 3D Reconstruction and Intelligent Recognition"
+  },
+  "arxiv:2605.31177v1": {
+    "source": "arxiv",
+    "title": "Vanilla ViT for Automotive Point Cloud Semantic Segmentation"
+  },
+  "arxiv:2605.30987v1": {
+    "source": "arxiv",
+    "title": "Benchmarking Single-Step Inpainting Methods for Multi-Object 3D Gaussian Splatting Scenes"
+  },
+  "arxiv:2605.30396v1": {
+    "source": "arxiv",
+    "title": "Smaller and Faster 3DGS via Post-Training Dictionary Learning"
+  },
+  "arxiv:2605.31572v1": {
+    "source": "arxiv",
+    "title": "nuReasoning: A Reasoning-Centric Dataset and Benchmark for Long-Tail Autonomous Driving"
+  },
+  "arxiv:2605.30983v1": {
+    "source": "arxiv",
+    "title": "Can BEV Perception Gracefully Degrade under Sensor Failures?"
+  },
+  "arxiv:2605.30617v1": {
+    "source": "arxiv",
+    "title": "Exploiting Chordal Sparsity for Globally Optimal Estimation with Factor Graphs"
+  },
+  "arxiv:2605.31577v1": {
+    "source": "arxiv",
+    "title": "SurGe: Improved Surface Geometry in Point Maps"
+  },
+  "arxiv:2605.31576v1": {
+    "source": "arxiv",
+    "title": "Joint Multi-Camera LiDAR Extrinsic Calibration via Learned Pairwise Initialization and Geometric Refinement"
+  },
+  "arxiv:2605.31534v1": {
+    "source": "arxiv",
+    "title": "Feature-Optimized Vision for Adaptive 3D Scene Reconstruction"
+  },
+  "arxiv:2605.31376v1": {
+    "source": "arxiv",
+    "title": "LiftNav: Path Planning via Semantic Lifting in TSDF-Guided Gaussian Splatting"
+  },
+  "arxiv:2605.30855v1": {
+    "source": "arxiv",
+    "title": "Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation"
+  },
+  "doi:10.3390/s26113359": {
+    "source": "top_journal",
+    "title": "Distillation Style Regulators and Semantic Prior-Guided Framework for Non-Ideal Single-View 3D Vehicle Point Cloud Reconstruction"
+  },
+  "doi:10.3390/sym18060907": {
+    "source": "top_journal",
+    "title": "AttriMOT: Semantic-Aware Multimodal 3D Multi-Object Tracking with Attribute-Level Alignment"
+  },
+  "doi:10.1177/17470218261456719": {
+    "source": "top_journal",
+    "title": "EXPRESS: Do Visual Details Drive Memory? Role of the Visuo-Spatial Frequencies in Mnemonic Discrimination"
+  },
+  "doi:10.64898/2026.05.22.727166": {
+    "source": "top_journal",
+    "title": "LVentiView: An Open-Source Software for Automated 3D Left Ventricular Mesh Reconstruction and Analysis from Cardiac MRI"
+  },
+  "arxiv:2605.27671": {
+    "source": "top_journal",
+    "title": "Evolving and Detecting Multi-Turn Deception using Geometric Signatures"
   }
 }
