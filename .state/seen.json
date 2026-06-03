@@ -4442,5 +4442,125 @@
   "doi:10.31588/2073-0462-2026-21-1-37-43": {
     "source": "top_journal",
     "title": "AGROECONOMIC AND BIOLOGICAL CHARACTERISTICS OF PROMISING LINES OF SPRING SOFT WHEAT ON GRAY FOREST SOILS OF KAMA ZONE OF THE REPUBLIC OF TATARSTAN"
+  },
+  "arxiv:2606.03254v1": {
+    "source": "arxiv",
+    "title": "FreeStreamGS: Online Feed-forward 3D Gaussian Splatting from Unposed Streaming Inputs"
+  },
+  "arxiv:2606.02937v1": {
+    "source": "arxiv",
+    "title": "BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting"
+  },
+  "arxiv:2606.02068v1": {
+    "source": "arxiv",
+    "title": "Fast and Lightweight Novel View Synthesis with Differentiable Multiplane Image"
+  },
+  "arxiv:2606.01315v1": {
+    "source": "arxiv",
+    "title": "DeblurNVS: Geometric Latent Diffusion for Novel View Synthesis from Sparse Motion-Blurred Images"
+  },
+  "arxiv:2606.00576v1": {
+    "source": "arxiv",
+    "title": "Dynamic Resilient Spatio-Semantic Memory with Hybrid Localization for Mobile Manipulation"
+  },
+  "arxiv:2606.00450v1": {
+    "source": "arxiv",
+    "title": "Optimizing 3D Gaussian Splatting via Point Cloud Upsampling"
+  },
+  "arxiv:2606.01493v1": {
+    "source": "arxiv",
+    "title": "Splatshot: 3D Face Avatar Generation from a Single Unconstrained Photo"
+  },
+  "arxiv:2606.00307v1": {
+    "source": "arxiv",
+    "title": "ScaRF-SLAM: Scale-Consistent Reconstruction with Feed-Forward Models and Classical Visual SLAM"
+  },
+  "arxiv:2606.03120v1": {
+    "source": "arxiv",
+    "title": "KC-3DGS: Kurtosis-Constrained Gaussian Splatting for High-Fidelity View Synthesis"
+  },
+  "arxiv:2606.02346v1": {
+    "source": "arxiv",
+    "title": "VEDAL: Variational Error-Driven Asynchronous Learning for 3D Gaussian Splatting Pruning"
+  },
+  "arxiv:2606.01757v1": {
+    "source": "arxiv",
+    "title": "PillarDETR: YOLO-Backbone and RT-DETR Head for Real-Time 3D Object Detection"
+  },
+  "arxiv:2606.01573v1": {
+    "source": "arxiv",
+    "title": "$\\text{VG}^2$GT: Voxel-Gaussian Splatting Visual Geometry Grounded Transformer"
+  },
+  "arxiv:2606.00452v1": {
+    "source": "arxiv",
+    "title": "Beyond Static Gaussians: An Empirical Investigation of Architectural Paradigms for Dynamic 3D Scene Reconstruction"
+  },
+  "arxiv:2606.02979v1": {
+    "source": "arxiv",
+    "title": "Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion"
+  },
+  "arxiv:2606.02956v1": {
+    "source": "arxiv",
+    "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset"
+  },
+  "arxiv:2606.01590v1": {
+    "source": "arxiv",
+    "title": "Effective Multi-sensor Conditioning for Street-view Novel-view Synthesis"
+  },
+  "arxiv:2606.01549v1": {
+    "source": "arxiv",
+    "title": "ForestMamba: Sparse Mamba with Geometry-guided Queries for 3D Forest Point Cloud Segmentation"
+  },
+  "arxiv:2606.01277v1": {
+    "source": "arxiv",
+    "title": "DeepIPCv3: Event-Aware Multi-Modal Sensor Fusion for Sudden Pedestrian Crossing Avoidance"
+  },
+  "arxiv:2606.00444v1": {
+    "source": "arxiv",
+    "title": "Real-Time Physics Simulation with Dynamic Mesh-Gaussian Reconstructions"
+  },
+  "arxiv:2606.03581v1": {
+    "source": "arxiv",
+    "title": "UnsOcc: 3D Semantic Occupancy Prediction in Unstructured Scene via Rendering Fusion"
+  },
+  "arxiv:2606.03499v1": {
+    "source": "arxiv",
+    "title": "Characterizing Detectability in 3DGS Poisoning: A Stage-wise Benchmark"
+  },
+  "arxiv:2606.03479v1": {
+    "source": "arxiv",
+    "title": "PersistGS: Differentiable Physics for Object Permanence in 4D Gaussian Splatting"
+  },
+  "arxiv:2606.02370v1": {
+    "source": "arxiv",
+    "title": "A Simulation Platform for Flapping-Wing Vehicles"
+  },
+  "arxiv:2606.01458v1": {
+    "source": "arxiv",
+    "title": "LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World"
+  },
+  "arxiv:2606.00963v1": {
+    "source": "arxiv",
+    "title": "Reasmory: 3D Reconstruction as Explicit Memory for VLMs Spatial Reasoning"
+  },
+  "arxiv:2606.00817v1": {
+    "source": "arxiv",
+    "title": "Directed Distance Fields for Constant-Time Ray Queries on Gaussian Splatting"
+  },
+  "arxiv:2606.00447v1": {
+    "source": "arxiv",
+    "title": "GeoSAM-3D: Geodesic Prompt Propagation for Open-Vocabulary 3D Scene Segmentation from Monocular Video"
+  },
+  "arxiv:2606.00352v1": {
+    "source": "arxiv",
+    "title": "HiGS: A Hierarchical Rendering Architecture for Real-Time 3D Gaussian Splatting"
+  },
+  "doi:10.1088/1361-6501/ae73a5": {
+    "source": "top_journal",
+    "title": "A low-cost single-actuator beam-steering architecture for embedded 3D LiDAR measurement"
+  },
+  "arxiv:2606.02924v1": {
+    "source": "arxiv",
+    "title": "ATLAS: A Large-Scale Evaluation Benchmark for Adversarial LiDAR Perception"
   }
 }
