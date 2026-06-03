@@ -4562,5 +4562,37 @@
   "arxiv:2606.02924v1": {
     "source": "arxiv",
     "title": "ATLAS: A Large-Scale Evaluation Benchmark for Adversarial LiDAR Perception"
+  },
+  "doi:10.3390/su18115401": {
+    "source": "top_journal",
+    "title": "Sustainable Soil Management Through Liming: Effects on Soil pH, Carbon Stabilization and Aluminium Transformations"
+  },
+  "doi:10.1111/gcbb.70145": {
+    "source": "top_journal",
+    "title": "Biochar and Sediment Amendments Alter Soil Nitrogen Mineralization: Microbial Biomass and Extracellular Enzyme Activity"
+  },
+  "doi:10.3390/w18111302": {
+    "source": "top_journal",
+    "title": "Laboratory Modeling of Soil Responses and Water Quality Changes Induced by Shallow Periodic Water Coverage"
+  },
+  "doi:10.3390/biology15110840": {
+    "source": "top_journal",
+    "title": "Methane Flux Responses to Warming and Inundation in the Qinghai Lake Littoral Wetland"
+  },
+  "doi:10.3390/agriengineering8060208": {
+    "source": "top_journal",
+    "title": "Impact of Production System Intensification on Soil Physical–Hydric Properties and Soybean Performance"
+  },
+  "doi:10.1007/s11273-026-10157-5": {
+    "source": "top_journal",
+    "title": "Thermodynamics and effectiveness of biomolecules and electron-acceptors in an ecologically engineered wetland – implications for the design and optimisation"
+  },
+  "doi:10.64898/2026.05.26.727834": {
+    "source": "top_journal",
+    "title": "Systematic prediction and functional analysis of amino acid residues determining product specificity in the plant oxidosqualene cyclase superfamily"
+  },
+  "doi:10.3390/w18111299": {
+    "source": "top_journal",
+    "title": "Water Pollution and Its Impact on the Cardiovascular System in the Context of Current Data on These Pollutants in Poland and Uzbekistan—Preliminary Reports"
   }
 }
