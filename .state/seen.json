@@ -4594,5 +4594,33 @@
   "doi:10.3390/w18111299": {
     "source": "top_journal",
     "title": "Water Pollution and Its Impact on the Cardiovascular System in the Context of Current Data on These Pollutants in Poland and Uzbekistan—Preliminary Reports"
+  },
+  "arxiv:2605.30328": {
+    "source": "top_journal",
+    "title": "Supercharging Thermal Gaussian Splatting with Depth Estimation"
+  },
+  "arxiv:2605.30488": {
+    "source": "top_journal",
+    "title": "CoMo3R-SLAM: Collaborative Monocular Dense SLAM with Learned 3D Reconstruction Priors for Outdoor Multi-Agent Systems"
+  },
+  "arxiv:2605.29997": {
+    "source": "top_journal",
+    "title": "FRUC: Feedforward Dynamic Scene Reconstruction from Uncalibrated Collaborative Driving Views"
+  },
+  "doi:10.21428/d82e957c.55fdd97f": {
+    "source": "top_journal",
+    "title": "xModel-KD: Cross-modal Knowledge Distillation for 3D Scene Perception using LiDAR"
+  },
+  "arxiv:2605.30215": {
+    "source": "top_journal",
+    "title": "D\\'ej\\`a View: Looping Transformers for Multi-View 3D Reconstruction"
+  },
+  "arxiv:2605.29879": {
+    "source": "top_journal",
+    "title": "DGSG-Mind: Dynamic 3D Gaussian Scene Graphs for Long-Term Scene Understanding and Grounding"
+  },
+  "doi:10.1177/00202940261447072": {
+    "source": "top_journal",
+    "title": "Facial region division and robotic trajectory planning method for facial cleaning tasks"
   }
 }
