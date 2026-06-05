@@ -4706,5 +4706,125 @@
   "doi:10.3390/agriculture16111183": {
     "source": "top_journal",
     "title": "Biodegradable Organic Acids for Sustainable Removal of Heavy Metals from Contaminated Soils"
+  },
+  "arxiv:2606.05102v1": {
+    "source": "arxiv",
+    "title": "ZipSplat: Fewer Gaussians, Better Splats"
+  },
+  "arxiv:2606.05035v1": {
+    "source": "arxiv",
+    "title": "Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping"
+  },
+  "arxiv:2605.31124": {
+    "source": "top_journal",
+    "title": "QVGGT: Post-Training Quantized Visual Geometry Grounded Transformer"
+  },
+  "arxiv:2606.03877v1": {
+    "source": "arxiv",
+    "title": "MLP Splatting: Object-Centric Neural Fields"
+  },
+  "arxiv:2605.30863": {
+    "source": "top_journal",
+    "title": "DSD-GS: Dynamic-Static Decomposition of Gaussian Splatting for Efficient and High-Fidelity Dynamic Scene Reconstruction"
+  },
+  "arxiv:2606.04853v1": {
+    "source": "arxiv",
+    "title": "Teaching Robots to Say 'I Don't Know' : SENTINEL for Uncertainty-Aware SLAM"
+  },
+  "arxiv:2606.01573v2": {
+    "source": "arxiv",
+    "title": "$\\text{VG}^2$GT: Voxel-Gaussian Splatting Visual Geometry Grounded Transformer"
+  },
+  "arxiv:2605.30784": {
+    "source": "top_journal",
+    "title": "Text-guided Feature Disentanglement for Cross-modal Gait Recognition"
+  },
+  "arxiv:2606.05124v1": {
+    "source": "arxiv",
+    "title": "Geometry Gaussians: Decoupling Appearance and Geometry in Gaussian Splatting"
+  },
+  "arxiv:2606.04891v1": {
+    "source": "arxiv",
+    "title": "Hierarchical Space Partition for Surface Reconstruction"
+  },
+  "arxiv:2606.04158v1": {
+    "source": "arxiv",
+    "title": "Multi-Agent Next-Best-View Optimization for Risk-Averse Planning"
+  },
+  "arxiv:2606.03992v1": {
+    "source": "arxiv",
+    "title": "Exploring Easy Boosts for Lidar Semantic Scene Completion"
+  },
+  "arxiv:2606.03915v1": {
+    "source": "arxiv",
+    "title": "PatchScene: Patch-based Voxel Diffusion for Large-Scale Scene Completion"
+  },
+  "arxiv:2606.03909v1": {
+    "source": "arxiv",
+    "title": "SparseStreet: Sparse Gaussian Splatting for Real-Time Street Scene Simulation"
+  },
+  "arxiv:2606.03905v1": {
+    "source": "arxiv",
+    "title": "Semantic-weighted ICP for LiDAR Odometry: Class-Aware Residual Reweighting for Robust Scan Registration"
+  },
+  "arxiv:2606.03682v1": {
+    "source": "arxiv",
+    "title": "GN0: Toward a Unified Paradigm for Generation, Evaluation, and Policy Learning in Visual-Language Navigation"
+  },
+  "arxiv:2606.04788v1": {
+    "source": "arxiv",
+    "title": "Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives"
+  },
+  "arxiv:2606.04271v1": {
+    "source": "arxiv",
+    "title": "StandardE2E: A Unified Framework for End-to-End Autonomous Driving Datasets"
+  },
+  "arxiv:2606.02479v1": {
+    "source": "arxiv",
+    "title": "Retrieve What's Missing: Coverage-Maximizing Retrieval for Consistent Long Video Generation"
+  },
+  "arxiv:2606.02379v1": {
+    "source": "arxiv",
+    "title": "Honey, I Shrunk the Arc de Triomphe!"
+  },
+  "arxiv:2606.00416v1": {
+    "source": "arxiv",
+    "title": "4D Radar Meets LiDAR and Camera: Cooperative Perception under Adverse Weather"
+  },
+  "arxiv:2605.31595": {
+    "source": "top_journal",
+    "title": "Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction"
+  },
+  "doi:10.5194/isprs-annals-x-4-w8-2025-479-2026": {
+    "source": "top_journal",
+    "title": "Quantitative Uncertainty Analysis of Monocular Point Clouds for Twinning Roads"
+  },
+  "arxiv:2606.04618v1": {
+    "source": "arxiv",
+    "title": "BPDA-GMM: Bayesian Probabilistic Data Association via Gaussian Mixture Models for Semantic SLAM"
+  },
+  "arxiv:2606.03994v1": {
+    "source": "arxiv",
+    "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image"
+  },
+  "arxiv:2606.03568v1": {
+    "source": "arxiv",
+    "title": "Learned Non-Maximum Suppression for 3D Object Detection"
+  },
+  "arxiv:2606.03509v1": {
+    "source": "arxiv",
+    "title": "EvoMemNav: Efficient Self-Evolving Fine-Grained Memory for Zero-Shot Embodied Navigation"
+  },
+  "arxiv:2606.03287v1": {
+    "source": "arxiv",
+    "title": "BA-T: An Iterative Transformer for Two-View Bundle Adjustment"
+  },
+  "arxiv:2606.02510v1": {
+    "source": "arxiv",
+    "title": "Not All Points Are Equal: Uncertainty-Aware 4D LiDAR Scene Synthesis"
+  },
+  "arxiv:2606.02436v1": {
+    "source": "arxiv",
+    "title": "Geometry-Aware Implicit Memory for Video World Models"
   }
 }
