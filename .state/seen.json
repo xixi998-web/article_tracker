@@ -4886,5 +4886,73 @@
   "doi:10.36948/ijfmr.2026.v08i03.79720": {
     "source": "top_journal",
     "title": "Agriculture Development in India: Emerging Issues, Challenges and Opportunities"
+  },
+  "arxiv:2606.06255v1": {
+    "source": "arxiv",
+    "title": "RadiusFPS: Efficient Farthest Point Sampling on CPUs and GPUs via Spherical Voxel Pruning"
+  },
+  "arxiv:2606.05774v1": {
+    "source": "arxiv",
+    "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer"
+  },
+  "arxiv:2606.06130v1": {
+    "source": "arxiv",
+    "title": "Towards Realistic 3D Sonar Simulation"
+  },
+  "arxiv:2606.05650v1": {
+    "source": "arxiv",
+    "title": "GS-NFS: Bandwidth-adaptive Streaming of Dynamic Gaussian Splats and Point Clouds"
+  },
+  "arxiv:2606.05491v1": {
+    "source": "arxiv",
+    "title": "Unpaired RGB-Thermal Gaussian-Splatting Using Visual Geometric Transformers"
+  },
+  "arxiv:2606.06250v1": {
+    "source": "arxiv",
+    "title": "Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM"
+  },
+  "arxiv:2606.06039v1": {
+    "source": "arxiv",
+    "title": "Texture-preserving implicit neural representation for Cone beam CT truncated reconstruction"
+  },
+  "arxiv:2606.05998v1": {
+    "source": "arxiv",
+    "title": "Deep Learning-based 3D Oral Cavity Reconstruction Using 2D Intraoral Images"
+  },
+  "arxiv:2606.05506v1": {
+    "source": "arxiv",
+    "title": "Robust Scene Transfer for PointGoal Navigation via Privileged Sensor Guided Contrastive Learning"
+  },
+  "arxiv:2606.02058v1": {
+    "source": "arxiv",
+    "title": "TIDES: Time-Derivative Event Simulation via Deformable Reconstruction"
+  },
+  "arxiv:2606.02021v1": {
+    "source": "arxiv",
+    "title": "PerBite: A Curated Diagnostic Workflow for Bite-Aware Food Volume Estimation"
+  },
+  "arxiv:2606.01950v1": {
+    "source": "arxiv",
+    "title": "Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects"
+  },
+  "arxiv:2606.01605v1": {
+    "source": "arxiv",
+    "title": "Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control"
+  },
+  "arxiv:2606.00936v1": {
+    "source": "arxiv",
+    "title": "One Channel to Rule Them All: Rethinking Input Representation for Visual Place Recognition"
+  },
+  "arxiv:2606.00637v1": {
+    "source": "arxiv",
+    "title": "Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion"
+  },
+  "arxiv:2606.02639v1": {
+    "source": "arxiv",
+    "title": "Sparse-View Lung Nodule Volumetry from Digitally Reconstructed Radiographs via AReT: Anatomy-Regularized TensoRF"
+  },
+  "arxiv:2606.00689": {
+    "source": "top_journal",
+    "title": "Wavelet-Fusion Diffusion Model for Multimodal Brain MRI Synthesis with Modality and Metadata Conditioning"
   }
 }
