@@ -4990,5 +4990,9 @@
   "doi:10.18311/jnr/2026/49053": {
     "source": "top_journal",
     "title": "Phytochemical Analysis and In Vitro Antioxidant Activity of Rasagandhi Mezhugu, A Herbo-mineral Siddha Formulation"
+  },
+  "arxiv:2606.00963": {
+    "source": "top_journal",
+    "title": "Reasmory: 3D Reconstruction as Explicit Memory for VLMs Spatial Reasoning"
   }
 }
