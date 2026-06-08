@@ -5046,5 +5046,101 @@
   "doi:10.14233/ajchem.2026.35330": {
     "source": "top_journal",
     "title": "Chemical and Structural Characterisation of Bio-Earth as a Sustainable Substrate for Wastewater Treatment in Constructed Wetlands"
+  },
+  "doi:10.1109/lra.2026.3686600": {
+    "source": "top_journal",
+    "title": "LoD-GS: Robust and Lightweight Gaussian Splatting SLAM for Real-Time Volumetric Scene Reconstruction"
+  },
+  "doi:10.1038/s41598-026-53843-3": {
+    "source": "top_journal",
+    "title": "Empirical analysis of adversarial robustness in 3D Gaussian Splatting under multi-view inconsistency attacks"
+  },
+  "arxiv:2606.02068": {
+    "source": "top_journal",
+    "title": "Fast and Lightweight Novel View Synthesis with Differentiable Multiplane Image"
+  },
+  "arxiv:2606.02346": {
+    "source": "top_journal",
+    "title": "VEDAL: Variational Error-Driven Asynchronous Learning for 3D Gaussian Splatting Pruning"
+  },
+  "arxiv:2606.01573": {
+    "source": "top_journal",
+    "title": "$\\text{VG}^2$GT: Voxel-Gaussian Splatting Visual Geometry Grounded Transformer"
+  },
+  "doi:10.1109/tcsvt.2026.3664224": {
+    "source": "top_journal",
+    "title": "SCAP: Semantic Prototype Alignment for Robust Point Cloud Registration"
+  },
+  "doi:10.1002/aisy.202501025": {
+    "source": "top_journal",
+    "title": "Human‐in‐the‐Loop Object Segmentation for 3D Gaussian Splatting via Finger‐based VR Interface"
+  },
+  "doi:10.1088/1361-6501/ae758a": {
+    "source": "top_journal",
+    "title": "Spatially guided multi-scale robust ICP for high-precision reconstruction of large weak-feature curved surfaces"
+  },
+  "doi:10.1109/tcsvt.2026.3659259": {
+    "source": "top_journal",
+    "title": "Feedforward Compression of Static and Streamable 3D Gaussian Splatting"
+  },
+  "doi:10.1109/jsen.2026.3684845": {
+    "source": "top_journal",
+    "title": "DAMNet: RGB–LiDAR Fusion for Traffic and Water-Surface Detection Using Dynamic Direction Multiscale Scanning Priors and Deformable Window Cross-Modal"
+  },
+  "doi:10.1109/lra.2026.3688083": {
+    "source": "top_journal",
+    "title": "Field Validation of Prior-Based Image Compression for Tetherless Operation of Underwater Remotely Operated Vehicles"
+  },
+  "arxiv:2606.01545": {
+    "source": "top_journal",
+    "title": "Hierarchical Object Representation for Spatial Robot Perception: Points, Meshes, and Superquadrics"
+  },
+  "arxiv:2606.02436": {
+    "source": "top_journal",
+    "title": "Geometry-Aware Implicit Memory for Video World Models"
+  },
+  "doi:10.64898/2026.05.28.726140": {
+    "source": "top_journal",
+    "title": "Ultra-efficient High Resolution 3D Reconstruction of Spatial Omics Data with Neural Transcriptomic Field"
+  },
+  "doi:10.64898/2026.05.29.728637": {
+    "source": "top_journal",
+    "title": "Emergent control of ant learning walks using the mismatch between path-integration and visual cues"
+  },
+  "doi:10.3390/jfmk11020225": {
+    "source": "top_journal",
+    "title": "The Strengthening of Quadriceps, Abductors, and External Rotator Muscles of the Hip to Alter Axial Alignment of the Lower Limbs in University Students with Patellofemoral Pain Syndrome: A Prospective Cohort Study"
+  },
+  "doi:10.1109/jerm.2026.3660319": {
+    "source": "top_journal",
+    "title": "Large-Field 3-D Microwave-Induced Thermoacoustic Imaging Using Transrectal Linear-Array Combined Self-Rotating Scanning and Spatial Aperture Angle Suppression"
+  },
+  "arxiv:2606.01950": {
+    "source": "top_journal",
+    "title": "Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects"
+  },
+  "arxiv:2606.01824": {
+    "source": "top_journal",
+    "title": "DisFlow: Scene Flow from Distance Field for Object Pose, Velocity Tracking, and Dynamic Object Reconstruction"
+  },
+  "doi:10.1109/tmc.2026.3652182": {
+    "source": "top_journal",
+    "title": "Spatio-Temporal Neural Rendering: Reversible Time-to-Vision Representation Learning for Human Activity Recognition"
+  },
+  "arxiv:2606.02580": {
+    "source": "top_journal",
+    "title": "Thinking in Blender: Staged Executable Inverse Graphics with Vision-Language Models"
+  },
+  "arxiv:2606.01777": {
+    "source": "top_journal",
+    "title": "Trans2Occ: Voxel Occupancy Estimation and Grasp for Transparent Objects from Simulation to Reality"
+  },
+  "doi:10.64898/2026.05.28.728215": {
+    "source": "top_journal",
+    "title": "Label-free 3D virtual histology of human formalin-fixed paraffin-embedded (FFPE) prostate needle biopsies with propagation-based phase-contrast micro-CT (PBCT)"
+  },
+  "doi:10.1007/s42947-026-00814-6": {
+    "source": "top_journal",
+    "title": "Lightweight 3D Pavement Reconstruction via Computer Vision: Optimizing Feature Matching for Low-Cost Highway Inspection"
   }
 }
