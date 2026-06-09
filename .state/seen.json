@@ -5222,5 +5222,53 @@
   "doi:10.59415/mjacs.289": {
     "source": "top_journal",
     "title": "ENVIRONMENTAL DEGRADATION, SUSTAINABILITY, AND CLIMATE CHANGE: A GLOBAL CHALLENGE"
+  },
+  "arxiv:2606.07179v1": {
+    "source": "arxiv",
+    "title": "EvoGS: Constructing Continuous-Layered Gaussian Splatting with Evolution Tree for Scalable 3D Streaming"
+  },
+  "arxiv:2606.07118v1": {
+    "source": "arxiv",
+    "title": "QuadVerse: An Integrated Framework Aligning Visual-Physical Reality for Quadruped Simulation"
+  },
+  "arxiv:2606.03915": {
+    "source": "top_journal",
+    "title": "PatchScene: Patch-based Voxel Diffusion for Large-Scale Scene Completion"
+  },
+  "arxiv:2606.04291": {
+    "source": "top_journal",
+    "title": "A Cookbook of 3D Vision: Data, Learning Paradigms, and Application"
+  },
+  "arxiv:2606.07233v1": {
+    "source": "arxiv",
+    "title": "Does Appearance Help? A Systematic Study of Image-Based Re-Identification in Online 3D Multi-Pedestrian Tracking"
+  },
+  "arxiv:2606.06690v1": {
+    "source": "arxiv",
+    "title": "RPC-GS: Gaussian Splatting with native RPC Rendering for Satellite Imagery"
+  },
+  "arxiv:2606.03287": {
+    "source": "top_journal",
+    "title": "BA-T: An Iterative Transformer for Two-View Bundle Adjustment"
+  },
+  "doi:10.1109/tcsvt.2026.3695515": {
+    "source": "top_journal",
+    "title": "SRENet: Spectral Re-Entry Network for Point Cloud Action Recognition"
+  },
+  "arxiv:2606.03509": {
+    "source": "top_journal",
+    "title": "EvoMemNav: Efficient Self-Evolving Fine-Grained Memory for Zero-Shot Embodied Navigation"
+  },
+  "arxiv:2606.03994": {
+    "source": "top_journal",
+    "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image"
+  },
+  "arxiv:2606.06685v1": {
+    "source": "arxiv",
+    "title": "RigPAPR: Rig-Based Animation of Static Neural Point Clouds from a Fixed-Viewpoint Video"
+  },
+  "doi:10.3390/asi9060119": {
+    "source": "top_journal",
+    "title": "Optimal Camera Positioning for Single-View 3D Foot Scan Completion: Evaluation Using Deep Learning-Based Reconstruction"
   }
 }
