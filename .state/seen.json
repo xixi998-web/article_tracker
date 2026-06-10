@@ -5414,5 +5414,61 @@
   "arxiv:2606.07934v1": {
     "source": "arxiv",
     "title": "X-OP: Cross-Morphology Whole-Body Teleoperation via MPC Retargeting"
+  },
+  "doi:10.1016/j.ecoenv.2026.120332": {
+    "source": "top_journal",
+    "title": "Enterobacter cloacae-loaded biochar suppresses cadmium accumulation in rice: Dual stabilization via soil immobilization and iron plaque interception."
+  },
+  "doi:10.34133/ehs.0560": {
+    "source": "top_journal",
+    "title": "Does slight soil acidification negatively affect diazotrophic bacterial community in paddy field? A regional-scale study"
+  },
+  "doi:10.1098/rspb.2025.2612": {
+    "source": "top_journal",
+    "title": "Opposing effects of aboveground and belowground bacterial diversity on ecosystem multifunctionality under global change."
+  },
+  "doi:10.3390/biology15110883": {
+    "source": "top_journal",
+    "title": "Responses of Methane Emissions to Different Soil Amendments in Paddy Soil: Soil Properties, Microbial Communities, and Functional Genes"
+  },
+  "doi:10.1007/s11056-026-10191-4": {
+    "source": "top_journal",
+    "title": "Assessment of fertilization effects on 2.5-year growth dynamics of Robinia pseudoacacia L. and soil quality in the arid southern Nyírség region of Hungary"
+  },
+  "doi:10.53516/ajfr.1817532": {
+    "source": "top_journal",
+    "title": "Short-term effects of timber harvesting activities on forest soil"
+  },
+  "doi:10.33003/jaat.2026.1201.11": {
+    "source": "top_journal",
+    "title": "TREE SPECIES DIVERSITY, SOIL PHYSICOCHEMICAL, BIOMASS AND CARBON STOCK ASSESSMENT IN GUYAKU GRAZING RESERVE, GOMBI LGA, ADAMAWA STATE."
+  },
+  "doi:10.29136/mediterranean.1815533": {
+    "source": "top_journal",
+    "title": "Potential environmental and health impact of wind erosion affected soils in Iğdır"
+  },
+  "doi:10.3389/fpls.2026.1831940": {
+    "source": "top_journal",
+    "title": "Effects of deep slow-release fertilizer on melon yield, economic benefits and rhizosphere microorganisms"
+  },
+  "doi:10.3390/earth7030096": {
+    "source": "top_journal",
+    "title": "Riverine Ecosystem Contamination and Ecological Risk Assessment Following Cyanide Leakage from In Situ Rare Earth Mining in Northern Laos"
+  },
+  "doi:10.1098/rsif.2025.0943": {
+    "source": "top_journal",
+    "title": "Management history can cause irreversible changes in agroecosystems: insights from an extended Carpenter model."
+  },
+  "doi:10.3390/plants15111728": {
+    "source": "top_journal",
+    "title": "Phosphorus-Deficiency-Induced Development of Root Apoplastic Barriers Restricts Cadmium Translocation in Salix caprea"
+  },
+  "doi:10.9734/ajaar/2026/v26i5728": {
+    "source": "top_journal",
+    "title": "Performance of Integrated Nutrient Management in Wheat (Triticum aestivum L.): Agronomic, Yield and Post-Harvest Soil Quality Dynamics under Eastern Uttar Pradesh Conditions"
+  },
+  "doi:10.1016/j.plaphy.2026.111450": {
+    "source": "top_journal",
+    "title": "Diagnostic system for tebuthiuron soil ecotoxicity using morphophysiological indicators of Mucuna pruriens validated by Lactuca sativa."
   }
 }
