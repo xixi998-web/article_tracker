@@ -5322,5 +5322,97 @@
   "doi:10.1093/jpe/rtag123": {
     "source": "top_journal",
     "title": "Forest recovery suppresses soil microbial carbon use efficiency via geochemical and biotic constraints in a subtropical karst region"
+  },
+  "arxiv:2606.09034v1": {
+    "source": "arxiv",
+    "title": "Leveraging NeRF-Rendered Images for 3D Gaussian Splatting"
+  },
+  "arxiv:2606.05102": {
+    "source": "top_journal",
+    "title": "ZipSplat: Fewer Gaussians, Better Splats"
+  },
+  "arxiv:2606.08205v1": {
+    "source": "arxiv",
+    "title": "Empowering Feed-Forward Reconstruction Models with Metric Scale via Satellite Images"
+  },
+  "arxiv:2606.05035": {
+    "source": "top_journal",
+    "title": "Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping"
+  },
+  "arxiv:2606.07932v1": {
+    "source": "arxiv",
+    "title": "LEGS: Laplacian-Enhanced Gaussian Splatting with a Nonlinear Weighted Loss"
+  },
+  "arxiv:2606.07670v1": {
+    "source": "arxiv",
+    "title": "Liquid Neural Networks as a Drop-in Continuous-Time Deformation Field for Dynamic 3D Gaussian Splatting"
+  },
+  "arxiv:2606.05491": {
+    "source": "top_journal",
+    "title": "Unpaired RGB-Thermal Gaussian-Splatting Using Visual Geometric Transformers"
+  },
+  "arxiv:2606.08206v1": {
+    "source": "arxiv",
+    "title": "SegmentAnyTreeV2: Scaling Transformer-Based Tree Instance Segmentation Across Sensors, Platforms, and Forests"
+  },
+  "arxiv:2606.04376": {
+    "source": "top_journal",
+    "title": "FUSE-Flow: A Decoupled Framework for Calibration and Stateless Real-Time Multi-View Point Cloud Fusion"
+  },
+  "arxiv:2606.09074v1": {
+    "source": "arxiv",
+    "title": "REFINE: Super-efficient 3D Gaussian Splatting Pruning via Rendering-Free Primitive Importance"
+  },
+  "arxiv:2606.08844v1": {
+    "source": "arxiv",
+    "title": "Geometry-Aware Fisheye-LiDAR Fusion for Robust 3D Object Detection in Low-Overlap Setups"
+  },
+  "arxiv:2606.08729v1": {
+    "source": "arxiv",
+    "title": "IR-SIM: A Lightweight Skill-Native Simulator for Navigation, Learning, and Benchmarking"
+  },
+  "arxiv:2606.07891v1": {
+    "source": "arxiv",
+    "title": "C3VD-DEFCOL: A Deformable Colonoscopy Dataset with Time-Resolved 3D Ground Truth and Realistic Appearance"
+  },
+  "arxiv:2606.07118v2": {
+    "source": "arxiv",
+    "title": "QuadVerse: An Integrated Framework Aligning Visual-Physical Reality for Quadruped Simulation"
+  },
+  "arxiv:2606.09634v1": {
+    "source": "arxiv",
+    "title": "ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity"
+  },
+  "arxiv:2606.09350v1": {
+    "source": "arxiv",
+    "title": "Taming Perception Jitter: Uncertainty-Aware LiDAR Object Detection for Reliable Motion Classification"
+  },
+  "arxiv:2606.08980v1": {
+    "source": "arxiv",
+    "title": "EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation"
+  },
+  "arxiv:2606.04788": {
+    "source": "top_journal",
+    "title": "Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives"
+  },
+  "arxiv:2606.09719v1": {
+    "source": "arxiv",
+    "title": "Safe Polytope-in-Polytope Motion Planning and Control with Control Barrier Functions"
+  },
+  "arxiv:2606.09268v1": {
+    "source": "arxiv",
+    "title": "VGP-Nav: Metric-Aware Visual Geometric Perception for Robot Navigation"
+  },
+  "arxiv:2606.09143v1": {
+    "source": "arxiv",
+    "title": "CAMF-Det: Closure-Aware Multimodal Fusion for LiDAR-Camera 3D Object Detection on UAV Platforms"
+  },
+  "arxiv:2606.08744v1": {
+    "source": "arxiv",
+    "title": "MB-Loc: Multi-planar Bird's-eye-view Localization in outdoor LiDAR scenes"
+  },
+  "arxiv:2606.07934v1": {
+    "source": "arxiv",
+    "title": "X-OP: Cross-Morphology Whole-Body Teleoperation via MPC Retargeting"
   }
 }
