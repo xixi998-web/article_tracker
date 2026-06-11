@@ -5470,5 +5470,77 @@
   "doi:10.1016/j.plaphy.2026.111450": {
     "source": "top_journal",
     "title": "Diagnostic system for tebuthiuron soil ecotoxicity using morphophysiological indicators of Mucuna pruriens validated by Lactuca sativa."
+  },
+  "arxiv:2606.09967v1": {
+    "source": "arxiv",
+    "title": "ABot-Earth 0.5: Generative 3D Earth Model"
+  },
+  "arxiv:2606.05774": {
+    "source": "top_journal",
+    "title": "LiAuto-GeoX: Efficient Grounded Driving Transformer"
+  },
+  "arxiv:2606.10478v1": {
+    "source": "arxiv",
+    "title": "3D-CoS: A New 3D Reconstruction Paradigm Based on VLM Code Synthesis"
+  },
+  "arxiv:2606.10645v1": {
+    "source": "arxiv",
+    "title": "ManiSplat: Manipulation Trajectory Synthesis from Monocular Video via Decoupled 3D Gaussian Splatting"
+  },
+  "arxiv:2606.10612v1": {
+    "source": "arxiv",
+    "title": "GaussTrace: Provenance Analysis of 3D Gaussian Splatting Models with Evidence-based LLM Reasoning"
+  },
+  "arxiv:2606.10541v1": {
+    "source": "arxiv",
+    "title": "GRAR: Glass-induced Reflection Artifact Removal in LiDAR Point Clouds"
+  },
+  "arxiv:2606.10019v1": {
+    "source": "arxiv",
+    "title": "Generalized-CVO: Fast and Correspondence-Free Local Point Cloud Registration with Second Order Riemannian Optimization"
+  },
+  "doi:10.1142/s2301385027410081": {
+    "source": "top_journal",
+    "title": "Hierarchical Gaussian Mapping with Controlled Growth for Compact Robotic Navigation"
+  },
+  "arxiv:2606.11129v1": {
+    "source": "arxiv",
+    "title": "WorldOlympiad: Can Your World Model Survive a Triathlon?"
+  },
+  "arxiv:2606.10656v1": {
+    "source": "arxiv",
+    "title": "Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving"
+  },
+  "arxiv:2606.11088v1": {
+    "source": "arxiv",
+    "title": "A Distributed Multi-UGV Exploration Framework With Loop-Aware Planning and Descriptor-Aided Localization in Resource-Limited Environments"
+  },
+  "arxiv:2606.10971v1": {
+    "source": "arxiv",
+    "title": "Resilient Navigation for Autonomous Farm Robots by Leveraging Jerk-Augmented Models with IMU-Only Disturbance Rejection"
+  },
+  "arxiv:2606.10442v1": {
+    "source": "arxiv",
+    "title": "Information-Preserving Continuous Occupancy Mapping with Variance-Weighted Submap Joining"
+  },
+  "arxiv:2606.05998": {
+    "source": "top_journal",
+    "title": "Deep Learning-based 3D Oral Cavity Reconstruction Using 2D Intraoral Images"
+  },
+  "arxiv:2606.06039": {
+    "source": "top_journal",
+    "title": "Texture-preserving implicit neural representation for Cone beam CT truncated reconstruction"
+  },
+  "doi:10.1016/j.ejso.2026.111921": {
+    "source": "top_journal",
+    "title": "Preoperative three-dimensional reconstruction facilitates robot-assisted radical nephrectomy and inferior vena cava thrombectomy for renal cell carcinoma: Insights from a Chinese high-volume center."
+  },
+  "doi:10.3390/foods15112012": {
+    "source": "top_journal",
+    "title": "3D Quantitative Modeling for Stone Fruit Quality Assessment by LF-NMRI"
+  },
+  "arxiv:2606.05925": {
+    "source": "top_journal",
+    "title": "Towards World Models in Biomedical Research"
   }
 }
