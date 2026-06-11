@@ -5542,5 +5542,41 @@
   "arxiv:2606.05925": {
     "source": "top_journal",
     "title": "Towards World Models in Biomedical Research"
+  },
+  "doi:10.36347/sajb.2026.v14i06.001": {
+    "source": "top_journal",
+    "title": "Substitution of Mineral Fertilizers by Solid Urban Waste Compost: Tomato (Solanum lycopersicum L.) Productivity and Soil Fertility in Côte d'Ivoire"
+  },
+  "doi:10.64898/2026.06.01.729252": {
+    "source": "top_journal",
+    "title": "Differences in microbial community structure and soil nutrients between healthy and diseased soils of Zingiber officinale"
+  },
+  "doi:10.1111/pce.70645": {
+    "source": "top_journal",
+    "title": "Cross-Species Plasticity and Divergence Under Alkaline Soil Signature Conditions Differentiating PYE From FIT Target Transcripts in the Arabidopsis thaliana Ferrome."
+  },
+  "doi:10.3389/fmicb.2026.1845938": {
+    "source": "top_journal",
+    "title": "Vegetation restoration restructures soil sulfur allocation and sulfur-cycling functional potential in the Mu Us Sandy Land"
+  },
+  "doi:10.32996/jeas.2026.7.3.3": {
+    "source": "top_journal",
+    "title": "Effects of Biochar and Arbuscular Mycorrhizal Fungal Inoculation on Soil Phosphorus Availability and Growth of Pisum sativum (Dwarf Snap Pea)"
+  },
+  "doi:10.3389/fsoil.2026.1789869": {
+    "source": "top_journal",
+    "title": "The drip irrigation paradox in an arid irrigated system: a soil quality index reveals secondary salinization and nutrient accumulation in Southern Peru"
+  },
+  "doi:10.1016/j.foodchem.2026.149971": {
+    "source": "top_journal",
+    "title": "Environmental factors drive rutin accumulation through a synergistic network promoting flavonoid biosynthesis and suppressing hydrolysis in tea plants (Camellia sinensis)."
+  },
+  "doi:10.3390/environments13060316": {
+    "source": "top_journal",
+    "title": "Complementary Responses of Soil Biological Quality Indices Based on Microarthropods (QBS-ar) and Earthworms (QBS-e) Under Contrasting Agroecosystem Management"
+  },
+  "doi:10.1038/s41597-026-07581-w": {
+    "source": "top_journal",
+    "title": "An integrated global resource of wetland microbiomes linking environmental metadata, community profiles, and genome-resolved metabolic traits."
   }
 }
