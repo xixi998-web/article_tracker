@@ -5686,5 +5686,73 @@
   "doi:10.1007/s11676-026-02084-1": {
     "source": "top_journal",
     "title": "Enhancing EOM with density-adaptive downsampling for individual tree segmentation in density-heterogeneous forest point clouds"
+  },
+  "doi:10.1038/s41598-026-55803-3": {
+    "source": "top_journal",
+    "title": "Dual effects of soil conditioners on wheat yield and soil properties in southern henan."
+  },
+  "doi:10.9734/jeai/2026/v48i64276": {
+    "source": "top_journal",
+    "title": "Changes in Soil Chemical Properties under Crotalaria Cultivation in the Sudanian Zones of Burkina Faso"
+  },
+  "doi:10.3390/agriculture16111245": {
+    "source": "top_journal",
+    "title": "The Effects of Co-Application of Biochar and Phosphogypsum on Regulating the Microenvironment of Saline–Alkali Soils to Promote Safflower Growth and Quality Development"
+  },
+  "doi:10.1002/ldr.70626": {
+    "source": "top_journal",
+    "title": "Differential Effects of Cover Crops on Soil Nutrients and Microbial Communities in Marselan Vineyards"
+  },
+  "doi:10.3389/ffgc.2026.1849509": {
+    "source": "top_journal",
+    "title": "Effects of simulated nitrogen deposition on soil phosphorus availability and element composition in a phosphorus-limited Mediterranean shrubland"
+  },
+  "doi:10.3389/fpls.2026.1842390": {
+    "source": "top_journal",
+    "title": "Hyperspectral imaging and machine learning for rapid sensing and visualized retrieval of soil nutrients in high-latitude tea-growing regions"
+  },
+  "doi:10.25258/ijddt.16.49s.37": {
+    "source": "top_journal",
+    "title": "Relationship between the Survival of White Spot Syndrome Virus (WSSV) and the Physico-Chemical Properties of Soil at Different Depths in Brackish water Ecosystems"
+  },
+  "doi:10.1016/j.envpol.2026.128526": {
+    "source": "top_journal",
+    "title": "Occurrence, spatial distribution, and key determinants of typical herbicide residues in agricultural soils of northeast China."
+  },
+  "doi:10.3390/agronomy16111116": {
+    "source": "top_journal",
+    "title": "Parametric Modeling of the Unsaturated Soil Hydraulic Conductivity Function Using Tree-Based and Ensemble Machine Learning Algorithms: A Comparative Analysis of Cubist, Random Forest, and LightGBM"
+  },
+  "doi:10.1016/j.wasman.2026.115552": {
+    "source": "top_journal",
+    "title": "Evaluation methodology and application for heavy metal leaching assessment in molten slag aggregate concrete."
+  },
+  "doi:10.1177/03611981261443277": {
+    "source": "top_journal",
+    "title": "Feasibility of Stabilized Titanium Gypsum as Roadway Subgrade Material: Evaluation of Geotechnical Properties and Leachability"
+  },
+  "doi:10.1016/j.ecoenv.2026.120339": {
+    "source": "top_journal",
+    "title": "Radon-222 in karst caves of Southwestern China: Sources, seasonal dynamics, and human exposure risks."
+  },
+  "doi:10.63965/blnj3327": {
+    "source": "top_journal",
+    "title": "NEMATODE EXTRACTION EFFICIENCY IS INFLUENCED BY SOIL DEPTH AND INOCULATION LEVEL"
+  },
+  "doi:10.1007/s42832-026-0458-8": {
+    "source": "top_journal",
+    "title": "Soil arthropod communities are better predictors of soil quality than nematodes in agricultural soils"
+  },
+  "doi:10.30564/jees.v8i6.13183": {
+    "source": "top_journal",
+    "title": "The Impact of Bio Compost Use on the Agricultural Soil Microbiome: Evidence from a Laboratory-Scale Study"
+  },
+  "doi:10.36956/rwae.v7i2.2739": {
+    "source": "top_journal",
+    "title": "The Impact of Government Subsidies on the Adoption of Sustainable Farming Practices and Their Long-Term Effects on Rural-Agricultural Economic Development Practices"
+  },
+  "doi:10.3390/agriengineering8060228": {
+    "source": "top_journal",
+    "title": "Segmentation of Crop Residue Using an Open-Source Labeling Tool with U-Net and DeepLabV3"
   }
 }
