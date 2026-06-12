@@ -5578,5 +5578,113 @@
   "doi:10.1038/s41597-026-07581-w": {
     "source": "top_journal",
     "title": "An integrated global resource of wetland microbiomes linking environmental metadata, community profiles, and genome-resolved metabolic traits."
+  },
+  "doi:10.1109/tpami.2026.3700887": {
+    "source": "top_journal",
+    "title": "DroneSplat+: Semantics-Enhanced 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery."
+  },
+  "arxiv:2606.11894v1": {
+    "source": "arxiv",
+    "title": "Wild3R: Feed-Forward 3D Gaussian Splatting from Unconstrained Sparse Photo Collection"
+  },
+  "arxiv:2606.11841v1": {
+    "source": "arxiv",
+    "title": "Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting"
+  },
+  "arxiv:2606.11326v1": {
+    "source": "arxiv",
+    "title": "DarkVGGT: Seeing Through Darkness Using Thermal Geometry without Daylight Tax"
+  },
+  "arxiv:2606.11314v1": {
+    "source": "arxiv",
+    "title": "TRON: Tracing Rays to Orchestrate a Neural Renderer for 3D Gaussian Reconstructions"
+  },
+  "doi:10.1177/03611981261450141": {
+    "source": "top_journal",
+    "title": "VPMambaNet: Breaking Limits in Roadside Three-Dimensional Vehicle Detection via Hybrid Voxel–Pillar Modeling and Mixed-Scan State Space Model for Intelligent Traffic Management"
+  },
+  "doi:10.1109/mcg.2026.3701284": {
+    "source": "top_journal",
+    "title": "Dynamic Gaussian-Based Digital Twin Reconstruction of Articulated Multi-Joint Objects."
+  },
+  "arxiv:2606.12340v1": {
+    "source": "arxiv",
+    "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting"
+  },
+  "arxiv:2606.11563v1": {
+    "source": "arxiv",
+    "title": "Cross-Modal Benchmarking for Robotic Perception in Natural Environments"
+  },
+  "arxiv:2606.11782v1": {
+    "source": "arxiv",
+    "title": "Seeing What Matters: Perceptual Wrapper with Common Randomness for 3D Gaussian Splatting"
+  },
+  "arxiv:2606.11708v1": {
+    "source": "arxiv",
+    "title": "Explore From Sketch: Accelerating UAV Exploration in Large-scale Environments with Prior Maps"
+  },
+  "arxiv:2606.11529v1": {
+    "source": "arxiv",
+    "title": "XPR: An Extensible Cross-Platform Point-Based Differentiable Renderer"
+  },
+  "doi:10.3390/geomatics6030066": {
+    "source": "top_journal",
+    "title": "Digital Heritage Conservation of Historical Villages Using UAV Photogrammetry–LiDAR Fusion and AI-Based Façade Material Analytics"
+  },
+  "doi:10.3390/agriengineering8060231": {
+    "source": "top_journal",
+    "title": "Multi-Sensor Fusion-Based Autonomous Navigation for a Tracked Agricultural Chassis in Hilly Farmland: Python and ROS/Gazebo Simulation Validation"
+  },
+  "arxiv:2606.07118": {
+    "source": "top_journal",
+    "title": "QuadVerse: An Integrated Framework Aligning Visual-Physical Reality for Quadruped Simulation"
+  },
+  "arxiv:2606.12396v1": {
+    "source": "arxiv",
+    "title": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving"
+  },
+  "arxiv:2606.12042v1": {
+    "source": "arxiv",
+    "title": "KinematicRL: A Sim-to-Real Reinforcement Learning Framework For Social Navigation With Kinodynamic Feasibility"
+  },
+  "arxiv:2606.11989v1": {
+    "source": "arxiv",
+    "title": "From Nominal Intensity to Equivalent Rainfall: A Path-Based Credibility Evaluation Framework for Simulated Rainfall in Autonomous-Driving Perception Tests"
+  },
+  "arxiv:2606.11739v1": {
+    "source": "arxiv",
+    "title": "Multi-View In-Cabin Monitoring System for Public Transport Vehicles"
+  },
+  "arxiv:2606.11507v1": {
+    "source": "arxiv",
+    "title": "SceneMiner: Identity-Preserving Multi-Task Fine-Tuning for Unified BEV Scene Mining"
+  },
+  "arxiv:2606.11390v1": {
+    "source": "arxiv",
+    "title": "A Scalable PyTorch Abstraction for Multi-GPU Gaussian Splatting"
+  },
+  "arxiv:2606.08744v2": {
+    "source": "arxiv",
+    "title": "MB-Loc: Multi-planar Bird's-eye-view Localization in outdoor LiDAR scenes"
+  },
+  "arxiv:2606.07233": {
+    "source": "top_journal",
+    "title": "Does Appearance Help? A Systematic Study of Image-Based Re-Identification in Online 3D Multi-Pedestrian Tracking"
+  },
+  "doi:10.1002/adfm.76284": {
+    "source": "top_journal",
+    "title": "Stress‐Triggered Ionic Rearrangement Produces Self‐Strengthening Eutectogels With Decoupled Mechanical Rigidity and Ionic Conductivity"
+  },
+  "doi:10.3390/dj14060345": {
+    "source": "top_journal",
+    "title": "Real-Time Markerless Tooth Detection Towards Dynamic Robot-Assisted Dental Implant Navigation"
+  },
+  "arxiv:2606.06878": {
+    "source": "top_journal",
+    "title": "A Cross-view Fusion Framework for Robust 6-DoF Grasp Pose Estimation"
+  },
+  "doi:10.1007/s11676-026-02084-1": {
+    "source": "top_journal",
+    "title": "Enhancing EOM with density-adaptive downsampling for individual tree segmentation in density-heterogeneous forest point clouds"
   }
 }
