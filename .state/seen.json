@@ -5754,5 +5754,45 @@
   "doi:10.3390/agriengineering8060228": {
     "source": "top_journal",
     "title": "Segmentation of Crop Residue Using an Open-Source Labeling Tool with U-Net and DeepLabV3"
+  },
+  "arxiv:2606.11894v2": {
+    "source": "arxiv",
+    "title": "Wild3R: Feed-Forward 3D Gaussian Splatting from Unconstrained Sparse Photo Collection"
+  },
+  "arxiv:2606.12981v1": {
+    "source": "arxiv",
+    "title": "Camera and LiDAR BEV Fusion for Cooperative 3D Object Detection on TUMTraf V2X"
+  },
+  "doi:10.1007/s00530-026-02382-y": {
+    "source": "top_journal",
+    "title": "FFA-Net: fast frequency-aware LiDAR point cloud compression for machine vision"
+  },
+  "arxiv:2606.13049v1": {
+    "source": "arxiv",
+    "title": "Y-BotFrame: An Extensible Embodied Agent Framework for Quadruped Robot Assistants"
+  },
+  "arxiv:2606.13655v1": {
+    "source": "arxiv",
+    "title": "Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction"
+  },
+  "arxiv:2606.13503v1": {
+    "source": "arxiv",
+    "title": "Heterogeneous LiDAR Early Fusion and Learned Re-Ranking Strategy for Robust Long-Term Place Recognition in Unstructured Environments"
+  },
+  "arxiv:2606.13345v1": {
+    "source": "arxiv",
+    "title": "JointEdit3D: Feed-Forward 3D Scene Editing in a Unified Latent Space"
+  },
+  "arxiv:2606.07907": {
+    "source": "top_journal",
+    "title": "3D Oral Modelling with Improved Vertex Distribution Using Matching-Based Learning"
+  },
+  "arxiv:2606.08041": {
+    "source": "top_journal",
+    "title": "Wispy to Voluminous: Prior-free Multi-view Capture of Strand-level Facial Hair"
+  },
+  "arxiv:2606.08014": {
+    "source": "top_journal",
+    "title": "GVC-Seg: Training-Free 3D Instance Segmentation via Geometric Visual Correspondence"
   }
 }
