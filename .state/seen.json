@@ -5834,5 +5834,17 @@
   "doi:10.37058/mp.v11i1.17012": {
     "source": "top_journal",
     "title": "Komparasi Pengendalian Fisik dan Kimiawi terhadap Tanah pada Agroekosistem Tanaman Padi (Oryza sativa L.)"
+  },
+  "arxiv:2606.08844": {
+    "source": "top_journal",
+    "title": "Geometry-Aware Fisheye-LiDAR Fusion for Robust 3D Object Detection in Low-Overlap Setups"
+  },
+  "doi:10.3390/jimaging12060253": {
+    "source": "top_journal",
+    "title": "3D Geometry-Aware Efficient Feature Matching for Weakly Textured Scenes"
+  },
+  "arxiv:2606.08511": {
+    "source": "top_journal",
+    "title": "Look Less, Reason More: Block-wise Attention Skipping for Efficient Multimodal LLMs"
   }
 }
