@@ -5846,5 +5846,9 @@
   "arxiv:2606.08511": {
     "source": "top_journal",
     "title": "Look Less, Reason More: Block-wise Attention Skipping for Efficient Multimodal LLMs"
+  },
+  "doi:10.63095/nbseh.26.7451298": {
+    "source": "top_journal",
+    "title": "Geological and Pedoclimatic Controls on Soil Evolution and Degradation in Humid Tropical Gabon: Insights from Ferralitic and Coastal Sedimentary Terrains"
   }
 }
