@@ -5850,5 +5850,45 @@
   "doi:10.63095/nbseh.26.7451298": {
     "source": "top_journal",
     "title": "Geological and Pedoclimatic Controls on Soil Evolution and Degradation in Humid Tropical Gabon: Insights from Ferralitic and Coastal Sedimentary Terrains"
+  },
+  "arxiv:2606.09634": {
+    "source": "top_journal",
+    "title": "ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity"
+  },
+  "doi:10.54254/2755-2721/2026.ch34219": {
+    "source": "top_journal",
+    "title": "Research on Calibration and Hardware Acceleration of Multi-Sensor Fusion Perception System in Autonomous Driving"
+  },
+  "arxiv:2606.08980": {
+    "source": "top_journal",
+    "title": "EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation"
+  },
+  "arxiv:2606.09143": {
+    "source": "top_journal",
+    "title": "CAMF-Det: Closure-Aware Multimodal Fusion for LiDAR-Camera 3D Object Detection on UAV Platforms"
+  },
+  "doi:10.1109/tvcg.2026.3700722": {
+    "source": "top_journal",
+    "title": "VidGuard3D: A Visual Risk Analysis Approach for Protecting 3D Assets Against Video-Based Reconstruction Attacks."
+  },
+  "doi:10.1111/jen.70128": {
+    "source": "top_journal",
+    "title": "Computed Tomography Based Three‐Dimensional Reconstruction of\n Semanotus bifasciatus\n Galleries: Implications for Precision Pest Management"
+  },
+  "arxiv:2606.09828": {
+    "source": "top_journal",
+    "title": "Latent Spatial Memory for Video World Models"
+  },
+  "arxiv:2606.09123": {
+    "source": "top_journal",
+    "title": "An Enhanced Geometric-Spectral Feature Learning Framework for Airborne Multispectral Point Cloud Classification"
+  },
+  "doi:10.3390/machines14060663": {
+    "source": "top_journal",
+    "title": "Automatic Recognition Technology of Welding Path for Ship Structures Based on Visual Image Recognition"
+  },
+  "arxiv:2606.09167": {
+    "source": "top_journal",
+    "title": "Vision-Language Guided Hyperspectral Object Tracking via Semantics Fusion and Contextual Template Updating"
   }
 }
