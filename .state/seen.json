@@ -6010,5 +6010,33 @@
   "arxiv:2606.13655v2": {
     "source": "arxiv",
     "title": "Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction"
+  },
+  "doi:10.3389/fmicb.2026.1842613": {
+    "source": "top_journal",
+    "title": "Synergistic effects of biochar and Bacillus subtilis on soil fertility and tobacco leaf quality in acidified soil: microbial mechanisms and multi-model evaluation"
+  },
+  "doi:10.3390/horticulturae12060712": {
+    "source": "top_journal",
+    "title": "Organic and Conventional Management Practices That Improve Soil Quality and the Yield of Theobroma cacao in the Upper Huallaga Valley (Peru)"
+  },
+  "doi:10.3897/biorisk.24.182472": {
+    "source": "top_journal",
+    "title": "Soil properties and bioavailability of heavy metals in soils of orange orchards in north-eastern Mexico"
+  },
+  "doi:10.9734/arja/2026/v19i3866": {
+    "source": "top_journal",
+    "title": "Chemical Characteristics of Peat Soil on Oil Palm (Elaeis geuineensis Jacq.) Plantations in Puan Cepak Village, Muara Kaman District, Kutai Kartanegara Regency"
+  },
+  "doi:10.1186/s12870-026-09186-2": {
+    "source": "top_journal",
+    "title": "Arbuscular mycorrhizal fungi and phosphate-solubilizing bacteria synergistically enhance growth and cadmium accumulation of hyperaccumulator Sedum plumbizincicola."
+  },
+  "doi:10.14719/pst.13510": {
+    "source": "top_journal",
+    "title": "Drivers of invasion: The spread of pink-flowered Nymphaea rubra Roxb. ex Andrews in paddy ecosystems of Kuttanad, South India"
+  },
+  "doi:10.1111/1365-2435.70375": {
+    "source": "top_journal",
+    "title": "Organ‐specific ozone and nitrogen legacies strengthen substrate control over litter decomposition"
   }
 }
