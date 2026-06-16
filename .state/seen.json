@@ -5950,5 +5950,65 @@
   "doi:10.3390/environments13060322": {
     "source": "top_journal",
     "title": "Mapping the Evolution of Peat Soil Research Toward Environmental and Climate Resilience: A Bibliometric Analysis"
+  },
+  "arxiv:2606.14389v1": {
+    "source": "arxiv",
+    "title": "MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances"
+  },
+  "arxiv:2606.15681v1": {
+    "source": "arxiv",
+    "title": "3D Consistency Optimization for Self-Supervised Monocular Video Depth Estimation"
+  },
+  "arxiv:2606.15659v1": {
+    "source": "arxiv",
+    "title": "SpatialAvatar-0: High-Quality 4D Head Avatar with Multi-Stage Reconstruction"
+  },
+  "arxiv:2606.14811v1": {
+    "source": "arxiv",
+    "title": "S23DR 2026: End-to-End 3D Wireframe Prediction via DETR-Style Set Prediction with Contrastive Denoising"
+  },
+  "arxiv:2606.15491v1": {
+    "source": "arxiv",
+    "title": "FD-SLAM: Fast Dense Radar-Inertial SLAM with Frequency-Domain Loop Closure and Pose Graph Optimization"
+  },
+  "arxiv:2606.15431v1": {
+    "source": "arxiv",
+    "title": "A Corridor-Scale CARLA-VISSIM Co-Simulation Framework for Multi-Intersection Urban Traffic"
+  },
+  "arxiv:2606.15287v1": {
+    "source": "arxiv",
+    "title": "G2IA: Geometry-Guided Instance-Aware Retrieval and Refinement for Cross-Modal Place Recognition"
+  },
+  "arxiv:2606.15010v1": {
+    "source": "arxiv",
+    "title": "LV-Calib: LiDAR-Camera Extrinsic Calibration with Boundary-Response Modeling"
+  },
+  "arxiv:2606.14699v1": {
+    "source": "arxiv",
+    "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control"
+  },
+  "arxiv:2606.14562v1": {
+    "source": "arxiv",
+    "title": "NEST3D: A High-Resolution Multimodal Dataset of Sociable Weaver Tree Nests"
+  },
+  "arxiv:2606.14344v1": {
+    "source": "arxiv",
+    "title": "More with LESS -- Local Scene Representations for Tactile Imaging"
+  },
+  "arxiv:2606.14307v1": {
+    "source": "arxiv",
+    "title": "Pano3D: Unified 3D Reconstruction and Panoptic Segmentation"
+  },
+  "arxiv:2606.14237v1": {
+    "source": "arxiv",
+    "title": "BIM-Loc: BIM-Integrated Discrepancy-Aware LiDAR-based Indoor Localization"
+  },
+  "arxiv:2606.13990v1": {
+    "source": "arxiv",
+    "title": "SplatlessDF: Continuous Distance Field Mapping with Non-Splatting Gaussians"
+  },
+  "arxiv:2606.13655v2": {
+    "source": "arxiv",
+    "title": "Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction"
   }
 }
