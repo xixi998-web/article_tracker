@@ -6038,5 +6038,117 @@
   "doi:10.1111/1365-2435.70375": {
     "source": "top_journal",
     "title": "Organ‐specific ozone and nitrogen legacies strengthen substrate control over litter decomposition"
+  },
+  "arxiv:2606.16638v1": {
+    "source": "arxiv",
+    "title": "MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods"
+  },
+  "arxiv:2606.16881v1": {
+    "source": "arxiv",
+    "title": "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM"
+  },
+  "arxiv:2606.16278v1": {
+    "source": "arxiv",
+    "title": "RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos"
+  },
+  "arxiv:2606.16048v1": {
+    "source": "arxiv",
+    "title": "PointDiffusion: Diffusion-Based Scene Completion in the Point Cloud Domain"
+  },
+  "doi:10.1145/3816072": {
+    "source": "top_journal",
+    "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting"
+  },
+  "arxiv:2606.16570v1": {
+    "source": "arxiv",
+    "title": "Automated Digital Twin Construction for Highway Scenarios Using LiDAR Point Clouds and OpenStreetMap"
+  },
+  "arxiv:2606.16566v1": {
+    "source": "arxiv",
+    "title": "Local-GS: Accelerating 3D Gaussian Splatting via Tile-Local Warp Coherence"
+  },
+  "arxiv:2606.16479v1": {
+    "source": "arxiv",
+    "title": "Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset"
+  },
+  "arxiv:2606.16474v1": {
+    "source": "arxiv",
+    "title": "MVOFormer: Flow-Semantic Transformer for Robust Monocular Visual Odometry"
+  },
+  "arxiv:2606.16232v1": {
+    "source": "arxiv",
+    "title": "PolyMerge: Compressing 3D Gaussian Splats with Polytope Coverings for Provably Safe Resource-Constrained Navigation"
+  },
+  "arxiv:2606.16168v1": {
+    "source": "arxiv",
+    "title": "Fi-Gaussian: Frequency-Aware Implicit Gaussian Splatting for Single Image Dehazing"
+  },
+  "arxiv:2606.15924v1": {
+    "source": "arxiv",
+    "title": "TurboGS: Accelerating 3D Gaussian Splatting via Error-Guided Sparse Pixel Sampling and Optimization"
+  },
+  "arxiv:2606.15848v1": {
+    "source": "arxiv",
+    "title": "EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units"
+  },
+  "doi:10.1088/2631-8695/ae7bb7": {
+    "source": "top_journal",
+    "title": "DRDR：Doubly-Robust dynamic CAD model reconstruction for point cloud scenes"
+  },
+  "arxiv:2606.16960v1": {
+    "source": "arxiv",
+    "title": "SurroundNEXO: Ego-Centric Metric Bridging for Spatially Consistent Geometry in Autonomous Driving"
+  },
+  "arxiv:2606.16354v1": {
+    "source": "arxiv",
+    "title": "GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving"
+  },
+  "arxiv:2606.16057v1": {
+    "source": "arxiv",
+    "title": "A Smart-Scheduled Hybrid (SSH) EKF-FGO State Estimation"
+  },
+  "arxiv:2606.16935v1": {
+    "source": "arxiv",
+    "title": "CrossMaps: Confidence-Aware Open-Vocabulary Semantic Mapping for Rover Navigation"
+  },
+  "arxiv:2606.16163v1": {
+    "source": "arxiv",
+    "title": "Dehaze-GaussianImage: Zero-Shot Dehazing via Efficient 2D Gaussian Splatting Representation"
+  },
+  "arxiv:2606.16159v1": {
+    "source": "arxiv",
+    "title": "Continuous Splatting meets Retinex: Continuous Gaussian Splatting and Implicit Reflectance Modeling for Low-Light Image Enhancement"
+  },
+  "arxiv:2606.15896v1": {
+    "source": "arxiv",
+    "title": "LoComposition: Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors"
+  },
+  "doi:10.3390/a19060473": {
+    "source": "top_journal",
+    "title": "A Multi-Modal Remote Sensing Image Classification Method Based on Physics-Guided Feature Decoupling and Adaptive Collaborative Fusion of HSI–LiDAR"
+  },
+  "doi:10.64898/2026.06.07.730726": {
+    "source": "top_journal",
+    "title": "Multimodal Alignment of MicroCT Imaging to Vibroacoustic Signals to Validate Soft Tissue Needle Transitions in Manduca sexta"
+  },
+  "doi:10.1177/01455613261460489": {
+    "source": "top_journal",
+    "title": "Imaging Clinic: Destructive Temporal Bone Osteomyelitis in an Infant-CT and 3D Findings."
+  },
+  "arxiv:2606.11578": {
+    "source": "top_journal",
+    "title": "Contactless 3D Human Body Measurement Using Depth Cameras for Smart Health Monitoring"
+  },
+  "doi:10.1177/09544070261457839": {
+    "source": "top_journal",
+    "title": "DSRCF: Radar-camera fusion with dynamic filtering and coupled matching for object detection across driving scenarios"
+  },
+  "doi:10.7717/peerj-cs.3843": {
+    "source": "top_journal",
+    "title": "Enhancing fake news detection in sport: a deep learning approach to reliable sport information dissemination"
+  },
+  "doi:10.1109/tnsre.2026.3702598": {
+    "source": "top_journal",
+    "title": "Compliant Magnetic Sensor Arrays Enable Real-Time Force Myogram Pattern Recognition for Dexterous Hand Control by Amputees."
   }
 }
