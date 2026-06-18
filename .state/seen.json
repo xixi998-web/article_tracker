@@ -6222,5 +6222,81 @@
   "doi:10.1093/inteam/vjag099": {
     "source": "top_journal",
     "title": "Compost from decentralized composting models used for improving soil quality and plant-rhizosphere microbial community response to salinity stress."
+  },
+  "arxiv:2606.17935v1": {
+    "source": "arxiv",
+    "title": "MoonSplat: Monocular Online Gaussian Splatting with Sim(3) Global Optimization"
+  },
+  "arxiv:2606.18153v1": {
+    "source": "arxiv",
+    "title": "Neural Tree Reconstruction for the Open Forest Observatory"
+  },
+  "arxiv:2606.17432v1": {
+    "source": "arxiv",
+    "title": "Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting"
+  },
+  "arxiv:2606.17534v1": {
+    "source": "arxiv",
+    "title": "RICH-SLAM: Radar SLAM with Incremental and Continuous Hilbert Mapping"
+  },
+  "arxiv:2606.17386v1": {
+    "source": "arxiv",
+    "title": "TerraTransfer: Learning End-to-End Driving Policies Without Expert Demonstrations"
+  },
+  "doi:10.25258/ijddt.16.52s.108": {
+    "source": "top_journal",
+    "title": "Real-Time Wireframe Pothole Detection And Avoidance System"
+  },
+  "arxiv:2606.17520v1": {
+    "source": "arxiv",
+    "title": "GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments"
+  },
+  "arxiv:2606.17936v1": {
+    "source": "arxiv",
+    "title": "SPARK: Low Latency Single-Camera 3D Pose Estimation for Autonomous Racing using Keypoints"
+  },
+  "arxiv:2606.17384v1": {
+    "source": "arxiv",
+    "title": "Improving and Evaluating Hand-Object Interaction Detection"
+  },
+  "arxiv:2606.17080v1": {
+    "source": "arxiv",
+    "title": "HRDX: A Large-Scale Vector HD-Map Dataset"
+  },
+  "arxiv:2606.18250v1": {
+    "source": "arxiv",
+    "title": "Future Dynamic 3D Reconstruction: A 3D World Model with Disentangled Ego-Motion"
+  },
+  "arxiv:2606.17998v1": {
+    "source": "arxiv",
+    "title": "AIGS-Net: Compact Illumination Field Modeling via 2D Gaussian Splatting for Fast Low-Light Image Enhancement"
+  },
+  "arxiv:2606.17985v1": {
+    "source": "arxiv",
+    "title": "Gaussian Light Field Splatting: A Physical Prior-Driven Vision Transformer for Unsupervised Low-Light Image Enhancement"
+  },
+  "arxiv:2606.17836v1": {
+    "source": "arxiv",
+    "title": "High-Fidelity 3D Geometric Reconstruction of Pelvic Organs from MRI: A Hybrid Deep Learning and Iterative Optimization Approach"
+  },
+  "arxiv:2606.17722v1": {
+    "source": "arxiv",
+    "title": "GSPan: A Continuous Gaussian Primitive Representation for Arbitrary-Scale Pansharpening"
+  },
+  "arxiv:2606.13655": {
+    "source": "top_journal",
+    "title": "Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction"
+  },
+  "doi:10.1002/dug2.70098": {
+    "source": "top_journal",
+    "title": "Investigation on tunnel stability considering pipe‐roof support with transparent soil technology"
+  },
+  "doi:10.1109/tip.2026.3700927": {
+    "source": "top_journal",
+    "title": "DRDFNet: A Degradation-Aware Restoration and Detail-Preserving Fusion Network for Infrared and Visible Image."
+  },
+  "doi:10.55041/ijcope.v2i6.123": {
+    "source": "top_journal",
+    "title": "Cropcare-RAG 2.0: A Multimodal Agricultural Advisory System Integrating Vision-Language Models with Retrieval-Augmented Generation"
   }
 }
