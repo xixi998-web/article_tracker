@@ -6366,5 +6366,125 @@
   "doi:10.20870/oeno-one.2026.60.2.9778": {
     "source": "top_journal",
     "title": "Effect of green covers and organic amendments on soil organic carbon stock in Mediterranean vineyards: A meta-analysis"
+  },
+  "arxiv:2606.18734v1": {
+    "source": "arxiv",
+    "title": "Point-Cloud-Assistant Localized Statistical Channel Prediction by Tangent Gaussian Splatting"
+  },
+  "arxiv:2606.18948v1": {
+    "source": "arxiv",
+    "title": "C-ARC: Continuous-Adaptive Range Clustering for Non-Repetitive LiDAR Sensors"
+  },
+  "arxiv:2606.20103v1": {
+    "source": "arxiv",
+    "title": "Geometry-Preserving in 3D Gaussian Splatting for LiDAR-Camera Extrinsic Calibration"
+  },
+  "arxiv:2606.19874v1": {
+    "source": "arxiv",
+    "title": "MMD-SLAM: Structure-Enhanced Multi-Meta Gaussian Distribution-Guided Visual SLAM"
+  },
+  "arxiv:2606.19156v1": {
+    "source": "arxiv",
+    "title": "Hand-4DGS: Feed-Forward 3D Gaussian Splatting for 4D Hand Reconstruction from Egocentric Videos"
+  },
+  "arxiv:2606.19019v1": {
+    "source": "arxiv",
+    "title": "FlowObject: Flow Steering for Bridging Generative Priors and Reconstruction Fidelity"
+  },
+  "arxiv:2606.19915v1": {
+    "source": "arxiv",
+    "title": "SpatialSV: Internalizing Interpretable 3D Spatial Awareness in MLLMs via Task-Oriented Visual Supervision"
+  },
+  "arxiv:2606.18952v1": {
+    "source": "arxiv",
+    "title": "SP-TransientBench: A Real-Captured Single Photon Perception Benchmark"
+  },
+  "arxiv:2606.20322v1": {
+    "source": "arxiv",
+    "title": "Towards 3D karst underwater scene reconstruction from rotating sonar data"
+  },
+  "arxiv:2606.19190v1": {
+    "source": "arxiv",
+    "title": "FAST-LIVGO: A Degeneracy-Robust LiDAR-Inertial-Visual-GNSS Fusion Odometry"
+  },
+  "arxiv:2606.19067v1": {
+    "source": "arxiv",
+    "title": "Sensor Configuration Matters: A Systematic Evaluation of Multimodal SLAM on Quadruped Robots"
+  },
+  "arxiv:2606.19908v1": {
+    "source": "arxiv",
+    "title": "Gaussian Process Prior Variational Autoencoder for Endoscopic Videos"
+  },
+  "arxiv:2606.19316v1": {
+    "source": "arxiv",
+    "title": "NeuMesh++: Towards Versatile and Efficient Volumetric Editing with Disentangled Neural Mesh-based Implicit Field"
+  },
+  "arxiv:2606.19154v1": {
+    "source": "arxiv",
+    "title": "Viking Hill Dataset: A Lidar-Radar-Camera Dataset for Detection and Segmentation in Forest Scenes"
+  },
+  "arxiv:2606.18826v1": {
+    "source": "arxiv",
+    "title": "EDoF-NeRF: extended depth-of-field neural radiance fields using a coded aperture camera"
+  },
+  "arxiv:2606.18623v1": {
+    "source": "arxiv",
+    "title": "Intrinsic 4D Gaussian Segmentation from Scene Cues"
+  },
+  "arxiv:2606.18588v1": {
+    "source": "arxiv",
+    "title": "Splaxel: Efficient Distributed Training of 3D Gaussian Splatting for Large-scale Scene Reconstruction via Pixel-level Communication"
+  },
+  "arxiv:2606.18583v1": {
+    "source": "arxiv",
+    "title": "Aerial-ground LiDAR place recognition with patch-level self-supervised learning and expanded reciprocal re-ranking"
+  },
+  "doi:10.1109/tmi.2026.3703335": {
+    "source": "top_journal",
+    "title": "Structurally-Informed 3D Gaussian Splatting for Limited-Angle CBCT."
+  },
+  "arxiv:2606.20189v1": {
+    "source": "arxiv",
+    "title": "HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-trainin"
+  },
+  "arxiv:2606.19122v1": {
+    "source": "arxiv",
+    "title": "Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning"
+  },
+  "arxiv:2606.20291v1": {
+    "source": "arxiv",
+    "title": "Integrating national forest inventory, airborne lidar, and satellite imagery for wall-to-wall mapping of forest structure with computer vision"
+  },
+  "arxiv:2606.19929v1": {
+    "source": "arxiv",
+    "title": "Motor Angular Speed Preintegration for Multirotor UAV State Estimation"
+  },
+  "arxiv:2606.19718v1": {
+    "source": "arxiv",
+    "title": "One-Shot Novel View and Pose Human Image Synthesis via 3D Prior Guided Diffusion Model"
+  },
+  "arxiv:2606.19586v1": {
+    "source": "arxiv",
+    "title": "One Demo is Worth a Thousand Trajectories: Action-View Augmentation for Visuomotor Policies"
+  },
+  "arxiv:2606.18951v2": {
+    "source": "arxiv",
+    "title": "A High-accuracy Event-based Underwater SLAM System"
+  },
+  "arxiv:2606.14307": {
+    "source": "top_journal",
+    "title": "Pano3D: Unified 3D Reconstruction and Panoptic Segmentation"
+  },
+  "doi:10.3390/app16125983": {
+    "source": "top_journal",
+    "title": "UDF-3D: Uncertainty-Driven Decision-Level Fusion for Camera–LiDAR 3D Object Detection"
+  },
+  "arxiv:2606.14534": {
+    "source": "top_journal",
+    "title": "A Lightweight Fiducial-Based Pipeline for 3D Hyperspectral Mapping of ex-vivo Lumpectomy Specimens"
+  },
+  "arxiv:2606.14562": {
+    "source": "top_journal",
+    "title": "NEST3D: A High-Resolution Multimodal Dataset of Sociable Weaver Tree Nests"
   }
 }
