@@ -6534,5 +6534,49 @@
   "doi:10.25258/ijddt.16.53s.108": {
     "source": "top_journal",
     "title": "A Comprehensive Study on the Growing Effects of Climate Change and Its Effect on Environment"
+  },
+  "arxiv:2606.20424v1": {
+    "source": "arxiv",
+    "title": "LIT-GS: LiDAR-Inertial-Thermal Gaussian Splatting for Illumination-Robust Mapping"
+  },
+  "arxiv:2606.20455v1": {
+    "source": "arxiv",
+    "title": "PCFootprint: A Large-Scale Dataset and Benchmark for Vectorized Building Footprint Extraction from Aerial LiDAR Point Clouds"
+  },
+  "arxiv:2606.20531v1": {
+    "source": "arxiv",
+    "title": "VisDom: Sparse Novel View Synthesis with Visible Domain Constraint"
+  },
+  "doi:10.3390/rs18121967": {
+    "source": "top_journal",
+    "title": "Robust Spatial Georeferencing for UAV-UGV Mobile Mapping Platforms in Urban Canyons via Asymmetric GNSS/UWB Fusion"
+  },
+  "doi:10.3390/rs18121971": {
+    "source": "top_journal",
+    "title": "Robust Multi-Sensor Point Cloud Registration for Cultural Heritage Documentation: A Multi-Population Based Differential Evolution Approach"
+  },
+  "arxiv:2606.16057v2": {
+    "source": "arxiv",
+    "title": "A Smart-Scheduled Hybrid (SSH) EKF-FGO State Estimation"
+  },
+  "doi:10.1007/s43390-026-01470-3": {
+    "source": "top_journal",
+    "title": "Transverse-plane descriptors and modifiers of the SRS-Lenke-Aubin 3D classification provide complementary and clinically informative 3D features beyond 2D assessment in Lenke 1 AIS curves."
+  },
+  "doi:10.1007/s00256-026-05264-6": {
+    "source": "top_journal",
+    "title": "Mechanical axis image quality of the EOS imaging system compared to digital radiographs."
+  },
+  "doi:10.1142/s0218001426550128": {
+    "source": "top_journal",
+    "title": "FaceNeRF--: Dynamic 3D Facial Reconstruction and Manipulation From Sequential Landmarks"
+  },
+  "arxiv:2606.15457": {
+    "source": "top_journal",
+    "title": "Lesion-DDPM: Lesion-Enhanced 3D Diffusion for MS MRI Synthesis"
+  },
+  "doi:10.1002/advs.75985": {
+    "source": "top_journal",
+    "title": "3D-Printed Magnetoelectronics for Interactive Appliances and Self-Aware 4D-Printed Mechatronics."
   }
 }
