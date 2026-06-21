@@ -6610,5 +6610,9 @@
   "doi:10.21443/3034-1434-2026-4-2-69-89": {
     "source": "top_journal",
     "title": "Carbon content and carbon stocks in terrestrial and aquatic ecosystem components of Murmansk Region, Russia, in the impact zone of JSC “Kola MMC"
+  },
+  "doi:10.3390/s26123784": {
+    "source": "top_journal",
+    "title": "3DWaFusion: Three-Dimensional Multiscale Wavelet Convolutional Neural Network for Multimodal Medical Image Fusion"
   }
 }
