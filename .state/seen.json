@@ -6646,5 +6646,41 @@
   "doi:10.31185/jwsm.651": {
     "source": "top_journal",
     "title": "Improve Heavy Metals Bioremediation in Contaminated Soils by Using Microbial Biotechnology"
+  },
+  "arxiv:2606.16638": {
+    "source": "top_journal",
+    "title": "MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods"
+  },
+  "doi:10.1109/jiot.2026.3681002": {
+    "source": "top_journal",
+    "title": "Transformer-Based Multimodal Fusion for Complex Wall Parameter Distribution Estimation"
+  },
+  "arxiv:2606.16479": {
+    "source": "top_journal",
+    "title": "Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset"
+  },
+  "doi:10.1109/lra.2026.3692083": {
+    "source": "top_journal",
+    "title": "PolyMerge: Compressing 3D Gaussian Splats With Polytope Coverings for Provably Safe Resource-Constrained Navigation"
+  },
+  "arxiv:2606.16960": {
+    "source": "top_journal",
+    "title": "SurroundNEXO: Ego-Centric Metric Bridging for Spatially Consistent Geometry in Autonomous Driving"
+  },
+  "doi:10.1007/s42452-026-09014-0": {
+    "source": "top_journal",
+    "title": "Construction of 3D model reconstruction and design optimization evaluation system of artworks based on multimodal neural network and image recognition"
+  },
+  "doi:10.51875/islamictexts.v2i1.1193": {
+    "source": "top_journal",
+    "title": "Intertekstualitas dan Rekonstruksi Makna: Membaca Identitas dan Misi Nabi Isa dalam Dialektika Al-Qur’an dan Injil"
+  },
+  "arxiv:2606.16163": {
+    "source": "top_journal",
+    "title": "Dehaze-GaussianImage: Zero-Shot Dehazing via Efficient 2D Gaussian Splatting Representation"
+  },
+  "doi:10.64898/2026.06.08.730830": {
+    "source": "top_journal",
+    "title": "Cross-cue reconstruction of perceived 3D object structure from human visual cortex"
   }
 }
