@@ -6802,5 +6802,29 @@
   "doi:10.1039/d6dt00487c": {
     "source": "top_journal",
     "title": "Amino-functionalized SiC electrodes for highly sensitive simultaneous detection of Pb2+, Cd2+, Cu2+, and Hg2."
+  },
+  "doi:10.1109/tip.2026.3702347": {
+    "source": "top_journal",
+    "title": "Slide Deformable Transformer for High-Precision LiDAR Point Cloud Compression."
+  },
+  "doi:10.1109/tvcg.2026.3704007": {
+    "source": "top_journal",
+    "title": "SketchBodyNet++: Sketch-Based 3D Human Mesh Reconstruction Via Hybrid Parametric Networks."
+  },
+  "doi:10.3390/electronics15122672": {
+    "source": "top_journal",
+    "title": "FDARC: Frequency-Aware and Depth Association Radar–Camera Fusion"
+  },
+  "doi:10.3390/s26123836": {
+    "source": "top_journal",
+    "title": "Semi-Supervised Traffic Sign Detection with Dynamic Pseudo-Label Selection and Gated Feature Fusion-Based Proposal Refinement"
+  },
+  "doi:10.29121/shodhai.v3.i1.2026.83": {
+    "source": "top_journal",
+    "title": "HYBRID NEURAL-SYMBOLIC SYSTEMS: INTEGRATING KNOWLEDGE REPRESENTATION AND DEEP LEARNING FOR COMPLEX PROBLEM SOLVING"
+  },
+  "doi:10.57612/js26.jts.05.06": {
+    "source": "top_journal",
+    "title": "Tai Chi for Space: A Regulatory Countermeasure Framework for Human Adaptation to Altered Gravity"
   }
 }
