@@ -6870,5 +6870,125 @@
   "doi:10.3390/app16126104": {
     "source": "top_journal",
     "title": "Managing Post-Phytoremediation Biomass Within a Circular Economy Framework: Multitrophic Ecotoxicological Assessment of Biomass, Derived Biochar and Their Leachable Fractions"
+  },
+  "arxiv:2606.22091v1": {
+    "source": "arxiv",
+    "title": "ACEsplat: Accelerated 3D Gaussian Scene Regression via RGB and Poses Only"
+  },
+  "arxiv:2606.21898v1": {
+    "source": "arxiv",
+    "title": "Mesh2GS: White-Box 3DGS Construction via Plenoptic Sampling"
+  },
+  "arxiv:2606.23031v1": {
+    "source": "arxiv",
+    "title": "DrivingVoxels: Compositional Sparse Voxel Rasterization for Dynamic Driving Scene Reconstruction"
+  },
+  "arxiv:2606.21258v1": {
+    "source": "arxiv",
+    "title": "Spectral GS-SLAM: Observability-Aware, Degeneracy-Robust Tracking for Real-Time 3D Gaussian Splatting SLAM"
+  },
+  "arxiv:2606.23688v1": {
+    "source": "arxiv",
+    "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild"
+  },
+  "arxiv:2606.23212v1": {
+    "source": "arxiv",
+    "title": "Temporally Aware Densification for Dynamic 3D Gaussian Splatting"
+  },
+  "arxiv:2606.21527v1": {
+    "source": "arxiv",
+    "title": "LOGOS: LiDAR-Only Gaussian Elevation Splatting for Unified Tiny Obstacle Segmentation"
+  },
+  "arxiv:2606.23455v1": {
+    "source": "arxiv",
+    "title": "MeGAS: Thermomechanical Dynamic Gaussian Splatting for Thermophysical Scene Editing"
+  },
+  "arxiv:2606.23152v1": {
+    "source": "arxiv",
+    "title": "ShotcreteDepth: A Bi-modal Dataset for Robust Robotic Depth Perception in Shotcrete Construction Environments"
+  },
+  "arxiv:2606.22051v1": {
+    "source": "arxiv",
+    "title": "GeoFlow-SLAM++: A Robust Multi-Camera Visual-Inertial SLAM System with Relocalization"
+  },
+  "doi:10.3390/s26123847": {
+    "source": "top_journal",
+    "title": "NeRF-Based Three-Dimensional Reconstruction for Large-Diameter Rescue Shafts"
+  },
+  "arxiv:2606.22856v1": {
+    "source": "arxiv",
+    "title": "G-MASt3R-SfM: Graph-based View Pruning and Multi-stage Optimization for Robust SfM"
+  },
+  "arxiv:2606.22525v1": {
+    "source": "arxiv",
+    "title": "Projection-Volume Fidelity Divergence: Diagnosing and Controlling Optimization Drift in Sparse-View 3D Gaussian Tomography"
+  },
+  "arxiv:2606.21223v1": {
+    "source": "arxiv",
+    "title": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems"
+  },
+  "arxiv:2606.22787v1": {
+    "source": "arxiv",
+    "title": "Visual Geometry Transformer in the Wild: Distractor-Free 3D Reconstruction"
+  },
+  "arxiv:2606.22481v1": {
+    "source": "arxiv",
+    "title": "Lighting-Consistent Object Transfer Across Radiance Fields"
+  },
+  "arxiv:2606.22197v1": {
+    "source": "arxiv",
+    "title": "Multi4D: High-Fidelity Dynamic Gaussian Splatting via Multi-Level Competitive Allocation"
+  },
+  "arxiv:2606.21753v1": {
+    "source": "arxiv",
+    "title": "Scene-Level Heterogeneous Physics Simulation with 3D Gaussian Splats"
+  },
+  "arxiv:2606.21244v1": {
+    "source": "arxiv",
+    "title": "ACE-GS: Acing the Trade-off with Accurate, Compact and Efficient 3D Gaussian Splatting"
+  },
+  "arxiv:2606.20842v1": {
+    "source": "arxiv",
+    "title": "From Uncertainty to Stability and Fidelity: Guiding Sparse-View 3D Gaussian Splatting with Fisher Information"
+  },
+  "doi:10.1007/s00371-026-04531-w": {
+    "source": "top_journal",
+    "title": "Frequency-aware optimization for floating artifact removal in 3D Gaussian splatting"
+  },
+  "arxiv:2606.23046v1": {
+    "source": "arxiv",
+    "title": "UECP: Uncertainty-Enhanced Collaborative Perception"
+  },
+  "arxiv:2606.22756v1": {
+    "source": "arxiv",
+    "title": "HERCULES: An Open-Source Simulation Framework for Heterogeneous Multi-Robot SLAM, Collaborative Perception, and Exploration"
+  },
+  "arxiv:2606.20189v2": {
+    "source": "arxiv",
+    "title": "HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training"
+  },
+  "arxiv:2606.20755v1": {
+    "source": "arxiv",
+    "title": "UNSEEN: Uncertainty-aware Navigation via Sparse Estimation in Unknown Environments"
+  },
+  "arxiv:2606.23027v1": {
+    "source": "arxiv",
+    "title": "Learning Stable Canonical Worlds for Novel View Synthesis and Beyond"
+  },
+  "arxiv:2606.22363v1": {
+    "source": "arxiv",
+    "title": "Reference-Free Assessment of Physical Consistency in World Model-based Video Generation"
+  },
+  "arxiv:2606.22182v1": {
+    "source": "arxiv",
+    "title": "Dual-Stream EEG Decoding for 3D Visual Perception"
+  },
+  "arxiv:2606.21501v1": {
+    "source": "arxiv",
+    "title": "UniviewVLA: A Unified Multiview Vision-Language-Action Model with World Modeling"
+  },
+  "arxiv:2606.21027v1": {
+    "source": "arxiv",
+    "title": "Self-Supervised Dual-Frequency Phase Decomposition for Single-Shot Composite Fringe Projection Profilometry"
   }
 }
