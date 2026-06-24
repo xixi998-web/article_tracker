@@ -6990,5 +6990,81 @@
   "arxiv:2606.21027v1": {
     "source": "arxiv",
     "title": "Self-Supervised Dual-Frequency Phase Decomposition for Single-Shot Composite Fringe Projection Profilometry"
+  },
+  "doi:10.3389/fpls.2026.1873995": {
+    "source": "top_journal",
+    "title": "Nano-zeolite-coupled biochar-based phosphorus fertilizer enhances soil phosphorus availability and leaf phosphorus concentration in Moso bamboo forests"
+  },
+  "doi:10.1038/s41598-026-57048-6": {
+    "source": "top_journal",
+    "title": "Response of maize varieties to soil acidity under field conditions in Western Ethiopia."
+  },
+  "doi:10.3390/agronomy16121178": {
+    "source": "top_journal",
+    "title": "Effects of Biochar Application on Potassium Fractions in Rhizosphere Soil and Maize Growth"
+  },
+  "doi:10.1016/j.jhazmat.2026.142734": {
+    "source": "top_journal",
+    "title": "Fe/Mg-LDH modified biochar for heavy metal soil remediation: Effects on microbial community structure and metabolic activity."
+  },
+  "doi:10.1007/s42773-026-00623-x": {
+    "source": "top_journal",
+    "title": "Biochar application rates regulate soil nutrient availability: evidence from an 8-year field study across two soils"
+  },
+  "doi:10.3389/fagro.2026.1820790": {
+    "source": "top_journal",
+    "title": "Comparative analysis of soil physicochemical properties under Melia composita- and Populus deltoides-based agroforestry systems and monoculture cropping"
+  },
+  "doi:10.3389/fpls.2026.1846452": {
+    "source": "top_journal",
+    "title": "Replacing nitrogen fertilizer with organic alternatives changes the soil microbial community diversity in Northwest China’s arid farmland, leading to increased potato yields"
+  },
+  "doi:10.1016/j.ecoenv.2026.120363": {
+    "source": "top_journal",
+    "title": "Combined organic amendments reduce Cd accumulation in double-cropping rice by restructuring soil bacterial communities."
+  },
+  "doi:10.3389/fpls.2026.1858611": {
+    "source": "top_journal",
+    "title": "Effect of partial substitution of chemical fertilizer with organic manure combined with biochar on lettuce yield, soil properties and leaf metabolism"
+  },
+  "doi:10.1016/j.ecoenv.2026.120390": {
+    "source": "top_journal",
+    "title": "Correlation analysis of lead stress-induced alterations in root metabolome and rhizosphere microbiome of Cuminum cyminum L."
+  },
+  "doi:10.1186/s40793-026-00916-5": {
+    "source": "top_journal",
+    "title": "Season and soil properties structure bacterial communities in hyperacid (pH ≤ 2) fumarolic soils of the Tatun Volcanic Group."
+  },
+  "doi:10.1186/s12870-026-09264-5": {
+    "source": "top_journal",
+    "title": "Unlocking organic phosphorus and carbon in soil aggregates under long-term P and manure inputs."
+  },
+  "doi:10.3389/frsen.2026.1770166": {
+    "source": "top_journal",
+    "title": "Using non-vegetated soil mosaics for soil property modelling to compare Google Earth Engine and THEIA platforms across Sminja Plain, Tunisia"
+  },
+  "doi:10.56919/usci.2652.024": {
+    "source": "top_journal",
+    "title": "Impact of Municipal Solid Waste Compost on Soil Quality in Peri-Urban Farmlands of Katsina State, Nigeria"
+  },
+  "doi:10.38124/ijisrt/26mar2045": {
+    "source": "top_journal",
+    "title": "Assessment of Hazards Associated with Siting a Smelting Industry in a Community and the Effects of Emitting Pollutant on the Host and Neighboring Communities; Jimba Oja. (ARMTI), and (NCAM), Ilorin Nigeria"
+  },
+  "doi:10.37657/vniipo.pb.2026.123.2.006": {
+    "source": "top_journal",
+    "title": "Коррозионная активность газовых огнетушащих веществ с коротким временем жизни в атмосфере при хранении"
+  },
+  "doi:10.1186/s12302-026-01438-0": {
+    "source": "top_journal",
+    "title": "Precision zoning and dominant factor identification of soil lead using a geographical pattern interaction model and POI data"
+  },
+  "doi:10.1186/s12864-026-13037-7": {
+    "source": "top_journal",
+    "title": "Mining the Galium aparine L. microbiome: genome-guided discovery and experimental validation of metallophore-producing endophytic bacteria."
+  },
+  "doi:10.1128/spectrum.01081-26": {
+    "source": "top_journal",
+    "title": "A study on cadmium immobilization by bacterial consortia: Achromobacter insuavis SL8 and Enterobacter cancerogenus SL12."
   }
 }
