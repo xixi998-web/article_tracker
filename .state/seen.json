@@ -7066,5 +7066,101 @@
   "doi:10.1128/spectrum.01081-26": {
     "source": "top_journal",
     "title": "A study on cadmium immobilization by bacterial consortia: Achromobacter insuavis SL8 and Enterobacter cancerogenus SL12."
+  },
+  "arxiv:2606.24301v1": {
+    "source": "arxiv",
+    "title": "MM-TRELLIS: Point-Cloud Guided Multi-Modal 3D Vehicle Generation in Autonomous Driving"
+  },
+  "arxiv:2606.24796v1": {
+    "source": "arxiv",
+    "title": "Pocket-SLAM: Rendering-Area-Aware Pruning for Memory-Efficient 3DGS-SLAM"
+  },
+  "arxiv:2606.24799v1": {
+    "source": "arxiv",
+    "title": "OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis"
+  },
+  "arxiv:2606.24257v1": {
+    "source": "arxiv",
+    "title": "3DCarGen: Scalable 3D Car Generation via 3D-consistent Multi-view Synthesis"
+  },
+  "doi:10.1088/1361-6501/ae7f41": {
+    "source": "top_journal",
+    "title": "SOAR-3D: A fusion method of 3D target model and 2D thermal image"
+  },
+  "doi:10.1111/cgf.70508": {
+    "source": "top_journal",
+    "title": "SD‐4DGS: Reconstructing Dynamic Scenes From Monocular Video via Spatial Densification of 4D Gaussians"
+  },
+  "arxiv:2606.24874v1": {
+    "source": "arxiv",
+    "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation"
+  },
+  "arxiv:2606.24144v1": {
+    "source": "arxiv",
+    "title": "Geometry-Aware Style Transfer in 3D Gaussian Splatting"
+  },
+  "doi:10.3390/s26123876": {
+    "source": "top_journal",
+    "title": "3D Localization of Heat Sources Using LiDAR–Thermal Data Fusion and Multisensor Calibration"
+  },
+  "arxiv:2606.24628v1": {
+    "source": "arxiv",
+    "title": "ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos"
+  },
+  "arxiv:2606.24361v1": {
+    "source": "arxiv",
+    "title": "SignNet-1M: Large-Scale Multilingual Sign Language Video Dataset with Downstream Benchmarks"
+  },
+  "arxiv:2606.24353v1": {
+    "source": "arxiv",
+    "title": "Open-Vocabulary BEV Segmentation with 3D-Aware Geometric Constraints"
+  },
+  "arxiv:2606.24282v1": {
+    "source": "arxiv",
+    "title": "UniRED: Unified RGB-D Video Frame Interpolation with Event Guidance"
+  },
+  "arxiv:2606.20189v3": {
+    "source": "arxiv",
+    "title": "HilDA: Hierarchical Distillation with Diffusion for Advancing Self-Supervised LiDAR Pre-training"
+  },
+  "arxiv:2606.24829v1": {
+    "source": "arxiv",
+    "title": "GeoT2V-Bench: Benchmarking 3D Consistency in Text-to-Video Models via 3D Reconstruction"
+  },
+  "arxiv:2606.24814v1": {
+    "source": "arxiv",
+    "title": "Vision-Language Model Reasoning for Contextual Semantic Mapping in Intralogistics"
+  },
+  "arxiv:2606.24786v1": {
+    "source": "arxiv",
+    "title": "Counting Trees from Satellite Imagery with Noisy Supervision"
+  },
+  "arxiv:2606.24489v1": {
+    "source": "arxiv",
+    "title": "Decentralized Pose Graph Riemannian Optimization for Object-based Multi-Robot SLAM"
+  },
+  "arxiv:2606.23978v1": {
+    "source": "arxiv",
+    "title": "Offline Reinforcement Learning for Warehouse SLAM Throughput Control"
+  },
+  "arxiv:2606.20752v1": {
+    "source": "arxiv",
+    "title": "Mirage: a Clean-Label Backdoor against LiDAR 3D Object Detection"
+  },
+  "doi:10.1038/s41598-026-56801-1": {
+    "source": "top_journal",
+    "title": "An in situ non-contact 3D microscopic measurement system for temporal bone anatomy based on stereo imaging."
+  },
+  "doi:10.1007/s12518-026-00761-8": {
+    "source": "top_journal",
+    "title": "LOD-2 roof models reconstruction assisted by topological constraints using UAV point cloud"
+  },
+  "doi:10.1016/j.media.2026.104157": {
+    "source": "top_journal",
+    "title": "Reconstructing shared visual experiences from human brain activity across individuals."
+  },
+  "doi:10.5204/mcj.3280": {
+    "source": "top_journal",
+    "title": "Two Logics of Memory"
   }
 }
