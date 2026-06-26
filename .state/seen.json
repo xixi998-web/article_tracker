@@ -7234,5 +7234,81 @@
   "doi:10.1016/j.jenvman.2026.130252": {
     "source": "top_journal",
     "title": "Firm-level nature dependence and access to bank credit."
+  },
+  "arxiv:2606.25427v1": {
+    "source": "arxiv",
+    "title": "Gastroendoscopy View Synthesis: A New Real Dataset and Evaluation"
+  },
+  "doi:10.3390/info17060611": {
+    "source": "top_journal",
+    "title": "Research on Spanning Tree Topology Optimization and Pyramid-Based Fine Alignment Algorithm for Multi-View Point Cloud Registration"
+  },
+  "arxiv:2606.25953v1": {
+    "source": "arxiv",
+    "title": "DSP-SLAM++: A Unified Framework for Multi-Class, High-Fidelity Object SLAM in the Wild"
+  },
+  "arxiv:2606.22051v2": {
+    "source": "arxiv",
+    "title": "GeoFlow-SLAM++: A Robust Multi-Camera Visual-Inertial SLAM System with Relocalization"
+  },
+  "arxiv:2606.25245v1": {
+    "source": "arxiv",
+    "title": "OrthoTrack: Continuous 6-DoF UAV Trajectory Estimation Anchored in Public Orthophotos"
+  },
+  "doi:10.1038/s41598-026-55054-2": {
+    "source": "top_journal",
+    "title": "Visibility-aware Fisher information optimization for optimal fiducial marker deployment in complex indoor environments."
+  },
+  "arxiv:2606.26010v1": {
+    "source": "arxiv",
+    "title": "FAR-LIO: Enabling High-Speed Autonomy through Fast, Accurate, and Robust LiDAR-Inertial Odometry"
+  },
+  "arxiv:2606.25699v1": {
+    "source": "arxiv",
+    "title": "SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling"
+  },
+  "arxiv:2606.26046v1": {
+    "source": "arxiv",
+    "title": "RoboAtlas: Contextual Active SLAM"
+  },
+  "arxiv:2606.25652v1": {
+    "source": "arxiv",
+    "title": "Auto-Labelling-Based Domain Transfer for 3D Object Detection on a Bicycle-Mounted LiDAR Platform"
+  },
+  "arxiv:2606.25430v1": {
+    "source": "arxiv",
+    "title": "PRISM: Feed-Forward Single-Image 3D Reconstruction via Geometric Warp-Residual Modeling"
+  },
+  "arxiv:2606.25829v1": {
+    "source": "arxiv",
+    "title": "Beyond a Shadow of a Doubt: Close Proximity Geometry Reconstruction Using FMCW Radar Shadow Effects"
+  },
+  "arxiv:2606.25796v1": {
+    "source": "arxiv",
+    "title": "MIL-LC: A Robust Magnetometer-Inertial-LiDAR Fusion Multimodal Localization Framework"
+  },
+  "arxiv:2606.25393v1": {
+    "source": "arxiv",
+    "title": "Large-Scale Tunnel Air--Ground Collaboration With FLISP: Fast LiDAR-IMU Synchronized Path Planne"
+  },
+  "arxiv:2606.25386v1": {
+    "source": "arxiv",
+    "title": "Commerge: Communication-Efficient, Robust, and Fast LiDAR Map Merging Framework for Multi-Robot Coordination in Resource-Constrained Scenarios"
+  },
+  "arxiv:2606.25284v1": {
+    "source": "arxiv",
+    "title": "Evaluation Protocols and Validation for Cameras in Indoor Healthcare Monitoring"
+  },
+  "doi:10.3390/drones10060470": {
+    "source": "top_journal",
+    "title": "Research on Multi-Source Heterogeneous Collaborative Perception System Based on Unmanned Aerial Vehicle and Unmanned Ground Vehicle"
+  },
+  "doi:10.1016/j.bioadv.2026.215022": {
+    "source": "top_journal",
+    "title": "Impact of silk-derived sericin on the formation and metformin sensitivity of breast cancer-fibroblast heterotypic spheroids."
+  },
+  "doi:10.1186/s40658-026-00898-w": {
+    "source": "top_journal",
+    "title": "Denoising of 4D dynamic PET images using spatiotemporal regularization with integrated temporal restoration (SPRINTER)."
   }
 }
