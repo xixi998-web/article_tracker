@@ -7362,5 +7362,57 @@
   "doi:10.5194/acp-26-8601-2026": {
     "source": "top_journal",
     "title": "Global methane emission estimates from a dual-isotope inversion: new constraints from\n δ\n D-CH\n 4"
+  },
+  "arxiv:2606.27223v1": {
+    "source": "arxiv",
+    "title": "SatSplatDiff: Geometry-preserving generative refinement for high-fidelity satellite Gaussian Splatting"
+  },
+  "arxiv:2606.27071v1": {
+    "source": "arxiv",
+    "title": "PanoImager: Geometry-Guided Novel View Synthesis and Reconstruction from Sparse Panoramic Views"
+  },
+  "arxiv:2606.26236v1": {
+    "source": "arxiv",
+    "title": "Rendering Novel Views of MRI Using 3D Gaussian Splatting"
+  },
+  "arxiv:2606.27317v1": {
+    "source": "arxiv",
+    "title": "OctoSense: Self-Supervised Learning for Multimodal Robot Perception"
+  },
+  "arxiv:2606.27305v1": {
+    "source": "arxiv",
+    "title": "Sculpting NeRF Geometry: Human-Preference Fine-Tuning of a 3D-Aware Face GAN"
+  },
+  "arxiv:2606.26754v1": {
+    "source": "arxiv",
+    "title": "Capacity-Controlled Multi-View Stylization of 3D Gaussian Splatting"
+  },
+  "doi:10.20965/jrm.2026.p0953": {
+    "source": "top_journal",
+    "title": "Cross-Day Grape Cluster Tracking Using Branch-Based 3D Alignment in Vineyards"
+  },
+  "arxiv:2606.27345v1": {
+    "source": "arxiv",
+    "title": "RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation"
+  },
+  "arxiv:2606.26194v1": {
+    "source": "arxiv",
+    "title": "Self-Supervised Tree-level Biomass Estimation in Urban Environments From Airborne LiDAR and Optical Observations"
+  },
+  "arxiv:2606.25393v2": {
+    "source": "arxiv",
+    "title": "Large-Scale Tunnel Air-Ground Collaboration With FLISP: Fast LiDAR-IMU Synchronized Path Planner"
+  },
+  "arxiv:2606.24786v2": {
+    "source": "arxiv",
+    "title": "Counting Trees from Satellite Imagery with Noisy Supervision"
+  },
+  "arxiv:2606.26151v1": {
+    "source": "arxiv",
+    "title": "Unsupervised Memory-Enhanced Video Transformers: Obstacle Detection for Autonomous Agricultural Rover"
+  },
+  "arxiv:2606.23027v2": {
+    "source": "arxiv",
+    "title": "Learning Stable Canonical Worlds for Novel View Synthesis and Beyond"
   }
 }
