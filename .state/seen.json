@@ -7414,5 +7414,61 @@
   "arxiv:2606.23027v2": {
     "source": "arxiv",
     "title": "Learning Stable Canonical Worlds for Novel View Synthesis and Beyond"
+  },
+  "doi:10.1002/app.71049": {
+    "source": "top_journal",
+    "title": "Solidification/Stabilization of Composite Heavy Metal‐Contaminated Soil by Red Mud‐Slag‐Based Geopolymer"
+  },
+  "doi:10.1016/j.ecoenv.2026.120395": {
+    "source": "top_journal",
+    "title": "Zeolite-AMF application enhances wheat productivity, cadmium immobilization, and saline soil health under Cd-contaminated wastewater irrigation."
+  },
+  "doi:10.1093/etojnl/vgag133": {
+    "source": "top_journal",
+    "title": "Machine learning-based modeling of pharmaceutical sorption in soils: Integrating conformal prediction and Shapley additive explanations analysis for robust risk assessment."
+  },
+  "doi:10.1016/j.ecoenv.2026.120394": {
+    "source": "top_journal",
+    "title": "Soil amendment ameliorating health of degraded soils affected by heavy metals and acidification: New insights from highly active silicon."
+  },
+  "doi:10.3390/microorganisms14061369": {
+    "source": "top_journal",
+    "title": "Variation in Soil Microbial Communities Across Plantation Types in the Yellow River Floodplain of Western Shandong, China"
+  },
+  "doi:10.1007/s44378-026-00262-5": {
+    "source": "top_journal",
+    "title": "Spatial analysis of agro-climatic land suitability for banana plants in Goalpara district, Assam, North East India"
+  },
+  "doi:10.3390/toxics14060532": {
+    "source": "top_journal",
+    "title": "Spatial Distribution, Risk Assessment, and Source Apportionment of Heavy Metals in Soils from the Sorghum Cultivation Base in the Chishui River Basin, China."
+  },
+  "doi:10.1007/s00374-026-02030-7": {
+    "source": "top_journal",
+    "title": "Rock-enhanced biochar exhibits similar priming effect as pure biochar application while improving short-term carbon stabilization in agricultural soils"
+  },
+  "doi:10.1038/s41598-026-58699-1": {
+    "source": "top_journal",
+    "title": "Pyrite-assisted mechanochemical leaching of chalcopyrite concentrate in sulfuric acid under non-oxidative conditions."
+  },
+  "doi:10.3390/biology15120969": {
+    "source": "top_journal",
+    "title": "Soil Bacterial Community Structure and Functional Potential in the Caspian Drylands of Western Kazakhstan."
+  },
+  "doi:10.1016/j.jenvman.2026.130269": {
+    "source": "top_journal",
+    "title": "Deciphering the microbial and physicochemical pathways of biochar-based fertilizer in driving resource-use efficiency: A comparative study of two contrasting acidic soils."
+  },
+  "doi:10.1007/s11270-026-09677-w": {
+    "source": "top_journal",
+    "title": "Comprehensive Approaches to Mitigating Heavy Metals and Metalloids Contamination: Plant Mechanisms, Biotechnological Advances, and Strategic Interventions"
+  },
+  "doi:10.1007/s11356-026-37942-2": {
+    "source": "top_journal",
+    "title": "Hydrocarbon and heavy metal pollution in Antarctica: ecological impacts and remediation strategies."
+  },
+  "doi:10.1186/s12870-026-09294-z": {
+    "source": "top_journal",
+    "title": "Stage-specific rhizosphere microbial succession is associated with nutrient cycling in the desert plant Leymus racemosus (Lam.) tzvelev."
   }
 }
