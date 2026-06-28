@@ -7470,5 +7470,25 @@
   "doi:10.1186/s12870-026-09294-z": {
     "source": "top_journal",
     "title": "Stage-specific rhizosphere microbial succession is associated with nutrient cycling in the desert plant Leymus racemosus (Lam.) tzvelev."
+  },
+  "doi:10.3390/rs18122049": {
+    "source": "top_journal",
+    "title": "Fusion of RGB and LiDAR Modalities for Building Footprint Extraction Using High-Resolution Aerial Imagery"
+  },
+  "doi:10.3390/photonics13060601": {
+    "source": "top_journal",
+    "title": "CVA-Net: Multi-View 3D Reconstruction for Fringe Projection Profilometry via Cross-View Attention and Sim2Real Learning"
+  },
+  "doi:10.3390/rs18122050": {
+    "source": "top_journal",
+    "title": "V3Reg: Model Integrating Visual Information for Extreme Low Overlap Point Cloud Registration"
+  },
+  "doi:10.1038/s41598-026-58323-2": {
+    "source": "top_journal",
+    "title": "3D perception algorithm of unstructured environment based on point cloud enhanced pixel fusion."
+  },
+  "doi:10.1038/s41746-026-02924-8": {
+    "source": "top_journal",
+    "title": "Voice-controlled super-resolution ultrasound imaging and reporting powered by multimodal large language models."
   }
 }
