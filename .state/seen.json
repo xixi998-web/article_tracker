@@ -7590,5 +7590,73 @@
   "doi:10.3390/toxics14060539": {
     "source": "top_journal",
     "title": "Heavy Metal(loid) Pollution Characteristics and Risk Assessment in the Water-Soil-Vegetable System of a Watershed in Southwest China."
+  },
+  "arxiv:2606.27509v1": {
+    "source": "arxiv",
+    "title": "Structured-Li-GS: Structured 3D Gaussians Splatting with LiDAR Incorporation and Spatial Constraints"
+  },
+  "doi:10.64898/2026.06.17.732938": {
+    "source": "top_journal",
+    "title": "Self-Calibrated Hyperspectral Neural Radiance Fields for 3D Reconstruction of Bone and Bone Analogues"
+  },
+  "arxiv:2606.28321v1": {
+    "source": "arxiv",
+    "title": "StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views"
+  },
+  "arxiv:2606.27811v1": {
+    "source": "arxiv",
+    "title": "LXD-SLAM: LiDAR+X Dense SLAM with $\\sum_{i=0}^{5}C_5^i$ Configurable Sensor Combinations"
+  },
+  "arxiv:2606.27491v1": {
+    "source": "arxiv",
+    "title": "SelectAnyTree: A Promptable Instance Segmentation Model for 3D Forest LiDAR Point Clouds"
+  },
+  "arxiv:2606.24628": {
+    "source": "top_journal",
+    "title": "ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos"
+  },
+  "arxiv:2606.24232": {
+    "source": "top_journal",
+    "title": "FiCA: Feed-forward instant Gaussian Codec Avatars from a Single Portrait Image"
+  },
+  "arxiv:2606.27862v1": {
+    "source": "arxiv",
+    "title": "ScaLe-INR: Scale and Learn Implicit Neural Representations"
+  },
+  "arxiv:2606.27729v1": {
+    "source": "arxiv",
+    "title": "Learning 1-Bit LiDAR-based Localization with Auxiliary Objective"
+  },
+  "arxiv:2606.27720v1": {
+    "source": "arxiv",
+    "title": "Scene and Human in One World: Reconstruction in a Feedforward Pass"
+  },
+  "arxiv:2606.27659v1": {
+    "source": "arxiv",
+    "title": "GeoFace: Consistent Multi-View Face Generation with Geometry-Constrained Diffusion"
+  },
+  "arxiv:2606.27584v1": {
+    "source": "arxiv",
+    "title": "CoIn: Comprehensive 2D-3D Inpainting with Gaussian Splatting Guidance"
+  },
+  "arxiv:2606.27444v1": {
+    "source": "arxiv",
+    "title": "SemCityLoc: Aerial 6DoF Localization Using Semantic 3D City Models"
+  },
+  "arxiv:2606.27345v2": {
+    "source": "arxiv",
+    "title": "RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation"
+  },
+  "doi:10.1038/s41598-026-55770-9": {
+    "source": "top_journal",
+    "title": "Self-supervised cross frame-rate event-frame depth learning without ground truth."
+  },
+  "arxiv:2606.24214": {
+    "source": "top_journal",
+    "title": "MorVess: Morphology-Aware Pulmonary Vessel Segmentation Network"
+  },
+  "doi:10.1016/j.plantsci.2026.113297": {
+    "source": "top_journal",
+    "title": "Digital dimension of plant science research: A bird's eye view of AI integration."
   }
 }
