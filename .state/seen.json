@@ -7846,5 +7846,73 @@
   "arxiv:2606.29494v1": {
     "source": "arxiv",
     "title": "VCS-SLAM: Geometry-Validated Semantic Evidence Fusion for 3D Gaussian SLAM"
+  },
+  "doi:10.1186/s13765-026-01103-3": {
+    "source": "top_journal",
+    "title": "Evaluation of agricultural potential of chicken manure biochar: growth and nitrogen use efficiency of kimchi cabbage and N2O emissions of upland soil"
+  },
+  "doi:10.1007/s44279-026-00694-1": {
+    "source": "top_journal",
+    "title": "Effects of biochar produced from different feedstocks and organic fertilizers on soil properties and maize (Zea mays L.) production in the northern part of Rwanda"
+  },
+  "doi:10.61308/fwjz2939": {
+    "source": "top_journal",
+    "title": "Soil Acidity Regime of the Lankaran-Astara Region and Its Impact on Vegetation"
+  },
+  "doi:10.66914/redqee42": {
+    "source": "top_journal",
+    "title": "Penentuan Karakteristik Tanah Secara Kualitatif di Lapangan Kampus Sekolah Vokasi IPB"
+  },
+  "doi:10.1038/s41467-026-74876-2": {
+    "source": "top_journal",
+    "title": "Divergent responses of soil organic and inorganic carbon driven by land use during coastal reclamation."
+  },
+  "doi:10.36378/jtos.v9i1.5760": {
+    "source": "top_journal",
+    "title": "An IoT-Based Model for Monitoring Soil pH, Temperature, and Moisture to Support Precision Agriculture"
+  },
+  "doi:10.3390/plants15131940": {
+    "source": "top_journal",
+    "title": "Potential of Carbon Sequestration in Biominerals of Buglossoides arvensis (L.) I.M. Johnst. Fruits Under Contrasting Soil Calcium Content"
+  },
+  "doi:10.3389/fmicb.2026.1866391": {
+    "source": "top_journal",
+    "title": "Viral pathogen infection drives deterministic assembly of plant endophytic microbiomes: soil properties as divergent drivers and low-abundance taxa as primary responders"
+  },
+  "doi:10.5194/amt-19-4049-2026": {
+    "source": "top_journal",
+    "title": "Towards automated near-real-time global monitoring of atmospheric SO\n 2\n plumes from satellite data using U-Net segmentation"
+  },
+  "doi:10.1016/j.jenvman.2026.130296": {
+    "source": "top_journal",
+    "title": "Artificial grassland establishment alters soil metabolomes by reshaping multi-domain microbial networks."
+  },
+  "doi:10.1007/s44307-026-00114-x": {
+    "source": "top_journal",
+    "title": "Bio-effects of engineering nanomaterials NiFe-based LDHs on ryegrass-soil system"
+  },
+  "doi:10.52589/ajensr-9cdd1fd5": {
+    "source": "top_journal",
+    "title": "The Fate and Effects of Emerging Pollutants in the Environment"
+  },
+  "doi:10.3390/rs18132077": {
+    "source": "top_journal",
+    "title": "Remote Sensing and AI-Based Monitoring of Soil Properties for Tier-3 MRV Framework of Complex Mediterranean Agroforestry Systems"
+  },
+  "doi:10.1371/journal.pone.0351925": {
+    "source": "top_journal",
+    "title": "Simulating arsenic migration in arid farmland soils under high-arsenic groundwater irrigation in Xinjiang"
+  },
+  "doi:10.51933/health.v11i1.2778": {
+    "source": "top_journal",
+    "title": "Pengaruh Kompos Bekas Manggot dalam Remediasi Timbal pada Sempel Tanah TPA Piyungan"
+  },
+  "doi:10.48498/minmag.2026.254.6.002": {
+    "source": "top_journal",
+    "title": "ФЕНОЛЬНЫЕ СОЕДИНЕНИЯ РАСТЕНИЙ КАК БИОИНДИКАТОРЫ ЭКОЛОГИЧЕСКОГО СОСТОЯНИЯ ГОРНОПРОМЫШЛЕННЫХ РЕГИОНОВ КАЗАХСТАНА В УСЛОВИЯХ ЗАГРЯЗНЕНИЯ ТЯЖЕЛЫМИ МЕТАЛЛАМИ"
+  },
+  "doi:10.1007/s11269-026-04782-1": {
+    "source": "top_journal",
+    "title": "Water Security in Developing Economies: Leveraging Citizen Science for Near-Real-Time Groundwater Assessment"
   }
 }
