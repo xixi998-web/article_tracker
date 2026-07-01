@@ -7726,5 +7726,125 @@
   "doi:10.1371/journal.pone.0352144": {
     "source": "top_journal",
     "title": "Data-driven climate-smart strategies for boosting crop yield and minimizing greenhouse gas emissions by optimizing cropping systems and fertilization practices"
+  },
+  "arxiv:2606.30047v1": {
+    "source": "arxiv",
+    "title": "Argus: Metric Panoramic 3D Reconstruction for Indoor Scenes"
+  },
+  "arxiv:2606.30545v1": {
+    "source": "arxiv",
+    "title": "StereoGS: Sparse-View 3D Gaussian Splatting via Stereo Priors"
+  },
+  "arxiv:2606.30436v1": {
+    "source": "arxiv",
+    "title": "Robust and Efficient Monocular 3D Gaussian SLAM for Kilometer-Scale Outdoor Scenes"
+  },
+  "arxiv:2606.29738v1": {
+    "source": "arxiv",
+    "title": "MyGO-Splat: Multi-Objective Closed-Loop Geometric Feedback for RGB-Only Gaussian SLAM"
+  },
+  "arxiv:2606.30166v1": {
+    "source": "arxiv",
+    "title": "Self-supervised Geometry Reasoning for LiDAR Simultaneous Localization and Mapping"
+  },
+  "arxiv:2606.30024v1": {
+    "source": "arxiv",
+    "title": "IBRSteG: Learning a Generalizable Steganography Framework for 3D Gaussian Splatting"
+  },
+  "arxiv:2606.29303v1": {
+    "source": "arxiv",
+    "title": "Occlusion-Robust Multi-Object Decoupling for Physics-Based Interaction"
+  },
+  "arxiv:2606.29259v1": {
+    "source": "arxiv",
+    "title": "PL-LIT: A LiDAR-Inertial-Thermal SLAM Using Point-Line Features and Thermographic Mapping"
+  },
+  "arxiv:2606.28637v1": {
+    "source": "arxiv",
+    "title": "PinNet: Keypoint-Aware Learned Local Descriptors with Geometric Embedding for Loop Closure in LiDAR SLAM"
+  },
+  "arxiv:2606.28607v1": {
+    "source": "arxiv",
+    "title": "Fast and Accurate Outlier-Aware LiDAR Super-Resolution for SLAM Applications"
+  },
+  "arxiv:2606.28581v1": {
+    "source": "arxiv",
+    "title": "SatSplat: Geometrically-Accurate Gaussian Splatting for Satellite Imagery"
+  },
+  "arxiv:2606.29329v1": {
+    "source": "arxiv",
+    "title": "RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction"
+  },
+  "arxiv:2606.28622v1": {
+    "source": "arxiv",
+    "title": "Meshtryoshka: Differentiable Rendering of Real-World Scenes via Mesh Rasterization"
+  },
+  "doi:10.1088/2631-8695/ae821b": {
+    "source": "top_journal",
+    "title": "A Granular-Ball-Guided Hierarchical SfM Optimization Method for 3D Reconstruction"
+  },
+  "arxiv:2606.30014v1": {
+    "source": "arxiv",
+    "title": "Shell-Supervised Gaussian Splatting for Urban Real-to-Sim Reconstruction"
+  },
+  "arxiv:2606.29976v1": {
+    "source": "arxiv",
+    "title": "Learning Efficient 4D Gaussian Representations from Monocular Videos with Flow Splatting"
+  },
+  "arxiv:2606.29374v1": {
+    "source": "arxiv",
+    "title": "L2D2-GS: Learning to Densify for Feedforward Dynamic Gaussian Scene Reconstruction"
+  },
+  "arxiv:2606.29237v1": {
+    "source": "arxiv",
+    "title": "MoPe: Motion Permanence for Robust Monocular Gaussian Mapping in Dynamic Environments"
+  },
+  "arxiv:2606.28828v1": {
+    "source": "arxiv",
+    "title": "Ground4D: Consistency-Aware 4D Reconstruction from Monocular Video"
+  },
+  "arxiv:2606.28720v1": {
+    "source": "arxiv",
+    "title": "CubifyGS: Object-Centric 3D Gaussian Splatting for Lifelong Dynamic Scene Maintenance"
+  },
+  "arxiv:2606.27223v2": {
+    "source": "arxiv",
+    "title": "SatSplatDiff: Geometry-preserving generative refinement for high-fidelity satellite Gaussian Splatting"
+  },
+  "arxiv:2606.28396v1": {
+    "source": "arxiv",
+    "title": "RadarTwin: Scene-Specific mmWave Radar Simulation and Learning for Mobile Indoor Perception"
+  },
+  "arxiv:2606.25245v2": {
+    "source": "arxiv",
+    "title": "OrthoTrack: Continuous 6-DoF UAV Trajectory Estimation Anchored in Public Orthophotos"
+  },
+  "arxiv:2606.30645v1": {
+    "source": "arxiv",
+    "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes"
+  },
+  "arxiv:2606.30638v1": {
+    "source": "arxiv",
+    "title": "Open-Vocabulary and Referring Segmentation for 3D Gaussians Using 2D Detectors"
+  },
+  "arxiv:2606.30017v1": {
+    "source": "arxiv",
+    "title": "Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting"
+  },
+  "arxiv:2606.29963v1": {
+    "source": "arxiv",
+    "title": "Explainability-Aware Frustum Attack: Exposing Structural Vulnerabilities in LiDAR-Based 3D Object Detectors"
+  },
+  "arxiv:2606.29794v1": {
+    "source": "arxiv",
+    "title": "UniTriSplat: A Unified 3D Gaussian Splatting Framework with Uniform Spherical Rasterization for Universal Cameras"
+  },
+  "arxiv:2606.29782v1": {
+    "source": "arxiv",
+    "title": "Graph-GSReg: Leveraging 3D Scene Graphs for Gaussian Splatting Registration"
+  },
+  "arxiv:2606.29494v1": {
+    "source": "arxiv",
+    "title": "VCS-SLAM: Geometry-Validated Semantic Evidence Fusion for 3D Gaussian SLAM"
   }
 }
