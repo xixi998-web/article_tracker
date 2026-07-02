@@ -8034,5 +8034,61 @@
   "arxiv:2606.30147v1": {
     "source": "arxiv",
     "title": "T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation"
+  },
+  "doi:10.1016/j.jenvman.2026.130317": {
+    "source": "top_journal",
+    "title": "Comprehensive cadmium input-output mass balances in two contaminated paddy fields: Implications for soil pollution control and food safety."
+  },
+  "doi:10.3389/fmicb.2026.1874862": {
+    "source": "top_journal",
+    "title": "Mechanistic study on the optimization of soil ecological structure and promotion of rapeseed (Brassica napus L.) growth by co-application of organic fertilizer and biochar"
+  },
+  "arxiv:2607.00893v1": {
+    "source": "arxiv",
+    "title": "The effect of 20th century industrialization: Power station, acid rains, over-pumping, on an erstwhile uniform freshwater dune aquifer in Haifa Bay, Israel"
+  },
+  "doi:10.26832/24566632.2026.110209": {
+    "source": "top_journal",
+    "title": "Variation in soil properties due to on-field residue burning in sugarcane based agro-ecosystems of Central India"
+  },
+  "doi:10.3390/plants15131963": {
+    "source": "top_journal",
+    "title": "Effects of Combined Application of Coal-Based Charcoal and Organic Fertilizer on Soil Properties and Plant Growth in Desertified Soils"
+  },
+  "doi:10.26643/ijr/88": {
+    "source": "top_journal",
+    "title": "Temporal Dynamics of Rhizosphere Soil Physicochemical Properties in Sorghum bicolor Under Salinity and Drought Stress"
+  },
+  "doi:10.34306/att.v8i2.844": {
+    "source": "top_journal",
+    "title": "Enhancing Smart Farming through ANFIS IoT Framework for Sugarcane Nutrient Prediction"
+  },
+  "doi:10.9734/ijpss/2026/v38i76154": {
+    "source": "top_journal",
+    "title": "Ecological Characteristics and Functions of Histosols: Implications for Sustainable Wetland Management in Côte d’Ivoire"
+  },
+  "doi:10.1038/s41598-026-59625-1": {
+    "source": "top_journal",
+    "title": "Three-year monitoring study of heavy metal fluxes and accumulation characteristics in mildly contaminated farmland soils of northern Guangdong, China."
+  },
+  "doi:10.55041/ijcope.v2i6.322": {
+    "source": "top_journal",
+    "title": "A Study of the Impact of Natural Factors on Agricultural Yield in India"
+  },
+  "doi:10.24425/aep.2026.1296": {
+    "source": "top_journal",
+    "title": "Impacts of Lake-Derived Heavy Metal and Salinity Pollution on Soil Properties, Vegetation Structure, and Mycorrhizal Diversity in the Oum Ghellaz Wetland (Algeria)"
+  },
+  "doi:10.26832/24566632.2026.110205": {
+    "source": "top_journal",
+    "title": "Evaluation of ground water quality of Saharanpur constituency in Uttar Pradesh, India"
+  },
+  "doi:10.1186/s12302-026-01446-0": {
+    "source": "top_journal",
+    "title": "Integrated assessment of biostimulants with water and fertilizer saving techniques: implications for environmental contamination and health hazard in tomato crops across Europe"
+  },
+  "doi:10.1002/hyp.70618": {
+    "source": "top_journal",
+    "title": "Hydroclimatic Controls on Flash Drought Development in Northeast Asia: Roles of Atmospheric Demand and Water Availability"
   }
 }
