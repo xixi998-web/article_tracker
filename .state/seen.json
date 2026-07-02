@@ -7914,5 +7914,125 @@
   "doi:10.1007/s11269-026-04782-1": {
     "source": "top_journal",
     "title": "Water Security in Developing Economies: Leveraging Citizen Science for Near-Real-Time Groundwater Assessment"
+  },
+  "arxiv:2606.31050v1": {
+    "source": "arxiv",
+    "title": "Learning Video Dynamics with Predictive Differentiable Rendering"
+  },
+  "arxiv:2606.31556v1": {
+    "source": "arxiv",
+    "title": "AugSplat: Radiance Field-Informed Gaussian Splatting for Sparse-View Settings"
+  },
+  "arxiv:2606.29303v2": {
+    "source": "arxiv",
+    "title": "Occlusion-Robust Multi-Object Decoupling for Physics-Based Robotic Interaction"
+  },
+  "arxiv:2606.31688v1": {
+    "source": "arxiv",
+    "title": "Semantic Occupancy Prediction with Dual Range-Voxel Representation"
+  },
+  "arxiv:2606.31488v1": {
+    "source": "arxiv",
+    "title": "DrivingDepth: Sparse-Prompted Pixel-wise Scale Correction for Driving Depth Estimation"
+  },
+  "arxiv:2606.31258v1": {
+    "source": "arxiv",
+    "title": "WarpHammer: Densifying Scene Warps with 3D Object Priors for Extreme View Synthesis"
+  },
+  "arxiv:2606.30809v1": {
+    "source": "arxiv",
+    "title": "GaussLite: Online Task-Conditioned 3D Gaussian Splatting for Real-Time Robotic Mapping"
+  },
+  "doi:10.1109/tmi.2026.3707404": {
+    "source": "top_journal",
+    "title": "EndoLRMGS: Combining Large Reconstruction Modelling and Gaussian Splatting for Complete Endoscopic Scene Reconstruction."
+  },
+  "arxiv:2606.32023v1": {
+    "source": "arxiv",
+    "title": "FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data"
+  },
+  "arxiv:2606.31895v1": {
+    "source": "arxiv",
+    "title": "RESOLVE: A Multi-Resolution and Multi-Modal Dataset for Roadside Cooperative Perception"
+  },
+  "arxiv:2606.31679v1": {
+    "source": "arxiv",
+    "title": "Practical High-Fidelity Novel-View Synthesis of Mounted Lepidoptera"
+  },
+  "arxiv:2606.31637v1": {
+    "source": "arxiv",
+    "title": "Intrinsic decomposition and editing of 3D Gaussian splats"
+  },
+  "arxiv:2606.28840v1": {
+    "source": "arxiv",
+    "title": "DLGStream: Dynamic Language-embedded Guassian Splatting for Open-vocabulary Enabled Free-viewpoint Video Streaming"
+  },
+  "arxiv:2606.28820v1": {
+    "source": "arxiv",
+    "title": "CoGS: Compositional Dynamic Human-Object Scenes Gaussian Splatting from Monocular Video"
+  },
+  "arxiv:2606.28656v1": {
+    "source": "arxiv",
+    "title": "SemDynReg: Semantics-Guided Deformation Regularization for Dynamic 3D Gaussian Splatting"
+  },
+  "arxiv:2606.30677v1": {
+    "source": "arxiv",
+    "title": "DANTE-W: Diffuse Albedo Neural Texturing in the Wild"
+  },
+  "doi:10.1061/9780784487013.084": {
+    "source": "top_journal",
+    "title": "Comparative Evaluation of Pix4Dmapper and Agisoft Metashape for UAS-Based 3D Reconstruction toward Building Information Modeling (BIM)"
+  },
+  "arxiv:2606.26567": {
+    "source": "top_journal",
+    "title": "Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geometry-Driven Virtual Base Station Framework"
+  },
+  "doi:10.3390/agriculture16131389": {
+    "source": "top_journal",
+    "title": "Early Detection of Muskmelon Powdery Mildew Using Time-Series 3D Multispectral Point Clouds"
+  },
+  "arxiv:2606.31177v1": {
+    "source": "arxiv",
+    "title": "GaussianMap: Learning Gaussian Representation for Multi-Sensor Online HD Map Construction"
+  },
+  "arxiv:2606.31086v1": {
+    "source": "arxiv",
+    "title": "CasaMaestro: Multi-View Panoramas for House-Scale 3D Reconstruction"
+  },
+  "arxiv:2606.30896v1": {
+    "source": "arxiv",
+    "title": "Knowledge-Driven Dimension Estimation from a Single Image -3D Asset Generation Technology for Digital Twin Construction"
+  },
+  "arxiv:2606.30293v1": {
+    "source": "arxiv",
+    "title": "CSAR: Containerized System Architecture for Robotics"
+  },
+  "arxiv:2606.29192v1": {
+    "source": "arxiv",
+    "title": "Empowering a Single-Frequency GNSS Receiver to Achieve High-Precision Positioning with Relative Observations"
+  },
+  "arxiv:2606.32036v1": {
+    "source": "arxiv",
+    "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction"
+  },
+  "arxiv:2606.31912v1": {
+    "source": "arxiv",
+    "title": "Learning Locomotion on Discrete Terrain via Minimal Proximity Sensing"
+  },
+  "arxiv:2606.31824v1": {
+    "source": "arxiv",
+    "title": "Absorption-Feature-Guided Distance-Decoupled Estimation and Band Selection for LWIR Hyperspectral Passive Ranging"
+  },
+  "arxiv:2606.31467v1": {
+    "source": "arxiv",
+    "title": "AeroVerse-SatAgent: UAV-Satellite Collaborative Spatial Reasoning Inspired by the Dual Visual Pathway Theory of Cognitive Neuroscience"
+  },
+  "arxiv:2606.30937v1": {
+    "source": "arxiv",
+    "title": "No Adaptation Without Observation: Observability-Constrained Test-Time Prompt Tuning for LiDAR Semantic Segmentation"
+  },
+  "arxiv:2606.30147v1": {
+    "source": "arxiv",
+    "title": "T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation"
   }
 }
