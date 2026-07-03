@@ -8090,5 +8090,125 @@
   "doi:10.1002/hyp.70618": {
     "source": "top_journal",
     "title": "Hydroclimatic Controls on Flash Drought Development in Northeast Asia: Roles of Atmospheric Demand and Water Availability"
+  },
+  "arxiv:2607.00885v1": {
+    "source": "arxiv",
+    "title": "Improving Sparse-View 3DGS Generalization via Flat Minima Optimization"
+  },
+  "arxiv:2606.28622": {
+    "source": "top_journal",
+    "title": "Meshtryoshka: Differentiable Rendering of Real-World Scenes via Mesh Rasterization"
+  },
+  "arxiv:2607.00514v1": {
+    "source": "arxiv",
+    "title": "Cross4D-JEPA: Dense Cross-modal Correspondence Distillation for 4D Point Cloud Representation Learning"
+  },
+  "arxiv:2607.00189v1": {
+    "source": "arxiv",
+    "title": "VOCA: Visual Odometry with Codec Awareness"
+  },
+  "arxiv:2607.00176v1": {
+    "source": "arxiv",
+    "title": "PRISM-VO: Scale-Aware Visual Odometry Using Photometric Plenoptic Bundle Adjustment"
+  },
+  "arxiv:2606.28321": {
+    "source": "top_journal",
+    "title": "StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views"
+  },
+  "arxiv:2607.01200v1": {
+    "source": "arxiv",
+    "title": "FastBridge: Closing the Model-Based Realization Gap in Safety Filters on 3D Gaussian Splatting for Fast Quadrotor Flight"
+  },
+  "arxiv:2607.00959v1": {
+    "source": "arxiv",
+    "title": "GaussianEmoTalker: Real-Time Emotional Talking Head Synthesis with Audio-Driven and Blendshape-Based 3D Gaussian Splatting"
+  },
+  "arxiv:2607.00157v1": {
+    "source": "arxiv",
+    "title": "Progressive Pose-Guided 4D Animal Reconstruction from Monocular Video"
+  },
+  "arxiv:2606.29963v2": {
+    "source": "arxiv",
+    "title": "Explainability-Aware Frustum Attack: Exposing Structural Vulnerabilities in LiDAR-Based 3D Object Detectors"
+  },
+  "arxiv:2607.00881v1": {
+    "source": "arxiv",
+    "title": "OmniView-Space: Reinforcing Spatial Reasoning via Multi-Perspective Spatial Mapping"
+  },
+  "arxiv:2607.01079v1": {
+    "source": "arxiv",
+    "title": "Where Am I? Semantic Map Grounding via Vision-Language Models for Multi-Modal Localization"
+  },
+  "arxiv:2607.00595v1": {
+    "source": "arxiv",
+    "title": "GADA: Geometry-Aware Deformable Aggregation for Image-Based Gaussian Splatting"
+  },
+  "arxiv:2607.00498v1": {
+    "source": "arxiv",
+    "title": "Robust 3D Alignment of Generative Reconstructions via Partial Monocular Observations"
+  },
+  "arxiv:2607.00375v1": {
+    "source": "arxiv",
+    "title": "LIST3R: Long-sequence Instance-aware 3D Reconstruction"
+  },
+  "arxiv:2606.29851v2": {
+    "source": "arxiv",
+    "title": "TACO: A Test and Check Framework for Robust Pose Graph Optimization"
+  },
+  "arxiv:2606.29783v1": {
+    "source": "arxiv",
+    "title": "FalconTrack: Photorealistic Auto-Labeled Perception and Physics-Aware Vision-Based Aerial Tracking"
+  },
+  "arxiv:2606.29469v1": {
+    "source": "arxiv",
+    "title": "MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution"
+  },
+  "arxiv:2606.29453v1": {
+    "source": "arxiv",
+    "title": "Resonant Brane Splatting for Arbitrary-Scale Super-Resolution"
+  },
+  "arxiv:2606.29400v1": {
+    "source": "arxiv",
+    "title": "Learning to Adaptively Allocate Gaussians for Arbitrary-Scale Image Super-Resolution"
+  },
+  "arxiv:2606.29379v1": {
+    "source": "arxiv",
+    "title": "DR-GS: Physically-Based Deformable and Relightable 2D Gaussians"
+  },
+  "arxiv:2606.29031v1": {
+    "source": "arxiv",
+    "title": "How to Leverage Synthetic Speech for LLM-Based ASR Systems?"
+  },
+  "arxiv:2606.28827v1": {
+    "source": "arxiv",
+    "title": "LNN-Fly: Continuous-Time UAV Navigation for Robust Obstacle Avoidance under Timing Mismatch"
+  },
+  "arxiv:2606.28826v1": {
+    "source": "arxiv",
+    "title": "RefGlass-GS: A UAV-Enabled Fusion Framework for Photorealistic, Semantic and Interactive Digitization of Reflective Glass Facades via Gaussian Splatting"
+  },
+  "arxiv:2606.28712v1": {
+    "source": "arxiv",
+    "title": "J-LAW: Joint Localization and Actionable World Modeling via Coupled Latent Factor Graphs"
+  },
+  "arxiv:2606.28649v1": {
+    "source": "arxiv",
+    "title": "RIPA: Sensory-Vector Prompt Injection Attacks on LLM-Controlled ROS 2 Robots"
+  },
+  "arxiv:2606.28635v2": {
+    "source": "arxiv",
+    "title": "AEGIR: Modeling Area Emitters for Indoor Inverse Rendering using Gaussian Splatting"
+  },
+  "arxiv:2606.28475v1": {
+    "source": "arxiv",
+    "title": "Improvement of Robot's Simultaneous Localization and Mapping Using an Effective Transformation to Achieve Linear Model"
+  },
+  "arxiv:2606.27862": {
+    "source": "top_journal",
+    "title": "ScaLe-INR: Scale and Learn Implicit Neural Representations"
+  },
+  "arxiv:2607.00673v1": {
+    "source": "arxiv",
+    "title": "Path Planning in Physically Viable World Models"
   }
 }
