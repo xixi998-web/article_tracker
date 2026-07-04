@@ -8286,5 +8286,113 @@
   "doi:10.65760/sjgs.v4.i1.6": {
     "source": "top_journal",
     "title": "AN APPRAISAL OF HEAVY METALS AND PHYSICOCHEMICAL PARAMETERS OF SOIL AT MANTA WATERSHED AND UPLAND IN ABAK, AKWA IBOM STATE, NIGERIA"
+  },
+  "arxiv:2606.30047v2": {
+    "source": "arxiv",
+    "title": "Argus: Metric Panoramic 3D Reconstruction for Indoor Scenes"
+  },
+  "arxiv:2607.01556v1": {
+    "source": "arxiv",
+    "title": "Mind the Gap: Standard 3DGS Evaluation Primarily Measures Near-Trajectory Interpolation"
+  },
+  "arxiv:2607.01860v1": {
+    "source": "arxiv",
+    "title": "DL-SLAM: Enabling High-Fidelity Gaussian Splatting SLAM in Dynamic Environments based on Dual-Level Probability"
+  },
+  "arxiv:2607.01753v1": {
+    "source": "arxiv",
+    "title": "The Turning Point of 3D Plant Phenotyping: 3D Foundation Models Enable Minute-to-Second Cross-Crop Reconstruction and Beyond"
+  },
+  "arxiv:2607.02074v1": {
+    "source": "arxiv",
+    "title": "Comprehensive Robustness Analysis of LiDAR-based 3D Object Detection in Autonomous Driving"
+  },
+  "arxiv:2607.01698v1": {
+    "source": "arxiv",
+    "title": "Structure-Aware Gaussian Splatting for Large-Scale Scene Reconstruction"
+  },
+  "doi:10.3390/aerospace13070583": {
+    "source": "top_journal",
+    "title": "Measurement-Oriented 3D Reconstruction and Attitude Estimation of Free-Tumbling Space Targets via Cooperative Multi-View Observation"
+  },
+  "arxiv:2607.01827v1": {
+    "source": "arxiv",
+    "title": "C2E: Boosting Ego-Only 3D Object Detection via Multi-Teacher Contrastive Knowledge Distillation"
+  },
+  "arxiv:2607.01708v1": {
+    "source": "arxiv",
+    "title": "Consistent Scene Understanding in 3D Gaussian Splatting via Multi-Cue Mask Refinement"
+  },
+  "arxiv:2606.28720": {
+    "source": "top_journal",
+    "title": "CubifyGS: Object-Centric 3D Gaussian Splatting for Lifelong Dynamic Scene Maintenance"
+  },
+  "arxiv:2607.02301v1": {
+    "source": "arxiv",
+    "title": "InvSplat: Inverse Feed-Forward Scene Splatting"
+  },
+  "arxiv:2607.01628v1": {
+    "source": "arxiv",
+    "title": "Online Segment 3D Gaussians via Launching Virtual Drones"
+  },
+  "arxiv:2607.01578v1": {
+    "source": "arxiv",
+    "title": "MVFusion-GS: Motion-Variance Guided Temporal Attention for High-Quality Dynamic Gaussian Splatting"
+  },
+  "arxiv:2607.01290v1": {
+    "source": "arxiv",
+    "title": "AnchorSplat: Fast and Structure Consistent Detail Synthesis for Gaussian Splatting"
+  },
+  "arxiv:2607.01983v1": {
+    "source": "arxiv",
+    "title": "Open-Weather Robust 3D Detection via Dual-Critic Diffusion Alignment"
+  },
+  "arxiv:2607.01885v1": {
+    "source": "arxiv",
+    "title": "Diversity-aware View Partitioning for Scalable VGGT"
+  },
+  "doi:10.3390/electronics15132828": {
+    "source": "top_journal",
+    "title": "Low-Latency Machine Vision Based on a Neuromorphic Vision Sensor"
+  },
+  "arxiv:2607.02515v1": {
+    "source": "arxiv",
+    "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation"
+  },
+  "arxiv:2607.02005v1": {
+    "source": "arxiv",
+    "title": "A Stereo Visual SLAM System Using Object-Level Motion Estimation and Geometric Filtering Based on Cross Disparity"
+  },
+  "arxiv:2607.01851v1": {
+    "source": "arxiv",
+    "title": "Geometric Foundation Model Distillation for Efficient Lunar 3D Reconstruction"
+  },
+  "arxiv:2607.01757v1": {
+    "source": "arxiv",
+    "title": "DL-VINS-Factory: A Modular Framework for Learned Visual Front-Ends in Visual-Inertial SLAM"
+  },
+  "arxiv:2607.01367v1": {
+    "source": "arxiv",
+    "title": "Simulation Based Reward Function Validation for Multi-Agent On Orbit Inspection"
+  },
+  "arxiv:2607.00595v2": {
+    "source": "arxiv",
+    "title": "GADA: Geometry-Aware Deformable Aggregation for Image-Based Gaussian Splatting"
+  },
+  "arxiv:2606.31912v2": {
+    "source": "arxiv",
+    "title": "Learning Locomotion on Discrete Terrain via Minimal Proximity Sensing"
+  },
+  "arxiv:2606.29453v2": {
+    "source": "arxiv",
+    "title": "Resonant Brane Splatting for Arbitrary-Scale Super-Resolution"
+  },
+  "arxiv:2607.01803v1": {
+    "source": "arxiv",
+    "title": "PixGS: Pixel-Space Diffusion for Direct 3D Gaussian Splat Generation"
+  },
+  "doi:10.13114/mjh.1892073": {
+    "source": "top_journal",
+    "title": "From Social Media to Digital Memory: Opportunities and Limitations in the 3D Representation of Cultural Heritage"
   }
 }
