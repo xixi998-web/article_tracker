@@ -8426,5 +8426,25 @@
   "doi:10.3390/ani16131991": {
     "source": "top_journal",
     "title": "Combined Effects of Heat and Cd2+ Stress on Growth, Physiology, and Transcriptomic Responses in Sipunculus nudus"
+  },
+  "arxiv:2606.29303": {
+    "source": "top_journal",
+    "title": "Occlusion-Robust Multi-Object Decoupling for Physics-Based Robotic Interaction"
+  },
+  "arxiv:2606.29329": {
+    "source": "top_journal",
+    "title": "RAGA: Real Time Ray Traced Gaussian Shadow Casting for 3DGS Avatar-Scene Interaction"
+  },
+  "arxiv:2606.29494": {
+    "source": "top_journal",
+    "title": "VCS-SLAM: Geometry-Validated Semantic Evidence Fusion for 3D Gaussian SLAM"
+  },
+  "arxiv:2606.29400": {
+    "source": "top_journal",
+    "title": "Learning to Adaptively Allocate Gaussians for Arbitrary-Scale Image Super-Resolution"
+  },
+  "arxiv:2606.29333": {
+    "source": "top_journal",
+    "title": "HiReFF: High-Resolution Feedforward Human Reconstruction from Uncalibrated Sparse-View Video"
   }
 }
