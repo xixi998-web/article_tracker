@@ -8446,5 +8446,29 @@
   "arxiv:2606.29333": {
     "source": "top_journal",
     "title": "HiReFF: High-Resolution Feedforward Human Reconstruction from Uncalibrated Sparse-View Video"
+  },
+  "doi:10.1007/s44378-026-00273-2": {
+    "source": "top_journal",
+    "title": "Cobalt sorption in aged compost-amended soils"
+  },
+  "doi:10.1111/1462-2920.70367": {
+    "source": "top_journal",
+    "title": "Microbe-Metabolite Interactions in Cave Soils Synergistically Regulate the Environmental Persistence of Pseudogymnoascus destructans."
+  },
+  "doi:10.1007/s10653-026-03330-5": {
+    "source": "top_journal",
+    "title": "Functionalized SiO2 nanoparticle-mediated release and transport of Cd through soil porous media: implications for their application in soil remediation"
+  },
+  "doi:10.1111/ppl.70988": {
+    "source": "top_journal",
+    "title": "Earthworms With Low Dose n‐MoS2 Improve Soybean Yield and Quality by Reconfiguring Rhizosphere Chemistry and Strengthening Nitrogen Fixation"
+  },
+  "doi:10.1002/elan.70182": {
+    "source": "top_journal",
+    "title": "Electrochemical Detection of Vanadium Using a Boron‐Doped Diamond Electrode as a Surrogate for Radioactive Heavy Metals"
+  },
+  "doi:10.3390/toxics14070568": {
+    "source": "top_journal",
+    "title": "Field-Based Feasibility Assessment of Sorghum, Maize and Soybean for the Phytomanagement of Heavy Metal-Contaminated Mining Soils in a Living Lab Platform"
   }
 }
