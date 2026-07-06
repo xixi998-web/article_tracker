@@ -8470,5 +8470,57 @@
   "doi:10.3390/toxics14070568": {
     "source": "top_journal",
     "title": "Field-Based Feasibility Assessment of Sorghum, Maize and Soybean for the Phytomanagement of Heavy Metal-Contaminated Mining Soils in a Living Lab Platform"
+  },
+  "arxiv:2606.30024": {
+    "source": "top_journal",
+    "title": "IBRSteG: Learning a Generalizable Steganography Framework for 3D Gaussian Splatting"
+  },
+  "arxiv:2606.29976": {
+    "source": "top_journal",
+    "title": "Learning Efficient 4D Gaussian Representations from Monocular Videos with Flow Splatting"
+  },
+  "doi:10.1108/ir-10-2025-0351": {
+    "source": "top_journal",
+    "title": "Optimization of 2D laser SLAM with visual feedback loop integration"
+  },
+  "doi:10.64898/2026.06.25.734685": {
+    "source": "top_journal",
+    "title": "Apical3DTip: Elliptic Cross-section-based Reconstruction for the Embryo Initial Cell of Arabidopsis"
+  },
+  "doi:10.1186/s12880-026-02515-9": {
+    "source": "top_journal",
+    "title": "MonoGID: geometry and illumination aware enhancement with distillation for self-supervised monocular endoscopic depth estimation."
+  },
+  "doi:10.1145/3820022": {
+    "source": "top_journal",
+    "title": "Scalable Training and Rendering of 3D Gaussians for Large Scale Scientific Data 55"
+  },
+  "doi:10.1109/tpami.2026.3708125": {
+    "source": "top_journal",
+    "title": "Learning Shape Anchors for Holistic Indoor Scene Understanding."
+  },
+  "doi:10.47852/bonviewjcce62028489": {
+    "source": "top_journal",
+    "title": "Bibliometric Analysis of Artificial Intelligence in Team Sports: Research Trends, Collaborations, and Creative Insights"
+  },
+  "arxiv:2606.30347": {
+    "source": "top_journal",
+    "title": "FFAvatar: Feed-Forward 4D Head Avatar Reconstruction from Sparse Portrait Images"
+  },
+  "arxiv:2606.29786": {
+    "source": "top_journal",
+    "title": "OP3DSG: Open-Vocabulary Part-Aware 3D Scene Graph Generation for Real-World Environments"
+  },
+  "doi:10.1002/adfm.76757": {
+    "source": "top_journal",
+    "title": "Stiffness‐Gradient Auxetic Metamaterials Engineering Enables High Linearity of Strain Sensor for Facial Expression Recognition"
+  },
+  "arxiv:2606.30608": {
+    "source": "top_journal",
+    "title": "UnfoldArt: Zero-Shot Recovery of Full Articulated 3D Objects from Text or Image"
+  },
+  "doi:10.64189/vai.26103": {
+    "source": "top_journal",
+    "title": "Biomechanical Posture Analysis System Using Computer Vision: An Edge-Computing Architecture Integrating Finite State Machines and Large Language Models"
   }
 }
