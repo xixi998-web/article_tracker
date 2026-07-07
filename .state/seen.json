@@ -8642,5 +8642,81 @@
   "doi:10.1016/j.jenvman.2026.130327": {
     "source": "top_journal",
     "title": "Lagged crop responses to drought across China: contrasting multivariate environmental pathways in rainfed and irrigated systems."
+  },
+  "arxiv:2606.31050": {
+    "source": "top_journal",
+    "title": "Learning Video Dynamics with Predictive Differentiable Rendering"
+  },
+  "arxiv:2606.31556": {
+    "source": "top_journal",
+    "title": "AugSplat: Radiance Field-Informed Gaussian Splatting for Sparse-View Settings"
+  },
+  "arxiv:2606.31688": {
+    "source": "top_journal",
+    "title": "Semantic Occupancy Prediction with Dual Range-Voxel Representation"
+  },
+  "doi:10.61784/tsshr3241": {
+    "source": "top_journal",
+    "title": "GAUSSIAN SPLATTING FOR CULTURAL HERITAGE DIGITIZATION: TECHNICAL POSITIONING, APPLICATION SCENARIOS, AND FUTURE PROSPECTS"
+  },
+  "doi:10.1109/tvcg.2026.3708491": {
+    "source": "top_journal",
+    "title": "MesoSplats: Texture Synthesis with Gaussian Splatting."
+  },
+  "arxiv:2606.31177": {
+    "source": "top_journal",
+    "title": "GaussianMap: Learning Gaussian Representation for Multi-Sensor Online HD Map Construction"
+  },
+  "doi:10.3389/fendo.2026.1851379": {
+    "source": "top_journal",
+    "title": "Automated segmentation of pituitary adenomas, pituitary gland, and internal carotid arteries on routine coronal contrast-enhanced T1-weighted MRI: a single-sequence feasibility study"
+  },
+  "doi:10.3390/nu18132119": {
+    "source": "top_journal",
+    "title": "Image-Based Prediction of Food Weight and Nutritional Composition in Bowl-Served Meals Using Semantic Segmentation and Multi-View 3D Reconstruction"
+  },
+  "doi:10.1002/adfm.76706": {
+    "source": "top_journal",
+    "title": "Chiral Perovskite Photonic Synapses With Anion‐Mediated Carrier Relaxation for Enhanced 3D Tracking and Trajectory Reconstruction"
+  },
+  "arxiv:2606.32036": {
+    "source": "top_journal",
+    "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction"
+  },
+  "arxiv:2606.31329": {
+    "source": "top_journal",
+    "title": "3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance"
+  },
+  "arxiv:2606.31912": {
+    "source": "top_journal",
+    "title": "Learning Locomotion on Discrete Terrain via Minimal Proximity Sensing"
+  },
+  "arxiv:2606.31570": {
+    "source": "top_journal",
+    "title": "Mitigating Positional Leakage in 3D Masked Autoencoders for Robust Representation Learning"
+  },
+  "doi:10.1007/s10851-026-01318-5": {
+    "source": "top_journal",
+    "title": "Crease-Aware Normal Vectors from Unstructured Point Clouds"
+  },
+  "doi:10.3390/s26134122": {
+    "source": "top_journal",
+    "title": "RPT-Mamba: A Range-Aware Physical Token Mamba Network for Far-Field mmWave Radar Gesture Recognition"
+  },
+  "doi:10.4108/eetsis.13054": {
+    "source": "top_journal",
+    "title": "ARaNet: Attention and Residual Aware Network for Resilient Digital Twins in Rail Transit Equipment Manufacturing"
+  },
+  "arxiv:2606.31332": {
+    "source": "top_journal",
+    "title": "CryoACE: An Atom-centric Framework for Accurate and Automated Model Building in Cryo-EM"
+  },
+  "doi:10.1002/adma.73884": {
+    "source": "top_journal",
+    "title": "Differential Image Sensor With Decoupled Static and Dynamic Outputs."
+  },
+  "doi:10.63367/199115992026063703009": {
+    "source": "top_journal",
+    "title": "An Efficient Path Planning Algorithm for the Shortest Hamiltonian Cycle"
   }
 }
