@@ -8838,5 +8838,125 @@
   "doi:10.1016/j.jhazmat.2026.142861": {
     "source": "top_journal",
     "title": "Reactive heavy metals govern soil microbial communities: Depth-resolved evidence and disentangled metal-specific effects."
+  },
+  "arxiv:2607.05243v1": {
+    "source": "arxiv",
+    "title": "GUSH3R: Everyone Everywhere All at Once as Gaussians"
+  },
+  "arxiv:2607.04169v1": {
+    "source": "arxiv",
+    "title": "Neural LiDAR Bundle Adjustment"
+  },
+  "arxiv:2607.05347v1": {
+    "source": "arxiv",
+    "title": "WildSplat: Feedforward Gaussian Splatting from Unposed In-the-Wild Images"
+  },
+  "arxiv:2607.04127v1": {
+    "source": "arxiv",
+    "title": "Real-Time LiDAR Gaussian Splatting SLAM"
+  },
+  "arxiv:2607.03771v1": {
+    "source": "arxiv",
+    "title": "City-Level 3D Surface Reconstruction with Viewpoint Orientation Partitioning and Scene Completion"
+  },
+  "arxiv:2607.03209v1": {
+    "source": "arxiv",
+    "title": "Fast 3D Foundation Model Initialized Gaussian Splatting"
+  },
+  "arxiv:2607.04256v1": {
+    "source": "arxiv",
+    "title": "AdaptiveSplat:Texture Aware Controllable 3D Gaussian Allocation for Feed-Forward Reconstruction"
+  },
+  "arxiv:2607.03819v1": {
+    "source": "arxiv",
+    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation"
+  },
+  "arxiv:2607.03765v1": {
+    "source": "arxiv",
+    "title": "Sparse-View Surface Reconstruction using Gaussian Splatting through High-Confidence Depth Propagation with Normal Priors"
+  },
+  "arxiv:2607.01860v2": {
+    "source": "arxiv",
+    "title": "DL-SLAM: Enabling High-Fidelity Gaussian Splatting SLAM in Dynamic Environments based on Dual-Level Probability"
+  },
+  "arxiv:2607.03612v1": {
+    "source": "arxiv",
+    "title": "SAF3R: Dynamic Sparse Attention for Feed-Forward 3D Reconstruction Transformers"
+  },
+  "arxiv:2607.03247v1": {
+    "source": "arxiv",
+    "title": "Learning to Suppress SPAD-based LiDAR Flare"
+  },
+  "arxiv:2607.02707v1": {
+    "source": "arxiv",
+    "title": "VLRC: Vision-Language Reprojection Consistency as a scalable signal for better feed-forward 3D pretraining"
+  },
+  "arxiv:2607.01698v2": {
+    "source": "arxiv",
+    "title": "Signal Structure-Aware Gaussian Splatting for Large-Scale Scene Reconstruction"
+  },
+  "arxiv:2607.03855v1": {
+    "source": "arxiv",
+    "title": "PRISM3D: Probabilistic Refinement and Robust Initialization for Physically Consistent Scene Modeling under Extreme Motion Blur"
+  },
+  "arxiv:2607.03818v1": {
+    "source": "arxiv",
+    "title": "TRISTAR: Triple-Signal Stair Recognition and Vision-Only Indoor Navigation for Search-and-Rescue Micro-UAVs"
+  },
+  "arxiv:2607.03789v1": {
+    "source": "arxiv",
+    "title": "G$^2$TAM: Geometry Grounded Track Anything Model"
+  },
+  "arxiv:2607.02866v1": {
+    "source": "arxiv",
+    "title": "E-TraMamba: A New Paradigm for Efficient Long-Term 3D Feature Tracking with Event Cameras"
+  },
+  "arxiv:2607.04661v1": {
+    "source": "arxiv",
+    "title": "Targeted Structure Completion for Sparse-View 3D Reconstruction in Autonomous Driving"
+  },
+  "arxiv:2607.04615v1": {
+    "source": "arxiv",
+    "title": "DIVO: Continuous-time DVL-Inertial-Visual Odometry for Unmanned Underwater Vehicles"
+  },
+  "arxiv:2607.04587v1": {
+    "source": "arxiv",
+    "title": "RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather"
+  },
+  "arxiv:2607.03875v1": {
+    "source": "arxiv",
+    "title": "MACRO: Training-free Multi-plane Attention for Closeup Render Optimization"
+  },
+  "arxiv:2607.03872v1": {
+    "source": "arxiv",
+    "title": "SharpSplat: Edge-Regularized 3D Gaussian Splatting for High Fidelity Urban Building Reconstruction from UAV images"
+  },
+  "arxiv:2607.03390v1": {
+    "source": "arxiv",
+    "title": "TemporalGS: Training-Free Plug-and-Play Acceleration for 3D Gaussian Splatting Rendering via Temporal Priors"
+  },
+  "arxiv:2607.02721v1": {
+    "source": "arxiv",
+    "title": "Provable Pruning for Efficient 3D Gaussian Splatting via Coresets"
+  },
+  "arxiv:2607.01290v2": {
+    "source": "arxiv",
+    "title": "AnchorSplat: Fast and Structure Consistent Detail Synthesis for Gaussian Splatting"
+  },
+  "arxiv:2607.04953v1": {
+    "source": "arxiv",
+    "title": "Real-World Perturbation Testing of Autonomous Driving Systems"
+  },
+  "arxiv:2607.04923v1": {
+    "source": "arxiv",
+    "title": "UniSpine-GS: An Efficient Physics-Aware Gaussian Framework for Cross-Modality Multi-view Spine Image Synthesis"
+  },
+  "arxiv:2607.04761v1": {
+    "source": "arxiv",
+    "title": "DeGenseGS: Geometrically and Semantically Decoupled Surgical Scene Understanding in 4D Gaussian Splatting"
+  },
+  "arxiv:2607.04144v1": {
+    "source": "arxiv",
+    "title": "Semantic-Guided Progressive Object Removal with Gaussian Splatting"
   }
 }
