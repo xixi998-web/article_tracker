@@ -9074,5 +9074,121 @@
   "doi:10.1016/j.jhazmat.2026.142300": {
     "source": "top_journal",
     "title": "Degradable and non-degradable microplastics regulate soil greenhouse gas emissions: Multi-factor insights and key monitoring factors from a Kolmogorov-Arnold Network ensemble model."
+  },
+  "arxiv:2607.03819v2": {
+    "source": "arxiv",
+    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation"
+  },
+  "arxiv:2607.02707v2": {
+    "source": "arxiv",
+    "title": "VLRC: Vision-Language Reprojection Consistency as a scalable signal for better feed-forward 3D pretraining"
+  },
+  "arxiv:2607.06464v1": {
+    "source": "arxiv",
+    "title": "Hilti-Trimble-Oxford Dataset: 360 Visual-Inertial Benchmark with Floor Plan Priors for SLAM and Localization"
+  },
+  "arxiv:2607.05955v1": {
+    "source": "arxiv",
+    "title": "NegROI: Click-Centric Uncertainty-Guided Refinement with Scene-Conditioned Negative Prompts for Robust Interactive 3D Segmentation"
+  },
+  "arxiv:2607.05906v1": {
+    "source": "arxiv",
+    "title": "GaussFusion: Towards Multimodal 3D Gaussian Pretraining"
+  },
+  "arxiv:2607.05801v1": {
+    "source": "arxiv",
+    "title": "TRIG: Trajectory-Rig Decoupled Metric Geometry Learning"
+  },
+  "arxiv:2607.05598v1": {
+    "source": "arxiv",
+    "title": "SSA-3DGS: Unsupervised Removal of Screen-Space Artifacts for 3D Gaussian Splatting"
+  },
+  "arxiv:2607.05522v1": {
+    "source": "arxiv",
+    "title": "Rendering-Aware Bayesian 3D Gaussian Splatting with Native Uncertainty and Adaptive Complexity Control"
+  },
+  "doi:10.1088/2631-8695/ae85c0": {
+    "source": "top_journal",
+    "title": "Multi-vehicle Cooperative Object Detection and Tracking based on IMM-SCIF-JPDA"
+  },
+  "arxiv:2607.02099": {
+    "source": "top_journal",
+    "title": "X-Splat: Gaussian Splatting for 3D CBCT Generation from Single Panoramic Radiograph"
+  },
+  "arxiv:2607.06383v1": {
+    "source": "arxiv",
+    "title": "Towards Real-World Applications with an Autonomous Powered Wheelchair"
+  },
+  "arxiv:2607.06319v1": {
+    "source": "arxiv",
+    "title": "Synthetic-to-Real Translation for Class-Agnostic Motion Prediction"
+  },
+  "arxiv:2607.03891v1": {
+    "source": "arxiv",
+    "title": "BAT3R: Bootstrapping Articulated 3D Reconstruction from 2D Image Collections"
+  },
+  "arxiv:2607.01885v2": {
+    "source": "arxiv",
+    "title": "Diversity-aware View Partitioning for Scalable VGGT"
+  },
+  "arxiv:2607.01633": {
+    "source": "top_journal",
+    "title": "Bridging 3D Gaussians and Semantic Occupancy for Comprehensive Open-Vocabulary Scene Understanding from Unposed Images"
+  },
+  "arxiv:2607.06478v1": {
+    "source": "arxiv",
+    "title": "A VLM-Enhanced Framework for Comprehensive Traffic Sign Condition Assessment Integrating Daytime Visual Performance and Nighttime Retroreflectivity Evaluation"
+  },
+  "arxiv:2607.06238v1": {
+    "source": "arxiv",
+    "title": "PhyMRI-SR: Toward Physics-Aware MRI Image Super-Resolution"
+  },
+  "arxiv:2607.06023v1": {
+    "source": "arxiv",
+    "title": "Why does Deep Learning Improve Visual SLAM?"
+  },
+  "arxiv:2607.05376v1": {
+    "source": "arxiv",
+    "title": "MV-Forcing: Long Multi-View Video Generation via 4D-Grounded Spatio-Temporal Self-Forcing"
+  },
+  "arxiv:2607.05373v1": {
+    "source": "arxiv",
+    "title": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space"
+  },
+  "arxiv:2607.05356v1": {
+    "source": "arxiv",
+    "title": "ReCal3R: Reliability-Calibrated Learning Rates for Streaming 3D Reconstruction"
+  },
+  "arxiv:2607.05260v1": {
+    "source": "arxiv",
+    "title": "Shifting from Discrete to Continuous Reference Data: QSM-Derived Horizontal Tree Biomass Distribution for Deep Learning Biomass Estimation"
+  },
+  "arxiv:2607.04879v1": {
+    "source": "arxiv",
+    "title": "WinTA-GIL: Windowed Trajectory Alignment for GNSS-IMU-LiDAR Heading Refinement in Intermittent Signal Environments"
+  },
+  "arxiv:2607.04764v1": {
+    "source": "arxiv",
+    "title": "SLAM: Structured and Localized Analytic Manifold Adaptation for Lifelong VPR"
+  },
+  "arxiv:2607.02693v1": {
+    "source": "arxiv",
+    "title": "Property-Constrained 3D Porous Media Reconstruction from 2D Images via Conditional Generative Adversarial Networks"
+  },
+  "doi:10.63465/rrs6202611765": {
+    "source": "top_journal",
+    "title": "DISTINCT TEMPORAL PATTERNS OF NUCLEAR AND NUCLEOLAR REMODELING PRECEDING CELL DEATH INDUCED BY CHEMICAL AND PHYSICAL STRESSORS"
+  },
+  "arxiv:2607.01803v2": {
+    "source": "arxiv",
+    "title": "PixGS: Pixel-Space Diffusion for Direct 3D Gaussian Splat Generation"
+  },
+  "arxiv:2607.01772": {
+    "source": "top_journal",
+    "title": "LLM-Empowered Multimodal Fusion Framework for Autonomous Driving: Semantic Enhancement and Channel-Adaptive Design"
+  },
+  "doi:10.3390/s26134174": {
+    "source": "top_journal",
+    "title": "MDC-MobileNetV3: A Lightweight Multi-Scale Hierarchical Attention Network for Remote Sensing Scene Classification"
   }
 }
