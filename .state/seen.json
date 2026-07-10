@@ -9238,5 +9238,125 @@
   "doi:10.1007/s10646-026-03116-6": {
     "source": "top_journal",
     "title": "Co-occurring polycyclic aromatic hydrocarbons and heavy metals drive bacterial community shifts regulated by soil water content in China’s Beiluo River riparian soils"
+  },
+  "arxiv:2607.07168v1": {
+    "source": "arxiv",
+    "title": "NoDrift3R: Raymap-Guided Coupling for Drift-Robust Unposed Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2607.07452v1": {
+    "source": "arxiv",
+    "title": "GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM"
+  },
+  "doi:10.5194/isprs-annals-xi-1-2026-17-2026": {
+    "source": "top_journal",
+    "title": "Novel View Synthesis Under Rainy Conditions with Neural Radiance Fields and Gaussian Splatting"
+  },
+  "arxiv:2607.06896v1": {
+    "source": "arxiv",
+    "title": "Dynamic Object Detection and Tracking in Construction: A Fisheye Camera and LiDAR Sensor Fusion Model"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-137-2026": {
+    "source": "top_journal",
+    "title": "Trinocular Multi-Object 3D Reconstruction in Camera-Simulating Virtual Environments for Knee Arthroplasty"
+  },
+  "arxiv:2607.06700v1": {
+    "source": "arxiv",
+    "title": "CILC: Cryptographically-secure Inter-agent Loop Closure Candidate Detection for Multi-Agent Collaborative SLAM"
+  },
+  "arxiv:2607.06600v1": {
+    "source": "arxiv",
+    "title": "MiLSD: A Micro Line-Segment Detector for Resource-Constrained Devices"
+  },
+  "doi:10.1145/3811385": {
+    "source": "top_journal",
+    "title": "Points as Tori: Fast Pointwise Signed Distance for Point Clouds"
+  },
+  "doi:10.1145/3811388": {
+    "source": "top_journal",
+    "title": "Dual Contouring over Expanded Cubes (DCx) for Zero-Level Set Extraction from Neural Unsigned Distance Functions"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-811-2026": {
+    "source": "top_journal",
+    "title": "Evaluating the Performance of 3D Vision Foundation Models for DSM Reconstruction from Satellite Images"
+  },
+  "arxiv:2607.06829v1": {
+    "source": "arxiv",
+    "title": "Rail Track Extraction from Rasterized Classified Point Clouds Using a Full-Resolution, Fully Convolutional Recurrent Neural Network"
+  },
+  "arxiv:2607.06782v1": {
+    "source": "arxiv",
+    "title": "G-PROBE: Cross-FOV Place Recognition and Certainty-Coupled Localization for 3D Point Clouds"
+  },
+  "arxiv:2607.06699v1": {
+    "source": "arxiv",
+    "title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-187-2026": {
+    "source": "top_journal",
+    "title": "LoD2-Former: Multi-Modal Transformer-Based 3D Building Wireframe Reconstruction"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-145-2026": {
+    "source": "top_journal",
+    "title": "Extraction of Pole-like Road Objects from MMS Point Clouds Using Deep Learning and Geometric-Topological Feature Fusion"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-535-2026": {
+    "source": "top_journal",
+    "title": "Sky-NeRF: Learning 4D Cloud Topography in a Dynamic Neural Radiance Field"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-821-2026": {
+    "source": "top_journal",
+    "title": "Assessing the Reconstruction Potential of 3D Vision Foundation Models for Oblique Photogrammetry"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-801-2026": {
+    "source": "top_journal",
+    "title": "CENS: A Coverage-Efficient Pixel Sampling Strategy for Enhancing NeRF-Generated Point Cloud Fidelity"
+  },
+  "arxiv:2607.07374v1": {
+    "source": "arxiv",
+    "title": "PLED-VINS: A Point-Line Event-Based Visual Inertial SLAM for Dynamic Environments"
+  },
+  "arxiv:2607.07370v1": {
+    "source": "arxiv",
+    "title": "Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report"
+  },
+  "arxiv:2607.07139v1": {
+    "source": "arxiv",
+    "title": "Disturbance-aware Motion Planning for Over-actuated Underwater Vehicles Exploiting Actuation Redundancy for High-fidelity 3D Reconstruction"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-127-2026": {
+    "source": "top_journal",
+    "title": "Multi-Source Fusion of Roof Skeletons, LiDAR and Street-View Imagery for Semi-Automated LoD-2 Building Modelling"
+  },
+  "doi:10.1145/3811316": {
+    "source": "top_journal",
+    "title": "TwinPose: Person-Specific Subspaces for Multi-View 3D Pose Estimation"
+  },
+  "doi:10.1145/3811306": {
+    "source": "top_journal",
+    "title": "ATGS: Anchored Temporal Gaussian Splatting for Long Volumetric Video Representation"
+  },
+  "doi:10.5194/isprs-annals-xi-1-2026-143-2026": {
+    "source": "top_journal",
+    "title": "GNSS-Constrained Motion Estimation for Robust Visual-Inertial-Odometry Initialization"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-605-2026": {
+    "source": "top_journal",
+    "title": "Refraction-Aware Gaussian Splatting for Shallow Water Bathymetry from UAV Imagery"
+  },
+  "doi:10.18326/millati.v11i1.6394": {
+    "source": "top_journal",
+    "title": "Reconstructing Islamic Bioethics as A Lakatosian Research Programme"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-527-2026": {
+    "source": "top_journal",
+    "title": "Spatiotemporal reconstruction of 4D point clouds at different time scales through implicit neural representations for topographic monitoring applications"
+  },
+  "doi:10.1088/1361-6501/ae8614": {
+    "source": "top_journal",
+    "title": "DoSF-Net: Point cloud understanding via deformable offset surface-relational convolution and scale-selective fusion"
+  },
+  "doi:10.5194/isprs-annals-xi-2-2026-293-2026": {
+    "source": "top_journal",
+    "title": "GT-LOD3: LOD3 Semantic 3D Building Reconstruction Benchmark Dataset"
   }
 }
