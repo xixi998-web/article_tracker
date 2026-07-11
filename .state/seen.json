@@ -9402,5 +9402,57 @@
   "doi:10.9734/jabb/2026/v29i74103": {
     "source": "top_journal",
     "title": "Growth Dynamics and Morphological Responses of Strawberry (Fragaria × ananassa Duch.) cv. Winter Dawn to Compost Granules and Biodynamic Formulations under Semi-Arid Conditions of Southern Rajasthan, India"
+  },
+  "arxiv:2607.08772v1": {
+    "source": "arxiv",
+    "title": "Wat3R: Underwater 3D Geometry Learning without Annotations"
+  },
+  "arxiv:2607.03209": {
+    "source": "top_journal",
+    "title": "Fast 3D Foundation Model Initialized Gaussian Splatting"
+  },
+  "arxiv:2607.08711v1": {
+    "source": "arxiv",
+    "title": "LTM: Large-scale Terrain Model for Wildfire-prone Landscapes"
+  },
+  "arxiv:2607.08391v1": {
+    "source": "arxiv",
+    "title": "On Exploring Input Resolution Scaling For Anytime LiDAR Object Detection"
+  },
+  "arxiv:2607.08769v1": {
+    "source": "arxiv",
+    "title": "Geometry and Gradient-based Partitioning for Panoramic Outdoor Reconstruction"
+  },
+  "arxiv:2607.08398v1": {
+    "source": "arxiv",
+    "title": "HoloTetSphere: Unified TetSphere Mesh Reconstruction for Physical Simulations"
+  },
+  "arxiv:2607.08250v1": {
+    "source": "arxiv",
+    "title": "On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting"
+  },
+  "arxiv:2607.07905v1": {
+    "source": "arxiv",
+    "title": "3D Reconstruction of deciduous Trees using low-cost UAV- and Crane-based Photogrammetry for Monitoring Shoot Elongation across entire Canopies"
+  },
+  "arxiv:2607.07885v1": {
+    "source": "arxiv",
+    "title": "Time-to-Collision Based Dynamic Obstacle Avoidance Using Pretrained Vision Models for Robots in Unstructured Environments"
+  },
+  "arxiv:2607.08115v1": {
+    "source": "arxiv",
+    "title": "RadLoc: Radar-based 3-DoF Global Localization via Fast, Robust, and Lightweight Spatial Descriptor Across Diverse Environmental Scenarios"
+  },
+  "arxiv:2607.07873v1": {
+    "source": "arxiv",
+    "title": "STEMbot: A Compliant Robot for Under-Canopy Plant Navigation"
+  },
+  "arxiv:2607.07370v2": {
+    "source": "arxiv",
+    "title": "Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report"
+  },
+  "doi:10.48175/ijarsct-37365": {
+    "source": "top_journal",
+    "title": "Intelligent Financial Statement Extraction from Complex PDF Documents Using Hybrid OCR and Table Structure Recognition"
   }
 }
