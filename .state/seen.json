@@ -9470,5 +9470,25 @@
   "doi:10.1186/s13065-026-01863-5": {
     "source": "top_journal",
     "title": "Functional poly (acrylamide-co-acrylic acid) super hydrogels integrated with silver-decorated recycled nano tungsten oxide: a robust, leach-free for advanced wastewater decontamination"
+  },
+  "arxiv:2607.03765": {
+    "source": "top_journal",
+    "title": "Sparse-View Surface Reconstruction using Gaussian Splatting through High-Confidence Depth Propagation with Normal Priors"
+  },
+  "doi:10.1109/tip.2026.3710486": {
+    "source": "top_journal",
+    "title": "CGGS: Consistency-Augmented Geometric Gaussian Splatting for Ego-centric 3D Scene Generation"
+  },
+  "doi:10.1007/s11554-026-01923-y": {
+    "source": "top_journal",
+    "title": "CTM-Net: 3D object detection from LiDAR point clouds for autonomous driving"
+  },
+  "arxiv:2607.03789": {
+    "source": "top_journal",
+    "title": "G$^2$TAM: Geometry Grounded Track Anything Model"
+  },
+  "doi:10.1117/1.jei.35.4.043001": {
+    "source": "top_journal",
+    "title": "C2FMFusion: a multimodal BEV feature fusion method for autonomous driving"
   }
 }
