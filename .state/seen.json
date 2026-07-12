@@ -9506,5 +9506,17 @@
   "doi:10.3329/bjar.v48i1.91532": {
     "source": "top_journal",
     "title": "Impact of textile dyeing effluents on germination, growth, yield and nutritional quality of tomato (Solanum lycopersicum L.)"
+  },
+  "arxiv:2607.04256": {
+    "source": "top_journal",
+    "title": "AdaptiveSplat:Texture Aware Controllable 3D Gaussian Allocation for Feed-Forward Reconstruction"
+  },
+  "arxiv:2607.04144": {
+    "source": "top_journal",
+    "title": "Semantic-Guided Progressive Object Removal with Gaussian Splatting"
+  },
+  "doi:10.20965/ijat.2026.p0288": {
+    "source": "top_journal",
+    "title": "Integration of Three-Dimensional Point Clouds and Sensing Data for Digital Twin-Oriented Construction Management"
   }
 }
