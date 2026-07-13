@@ -9558,5 +9558,73 @@
   "doi:10.47861/jkpu-nalanda.v4i4.2513": {
     "source": "top_journal",
     "title": "Analisis Komponen Komparatif Tanah, Air, dan Iklim pada Agroekosistem Lahan Sawah di Tiga Distrik Kabupaten Merauke"
+  },
+  "arxiv:2607.09225v1": {
+    "source": "arxiv",
+    "title": "Glob3R: Global Structure-from-Motion with 3D Foundation Models"
+  },
+  "arxiv:2607.08808v1": {
+    "source": "arxiv",
+    "title": "StereoSplat+: Feed-Forward Stereo Gaussian Splatting with Diffusion-Assisted Progressive Inference"
+  },
+  "arxiv:2607.09260v1": {
+    "source": "arxiv",
+    "title": "AnythingReality: Robust Online Gaussian Splatting SLAM for Open-Vocabulary VR Scene Exploration"
+  },
+  "arxiv:2607.08948v1": {
+    "source": "arxiv",
+    "title": "SplatCtrl: Perception-Action Coupling via Gaussian Scene Representations and Reactive Robot Control"
+  },
+  "doi:10.3390/rs18132220": {
+    "source": "top_journal",
+    "title": "Beyond Checkerboards: Advantages of Photogrammetric Camera Calibration for Robust 3D Vision and Novel-View Generation"
+  },
+  "arxiv:2607.09503v1": {
+    "source": "arxiv",
+    "title": "What VGGT Knows About Overlap: Probing Geometric Foundation Models for Co-Visibility"
+  },
+  "arxiv:2607.09455v1": {
+    "source": "arxiv",
+    "title": "Hydra++: Real-Time Hierarchical 3D Scene Graph Construction With Object-Level Shape Estimation"
+  },
+  "doi:10.3390/rs18132218": {
+    "source": "top_journal",
+    "title": "MCPF-Net: Multi-Stage LiDAR-Image Collaborative Perception Fusion Network for Point Cloud Semantic Segmentation of Urban Scenes"
+  },
+  "doi:10.1007/s11547-026-02247-4": {
+    "source": "top_journal",
+    "title": "LiT-WSAG: high-precision 3D liver tumor segmentation via 2D training and 3D reconstruction."
+  },
+  "arxiv:2607.05356": {
+    "source": "top_journal",
+    "title": "ReCal3R: Reliability-Calibrated Learning Rates for Streaming 3D Reconstruction"
+  },
+  "arxiv:2607.05373": {
+    "source": "top_journal",
+    "title": "PixWorld: Unifying 3D Scene Generation and Reconstruction in Pixel Space"
+  },
+  "arxiv:2607.04879": {
+    "source": "top_journal",
+    "title": "WinTA-GIL: Windowed Trajectory Alignment for GNSS-IMU-LiDAR Heading Refinement in Intermittent Signal Environments"
+  },
+  "arxiv:2607.04898": {
+    "source": "top_journal",
+    "title": "3DMPE: 3D Multi-Perspective Embedding"
+  },
+  "doi:10.3390/vehicles8070155": {
+    "source": "top_journal",
+    "title": "Open-World Critical Scenario Recognition and Maneuver-Level Generation for Autonomous Driving Simulation Testing"
+  },
+  "arxiv:2607.04722": {
+    "source": "top_journal",
+    "title": "Reference-Induced Consensus for Selective Posed-Reference Visual Localization"
+  },
+  "arxiv:2607.05092": {
+    "source": "top_journal",
+    "title": "ECO: Incremental Ego-Centric Octree Update for Point Streams"
+  },
+  "doi:10.1108/inmr-01-2024-0010": {
+    "source": "top_journal",
+    "title": "Determinants of smart factory adoption in emerging economies: empirical evidence from the automotive industry in Morocco and Nigeria"
   }
 }
