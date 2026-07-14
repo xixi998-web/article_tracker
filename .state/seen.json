@@ -9682,5 +9682,125 @@
   "doi:10.3390/heritage9070264": {
     "source": "top_journal",
     "title": "Environmental Impact Assessment of Agricultural Greenhouse Systems in a Natural Heritage Site"
+  },
+  "arxiv:2607.11184v1": {
+    "source": "arxiv",
+    "title": "GeoGS-SLAM: Online Monocular Reconstruction Using Gaussian Splatting with Geometric Priors"
+  },
+  "arxiv:2607.10792v1": {
+    "source": "arxiv",
+    "title": "MAC-Splat: Multi-Attribute Consistency for High-Fidelity Sparse-View Reconstruction"
+  },
+  "arxiv:2607.11673v1": {
+    "source": "arxiv",
+    "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space"
+  },
+  "arxiv:2607.10925v1": {
+    "source": "arxiv",
+    "title": "Mapping Pamir: Multi-Session Visual-Inertial SLAM and 3D Reconstruction of an Underwater Shipwreck"
+  },
+  "arxiv:2607.09947v1": {
+    "source": "arxiv",
+    "title": "A Numerically-Robust ROS 2 Port of iG-LIO: Diagnosing and Fixing Toolchain-Induced Failures in Incremental GICP LiDAR-Inertial Odometry"
+  },
+  "arxiv:2607.09787v1": {
+    "source": "arxiv",
+    "title": "Adversarially Guided Diffusion for LiDAR Range Image Synthesis"
+  },
+  "doi:10.3390/s26134317": {
+    "source": "top_journal",
+    "title": "Cost-Aware Scheduling Under Latency Constraints for Multi-View 3D Reconstruction Across the Edge–Cloud Continuum"
+  },
+  "doi:10.1109/tvcg.2026.3710718": {
+    "source": "top_journal",
+    "title": "LivingAvatars: Robust Head Reconstruction With Gaussian Lifecycle Management and Neural Detail Synthesis."
+  },
+  "arxiv:2607.10237v1": {
+    "source": "arxiv",
+    "title": "CoSAG: Compact Semantic Anchor Gaussians via Training-Free Rate-Distortion Coding"
+  },
+  "doi:10.3390/rs18132245": {
+    "source": "top_journal",
+    "title": "Stereo Matching in Satellite Imagery: A Depth Estimation Foundation Model-Assisted Iterative Approach"
+  },
+  "arxiv:2607.05955": {
+    "source": "top_journal",
+    "title": "NegROI: Click-Centric Uncertainty-Guided Refinement with Scene-Conditioned Negative Prompts for Robust Interactive 3D Segmentation"
+  },
+  "arxiv:2607.11686v1": {
+    "source": "arxiv",
+    "title": "Self-Healing Visual Recovery for Autonomous Ground Vehicles Using Camera-Only Visual Odometry"
+  },
+  "arxiv:2607.11285v1": {
+    "source": "arxiv",
+    "title": "SalientGS: Unified SfM-to-3DGS with Importance-Guided MCMC Gaussian Allocation"
+  },
+  "arxiv:2607.11118v1": {
+    "source": "arxiv",
+    "title": "GHOST: Geometry-Guided Hallucination of Opaque Surface Textures"
+  },
+  "arxiv:2607.10995v1": {
+    "source": "arxiv",
+    "title": "AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling"
+  },
+  "arxiv:2607.10912v1": {
+    "source": "arxiv",
+    "title": "DP-Splat: Bayesian Nonparametric Complexity Control for Gaussian Splatting"
+  },
+  "arxiv:2607.10690v1": {
+    "source": "arxiv",
+    "title": "Incremental Online Scene Reconstruction by 3D Gaussian Triangulation"
+  },
+  "arxiv:2607.10489v1": {
+    "source": "arxiv",
+    "title": "Grassmannian Splatting I: Moving rank-2 Spacetime Surfels for Dynamic Scene Rendering"
+  },
+  "arxiv:2607.08250v2": {
+    "source": "arxiv",
+    "title": "On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting"
+  },
+  "arxiv:2607.05906": {
+    "source": "top_journal",
+    "title": "GaussFusion: Towards Multimodal 3D Gaussian Pretraining"
+  },
+  "arxiv:2607.06699": {
+    "source": "top_journal",
+    "title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation"
+  },
+  "arxiv:2607.11099v1": {
+    "source": "arxiv",
+    "title": "Desc++: Efficient Descriptor Enhancement for Data Association in Existing Visual SLAM Systems"
+  },
+  "arxiv:2607.10762v1": {
+    "source": "arxiv",
+    "title": "TOLiD: Bridging the Architecture Gap in Vision Foundation Model to LiDAR Pretraining via Token Lifting for Distillation"
+  },
+  "arxiv:2607.10394v1": {
+    "source": "arxiv",
+    "title": "CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles"
+  },
+  "arxiv:2607.11500v1": {
+    "source": "arxiv",
+    "title": "HyperGS: Fast and Generalizable Gaussian Video Representation"
+  },
+  "arxiv:2607.09815v1": {
+    "source": "arxiv",
+    "title": "RASR: Range-Aware Scale Recovery for Metric UAV Navigation"
+  },
+  "doi:10.1117/1.apn.5.5.056009": {
+    "source": "top_journal",
+    "title": "Self-supervised denoising strategies for multimodality light-field microscopy"
+  },
+  "doi:10.1055/a-2908-1958": {
+    "source": "top_journal",
+    "title": "A Comparative Analysis of Lower Extremity Deformity Correction: Two-Dimensional vs. Three-Dimensional Computer Tomography."
+  },
+  "doi:10.3390/app16136825": {
+    "source": "top_journal",
+    "title": "L-DGC: LLM-Based Dance Generative Control"
+  },
+  "doi:10.20473/jisebi.12.2.223-235": {
+    "source": "top_journal",
+    "title": "Lightweight Skeleton–Based Hand Gesture Recognition Using Machine Learning for Human-Robot Interaction"
   }
 }
