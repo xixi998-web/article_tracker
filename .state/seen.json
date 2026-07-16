@@ -9838,5 +9838,81 @@
   "doi:10.1016/j.jenvman.2026.130388": {
     "source": "top_journal",
     "title": "Climate trade-offs: Greenhouse gas emissions from natural and constructed intertidal wetlands."
+  },
+  "arxiv:2607.12785v1": {
+    "source": "arxiv",
+    "title": "ExtraGS: Enhancing Endoscopic View Extrapolation via Diffusion-Guided 3D Gaussian Splatting"
+  },
+  "arxiv:2607.07452": {
+    "source": "top_journal",
+    "title": "GeoGS-SLAM: Geometry-Only Gaussian Splatting for Dense Monocular SLAM"
+  },
+  "arxiv:2607.11673v2": {
+    "source": "arxiv",
+    "title": "ABot-3DWorld 0: A Universal World Model to Explore Any 3D Space"
+  },
+  "arxiv:2607.12265v1": {
+    "source": "arxiv",
+    "title": "DiffRadar: Differentiable Physics-Aware Radar SLAM with Gaussian Fields"
+  },
+  "arxiv:2607.12959v1": {
+    "source": "arxiv",
+    "title": "ViCo3D: Empowering LiDAR-based Collaborative 3D Object Detection with Vision Foundation Models"
+  },
+  "arxiv:2607.12110v1": {
+    "source": "arxiv",
+    "title": "ACZ-GSeg: Adaptive Concentric Zone-based Two-stage Ground Segmentation for LiDAR Point Clouds"
+  },
+  "arxiv:2607.12818v1": {
+    "source": "arxiv",
+    "title": "Breaking Déjà Vu: Independent Auditing of Visual Place Recognition through Vision-Language Reasoning"
+  },
+  "arxiv:2607.12419v1": {
+    "source": "arxiv",
+    "title": "DeGuNet: Depth-Guided Ultra-Compact Backbones for Efficient LiDAR-Camera 3D Detection"
+  },
+  "arxiv:2607.11964v1": {
+    "source": "arxiv",
+    "title": "LIDAR-AD: A Decoder-Free Latent-Interaction Dreamer with Action-Residual Chains for Autonomous Driving"
+  },
+  "doi:10.1002/rob.70291": {
+    "source": "top_journal",
+    "title": "FLSea: Underwater Visual–Inertial and Stereovision Forward‐Looking Data Sets"
+  },
+  "arxiv:2607.13010v1": {
+    "source": "arxiv",
+    "title": "DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology"
+  },
+  "arxiv:2607.12939v1": {
+    "source": "arxiv",
+    "title": "Point Tracking in Surgery--The 2025 Surgical Tattoos in Infrared Challenge (STIRC2025)"
+  },
+  "arxiv:2607.12811v1": {
+    "source": "arxiv",
+    "title": "PixelLoop: Shortcut Topological Navigation with Pixel-Level Loops"
+  },
+  "arxiv:2607.12370v1": {
+    "source": "arxiv",
+    "title": "StratMamba: Strategic and Reactive Stream Partitioning for Path-Efficient LiDAR-Based Obstacle Avoidance"
+  },
+  "arxiv:2607.12362v1": {
+    "source": "arxiv",
+    "title": "Implicit 4D Gaussian Splatting for Fast Motion with Large Inter-Frame Displacements"
+  },
+  "doi:10.3389/fpls.2026.1885579": {
+    "source": "top_journal",
+    "title": "F2DMAS: a smartphone video-based 3D phenotyping workflow for potted plants in complex backgrounds"
+  },
+  "doi:10.5194/isprs-annals-xi-3-2026-427-2026": {
+    "source": "top_journal",
+    "title": "Stereo SAR for Building Imaging"
+  },
+  "arxiv:2607.07139": {
+    "source": "top_journal",
+    "title": "Disturbance-aware Motion Planning for Over-actuated Underwater Vehicles Exploiting Actuation Redundancy for High-fidelity 3D Reconstruction"
+  },
+  "arxiv:2607.07962": {
+    "source": "top_journal",
+    "title": "Beyond Thermal Imaging: Inferring Thermophysical Properties from Time-Resolved Thermal Observations"
   }
 }
