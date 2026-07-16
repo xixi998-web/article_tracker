@@ -9914,5 +9914,45 @@
   "arxiv:2607.07962": {
     "source": "top_journal",
     "title": "Beyond Thermal Imaging: Inferring Thermophysical Properties from Time-Resolved Thermal Observations"
+  },
+  "doi:10.1002/ldr.70784": {
+    "source": "top_journal",
+    "title": "Root Order Dependent Changes in Fine‐Root Substrate and Soil Environment Regulate Soil Organic Nitrogen Fractions Under Acid Rain and Nitrogen Deposition"
+  },
+  "doi:10.9734/ijpss/2026/v38i76176": {
+    "source": "top_journal",
+    "title": "Adsorption and Distribution Pattern of Zinc in Soils Amended with Different Types of Biochars"
+  },
+  "doi:10.3390/f17070805": {
+    "source": "top_journal",
+    "title": "Positive Correlation Between Tree Species Richness and Soil Quality in Subtropical Natural Pinus massoniana Lamb. Forests"
+  },
+  "doi:10.56519/k6y27q77": {
+    "source": "top_journal",
+    "title": "EVALUACIÓN ESPACIO TEMPORAL DEL CRECIMIENTO DEL ABONO VERDE MEDIANTE TELEDETECCIÓN MULTIESPECTRAL CON UAV, SIG Y ANÁLISIS FISICOQUÍMICO DEL SUELO"
+  },
+  "doi:10.3389/fmicb.2026.1848421": {
+    "source": "top_journal",
+    "title": "Development of organo-bioformulations for improved phosphorus availability and wheat productivity: insights from adsorption isotherms and field validation"
+  },
+  "doi:10.29303/goescienceed.v7i3.2045": {
+    "source": "top_journal",
+    "title": "Environmental and Technological Dimensions of Sustainable Rice Farming Practices in Jonggat Subdistrict, Central Lombok Regency"
+  },
+  "doi:10.1126/science.adw6568": {
+    "source": "top_journal",
+    "title": "Roots navigate around decay regions by sensing local pH gradients."
+  },
+  "doi:10.25128/2078-2357.26.1.5": {
+    "source": "top_journal",
+    "title": "ВПЛИВ ПСИХОСОЦІАЛЬНИХ ТА ЕКОЛОГІЧНИХ ФАКТОРІВ СЕРЕДОВИЩА НА ПОКАЗНИКИ ЛЕЙКОЦИТАРНОЇ ФОРМУЛИ В ЗДОРОВОЇ ГРУПИ НАСЕЛЕННЯ"
+  },
+  "doi:10.9734/jamb/2026/v26i81154": {
+    "source": "top_journal",
+    "title": "Characterization and Functional Gene Analyses of Microorganisms in Remediated Sites in Gokana Local Government Area of Rivers State, Nigeria"
+  },
+  "doi:10.3390/su18147015": {
+    "source": "top_journal",
+    "title": "Evaluation and Source Attribution of Multi-Element Soil Contamination in Agricultural Fields in Arid Regions Using Positive Matrix Factorization (PMF) Combined with Interpretable Machine Learning (XGBoost-SHAP)"
   }
 }
