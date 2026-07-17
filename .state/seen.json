@@ -10102,5 +10102,53 @@
   "doi:10.3390/land15071241": {
     "source": "top_journal",
     "title": "Perspectives for Ecological Restoration in the Agricultural Frontier: Challenges and Possibilities for the Socio-Environmental Conservation of the Brazilian Cerrado"
+  },
+  "arxiv:2607.14481v1": {
+    "source": "arxiv",
+    "title": "Immediate 3D Gaussian Splat Reconstruction of Unordered Input with Global Consistency"
+  },
+  "arxiv:2607.14203v1": {
+    "source": "arxiv",
+    "title": "Instant NuRec: Feed-Forward 3D Gaussian Reconstruction for Driving Scene Simulation"
+  },
+  "arxiv:2607.15211v1": {
+    "source": "arxiv",
+    "title": "MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Monocular RGB Videos"
+  },
+  "arxiv:2607.14997v1": {
+    "source": "arxiv",
+    "title": "AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight"
+  },
+  "arxiv:2607.14990v1": {
+    "source": "arxiv",
+    "title": "JADE-GS: Joint Alternating Deblurring Guided by Events in 3D Gaussian Splatting"
+  },
+  "arxiv:2607.14639v1": {
+    "source": "arxiv",
+    "title": "Image-to-Point Cloud Registration Made Easy with Rectified Flow-based LiDAR Upsampling"
+  },
+  "arxiv:2607.14513v1": {
+    "source": "arxiv",
+    "title": "Compression of 3D Gaussian Splatting Data Using GPU-friendly Graphics Texture Coding"
+  },
+  "arxiv:2607.14470v1": {
+    "source": "arxiv",
+    "title": "G$^2$SR: Geometric Methods for Fast and Memory-Efficient Gaussian-based Surface Reconstruction"
+  },
+  "arxiv:2607.14228v1": {
+    "source": "arxiv",
+    "title": "SeeSE3: Emergence of 3D Space in Vision Features"
+  },
+  "arxiv:2607.15036v1": {
+    "source": "arxiv",
+    "title": "Learning Agile Navigation in Crowded Environments for Quadruped Robots"
+  },
+  "arxiv:2607.14463v1": {
+    "source": "arxiv",
+    "title": "Depth-Dependent Hidden-State Collapse in Dynamical System Autoencoders for LiDAR Point-Cloud Classification"
+  },
+  "arxiv:2607.09815v2": {
+    "source": "arxiv",
+    "title": "RASR: Range-Aware Scale Recovery for Metric UAV Navigation"
   }
 }
