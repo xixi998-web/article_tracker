@@ -9954,5 +9954,101 @@
   "doi:10.3390/su18147015": {
     "source": "top_journal",
     "title": "Evaluation and Source Attribution of Multi-Element Soil Contamination in Agricultural Fields in Arid Regions Using Positive Matrix Factorization (PMF) Combined with Interpretable Machine Learning (XGBoost-SHAP)"
+  },
+  "arxiv:2607.12785v2": {
+    "source": "arxiv",
+    "title": "ExtraGS: Enhancing Endoscopic View Extrapolation via Diffusion-Guided 3D Gaussian Splatting"
+  },
+  "arxiv:2607.13524v1": {
+    "source": "arxiv",
+    "title": "COLMAR: Cooperative View Policy Learning for Multi-Agent Active 3D Reconstruction"
+  },
+  "doi:10.1145/3821567": {
+    "source": "top_journal",
+    "title": "Closed-Form Convolution for physically-accurate defocus in Gaussian Splatting"
+  },
+  "arxiv:2607.09260": {
+    "source": "top_journal",
+    "title": "AnythingReality: Robust Online Gaussian Splatting SLAM for Open-Vocabulary VR Scene Exploration"
+  },
+  "arxiv:2607.13516v1": {
+    "source": "arxiv",
+    "title": "Improving Map Consistency in Graph-Based LiDAR SLAM Through Information-Aware Odometry and Retroactive Loop Closure"
+  },
+  "arxiv:2607.09503": {
+    "source": "top_journal",
+    "title": "What VGGT Knows About Overlap: Probing Geometric Foundation Models for Co-Visibility"
+  },
+  "arxiv:2607.13449v1": {
+    "source": "arxiv",
+    "title": "DreamSat-Pose: Spacecraft Pose Estimation from Single-View 3D Reconstructions and Learned 2D-3D Feature Matching"
+  },
+  "arxiv:2607.13808v1": {
+    "source": "arxiv",
+    "title": "Bake It Till You Make It: Ultrafast Spatial Texture-Atlas Splatting"
+  },
+  "arxiv:2607.13451v1": {
+    "source": "arxiv",
+    "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation"
+  },
+  "arxiv:2607.13405v1": {
+    "source": "arxiv",
+    "title": "WNOJ-LIO: A White-Noise-on-Jerk Motion-Prior EKF for High-Dynamic LiDAR-IMU Fusion"
+  },
+  "arxiv:2607.13265v1": {
+    "source": "arxiv",
+    "title": "Differentiable Polarized Path Tracing"
+  },
+  "arxiv:2607.11285v2": {
+    "source": "arxiv",
+    "title": "SalientGS: Unified SfM-to-3DGS with Importance-Guided MCMC Gaussian Allocation"
+  },
+  "arxiv:2607.13067v1": {
+    "source": "arxiv",
+    "title": "A 3DGS-Driven Dynamic Viewpoint and Vibrotactile Framework for Subsea Teleoperation Validated via fNIRS"
+  },
+  "arxiv:2607.13682v1": {
+    "source": "arxiv",
+    "title": "Calibrated Closed-Form Uncertainty for Radiative Gaussian Splatting in Sparse-View CT"
+  },
+  "arxiv:2607.12818v2": {
+    "source": "arxiv",
+    "title": "Breaking Déjà Vu: Independent Auditing of Visual Place Recognition through Vision-Language Reasoning"
+  },
+  "arxiv:2607.14005v1": {
+    "source": "arxiv",
+    "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming"
+  },
+  "arxiv:2607.13492v1": {
+    "source": "arxiv",
+    "title": "CASA-SDF: Curriculum-Aware Spatial Adaptation with Curvature-Guided Density for Neural Implicit Surface Reconstruction"
+  },
+  "arxiv:2607.13154v1": {
+    "source": "arxiv",
+    "title": "Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation"
+  },
+  "arxiv:2607.13010v2": {
+    "source": "arxiv",
+    "title": "DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology"
+  },
+  "doi:10.3390/jmse14141276": {
+    "source": "top_journal",
+    "title": "Camera–LiDAR Data Fusion for Enhanced Ship Situational Awareness in Maritime Environment"
+  },
+  "doi:10.3389/fcomp.2026.1855449": {
+    "source": "top_journal",
+    "title": "Digital twin-based virtual reconstruction and immersive experience design of traditional Miao ethnic costume patterns"
+  },
+  "doi:10.1088/1361-6501/ae891b": {
+    "source": "top_journal",
+    "title": "Radar-binocular fusion detection of maritime target based on parallax compensation"
+  },
+  "arxiv:2607.09024": {
+    "source": "top_journal",
+    "title": "Video Generation Models are General-Purpose Vision Learners"
+  },
+  "doi:10.1007/s12393-026-09453-w": {
+    "source": "top_journal",
+    "title": "Automation and Robotics in the Food Industry: Cyber-Physical Systems, Digital Twins, and AI-Driven Quality Control in the Era of Industry 5.0"
   }
 }
