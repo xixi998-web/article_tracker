@@ -10150,5 +10150,41 @@
   "arxiv:2607.09815v2": {
     "source": "arxiv",
     "title": "RASR: Range-Aware Scale Recovery for Metric UAV Navigation"
+  },
+  "doi:10.55164/ajstr.v29i8.265029": {
+    "source": "top_journal",
+    "title": "Predicting Fertility and Properties of Sugarcane Soil Series via Soil Color"
+  },
+  "doi:10.1186/s12870-026-09495-6": {
+    "source": "top_journal",
+    "title": "Chito-oligosaccharide loaded with ACC (1-aminocyclopropane-1-carboxylate) deaminase-producing bacteria improved soil microecology and cotton growth in salinized lands."
+  },
+  "doi:10.1016/j.chemosphere.2026.145029": {
+    "source": "top_journal",
+    "title": "Atmospheric microplastics as vectors of heavy metals and trace elements in tropical urban air: SEM-EDX and ICP-MS evidence from Metro Manila, Philippines."
+  },
+  "doi:10.1038/s41598-026-61748-4": {
+    "source": "top_journal",
+    "title": "Mobility and environmental availability of metal(loid)s at a historically recultivated Cu/Pb smelter site in Polichno, Holy Cross Mountains, Poland."
+  },
+  "doi:10.1007/s44373-026-00149-8": {
+    "source": "top_journal",
+    "title": "Pulse electrodeposition of Ni on Ti substrates for hydrogen evolution across acidic, alkaline, and neutral electrolytes"
+  },
+  "doi:10.1038/s41612-026-01484-8": {
+    "source": "top_journal",
+    "title": "Molecular-level insights into organic aerosol evolution and gas-particle partitioning in Beijing using a vaporization inlet coupled with Vocus PTR-MS"
+  },
+  "doi:10.3390/agriculture16141507": {
+    "source": "top_journal",
+    "title": "Effects of Straw Blind Ditch Burial Depth on Soil Salinity, Soil Water Content, and Nitrogen and Phosphorus Availability in Coastal Saline–Alkali Soil"
+  },
+  "doi:10.3390/app16146963": {
+    "source": "top_journal",
+    "title": "Reconstructing High-End Soil Sensor Measurements from a Low-Cost 7-in-1 Device in Hass Avocado Orchards Using Random Forest"
+  },
+  "doi:10.1007/s11356-026-38009-y": {
+    "source": "top_journal",
+    "title": "The potential of four legume trees for mercury phytoremediation and the role of arbuscular mycorrhizal fungi."
   }
 }
