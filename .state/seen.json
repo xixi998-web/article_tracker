@@ -10206,5 +10206,21 @@
   "doi:10.1002/ldr.70622": {
     "source": "top_journal",
     "title": "Editorial of the Special Issue: Anthropogenic Impacts on Land Degradation in a Changing World"
+  },
+  "arxiv:2607.10925": {
+    "source": "top_journal",
+    "title": "Mapping Pamir: Multi-Session Visual-Inertial SLAM and 3D Reconstruction of an Underwater Shipwreck"
+  },
+  "doi:10.46299/979-8-90553-922-0": {
+    "source": "top_journal",
+    "title": "From Islamic Mysticism to the Theory of Syntopotentialism. The Formation of a New Philosophy of Possibilities"
+  },
+  "arxiv:2607.10530": {
+    "source": "top_journal",
+    "title": "Integrating Physics-Informed Neural Networks and 3D Vascular Geometry Learning for Cerebral Aneurysm Detection and Multimodal Rupture-Risk Prediction"
+  },
+  "doi:10.3390/ijms27146212": {
+    "source": "top_journal",
+    "title": "A Length-Adaptive LLM-Enhanced Method for Drug–Target Interaction Prediction"
   }
 }
