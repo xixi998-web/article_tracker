@@ -10290,5 +10290,69 @@
   "doi:10.1134/s106422932660154x": {
     "source": "top_journal",
     "title": "On the Necessity and Possibility of Modernizing the Methodology of Soil-Agroclimatic Evaluation of Arable Lands in Russia"
+  },
+  "arxiv:2607.11184": {
+    "source": "top_journal",
+    "title": "GeoGS-SLAM: Online Monocular Reconstruction Using Gaussian Splatting with Geometric Priors"
+  },
+  "arxiv:2607.15727v1": {
+    "source": "arxiv",
+    "title": "Event3R: Asynchronous-to-Global 3D Reconstruction from Event Camera via Spatial-Temporal Feature Aggregation"
+  },
+  "arxiv:2607.15542v1": {
+    "source": "arxiv",
+    "title": "ImprovedVBGS: Real-time Continual Variational Bayes Gaussian Splatting"
+  },
+  "doi:10.3390/electronics15143066": {
+    "source": "top_journal",
+    "title": "Distortion-Aware Bi-Projection Fusion for 360∘ Monocular Depth Estimation via Coordinate Attention"
+  },
+  "doi:10.3390/jmse14141280": {
+    "source": "top_journal",
+    "title": "Memory-Efficient 3D LiDAR Graph SLAM for Ballast Water Tank Inspection Robots Using Robust Hierarchical Bundle Adjustment and a Kaczmarz Backend"
+  },
+  "arxiv:2607.16128v1": {
+    "source": "arxiv",
+    "title": "Toward Semantic Communication for Real-time Mobile 3D Reconstruction"
+  },
+  "arxiv:2607.15889v1": {
+    "source": "arxiv",
+    "title": "Hardware-triggered Time Synchronization of Roadside Multi-lidar, Multi-camera Measurement System for Accurate Data Alignment"
+  },
+  "arxiv:2607.15828v1": {
+    "source": "arxiv",
+    "title": "Beyond Frontiers: Scene-Anomaly Guided Autonomous Exploration"
+  },
+  "arxiv:2607.15806v1": {
+    "source": "arxiv",
+    "title": "HybridSim: A Physics-Learning Hybrid Digital Twin for mmWave Human Sensing"
+  },
+  "arxiv:2607.15536v1": {
+    "source": "arxiv",
+    "title": "E3DGS: Unified Geometric-Photometric Equivariance for 3D Gaussian Splatting via Color-as-Geometry Embedding"
+  },
+  "arxiv:2607.16156v1": {
+    "source": "arxiv",
+    "title": "PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment"
+  },
+  "arxiv:2607.16154v1": {
+    "source": "arxiv",
+    "title": "CLIFE: Camera-LiDAR Fusion Framework for Edge-Deployable Roadside VRU Perception"
+  },
+  "arxiv:2607.15652v1": {
+    "source": "arxiv",
+    "title": "CSS-BA: Gate-Guided Column Space Search for Bundle Adjustment"
+  },
+  "arxiv:2607.13154v2": {
+    "source": "arxiv",
+    "title": "Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation"
+  },
+  "doi:10.1117/12.3119358": {
+    "source": "top_journal",
+    "title": "Dynamic gesture command interpretation method based on visual algorithm in intelligent environment"
+  },
+  "doi:10.64898/2026.07.11.26357421": {
+    "source": "top_journal",
+    "title": "A retrospective study of a Chinese vision-language large model for emergency 3D brain CT interpretation"
   }
 }
