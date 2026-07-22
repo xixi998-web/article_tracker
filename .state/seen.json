@@ -10450,5 +10450,125 @@
   "doi:10.25252/se/2026/254188": {
     "source": "top_journal",
     "title": "Spatial prediction of soil microvariability through chemometric modeling for precision agriculture"
+  },
+  "arxiv:2607.16926v1": {
+    "source": "arxiv",
+    "title": "Splat-based 3D Scene Reconstruction with Extreme Motion-blur"
+  },
+  "arxiv:2607.17803v1": {
+    "source": "arxiv",
+    "title": "FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System"
+  },
+  "arxiv:2607.12785": {
+    "source": "top_journal",
+    "title": "ExtraGS: Enhancing Endoscopic View Extrapolation via Diffusion-Guided 3D Gaussian Splatting"
+  },
+  "arxiv:2607.17916v1": {
+    "source": "arxiv",
+    "title": "Packet-Loss Robust 3D Gaussian Compression via Atomic Packaging and GNN-based Error Concealment"
+  },
+  "arxiv:2607.17699v1": {
+    "source": "arxiv",
+    "title": "SLAM in Low-Light Environments: Project Report"
+  },
+  "arxiv:2607.16838v1": {
+    "source": "arxiv",
+    "title": "TopoGS: Planar Reconstruction via Topology-aware 3D Gaussian Splatting"
+  },
+  "arxiv:2607.18067v1": {
+    "source": "arxiv",
+    "title": "QIRF Quantum-Inspired Non-Orthogonal Function-Space Compression for 3D Gaussian Splatting"
+  },
+  "arxiv:2607.17842v1": {
+    "source": "arxiv",
+    "title": "CaT-GS: Efficient 3DGS Rendering for Large Scale Scenes via Inter-frame Caching and Tile Scheduling"
+  },
+  "doi:10.55730/1300-0632.4197": {
+    "source": "top_journal",
+    "title": "Efficient edge implementation of MiDaSNet for real-time depth estimation in indoor robotics"
+  },
+  "arxiv:2607.17852v1": {
+    "source": "arxiv",
+    "title": "Lifelong Localization in Dynamic Indoor Environments Combining Odometry with Sparse Distance Sampling"
+  },
+  "arxiv:2607.17813v1": {
+    "source": "arxiv",
+    "title": "A2RL V\\textsubscript{max}: The A2RL autonomous racing dataset for long-range, high-speed perception and multi-vehicle interaction"
+  },
+  "doi:10.1117/12.3119281": {
+    "source": "top_journal",
+    "title": "Research on point cloud denoising based on multifeature fusion in adverse weather"
+  },
+  "arxiv:2607.17965v1": {
+    "source": "arxiv",
+    "title": "Exploration Matters for Escaping the Blur Trap in 3D Gaussian Splatting"
+  },
+  "arxiv:2607.17351v1": {
+    "source": "arxiv",
+    "title": "DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception"
+  },
+  "arxiv:2607.17058v1": {
+    "source": "arxiv",
+    "title": "DROID-ANCHOR: Odometry-Anchored Recurrent Metric Depth Estimation"
+  },
+  "arxiv:2607.16624v1": {
+    "source": "arxiv",
+    "title": "SPARE-GS: Structural Parsimony and Resource Efficiency for 3D Gaussian Splatting"
+  },
+  "arxiv:2607.18153v1": {
+    "source": "arxiv",
+    "title": "Robust Multimodal Dynamic Object Segmentation"
+  },
+  "arxiv:2607.16897v1": {
+    "source": "arxiv",
+    "title": "GLidE-SLAM: GL-Accelerated Indirect-Direct Embedded SLAM"
+  },
+  "arxiv:2607.17984v1": {
+    "source": "arxiv",
+    "title": "Distilling Global Traversability Priors for Image-based Affordance Prediction in Off-road Environments"
+  },
+  "arxiv:2607.17896v1": {
+    "source": "arxiv",
+    "title": "Locality-Aware Density Control for Efficient Gaussian-based Image Representation"
+  },
+  "arxiv:2607.17103v1": {
+    "source": "arxiv",
+    "title": "Move First, Commit Later: Selective LiDAR-to-BIM Global Initialization via Sequential Consensus with Symmetry-Aware Abstention"
+  },
+  "arxiv:2607.16920v1": {
+    "source": "arxiv",
+    "title": "A BIM-enabled, Agent-based Discrete-event Simulation Platform for Robotic Studies: A Method based on Graph Theory"
+  },
+  "arxiv:2607.16862v1": {
+    "source": "arxiv",
+    "title": "InLiER: Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization"
+  },
+  "arxiv:2607.16591v1": {
+    "source": "arxiv",
+    "title": "Learning from World Feedback: Why Model Uncertainty Fails as a Risk Signal in Model-Based RL"
+  },
+  "arxiv:2607.16362v1": {
+    "source": "arxiv",
+    "title": "OmniStyle-INR: Universal and Multimodal Style Transfer for INRs"
+  },
+  "arxiv:2607.16309v1": {
+    "source": "arxiv",
+    "title": "SaaF: Scene-Specific Ambiguity-Aware 3D Language Fields towards Interactive Real-World Object Retrieval"
+  },
+  "doi:10.3390/s26144478": {
+    "source": "top_journal",
+    "title": "Field-Validated UAV-Based Deep Learning Framework for Automated Inspection of Power Transmission and Distribution Infrastructure"
+  },
+  "doi:10.62713/aic.4552": {
+    "source": "top_journal",
+    "title": "To Study the Correlation Between the Anatomical Variation of Bronchial Vessels Identified by Preoperative Three-Dimensional CT Reconstruction and the Clinical Outcome After Complex Segmentectomy."
+  },
+  "doi:10.3390/pr14142286": {
+    "source": "top_journal",
+    "title": "Characterization of Laminae and Lamina-Associated Fractures in the Tight Oil Reservoir of Xifeng Oilfield, Ordos Basin: CT Scanning of Full-Diameter Cores from Horizontal Well X119-19-39H"
+  },
+  "arxiv:2607.12319": {
+    "source": "top_journal",
+    "title": "DM-KG: A Novel Method for Boosting Spatial Cognition of Vision-Language Models in Street View Imagery"
   }
 }
