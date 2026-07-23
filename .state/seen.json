@@ -10622,5 +10622,25 @@
   "doi:10.1007/s11270-026-09753-1": {
     "source": "top_journal",
     "title": "AI and Multi-Omics for Climate-Resilient Remediation of Heavy Metal Soil Toxicity"
+  },
+  "doi:10.1145/3799902.3811167": {
+    "source": "top_journal",
+    "title": "Immediate 3D Gaussian Splat Reconstruction of Unordered Input with Global Consistency"
+  },
+  "arxiv:2607.14470": {
+    "source": "top_journal",
+    "title": "G$^2$SR: Geometric Methods for Fast and Memory-Efficient Gaussian-based Surface Reconstruction"
+  },
+  "arxiv:2607.15048": {
+    "source": "top_journal",
+    "title": "RoGS: Adaptive Meshgrid Gaussian for Large-Scale Road Surface Mapping"
+  },
+  "doi:10.3390/s26144511": {
+    "source": "top_journal",
+    "title": "GeoSeqNet: A Geometry-Aware Sequential Network for Robust 3D Point Cloud Analysis"
+  },
+  "doi:10.64898/2026.07.15.738795": {
+    "source": "top_journal",
+    "title": "∑0–EvoCell: An AI-Native Ontology that Unifies Evolutionary and Cell Biology in Latent Space"
   }
 }
