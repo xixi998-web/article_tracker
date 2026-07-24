@@ -10714,5 +10714,93 @@
   "doi:10.64898/2026.07.13.738212": {
     "source": "top_journal",
     "title": "Plant Functional Type Composition, Rather Than Species Diversity, Shapes Soil Microbial Functional Diversity and Redundancy"
+  },
+  "arxiv:2607.20417v1": {
+    "source": "arxiv",
+    "title": "ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion"
+  },
+  "arxiv:2607.19228v1": {
+    "source": "arxiv",
+    "title": "IGGT4D: Streaming 4D Instance-Grounded Geometry Transformer"
+  },
+  "arxiv:2607.19100v1": {
+    "source": "arxiv",
+    "title": "FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility"
+  },
+  "arxiv:2607.15727": {
+    "source": "top_journal",
+    "title": "Event3R: Asynchronous-to-Global 3D Reconstruction from Event Camera via Spatial-Temporal Feature Aggregation"
+  },
+  "arxiv:2607.19528v1": {
+    "source": "arxiv",
+    "title": "D3VL: Understanding Driving Scenes from 3D Time Series Data and Video with Language Models"
+  },
+  "arxiv:2607.18801v1": {
+    "source": "arxiv",
+    "title": "ZeroSplat: Generalized Referring Segmentation in 3D Gaussian Splatting"
+  },
+  "arxiv:2607.18578v1": {
+    "source": "arxiv",
+    "title": "Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Platform"
+  },
+  "arxiv:2607.15542": {
+    "source": "top_journal",
+    "title": "ImprovedVBGS: Real-time Continual Variational Bayes Gaussian Splatting"
+  },
+  "arxiv:2607.19777v1": {
+    "source": "arxiv",
+    "title": "Look Before You Edit: Attention-Guided Camera Placement and Multi-View Alignment for 3D Gaussian Splatting Editing"
+  },
+  "arxiv:2607.18539v1": {
+    "source": "arxiv",
+    "title": "AniGS: Bridging Rendering and Diffusion Prior for 3D Scene Animation"
+  },
+  "arxiv:2607.16128": {
+    "source": "top_journal",
+    "title": "Toward Semantic Communication for Real-time Mobile 3D Reconstruction"
+  },
+  "arxiv:2607.15828": {
+    "source": "top_journal",
+    "title": "Beyond Frontiers: Scene-Anomaly Guided Autonomous Exploration"
+  },
+  "arxiv:2607.19765v1": {
+    "source": "arxiv",
+    "title": "Extending a Large View Synthesis Model for Multi-view Panoptic Segmentation"
+  },
+  "arxiv:2607.20232v1": {
+    "source": "arxiv",
+    "title": "DINS-IO: Learned Inertial Odometry via Differentiable INS Consistency"
+  },
+  "arxiv:2607.19986v1": {
+    "source": "arxiv",
+    "title": "STEREOFLOW: Progressive Stereo Matching with StereoDiT and Transition Flow Matching"
+  },
+  "arxiv:2607.19719v1": {
+    "source": "arxiv",
+    "title": "Koopman Dreamer: Spectrally Constrained Latent Dynamics for Stable World-Model Imagination"
+  },
+  "arxiv:2607.19146v1": {
+    "source": "arxiv",
+    "title": "Sarus: Privacy-Preserving Multi-Vendor Perception Fusion via Homomorphic Encryption"
+  },
+  "arxiv:2607.18630v1": {
+    "source": "arxiv",
+    "title": "Seeing Before Generating: Object Perception Enhances Single-View 3D Reconstruction"
+  },
+  "arxiv:2607.18466v1": {
+    "source": "arxiv",
+    "title": "ECoNGS: Efficient Compressive Neural Gaussian Splats for Volume Visualization"
+  },
+  "doi:10.1088/1361-6501/ae8c67": {
+    "source": "top_journal",
+    "title": "High-precision and efficient single-shot color fringe projection profilometry via implicit spectral extraction and fusion network"
+  },
+  "doi:10.3390/infrastructures11070243": {
+    "source": "top_journal",
+    "title": "Automated Spatiotemporal Tracking of Crack Evolution in Concrete Structures Using UAV and Point Clouds"
+  },
+  "doi:10.1088/2631-8695/ae8cc1": {
+    "source": "top_journal",
+    "title": "3D Point Cloud Reconstruction and Defect Detection of Mechanical Parts Based on Recognition Feedback-Optimized VoteNet"
   }
 }
