@@ -10862,5 +10862,65 @@
   "doi:10.32734/abdimastalenta.v11i1.24718": {
     "source": "top_journal",
     "title": "From Research to Community Impact: Implementing Liquid Complementary Fertilizer Innovation to Promote Sustainable Agriculture in Narumonda III Village"
+  },
+  "arxiv:2607.21416v1": {
+    "source": "arxiv",
+    "title": "GLAM-SLAM: Real-time Gaussian Large-scale Mapping via Flow Densification and Spatial Decomposition"
+  },
+  "arxiv:2607.20789v1": {
+    "source": "arxiv",
+    "title": "3D-GIMP: When 3D Gaussian Inpainting Meets PatchMatch"
+  },
+  "arxiv:2607.20628v1": {
+    "source": "arxiv",
+    "title": "RealVDeblur: One-Step Diffusion for Generalizable Real-World Video Deblurring"
+  },
+  "arxiv:2607.16838": {
+    "source": "top_journal",
+    "title": "TopoGS: Planar Reconstruction via Topology-aware 3D Gaussian Splatting"
+  },
+  "arxiv:2607.21438v1": {
+    "source": "arxiv",
+    "title": "DAPM: UAV Monocular Depth Estimation from Any Height, Pitch, Roll and FOV"
+  },
+  "arxiv:2607.21023v1": {
+    "source": "arxiv",
+    "title": "WAT3R: Feedforward Underwater 3D Reconstruction"
+  },
+  "arxiv:2607.21448v1": {
+    "source": "arxiv",
+    "title": "GrainGS: Gradient-Decoupled Gaussian Splatting for Efficient Dynamic Novel View Synthesis"
+  },
+  "arxiv:2607.21138v1": {
+    "source": "arxiv",
+    "title": "DTIF: Robust Loop Closure Detection via Delaunay Triangle Topology in Complex Forests"
+  },
+  "doi:10.1038/s41598-026-62822-7": {
+    "source": "top_journal",
+    "title": "TempoCross: instance-aware sparse representation for multimodal temporal fusion in 3D detection."
+  },
+  "arxiv:2607.21309v1": {
+    "source": "arxiv",
+    "title": "Factorized Spatio-Temporal Convolutions for Human Pose Estimation from Planar Lidar"
+  },
+  "arxiv:2607.20813v1": {
+    "source": "arxiv",
+    "title": "SubSplat: High-Resolution Pixel-aligned 3DGS via Sub-pixel Gaussian Reparameterization"
+  },
+  "doi:10.1158/1538-7445.rareca26-a042": {
+    "source": "top_journal",
+    "title": "Abstract A042: A unified computational framework for 3D spatial transcriptomics reconstruction and its application to hereditary diffuse gastric cancer"
+  },
+  "arxiv:2607.16862": {
+    "source": "top_journal",
+    "title": "InLiER: Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization"
+  },
+  "arxiv:2607.21485v1": {
+    "source": "arxiv",
+    "title": "Recurrent Sinusoidal INRs for Efficient High-Fidelity Representation"
+  },
+  "arxiv:2607.16896": {
+    "source": "top_journal",
+    "title": "PERA: A Perceive-Reason-Act Interface Bridging Sensing, Cognitive Reasoning, and Trustworthy Agentic Response for 6G"
   }
 }
