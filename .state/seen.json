@@ -10922,5 +10922,33 @@
   "arxiv:2607.16896": {
     "source": "top_journal",
     "title": "PERA: A Perceive-Reason-Act Interface Bridging Sensing, Cognitive Reasoning, and Trustworthy Agentic Response for 6G"
+  },
+  "doi:10.3390/land15071290": {
+    "source": "top_journal",
+    "title": "Spatiotemporal Evolution of Soil Nutrients in Land Consolidation Areas: A Random Forest Model-Based Perspective from Anyi County, Jiangxi Province"
+  },
+  "doi:10.9734/ajee/2026/v25i8991": {
+    "source": "top_journal",
+    "title": "Assessment of Soil Quality and Drinking Water (Tap Water) Quality in Selected Regions of Kangra District, Himachal Pradesh, India"
+  },
+  "doi:10.3390/su18147360": {
+    "source": "top_journal",
+    "title": "Vegetation Restoration Impacts on Soil Properties, Rare Earth Elements and Microbes in Southern Jiangxi Rare Earth Tailings"
+  },
+  "doi:10.3390/agriculture16141536": {
+    "source": "top_journal",
+    "title": "Straw-Derived Synthetic Humic Acid Improves Soil Structure, Nutrient Availability, Humification, and Crop Productivity in a Compacted Alkaline Farmland of the Yellow River Floodplain"
+  },
+  "doi:10.1007/s42832-026-0486-4": {
+    "source": "top_journal",
+    "title": "Effects of straw management practices on soil organic carbon fraction dynamics and greenhouse gas emissions in a double-season rice cropping system"
+  },
+  "doi:10.1038/s41598-026-61407-8": {
+    "source": "top_journal",
+    "title": "Soil property-driven prediction of heavy metal uptake by Anethum graveolens L. in sewage sludge-amended soils toward sustainable biomass utilization."
+  },
+  "doi:10.47191/ijcsrr/v9-i7-31": {
+    "source": "top_journal",
+    "title": "Environmental and Public Health Impact Assessment if Solid Waste Management Practices in Ovia North East, Edo State, Nigeria"
   }
 }
