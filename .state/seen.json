@@ -10950,5 +10950,45 @@
   "doi:10.47191/ijcsrr/v9-i7-31": {
     "source": "top_journal",
     "title": "Environmental and Public Health Impact Assessment if Solid Waste Management Practices in Ovia North East, Edo State, Nigeria"
+  },
+  "doi:10.1145/3799902.3811148": {
+    "source": "top_journal",
+    "title": "GauSmoke: Hybrid Physics-Optical Gaussian Splatting for Sparse Smoke Reconstruction"
+  },
+  "doi:10.1145/3799828.3816009": {
+    "source": "top_journal",
+    "title": "Revisiting Gaussian Process Implicit Surfaces for Uncertainty-Aware 3D Reconstruction in Robotics"
+  },
+  "doi:10.1145/3799902.3811112": {
+    "source": "top_journal",
+    "title": "SmoothMotionVectors: Optimizing Your Content for Video Codecs in Free View Video Compression"
+  },
+  "doi:10.1145/3799902.3811171": {
+    "source": "top_journal",
+    "title": "VFAvatar: Feed-Forward 3D Avatar Reconstruction from Casual Image Collections"
+  },
+  "doi:10.1145/3799825.3818735": {
+    "source": "top_journal",
+    "title": "Tessera: Participation as Cultural Reconstruction Through Confidence-Aware Temporal Rendering"
+  },
+  "doi:10.1145/3799902.3811192": {
+    "source": "top_journal",
+    "title": "CaRaFe: Camera-Radar Radiance Fields for Scene Reconstruction"
+  },
+  "doi:10.1145/3799902.3811039": {
+    "source": "top_journal",
+    "title": "FLASHand: Feed-forward reLightable and Animatable Single-view Hand Reconstruction"
+  },
+  "doi:10.1186/s13019-026-04495-x": {
+    "source": "top_journal",
+    "title": "Analysis of the anatomical relationship between the anterior segment (S3) and adjacent segments in the left upper lobe."
+  },
+  "doi:10.1111/joa.70214": {
+    "source": "top_journal",
+    "title": "The ovary structure and oogenesis in Hydrachnidia (Acariformes: Parasitengona)."
+  },
+  "doi:10.1145/3799825.3818713": {
+    "source": "top_journal",
+    "title": "EchoForge: Interpretable Audio-Conditioned Procedural Scene Generation from Spatial Sound"
   }
 }
