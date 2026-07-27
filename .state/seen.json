@@ -11006,5 +11006,21 @@
   "doi:10.1038/s41598-026-61927-3": {
     "source": "top_journal",
     "title": "Sustainable waste valorization through vermicomposting: optimizing rabbit manure–plant/kitchen waste mixtures for agroecosystem benefits"
+  },
+  "arxiv:2607.17803": {
+    "source": "top_journal",
+    "title": "FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System"
+  },
+  "doi:10.4018/ijkm.416288": {
+    "source": "top_journal",
+    "title": "Knowledge-Intensive 3D Reconstruction for Ancient Chinese Architecture"
+  },
+  "doi:10.3390/robotics15070136": {
+    "source": "top_journal",
+    "title": "SAR-SLAM: Semantic-Aware Recognition for Dynamic SLAM in Robotic Applications"
+  },
+  "doi:10.64898/2026.07.17.26358319": {
+    "source": "top_journal",
+    "title": "Dual-Filament 3D Printing of Patient-Specific CT Phantoms with Embedded Implants and Tunable Metal-Artifact Intensity"
   }
 }
