@@ -11054,5 +11054,65 @@
   "doi:10.9734/jgeesi/2026/v30i81092": {
     "source": "top_journal",
     "title": "Irrigation Water Quality Index and Conventional Tools to Support Sustainable Water Resource Management in Udham Singh Nagar, Uttarakhand, India"
+  },
+  "arxiv:2607.22147v1": {
+    "source": "arxiv",
+    "title": "Visual Relocalization from Sparse Views in Aliased and Low-Texture Environments via Novel View Synthesis"
+  },
+  "arxiv:2607.21986v1": {
+    "source": "arxiv",
+    "title": "Mag4D-SLAM Dataset: A Repeated-Traversal Multi-Modal 4D Geomagnetic Dataset for Localization and Mapping"
+  },
+  "arxiv:2607.19228": {
+    "source": "top_journal",
+    "title": "IGGT4D: Streaming 4D Instance-Grounded Geometry Transformer"
+  },
+  "arxiv:2607.19100": {
+    "source": "top_journal",
+    "title": "FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility"
+  },
+  "arxiv:2607.22172v1": {
+    "source": "arxiv",
+    "title": "JustDepth: Real-Time Radar-Camera Depth Estimation with Single-Scan LiDAR Supervision"
+  },
+  "arxiv:2607.22078v1": {
+    "source": "arxiv",
+    "title": "CommandLM: Data driven behavior level descriptor for ego vehicles"
+  },
+  "arxiv:2607.21448v2": {
+    "source": "arxiv",
+    "title": "GrainGS: Gradient-Decoupled Gaussian Splatting for Efficient Dynamic Novel View Synthesis"
+  },
+  "arxiv:2607.21675v1": {
+    "source": "arxiv",
+    "title": "Hash-QNeRF: Multiresolution Hash Encoding for Quantum Neural Radiance Fields"
+  },
+  "doi:10.3390/s26144621": {
+    "source": "top_journal",
+    "title": "HDR Scene Reconstruction from Resolution-Mismatched Event Streams and Single-Exposure Images"
+  },
+  "arxiv:2607.22534v1": {
+    "source": "arxiv",
+    "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction"
+  },
+  "arxiv:2607.22226v1": {
+    "source": "arxiv",
+    "title": "Offline Vision-Language Navigation with Geometric Goal Localization for Outdoor Environments"
+  },
+  "arxiv:2607.22145v1": {
+    "source": "arxiv",
+    "title": "Flight-Ready LiDAR-Inertial Odometry for Embedded Drone Platforms"
+  },
+  "arxiv:2607.18630": {
+    "source": "top_journal",
+    "title": "Seeing Before Generating: Object Perception Enhances Single-View 3D Reconstruction"
+  },
+  "doi:10.1002/jemt.70164": {
+    "source": "top_journal",
+    "title": "Improved Post-Processing Framework for Whole Slide Imaging and 3D Reconstruction."
+  },
+  "doi:10.20517/microstructures.2026.26": {
+    "source": "top_journal",
+    "title": "Fast three-dimensional nanoimaging of electron-beam-sensitive metal-organic frameworks-encapsulated materials"
   }
 }
