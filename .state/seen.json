@@ -11210,5 +11210,81 @@
   "doi:10.5194/bg-23-5035-2026": {
     "source": "top_journal",
     "title": "Net ecosystem exchange of extensive green roofs: the role of coupled energy, carbon, and water fluxes quantified by long-term micrometeorological observations"
+  },
+  "arxiv:2607.24403v1": {
+    "source": "arxiv",
+    "title": "GenSplatCodec: Feed-Forward Gaussian Splatting Compression via One-Step Diffusion"
+  },
+  "arxiv:2607.23861v1": {
+    "source": "arxiv",
+    "title": "Head Avatars with Dynamic Explicit Hair"
+  },
+  "arxiv:2607.23537v1": {
+    "source": "arxiv",
+    "title": "ObsDriveBench: Benchmarking Multimodal Understanding under Adverse Weather with Observability Awareness"
+  },
+  "arxiv:2607.23189v1": {
+    "source": "arxiv",
+    "title": "Fashion-3DLR: A Controllable 3D Garment Generation Using Pairwise Fashion Elements for Intelligent Design"
+  },
+  "arxiv:2607.22997v1": {
+    "source": "arxiv",
+    "title": "Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline"
+  },
+  "arxiv:2607.22890v1": {
+    "source": "arxiv",
+    "title": "Meshless Domain Randomization via Explicit Parameter Perturbation of 3D Gaussian Splatting"
+  },
+  "arxiv:2607.22717v1": {
+    "source": "arxiv",
+    "title": "TOM-GS: Editable Video Representation via Temporal Opacity Modulation of Static 3D Gaussians"
+  },
+  "arxiv:2607.24436v1": {
+    "source": "arxiv",
+    "title": "MSVS-VAE: Multi-Scale Anchored VecSet for High-Fidelity 3D Reconstruction"
+  },
+  "arxiv:2607.24233v1": {
+    "source": "arxiv",
+    "title": "Quality-Adaptive Multi-UAV 3D Reconstruction with Sparse Workload Redistribution"
+  },
+  "arxiv:2607.24224v1": {
+    "source": "arxiv",
+    "title": "MATS: A novel multi-modality multi-task learning framework for 3D perception in autonomous driving"
+  },
+  "arxiv:2607.23511v1": {
+    "source": "arxiv",
+    "title": "MOJITO: Modal Joint Learning for Unified End-to-End Autonomous Driving"
+  },
+  "arxiv:2607.24591v1": {
+    "source": "arxiv",
+    "title": "CameraAnything: Refilming Videos with Arbitrary Camera Control"
+  },
+  "arxiv:2607.24495v1": {
+    "source": "arxiv",
+    "title": "NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction"
+  },
+  "arxiv:2607.24160v1": {
+    "source": "arxiv",
+    "title": "Calibrated Tree-Neural Fusion for Fine-Grained Vegetation Community Classification"
+  },
+  "arxiv:2607.23901v1": {
+    "source": "arxiv",
+    "title": "SHARE: Towards Head-Mounted AR with User-Centric SLAM in Shared Human-Robot Workspaces"
+  },
+  "arxiv:2607.23743v1": {
+    "source": "arxiv",
+    "title": "Learning Traversability-Aware Global Planners for Long Horizon Off-Road Navigation"
+  },
+  "arxiv:2607.23384v1": {
+    "source": "arxiv",
+    "title": "Semantic Semi-Incremental Data-Association-Free Object SLAM"
+  },
+  "arxiv:2607.22780v1": {
+    "source": "arxiv",
+    "title": "Inter-Reflective Gaussian Splatting for Robust and Efficient Inverse Rendering"
+  },
+  "arxiv:2607.24538v1": {
+    "source": "arxiv",
+    "title": "NEO: NeRF It Once, Edit It Many Times for Continuous Object Manipulation"
   }
 }
