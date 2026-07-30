@@ -11342,5 +11342,101 @@
   "doi:10.9734/ajee/2026/v25i8993": {
     "source": "top_journal",
     "title": "Groundwater Quality Assessment, Trace Element Pollution, and Health Risk Assessment of Hand-Dug Wells within Ladoke Akintola University of Technology Campus and Environs, Ogbomoso, Southwestern Nigeria"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-367-2026": {
+    "source": "top_journal",
+    "title": "Evaluating 3D Scene Representations for Aerial Photogrammetry across Diverse Cityscapes"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1345-2026": {
+    "source": "top_journal",
+    "title": "Learning-based Monocular Depth Estimation for Photogrammetric 3D Reconstruction"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-143-2026": {
+    "source": "top_journal",
+    "title": "Pixel-Accurate Registration of Photogrammetric Images and LiDAR in a Hybrid Airborne Oblique Imaging System"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-451-2026": {
+    "source": "top_journal",
+    "title": "Photogrammetry and 3D Gaussian Splatting for Cultural Heritage. Pros, Cons and Main Differences"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1363-2026": {
+    "source": "top_journal",
+    "title": "Combining Photogrammetry and Gaussian Splatting"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-375-2026": {
+    "source": "top_journal",
+    "title": "Evaluating the synergy of hand-crafted and AI-driven feature matching in Structure-from-Motion 3D Reconstruction"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1021-2026": {
+    "source": "top_journal",
+    "title": "In-Situ Gaussian Splatting-generated 3D Thermal Mesh Visualization for Urban Trees in Augmented Reality"
+  },
+  "arxiv:2607.25219v1": {
+    "source": "arxiv",
+    "title": "SONG: A Photorealistic 3D Gaussian Simulation Platform for Benchmarking Social Navigation"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-997-2026": {
+    "source": "top_journal",
+    "title": "Enhanced DUSt3R for Underwater 3D Reconstruction in Shallow Water Environments"
+  },
+  "arxiv:2607.21023": {
+    "source": "top_journal",
+    "title": "WAT3R: Feedforward Underwater 3D Reconstruction"
+  },
+  "arxiv:2607.25569v1": {
+    "source": "arxiv",
+    "title": "CORF-GS: Real-Time Wireless Radiance Field Reconstruction via Coupled Optical-RF Gaussian Splatting"
+  },
+  "arxiv:2607.25389v1": {
+    "source": "arxiv",
+    "title": "HOME: Robust Hough-space Matching Method for Structured and Textureless Videos"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1085-2026": {
+    "source": "top_journal",
+    "title": "Automated Detection of Box-Girder Bridge Deterioration Using Cylindrical Projection from Multi-Camera 3D Reconstruction and Deep Learning"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-551-2026": {
+    "source": "top_journal",
+    "title": "A Hybrid Approach using Gaussian Splatting and Parametric Models based on 3D Renders for Real-Time Visualisation"
+  },
+  "arxiv:2607.25728v1": {
+    "source": "arxiv",
+    "title": "Shared Voxel-Map-Based Cooperative Indoor UAV Guidance with a Multi-Agent Soft Actor-Critic Controller"
+  },
+  "arxiv:2607.25895v1": {
+    "source": "arxiv",
+    "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1283-2026": {
+    "source": "top_journal",
+    "title": "Monocular 3D Reconstruction for Martian Terrain Based on Diffusion Model"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-539-2026": {
+    "source": "top_journal",
+    "title": "Spherical Vision meets 3D Semantics: towards efficient LOD3 Model Generation for Smart Cities"
+  },
+  "doi:10.47392/10.47392/irjaeh.2026.0631": {
+    "source": "top_journal",
+    "title": "From Pixels to Polygons: A Lightweight AI Framework for Single-Image 3D Reconstruction and WebAR Visualization"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-509-2026": {
+    "source": "top_journal",
+    "title": "Affine Invariant OpenCV Descriptors and the Effects on Aerial Photogrammetry"
+  },
+  "doi:10.3389/froh.2026.1885521": {
+    "source": "top_journal",
+    "title": "Accuracy of working length determination using endodontic motors with integrated electronic apex locators: an in vitro study"
+  },
+  "doi:10.1117/12.3119630": {
+    "source": "top_journal",
+    "title": "Design and simulation of an underwater image enhancement algorithm based on polarization and sonar fusion"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-305-2026": {
+    "source": "top_journal",
+    "title": "Conjugate Feature-Guided Dense Stereo Matching for High-Precision Attribute-Enriched Urban Point Clouds"
+  },
+  "doi:10.47392/10.47392/irjaeh.2026.0627": {
+    "source": "top_journal",
+    "title": "Proactive Pedestrian Risk Prediction under Dynamic Environmental Conditions"
   }
 }
