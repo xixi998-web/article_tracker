@@ -11498,5 +11498,77 @@
   "doi:10.1007/s00704-026-06440-3": {
     "source": "top_journal",
     "title": "Understanding eco-hydrological processes in winter wheat croplands through physically consistent modelling"
+  },
+  "doi:10.1117/12.3120363": {
+    "source": "top_journal",
+    "title": "View-surface-aware PBR Gaussian splatting for sparse-view 3D reconstruction"
+  },
+  "arxiv:2607.26595v1": {
+    "source": "arxiv",
+    "title": "SpatialQ: Understanding 3D Gaussian Splatting Scene Quality via Visual-based MLLM"
+  },
+  "arxiv:2607.27139v1": {
+    "source": "arxiv",
+    "title": "SeasonStereo: Robust Dense Stereo Matching for Multi-Date Satellite Imagery via Generative AI"
+  },
+  "arxiv:2607.26645v1": {
+    "source": "arxiv",
+    "title": "FPSGen: Flexible Point Cloud Scene Generation with BEV-Supported Transport Flows"
+  },
+  "arxiv:2607.26578v1": {
+    "source": "arxiv",
+    "title": "3DGBGS: 3D Granular Ball Gaussian Splatting for Compact Novel View Synthesis"
+  },
+  "arxiv:2607.26980v1": {
+    "source": "arxiv",
+    "title": "Dense Soft Weighting for Radar Ego-Velocity Estimation"
+  },
+  "arxiv:2607.26889v1": {
+    "source": "arxiv",
+    "title": "StructureGS: Structure-aware Gaussian Splatting for Articulated Object Reconstruction"
+  },
+  "arxiv:2607.26646v1": {
+    "source": "arxiv",
+    "title": "Genie Sim PanoWorld: An Infinite Indoor 3D World Generation Pipeline via Panoramic Scene Modeling and Simulation"
+  },
+  "doi:10.1371/journal.pone.0353953": {
+    "source": "top_journal",
+    "title": "Robust point cloud lightweighting with multi-scale adaptive filtering and entropy-driven subdivision"
+  },
+  "arxiv:2607.27194v1": {
+    "source": "arxiv",
+    "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion"
+  },
+  "doi:10.1117/12.3119862": {
+    "source": "top_journal",
+    "title": "An end-to-end single-shot fringe projection profilometry network for 3D reconstruction of translucent objects"
+  },
+  "doi:10.1117/12.3119845": {
+    "source": "top_journal",
+    "title": "High-resolution three-dimensional diffraction tomography based on confocal microscopy"
+  },
+  "doi:10.1007/s10439-026-04293-5": {
+    "source": "top_journal",
+    "title": "Simultaneous 3D Quantification of Fluid-Structure Interaction in a Patient-Averaged Left Ventricle: A Lagrangian Experimental Framework."
+  },
+  "doi:10.1117/12.3119755": {
+    "source": "top_journal",
+    "title": "π3-LEGS: a lightweight and fast geometry system for long- sequence 3D reconstruction"
+  },
+  "doi:10.1117/12.3119744": {
+    "source": "top_journal",
+    "title": "Erosion surface recovery based on near-field photometric stereo"
+  },
+  "arxiv:2607.22773": {
+    "source": "top_journal",
+    "title": "Metric Surface Reconstruction of Neurosurgical Scenes from Monocular Operating Microscope Images and Microscope Pose"
+  },
+  "doi:10.1117/12.3120408": {
+    "source": "top_journal",
+    "title": "A multistage progressive image restoration network for single image deraining"
+  },
+  "arxiv:2607.22771": {
+    "source": "top_journal",
+    "title": "Cheap Probes Predict Expensive Training in 3D-CT Vision--Language Models"
   }
 }
