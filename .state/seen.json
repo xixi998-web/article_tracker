@@ -11626,5 +11626,69 @@
   "doi:10.1002/jpln.70101": {
     "source": "top_journal",
     "title": "Effects of Pine Nut Shell Biochar Activation State, Particle Size, and Dose on Peat Substrate Properties and Arugula Microgreen Performance"
+  },
+  "arxiv:2607.28132v1": {
+    "source": "arxiv",
+    "title": "Convolutional Neural Shading for High-Quality 3D Reconstruction from Multi-View Images"
+  },
+  "arxiv:2607.28164v1": {
+    "source": "arxiv",
+    "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image"
+  },
+  "arxiv:2607.28032v1": {
+    "source": "arxiv",
+    "title": "Split and Drive: Dual-Axis Disentanglement for Real-Time Gaussian Head Avatars"
+  },
+  "arxiv:2607.23189": {
+    "source": "top_journal",
+    "title": "Fashion-3DLR: A Controllable 3D Garment Generation Using Pairwise Fashion Elements for Intelligent Design"
+  },
+  "arxiv:2607.22997": {
+    "source": "top_journal",
+    "title": "Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline"
+  },
+  "arxiv:2607.28442v1": {
+    "source": "arxiv",
+    "title": "ViewMind3D: Modular View-Aware Inference for Training-Free 3D-QA"
+  },
+  "arxiv:2607.28256v1": {
+    "source": "arxiv",
+    "title": "When Robots Exchange Meaning: A Demo of Goal-Oriented Semantic Communications for Collaborative Robotics"
+  },
+  "arxiv:2607.27825v1": {
+    "source": "arxiv",
+    "title": "Endo-NeRF++: Uncertainty-Aware Neural Rendering with Multi-Resolution Hash Encoding for Dynamic Surgical Scene Reconstruction"
+  },
+  "arxiv:2607.28416v1": {
+    "source": "arxiv",
+    "title": "FasTac: A Curved Multispectral Vision-Based Tactile Sensor for High-Speed High-Precision 3D Shape and Force Perception"
+  },
+  "arxiv:2607.28320v1": {
+    "source": "arxiv",
+    "title": "AdaAnchor4D: Anchor-Conditioned Spatiotemporal Feature Aggregation for Monocular UAV 4D Reconstruction"
+  },
+  "arxiv:2607.28261v1": {
+    "source": "arxiv",
+    "title": "TARS: Timestep-Aware Data Scaling for 3D-Free Video Re-Shooting"
+  },
+  "arxiv:2607.28049v1": {
+    "source": "arxiv",
+    "title": "TSOG: A Format For Temporally And Spatially Ordered Gaussians"
+  },
+  "arxiv:2607.27922v1": {
+    "source": "arxiv",
+    "title": "Learning Social Robot Navigation By Sensing Human Legs"
+  },
+  "arxiv:2607.27634v1": {
+    "source": "arxiv",
+    "title": "4DHumanDiff: Direct Text-to-4DGS Generation for Consistent 360-Degree Dynamic Humans"
+  },
+  "doi:10.64898/2026.07.21.739890": {
+    "source": "top_journal",
+    "title": "Optimized cryo-FIB milling strategy to generate thin, minimally damaged biological lamellae"
+  },
+  "doi:10.3390/w18151805": {
+    "source": "top_journal",
+    "title": "Evaluation of Representative Elementary Volumes for Characterizing Tight Sandstone Microstructure via 3D CT Reconstruction"
   }
 }
