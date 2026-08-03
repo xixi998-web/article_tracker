@@ -11746,5 +11746,17 @@
   "doi:10.1002/gcb4.70028": {
     "source": "top_journal",
     "title": "Conservation Agriculture Improves Soil Resilience by Integrating Physical, Chemical, and Biological Pathways"
+  },
+  "doi:10.3390/electronics15153295": {
+    "source": "top_journal",
+    "title": "Object-Centric 2D-to-3D Pipeline for Interior-Design Visualization: Reference-Free Asset Evaluation and a Structured3D Scene-Level Benchmark"
+  },
+  "doi:10.3390/bioengineering13080863": {
+    "source": "top_journal",
+    "title": "Physics-Informed Generative Framework to Unsupervised Biomechanical Parameter Estimation for Tool–Tissue Force Prediction from Laparoscopic Depth Maps"
+  },
+  "arxiv:2607.23600": {
+    "source": "top_journal",
+    "title": "ConFusion: Continuous Fusion Space Learning for Fine-Grained Controllable Infrared and Visible Image Fusion"
   }
 }
