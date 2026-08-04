@@ -11810,5 +11810,65 @@
   "doi:10.1093/femsre/fuag035": {
     "source": "top_journal",
     "title": "Decoding dark septate endophyte symbiosis: A functional and ecological perspective."
+  },
+  "doi:10.54254/2755-2721/2026.gl35713": {
+    "source": "top_journal",
+    "title": "A Cost-Efficient Pipeline for Converting 3D Gaussian Splatting Representations into Simulation-Ready Meshes for NVIDIA Omniverse"
+  },
+  "arxiv:2607.29633v1": {
+    "source": "arxiv",
+    "title": "OASIS: Occlusion-aware Single-image Hand Avatar Reconstruction via 3D Gaussian Splatting"
+  },
+  "arxiv:2607.28834v1": {
+    "source": "arxiv",
+    "title": "FocusGS: Spatial Delta Layers for Local Repair and Deterministic Editing of Trained 3D Gaussian Assets"
+  },
+  "doi:10.3390/aerospace13080676": {
+    "source": "top_journal",
+    "title": "An Energy-Driven Adaptive Reconstruction Method for Non-Cooperative Satellite Point Clouds"
+  },
+  "arxiv:2607.29627v1": {
+    "source": "arxiv",
+    "title": "FlexComposer: Unified Video Compositing from Images to Dynamic Footage with Flexible Trajectory Control"
+  },
+  "arxiv:2607.29284v1": {
+    "source": "arxiv",
+    "title": "FillGS: Filling Observation Gaps in 4D Gaussian Splatting via Viewpoint-Time Selection and Generative Refinement"
+  },
+  "arxiv:2607.29237v1": {
+    "source": "arxiv",
+    "title": "CorrelationFlow: A Training-Free Geometric Approach for LiDAR Scene Flow Estimation"
+  },
+  "arxiv:2607.29037v1": {
+    "source": "arxiv",
+    "title": "GO-PRE: Goal-Oriented Next-Best-View Selection via Predictive Rendering Entropy for Active 3D Reconstruction"
+  },
+  "doi:10.1186/s12993-026-00358-6": {
+    "source": "top_journal",
+    "title": "The role of astrocytes in the temporoammonic pathway: masticatory behavior as a neuroprotective strategy against age-related cognitive decline"
+  },
+  "doi:10.1109/tvcg.2026.3717152": {
+    "source": "top_journal",
+    "title": "Consistent 4D Appearance Editing with Gaussian Splatting."
+  },
+  "doi:10.1038/s41598-026-62922-4": {
+    "source": "top_journal",
+    "title": "A computer vision-based approach to monitor changes in ecosystems associated with marine renewable energy projects"
+  },
+  "doi:10.1002/pc.71289": {
+    "source": "top_journal",
+    "title": "Automated Segmentation of Manufacturing Defects in\n 3D\n ‐Printed Composite Materials Using an Optimized Deep Learning Approach"
+  },
+  "doi:10.1109/tvcg.2026.3717809": {
+    "source": "top_journal",
+    "title": "GeoCoHuman: Single-view 3D Clothed Human Reconstruction via Complementary Geometry Priors."
+  },
+  "doi:10.1088/1361-6501/ae9174": {
+    "source": "top_journal",
+    "title": "Marker-constrained multi-task collaborative optimization: a point cloud registration method for high-precision reconstruction of power battery"
+  },
+  "arxiv:2607.25912": {
+    "source": "top_journal",
+    "title": "SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models"
   }
 }
