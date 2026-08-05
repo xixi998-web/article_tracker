@@ -11954,5 +11954,125 @@
   "doi:10.3329/ijarit.v16i1.92235": {
     "source": "top_journal",
     "title": "Enhancing beetroot (Beta vulgaris L) growth and soil quality through vermicompost–fertilizer integration in coastal saline soil"
+  },
+  "arxiv:2608.00931v1": {
+    "source": "arxiv",
+    "title": "Stipple: Real-Time Incremental Gaussian Splatting with Visual-Inertial Tracking"
+  },
+  "arxiv:2608.02191v1": {
+    "source": "arxiv",
+    "title": "DerainSplat: Feed-Forward Clean 3D Gaussian Splatting from Sparse Rainy Views"
+  },
+  "arxiv:2608.02145v1": {
+    "source": "arxiv",
+    "title": "UniqueSplat: View-conditioned 3D Gaussian Splatting for Generalizable 3D Reconstruction"
+  },
+  "arxiv:2608.01186v1": {
+    "source": "arxiv",
+    "title": "QuerySplat: Decoupling Geometry and Appearance Representations in 3DGS Prediction"
+  },
+  "arxiv:2608.01914v1": {
+    "source": "arxiv",
+    "title": "CHOW-SLAM: Compact Hybrid Representation with Complementary Overlap Window Optimization for RGB-D SLAM"
+  },
+  "arxiv:2608.01659v1": {
+    "source": "arxiv",
+    "title": "StreamSplat: Streaming Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2608.00950v1": {
+    "source": "arxiv",
+    "title": "Swimm3R: Splatting with Medium-aware SfM for Underwater 3D Reconstruction"
+  },
+  "arxiv:2608.02437v1": {
+    "source": "arxiv",
+    "title": "InfiniSplat: Implicit Gaussian Decoding for Large-Baseline Monocular View Synthesis"
+  },
+  "arxiv:2608.01761v1": {
+    "source": "arxiv",
+    "title": "DecoupleGS: Interactive 3D Gaussian Splatting for End-to-End Autonomous Driving Testing"
+  },
+  "arxiv:2608.02285v1": {
+    "source": "arxiv",
+    "title": "Sen-Cap: Sensor-Flexible and Noise-Resilient Human Motion Capture via LiDAR-Camera Integration"
+  },
+  "arxiv:2608.02177v1": {
+    "source": "arxiv",
+    "title": "GSRAIN: Physically Calibrated High-/Low-Frequency Rainfall Synthesis for 3D Gaussian Driving Scenes"
+  },
+  "arxiv:2608.02006v1": {
+    "source": "arxiv",
+    "title": "ASTRA: Asynchronous Spatio-Temporal Reconstruction via Trajectory Alignment"
+  },
+  "arxiv:2608.01958v1": {
+    "source": "arxiv",
+    "title": "FAST-GS: Frequency Aware Space-time Gaussian Splatting for Photorealistic Dynamic Novel View Synthesis"
+  },
+  "arxiv:2608.02206v1": {
+    "source": "arxiv",
+    "title": "CLEAR: Conflict-aware Learning via Evidence-guided Adaptive Routing for Unified Sparse-View 3D Gaussian Super-Resolution"
+  },
+  "arxiv:2608.02099v1": {
+    "source": "arxiv",
+    "title": "DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and Reorganization"
+  },
+  "arxiv:2608.01726v1": {
+    "source": "arxiv",
+    "title": "G-Skin: Learning to Bind 3D Gaussians with Generative Visual Priors"
+  },
+  "arxiv:2608.01178v1": {
+    "source": "arxiv",
+    "title": "DynActiveGS: Active Gaussian Splatting for Dynamic Scene Reconstruction"
+  },
+  "arxiv:2608.00687v1": {
+    "source": "arxiv",
+    "title": "Proteus: A Truncation-Robust Entropy Model for Progressive LiDAR Compression"
+  },
+  "arxiv:2608.00463v1": {
+    "source": "arxiv",
+    "title": "Scene2Sound: Auditory-Grounded Soundscape Generation for 3D Gaussian Worlds"
+  },
+  "arxiv:2608.00214v1": {
+    "source": "arxiv",
+    "title": "Manifold-GS: Certified Hybrid Assets via Varifold-Conservative Gaussian Splatting"
+  },
+  "arxiv:2608.02598v1": {
+    "source": "arxiv",
+    "title": "VR3D: View-Robust 3D Representation Learning for Aerial-Ground Person Re-Identification"
+  },
+  "arxiv:2608.02016v1": {
+    "source": "arxiv",
+    "title": "Beyond Global Latents: Chunk-Based Sparse Grid VAE for Scalable 3D Modeling"
+  },
+  "arxiv:2608.01572v1": {
+    "source": "arxiv",
+    "title": "Enhancing Visual Perception in Foggy Conditions via Multiclass Fog Density Modeling"
+  },
+  "arxiv:2608.01535v1": {
+    "source": "arxiv",
+    "title": "STAR-VLM: Spatiotemporal Grounding Vision-Language Models for Motion and Velocity Estimation via Automotive Radar Supervision"
+  },
+  "arxiv:2608.02320v1": {
+    "source": "arxiv",
+    "title": "TravKAN: Fast and Interpretable Nonlinear Traversability Analysis with Kolmogorov-Arnold Networks"
+  },
+  "arxiv:2608.02309v1": {
+    "source": "arxiv",
+    "title": "CalibBEV: LiDAR-Camera Calibration via BEV Alignment"
+  },
+  "arxiv:2608.01950v1": {
+    "source": "arxiv",
+    "title": "FRA-NBV: A Fast and Reflectivity-Aware Next-Best-View Strategy"
+  },
+  "arxiv:2608.01706v1": {
+    "source": "arxiv",
+    "title": "UniSim-SLAM: Feed-Forward SLAM with Unified Sim(3) Optimization"
+  },
+  "arxiv:2608.01588v1": {
+    "source": "arxiv",
+    "title": "D^2-4DGS: Dual-Depth Guided Sparse-Camera 4D Gaussian Splatting"
+  },
+  "arxiv:2608.00925v1": {
+    "source": "arxiv",
+    "title": "Look Up and Look Back: Hidden Attention and Latent Orientation in a Frozen Foundation Model for Panoramic SLAM"
   }
 }
