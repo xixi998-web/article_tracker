@@ -12130,5 +12130,81 @@
   "doi:10.1111/icad.70105": {
     "source": "top_journal",
     "title": "Regenerative wheat management: The relative effects of farm practices on the biodiversity of invertebrates"
+  },
+  "arxiv:2608.03851v1": {
+    "source": "arxiv",
+    "title": "LiteMVS: Efficient Multi-View Stereo with Foundation Distillation and Expert Aggregation"
+  },
+  "arxiv:2608.02437v2": {
+    "source": "arxiv",
+    "title": "InfiniSplat: Implicit Gaussian Decoding for Large-Baseline Monocular View Synthesis"
+  },
+  "doi:10.1109/tvcg.2026.3718564": {
+    "source": "top_journal",
+    "title": "Geometry-Semantics Co-Regularization for Gaussian Splatting in Indoor Reconstruction."
+  },
+  "arxiv:2608.03490v1": {
+    "source": "arxiv",
+    "title": "Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation"
+  },
+  "arxiv:2608.03279v1": {
+    "source": "arxiv",
+    "title": "3DGSI-Assessor: A Large-Scale Dataset and An LMM-based Method for 3D Gaussian Splatting Image Quality Assessment"
+  },
+  "doi:10.1109/tvcg.2026.3718034": {
+    "source": "top_journal",
+    "title": "DehazePhys-NeRF: Neural Radiance Fields for Dehazing With Physical Priors."
+  },
+  "arxiv:2608.03423v1": {
+    "source": "arxiv",
+    "title": "SGFormer: Structure-Guided Transformer for Robust Local Feature Matching"
+  },
+  "arxiv:2607.28256": {
+    "source": "top_journal",
+    "title": "When Robots Exchange Meaning: A Demo of Goal-Oriented Semantic Communications for Collaborative Robotics"
+  },
+  "arxiv:2607.28442": {
+    "source": "top_journal",
+    "title": "ViewMind3D: Modular View-Aware Inference for Training-Free 3D-QA"
+  },
+  "arxiv:2607.27825": {
+    "source": "top_journal",
+    "title": "Endo-NeRF++: Uncertainty-Aware Neural Rendering with Multi-Resolution Hash Encoding for Dynamic Surgical Scene Reconstruction"
+  },
+  "arxiv:2608.03429v1": {
+    "source": "arxiv",
+    "title": "SLAMFormer-$\\infty$: Infinite SLAM Transformer for Unbounded Frontend and Backend Processing"
+  },
+  "arxiv:2608.03387v1": {
+    "source": "arxiv",
+    "title": "RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation"
+  },
+  "arxiv:2608.03023v1": {
+    "source": "arxiv",
+    "title": "Standalone DINOv3 for Training-Free Open-Vocabulary Semantic Segmentation in Remote Sensing"
+  },
+  "arxiv:2608.00854v1": {
+    "source": "arxiv",
+    "title": "Minute-Scale Training for Microrobot Navigation"
+  },
+  "arxiv:2607.28261v2": {
+    "source": "arxiv",
+    "title": "TARS: Timestep-Aware Data Scaling for 3D-Free Video Re-Shooting"
+  },
+  "arxiv:2607.28320": {
+    "source": "top_journal",
+    "title": "AdaAnchor4D: Anchor-Conditioned Spatiotemporal Feature Aggregation for Monocular UAV 4D Reconstruction"
+  },
+  "arxiv:2607.28416": {
+    "source": "top_journal",
+    "title": "FasTac: A Curved Multispectral Vision-Based Tactile Sensor for High-Speed High-Precision 3D Shape and Force Perception"
+  },
+  "arxiv:2607.27537": {
+    "source": "top_journal",
+    "title": "ProgFormer: Hierarchical Voxel Diffusion Transformer for Longitudinal Brain MRI Prediction"
+  },
+  "doi:10.17680/erciyesiletisim.1880439": {
+    "source": "top_journal",
+    "title": "From Robotics to Marketing Communications: The Intellectual Structure of the Uncanny Valley Studies"
   }
 }
