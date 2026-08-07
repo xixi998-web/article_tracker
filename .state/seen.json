@@ -12466,5 +12466,13 @@
   "doi:10.30574/wjarr.2026.31.1.1831": {
     "source": "top_journal",
     "title": "Screening and molecular characterization of an indigenous antibiotic and heavy metal-resistant Aeromonas hydrophila with bioremediation potential"
+  },
+  "arxiv:2608.06307v1": {
+    "source": "arxiv",
+    "title": "UQ-Loc: Uncertainty-Aware LiDAR Scene Coordinate Regression"
+  },
+  "arxiv:2607.29037": {
+    "source": "top_journal",
+    "title": "GO-PRE: Goal-Oriented Next-Best-View Selection via Predictive Rendering Entropy for Active 3D Reconstruction"
   }
 }
