@@ -12274,5 +12274,121 @@
   "doi:10.1038/s41598-026-63828-x": {
     "source": "top_journal",
     "title": "Human health risks assessment of vegetables irrigated with different water qualities"
+  },
+  "arxiv:2608.04701v1": {
+    "source": "arxiv",
+    "title": "UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models"
+  },
+  "arxiv:2608.01659v2": {
+    "source": "arxiv",
+    "title": "StreamSplat: Streaming Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2608.05704v1": {
+    "source": "arxiv",
+    "title": "G$^2$ARD-GS: Geometry-Guided Anchor-Regularized Gaussian Splatting Distillation"
+  },
+  "arxiv:2608.05482v1": {
+    "source": "arxiv",
+    "title": "CDSeg: A Renderable Gaussian Carrier for Image-to-3D Label Transfer"
+  },
+  "arxiv:2608.05145v2": {
+    "source": "arxiv",
+    "title": "Objects as Audio-Visual Modal Sound Fields"
+  },
+  "arxiv:2608.04842v1": {
+    "source": "arxiv",
+    "title": "RORA: Realistic Object Reconstruction with Articulation"
+  },
+  "arxiv:2607.29633": {
+    "source": "top_journal",
+    "title": "OASIS: Occlusion-aware Single-image Hand Avatar Reconstruction via 3D Gaussian Splatting"
+  },
+  "arxiv:2608.04560v1": {
+    "source": "arxiv",
+    "title": "OutLangSplat: 3D Language Gaussian Splatting for UAV Outdoor Scenes"
+  },
+  "arxiv:2608.02006v2": {
+    "source": "arxiv",
+    "title": "ASTRA: Asynchronous Spatio-Temporal Reconstruction via Trajectory Alignment"
+  },
+  "arxiv:2608.06117v1": {
+    "source": "arxiv",
+    "title": "Confidence matters: Leveraging Multi-view Geometric Priors for GS-based Reconstruction"
+  },
+  "arxiv:2608.05896v1": {
+    "source": "arxiv",
+    "title": "GSBF: Gaussian Splatting for Environment-Aware Beamforming"
+  },
+  "arxiv:2608.05647v1": {
+    "source": "arxiv",
+    "title": "KILVO: Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots"
+  },
+  "arxiv:2608.05586v1": {
+    "source": "arxiv",
+    "title": "PathCover: A Fast Convex Decomposition along a Path via Randomized Iterative Space Partitioning (RISP) on Point Clouds"
+  },
+  "arxiv:2608.05218v1": {
+    "source": "arxiv",
+    "title": "PD-GS: Phoneme-Driven 3DGS for Audio-Driven Talking Heads"
+  },
+  "arxiv:2608.05356v1": {
+    "source": "arxiv",
+    "title": "LoDA: A Level of Detection Aware Method and a Multimodal Sensing Benchmark for Object Level Change Detection"
+  },
+  "arxiv:2608.04568v1": {
+    "source": "arxiv",
+    "title": "Talk2Sensors: 3D Visual Grounding in Autonomous Driving via Sensor-Adaptive Physical Cue Matching"
+  },
+  "arxiv:2608.04130v1": {
+    "source": "arxiv",
+    "title": "Radar4D-VLM: Proposal-Grounded Temporal 4D Radar Reasoning Across Frozen Language Models"
+  },
+  "arxiv:2608.06021v1": {
+    "source": "arxiv",
+    "title": "Topometric Autonomous Vehicle Localization by Combining Visual Embeddings and Feed-Forward 3D Models"
+  },
+  "arxiv:2608.06014v1": {
+    "source": "arxiv",
+    "title": "Iterate or Widen? When Test-Time Refinement Helps LiDAR Scene Completion: A Controlled Study of Evidence Geometry, Training Coverage, and Compute"
+  },
+  "arxiv:2608.05539v1": {
+    "source": "arxiv",
+    "title": "OmniMech: All-in-one Multimodal Mechanical Benchmark for 3D Reconstruction"
+  },
+  "arxiv:2608.05066v1": {
+    "source": "arxiv",
+    "title": "Beyond Reprojection Error: Camera Calibration with 3D Targets"
+  },
+  "arxiv:2608.05221v1": {
+    "source": "arxiv",
+    "title": "A System for Train Condition Monitoring and Structural Health Assessment of Rail Vehicles"
+  },
+  "arxiv:2608.04581v1": {
+    "source": "arxiv",
+    "title": "ACA-GS: Adaptive-Capacity Anchored Gaussian Splatting for Compact Dynamic Radiance Fields"
+  },
+  "arxiv:2608.04210v1": {
+    "source": "arxiv",
+    "title": "PADFormer: Pose-agnostic Anomaly Detection from Sparse View Images"
+  },
+  "arxiv:2608.04175v1": {
+    "source": "arxiv",
+    "title": "TriCLE: Tri-Modal Vision-Language Reasoning for Edge-Deployed Fine-Grained Clustering"
+  },
+  "arxiv:2608.03387v2": {
+    "source": "arxiv",
+    "title": "RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation"
+  },
+  "arxiv:2608.04042v1": {
+    "source": "arxiv",
+    "title": "Kitchen Robotic Manipulation utilizing Foundation Models"
+  },
+  "arxiv:2608.00110": {
+    "source": "top_journal",
+    "title": "Distill What RGB Can Recover: Privileged 3D Evidence for RGB-Only Vision-Language Models"
+  },
+  "doi:10.1088/1741-2552/ae9346": {
+    "source": "top_journal",
+    "title": "TractEdit: An open-source interactive tool for virtual dissection and manual refinement of diffusion MRI tractography."
   }
 }
