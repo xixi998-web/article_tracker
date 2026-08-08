@@ -12574,5 +12574,81 @@
   "doi:10.1016/j.biortech.2026.135554": {
     "source": "top_journal",
     "title": "Micro/nanoscale biochar facilitates cadmium immobilization and soybean resilience: Insights from microbial life-history strategies and plant physiological response."
+  },
+  "doi:10.1109/lra.2026.3707359": {
+    "source": "top_journal",
+    "title": "LVGS-SLAM: LiDAR-Visual-Supervised Gaussian Splatting SLAM With Dense Depth Rendering for Unstructured Environments"
+  },
+  "doi:10.1007/s11263-026-02965-2": {
+    "source": "top_journal",
+    "title": "SaLon3R: Structure-Aware Long-Term Feedforward 3D Reconstruction from Unposed Images"
+  },
+  "doi:10.1109/lra.2026.3709995": {
+    "source": "top_journal",
+    "title": "IMGS-SLAM: Monocular Gaussian Splatting SLAM for Indoor Reconstruction"
+  },
+  "doi:10.1109/tii.2026.3680762": {
+    "source": "top_journal",
+    "title": "TransSeg: 3-D Semantic Segmentation Based on 2D–3D Trans-Modal Fusion for Autonomous Driving"
+  },
+  "doi:10.1109/lra.2026.3703261": {
+    "source": "top_journal",
+    "title": "Learning 3D Scene Reconstruction From Nighttime Driving Videos"
+  },
+  "doi:10.58286/33850": {
+    "source": "top_journal",
+    "title": "AI‑Powered Real-Time Structural Health Monitoring Using Crack Detection, Vegetation Segmentation, and Depth Analysis"
+  },
+  "doi:10.1109/lra.2026.3709647": {
+    "source": "top_journal",
+    "title": "SCAR-GS: Scene-Level Contrastive Articulated Reconstruction via Actionable Semantic 3D Gaussian Splatting"
+  },
+  "doi:10.1109/lra.2026.3700426": {
+    "source": "top_journal",
+    "title": "Toward Real-Time High-Fidelity Immersive Robotic Telepresence via Online 3D Gaussian Splatting"
+  },
+  "doi:10.1109/lra.2026.3707358": {
+    "source": "top_journal",
+    "title": "Dual-Galvanometer-Based Active Stereo Vision for Large-FOV High-Precision 3D Reconstruction of Moving Objects"
+  },
+  "doi:10.1109/tii.2026.3683378": {
+    "source": "top_journal",
+    "title": "Unlocking Wide-FoV Perception: A Robust Targetless Sensor Calibration Framework for Fisheye–LiDAR Fusion"
+  },
+  "doi:10.1109/jphot.2026.3697337": {
+    "source": "top_journal",
+    "title": "Photonics Breakthroughs 2025: Three-Dimensional Holographic Incoherent Imaging Through Scattering Media"
+  },
+  "doi:10.1016/j.actbio.2026.07.061": {
+    "source": "top_journal",
+    "title": "Deep learning-enabled tissue engineering scaffold classification using cell morphology."
+  },
+  "doi:10.1007/s11760-026-05480-6": {
+    "source": "top_journal",
+    "title": "Bidirectional high-overlap point cloud registration and fusion for 3D face reconstruction"
+  },
+  "doi:10.58286/33897": {
+    "source": "top_journal",
+    "title": "A 2D–3D Point Cloud Fusion Method for Spatial Morphology Identification and Measurement of Structural Damage"
+  },
+  "doi:10.1109/tie.2026.3670314": {
+    "source": "top_journal",
+    "title": "Self-Supervised Cross-Source Point Cloud Registration Framework With Geometric Tree Transformer for HMD Six-DoF Pose Estimation"
+  },
+  "doi:10.1109/tcsvt.2026.3675846": {
+    "source": "top_journal",
+    "title": "Part-Level Semantic Fusion for Sketch-Based 3D Voxel Reconstruction"
+  },
+  "doi:10.1109/tcss.2025.3631651": {
+    "source": "top_journal",
+    "title": "Interpretation Before Integration: LLM-Guided Multimodal Completion and Fusion Network for Survival Analysis With Incomplete Data"
+  },
+  "doi:10.1109/tcss.2026.3689752": {
+    "source": "top_journal",
+    "title": "An MLLM-Assisted Denoising Multiscale Visual Fusion Framework for MNER-MI"
+  },
+  "arxiv:2608.00371": {
+    "source": "top_journal",
+    "title": "Decoding Children's Gait Behavior"
   }
 }
