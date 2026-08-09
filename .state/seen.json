@@ -12662,5 +12662,13 @@
   "doi:10.3390/fractalfract10080529": {
     "source": "top_journal",
     "title": "Effect of Destruction and Residual Geomembrane on Soil Organic Matter, Evaporation Cracking, and Aggregates Under Dry–Wet Cycles"
+  },
+  "arxiv:2608.00931": {
+    "source": "top_journal",
+    "title": "Stipple: Real-Time Incremental Gaussian Splatting with Visual-Inertial Tracking"
+  },
+  "arxiv:2608.01338": {
+    "source": "top_journal",
+    "title": "Driver2Map: Imitating Human Driving for Online High-Definition Map Construction"
   }
 }
