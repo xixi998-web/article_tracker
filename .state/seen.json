@@ -12866,5 +12866,117 @@
   "doi:10.1021/acsearthspacechem.6c00141": {
     "source": "top_journal",
     "title": "Electron\nTransfer Reversibility of Mineral-Associated\nOrganic Matter Dominated by Redox-Active Metastable Substances in\na Wetland–Grassland Transition Zone"
+  },
+  "arxiv:2608.08585v1": {
+    "source": "arxiv",
+    "title": "EvTrajGS: Accurate and Efficient 3D Gaussian Splatting from Unposed Event Streams"
+  },
+  "arxiv:2608.07937v1": {
+    "source": "arxiv",
+    "title": "FlexSplat: Flexible Feed-Forward 3D Gaussian Splatting without Point Cloud Correspondence"
+  },
+  "arxiv:2608.09110v1": {
+    "source": "arxiv",
+    "title": "View-Adaptive Renderer for View-Consistent 2D-to-3D Generation"
+  },
+  "arxiv:2608.08531v1": {
+    "source": "arxiv",
+    "title": "ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints"
+  },
+  "arxiv:2608.08949v1": {
+    "source": "arxiv",
+    "title": "EndoMD-SLAM: Endoscopic Gaussian Splatting SLAM under Optical Degradation with Memory and Static-Transient Decomposition"
+  },
+  "arxiv:2608.09146v1": {
+    "source": "arxiv",
+    "title": "Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Scale Scene Reconstruction"
+  },
+  "arxiv:2608.03851": {
+    "source": "top_journal",
+    "title": "LiteMVS: Efficient Multi-View Stereo with Foundation Distillation and Expert Aggregation"
+  },
+  "arxiv:2608.07757v1": {
+    "source": "arxiv",
+    "title": "Rethinking 3D Segmentation from Individual LiDAR Scans: Incidence-Aware Sampling on the SIP Benchmark"
+  },
+  "doi:10.3390/s26154912": {
+    "source": "top_journal",
+    "title": "LapCR-Net: A Lightweight Monocular Depth Estimation Network via Laplacian Residual Reconstruction"
+  },
+  "arxiv:2608.08659v1": {
+    "source": "arxiv",
+    "title": "JSGS: JPEG State-Guided Supervision for 3D Gaussian Splatting from Mixed-Quality Views"
+  },
+  "arxiv:2608.08381v1": {
+    "source": "arxiv",
+    "title": "DoRF++: Spherical Representation Learning over Doppler Radiance Fields for Robust Wi-Fi Sensing"
+  },
+  "arxiv:2608.07579v1": {
+    "source": "arxiv",
+    "title": "Geometry Beats Estimated Depth: RGB-Only Multi-Camera 3D Tracking under Sim2Real"
+  },
+  "doi:10.1007/s13349-026-01075-4": {
+    "source": "top_journal",
+    "title": "Monocular depth estimation and 3D reconstruction for defects in sewer pipelines"
+  },
+  "arxiv:2608.09285v1": {
+    "source": "arxiv",
+    "title": "GLocFM: A Geometry-Aware Foundation Model for 3D Indoor Wireless Localization"
+  },
+  "arxiv:2608.09202v1": {
+    "source": "arxiv",
+    "title": "CRUISE: Vision-Language Model-Guided Uncertainty-Aware Cross-Modal Sensor Fusion for Robust Autonomous Driving"
+  },
+  "arxiv:2608.07760v1": {
+    "source": "arxiv",
+    "title": "XClipGS: Exact Half-Space Clipping for Medical Volume Gaussian Splatting"
+  },
+  "doi:10.5194/isprs-archives-xlix-b4-2026-679-2026": {
+    "source": "top_journal",
+    "title": "Monocular Depth Estimation from UAV Images for 3D Documentation of Architectural Heritage: A Depth Anything V2-Based Approach"
+  },
+  "arxiv:2608.09620v1": {
+    "source": "arxiv",
+    "title": "A Semantic Communication Approach to Fiducial Marker Processing in 5G-Enabled Edge SLAM"
+  },
+  "arxiv:2608.08132v1": {
+    "source": "arxiv",
+    "title": "When Does An Extra View Help? Adapting Single-View 3D Reconstruction with Extra Imagery"
+  },
+  "arxiv:2608.08025v1": {
+    "source": "arxiv",
+    "title": "DA-NBV: A Direction-Aware Next-Best-View Planner for Efficient 3D Reconstruction of Ships at Sea"
+  },
+  "arxiv:2608.06833v2": {
+    "source": "arxiv",
+    "title": "Unordered Landmark Visual Navigation"
+  },
+  "doi:10.5194/isprs-archives-xlix-b4-2026-447-2026": {
+    "source": "top_journal",
+    "title": "Text-Guided Semantic Segmentation Method for Indoor 3D Point Clouds"
+  },
+  "doi:10.5194/isprs-archives-xlix-b4-2026-57-2026": {
+    "source": "top_journal",
+    "title": "A Framework for Integrating and Managing Heterogeneous 3D Geospatial Data in Urban\nDigital Twins"
+  },
+  "arxiv:2608.04042": {
+    "source": "top_journal",
+    "title": "Kitchen Robotic Manipulation utilizing Foundation Models"
+  },
+  "arxiv:2608.04210": {
+    "source": "top_journal",
+    "title": "PADFormer: Pose-agnostic Anomaly Detection from Sparse View Images"
+  },
+  "arxiv:2608.03387": {
+    "source": "top_journal",
+    "title": "RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation"
+  },
+  "arxiv:2608.03835": {
+    "source": "top_journal",
+    "title": "Synthetic Diagnostic Modeling for Plasma Tomography: Geometry Matrix Computation Methods and Impact of Model Accuracy"
+  },
+  "arxiv:2608.03580": {
+    "source": "top_journal",
+    "title": "SlimVLM: Sensitivity-aware Dynamic Structured Pruning with Adaptive Visual Token Selection for Efficient Vision-Language Models"
   }
 }
