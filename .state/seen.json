@@ -13050,5 +13050,113 @@
   "doi:10.1108/jadee-08-2025-0381": {
     "source": "top_journal",
     "title": "Beyond yield maximisation: identifying optimal agricultural productivity thresholds for environmental sustainability across 16 countries"
+  },
+  "arxiv:2608.10345v1": {
+    "source": "arxiv",
+    "title": "CasDeblurGS: Cascaded 2D-to-3D Multi-View Consistency for 3D Gaussian Splatting from Two Blurry Images"
+  },
+  "arxiv:2608.04701": {
+    "source": "top_journal",
+    "title": "UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models"
+  },
+  "arxiv:2608.10712v1": {
+    "source": "arxiv",
+    "title": "Compact Feed-Forward 3D Gaussians via Saliency-Guided Primitive Merging"
+  },
+  "arxiv:2608.05145": {
+    "source": "top_journal",
+    "title": "Objects as Audio-Visual Modal Sound Fields"
+  },
+  "arxiv:2608.04842": {
+    "source": "top_journal",
+    "title": "RORA: Realistic Object Reconstruction with Articulation"
+  },
+  "arxiv:2608.11150v1": {
+    "source": "arxiv",
+    "title": "CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting"
+  },
+  "arxiv:2608.10938v1": {
+    "source": "arxiv",
+    "title": "GS-CPE: Unified 6-Degree-of-Freedom Camera Pose Estimation via 3D Gaussian Splatting"
+  },
+  "doi:10.3390/electronics15153465": {
+    "source": "top_journal",
+    "title": "Improved DPT-Hybrid for Monocular Depth Estimation with Geometry-Enhanced Encoding and Structure-Aware Gated Fusion"
+  },
+  "arxiv:2608.10756v1": {
+    "source": "arxiv",
+    "title": "Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting"
+  },
+  "arxiv:2608.10682v1": {
+    "source": "arxiv",
+    "title": "Visual Geometry Foundation-Aware Gaussians for Single-Frame Surround-View Driving Reconstruction"
+  },
+  "arxiv:2608.10602v1": {
+    "source": "arxiv",
+    "title": "Gaussian Sculpting: End-to-End Controllable Surface Reconstruction via Field Optimization"
+  },
+  "arxiv:2608.10286v1": {
+    "source": "arxiv",
+    "title": "TRACE-GS: On-Policy Trajectory Distillation with Privileged Geometric Conditioning for Sparse-View 3DGS Restoration"
+  },
+  "arxiv:2608.10057v1": {
+    "source": "arxiv",
+    "title": "LEGO: Leveled Language Gaussian Splatting"
+  },
+  "arxiv:2608.05218": {
+    "source": "top_journal",
+    "title": "PD-GS: Phoneme-Driven 3DGS for Audio-Driven Talking Heads"
+  },
+  "arxiv:2608.06412": {
+    "source": "top_journal",
+    "title": "Beyond Visibility: Real-Time Surface Accessibility Fields from Sparse LiDAR"
+  },
+  "arxiv:2608.11083v1": {
+    "source": "arxiv",
+    "title": "A Systematic Sample Size Analysis of ML-Based Path Loss Prediction for LPWAN"
+  },
+  "arxiv:2608.11077v1": {
+    "source": "arxiv",
+    "title": "Learning Gaussian Structure: Intervention-Guided Density Control for Feed-Forward Driving Reconstruction"
+  },
+  "arxiv:2608.10997v1": {
+    "source": "arxiv",
+    "title": "Seeing above the waves: A modular sensing framework for data acquisition at sea"
+  },
+  "arxiv:2608.10888v1": {
+    "source": "arxiv",
+    "title": "Sensor-Informed Per-Point Covariance for Structured-Light 3D Imaging"
+  },
+  "arxiv:2608.10623v1": {
+    "source": "arxiv",
+    "title": "When Your State Estimator Has Lost The Plot: Detecting Estimator Failures Via Spectral Analysis"
+  },
+  "arxiv:2608.05066": {
+    "source": "top_journal",
+    "title": "Beyond Reprojection Error: Camera Calibration with 3D Targets"
+  },
+  "arxiv:2608.05215": {
+    "source": "top_journal",
+    "title": "VLAff: Vision-Language-Affordance Model for Unified Actionable Affordances"
+  },
+  "arxiv:2608.05109": {
+    "source": "top_journal",
+    "title": "AI-based single-shot structured-light depth reconstruction for real-time laparoscopic surgical guidance"
+  },
+  "doi:10.3390/rs18152605": {
+    "source": "top_journal",
+    "title": "Mapping Neighborhood Spatial Structure in Traditional Home Gardens Using UAV-Derived 3D Canopy Models"
+  },
+  "arxiv:2608.04752": {
+    "source": "top_journal",
+    "title": "Revisiting Pose Sensitivity in Splat-based Computed Tomography under Sparse-view Reconstruction"
+  },
+  "arxiv:2608.04557": {
+    "source": "top_journal",
+    "title": "VoxStruct3D: Structure-Leading Flow Matching for Voxel-Space 3D MRI Synthesis"
+  },
+  "doi:10.1117/1.apn.5.6.066001": {
+    "source": "top_journal",
+    "title": "Snapshot thermal spectral imaging based on hybrid metasurfaces with high efficiency and high spectral resolution"
   }
 }
