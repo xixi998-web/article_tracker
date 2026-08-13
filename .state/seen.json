@@ -13206,5 +13206,61 @@
   "doi:10.1038/s44264-026-00174-5": {
     "source": "top_journal",
     "title": "Effects of marine purple bacterial fertilizer on mineralization, nitrous oxide emissions and broccoli yield"
+  },
+  "arxiv:2608.12179v1": {
+    "source": "arxiv",
+    "title": "Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs"
+  },
+  "arxiv:2608.11150v2": {
+    "source": "arxiv",
+    "title": "CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting"
+  },
+  "arxiv:2608.11928v1": {
+    "source": "arxiv",
+    "title": "Seed2GS: Camera-Free, Training-Free Object Extraction from 3D Gaussian Scenes via a Single Reference-View Grounding"
+  },
+  "arxiv:2608.11263v1": {
+    "source": "arxiv",
+    "title": "GeoUniPR: A Geometry-Consistent Unified Framework for Cross-Modal Place Recognition"
+  },
+  "arxiv:2608.05564": {
+    "source": "top_journal",
+    "title": "ESVR: 3D Ellipsoid-based Sparse Volume Rendering via Structure-aware Primitive Learning and Per-primitive Ray Sampling"
+  },
+  "doi:10.3390/s26154992": {
+    "source": "top_journal",
+    "title": "Vision-Based Digital Twin and AI Agent Framework for Low-Cost, Explainable Indoor Building Inspection and Safety Assessment"
+  },
+  "arxiv:2608.12232v1": {
+    "source": "arxiv",
+    "title": "ScaleVid: Geometry-Aware Video Object Scaling with Mesh-Free Inference"
+  },
+  "arxiv:2608.11638v1": {
+    "source": "arxiv",
+    "title": "Transferable Above-Ground Biomass (AGB) Estimation Model from Multi-Sensor Data with Sparse Field Calibration"
+  },
+  "doi:10.3390/photonics13080745": {
+    "source": "top_journal",
+    "title": "Progressive Adaptive Fringe Projection Without Additional Projected/Captured Images for High-Dynamic-Range 3D Measurement"
+  },
+  "arxiv:2608.05539": {
+    "source": "top_journal",
+    "title": "OmniMech: All-in-one Multimodal Mechanical Benchmark for 3D Reconstruction"
+  },
+  "arxiv:2608.06021": {
+    "source": "top_journal",
+    "title": "Topometric Autonomous Vehicle Localization by Combining Visual Embeddings and Feed-Forward 3D Models"
+  },
+  "arxiv:2608.12175v1": {
+    "source": "arxiv",
+    "title": "TGRHuman: Text-Guided Realistic 3D Human Generation via Diffusion Renderer"
+  },
+  "arxiv:2608.06208": {
+    "source": "top_journal",
+    "title": "ErgoSurf: Ergodic Control for the Coverage of Unknown Surfaces"
+  },
+  "arxiv:2608.06164": {
+    "source": "top_journal",
+    "title": "BendTwin: Robust Dense-to-Sparse Physical Reconstruction with Bending-Aware Differentiable Spring-Mass Models"
   }
 }
