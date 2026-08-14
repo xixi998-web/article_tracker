@@ -13306,5 +13306,37 @@
   "doi:10.36887/2524-0455-2026-3-1": {
     "source": "top_journal",
     "title": "Global crisis as challenges and threats to the stability of food systems in the world"
+  },
+  "arxiv:2608.12825v1": {
+    "source": "arxiv",
+    "title": "LocusGS: Spatially Grounded Tokens for Feed-Forward 3D Gaussian Splatting"
+  },
+  "doi:10.1049/cit2.70086": {
+    "source": "top_journal",
+    "title": "VDNeRF: Vision‐Only Dynamic Neural Radiance Field for Urban Scenes"
+  },
+  "arxiv:2608.13502v1": {
+    "source": "arxiv",
+    "title": "GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressive Imaging via Large Vision Model Priors"
+  },
+  "arxiv:2608.13159v1": {
+    "source": "arxiv",
+    "title": "Splat-based Metal Artifact Reduction in Cone-Beam CT via Polychromatic Modeling"
+  },
+  "arxiv:2608.13102v1": {
+    "source": "arxiv",
+    "title": "RbFT-Net: Rectify-Before-Fuse Temporal Radar Anchors for 4D Radar-Camera Depth Completion"
+  },
+  "doi:10.1186/s12876-026-05199-1": {
+    "source": "top_journal",
+    "title": "Exploratory assessment of the clinical significance of the collateral system between the superior mesenteric artery and inferior mesenteric artery in laparoscopic rectal cancer surgery"
+  },
+  "doi:10.3390/jimaging12080362": {
+    "source": "top_journal",
+    "title": "DIDAF-Depth: Dual-Path Interaction and Dual-Attention Fusion Network for Self-Supervised Nighttime Monocular Depth Estimation"
+  },
+  "arxiv:2608.06723": {
+    "source": "top_journal",
+    "title": "Multi-Level Modeling of Large Language Model Inference Latency and Energy via Hybrid Analytical--Machine-Learning Predictors"
   }
 }
