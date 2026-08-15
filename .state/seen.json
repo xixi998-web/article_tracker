@@ -13362,5 +13362,29 @@
   "doi:10.1145/3770855.3819033": {
     "source": "top_journal",
     "title": "LLM-based Evaluation Policy Extraction for Ecological Modeling"
+  },
+  "doi:10.5815/ijitcs.2026.04.08": {
+    "source": "top_journal",
+    "title": "A Hybrid 3D Gaussian Splatting and Photogrammetry Framework for Industrial Virtual Reality-Based Fire Safety Training"
+  },
+  "arxiv:2608.08132": {
+    "source": "top_journal",
+    "title": "When Does An Extra View Help? Adapting Single-View 3D Reconstruction with Extra Imagery"
+  },
+  "arxiv:2608.08025": {
+    "source": "top_journal",
+    "title": "DA-NBV: A Direction-Aware Next-Best-View Planner for Efficient 3D Reconstruction of Ships at Sea"
+  },
+  "doi:10.3390/electronics15163530": {
+    "source": "top_journal",
+    "title": "Efficient 3D Semantic Occupancy Prediction via Integrated 2D-3D Feature Fusion"
+  },
+  "doi:10.1007/s10791-026-10410-8": {
+    "source": "top_journal",
+    "title": "An integrated 3D vision sensor system with adaptive point cloud processing for robotic workpiece localization in industrial bin picking"
+  },
+  "doi:10.1145/3770855.3817924": {
+    "source": "top_journal",
+    "title": "Continual-GraphLLM: Dynamic Graph Large Language Model with Invariance Regularized Adaptive Multi-Scale Experts"
   }
 }
