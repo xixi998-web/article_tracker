@@ -13386,5 +13386,13 @@
   "doi:10.1145/3770855.3817924": {
     "source": "top_journal",
     "title": "Continual-GraphLLM: Dynamic Graph Large Language Model with Invariance Regularized Adaptive Multi-Scale Experts"
+  },
+  "doi:10.21837/pm.v24i43.2136": {
+    "source": "top_journal",
+    "title": "GIS-BASED ENVIRONMENTAL RISK ASSESSMENT IN INDUSTRIAL CITIES: METHODOLOGICAL FRAMEWORK AND APPLICATION TO ALMALYK, UZBEKISTAN"
+  },
+  "doi:10.3390/earth7040133": {
+    "source": "top_journal",
+    "title": "Spatiotemporal Agricultural Drought Dynamics in the Chi River Basin, Thailand: A Google Earth Engine-Based Multi-Criteria Assessment"
   }
 }
