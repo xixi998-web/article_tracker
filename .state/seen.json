@@ -13394,5 +13394,21 @@
   "doi:10.3390/earth7040133": {
     "source": "top_journal",
     "title": "Spatiotemporal Agricultural Drought Dynamics in the Chi River Basin, Thailand: A Google Earth Engine-Based Multi-Criteria Assessment"
+  },
+  "arxiv:2608.08531": {
+    "source": "top_journal",
+    "title": "ERF-GS: Reconstructing Fast Motion from Disjoint Event-RGB Viewpoints"
+  },
+  "doi:10.17586/0021-3454-2026-69-7-606-615": {
+    "source": "top_journal",
+    "title": "Multi-angle 3D reconstruction of a scene with adaptive filtering for robotic grasping on the Jetson Nano platform"
+  },
+  "doi:10.1002/we.70145": {
+    "source": "top_journal",
+    "title": "Wind Turbine Blade Crack Detection and Assessment in Images Using Machine Learning"
+  },
+  "arxiv:2608.08701": {
+    "source": "top_journal",
+    "title": "Anchor-Based AI Approach for Pre-Crash Object Detection Utilizing Micro-Doppler Signatures in Automotive Radar"
   }
 }
