@@ -13486,5 +13486,73 @@
   "doi:10.1128/aem.01324-26": {
     "source": "top_journal",
     "title": "Soil microbial growth rate, trophic strategy, and the oligotroph–copiotroph continuum"
+  },
+  "doi:10.1007/s00530-026-02586-2": {
+    "source": "top_journal",
+    "title": "View-adaptive renderer for view-consistent 2D-to-3D generation"
+  },
+  "arxiv:2608.09146": {
+    "source": "top_journal",
+    "title": "Multi-Submap Implicit Neural SLAM with Local-to-Global Loop Closure for Large-Scale Scene Reconstruction"
+  },
+  "arxiv:2608.14428v1": {
+    "source": "arxiv",
+    "title": "GhostPoint: Self-Supervised Representation Learning by Hallucinating Occluded LiDAR Structure"
+  },
+  "arxiv:2608.14394v1": {
+    "source": "arxiv",
+    "title": "IRGNN: Efficient Invariant Radar Graph Neural Network for Radar Point Cloud Object Detection"
+  },
+  "arxiv:2608.14266v1": {
+    "source": "arxiv",
+    "title": "Accelerating Large-scale Bundle Adjustment for LiDAR Mapping via Parallel Computing"
+  },
+  "doi:10.3390/agronomy16161528": {
+    "source": "top_journal",
+    "title": "Quantifying Pesticide Deposition on Apple Surfaces Based on Multi-View Tracer Point Cloud Reconstruction: Laboratory Characterization and Orchard Assessment"
+  },
+  "arxiv:2608.14332v1": {
+    "source": "arxiv",
+    "title": "CORAL: Curriculum-Optimized Reward Adaptation for LiDAR-Based Goal-Directed Urban Driving"
+  },
+  "arxiv:2608.14207v1": {
+    "source": "arxiv",
+    "title": "MMUSV-Sim: A Perception-Oriented Simulation and Data-Generation Platform for Multi-USV Cooperative Perception"
+  },
+  "arxiv:2608.14138v1": {
+    "source": "arxiv",
+    "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation"
+  },
+  "arxiv:2608.14136v1": {
+    "source": "arxiv",
+    "title": "HiCo-GS: Hierarchical Context Aggregation and Geometric Consistency for Octree Gaussian Splatting"
+  },
+  "arxiv:2608.14027v1": {
+    "source": "arxiv",
+    "title": "E-S2Feat:Semantic-Guided Spiking Local Feature Detection and Description for Event Cameras"
+  },
+  "arxiv:2608.13856v1": {
+    "source": "arxiv",
+    "title": "From crown candidates to neighborhood screening: integrating optical GeoAI and spatial modeling for urban-canopy assessment in Davis, California"
+  },
+  "doi:10.3390/s26165076": {
+    "source": "top_journal",
+    "title": "An Optimized Particle Swarm Algorithm for High-Precision Camera Calibration with Enhanced Wide-Angle Distortion Correction"
+  },
+  "doi:10.1038/s41377-026-02425-z": {
+    "source": "top_journal",
+    "title": "Single-fiber three-dimensional shape sensing via femtosecond laser inscribed orthogonal eccentric scatterers"
+  },
+  "arxiv:2608.09597": {
+    "source": "top_journal",
+    "title": "ResemBrick: Brick Reconstruction from Photographs with Perceptual Fidelity and Buildability"
+  },
+  "doi:10.1002/advs.77017": {
+    "source": "top_journal",
+    "title": "Unipolar Barrier Near‐Infrared 2D Photodetectors for 3D Image Sensors"
+  },
+  "arxiv:2608.09127": {
+    "source": "top_journal",
+    "title": "High Fidelity Capture, Reconstruction, and Transfer of Human Demonstrations for Robot-Assisted Bathing"
   }
 }
