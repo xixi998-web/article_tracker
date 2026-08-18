@@ -13598,5 +13598,125 @@
   "doi:10.18596/jotcsa.1884931": {
     "source": "top_journal",
     "title": "Optimization of pH in Heavy Metal Adsorption Using Natural and Activated Bentonite for Multi-Component Aqueous Solutions Containing Cu²⁺, Fe³⁺, and Pb²⁺"
+  },
+  "arxiv:2608.14902v1": {
+    "source": "arxiv",
+    "title": "Geometry-Aware Online Mapping for 3D Gaussian Splatting SLAM"
+  },
+  "arxiv:2608.14713v1": {
+    "source": "arxiv",
+    "title": "SpotlessGS: Relightable 3D Gaussian Splatting under Dynamic Illumination for Robotic Perception"
+  },
+  "arxiv:2608.10712": {
+    "source": "top_journal",
+    "title": "Compact Feed-Forward 3D Gaussians via Saliency-Guided Primitive Merging"
+  },
+  "doi:10.1117/1.jei.35.4.043020": {
+    "source": "top_journal",
+    "title": "Enhanced WaterSplatting for underwater 3D reconstruction based on progressive perceptual loss and spatial coordinate encoding"
+  },
+  "arxiv:2608.16863v1": {
+    "source": "arxiv",
+    "title": "SplatGuide: Geometric Priors from 3D Gaussians for Pose-Free Novel View Synthesis"
+  },
+  "arxiv:2608.15251v1": {
+    "source": "arxiv",
+    "title": "Robust structure from motion for aerial-ground images via detector-free feature matching and multi-view track refinement"
+  },
+  "arxiv:2608.15024v1": {
+    "source": "arxiv",
+    "title": "MotionGS-SLAM: Event-Modulated Gaussian Splatting for Motion-Blur Robust SLAM"
+  },
+  "arxiv:2608.14996v1": {
+    "source": "arxiv",
+    "title": "HP2-SLAM: Adaptive Hybrid ICP for Robust and Efficient LiDAR SLAM"
+  },
+  "arxiv:2608.16673v1": {
+    "source": "arxiv",
+    "title": "How Sampling Strategy Affects Imbalance Mitigation in LiDAR Segmentation: A Study of Structured vs. Random Point-Based Architectures"
+  },
+  "arxiv:2608.16490v1": {
+    "source": "arxiv",
+    "title": "Towards Real-Time and Adaptable LiDAR Scene Completion"
+  },
+  "arxiv:2608.16324v1": {
+    "source": "arxiv",
+    "title": "LaGSplat: Inferring Physics-Governed Interactive Simulation from Monocular Video Using Latent Lagrangian Gaussian Splatting"
+  },
+  "arxiv:2608.16264v1": {
+    "source": "arxiv",
+    "title": "Cyclops: LiDAR as a Camera That Dreams in Color"
+  },
+  "arxiv:2608.16103v1": {
+    "source": "arxiv",
+    "title": "Beyond Similarity Matching: Structured Reasoning for Open-Vocabulary Referring Segmentation in 3DGS"
+  },
+  "arxiv:2608.16042v1": {
+    "source": "arxiv",
+    "title": "TR-GS: High-Fidelity Sparse-View CT Volumetric Rendering via t-Distribution Gaussian Splatting and Ray-Confidence Modeling"
+  },
+  "arxiv:2608.15785v1": {
+    "source": "arxiv",
+    "title": "RoofGS: Roofline-Guided End-to-End Acceleration of 3D Gaussian Splatting"
+  },
+  "arxiv:2608.15651v1": {
+    "source": "arxiv",
+    "title": "Gaussian-JEPA: Joint-Embedding Predictive Learning for 3D Gaussian Splats"
+  },
+  "arxiv:2608.15420v1": {
+    "source": "arxiv",
+    "title": "HistReNeRF: Historic Image Relocalisation within Contemporary Neural Radiance Field Reconstructions"
+  },
+  "arxiv:2608.15260v1": {
+    "source": "arxiv",
+    "title": "VGGT-Align: Bridging Local Reconstruction and Global Consistency for Long-Sequence 3D Reconstruction"
+  },
+  "arxiv:2608.14986v1": {
+    "source": "arxiv",
+    "title": "GaussMemory: Task-Driven 3D Gaussian Scene Memory for Long-Horizon Robotic Manipulation"
+  },
+  "arxiv:2608.10682": {
+    "source": "top_journal",
+    "title": "Visual Geometry Foundation-Aware Gaussians for Single-Frame Surround-View Driving Reconstruction"
+  },
+  "arxiv:2608.15437v1": {
+    "source": "arxiv",
+    "title": "MM-BEV: Enhancing Timeliness by Computing Where and When it Matters"
+  },
+  "arxiv:2608.16725v1": {
+    "source": "arxiv",
+    "title": "Unsupervised Anomaly Detection for Image Dataset Quality Assurance in Multi-Center Breast MRI"
+  },
+  "arxiv:2608.16572v1": {
+    "source": "arxiv",
+    "title": "ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning"
+  },
+  "arxiv:2608.16433v1": {
+    "source": "arxiv",
+    "title": "Robot-Body-Aware Traversal Risk Graph Planning for Wheeled-Legged Robots in Complex Terrain"
+  },
+  "arxiv:2608.15796v1": {
+    "source": "arxiv",
+    "title": "Emergent 3D Instance Segmentation from Self-Supervised Point Transformers"
+  },
+  "arxiv:2608.15317v1": {
+    "source": "arxiv",
+    "title": "LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization"
+  },
+  "arxiv:2608.14868v1": {
+    "source": "arxiv",
+    "title": "Beam-Wise Statistical Background Subtraction for Static Roadside LiDAR: A Cross-Sensor Benchmark Study"
+  },
+  "arxiv:2608.14767v1": {
+    "source": "arxiv",
+    "title": "NARRATE: A Multimodal Real-World Australian Driving Dataset for Human-Centred Explanations in Automated Driving"
+  },
+  "arxiv:2608.10888": {
+    "source": "top_journal",
+    "title": "Sensor-Informed Per-Point Covariance for Structured-Light 3D Imaging"
+  },
+  "doi:10.1186/s43020-026-00208-w": {
+    "source": "top_journal",
+    "title": "Goal-directed synergistic fusion navigation for robust localization under cross-scenario spatial uncertainty"
   }
 }
