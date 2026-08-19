@@ -13778,5 +13778,105 @@
   "doi:10.70917/ijcisim-2026-4626": {
     "source": "top_journal",
     "title": "Influence of the phenological stages of Heliconia psittacorum on the removal of hydrocarbons from contaminated soils"
+  },
+  "doi:10.3390/app16168028": {
+    "source": "top_journal",
+    "title": "LV-GS SLAM: A Decoupled LiDAR–Visual 3D Gaussian Splatting SLAM in a Large-Scale Environment"
+  },
+  "arxiv:2608.17682v1": {
+    "source": "arxiv",
+    "title": "Differentiable Voronoi Ray Tracing Beyond Rasterization Speeds"
+  },
+  "arxiv:2608.17420v1": {
+    "source": "arxiv",
+    "title": "SPVC: Structured and Panoptic Video Fixing for Cross-Dataset Driving Scene Rendering"
+  },
+  "arxiv:2608.17298v1": {
+    "source": "arxiv",
+    "title": "3D Gaussian Accelerated Ray Tracing: Fast training through particle-based backward propagation"
+  },
+  "arxiv:2608.17988v1": {
+    "source": "arxiv",
+    "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation"
+  },
+  "arxiv:2608.12179": {
+    "source": "top_journal",
+    "title": "Map-Det3D: Metric Feed-Forward 3D Reconstruction Prior for Multi-view 3D Object Detection from Streaming Inputs"
+  },
+  "arxiv:2608.17535v1": {
+    "source": "arxiv",
+    "title": "GroupForward: Building Referable 3D Scenes via Instance-Grouped Feed-Forward Gaussian Splatting"
+  },
+  "arxiv:2608.17447v1": {
+    "source": "arxiv",
+    "title": "NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting"
+  },
+  "doi:10.3389/fphy.2026.1890771": {
+    "source": "top_journal",
+    "title": "Innovative applications of visualization technologies for scientists and the public in magnetic confinement fusion"
+  },
+  "arxiv:2608.18028v1": {
+    "source": "arxiv",
+    "title": "Initialization-Free Bundle Adjustment Revisited: A Controlled Experimental Study"
+  },
+  "arxiv:2608.17832v1": {
+    "source": "arxiv",
+    "title": "GenRec: Knowing Where to Reconstruct and Where to Generate"
+  },
+  "arxiv:2608.17553v1": {
+    "source": "arxiv",
+    "title": "Scalix: Uncertainty-Aware Scale-Consistent Monocular SLAM"
+  },
+  "arxiv:2608.17389v1": {
+    "source": "arxiv",
+    "title": "GeoWeaver: Accurate Long-Sequence 3D Reconstruction via Hierarchical Geometric Assembly"
+  },
+  "arxiv:2608.17874v1": {
+    "source": "arxiv",
+    "title": "Jetson-ORB-SLAM3: Accuracy-Preserving GPU Implementation for Edge Computing Devices"
+  },
+  "arxiv:2608.17822v1": {
+    "source": "arxiv",
+    "title": "Spatially explicit feature importance for building height estimation using research-access high-resolution SAR and optical sensors"
+  },
+  "arxiv:2608.17512v1": {
+    "source": "arxiv",
+    "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation"
+  },
+  "arxiv:2608.17038v1": {
+    "source": "arxiv",
+    "title": "Terrain-Aware Local Path Planning with Global DEM Data Integration for Autonomous UGV Navigation"
+  },
+  "arxiv:2608.16966v1": {
+    "source": "arxiv",
+    "title": "Multi-Observer Vehicle Localization Case Study with Roadside Radar and Connected Vehicle Sensing"
+  },
+  "arxiv:2608.11645": {
+    "source": "top_journal",
+    "title": "Cloak of Invisibility: Real-Time Privacy-Preserving Volumetric Video Streaming"
+  },
+  "arxiv:2608.11845": {
+    "source": "top_journal",
+    "title": "ResPCC: A Loss-Resilient Neural Point Cloud Codec over Lossy Networks"
+  },
+  "doi:10.1088/1361-6501/ae9896": {
+    "source": "top_journal",
+    "title": "SRCDet: sparse fusion of surround-view radar and camera for 3D object detection"
+  },
+  "doi:10.70917/ijcisim-2026-4599": {
+    "source": "top_journal",
+    "title": "Adaptive Wavelet Decomposition with Cross-Band Attention for Unsupervised 3D Medical Image Registration"
+  },
+  "doi:10.5204/mcj.3216": {
+    "source": "top_journal",
+    "title": "Expert Eyes, Machine Hands"
+  },
+  "doi:10.1088/1361-6560/ae98dc": {
+    "source": "top_journal",
+    "title": "Material-dependent effects of x-ray pre-filtration on material decomposition in photon-counting CT."
+  },
+  "doi:10.54254/2753-7048/2026.35996": {
+    "source": "top_journal",
+    "title": "Linguistic Transformation and Cognitive Revolution Amid the Wave of Generative Artificial Intelligence"
   }
 }
