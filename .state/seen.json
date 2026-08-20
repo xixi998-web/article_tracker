@@ -13962,5 +13962,97 @@
   "doi:10.3390/agriengineering8080334": {
     "source": "top_journal",
     "title": "Microbial Response to Irrigation with Treated Sewage Water and Sorghum Mulch Cover in a Forage Cactus Agroecosystem"
+  },
+  "arxiv:2608.18413v1": {
+    "source": "arxiv",
+    "title": "CoMVS-GS: Collaborative Multi-View Stereo and 3D Gaussian Splatting for Surface Reconstruction"
+  },
+  "arxiv:2608.18285v1": {
+    "source": "arxiv",
+    "title": "QuARC-GS: Quantized Anchored Residual Coding for Compact Dynamic Scene Streaming with Gaussian Splatting"
+  },
+  "doi:10.54097/y6fzh146": {
+    "source": "top_journal",
+    "title": "Accurate Surgical Scene Reconstruction from Multi-view FoundationStereo"
+  },
+  "doi:10.7716/aem.v15i3.3638": {
+    "source": "top_journal",
+    "title": "3D Reconstruction Technology of Virtual Art Museum Integrating Neural Radiation Field"
+  },
+  "arxiv:2608.19036v1": {
+    "source": "arxiv",
+    "title": "USR-Drive: Unified Driving Scene Representation via Joint Denoising of 3D Gaussians and Boxes"
+  },
+  "arxiv:2608.18388v1": {
+    "source": "arxiv",
+    "title": "Depth Anything V4: Dynamic 4D Scene Reconstruction via Riemannian Flow Matching on 4D Gaussian Splatting"
+  },
+  "arxiv:2608.13502": {
+    "source": "top_journal",
+    "title": "GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressive Imaging via Large Vision Model Priors"
+  },
+  "arxiv:2608.19066v1": {
+    "source": "arxiv",
+    "title": "GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting"
+  },
+  "doi:10.1111/cgf.70548": {
+    "source": "top_journal",
+    "title": "FlowGS: Controlling Information Flow for Graph‐Based Interaction in 3D Gaussian Splatting"
+  },
+  "doi:10.1007/s11548-026-03720-1": {
+    "source": "top_journal",
+    "title": "Self-supervised monocular depth estimation for colonoscopy using normal-guided cross-attention."
+  },
+  "arxiv:2608.12743": {
+    "source": "top_journal",
+    "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence"
+  },
+  "arxiv:2608.19059v1": {
+    "source": "arxiv",
+    "title": "LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding"
+  },
+  "arxiv:2608.13143": {
+    "source": "top_journal",
+    "title": "ProbSplat: Efficient Probabilistic Hardware for Gaussian Splatting in 3D Scene Reconstruction"
+  },
+  "arxiv:2608.19004v1": {
+    "source": "arxiv",
+    "title": "Autonomous Agricultural Tractor: Integrated Weed Detection and LiDAR Navigation for Precision Paddy Farming"
+  },
+  "arxiv:2608.18864v1": {
+    "source": "arxiv",
+    "title": "RVLoss: Runoff Vote Loss for Self-Supervised LiDAR Scene Flow Estimation"
+  },
+  "arxiv:2608.18632v1": {
+    "source": "arxiv",
+    "title": "Evaluation of Monocular SLAM Systems on High-Altitude Nadir UAV Footage"
+  },
+  "arxiv:2608.18593v1": {
+    "source": "arxiv",
+    "title": "ReX-Shot: Single-Image Rephotography via Geometry- and Camera-Grounded Generation"
+  },
+  "doi:10.7716/aem.v15i3.3750": {
+    "source": "top_journal",
+    "title": "Research on the Method of Using Deep Learning to Improve the Accuracy of Complex and Mature Spatial 3D Remote Sensing Reconstruction"
+  },
+  "doi:10.7716/aem.v15i3.3197": {
+    "source": "top_journal",
+    "title": "Strategies and Applications for Constructing Immersive Exhibition Spaces in the Context of Digital Cultural Tourism"
+  },
+  "arxiv:2608.13147": {
+    "source": "top_journal",
+    "title": "Geometry-Grounded Unified 3D Perception for Autonomous Driving"
+  },
+  "arxiv:2608.12881": {
+    "source": "top_journal",
+    "title": "Elemental Composition Evolution during the 2024 September 30 Solar Eruption: A Comparison of Hot and Cool Plasma Components with Solar Orbiter/SPICE, Hinode/EIS, and Chandrayaan-2/XSM"
+  },
+  "doi:10.7716/aem.v15i3.3421": {
+    "source": "top_journal",
+    "title": "Smart Management and Dissemination System for Cultural Heritage Based on Knowledge Graphs and Digital Twins"
+  },
+  "doi:10.7716/aem.v15i3.3461": {
+    "source": "top_journal",
+    "title": "Innovation and Evaluation of AI-Driven Economics Experimental Course Teaching Model"
   }
 }
