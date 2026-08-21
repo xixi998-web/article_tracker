@@ -14098,5 +14098,45 @@
   "doi:10.1134/s1064229326600089": {
     "source": "top_journal",
     "title": "Application of Macrokinetic Model of Biological Growth for Developing Soil Quality Standards"
+  },
+  "arxiv:2608.20000v1": {
+    "source": "arxiv",
+    "title": "Point-Based 3D Reconstruction from Sparse Views under Known Illumination"
+  },
+  "arxiv:2608.18388v2": {
+    "source": "arxiv",
+    "title": "Depth Anything V4: Dynamic 4D Scene Reconstruction via Riemannian Flow Matching on 4D Gaussian Splatting"
+  },
+  "arxiv:2608.19556v1": {
+    "source": "arxiv",
+    "title": "Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models"
+  },
+  "arxiv:2608.19536v1": {
+    "source": "arxiv",
+    "title": "CVSD-Reg: Cross-Modal Visual Semantic Prior Distillation for Robust LiDAR Registration"
+  },
+  "arxiv:2608.19693v1": {
+    "source": "arxiv",
+    "title": "RIPE++: Reinforced Keypoint Learning from Positive Pairs Only"
+  },
+  "arxiv:2608.19522v1": {
+    "source": "arxiv",
+    "title": "LF-GICP: Parameter-Free Degeneracy-Aware LiDAR Odometry via a Voxel-Normal Localizability Field"
+  },
+  "arxiv:2608.20335v1": {
+    "source": "arxiv",
+    "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video"
+  },
+  "arxiv:2608.19639v1": {
+    "source": "arxiv",
+    "title": "S$^2$GS: Structured Sparse Gaussian Streaming for Efficient Free-Viewpoint Video Reconstruction on Edge-IoT Devices"
+  },
+  "doi:10.1371/journal.pone.0356272": {
+    "source": "top_journal",
+    "title": "WireGC-Former: Surface defect segmentation method of steel wire ropes based on 3D point clouds"
+  },
+  "doi:10.3390/inventions11040083": {
+    "source": "top_journal",
+    "title": "Research on Fault Identification and Decision for UHV Bushing Based on Knowledge Graph Rule Reasoning and Inductive Graph Convolutional Network"
   }
 }
