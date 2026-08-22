@@ -14182,5 +14182,13 @@
   "doi:10.1016/j.scitotenv.2026.182180": {
     "source": "top_journal",
     "title": "Drainage-constrained field-scale modelling of rewetting and regional CO2 ̶ CH4 emissions in lowland peatlands."
+  },
+  "arxiv:2608.15251": {
+    "source": "top_journal",
+    "title": "Robust structure from motion for aerial-ground images via detector-free feature matching and multi-view track refinement"
+  },
+  "doi:10.1109/jiot.2026.3698460": {
+    "source": "top_journal",
+    "title": "Aqua-Verse: Augmented Quasi-Physical Aquatic Universe for Realistic Underwater Robot Simulation"
   }
 }
