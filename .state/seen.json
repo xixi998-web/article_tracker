@@ -14202,5 +14202,13 @@
   "doi:10.3390/agronomy16161572": {
     "source": "top_journal",
     "title": "Functional Differences Between Conventional and Modified Organic Fertilizers in Regulating Sorghum Productivity, NH3 Loss, and Soil Quality in Coastal Saline–Alkali Soil"
+  },
+  "arxiv:2608.15651": {
+    "source": "top_journal",
+    "title": "Gaussian-JEPA: Joint-Embedding Predictive Learning for 3D Gaussian Splats"
+  },
+  "doi:10.1007/s44163-026-01858-0": {
+    "source": "top_journal",
+    "title": "An affective computing framework for preschool music education using MoE architecture and neural radiance fields"
   }
 }
