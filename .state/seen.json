@@ -14278,5 +14278,65 @@
   "doi:10.3390/pr14162615": {
     "source": "top_journal",
     "title": "Mechanisms of Pb Stabilization Using Modified Biochar in Coal Mining Areas in China"
+  },
+  "arxiv:2608.16863": {
+    "source": "top_journal",
+    "title": "SplatGuide: Geometric Priors from 3D Gaussians for Pose-Free Novel View Synthesis"
+  },
+  "arxiv:2608.20748v1": {
+    "source": "arxiv",
+    "title": "Generating Multi-view Adversarial Examples for Visual Geometry Grounded Transformer"
+  },
+  "arxiv:2608.20740v1": {
+    "source": "arxiv",
+    "title": "VisTa3D: A Dataset and Benchmark for Thin Object Reconstruction from Vision, Tactile, and 3D Point Clouds"
+  },
+  "arxiv:2608.20759v1": {
+    "source": "arxiv",
+    "title": "DiGS-Avatar: Single-Image Animatable 3D Human Reconstruction via UV-Space Diffusion"
+  },
+  "arxiv:2608.20687v1": {
+    "source": "arxiv",
+    "title": "TopoSurfel: Closing the Loop between Gaussian Surfels and Meshes for Surface Reconstruction"
+  },
+  "arxiv:2608.20874v1": {
+    "source": "arxiv",
+    "title": "Multi-Modal Traffic Sign Detection with Semantic Attributes for Autonomous Driving"
+  },
+  "arxiv:2608.21276v1": {
+    "source": "arxiv",
+    "title": "The Coastline as a Structural Constraint: Harnessing Scene Geometry for Autonomous Surface Vessel Localization"
+  },
+  "arxiv:2608.20534v1": {
+    "source": "arxiv",
+    "title": "Grounded-Exo2Ego: Structured Semantic Grounding for Robust Exocentric-to-Egocentric Video Generation"
+  },
+  "doi:10.3390/jmse14161520": {
+    "source": "top_journal",
+    "title": "RA-SIDO: Robust and Adaptive Sonar–Inertial–Depth Odometry for Consistent Underwater Acoustic 3D Mapping"
+  },
+  "arxiv:2608.16725": {
+    "source": "top_journal",
+    "title": "Unsupervised Anomaly Detection for Image Dataset Quality Assurance in Multi-Center Breast MRI"
+  },
+  "arxiv:2608.16499": {
+    "source": "top_journal",
+    "title": "OccamView: Object-Conditioned View Selection for Frame-Budgeted Active 3D Gaussian Reconstruction"
+  },
+  "doi:10.3390/app16168173": {
+    "source": "top_journal",
+    "title": "Research on 3D Path Planning Method for UAV Based on TSDF-IPSO Fusion"
+  },
+  "arxiv:2608.16174": {
+    "source": "top_journal",
+    "title": "L-COIN: LLM-Assisted Counterfactual Inference for Game-Theoretic Distributed Computation Offloading in Sub-THz LEO Satellite Networks"
+  },
+  "arxiv:2608.17124": {
+    "source": "top_journal",
+    "title": "A decodability criterion predicts when hidden-state selection beats majority voting in large language models"
+  },
+  "doi:10.1109/tmm.2026.3705199": {
+    "source": "top_journal",
+    "title": "Audio-Visual Segmentation via Depth-Guided Collaborative Modeling"
   }
 }
