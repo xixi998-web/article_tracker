@@ -14430,5 +14430,121 @@
   "doi:10.1038/s43247-026-03727-1": {
     "source": "top_journal",
     "title": "A region-specific soil health assessment protocol and evaluation for Sub-Saharan Africa"
+  },
+  "arxiv:2608.22906v1": {
+    "source": "arxiv",
+    "title": "AquaFlow: A Monocular Gaussian Splatting SLAM for Underwater Streaming Reconstruction"
+  },
+  "arxiv:2608.23549v1": {
+    "source": "arxiv",
+    "title": "FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors"
+  },
+  "arxiv:2608.21828v1": {
+    "source": "arxiv",
+    "title": "Towards Alias-Free 4D Gaussian Representations with Motion-Aware Filtering"
+  },
+  "arxiv:2608.21685v1": {
+    "source": "arxiv",
+    "title": "In-Situ Reconstruction of the International Space Station Using 3D Gaussian Splatting and Astrobee"
+  },
+  "arxiv:2608.22888v1": {
+    "source": "arxiv",
+    "title": "NemoSplat: Feed-Forward 4D Gaussian Splatting for Media-Aware Underwater Reconstruction"
+  },
+  "arxiv:2608.21468v1": {
+    "source": "arxiv",
+    "title": "3D Point Cloud from Close-Range Photogrammetry for Defect Characterisation of Rubberised Concrete"
+  },
+  "arxiv:2608.21438v1": {
+    "source": "arxiv",
+    "title": "DesignAgent3D: Interactive 3D Scene Editing via Designer-like Multimodal Reasoning"
+  },
+  "arxiv:2608.22465v1": {
+    "source": "arxiv",
+    "title": "M$^3$ISR: A Multi-Modal Multi-View Benchmark for 3D/4D Gaussian Splatting and Feedforward Compression"
+  },
+  "arxiv:2608.23206v1": {
+    "source": "arxiv",
+    "title": "Learning Spherical Occupancy Profiles for Multi-View 3D Reconstruction and Generation"
+  },
+  "arxiv:2608.23012v1": {
+    "source": "arxiv",
+    "title": "Misanthrope: A Privacy-Preserving Keypoint Detector"
+  },
+  "arxiv:2608.22773v1": {
+    "source": "arxiv",
+    "title": "LagrangeGS: Non-Conservative Lagrangian System on Dynamic 3D Gaussian Splatting"
+  },
+  "arxiv:2608.22740v1": {
+    "source": "arxiv",
+    "title": "Seeing the Unseen: Semantic-in-Gaussian for Sparse-View 3D Generalization"
+  },
+  "arxiv:2608.22344v1": {
+    "source": "arxiv",
+    "title": "Fast and Compact 3D Gaussian Splatting with Polarized Opacity Prior"
+  },
+  "arxiv:2608.22102v1": {
+    "source": "arxiv",
+    "title": "Learning Implicit Constitutive Laws for Dynamic 3D Gaussian Splatting from Monocular Videos"
+  },
+  "arxiv:2608.21849v1": {
+    "source": "arxiv",
+    "title": "GaussVid: Sparse-View Gaussian Splatting with 3D-Aware Video Diffusion Priors"
+  },
+  "arxiv:2608.17535": {
+    "source": "top_journal",
+    "title": "GroupForward: Building Referable 3D Scenes via Instance-Grouped Feed-Forward Gaussian Splatting"
+  },
+  "arxiv:2608.18028": {
+    "source": "top_journal",
+    "title": "Initialization-Free Bundle Adjustment Revisited: A Controlled Experimental Study"
+  },
+  "arxiv:2608.23055v1": {
+    "source": "arxiv",
+    "title": "Macro-Action Topological Navigation under Noisy Localization using Reinforcement Learning"
+  },
+  "arxiv:2608.23040v1": {
+    "source": "arxiv",
+    "title": "RoboRacer Arena: Scaling High-Fidelity Autonomous Racing in Isaac Sim"
+  },
+  "arxiv:2608.22896v1": {
+    "source": "arxiv",
+    "title": "SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation"
+  },
+  "arxiv:2608.22029v1": {
+    "source": "arxiv",
+    "title": "ARCHER: Amortized cross-specimen pose estimation for cryo-electron microscopy"
+  },
+  "arxiv:2608.22023v1": {
+    "source": "arxiv",
+    "title": "Spectral Pre-Filtering for Context-Adaptive Sensor Fusion: A Four-Role FFT-GDCB Integration for High-Stakes Decision Systems"
+  },
+  "arxiv:2608.21550v1": {
+    "source": "arxiv",
+    "title": "GOLEM: Modular Humanoid Autonomy Towards Electric Vehicle Battery Disassembly"
+  },
+  "arxiv:2608.18632v2": {
+    "source": "arxiv",
+    "title": "Evaluation of Monocular SLAM Systems on High-Altitude Nadir UAV Footage"
+  },
+  "arxiv:2608.17769": {
+    "source": "top_journal",
+    "title": "Electromagnetic World Model for 6G: A Unified Framework for Joint Environment Reconstruction and Channel Prediction"
+  },
+  "doi:10.30764/1819-2785-2026-2-6-16": {
+    "source": "top_journal",
+    "title": "Features of Systematic Approach to Complex Linguistic and Psychological Examination of Forensic Examination Objects"
+  },
+  "doi:10.1007/s10015-026-01145-2": {
+    "source": "top_journal",
+    "title": "Unsupervised structural grouping for enhancing 3D reconstruction from investigation videos of Fukushima Daiichi Nuclear Power Station"
+  },
+  "doi:10.1142/s0218001426590378": {
+    "source": "top_journal",
+    "title": "Deep Semantic Fusion and Overlap-Aware Transformer Registration for Intelligent Recognition and 3D Modeling of Power Grid Equipment"
+  },
+  "doi:10.1109/tpami.2026.3725402": {
+    "source": "top_journal",
+    "title": "Digging into Monocular Texture-Scale Feature Fusion for Optical Flow and Optical Expansion Estimation."
   }
 }
