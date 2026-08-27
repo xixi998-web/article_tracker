@@ -14602,5 +14602,101 @@
   "doi:10.1007/s10705-026-10521-0": {
     "source": "top_journal",
     "title": "Fertilization drives NH3 source-sink divergence via leaf compensation points in croplands"
+  },
+  "arxiv:2608.25401v1": {
+    "source": "arxiv",
+    "title": "PIVOT: A Multi-Trajectory Dataset and Testbed for Pose, Intrinsics, and Novel Viewpoint Evaluation in Real-World 3D Reconstruction"
+  },
+  "arxiv:2608.22888v2": {
+    "source": "arxiv",
+    "title": "NemoSplat: Feed-Forward 4D Gaussian Splatting for Media-Aware Underwater Reconstruction"
+  },
+  "arxiv:2608.25418v1": {
+    "source": "arxiv",
+    "title": "Bootstrapping a 4D LiDAR Annotation Tool from Video Foundation Models"
+  },
+  "doi:10.3390/vehicles8080197": {
+    "source": "top_journal",
+    "title": "A Comparative Study of Mobile 3D Reconstruction Workflows for Crash-Damaged Vehicle Documentation"
+  },
+  "arxiv:2608.25956v1": {
+    "source": "arxiv",
+    "title": "4DGS-WAM: Bridging Past and Future with an Object-Centric World Action Model based on 4D Gaussian Splatting"
+  },
+  "arxiv:2608.25799v1": {
+    "source": "arxiv",
+    "title": "AGRO-Nav: Autonomous Graph-based Orchard Navigation"
+  },
+  "arxiv:2608.23206v2": {
+    "source": "arxiv",
+    "title": "Learning Spherical Occupancy Profiles for Multi-View 3D Reconstruction and Generation"
+  },
+  "doi:10.1117/12.3119651": {
+    "source": "top_journal",
+    "title": "Lightweight and high-fidelity 3DGS fruit reconstruction via geometric-semantic joint constraints"
+  },
+  "doi:10.3390/s26165268": {
+    "source": "top_journal",
+    "title": "CMS-Attack: A Structured Cross-Modal Search Attack for Robustness Evaluation of LiDAR–Camera Fusion Detectors"
+  },
+  "arxiv:2608.26066v1": {
+    "source": "arxiv",
+    "title": "VirTooS: A ROS 2 - Unity Virtualization Toolkit for Fleet Management of Autonomous Mobile Robots"
+  },
+  "arxiv:2608.24282v1": {
+    "source": "arxiv",
+    "title": "CARE: Camera-Residual Reserves for First Sightings in Adaptive LiDAR Sensing"
+  },
+  "doi:10.1007/s44443-026-01171-x": {
+    "source": "top_journal",
+    "title": "DF-Fusion: a multimodal 3D object detection framework based on frequency domain decoupling and dynamic submanifold fusion"
+  },
+  "arxiv:2608.26011v1": {
+    "source": "arxiv",
+    "title": "Phantom Navigator: Stealthy and Precise Unmanned Aerial Vehicle Redirection with Real-Time Tracking and GPS Spoofing"
+  },
+  "arxiv:2608.25472v1": {
+    "source": "arxiv",
+    "title": "PAGS: Autofocusing Photoacoustic Tomography via Speed-of-Sound-Adaptive Gaussian Splatting"
+  },
+  "arxiv:2608.25427v1": {
+    "source": "arxiv",
+    "title": "SUPER ODOMETRY 2.0: Resilient Odometry via Hierarchical Adaptation"
+  },
+  "arxiv:2608.25366v1": {
+    "source": "arxiv",
+    "title": "RAEM: Robust Autonomous Exploration for Multi-Floor Environments with a Quadruped Robot"
+  },
+  "arxiv:2608.25135v1": {
+    "source": "arxiv",
+    "title": "Extending Ground-Constraint LiDAR-IMU Calibration to Tilted Surfaces in a Continuous-Time Framework"
+  },
+  "arxiv:2608.24366v1": {
+    "source": "arxiv",
+    "title": "Variance-Guided Spatial Attention Fusion for Robust End-to-End Driving under Asymmetric Sensor Degradation"
+  },
+  "arxiv:2608.24094v1": {
+    "source": "arxiv",
+    "title": "SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions"
+  },
+  "arxiv:2608.24049v1": {
+    "source": "arxiv",
+    "title": "Physics-Integrated Operator Learning via Gaussian Splatting Representations"
+  },
+  "doi:10.1107/s2059798326007679": {
+    "source": "top_journal",
+    "title": "QwenCryoMarker: a universal post-processing framework for contamination-aware particle cleaning."
+  },
+  "doi:10.1007/s11263-026-02997-8": {
+    "source": "top_journal",
+    "title": "TEPR: Thermal Edge-Prompted Geometry Learning for Multi-View 3D Reconstruction"
+  },
+  "doi:10.3390/cancers18162692": {
+    "source": "top_journal",
+    "title": "Exploring the Feasibility of an Insourced 3D-Imaging Reconstruction: Preliminary Series with the Use of Synapse3D™ Software"
+  },
+  "doi:10.1111/cgf.70547": {
+    "source": "top_journal",
+    "title": "Robust Volumetric Wave Rendering for Aerial Spatial Audio in Dynamic Media via Cumulant LBM"
   }
 }
