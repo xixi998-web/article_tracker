@@ -14758,5 +14758,109 @@
   "doi:10.1007/s12517-026-12575-4": {
     "source": "top_journal",
     "title": "Insights into compositional signatures and technical attributes of soils: a case of clays from tropics"
+  },
+  "arxiv:2608.27301v1": {
+    "source": "arxiv",
+    "title": "Comparative Evaluation of 3D Reconstruction Methods for Immersive Visualization of Laboratory Objects"
+  },
+  "arxiv:2608.26951v1": {
+    "source": "arxiv",
+    "title": "Per-View Gaussian Predictions Enable Training-Free Distractor Filtering in Feed-Forward 3DGS"
+  },
+  "arxiv:2608.26383v1": {
+    "source": "arxiv",
+    "title": "Cross-Platform Benchmark of Neural 3D Reconstruction for Autonomous Laboratory Robots"
+  },
+  "arxiv:2608.21685": {
+    "source": "top_journal",
+    "title": "In-Situ Reconstruction of the International Space Station Using 3D Gaussian Splatting and Astrobee"
+  },
+  "arxiv:2608.26589v1": {
+    "source": "arxiv",
+    "title": "DPA-I2P: Depth-Guided Projective Alignment for Image-to-Point-Cloud Registration in Autonomous Driving"
+  },
+  "arxiv:2608.26868v1": {
+    "source": "arxiv",
+    "title": "CGS-SLAM: Collaborative Gaussian Splatting based SLAM for Multi-Agent Reconstruction"
+  },
+  "doi:10.3390/photonics13080792": {
+    "source": "top_journal",
+    "title": "Speckle-Assisted Binocular 3D Reconstruction of Asphalt Pavement with a Multi-Scale Adaptive Feature Fusion Algorithm"
+  },
+  "arxiv:2608.20740": {
+    "source": "top_journal",
+    "title": "VisTa3D: A Dataset and Benchmark for Thin Object Reconstruction from Vision, Tactile, and 3D Point Clouds"
+  },
+  "arxiv:2608.20748": {
+    "source": "top_journal",
+    "title": "Generating Multi-view Adversarial Examples for Visual Geometry Grounded Transformer"
+  },
+  "arxiv:2608.26948v1": {
+    "source": "arxiv",
+    "title": "KISS-GS: 3D Gaussian Splatting Compression Kept Simple"
+  },
+  "arxiv:2608.26656v1": {
+    "source": "arxiv",
+    "title": "CoGeo-GS: Concept-Driven and Geometry-Aware Multi-Object Removal in 3D Scenes"
+  },
+  "arxiv:2608.26490v1": {
+    "source": "arxiv",
+    "title": "Bayesian methods and Markov chain Monte Carlo algorithms for curve reconstruction and point cloud data analysis"
+  },
+  "doi:10.1049/hve2.70242": {
+    "source": "top_journal",
+    "title": "Observing Electrical Discharge With High 3D Spatial Resolution"
+  },
+  "doi:10.3390/photonics13080797": {
+    "source": "top_journal",
+    "title": "SD-GS: Gradient-Semantic Analysis Based on Multi-State Scene 3D Gaussian Splatting"
+  },
+  "arxiv:2608.26737v1": {
+    "source": "arxiv",
+    "title": "Generative Semantic Scene Completion"
+  },
+  "arxiv:2608.26789v1": {
+    "source": "arxiv",
+    "title": "Online Joint Calibration of Steering Offset and Planar LiDAR Extrinsics for Wheeled Mobile Robots"
+  },
+  "arxiv:2608.26669v1": {
+    "source": "arxiv",
+    "title": "Beyond the Proving Ground: Independent Public-Road Testing of Assisted Lane Change Systems using LiDAR"
+  },
+  "doi:10.64898/2026.08.21.746234": {
+    "source": "top_journal",
+    "title": "ARCHER: Amortized cross-specimen pose estimation for cryo-electron microscopy"
+  },
+  "doi:10.1117/12.3120703": {
+    "source": "top_journal",
+    "title": "A dynamic reconstruction method for power equipment operation and maintenance knowledge base based on large-scale language models"
+  },
+  "doi:10.1038/s41598-026-65025-2": {
+    "source": "top_journal",
+    "title": "Multi-ethnic evaluation and calibration of 3D-DXA femoral shape, density and FEA strength"
+  },
+  "doi:10.1002/jemt.70167": {
+    "source": "top_journal",
+    "title": "A Robust Method for Microscopic 3D Shape Restoration via Shape-From-Focus."
+  },
+  "arxiv:2608.21581": {
+    "source": "top_journal",
+    "title": "Reconstructing High-Fidelity Light Yield Maps for Surface LArTPCs Using Crossing Cosmic Muons"
+  },
+  "arxiv:2608.21481": {
+    "source": "top_journal",
+    "title": "Multimodal pseudo-CT synthesis for PET attenuation correction using separate modality encoding and topogram conditioning"
+  },
+  "doi:10.1088/1361-6501/ae9cd0": {
+    "source": "top_journal",
+    "title": "A Navigable Terrain Segmentation Network using Gaussian Fourier Attention and Entropy–Aware Fusion for wild autonomous driving"
+  },
+  "doi:10.36548/jtcsst.2026.3.021": {
+    "source": "top_journal",
+    "title": "Semantic Adaptive Fusion with Trust Signals for Fake News Detection"
+  },
+  "doi:10.1002/adom.71678": {
+    "source": "top_journal",
+    "title": "Bioinspired Polarization‐Encoded Neuromorphic Vision Enabled by Polarization‐Adaptive Optoelectronic Synapses"
   }
 }
