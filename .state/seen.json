@@ -14926,5 +14926,17 @@
   "doi:10.56532/mjsat.v6is1.795": {
     "source": "top_journal",
     "title": "Impregnation of Single-Walled Carbon Nanotubes (Swcnts) with N-(3-Methoxybenzoyl)-N’-(Salicylidene) Thiosemicarbazone for Cobalt (II) Remediation from Aqueous Solution"
+  },
+  "doi:10.1093/dote/doag077.019": {
+    "source": "top_journal",
+    "title": "OA02.7. CT-Based Segmentation AI and 3D Computer Graphics for Esophageal Cancer Surgery"
+  },
+  "doi:10.1007/s44163-026-02016-2": {
+    "source": "top_journal",
+    "title": "Llm-assisted physics-guided spatiotemporal graph learning for power meteorological disaster evolution"
+  },
+  "arxiv:2608.22039": {
+    "source": "top_journal",
+    "title": "ORBIT++: Benchmarking SfM in the Wild with 360{\\deg} Video"
   }
 }
