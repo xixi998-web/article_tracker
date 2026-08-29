@@ -14938,5 +14938,25 @@
   "arxiv:2608.22039": {
     "source": "top_journal",
     "title": "ORBIT++: Benchmarking SfM in the Wild with 360{\\deg} Video"
+  },
+  "doi:10.1016/j.jenvman.2026.130733": {
+    "source": "top_journal",
+    "title": "Trash or Treasure? Spent mushroom substrate for trace-metal-contaminated soils: physicochemical effects and leaching."
+  },
+  "doi:10.1021/acs.jpcb.6c04453": {
+    "source": "top_journal",
+    "title": "Unraveling the\npH-Dependent Coordination Chemistry\nof Copper with Aspartic Acid: From Molecular Binding to Supramolecular\nMorphology"
+  },
+  "doi:10.1007/s13762-026-07408-6": {
+    "source": "top_journal",
+    "title": "APCS-MLR source apportionment and 2D Monte Carlo risk simulation of traffic-related heavy metal(loid)s in highway roadside soil"
+  },
+  "doi:10.1007/s11368-026-04522-3": {
+    "source": "top_journal",
+    "title": "Different drivers of active and inert carbon fraction on forest soil aggregate stability: a functional partitioning approach"
+  },
+  "doi:10.1007/s11676-026-02129-5": {
+    "source": "top_journal",
+    "title": "Soil carbon loss following conversion of poplar plantations to annual cropland in Northern Italy"
   }
 }
