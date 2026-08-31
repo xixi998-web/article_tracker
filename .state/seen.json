@@ -14978,5 +14978,73 @@
   "doi:10.1002/ldr.70893": {
     "source": "top_journal",
     "title": "Land Degradation, Cultural Ecosystem Services, and Ecosystem Disservices in the Sumapaz Páramo, Colombia: An Integrated Socioecological Assessment"
+  },
+  "arxiv:2608.22906": {
+    "source": "top_journal",
+    "title": "AquaFlow: A Monocular Gaussian Splatting SLAM for Underwater Streaming Reconstruction"
+  },
+  "arxiv:2608.28288v1": {
+    "source": "arxiv",
+    "title": "GeoFF3D: Coordinate-Anchored Feed-Forward Reconstruction for Large-Scale UAV Mapping"
+  },
+  "arxiv:2608.22888": {
+    "source": "top_journal",
+    "title": "NemoSplat: Feed-Forward 4D Gaussian Splatting for Media-Aware Underwater Reconstruction"
+  },
+  "arxiv:2608.28272v1": {
+    "source": "arxiv",
+    "title": "Non-Uniform Quantisation for 3DGS Compression"
+  },
+  "arxiv:2608.27628v1": {
+    "source": "arxiv",
+    "title": "One year in a forest: Analyzing the challenges of autonomous navigation in subarctic environments"
+  },
+  "arxiv:2608.28343v1": {
+    "source": "arxiv",
+    "title": "Denoising-Aware Temporal Point Cloud Completion for 3D Crop Architecture Recovery and Phenotypic Trait Extraction"
+  },
+  "arxiv:2608.28240v1": {
+    "source": "arxiv",
+    "title": "WilLaGS: Latent-Conditional 3D Appearance Fields for Robust Gaussian Splatting In-the-Wild"
+  },
+  "arxiv:2608.28033v1": {
+    "source": "arxiv",
+    "title": "ZipMVS: Multi-View Stereo with Compressed Cost Volumes"
+  },
+  "arxiv:2608.27735v1": {
+    "source": "arxiv",
+    "title": "ABCD: Alpha-Composited Block Coordinate Descent: Constant-VRAM Training for Large Radiance Fields"
+  },
+  "arxiv:2608.22773": {
+    "source": "top_journal",
+    "title": "LagrangeGS: Non-Conservative Lagrangian System on Dynamic 3D Gaussian Splatting"
+  },
+  "doi:10.1007/s00371-026-04681-x": {
+    "source": "top_journal",
+    "title": "GeoFeatureGS: block-consistent semantic feature learning for large-scale geographic scenes with 3D gaussian splatting"
+  },
+  "arxiv:2608.28020v1": {
+    "source": "arxiv",
+    "title": "3D-USE: From Image-Level to Scene-Level Underwater Enhancement"
+  },
+  "arxiv:2608.27529v1": {
+    "source": "arxiv",
+    "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction"
+  },
+  "doi:10.1007/s10162-026-01068-6": {
+    "source": "top_journal",
+    "title": "Comparing and Optimizing Tissue Clearing Protocols for Cochlear Immunostaining and 3D Reconstruction by Light-Sheet Microscopy."
+  },
+  "doi:10.1007/s13755-026-00478-3": {
+    "source": "top_journal",
+    "title": "Surgfm-Slam: robust surgical scene reconstruction via 3D foundation adaptation model"
+  },
+  "doi:10.1109/tvcg.2026.3726924": {
+    "source": "top_journal",
+    "title": "Geometry-Informed Auxiliary Priors for Consistent 3D Content Generation."
+  },
+  "doi:10.1002/advs.77082": {
+    "source": "top_journal",
+    "title": "Neuromorphic Optical Tracking and Imaging of Randomly Moving Targets Through Dynamic Dense Scattering Media"
   }
 }
