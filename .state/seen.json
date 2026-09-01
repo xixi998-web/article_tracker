@@ -15098,5 +15098,117 @@
   "doi:10.5194/bg-23-5781-2026": {
     "source": "top_journal",
     "title": "Soil disturbance in wetlands by feral pigs increases greenhouse gas emissions"
+  },
+  "arxiv:2608.28895v1": {
+    "source": "arxiv",
+    "title": "ReconSplat: Generalizable 3D Scene Reconstruction Beyond Observed Views"
+  },
+  "arxiv:2608.29346v1": {
+    "source": "arxiv",
+    "title": "GSPotential: Camera Potential Field for Sparse-View 3D Gaussian Splatting"
+  },
+  "arxiv:2608.29106v1": {
+    "source": "arxiv",
+    "title": "Elastic Triangle Splatting"
+  },
+  "arxiv:2608.29003v1": {
+    "source": "arxiv",
+    "title": "RoSe-SLAM: Robust Semantic-Aware Gaussian Splatting SLAM from Dynamic Monocular Videos"
+  },
+  "arxiv:2608.28891v1": {
+    "source": "arxiv",
+    "title": "Pixel-wise Geo-registration of Drone and Satellite Images"
+  },
+  "arxiv:2608.28702v1": {
+    "source": "arxiv",
+    "title": "Stochastic Liquid Deformation Fields: An SDE Generalisation of Closed-Form Continuous-Time Cells for Dynamic 3D Gaussian Splatting"
+  },
+  "arxiv:2608.28762v1": {
+    "source": "arxiv",
+    "title": "Inter-3D VQA: A Roadside Multimodal Benchmark for 3D Spatiotemporally Grounded Visual Question Answering"
+  },
+  "arxiv:2608.29048v1": {
+    "source": "arxiv",
+    "title": "DReSG: Diffusion Residuals for Stylized Gaussian Splatting"
+  },
+  "arxiv:2608.28913v1": {
+    "source": "arxiv",
+    "title": "mmIR: Frequency-Space Inverse Rendering for 3D Millimeter-Wave Radar ADC Synthesis"
+  },
+  "arxiv:2608.29177v1": {
+    "source": "arxiv",
+    "title": "Dynamic-Robust Photometric-Semantic Reconstruction for Open-Vocabulary 3D Scene Understanding"
+  },
+  "arxiv:2608.29137v1": {
+    "source": "arxiv",
+    "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models"
+  },
+  "arxiv:2608.29100v1": {
+    "source": "arxiv",
+    "title": "Agri-Sim: Agricultural Simulation Platform for Embodied Intelligence Evaluation in Greenhouse Robotics"
+  },
+  "arxiv:2608.29567v1": {
+    "source": "arxiv",
+    "title": "MotionSync: Non-Causal Refinement of Causal Tracker for Label-Efficient 3D Perception"
+  },
+  "arxiv:2608.29519v1": {
+    "source": "arxiv",
+    "title": "FuncRoom-Agent: Sequential Feed-Forward 3D Functional Indoor Scene Generation"
+  },
+  "arxiv:2608.29194v1": {
+    "source": "arxiv",
+    "title": "RLG-TPV: Radar- and LiDAR-Guided Tri-Perspective View Fusion for Camera-Radar 3D Object Detection"
+  },
+  "arxiv:2608.28933v1": {
+    "source": "arxiv",
+    "title": "NBS: No Bias Stereo"
+  },
+  "arxiv:2608.28838v1": {
+    "source": "arxiv",
+    "title": "Reconstruction-Aware Cryo-EM Particle Picking"
+  },
+  "arxiv:2608.28778v1": {
+    "source": "arxiv",
+    "title": "Adversarial Calibration Attack on Autonomous Vehicles"
+  },
+  "arxiv:2608.28570v1": {
+    "source": "arxiv",
+    "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos"
+  },
+  "arxiv:2608.28733v1": {
+    "source": "arxiv",
+    "title": "Generation of High-Level Concepts in 3D Scene Graphs via Autoregressive Diffusion"
+  },
+  "arxiv:2608.28718v1": {
+    "source": "arxiv",
+    "title": "RoboPhys-3D: A Comprehensive Embodied World Model Evaluation via 3D Reconstruction"
+  },
+  "doi:10.1088/1361-6501/ae9e5c": {
+    "source": "top_journal",
+    "title": "EAEPNet: Multi-Level Representation Enhancement and Weighted Box Fusion Network for Multi-Modal 3D Object Detection"
+  },
+  "doi:10.1038/s41598-026-60898-9": {
+    "source": "top_journal",
+    "title": "Multicenter validation of the modified wu classification as a 3d triplanar framework for proximal tibiofibular fractures"
+  },
+  "arxiv:2608.23984": {
+    "source": "top_journal",
+    "title": "Source-Face Authenticity Detection for 3D Gaussian Heads Reconstructed from a Single Portrait: A Benchmark and Dedicated Detector"
+  },
+  "arxiv:2608.24714": {
+    "source": "top_journal",
+    "title": "GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models"
+  },
+  "arxiv:2608.24039": {
+    "source": "top_journal",
+    "title": "Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings"
+  },
+  "arxiv:2608.24763": {
+    "source": "top_journal",
+    "title": "MoTE: Mixture of Task Experts for Multi-Task Video Understanding"
+  },
+  "doi:10.1007/s12065-026-01249-5": {
+    "source": "top_journal",
+    "title": "Large language model enhanced heuristic synergy orchestrator for adaptive operator evolution"
   }
 }
