@@ -15270,5 +15270,117 @@
   "doi:10.1016/j.watres.2026.126799": {
     "source": "top_journal",
     "title": "Decoupling of carbon burial from eutrophication in chinese lakes reveals a weakened sink."
+  },
+  "arxiv:2608.25401": {
+    "source": "top_journal",
+    "title": "PIVOT: A Multi-Trajectory Dataset and Testbed for Pose, Intrinsics, and Novel Viewpoint Evaluation in Real-World 3D Reconstruction"
+  },
+  "arxiv:2608.28288v2": {
+    "source": "arxiv",
+    "title": "GeoFF3D: Coordinate-Anchored Feed-Forward Reconstruction for Large-Scale UAV Mapping"
+  },
+  "arxiv:2608.26383": {
+    "source": "top_journal",
+    "title": "Cross-Platform Benchmark of Neural 3D Reconstruction for Autonomous Laboratory Robots"
+  },
+  "doi:10.3390/heritage9090339": {
+    "source": "top_journal",
+    "title": "Preserving the Past: The 3D Documentation of Ötzi, the Iceman Mummy, and Its Archaeological Context"
+  },
+  "arxiv:2608.30870v1": {
+    "source": "arxiv",
+    "title": "VCAR: Training-Free 3DGS Segmentation via View Completeness and Axis-Aware Boundary Refinement"
+  },
+  "arxiv:2608.30342v1": {
+    "source": "arxiv",
+    "title": "CapFrame: Text-Instructed Viewpoint Grounding in 3D Gaussian Scenes via Geometric Pseudo Labels"
+  },
+  "arxiv:2608.30161v1": {
+    "source": "arxiv",
+    "title": "AI-enabled Low-Cost 3D Maize Ear Morphometry Platform at Breeding Scale"
+  },
+  "arxiv:2608.29705v1": {
+    "source": "arxiv",
+    "title": "A Calibration Audit of Confidence in Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2608.29680v1": {
+    "source": "arxiv",
+    "title": "GeoRay: Gauge-Aware Feed-Forward Satellite 3D Reconstruction in the Geodetic Frame"
+  },
+  "doi:10.1002/cav.70171": {
+    "source": "top_journal",
+    "title": "Topology‐Aware AR With G3‐Depth for Minimally Invasive Surgery"
+  },
+  "arxiv:2608.31159v1": {
+    "source": "arxiv",
+    "title": "BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting"
+  },
+  "arxiv:2608.30054v1": {
+    "source": "arxiv",
+    "title": "When 3D Gaussian Splatting Recovers Real Surfaces"
+  },
+  "doi:10.1007/s44267-026-00127-z": {
+    "source": "top_journal",
+    "title": "NVS-UIE: diffusion UIE towards novel view synthesis via physics-aligned frequency fusion"
+  },
+  "arxiv:2608.30657v1": {
+    "source": "arxiv",
+    "title": "InfraOcc: An Infrastructure Occupancy Benchmark with Static-to-Dynamic Reasoning"
+  },
+  "arxiv:2608.31023v1": {
+    "source": "arxiv",
+    "title": "SMG: Semantic Motion Graph for Monocular Dynamic Gaussian Splatting"
+  },
+  "arxiv:2608.30690v1": {
+    "source": "arxiv",
+    "title": "Failure or Drift? Evaluating Monocular SLAM under Synthetic and Real-World Corruptions"
+  },
+  "arxiv:2608.30184v1": {
+    "source": "arxiv",
+    "title": "ATGS: Anchored Temporal Gaussian Splatting for Long Volumetric Video Representation"
+  },
+  "arxiv:2608.29927v1": {
+    "source": "arxiv",
+    "title": "Everybody Tracking Every Body"
+  },
+  "arxiv:2608.29769v1": {
+    "source": "arxiv",
+    "title": "Learning Agile Perceptive Traversal of Sparse 3D Structures for Humanoids"
+  },
+  "doi:10.1002/hsr2.73096": {
+    "source": "top_journal",
+    "title": "Study Protocol for Assessment of the Feasibility of an Intraoperative Localization Technique Using Augmented Reality in Breast‐Conserving Surgery for Non‐Palpable Cancer Lesions: A Feasibility Study"
+  },
+  "doi:10.1002/rob.70328": {
+    "source": "top_journal",
+    "title": "Visual Point‐Line and Inertial Measurement Unit Fusion‐Based Simultaneous Localization and Mapping Algorithm for Robotic Grinding of Wind Turbine Blades"
+  },
+  "doi:10.4103/ijc.ijc_172_24": {
+    "source": "top_journal",
+    "title": "Measurement of preoperative repair area of thyroid gland flap in patients with neck cancer by three-dimensional imaging."
+  },
+  "arxiv:2608.25472": {
+    "source": "top_journal",
+    "title": "PAGS: Autofocusing Photoacoustic Tomography via Speed-of-Sound-Adaptive Gaussian Splatting"
+  },
+  "doi:10.1111/1759-7714.70377": {
+    "source": "top_journal",
+    "title": "Intraoperative Contrast‐Enhanced Ultrasonography (Io‐CEUS) to Detect Missed Lung Nodules During Robot‐Assisted Thoracoscopic Surgery"
+  },
+  "arxiv:2608.25659": {
+    "source": "top_journal",
+    "title": "GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation"
+  },
+  "doi:10.1109/tpami.2026.3727804": {
+    "source": "top_journal",
+    "title": "4DWeaver: Bridging Reconstruction and Generation Via Compact Autoregressive Priors."
+  },
+  "doi:10.1109/jbhi.2026.3727471": {
+    "source": "top_journal",
+    "title": "GuardMLLM: Overconfidence-Aware Dynamic Fusion for Early Outcome Prediction."
+  },
+  "doi:10.1107/s1600577526007745": {
+    "source": "top_journal",
+    "title": "SMAXI: a machine-learning-powered open-source software for multidimensional full-field X-ray image analysis."
   }
 }
