@@ -15450,5 +15450,77 @@
   "doi:10.1002/ppp3.70259": {
     "source": "top_journal",
     "title": "Soil health assessment using buried cotton underpants with the help of 1000 citizen scientists"
+  },
+  "arxiv:2609.00923v1": {
+    "source": "arxiv",
+    "title": "On-the-Fly3R: Towards Robust Online 3D Reconstruction with Feed-Forward 3R Models for Large-Scale UAV Scenarios"
+  },
+  "arxiv:2609.01899v1": {
+    "source": "arxiv",
+    "title": "TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views"
+  },
+  "arxiv:2609.01516v1": {
+    "source": "arxiv",
+    "title": "DualDiff3D: Dual Structure-Appearance Diffusion Priors for Reliability-Enhanced 3D Gaussian Splatting"
+  },
+  "arxiv:2609.00994v1": {
+    "source": "arxiv",
+    "title": "EvoGS: Modeling Deformation Evolution for Dynamic Gaussian Splatting"
+  },
+  "arxiv:2609.01921v1": {
+    "source": "arxiv",
+    "title": "Automated Maize Ear Phenotyping Using 3D Reconstructions"
+  },
+  "arxiv:2609.02077v1": {
+    "source": "arxiv",
+    "title": "KSG-Net: Key-Sparse and Global-Context Learning for Maritime 3D Ship Detection"
+  },
+  "arxiv:2608.29705v2": {
+    "source": "arxiv",
+    "title": "A Calibration Audit of Confidence in Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2608.29048v2": {
+    "source": "arxiv",
+    "title": "DReSG: Diffusion Residuals for Stylized Gaussian Splatting"
+  },
+  "arxiv:2609.00775v1": {
+    "source": "arxiv",
+    "title": "VOIM: Training-Free Open-Vocabulary 3D Instance Mapping for RGB-D and Monocular SLAM"
+  },
+  "arxiv:2609.02306v1": {
+    "source": "arxiv",
+    "title": "Contact-Constrained Lower-Limb Joint-Offset Calibration for Humanoid Robots"
+  },
+  "arxiv:2609.02184v1": {
+    "source": "arxiv",
+    "title": "CC-4DGS: Computational Deformation and Point-Cloud Compression for Storage-Efficient Dynamic Gaussian Splatting"
+  },
+  "arxiv:2609.01036v1": {
+    "source": "arxiv",
+    "title": "MultiGait: A Multi-Sensor Multi-Perspective Multi-Session Biometric Inference Benchmark and its Dataset"
+  },
+  "arxiv:2609.00610v1": {
+    "source": "arxiv",
+    "title": "Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction"
+  },
+  "arxiv:2608.27192": {
+    "source": "top_journal",
+    "title": "Optimal transport regularized dynamic radio interferometric reconstruction"
+  },
+  "arxiv:2608.27529": {
+    "source": "top_journal",
+    "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction"
+  },
+  "arxiv:2608.27584": {
+    "source": "top_journal",
+    "title": "Quanta Perception as Probabilistic Events"
+  },
+  "arxiv:2608.27407": {
+    "source": "top_journal",
+    "title": "Reconstructing Humans and Objects in Interaction using Large Reconstruction Models"
+  },
+  "arxiv:2608.27088": {
+    "source": "top_journal",
+    "title": "Active sensing to characterize the heterogeneity of plant stress"
   }
 }
