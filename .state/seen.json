@@ -15598,5 +15598,61 @@
   "doi:10.21303/2504-5695.2026.004367": {
     "source": "top_journal",
     "title": "Development of a computational model of searching and informational describing of stable compositional attractors in soil organic matter molecular continium"
+  },
+  "arxiv:2608.28343": {
+    "source": "top_journal",
+    "title": "Denoising-Aware Temporal Point Cloud Completion for 3D Crop Architecture Recovery and Phenotypic Trait Extraction"
+  },
+  "doi:10.1016/j.media.2026.104279": {
+    "source": "top_journal",
+    "title": "Surgical instrument-tissue characterization via multi-task self-supervised instrument segmentation and motion estimation."
+  },
+  "doi:10.1109/tvcg.2026.3728436": {
+    "source": "top_journal",
+    "title": "ECGS: Extinction Coordination for Enhanced Gaussian Splatting."
+  },
+  "arxiv:2609.02830v1": {
+    "source": "arxiv",
+    "title": "Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts"
+  },
+  "arxiv:2609.02717v1": {
+    "source": "arxiv",
+    "title": "MV-dVRK: A Multi-Viewpoint Benchmark for Spatial Surgical Perception"
+  },
+  "arxiv:2609.02798v1": {
+    "source": "arxiv",
+    "title": "AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels"
+  },
+  "arxiv:2609.02747v1": {
+    "source": "arxiv",
+    "title": "InceptionGS: Generative Bootstrapping for Large-Scale Gaussian Splatting under Unstructured View Sampling"
+  },
+  "doi:10.3791/71686": {
+    "source": "top_journal",
+    "title": "3D MicroCT Imaging of Medicago sativa Root Nodules."
+  },
+  "doi:10.1145/3842671": {
+    "source": "top_journal",
+    "title": "Digital Reconstruction and Motion-Based Interactive Presentation of Qing Dynasty Court Opera Costumes"
+  },
+  "doi:10.1097/mao.0000000000005038": {
+    "source": "top_journal",
+    "title": "Semiautomatic Quantification of Cochlear Nerve Cross-sectional Area Predicts Speech Intelligibility in Cochlear Implant Users."
+  },
+  "arxiv:2608.28570": {
+    "source": "top_journal",
+    "title": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos"
+  },
+  "doi:10.3390/infrastructures11090300": {
+    "source": "top_journal",
+    "title": "Point-Cloud-Based 3D Inspection and Volume Quantification of Drainage-Pipeline Defects Using WCPC-GAN and Density-Adaptive Alpha Shapes"
+  },
+  "doi:10.1109/jbhi.2026.3728525": {
+    "source": "top_journal",
+    "title": "MAC-DiffCT: Multi-Scale Adaptive Conditional Diffusion Model for CT Reconstruction from Biplanar X-rays."
+  },
+  "doi:10.46632/aae/4/3/2": {
+    "source": "top_journal",
+    "title": "Innovative Fabrication of Advanced Robots Using the WASPAS Method: A New Era in Robotics Engineering"
   }
 }
