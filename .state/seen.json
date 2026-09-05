@@ -15698,5 +15698,93 @@
   "doi:10.3390/agriculture16171866": {
     "source": "top_journal",
     "title": "Research Status and Future Perspectives on Soil Microbial Respiration in Agricultural Ecosystems Under Climate Change"
+  },
+  "arxiv:2608.29184": {
+    "source": "top_journal",
+    "title": "GhostSplat: Input-Triggered Backdoors for Multi-View-Consistent 3D Content Manipulation in Feed-Forward Gaussian Splatting"
+  },
+  "arxiv:2609.03794v1": {
+    "source": "arxiv",
+    "title": "A comparative study on the accuracy & repeatability of mobile robotic platforms for the delivery of precision NDE measurement"
+  },
+  "arxiv:2609.03720v1": {
+    "source": "arxiv",
+    "title": "RoughSense: Lightweight Terrain-Induced Rover Vibration Prediction Using Point Clouds and IMU Feedback"
+  },
+  "arxiv:2609.03657v1": {
+    "source": "arxiv",
+    "title": "Rethinking 3D Noise: Learning 3D-Aware Video Priors via Optimization-Free Morphological Perturbations"
+  },
+  "arxiv:2609.03931v1": {
+    "source": "arxiv",
+    "title": "Sparse auto-regressive modeling for scene generation from multi-view images"
+  },
+  "arxiv:2609.03349v1": {
+    "source": "arxiv",
+    "title": "P-CORE: Self-Supervised Surface Consistency for Point-Based Neural Editing"
+  },
+  "arxiv:2609.03534v1": {
+    "source": "arxiv",
+    "title": "TruncGradGS: Improved 3D Gaussian Splatting via Truncated Gradient Updates"
+  },
+  "arxiv:2609.03447v1": {
+    "source": "arxiv",
+    "title": "STARS-GS: Structure-Aware Regularized Gaussian Splatting for Large-Scale Aerial Surface Reconstruction"
+  },
+  "arxiv:2609.03341v1": {
+    "source": "arxiv",
+    "title": "PointGT: Simultaneous Geometry and Texture Editing for Point-Based Representations"
+  },
+  "arxiv:2609.03334v1": {
+    "source": "arxiv",
+    "title": "Laplacian Frequency Hierarchies for Efficient 3D Gaussian Splatting Training"
+  },
+  "doi:10.5194/isprs-archives-l-4-w1-2026-319-2026": {
+    "source": "top_journal",
+    "title": "A Pipeline for Low-Cost Wide-Area 3D Mapping Using LiDAR-Equipped Mobile Devices and Open Data"
+  },
+  "arxiv:2608.29137": {
+    "source": "top_journal",
+    "title": "Chat-Edit-3D++: Interactive 3D and 4D Scene Editing via Large Language Models"
+  },
+  "arxiv:2608.29177": {
+    "source": "top_journal",
+    "title": "Dynamic-Robust Photometric-Semantic Reconstruction for Open-Vocabulary 3D Scene Understanding"
+  },
+  "arxiv:2609.04201v1": {
+    "source": "arxiv",
+    "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction"
+  },
+  "arxiv:2609.04174v1": {
+    "source": "arxiv",
+    "title": "Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations"
+  },
+  "arxiv:2609.03891v1": {
+    "source": "arxiv",
+    "title": "A hybrid pipeline for dynamic ontology-based semantic mapping"
+  },
+  "arxiv:2609.03756v1": {
+    "source": "arxiv",
+    "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation"
+  },
+  "arxiv:2609.03639v1": {
+    "source": "arxiv",
+    "title": "Stabilizing Camera-Controlled Novel View Synthesis at Inference Time"
+  },
+  "arxiv:2609.03561v1": {
+    "source": "arxiv",
+    "title": "TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting"
+  },
+  "arxiv:2608.29194": {
+    "source": "top_journal",
+    "title": "RLG-TPV: Radar- and LiDAR-Guided Tri-Perspective View Fusion for Camera-Radar 3D Object Detection"
+  },
+  "arxiv:2608.29433": {
+    "source": "top_journal",
+    "title": "Calibration and Comparative Analysis of Forward-Looking Sonar and 3D Sonar for Enhanced Underwater Object Recognition"
+  },
+  "doi:10.1007/s44163-026-02014-4": {
+    "source": "top_journal",
+    "title": "Group behavior detection in volleyball matches based on multi-scale transformer and dynamic attention"
   }
 }
