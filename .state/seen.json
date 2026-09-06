@@ -15814,5 +15814,25 @@
   "arxiv:2608.29519": {
     "source": "top_journal",
     "title": "FuncRoom-Agent: Sequential Feed-Forward 3D Functional Indoor Scene Generation"
+  },
+  "doi:10.1038/s41598-026-68840-9": {
+    "source": "top_journal",
+    "title": "Effects of land use on soil biological parameters across ecosystems in northwestern Iran"
+  },
+  "doi:10.3390/agronomy16171664": {
+    "source": "top_journal",
+    "title": "Straw Return and Tillage Management Strategies Reshape Soil Functionality and Enhance Maize Productivity"
+  },
+  "doi:10.1007/s44378-026-00302-0": {
+    "source": "top_journal",
+    "title": "Seasonal variation in physicochemical properties of some agricultural soils in Lucknow district, Uttar Pradesh of India"
+  },
+  "doi:10.3390/agronomy16171661": {
+    "source": "top_journal",
+    "title": "Irrigation Regimes Shape Vertical Salt Distribution in Coastal Saline–Alkali Farmlands: A PLS-SEM Analysis of Direct Ion Input and Physicochemical Pathways"
+  },
+  "doi:10.58812/wsa.v4i03.3090": {
+    "source": "top_journal",
+    "title": "Bibliometric Analysis of Biochar"
   }
 }
