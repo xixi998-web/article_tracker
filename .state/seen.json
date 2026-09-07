@@ -15834,5 +15834,13 @@
   "doi:10.58812/wsa.v4i03.3090": {
     "source": "top_journal",
     "title": "Bibliometric Analysis of Biochar"
+  },
+  "doi:10.1007/s10388-026-01242-y": {
+    "source": "top_journal",
+    "title": "High-resolution 3D micro-CT reveals an additional muscle layer in esophageal atresia."
+  },
+  "arxiv:2608.31002": {
+    "source": "top_journal",
+    "title": "DARP: A Calibrated Dual-Arm RGB-D-IR Dataset for Multi-View Robotic Perception"
   }
 }
