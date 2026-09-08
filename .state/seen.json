@@ -15882,5 +15882,105 @@
   "doi:10.1134/s1064229326600466": {
     "source": "top_journal",
     "title": "Application of Biological Research Methods for Diagnosis of the Ecological Status of Urban Soils Contaminated with Heavy Metals and Petroleum Hydrocarbons in St. Petersburg"
+  },
+  "arxiv:2609.05210v1": {
+    "source": "arxiv",
+    "title": "BLASt3R: Bundle Adjustment of Any Image Set with Multi-View Matching and Monocular Priors"
+  },
+  "doi:10.1016/j.isprsjprs.2026.06.029": {
+    "source": "top_journal",
+    "title": "Allroad-SLAM: Factor graph-based 3D reconstruction in diverse road scenarios with a consumer-grade GNSS-LiDAR-inertial system"
+  },
+  "arxiv:2609.05325v1": {
+    "source": "arxiv",
+    "title": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement"
+  },
+  "arxiv:2609.04381v1": {
+    "source": "arxiv",
+    "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models"
+  },
+  "arxiv:2609.01516": {
+    "source": "top_journal",
+    "title": "DualDiff3D: Dual Structure-Appearance Diffusion Priors for Reliability-Enhanced 3D Gaussian Splatting"
+  },
+  "arxiv:2609.01899": {
+    "source": "top_journal",
+    "title": "TAPVid-MV: A Benchmark for Tracking Any Point in 3D Across Multiple Views"
+  },
+  "doi:10.1061/jcemd4.coeng-18388": {
+    "source": "top_journal",
+    "title": "Efficient Rebar Layout Estimation Enabled by a Custom Detection Network and Enhanced Visual Measurement"
+  },
+  "doi:10.1016/j.compag.2026.112063": {
+    "source": "top_journal",
+    "title": "Robot-assisted Neural Radiance fields for plot-level cotton crop 3D reconstruction and yield estimation"
+  },
+  "arxiv:2609.05255v1": {
+    "source": "arxiv",
+    "title": "Compact Neural Appearance Models for Efficient Gaussian Splatting"
+  },
+  "arxiv:2609.04984v1": {
+    "source": "arxiv",
+    "title": "Temporal Residual Neural Radiance Fields for Monocular Video Dynamic Human Body Reconstruction"
+  },
+  "arxiv:2609.04942v1": {
+    "source": "arxiv",
+    "title": "Learning 3D Editing without Paired Supervision via Generative Prior Distillation"
+  },
+  "arxiv:2609.04602v1": {
+    "source": "arxiv",
+    "title": "NavArena: Automated Construction of Goal-Oriented Navigation Benchmarks from 3D Gaussian Splatting Reconstructions"
+  },
+  "doi:10.3390/electronics15173936": {
+    "source": "top_journal",
+    "title": "Attention-Guided Dual-Path Feature Fusion Network for PointPillars-Based LiDAR 3D Object Detection"
+  },
+  "arxiv:2609.04718v1": {
+    "source": "arxiv",
+    "title": "HiSfM: Disambiguating Structure-from-Motion via Scaffold-Anchored Hierarchical Reconstruction"
+  },
+  "arxiv:2609.04886v1": {
+    "source": "arxiv",
+    "title": "SimFuse3D: Source-Guided Target Simulation and Confidence-Guided Multi-Stage Localization Reweighting for Cross-Platform 3D Object Detection"
+  },
+  "arxiv:2609.04802v1": {
+    "source": "arxiv",
+    "title": "Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents"
+  },
+  "doi:10.1016/j.measurement.2026.122342": {
+    "source": "top_journal",
+    "title": "Automated assessment of highway guardrail condition based on binocular 3D reconstruction and multi-model fusion"
+  },
+  "doi:10.1109/lra.2026.3717191": {
+    "source": "top_journal",
+    "title": "In-Training Masked Reconstruction as Structured Representation Augmentation for Collaboration-Aware V2X Perception"
+  },
+  "doi:10.1016/j.isprsjprs.2026.06.039": {
+    "source": "top_journal",
+    "title": "UniOrtho: From view-centric to unified orthographic framework for satellite semantic 3D reconstruction"
+  },
+  "doi:10.1016/j.isprsjprs.2026.06.004": {
+    "source": "top_journal",
+    "title": "Rectify-Match-Reconstruct (RMR): Framework for dense and accurate metric 3D reconstruction via neural homography alignment"
+  },
+  "doi:10.1016/j.patcog.2026.114813": {
+    "source": "top_journal",
+    "title": "RePoCHOI: Single-view 3D reconstruction of clothed human-object interaction via relational pose optimization"
+  },
+  "doi:10.1109/lra.2026.3715030": {
+    "source": "top_journal",
+    "title": "An Autonomous and Real-Time Augmented Reality Framework for Robotic Lymphadenectomy"
+  },
+  "doi:10.17979/ja-cea.2026.47.13871": {
+    "source": "top_journal",
+    "title": "Estimación de pose basada en marcadores ArUco usando cámaras de eventos"
+  },
+  "doi:10.1109/tie.2026.3672736": {
+    "source": "top_journal",
+    "title": "Transformer-Based Missing Data Imputation in Time Series With Application to Flight Test Data"
+  },
+  "doi:10.1109/lra.2026.3710327": {
+    "source": "top_journal",
+    "title": "FAST-Sync: Fast Group Synchronization for Any Matrix Lie Group"
   }
 }
