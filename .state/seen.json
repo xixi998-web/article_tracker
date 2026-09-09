@@ -16046,5 +16046,49 @@
   "doi:10.3390/f17091042": {
     "source": "top_journal",
     "title": "Elemental Variation in Juniperus Leaves and Cones: A Comparative Study of Three Species and Soil Under Their Canopies"
+  },
+  "arxiv:2609.05925v1": {
+    "source": "arxiv",
+    "title": "AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning"
+  },
+  "arxiv:2609.06017v1": {
+    "source": "arxiv",
+    "title": "FujinSplat: Seeing Through Smoke with RAW-Domain Gaussian Splatting"
+  },
+  "arxiv:2609.05583v1": {
+    "source": "arxiv",
+    "title": "An overview of 3D Vision-Language Models"
+  },
+  "arxiv:2609.06195v1": {
+    "source": "arxiv",
+    "title": "EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan"
+  },
+  "arxiv:2609.06157v1": {
+    "source": "arxiv",
+    "title": "From Splats to Silicon: Rethinking Computational Efficiency of 3DGS"
+  },
+  "arxiv:2609.05888v1": {
+    "source": "arxiv",
+    "title": "UniFusion: Sparse-View 4D Reconstruction via Unified Spatio-temporal Depth Alignment"
+  },
+  "arxiv:2609.05744v1": {
+    "source": "arxiv",
+    "title": "Gaussian Linear Functional Manifold Method for Massive Point Cloud Data"
+  },
+  "arxiv:2609.02543": {
+    "source": "top_journal",
+    "title": "LightBridge: Feed-Forward Generative Relighting for 3D Gaussian Splatting"
+  },
+  "arxiv:2609.06261v1": {
+    "source": "arxiv",
+    "title": "Adapting Vision Foundation Models to Acoustics for Pose-Free 3D Sonar Reconstruction"
+  },
+  "arxiv:2609.05941v1": {
+    "source": "arxiv",
+    "title": "Moment-Matching Probabilistic Data Association for Optimization-Based SLAM"
+  },
+  "arxiv:2609.02243": {
+    "source": "top_journal",
+    "title": "Mus siliconus: A Neuro-Musculoskeletal Digital Twin of the Mouse Integrating Neural Dynamics, Biomechanics, and Tactile Sensing"
   }
 }
