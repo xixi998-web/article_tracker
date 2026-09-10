@@ -16134,5 +16134,125 @@
   "doi:10.9734/irjpac/2026/v27i51029": {
     "source": "top_journal",
     "title": "Investigation of the Efficiency of Peanut Shells as a Biosorbent for the Removal of Ni (II) Ions from the Galvanic Wastewater in Accordance with Circular Economy Principles"
+  },
+  "arxiv:2609.06874v1": {
+    "source": "arxiv",
+    "title": "MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting"
+  },
+  "arxiv:2609.07274v1": {
+    "source": "arxiv",
+    "title": "LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure"
+  },
+  "arxiv:2609.03657": {
+    "source": "top_journal",
+    "title": "Rethinking 3D Noise: Learning 3D-Aware Video Priors via Optimization-Free Morphological Perturbations"
+  },
+  "arxiv:2609.08730v1": {
+    "source": "arxiv",
+    "title": "CVT-GS: Learning to Simplify 3D Gaussian Splatting with Centroidal Voronoi Tessellation"
+  },
+  "arxiv:2609.07724v1": {
+    "source": "arxiv",
+    "title": "Zero-Shot 3D Plant Organ Segmentation with SAM3 and Semantic NeRFs"
+  },
+  "arxiv:2609.07346v1": {
+    "source": "arxiv",
+    "title": "From Explicit References to Scene Manifolds: Distributional Fidelity and Realism for Radiance Field Quality Assessment"
+  },
+  "arxiv:2609.07231v1": {
+    "source": "arxiv",
+    "title": "Generalizable 6D Pose Estimation of Textureless Objects with Planar-based Gaussian Splatting"
+  },
+  "arxiv:2609.03304": {
+    "source": "top_journal",
+    "title": "AnyGS2Mesh: Feed-Forward Mesh Reconstruction from 3D Gaussian Splatting with Arbitrary-Resolution Views"
+  },
+  "arxiv:2609.07738v1": {
+    "source": "arxiv",
+    "title": "TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking"
+  },
+  "arxiv:2609.07298v1": {
+    "source": "arxiv",
+    "title": "KODAMA: Multimodal Digital Twin Reconstruction for Urban RF Propagation Modelling"
+  },
+  "arxiv:2609.03931": {
+    "source": "top_journal",
+    "title": "Sparse auto-regressive modeling for scene generation from multi-view images"
+  },
+  "arxiv:2609.09012v1": {
+    "source": "arxiv",
+    "title": "Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild"
+  },
+  "arxiv:2609.08626v1": {
+    "source": "arxiv",
+    "title": "MFVINS: Multiple Fisheye Camera-Based Visual Inertial System"
+  },
+  "arxiv:2609.08332v1": {
+    "source": "arxiv",
+    "title": "EdMCGS: Event-Driven Markov Chain Gaussian Splatting for Extreme-Low-Frame-Rate Dynamic Scene Reconstruction"
+  },
+  "arxiv:2609.07557v1": {
+    "source": "arxiv",
+    "title": "Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat"
+  },
+  "arxiv:2609.06948v1": {
+    "source": "arxiv",
+    "title": "PRG-Fusion: Orchestrating Generative Priors with Reconstruction Evidence for Driving View Synthesis"
+  },
+  "arxiv:2609.08338v1": {
+    "source": "arxiv",
+    "title": "A Multi-Modal Perception Pipeline for Object Detection and Tracking in Autonomous Racing"
+  },
+  "arxiv:2609.07516v1": {
+    "source": "arxiv",
+    "title": "P$^2$Calib: Utilizing Pattern Priors for LiDAR-Camera Extrinsic Calibration"
+  },
+  "arxiv:2609.06547v1": {
+    "source": "arxiv",
+    "title": "SHIFT: Surface-aware High-speed Integration For TSDFs"
+  },
+  "arxiv:2609.09005v1": {
+    "source": "arxiv",
+    "title": "DXPR: Depth-Based Vision-LiDAR Cross-Modal Place Recognition Using Vision Foundation Models"
+  },
+  "arxiv:2609.08848v1": {
+    "source": "arxiv",
+    "title": "FIRE3D: Feed-forward Interactive 3D Scene Reconstruction Within A Minute"
+  },
+  "arxiv:2609.08802v1": {
+    "source": "arxiv",
+    "title": "Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology"
+  },
+  "arxiv:2609.08711v1": {
+    "source": "arxiv",
+    "title": "DCLP++: Learning to Navigate with Footprint Clearance and Relative Motion"
+  },
+  "arxiv:2609.08493v1": {
+    "source": "arxiv",
+    "title": "AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction"
+  },
+  "arxiv:2609.08041v1": {
+    "source": "arxiv",
+    "title": "MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States"
+  },
+  "arxiv:2609.07734v1": {
+    "source": "arxiv",
+    "title": "TV-SGS: Gaussian Splatting with Geometric Information Propagation via Tensor Voting under sparse views"
+  },
+  "arxiv:2609.07617v1": {
+    "source": "arxiv",
+    "title": "Forecasting the Winner of a Live Tennis Match"
+  },
+  "arxiv:2609.07608v1": {
+    "source": "arxiv",
+    "title": "Solution for UCF UrbanTwin V2X-Real Track: Sim-to-Real Urban LiDAR 3D Object Detection"
+  },
+  "arxiv:2609.07532v1": {
+    "source": "arxiv",
+    "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling"
+  },
+  "arxiv:2609.07497v1": {
+    "source": "arxiv",
+    "title": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs"
   }
 }
