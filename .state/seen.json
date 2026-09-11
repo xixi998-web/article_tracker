@@ -16258,5 +16258,77 @@
   "doi:10.3389/fsufs.2026.1818681": {
     "source": "top_journal",
     "title": "Organic and inorganic fertilization differently affect the agronomic performance of two okra (Abelmoschus esculentus L. Moench) varieties and soil fertility"
+  },
+  "arxiv:2609.09606v1": {
+    "source": "arxiv",
+    "title": "RouteBridge: Reliability-Routed Bidirectional Distillation Between Neural Radiance Fields and 3D Gaussian Splatting"
+  },
+  "arxiv:2609.10376v1": {
+    "source": "arxiv",
+    "title": "Shape-guided Gaussian Splatting for Sparse-View X-ray 3D Reconstruction"
+  },
+  "arxiv:2609.10307v1": {
+    "source": "arxiv",
+    "title": "View-Structured Conformal Prediction for 3D Gaussian Splatting"
+  },
+  "arxiv:2609.10095v1": {
+    "source": "arxiv",
+    "title": "LinearMask-GS: Stable-Mask Importance Pruning for Compact 3D Gaussian Splatting"
+  },
+  "arxiv:2609.09491v1": {
+    "source": "arxiv",
+    "title": "Learning Global Camera Poses from Noisy View-Graphs for Structure from Motion"
+  },
+  "arxiv:2609.07298v2": {
+    "source": "arxiv",
+    "title": "KODAMA: Multimodal Digital Twin Reconstruction for Urban RF Propagation Modelling"
+  },
+  "arxiv:2609.10336v1": {
+    "source": "arxiv",
+    "title": "Odometer-Agnostic Drift Correction Using OpenStreetMap Lane Geometry"
+  },
+  "arxiv:2609.10322v1": {
+    "source": "arxiv",
+    "title": "Geometry Without Coordinates: LiDAR Diffusion as a 3D Feature Bridge"
+  },
+  "arxiv:2609.09418v1": {
+    "source": "arxiv",
+    "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration"
+  },
+  "arxiv:2609.09881v1": {
+    "source": "arxiv",
+    "title": "CLFTv2: Efficient Camera-LiDAR Fusion for Semantic Segmentation via Hierarchical Feature Pyramids"
+  },
+  "arxiv:2609.09507v1": {
+    "source": "arxiv",
+    "title": "RoMa-$Ω$: What Feed-Forward 3D Models Know About Image Matching"
+  },
+  "arxiv:2609.10200v1": {
+    "source": "arxiv",
+    "title": "Robust Beam Prediction for V2X Networks with Multi-Modal Sensing"
+  },
+  "arxiv:2609.09394v1": {
+    "source": "arxiv",
+    "title": "OmniPoint: Universal Monocular Metric Pointcloud from Any Camera"
+  },
+  "arxiv:2609.07590v1": {
+    "source": "arxiv",
+    "title": "Solution for UCF UrbanTwin LUMPI Track: Sim-to-Real Urban LiDAR 3D Object Detection"
+  },
+  "arxiv:2609.07091v1": {
+    "source": "arxiv",
+    "title": "Human-Aware Target Tracking and Navigation: Fusing Kinematic State Estimation with Structural Map Constraints"
+  },
+  "arxiv:2609.07085v1": {
+    "source": "arxiv",
+    "title": "Single Image to Textured 3D Object Generation in Frequency Domain: From Theory to Pipeline"
+  },
+  "arxiv:2609.06623v1": {
+    "source": "arxiv",
+    "title": "CAVEAT: Recurrent Multimodal Diffusion Planning for Mapless Aerial Exploration"
+  },
+  "arxiv:2609.06723v1": {
+    "source": "arxiv",
+    "title": "ADELE - Adaptive Delaunay Grids for High-Fidelity Mesh-Native Reconstruction"
   }
 }
