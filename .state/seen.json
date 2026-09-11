@@ -16330,5 +16330,9 @@
   "arxiv:2609.06723v1": {
     "source": "arxiv",
     "title": "ADELE - Adaptive Delaunay Grids for High-Fidelity Mesh-Native Reconstruction"
+  },
+  "doi:10.1016/j.colsurfb.2026.116128": {
+    "source": "top_journal",
+    "title": "Construction of Pt/TiO2 heterojunction composite supported on N, P-Co-doped hollow carbon and study on the electrochemical sensing performance for Cu2."
   }
 }
