@@ -16334,5 +16334,13 @@
   "doi:10.1016/j.colsurfb.2026.116128": {
     "source": "top_journal",
     "title": "Construction of Pt/TiO2 heterojunction composite supported on N, P-Co-doped hollow carbon and study on the electrochemical sensing performance for Cu2."
+  },
+  "arxiv:2609.05925": {
+    "source": "top_journal",
+    "title": "AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning"
+  },
+  "doi:10.1038/s41598-026-70217-x": {
+    "source": "top_journal",
+    "title": "Iterative trocar-constrained laparoscope viewpoint search for enhanced surface coverage in 3D reconstruction"
   }
 }
