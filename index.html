@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Paper Tracker</title>
-<style>:root{--acc:#16a34a}</style>
+<style>:root{--acc:#2563eb}</style>
 <style>
 :root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
 :root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
@@ -50,16 +50,22 @@ summary{cursor:pointer;color:var(--acc)}
   <button class="btn" onclick="__expandAll(true)">Expand All</button>
   <button class="btn" onclick="__expandAll(false)">Collapse All</button>
 </div>
-<span class="badge">2026-09-11 05:41 · Core 0 · Proxy 0 · Eco 1</span>
+<span class="badge">2026-09-12 01:13 · Core 2 · Proxy 0 · Eco 0</span>
 </div>
 </div>
 <div class="hr"></div>
 <div class="row">
-<div class="card"><div class="title">Construction of Pt/TiO2 heterojunction composite supported on N, P-Co-doped hollow carbon and study on the electrochemical sensing performance for Cu2.<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
-<div class="meta-line">Venue: Colloids and surfaces. B, Biointerfaces</div>
-<div class="meta-line">Published: 2026-09-04</div>
-<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3081ef468746db62a390381c5b0c7e522b7debfc">Abs</a> · <a href="https://doi.org/10.2139/ssrn.7228525">PDF</a></div>
-<details class="detail"><summary>Abstract</summary><div class="mono">Copper ion (Cu2+) is a prevalent heavy metal contaminant in industrial wastewater and natural water bodies. Although it plays a vital role as a trace element in human physiology, overconsumption can result in severe systemic disorders. In this work, a novel electrochemical sensing platform based on P, N co-doped hollow carbon (PNHC) decorated with Pt/TiO2 nanoparticles (PNHC@Pt/TiO2) was developed for the ultrasensitive detection of Cu2+. The composite was systematically characterized by SEM, TEM, XRD, FTIR, Raman spectroscopy, and XPS, confirming the formation of a core-shell structure with a uniform spherical morphology (104.20 ± 0.21 nm), along with N/P heteroatoms that provide specific coordination affinity toward Cu2+. Compared to bare and single-component electrodes, the PNHC@Pt/TiO2-modified GCE delivered an enlarged electroactive surface area (0.1289 cm2) and lower charge-transfer resistance; under the optimized parameters (pH 5.0, accumulation potential -0.8 V, accumulation time 180 s, and modifier volume 5 µL), this sensor presented a Cu2+ linear detection range of 0.001-20 µM, a low limit of detection (LOD) of 0.006 µM (S/N = 3), and a high sensitivity of 6.102 µA µM-1. The sensor also exhibited excellent selectivity against common interfering ions (K+, Na⁺, Ni2+, Co2+, Zn2+, Cd2+), good reproducibility, and long-term stability (83.7% current retention after 8 days). Practical applicability was validated by successful determination of Cu2+ in tap water, soil, and serum samples with recoveries ranging from 87.1% to 103.3%, demonstrating the reliable performance of the proposed sensor for environmental and biological monitoring.</div></details>
+<div class="card"><div class="title">AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-09-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/93491b9a5c8e30bd21f5f7309186c744b704077a">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Pose-free feed-forward 3D Gaussian Splatting enables novel view synthesis from uncalibrated multi-view images. Although more views should improve performance, existing methods often degrade with dense-view inputs because global aggregation spreads attention over many tokens, and naive voxel fusion averages many Gaussians into overly smooth representations. We present AVSplat, a framework that turns additional views into reliable signals for both aggregation and representation. Before global attention, each view performs a single lightweight interaction with a small set of Assist Views chosen for relevance and diversity, and the cached features provide a focused scene context that stabilizes correspondence. For representation, we use adaptive temperature-aware voxel fusion that sharpens attribution under high occupancy, guided by occupancy and point confidence. Crucially, AVSplat restores positive view scaling where performance remains stable or improves as more input views are added, instead of degrading in the dense-view regime. Ablations show that Assist View Preconditioning is primarily responsible for preventing dense-view degradation, while Occupancy-guided Voxel Fusion contributes most of the single-point image-quality gains.</div></details>
+</div>
+<div class="card"><div class="title">Iterative trocar-constrained laparoscope viewpoint search for enhanced surface coverage in 3D reconstruction<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Venue: Scientific Reports</div>
+<div class="meta-line">Published: 2026-09-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/02217c98cd34f4dffae02009ac9056a56b86d03d">Abs</a> · <a href="https://www.nature.com/articles/s41598-026-70217-x.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Autonomy is a growing trend in robot-assisted minimally invasive surgery. Autonomous systems require geometric information about the surgical environment, obtained from images and 3D reconstruction. The long-term goal of this work is to improve the completeness of endoscope-based 3D reconstruction by first creating a sparse 3D model and then guiding the laparoscope toward areas missing from the reconstruction. Guidance of rigid laparoscopes is challenging because the trocar, the entry point into the body, limits the degrees of freedom. Therefore, we propose an iterative geometric laparoscope viewpoint search approach, which considers the trocar point, the camera’s field of view, and the robot’s inverse kinematics. The validation, using ex vivo organ datasets containing prepared holes in a reconstructed point cloud, showed a success rate of 85%, in which viewpoints could be improved for the corresponding prepared holes. In contrast to existing methods applying interpolation to improve surface coverage, our method aims to cover feasible regions of interest with the camera. We achieved a reconstruction error of 1–2 mm with a relative improvement of the surface coverage of up to 6.3%. The computation time for the brute-force approach is 10 s on average per region of interest and could be reduced to 6 ms by applying a nonlinear optimization solver.</div></details>
 </div>
 </div>
 <details style="margin-top:16px" class="detail"><summary>History</summary>
