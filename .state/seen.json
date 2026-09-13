@@ -16370,5 +16370,17 @@
   "doi:10.70382/ajsitr.v13i9.082": {
     "source": "top_journal",
     "title": "Tissue-Specific Bioaccumulation of Zinc, Lead, Copper, Cadmium and Manganese in Clarias gariepinus from Lake Alau, Northeastern Nigeria"
+  },
+  "arxiv:2609.06874": {
+    "source": "top_journal",
+    "title": "MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting"
+  },
+  "doi:10.1007/s00530-026-02637-8": {
+    "source": "top_journal",
+    "title": "Multiuser immersive cultural experiences enabled by 5G, AI and free-viewpoint video"
+  },
+  "doi:10.1016/j.rvsc.2026.106389": {
+    "source": "top_journal",
+    "title": "Anatomical study of the thorax and abdomen of the domestic cat: Correlation of cross-sectional anatomy with contrast-enhanced computed tomography and 3D reconstruction."
   }
 }
