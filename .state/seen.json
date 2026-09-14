@@ -16386,5 +16386,73 @@
   "doi:10.38211/joarps.2026.07.353": {
     "source": "top_journal",
     "title": "Soil Spatial Variability Mapping of District Badin, Sindh"
+  },
+  "arxiv:2609.11079v1": {
+    "source": "arxiv",
+    "title": "RIDE: Relocalization-Informed Depth Estimation with 3D Gaussian Splatting"
+  },
+  "arxiv:2609.07274": {
+    "source": "top_journal",
+    "title": "LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure"
+  },
+  "arxiv:2609.07346": {
+    "source": "top_journal",
+    "title": "From Explicit References to Scene Manifolds: Distributional Fidelity and Realism for Radiance Field Quality Assessment"
+  },
+  "arxiv:2609.07231": {
+    "source": "top_journal",
+    "title": "Generalizable 6D Pose Estimation of Textureless Objects with Planar-based Gaussian Splatting"
+  },
+  "arxiv:2609.11766v1": {
+    "source": "arxiv",
+    "title": "Visual-SLAM for the detection of hidden tomatoes in greenhouses by Hierarchical Localization and GLOMAPfor robotized harvesting"
+  },
+  "arxiv:2609.07298": {
+    "source": "top_journal",
+    "title": "KODAMA: Multimodal Digital Twin Reconstruction for Urban RF Propagation Modelling"
+  },
+  "arxiv:2609.11472v1": {
+    "source": "arxiv",
+    "title": "BridgeMatch: Conditional Transport Bridges in Matching Matrix Space for 3D Deformable Registration"
+  },
+  "arxiv:2609.11717v1": {
+    "source": "arxiv",
+    "title": "MC-DeTra: Motion-Consistent Joint Object Detection and Socially-Aware Trajectory Forecasting in Bird's-Eye-View Images"
+  },
+  "arxiv:2609.08338v2": {
+    "source": "arxiv",
+    "title": "A Multi-Modal Perception Pipeline for Object Detection and Tracking in Autonomous Racing"
+  },
+  "arxiv:2609.11601v1": {
+    "source": "arxiv",
+    "title": "MMGait: Benchmarking and Unifying Gait Recognition across Heterogeneous Modalities"
+  },
+  "arxiv:2609.11527v1": {
+    "source": "arxiv",
+    "title": "Lightweight LiDAR-Based Cone Detection Framework Using Random Forest for Formula Student Driverless"
+  },
+  "arxiv:2609.11434v1": {
+    "source": "arxiv",
+    "title": "Hologram Representation via Quadratic Phase Gaussian Splatting"
+  },
+  "arxiv:2609.11223v1": {
+    "source": "arxiv",
+    "title": "Tri-DehazeGS: Scene--Medium Decoupled Gaussian Splatting with Transmittance-Aware Optimization"
+  },
+  "arxiv:2609.11040v1": {
+    "source": "arxiv",
+    "title": "Toward Interpretable Multimodal Fusion: Heat Conduction Modeling for Hyperspectral and LiDAR Joint Classification"
+  },
+  "arxiv:2609.07497": {
+    "source": "top_journal",
+    "title": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs"
+  },
+  "arxiv:2609.07532": {
+    "source": "top_journal",
+    "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling"
+  },
+  "doi:10.3390/electronics15174042": {
+    "source": "top_journal",
+    "title": "ALNet: An Adaptive Lateral-Interaction Spiking Neural Network for Event-Based Motion Deblurring"
   }
 }
