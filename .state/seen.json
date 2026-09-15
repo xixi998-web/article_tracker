@@ -16494,5 +16494,97 @@
   "doi:10.1007/s44274-026-00982-z": {
     "source": "top_journal",
     "title": "Ecological risk assessment and spatial distribution of heavy metals in soils surrounding urban abattoir waste systems in southwestern Nigeria"
+  },
+  "doi:10.1088/2631-8695/aea472": {
+    "source": "top_journal",
+    "title": "Two-Stage 3D Object Detection Architecture via Integrated Attention Mechanism and Voxel Aggregation"
+  },
+  "arxiv:2609.13991v1": {
+    "source": "arxiv",
+    "title": "Mind2Cloud: EEG-to-Point Cloud Generation with Two-Granularity Diffusion Decoding"
+  },
+  "arxiv:2609.13903v1": {
+    "source": "arxiv",
+    "title": "SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences"
+  },
+  "arxiv:2609.13504v1": {
+    "source": "arxiv",
+    "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction"
+  },
+  "arxiv:2609.12837v1": {
+    "source": "arxiv",
+    "title": "Parameter Sensitivity Analysis for Aerial LiDAR-Inertial Odometries in low-altitude flights"
+  },
+  "arxiv:2609.12682v1": {
+    "source": "arxiv",
+    "title": "NOVA-GS: Noise-Aware View-Consistent Gaussian Splatting for Low-Light Novel View Synthesis"
+  },
+  "arxiv:2609.12614v1": {
+    "source": "arxiv",
+    "title": "ProClosure: Hierarchical Room-Object Assignment using Progressive Boundary Closure from Monocular Video"
+  },
+  "arxiv:2609.12557v1": {
+    "source": "arxiv",
+    "title": "DRS-VPT: Directly Relocalizing in a Scan with Vision Point Transformers"
+  },
+  "arxiv:2609.12221v1": {
+    "source": "arxiv",
+    "title": "Chain-SLAM: Globally Consistent Backend for Multi-Session LiDAR SLAM via Chained Loop Closure"
+  },
+  "arxiv:2609.11766v2": {
+    "source": "arxiv",
+    "title": "Visual-SLAM for the detection of hidden tomatoes in greenhouses by Hierarchical Localization and GLOMAP for robotized harvesting"
+  },
+  "arxiv:2609.12395v1": {
+    "source": "arxiv",
+    "title": "Is Gaussian Splatting Becoming Neural Again? A Taxonomy and Controlled Study of Learned Parameterization"
+  },
+  "arxiv:2609.12343v1": {
+    "source": "arxiv",
+    "title": "VS-Splat: Voxel-Selective feed-forward Gaussian Splatting for end-to-end 3D object reconstruction from sparse-views"
+  },
+  "arxiv:2609.09418": {
+    "source": "top_journal",
+    "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration"
+  },
+  "arxiv:2609.12871v1": {
+    "source": "arxiv",
+    "title": "A Multi-Vehicle Dataset with Camera, LiDAR, and Radar Sensors and Scanned 3D Models for Custom Auto-Annotation using RTK-GNSS"
+  },
+  "arxiv:2609.14183v1": {
+    "source": "arxiv",
+    "title": "DreamSat-Bench: Development and Initial Testing of a Testbed for AI-Based Pose Estimation from 3D Reconstruction"
+  },
+  "arxiv:2609.14129v1": {
+    "source": "arxiv",
+    "title": "Deformable 2D Gaussian Splatting for Efficient 4K Video Compression"
+  },
+  "arxiv:2609.13941v1": {
+    "source": "arxiv",
+    "title": "BLInD: Learning Driver Intent as a Distribution over Future Ego Trajectories"
+  },
+  "arxiv:2609.13675v1": {
+    "source": "arxiv",
+    "title": "Does Online Gravity Estimation Matter? Revisiting a Silent Design Split in LiDAR-Inertial Odometry"
+  },
+  "arxiv:2609.08493": {
+    "source": "top_journal",
+    "title": "AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction"
+  },
+  "arxiv:2609.09394": {
+    "source": "top_journal",
+    "title": "OmniPoint: Universal Monocular Metric Pointcloud from Any Camera"
+  },
+  "doi:10.1007/s41651-026-00283-2": {
+    "source": "top_journal",
+    "title": "CSRF: A Robust 3D Reconstruction Framework for Crowdsourced Street View Videos"
+  },
+  "arxiv:2609.08802": {
+    "source": "top_journal",
+    "title": "Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology"
+  },
+  "arxiv:2609.08841": {
+    "source": "top_journal",
+    "title": "Leveraging Visual and Geometric Priors for Metric-scale and Complete Vehicle Gaussian Reconstruction from Limited Views"
   }
 }
