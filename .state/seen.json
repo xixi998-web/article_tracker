@@ -16774,5 +16774,61 @@
   "arxiv:2609.14567v1": {
     "source": "arxiv",
     "title": "Learning Multi-Agent Task Assignment and Navigation in the Factory: from Simulation to Real Robots"
+  },
+  "doi:10.3389/fsufs.2026.1923296": {
+    "source": "top_journal",
+    "title": "Regenerative benefits of legume–wheat intercropping systems on soil quality and resource-use efficiency under deficit irrigation in Egypt"
+  },
+  "doi:10.1093/femsec/fiag105": {
+    "source": "top_journal",
+    "title": "Bacterial and archaeal communities reflect long-term pH shift induced by ash fertilization in boreal peatland forest soils."
+  },
+  "doi:10.3390/plants15182760": {
+    "source": "top_journal",
+    "title": "Relationship Between Understory Plant Diversity and Soil Physicochemical Properties in Four Vegetation Restoration Forest Types in the Latosol Gully Erosion Area on Hainan Island"
+  },
+  "doi:10.69598/sehs.20.26020002": {
+    "source": "top_journal",
+    "title": "An ensemble deep learning approach for soil pH classification leveraging GLCM-based texture features and neural networks"
+  },
+  "doi:10.1002/jpln.70116": {
+    "source": "top_journal",
+    "title": "Infrared Spectroscopic Predictions of Soil Properties for Agricultural Monitoring: Statistical and Soil Spectroscopic Considerations"
+  },
+  "doi:10.9734/jeai/2026/v48i94493": {
+    "source": "top_journal",
+    "title": "Soil Fertility Responses to Different Nitrogen Application Approaches Involving Prilled Urea and Foliar Nano-urea in Wheat"
+  },
+  "doi:10.3390/agronomy16181767": {
+    "source": "top_journal",
+    "title": "Effects of Stropharia rugosoannulata–Tomato Rotation Coupled with Spent Mushroom Substrate Incorporation on Soil Fertility, Yield and Fruit Quality of Tomato"
+  },
+  "doi:10.1038/s41598-026-68815-w": {
+    "source": "top_journal",
+    "title": "KRISHI.AI: an explainable machine learning framework for data-driven crop recommendation"
+  },
+  "doi:10.9734/ijpss/2026/v38i96314": {
+    "source": "top_journal",
+    "title": "Economic Evaluation of Lantana Derived Biochar for Enhancing Yield, Nutrient Uptake and Quality of Cauliflower in the Subtropics of Himachal Pradesh, India"
+  },
+  "doi:10.1134/s1062359026600893": {
+    "source": "top_journal",
+    "title": "Herbicide-Induced Physiological Changes in Myriophyllum verticillatum: Linuron and Nicosulfuron Exposure and Implications for Aquatic Ecosystem Health"
+  },
+  "doi:10.3390/separations13090252": {
+    "source": "top_journal",
+    "title": "Adsorptive Removal of Sunscreen-Derived Benzophenone-3 Using Iron-Impregnated Biochar Fabricated with Chlorella pyrenoidosa Biomass"
+  },
+  "doi:10.1038/s41392-026-02968-y": {
+    "source": "top_journal",
+    "title": "Precision tuning of STING signaling: a mutational blueprint"
+  },
+  "doi:10.20502/rbg.v27i3.2771": {
+    "source": "top_journal",
+    "title": "Interactions between biogenetic and morphogenetic forces on slopes: termite mounds and murundus"
+  },
+  "doi:10.3390/agronomy16181761": {
+    "source": "top_journal",
+    "title": "Parent Material, Water Regime Shifts, and Fertilization Regulate Aggregate Stability and Cadmium Adsorption in Typical Subtropical Paddy Soils"
   }
 }
