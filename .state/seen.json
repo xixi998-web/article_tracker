@@ -16654,5 +16654,125 @@
   "doi:10.3390/molecules31183161": {
     "source": "top_journal",
     "title": "Production and Characterization of a Lipopeptide Biosurfactant from Bacillus velezensis SHB.28 Using Date Syrup for Heavy Metal Removal"
+  },
+  "arxiv:2609.15098v1": {
+    "source": "arxiv",
+    "title": "LG-VLN: A Zero-Shot Vision-and-Language Navigation Framework with LangGraph State Orchestration"
+  },
+  "arxiv:2609.15550v1": {
+    "source": "arxiv",
+    "title": "Multi-Stage NeRF for Efficient 3D Coronary Artery Reconstruction from Two Narrow-Angle Angiographic Projections"
+  },
+  "arxiv:2609.14634v1": {
+    "source": "arxiv",
+    "title": "SCOUT-SLAM: Structurally-Coupled Dual Uncertainty-Aware 3DGS SLAM in the Wild"
+  },
+  "arxiv:2609.10376": {
+    "source": "top_journal",
+    "title": "Shape-guided Gaussian Splatting for Sparse-View X-ray 3D Reconstruction"
+  },
+  "arxiv:2609.14899v1": {
+    "source": "arxiv",
+    "title": "What Makes a 3D Scene Editable? A Factorized Benchmark of Fidelity, Locality, Consistency, and Preservation"
+  },
+  "arxiv:2609.17039v1": {
+    "source": "arxiv",
+    "title": "Bi-FlowGS: Bridging Generative View Completion and Gaussian Geometry through Bidirectional Flow Co-Refinement"
+  },
+  "arxiv:2609.16852v1": {
+    "source": "arxiv",
+    "title": "CoAdapt: An LLM-based Framework for Adaptive Collaborative Perception in IIoT Robotic Swarms"
+  },
+  "arxiv:2609.15795v1": {
+    "source": "arxiv",
+    "title": "SURE-Map: Self-Correcting Streaming Geometric Foundation Model"
+  },
+  "arxiv:2609.16926v1": {
+    "source": "arxiv",
+    "title": "Evaluating Mesh Reconstruction Methods for Crop Phenotyping"
+  },
+  "arxiv:2609.16772v1": {
+    "source": "arxiv",
+    "title": "HLC-GS: Risk-Map-Guided Height-Layer Consistency Gaussian Splatting for DSM Reconstruction from Optical Satellite Imagery"
+  },
+  "arxiv:2609.16662v1": {
+    "source": "arxiv",
+    "title": "SAVTrack: Selective Vote Aggregation for Reliability-Aware Point Cloud Tracking"
+  },
+  "arxiv:2609.16443v1": {
+    "source": "arxiv",
+    "title": "The Neverwhere Visual Parkour Benchmark Suite"
+  },
+  "arxiv:2609.16378v1": {
+    "source": "arxiv",
+    "title": "Geometry vs Structure: Graph-Based Diagnostics for LiDAR Point-Cloud Simulation Fidelity"
+  },
+  "arxiv:2609.16233v1": {
+    "source": "arxiv",
+    "title": "SceneBench: A Hierarchical Benchmark for Vision-Language Understanding of 3D Scenes"
+  },
+  "arxiv:2609.15228v1": {
+    "source": "arxiv",
+    "title": "Unsupervised Point Cloud Registration via Training-Time Semantic Guidance"
+  },
+  "arxiv:2609.14469v1": {
+    "source": "arxiv",
+    "title": "PRI-Net: A Lightweight Multimodal Framework for 3D UAV Localization"
+  },
+  "arxiv:2609.16310v1": {
+    "source": "arxiv",
+    "title": "Racing in Volume with Flow Ensembles"
+  },
+  "arxiv:2609.15667v1": {
+    "source": "arxiv",
+    "title": "Tracking the Ground: Online Lidar Identification of Robot-Induced Soil Deformation in Agricultural Environments"
+  },
+  "arxiv:2609.15227v1": {
+    "source": "arxiv",
+    "title": "Closed-form Bayesian homography estimation from noisy point correspondences"
+  },
+  "arxiv:2609.14936v1": {
+    "source": "arxiv",
+    "title": "Comparing Trajectories from Positions Alone: Curvature-Based Time Alignment and Drift Error Metric"
+  },
+  "arxiv:2609.14543v1": {
+    "source": "arxiv",
+    "title": "NavPatch: Evidence-Guided Object-Level Costmap Correction with Vision-Language Models"
+  },
+  "arxiv:2609.17021v1": {
+    "source": "arxiv",
+    "title": "sensVLA: Spatially-Grounded Vision-Language-Action Model for Autonomous Wheel Loader"
+  },
+  "arxiv:2609.16695v1": {
+    "source": "arxiv",
+    "title": "MAETrack: Unleashing the Potential of Pretrained Geometric Priors for 3D Single Object Tracking"
+  },
+  "arxiv:2609.16672v1": {
+    "source": "arxiv",
+    "title": "Lesion-centered 3D mapping of colonoscopy procedures: validation of a hierarchical ensemble pipeline on public benchmark videos"
+  },
+  "arxiv:2609.15770v1": {
+    "source": "arxiv",
+    "title": "JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion"
+  },
+  "arxiv:2609.15475v1": {
+    "source": "arxiv",
+    "title": "P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites"
+  },
+  "arxiv:2609.15018v2": {
+    "source": "arxiv",
+    "title": "G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity"
+  },
+  "arxiv:2609.14903v1": {
+    "source": "arxiv",
+    "title": "HydroMap: Probabilistic Water Surface Elevation Mapping for Semantic Scene Representation in Inland Waterways"
+  },
+  "arxiv:2609.14619v1": {
+    "source": "arxiv",
+    "title": "ESAFusion: LiDAR--4-D Radar Fusion via Local Geometric Complementation and Multiscale Adaptive Interaction for 3-D Object Detection"
+  },
+  "arxiv:2609.14567v1": {
+    "source": "arxiv",
+    "title": "Learning Multi-Agent Task Assignment and Navigation in the Factory: from Simulation to Real Robots"
   }
 }
