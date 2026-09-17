@@ -16830,5 +16830,97 @@
   "doi:10.3390/agronomy16181761": {
     "source": "top_journal",
     "title": "Parent Material, Water Regime Shifts, and Fertilization Regulate Aggregate Stability and Cadmium Adsorption in Typical Subtropical Paddy Soils"
+  },
+  "arxiv:2609.17387v1": {
+    "source": "arxiv",
+    "title": "PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM"
+  },
+  "arxiv:2609.18465v1": {
+    "source": "arxiv",
+    "title": "GeoCond: A Conditioning-Aware Reliability Adapter for Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2609.17302v1": {
+    "source": "arxiv",
+    "title": "Online Geometric Change Detection via Scene Decomposition"
+  },
+  "arxiv:2609.18493v1": {
+    "source": "arxiv",
+    "title": "Semantic-ITC: A Frame-wise Indoor Mobile Laser Scanning Dataset and Benchmark for Semantic Segmentation"
+  },
+  "arxiv:2609.18473v1": {
+    "source": "arxiv",
+    "title": "CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction"
+  },
+  "arxiv:2609.18082v1": {
+    "source": "arxiv",
+    "title": "PESTO: Formally Correct Registration of LiDAR Point Clouds with Limited Overlap"
+  },
+  "arxiv:2609.17413v1": {
+    "source": "arxiv",
+    "title": "SSC-Priors: Exploring Semantic and Visibility Priors to Boost Lidar Semantic Scene Completion"
+  },
+  "arxiv:2609.17230v1": {
+    "source": "arxiv",
+    "title": "DecoGS: Adaptive Static-Dynamic Decoupling of 3D Gaussians for Free-Viewpoint Video Streaming"
+  },
+  "arxiv:2609.17757v1": {
+    "source": "arxiv",
+    "title": "Imitation Learning for Autonomous Driving in CARLA"
+  },
+  "arxiv:2609.17198v1": {
+    "source": "arxiv",
+    "title": "TIO-Former: Ultra-Lightweight 6-Directional ToF-Inertial Odometry for Nano-UAVs via a Streaming Causal Transformer"
+  },
+  "arxiv:2609.18451v1": {
+    "source": "arxiv",
+    "title": "VLM-MPPI: Grounding Natural Language in Behaviorally Diverse Trajectories for Aerial Navigation"
+  },
+  "arxiv:2609.18191v1": {
+    "source": "arxiv",
+    "title": "OmniRisk: Omnidirectional Trajectory-Risk Learning for Agile Quadrotor Dynamic Avoidance"
+  },
+  "arxiv:2609.17820v1": {
+    "source": "arxiv",
+    "title": "CALIPER: Metric-Grounded Model-Free Recognition of Visually Similar Industrial Parts"
+  },
+  "arxiv:2609.17810v1": {
+    "source": "arxiv",
+    "title": "Wind on Trees: Testing Physical Grounding in Dynamic 4D Gaussian Splatting"
+  },
+  "arxiv:2609.17168v1": {
+    "source": "arxiv",
+    "title": "HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM"
+  },
+  "arxiv:2609.17145v2": {
+    "source": "arxiv",
+    "title": "LiLi: Lie Theory Based 3D LiDAR Scan Alignment Degeneracy Detection"
+  },
+  "arxiv:2609.14426v1": {
+    "source": "arxiv",
+    "title": "Learning-Based Dynamic Obstacle Avoidance for a UAV Using Only Three Range Sensors"
+  },
+  "arxiv:2609.13675v2": {
+    "source": "arxiv",
+    "title": "Does Online Gravity Estimation Matter? Revisiting a Silent Design Split in LiDAR-Inertial Odometry"
+  },
+  "arxiv:2609.14521v1": {
+    "source": "arxiv",
+    "title": "CGGT: Curve-Grounded Geometry Transformer for 3D Parametric Curve Reconstruction"
+  },
+  "arxiv:2609.17106v1": {
+    "source": "arxiv",
+    "title": "BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation"
+  },
+  "arxiv:2609.11314": {
+    "source": "top_journal",
+    "title": "A Dynamic Fusion Large Language Model for Traffic Flow Prediction"
+  },
+  "doi:10.1002/adom.71767": {
+    "source": "top_journal",
+    "title": "Snapshot Multispectral Imaging Based on Quasi‐BIC Metasurface Array"
+  },
+  "arxiv:2609.11279": {
+    "source": "top_journal",
+    "title": "SAMV-DUSt3R: Instance-Centric 3D Scene Decoupling from Sparse Multi-Views"
   }
 }
