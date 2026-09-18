@@ -17010,5 +17010,125 @@
   "doi:10.56201/ijgem.vol.12.no3.2026.pg189.201": {
     "source": "top_journal",
     "title": "Integrated Assessment of Water Quality and Public Health Risks in the Ossah River, Southeastern Nigeria: Implications For Sustainable Water Resource Management"
+  },
+  "arxiv:2609.20012v1": {
+    "source": "arxiv",
+    "title": "GRF-Recon: Global Ray-Field Optimization for Long-Sequence Feed-forward Reconstruction"
+  },
+  "arxiv:2609.19716v1": {
+    "source": "arxiv",
+    "title": "GAPrompt++: Multi-Granular Geometry-Aware Point Cloud Prompt for 3D Vision Model"
+  },
+  "arxiv:2609.19628v1": {
+    "source": "arxiv",
+    "title": "VGGT-GS SLAM: Uncalibrated Monocular Gaussian Splatting SLAM with Feed-Forward Priors"
+  },
+  "arxiv:2609.20348v1": {
+    "source": "arxiv",
+    "title": "EliGSiR: Continual RGB-D Mapping with Gaussian Splatting under Bounded Compute"
+  },
+  "arxiv:2609.18737v1": {
+    "source": "arxiv",
+    "title": "Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting"
+  },
+  "arxiv:2609.19533v1": {
+    "source": "arxiv",
+    "title": "SLAMSqueezeBench: Comparing SLAM Systems under Resource Constraints"
+  },
+  "arxiv:2609.19518v1": {
+    "source": "arxiv",
+    "title": "AMB3R-SLAM: Kilometer-scale SLAM with Hierarchical Backend"
+  },
+  "arxiv:2609.19463v1": {
+    "source": "arxiv",
+    "title": "ParticleSplat: Self-supervised Object-centric Latent Particle Splatting"
+  },
+  "arxiv:2609.18898v1": {
+    "source": "arxiv",
+    "title": "NormLift: From Lifted Features To Semantic Reliability In 3D Gaussian Splatting"
+  },
+  "arxiv:2609.13504": {
+    "source": "top_journal",
+    "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction"
+  },
+  "arxiv:2609.12557": {
+    "source": "top_journal",
+    "title": "DRS-VPT: Directly Relocalizing in a Scan with Vision Point Transformers"
+  },
+  "arxiv:2609.19907v1": {
+    "source": "arxiv",
+    "title": "GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets"
+  },
+  "arxiv:2609.19782v1": {
+    "source": "arxiv",
+    "title": "Printing the Underdetermined: Materializing Multi-solutionness in Figurative Paintings"
+  },
+  "arxiv:2609.19421v1": {
+    "source": "arxiv",
+    "title": "RGS: Reflection-aware Gaussian Splatting via Learning Geometry Continuity for Reflective Objects"
+  },
+  "arxiv:2609.19336v1": {
+    "source": "arxiv",
+    "title": "Dynamic-LIVO: A Dynamic-Aware LiDAR-Inertial-Visual Odometry System Using Spatio-Temporal Normals"
+  },
+  "arxiv:2609.19330v1": {
+    "source": "arxiv",
+    "title": "SemSafe-3DGS: Semantic Risk-Aware Active Navigation in Uncertain 3D Gaussian Splatting Maps"
+  },
+  "arxiv:2609.18738v1": {
+    "source": "arxiv",
+    "title": "Active perception for robotic harvesting: 3D reconstruction and localisation of tomatoes hidden within clusters in a Mediterranean greenhouse"
+  },
+  "arxiv:2609.20160v1": {
+    "source": "arxiv",
+    "title": "Needles in a Raystack: Ultra-Sparse LiDAR Occupancy Detection for Bat Tracks"
+  },
+  "arxiv:2609.19393v1": {
+    "source": "arxiv",
+    "title": "WZPlanner: Safe End-to-End Path Planning for Autonomous Driving in Work Zones"
+  },
+  "arxiv:2609.19358v1": {
+    "source": "arxiv",
+    "title": "Open-vocabulary 3D object detection with promptable segmentation"
+  },
+  "arxiv:2609.18819v1": {
+    "source": "arxiv",
+    "title": "SEAM: Submap-Anchored Evidence for Lifelong LiDAR Mapping under Trajectory Deformation"
+  },
+  "arxiv:2609.17198v2": {
+    "source": "arxiv",
+    "title": "TIO-Former: Ultra-Lightweight 6-Directional ToF-Inertial Odometry for Nano-UAVs via a Streaming Causal Transformer"
+  },
+  "doi:10.1117/12.3122251": {
+    "source": "top_journal",
+    "title": "Deep learning-based tunnel surface defects 3D reconstruction and spatial location mapping method"
+  },
+  "arxiv:2609.20333v1": {
+    "source": "arxiv",
+    "title": "Sharp Reconstruction Bounds for Autoencoders Using the Same Forward Map"
+  },
+  "arxiv:2609.19894v1": {
+    "source": "arxiv",
+    "title": "Learning Reliable Parking Policies via Offline Reinforcement Learning with Quantized Action Representations"
+  },
+  "arxiv:2609.19815v1": {
+    "source": "arxiv",
+    "title": "SnapPhysics: A Physics-Aware Scene Graph from a Single View for Interactive Mixed Reality Scenes"
+  },
+  "arxiv:2609.19510v1": {
+    "source": "arxiv",
+    "title": "PIVOT: Perception-aware Independent Viewpoint Online Optimization"
+  },
+  "arxiv:2609.18893v1": {
+    "source": "arxiv",
+    "title": "SOL-SLAM: Inverse Compositional Gauss-Newton Direct Registration for Fast Sonar-Only Local SLAM"
+  },
+  "arxiv:2609.18732v1": {
+    "source": "arxiv",
+    "title": "PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments"
+  },
+  "doi:10.1364/oe.610652": {
+    "source": "top_journal",
+    "title": "Adaptive Highlight Suppression 3D Reconstruction Method Based on Binary-Coded Fringe Patterns"
   }
 }
