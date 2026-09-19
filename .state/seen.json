@@ -17194,5 +17194,57 @@
   "doi:10.1038/s41598-026-70786-x": {
     "source": "top_journal",
     "title": "Seasonal variation and ecological-human health risk assessment of toxic elements and microbial contaminants in a municipal landfill, central Thailand"
+  },
+  "arxiv:2609.20623v1": {
+    "source": "arxiv",
+    "title": "PhGS: Post-Hoc Pruning and Refinement of Single-View Feed-Forward 3D Gaussian Reconstructions"
+  },
+  "arxiv:2609.20589v1": {
+    "source": "arxiv",
+    "title": "RawSLAM: Online HDR Gaussian SLAM from Linear Radiance"
+  },
+  "arxiv:2609.13991": {
+    "source": "top_journal",
+    "title": "Mind2Cloud: EEG-to-Point Cloud Generation with Two-Granularity Diffusion Decoding"
+  },
+  "arxiv:2609.20818v1": {
+    "source": "arxiv",
+    "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos"
+  },
+  "arxiv:2609.20817v1": {
+    "source": "arxiv",
+    "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations"
+  },
+  "arxiv:2609.20747v1": {
+    "source": "arxiv",
+    "title": "MILER: Semantic Mid-Level Representation for Sim-to-Real Reinforcement Learning in Unstructured Autonomous Driving"
+  },
+  "arxiv:2609.20586v1": {
+    "source": "arxiv",
+    "title": "CoRef-GS: Cooperative Referring Gaussian Splatting for Multi-Agent Scene Understanding"
+  },
+  "arxiv:2609.20604v1": {
+    "source": "arxiv",
+    "title": "Semantic SLAM in Precision Agriculture using Bayesian Inference"
+  },
+  "arxiv:2609.20540v1": {
+    "source": "arxiv",
+    "title": "Integrated Guidance and Control of a Mother-Child UAV-UGV System for Cooperative Missions"
+  },
+  "arxiv:2609.13733": {
+    "source": "top_journal",
+    "title": "FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry"
+  },
+  "arxiv:2609.14183": {
+    "source": "top_journal",
+    "title": "DreamSat-Bench: Development and Initial Testing of a Testbed for AI-Based Pose Estimation from 3D Reconstruction"
+  },
+  "doi:10.1007/s00530-026-02544-y": {
+    "source": "top_journal",
+    "title": "Unified neural rendering and diffusion framework for high-fidelity interactive 3D scene generation"
+  },
+  "arxiv:2609.13823": {
+    "source": "top_journal",
+    "title": "Semantic Privacy Protection with Utility Preservation for 3D Point Clouds"
   }
 }
