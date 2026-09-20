@@ -17262,5 +17262,13 @@
   "doi:10.9734/ajee/2026/v25i91014": {
     "source": "top_journal",
     "title": "EDTA-Enhanced Phytoextraction of Cd, Pb, and Cr from Industrially Contaminated Soil by Brassica juncea"
+  },
+  "arxiv:2609.14469": {
+    "source": "top_journal",
+    "title": "PRI-Net: A Lightweight Multimodal Framework for 3D UAV Localization"
+  },
+  "arxiv:2609.14521": {
+    "source": "top_journal",
+    "title": "CGGT: Curve-Grounded Geometry Transformer for 3D Parametric Curve Reconstruction"
   }
 }
