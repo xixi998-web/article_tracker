@@ -17270,5 +17270,9 @@
   "arxiv:2609.14521": {
     "source": "top_journal",
     "title": "CGGT: Curve-Grounded Geometry Transformer for 3D Parametric Curve Reconstruction"
+  },
+  "doi:10.3390/pr14182910": {
+    "source": "top_journal",
+    "title": "Reagent-Assisted Phytoextraction Potential for Heavy and Critical Metals on a Contaminated Post-Mining Substrate as NBS"
   }
 }
