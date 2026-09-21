@@ -17274,5 +17274,45 @@
   "doi:10.3390/pr14182910": {
     "source": "top_journal",
     "title": "Reagent-Assisted Phytoextraction Potential for Heavy and Critical Metals on a Contaminated Post-Mining Substrate as NBS"
+  },
+  "arxiv:2609.15098": {
+    "source": "top_journal",
+    "title": "LG-VLN: A Zero-Shot Vision-and-Language Navigation Framework with LangGraph State Orchestration"
+  },
+  "arxiv:2609.16443": {
+    "source": "top_journal",
+    "title": "The Neverwhere Visual Parkour Benchmark Suite"
+  },
+  "arxiv:2609.15227": {
+    "source": "top_journal",
+    "title": "Closed-form Bayesian homography estimation from noisy point correspondences"
+  },
+  "doi:10.3390/electronics15184161": {
+    "source": "top_journal",
+    "title": "Design of Dancing Robot Based on Machine Vision"
+  },
+  "arxiv:2609.15018": {
+    "source": "top_journal",
+    "title": "G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity"
+  },
+  "arxiv:2609.15032": {
+    "source": "top_journal",
+    "title": "Tele360: Real-Time Feed-Forward Human Reconstruction from Sparse Unposed Cameras"
+  },
+  "arxiv:2609.15639": {
+    "source": "top_journal",
+    "title": "SAM3D-Part: Interactive Part Selection and Generation from 3D Objects"
+  },
+  "doi:10.1038/s41467-026-76346-1": {
+    "source": "top_journal",
+    "title": "Frequency-oriented adaptive real-time object detector for cluttered traffic scenes"
+  },
+  "doi:10.3390/info17090890": {
+    "source": "top_journal",
+    "title": "No Viral, No Justice: A Multi-Model Annotation Study of Media Stance and Public Sentiment in Indonesia"
+  },
+  "doi:10.1021/acsnano.6c05415": {
+    "source": "top_journal",
+    "title": "Multiplex\nK-Edge Nanoprobe Imaging Enables\n3D Volumetric Molecular Phenotyping of Human Hematoma Membranes"
   }
 }
