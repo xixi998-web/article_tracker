@@ -17410,5 +17410,125 @@
   "doi:10.3389/ffgc.2026.1921800": {
     "source": "top_journal",
     "title": "Fruit tree-based agroforestry as a nature-based solution for carbon sequestration in the vulnerable Eastern Himalayan ecosystem: plant–soil microbe feedbacks in the context of global change"
+  },
+  "arxiv:2609.21498v1": {
+    "source": "arxiv",
+    "title": "VoxelTTO: Voxel-Aligned Feed-Forward 3D Gaussian Splatting with Test-Time Optimization"
+  },
+  "arxiv:2609.23182v1": {
+    "source": "arxiv",
+    "title": "GrapeSplat: Geometry-Grounded Reconstruction via Amalgamated Pose-Free Encoding for Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2609.22849v1": {
+    "source": "arxiv",
+    "title": "LINGO: Latent Initialization and Gradient Optimization for Sparse-view X-ray Novel View Synthesis and CT Reconstruction with 3D Gaussian Splatting"
+  },
+  "arxiv:2609.21391v1": {
+    "source": "arxiv",
+    "title": "WS-NeRF: A Mamba-Driven World-State-Aware Adaptive Deblurring Neural Radiance Field"
+  },
+  "arxiv:2609.21347v1": {
+    "source": "arxiv",
+    "title": "Cube-Splat: High-Fidelity 360° Gaussian Splatting SLAM via Cubemap Factorization and Adjoint-Consistent Optimization"
+  },
+  "arxiv:2609.22941v1": {
+    "source": "arxiv",
+    "title": "D3GS: Depth, DINO, and RGB Diffusion Co-Guided 3D Gaussian Splatting for Sparse-View Reconstruction"
+  },
+  "arxiv:2609.22716v1": {
+    "source": "arxiv",
+    "title": "ZIL: Zero-shot Image-to-LiDAR Registration"
+  },
+  "arxiv:2609.21437v1": {
+    "source": "arxiv",
+    "title": "Think Locally, Refine Globally for Memory-Efficient 3D Reconstruction"
+  },
+  "arxiv:2609.23049v1": {
+    "source": "arxiv",
+    "title": "VDGS: Visibility-Driven Large-Scale 3D Gaussian Splatting for Aerial Scene Reconstruction"
+  },
+  "arxiv:2609.22687v1": {
+    "source": "arxiv",
+    "title": "PanoSeg3R: Feed-Forward 3D Semantic Segmentation for Panoramic Images with an Automatic Data Curation Pipeline"
+  },
+  "arxiv:2609.21938v1": {
+    "source": "arxiv",
+    "title": "Info3R: Information-Adaptive Test-Time Training for 3D Reconstruction"
+  },
+  "arxiv:2609.21780v1": {
+    "source": "arxiv",
+    "title": "PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection"
+  },
+  "arxiv:2609.17302": {
+    "source": "top_journal",
+    "title": "Online Geometric Change Detection via Scene Decomposition"
+  },
+  "arxiv:2609.23005v1": {
+    "source": "arxiv",
+    "title": "Compressing 3D Gaussian Splatting via Cross-Representation Priors"
+  },
+  "arxiv:2609.23003v1": {
+    "source": "arxiv",
+    "title": "M3GA-Wild: A Large-Scale Dataset and Benchmark for Multi-Modal Multi-session Ground-to-Aerial Place Recognition in Forests"
+  },
+  "arxiv:2609.21903v1": {
+    "source": "arxiv",
+    "title": "The Role of Radiometric Features in Cross-Site Leaf-Wood Segmentation of LiDAR Point Clouds"
+  },
+  "arxiv:2609.21226v1": {
+    "source": "arxiv",
+    "title": "AirSplan: Risk-Aware Motion Planning for Quadrotors in Cluttered 3D Gaussian Splats"
+  },
+  "arxiv:2609.21176v1": {
+    "source": "arxiv",
+    "title": "4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors"
+  },
+  "arxiv:2609.21112v1": {
+    "source": "arxiv",
+    "title": "Demonstration Synthesis from a Single Scan via Gaussian Splatting for Visuomotor Policy Learning"
+  },
+  "arxiv:2609.22868v1": {
+    "source": "arxiv",
+    "title": "Planning-Aligned Pretraining of BEV Representations with Sparse Action-Conditioned Targets for End-to-End Autonomous Driving"
+  },
+  "arxiv:2609.21502v1": {
+    "source": "arxiv",
+    "title": "Adaptive World Memory 3D Foundation Model for Scalable 3D Mapping, Localization, and Rendering"
+  },
+  "arxiv:2609.21015v1": {
+    "source": "arxiv",
+    "title": "Towards Effective Visual-Inertial SLAM with Passive-Only Sensors for Low-Cost Autonomous Underwater Vehicles"
+  },
+  "arxiv:2609.23380v1": {
+    "source": "arxiv",
+    "title": "LiteTex-GS: Fast and Lightweight Texturing for Gaussian Splatting"
+  },
+  "arxiv:2609.23286v1": {
+    "source": "arxiv",
+    "title": "RegVGGT: Sustainable Visual Geometry Grounding for Streaming via Regulated Memory"
+  },
+  "arxiv:2609.23144v1": {
+    "source": "arxiv",
+    "title": "Probabilistic Scene Graphs: Hierarchical Representation and Real-time System"
+  },
+  "arxiv:2609.23019v1": {
+    "source": "arxiv",
+    "title": "SomaNet: Weakly Supervised Learning for Instance Soma Segmentation in 3D Electron Microscopy with Partial Annotations"
+  },
+  "arxiv:2609.22410v1": {
+    "source": "arxiv",
+    "title": "Learning 3D biophysical cell properties from 2D images and cell-population statistics"
+  },
+  "arxiv:2609.21883v1": {
+    "source": "arxiv",
+    "title": "VIRGA: Virtual-Agent-Intermediated Riemannian Geometry for Active-Sensing Air-Ground Coordination"
+  },
+  "arxiv:2609.21597v1": {
+    "source": "arxiv",
+    "title": "HAT: Hypothesis-Anchored Tracking for Video Monocular Spacecraft Pose Estimation"
+  },
+  "arxiv:2609.21516v1": {
+    "source": "arxiv",
+    "title": "2D GauSS-MI: Efficient Active Scene Reconstruction with Balanced Visual and Geometric Quality"
   }
 }
