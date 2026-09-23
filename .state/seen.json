@@ -17618,5 +17618,125 @@
   "doi:10.1163/18786561-bja10102": {
     "source": "top_journal",
     "title": "Towards Enhanced On-Farm Soil Carbon Sequestration: A First Assessment of the Potential Role of the Emerging EU Legal Framework"
+  },
+  "arxiv:2609.26315v1": {
+    "source": "arxiv",
+    "title": "ArborSplat: Online Semantic Gaussian Splatting SLAM for Orchards"
+  },
+  "arxiv:2609.24140v1": {
+    "source": "arxiv",
+    "title": "BayesianGS-SLAM: Uncertainty-Aware Neural Rendering SLAM via Probabilistic Formulation"
+  },
+  "arxiv:2609.25746v1": {
+    "source": "arxiv",
+    "title": "Dual Covariance Gaussian Splatting SLAM: Decoupling Rendering and Registration for Robust Real-Time Tracking"
+  },
+  "arxiv:2609.25578v1": {
+    "source": "arxiv",
+    "title": "Agentic Building-Aware Satellite Gaussian Splatting for Auditable Urban DSM Reconstruction"
+  },
+  "arxiv:2609.23915v1": {
+    "source": "arxiv",
+    "title": "Learning-Based 3D Reconstruction of Power Networks from Aerial Point Clouds"
+  },
+  "arxiv:2609.23491v1": {
+    "source": "arxiv",
+    "title": "Elevator-VIGS: Separating Elevator Motion from Robot Motion in Visual-Inertial Gaussian Splatting SLAM"
+  },
+  "arxiv:2609.26325v1": {
+    "source": "arxiv",
+    "title": "Leveraging Vision-Based Point Cloud Map Priors for Camera-Based 3D Object Detection and Online Vectorized HD Mapping"
+  },
+  "arxiv:2609.24825v1": {
+    "source": "arxiv",
+    "title": "ZVeC: A Zero-Shot Framework for Instance-Level Vehicle Extraction and Generative Point Cloud Completion"
+  },
+  "arxiv:2609.23436v1": {
+    "source": "arxiv",
+    "title": "GAPS: Generative Active Pseudo-view Selection for Sparse-View 3D Gaussian Splatting"
+  },
+  "arxiv:2609.23425v1": {
+    "source": "arxiv",
+    "title": "Semi-automated reconstruction of indoor geometry from 360-degree video for CFD-based airflow analysis in classrooms"
+  },
+  "arxiv:2609.25490v1": {
+    "source": "arxiv",
+    "title": "SAM-V: Geometry-Aware Segment Anything for Multi-View Instance Segmentation"
+  },
+  "arxiv:2609.24839v1": {
+    "source": "arxiv",
+    "title": "When Wider Views Fail: Stress-Testing Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2609.26007v1": {
+    "source": "arxiv",
+    "title": "Skytopia: Monocular Drone Navigation with Action-Conditioned Latent World Models"
+  },
+  "arxiv:2609.25932v1": {
+    "source": "arxiv",
+    "title": "Unsigned Distance Maps on 2D Point Cloud Registration"
+  },
+  "arxiv:2609.25907v1": {
+    "source": "arxiv",
+    "title": "NaCR: Visual Localization via NeRF-aided Camera Ray Regression"
+  },
+  "arxiv:2609.25375v1": {
+    "source": "arxiv",
+    "title": "PARTE: Plane-Assisted Robust Transformation Estimation for Point Cloud Registration"
+  },
+  "arxiv:2609.21176v2": {
+    "source": "arxiv",
+    "title": "4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors"
+  },
+  "arxiv:2609.18738": {
+    "source": "top_journal",
+    "title": "Active perception for robotic harvesting: 3D reconstruction and localisation of tomatoes hidden within clusters in a Mediterranean greenhouse"
+  },
+  "arxiv:2609.25860v1": {
+    "source": "arxiv",
+    "title": "MatchFusion: Explicit-Implicit Instance Matching for Spatio-Temporal Multimodal Autonomous Driving"
+  },
+  "arxiv:2609.25668v1": {
+    "source": "arxiv",
+    "title": "CDKF-Track: Cluster-aware Data-Driven Kalman Filtering for Cooperative 3D Multi-Object Tracking"
+  },
+  "arxiv:2609.23961v1": {
+    "source": "arxiv",
+    "title": "Colon3R: Cross-Domain 3D Reconstruction from Monocular Colonoscopic Video"
+  },
+  "arxiv:2609.23733v1": {
+    "source": "arxiv",
+    "title": "VGGT-Prime: Compute-Adaptive Mixture-of-Heads for Efficient Visual Geometry Transformers"
+  },
+  "arxiv:2609.23666v1": {
+    "source": "arxiv",
+    "title": "UniPoint: Unified Point-Level Sensor Fusion for Humanoid Locomotion Across Challenging Terrains"
+  },
+  "arxiv:2609.23541v1": {
+    "source": "arxiv",
+    "title": "Towards robust multimodal 3D object detection via visual foundation models"
+  },
+  "arxiv:2609.25969v1": {
+    "source": "arxiv",
+    "title": "Predict Before You Step: Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance"
+  },
+  "arxiv:2609.25900v1": {
+    "source": "arxiv",
+    "title": "You Should Be Properly Scoring Your Odometry"
+  },
+  "arxiv:2609.25813v1": {
+    "source": "arxiv",
+    "title": "MOLA LiDAR-Inertial Odometry (MOLA-LIO) on the COMFORT Localization Benchmark"
+  },
+  "arxiv:2609.25604v1": {
+    "source": "arxiv",
+    "title": "Ultra-fast Neural Inference for Stochastic Gaussian Splatting Denoising"
+  },
+  "arxiv:2609.25538v1": {
+    "source": "arxiv",
+    "title": "Point Diffusion Mamba: Unified Diffusion-State-Space Modeling for Single-View 3D Reconstruction under Data Scarcity"
+  },
+  "arxiv:2609.24864v1": {
+    "source": "arxiv",
+    "title": "SE(3) Neural Potential Fields for 6-DoF Trajectory Planning Directly from Images Without Explicit 3D Reconstruction"
   }
 }
