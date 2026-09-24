@@ -17798,5 +17798,125 @@
   "doi:10.56201/ijaes.vol.11.no9.2025.pg67.78": {
     "source": "top_journal",
     "title": "Bioremediation of Hydroca10.56201/ijaes.vol.11.no9.2025.pg67.78rbon-Polluted Mangrove Soil Using Charred Cow Bone"
+  },
+  "doi:10.1109/tvcg.2026.3734761": {
+    "source": "top_journal",
+    "title": "BiGS: Bi-Anchor Gaussian Splatting for Dynamic Video Photorealistic Reconstruction."
+  },
+  "arxiv:2609.20348": {
+    "source": "top_journal",
+    "title": "EliGSiR: Continual RGB-D Mapping with Gaussian Splatting under Bounded Compute"
+  },
+  "arxiv:2609.27442v1": {
+    "source": "arxiv",
+    "title": "SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine"
+  },
+  "arxiv:2609.27264v1": {
+    "source": "arxiv",
+    "title": "GaussPDE: Graph-Based Partial Differential Equation-Driven Rendering for 3D Gaussian Splatting"
+  },
+  "arxiv:2609.27509v1": {
+    "source": "arxiv",
+    "title": "Know-Your-Scene (KYS)-SLAM: Hierarchical Semantic-Motion Priors for Feature Matching in Stereo Visual SLAM"
+  },
+  "arxiv:2609.26795v1": {
+    "source": "arxiv",
+    "title": "φ-RIE: From Photorealistic Reconstruction to Interactive Environments"
+  },
+  "doi:10.3390/agriculture16181999": {
+    "source": "top_journal",
+    "title": "A Method for Constructing Farmland Semantic Point Cloud Maps Based on LiDAR–Camera Fusion"
+  },
+  "arxiv:2609.21112": {
+    "source": "top_journal",
+    "title": "Demonstration Synthesis from a Single Scan via Gaussian Splatting for Visuomotor Policy Learning"
+  },
+  "arxiv:2609.20160": {
+    "source": "top_journal",
+    "title": "Needles in a Raystack: Ultra-Sparse LiDAR Occupancy Detection for Bat Tracks"
+  },
+  "arxiv:2609.27702v1": {
+    "source": "arxiv",
+    "title": "DAVIO: Dense Monocular-Inertial SLAM with Feed-Forward Initialization and Pose-Conditioned Mapping"
+  },
+  "arxiv:2609.27363v1": {
+    "source": "arxiv",
+    "title": "From LiDAR Maps to Visual Localization: Unified Visual Association for Robust Point-Line-Plane Pose Estimation"
+  },
+  "arxiv:2609.26766v1": {
+    "source": "arxiv",
+    "title": "TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation"
+  },
+  "arxiv:2609.26549v1": {
+    "source": "arxiv",
+    "title": "Latent Commonality Expectation-Maximisation for Box-supervised Tree Crown Instance Segmentation"
+  },
+  "arxiv:2609.26857v1": {
+    "source": "arxiv",
+    "title": "FLINT: Fast Lightweight Inference for Traversability"
+  },
+  "arxiv:2609.26408v1": {
+    "source": "arxiv",
+    "title": "SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation"
+  },
+  "arxiv:2609.24846v1": {
+    "source": "arxiv",
+    "title": "Range-Aided SLAM Initialization Exploiting Accurate Heading Information"
+  },
+  "arxiv:2609.24708v1": {
+    "source": "arxiv",
+    "title": "SPARSER: Sparse Variable Projection by Exploiting Separable Structure in Robotic Perception"
+  },
+  "arxiv:2609.24531v1": {
+    "source": "arxiv",
+    "title": "Dynamic Thermal Gaussians: Multimodal 4D Gaussian Splatting"
+  },
+  "arxiv:2609.24452v1": {
+    "source": "arxiv",
+    "title": "Do LiDAR Language Models Really Understand Spatio-temporal Relationships?"
+  },
+  "arxiv:2609.24312v1": {
+    "source": "arxiv",
+    "title": "AnalogDepth: Multi-view Geometry from FPV drones under Analog Video Transmission"
+  },
+  "arxiv:2609.24040v1": {
+    "source": "arxiv",
+    "title": "Graph-to-Grid (G2G): Continuous-Coordinate Feature Painting for Soccer Pass Surfaces"
+  },
+  "arxiv:2609.23656v1": {
+    "source": "arxiv",
+    "title": "WOLF: World Model Guided LiDAR Exploration with Predictive Frontiers"
+  },
+  "arxiv:2609.23509v1": {
+    "source": "arxiv",
+    "title": "GARO: Geometry-Aware Redundancy Optimization for Real-Time and High-Fidelity Dynamic Gaussian Splatting"
+  },
+  "arxiv:2609.21114v1": {
+    "source": "arxiv",
+    "title": "Noctif3R: Feed-Forward Monocular Real-Time SLAM for Photon-Limited Scenes on Embedded Hardware"
+  },
+  "arxiv:2609.21026v1": {
+    "source": "arxiv",
+    "title": "MAPLE-RF: Efficient Probabilistic RF Source Localization in Partially Explored Environments"
+  },
+  "arxiv:2609.21000v1": {
+    "source": "arxiv",
+    "title": "Do Spinning Radar Doppler Velocity Measurements Improve Vehicle Detection and Tracking?"
+  },
+  "arxiv:2609.19815": {
+    "source": "top_journal",
+    "title": "SnapPhysics: A Physics-Aware Scene Graph from a Single View for Interactive Mixed Reality Scenes"
+  },
+  "arxiv:2609.25633v1": {
+    "source": "arxiv",
+    "title": "Robust, Estimator-Agnostic Dynamic 3DGS Compression"
+  },
+  "arxiv:2609.23856v1": {
+    "source": "arxiv",
+    "title": "Object-Centered Reconstruction for Vision-Based 3D Force Estimation"
+  },
+  "arxiv:2609.23100v1": {
+    "source": "arxiv",
+    "title": "Splat-CBF: Safe Next-Best-View Control in 3D Gaussian-Splat Maps"
   }
 }
