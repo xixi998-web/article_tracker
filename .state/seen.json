@@ -17974,5 +17974,113 @@
   "doi:10.3390/agronomy16181837": {
     "source": "top_journal",
     "title": "Effects of Nitrogen Application Rate on Yield, Nitrogen Use Efficiency of Spring Maize and Farmland Ecological Environment in the Black Soil Region of Northeast China"
+  },
+  "arxiv:2609.21498": {
+    "source": "top_journal",
+    "title": "VoxelTTO: Voxel-Aligned Feed-Forward 3D Gaussian Splatting with Test-Time Optimization"
+  },
+  "arxiv:2609.29644v1": {
+    "source": "arxiv",
+    "title": "Markerless Multi-Modal Autonomous Robotic Inspection of Large Space Structures"
+  },
+  "arxiv:2609.28997v1": {
+    "source": "arxiv",
+    "title": "Only What Was Seen: Observation-Gram Compaction of View-Dependent Appearance in 3D Gaussian Splatting"
+  },
+  "arxiv:2609.28645v1": {
+    "source": "arxiv",
+    "title": "PePESeg3D: Perception Prior Enhances Multi-Scale Segmentation for 3D Gaussian Splatting"
+  },
+  "arxiv:2609.23436v2": {
+    "source": "arxiv",
+    "title": "GAPS: Generative Active Pseudo-view Selection for Sparse-View 3D Gaussian Splatting"
+  },
+  "arxiv:2609.21437": {
+    "source": "top_journal",
+    "title": "Think Locally, Refine Globally for Memory-Efficient 3D Reconstruction"
+  },
+  "arxiv:2609.29374v1": {
+    "source": "arxiv",
+    "title": "FMCW-LIO: A Doppler LiDAR-Inertial Odometry"
+  },
+  "arxiv:2609.25375v2": {
+    "source": "arxiv",
+    "title": "PARTE: Plane-Assisted Robust Transformation Estimation for Point Cloud Registration"
+  },
+  "arxiv:2609.21938": {
+    "source": "top_journal",
+    "title": "Info3R: Information-Adaptive Test-Time Training for 3D Reconstruction"
+  },
+  "doi:10.1088/1361-6501/aea9b3": {
+    "source": "top_journal",
+    "title": "Dual-monocular structured light 3D reconstruction based on multi-constraint feature matching"
+  },
+  "arxiv:2609.28930v1": {
+    "source": "arxiv",
+    "title": "PlenoCI: Plenoptic CharacterIstics for View Dependence Aware Change Classification"
+  },
+  "arxiv:2609.29235v1": {
+    "source": "arxiv",
+    "title": "SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection"
+  },
+  "arxiv:2609.21502": {
+    "source": "top_journal",
+    "title": "Adaptive World Memory 3D Foundation Model for Scalable 3D Mapping, Localization, and Rendering"
+  },
+  "arxiv:2609.29750v1": {
+    "source": "arxiv",
+    "title": "From Target Selection to Digging: A Learning-Based Framework for Continuous Autonomous Excavation"
+  },
+  "arxiv:2609.29375v1": {
+    "source": "arxiv",
+    "title": "Free-Init: Scan-Free, Motion-Free, and Correspondence-Free Initialization for Doppler LiDAR-Inertial Systems"
+  },
+  "arxiv:2609.29224v1": {
+    "source": "arxiv",
+    "title": "FounRef: Robust, Structure-Preserving, and Fast Metric Refinement of Frozen Monocular Foundation Priors with Sparse Anchors"
+  },
+  "arxiv:2609.29118v1": {
+    "source": "arxiv",
+    "title": "UpDown-SC: Gravity-Canonicalized Dual-Envelope Scan Context for Indoor LiDAR Place Recognition"
+  },
+  "arxiv:2609.28967v1": {
+    "source": "arxiv",
+    "title": "Passive LWIR Hyperspectral Ranging via Transmittance Extraction and Distance Alignment"
+  },
+  "arxiv:2609.28931v1": {
+    "source": "arxiv",
+    "title": "HelloWorld: Towards Practical Applications of Generative Driving World Models"
+  },
+  "arxiv:2609.28172v1": {
+    "source": "arxiv",
+    "title": "Dynamic, Decentralized Spatial Code Reuse for OCDMA LiDAR in Robot Swarms"
+  },
+  "arxiv:2609.28559v1": {
+    "source": "arxiv",
+    "title": "Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior"
+  },
+  "doi:10.1088/1361-6501/aea9ba": {
+    "source": "top_journal",
+    "title": "Robust on-orbit photogrammetry for satellite deployable antennas"
+  },
+  "doi:10.1038/s41597-026-08254-4": {
+    "source": "top_journal",
+    "title": "UCOD: A Near-Field Benthic Organism Dataset for Underwater Visual Camouflage and Multi-Task Analysis"
+  },
+  "arxiv:2609.22809v1": {
+    "source": "arxiv",
+    "title": "Kinematic Interface for the Wild: Modular Bimanual Loco-Manipulation Capture from 360$^{\\circ}$ Cameras Alone"
+  },
+  "doi:10.64898/2026.09.17.752374": {
+    "source": "top_journal",
+    "title": "MorphCell learns reconstructable shape representations with explicit scale control for 3D cell morphology"
+  },
+  "doi:10.46632/jemm/12/3/3": {
+    "source": "top_journal",
+    "title": "Effective Video Mirror Detection with Random Motion Cues Using Weighted Sum Model"
+  },
+  "doi:10.3389/fnbot.2026.1940438": {
+    "source": "top_journal",
+    "title": "WIS: world-guided instruction semantic diffusion policy for predictive bimanual manipulation"
   }
 }
