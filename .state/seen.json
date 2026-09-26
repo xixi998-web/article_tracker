@@ -18134,5 +18134,57 @@
   "doi:10.1079/ab.2026.0069": {
     "source": "top_journal",
     "title": "Restoration of degraded soils in a military-affected region in the South of Ukraine based on biologisation"
+  },
+  "arxiv:2609.29985v1": {
+    "source": "arxiv",
+    "title": "OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning"
+  },
+  "arxiv:2609.22849": {
+    "source": "top_journal",
+    "title": "LINGO: Latent Initialization and Gradient Optimization for Sparse-view X-ray Novel View Synthesis and CT Reconstruction with 3D Gaussian Splatting"
+  },
+  "arxiv:2609.29836v1": {
+    "source": "arxiv",
+    "title": "SplatLabel: Pseudo-Labelling through 4D Gaussian Splatting"
+  },
+  "arxiv:2609.29835v1": {
+    "source": "arxiv",
+    "title": "Retrieve-to-Localize: Bridging Large Language Models and LiDAR Geometry for Spatial Grounding"
+  },
+  "arxiv:2609.23049": {
+    "source": "top_journal",
+    "title": "VDGS: Visibility-Driven Large-Scale 3D Gaussian Splatting for Aerial Scene Reconstruction"
+  },
+  "arxiv:2609.30245v1": {
+    "source": "arxiv",
+    "title": "Towards Practical Compression of 3D Gaussian Splatting"
+  },
+  "doi:10.1117/12.3120554": {
+    "source": "top_journal",
+    "title": "GIM-based method for infrared target matching and recognition dataset generation"
+  },
+  "arxiv:2609.30056v1": {
+    "source": "arxiv",
+    "title": "M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis"
+  },
+  "arxiv:2609.29963v1": {
+    "source": "arxiv",
+    "title": "ADATEX4D: adaptive texture capacity allocation for 4D gaussian splatting"
+  },
+  "arxiv:2609.29825v1": {
+    "source": "arxiv",
+    "title": "Anatomy-Aligned Surface Field Learning for Myocardial Reconstruction from Sparse Short-Axis Cine MRI"
+  },
+  "arxiv:2609.22742": {
+    "source": "top_journal",
+    "title": "Distributed ISAC-Enabled Multimodal Recovery of Missing 2-D LiDAR Measurements"
+  },
+  "doi:10.1117/12.3119424": {
+    "source": "top_journal",
+    "title": "A dual-stream edge-aware network with collect-and-disperse attention for 3D point cloud classification"
+  },
+  "doi:10.1007/s00414-026-04016-4": {
+    "source": "top_journal",
+    "title": "Deep learning-based 3D forensic facial reconstruction: a volumetric morphological inference approach using a skull-conditioned U-Net."
   }
 }
