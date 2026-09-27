@@ -18214,5 +18214,33 @@
   "doi:10.1007/s10457-026-01663-9": {
     "source": "top_journal",
     "title": "Soil organic matter mediates carbon accumulation in silvopastoral systems of the Colombian tropical dry forest"
+  },
+  "arxiv:2609.23541": {
+    "source": "top_journal",
+    "title": "Towards robust multimodal 3D object detection via visual foundation models"
+  },
+  "arxiv:2609.23733": {
+    "source": "top_journal",
+    "title": "VGGT-Prime: Compute-Adaptive Mixture-of-Heads for Efficient Visual Geometry Transformers"
+  },
+  "arxiv:2609.23286": {
+    "source": "top_journal",
+    "title": "RegVGGT: Sustainable Visual Geometry Grounding for Streaming via Regulated Memory"
+  },
+  "doi:10.3390/s26185954": {
+    "source": "top_journal",
+    "title": "Awareness-Guided Self-Supervised Visual Odometry via Fusion of Pseudo-Depth and Residual-Flow Cues"
+  },
+  "arxiv:2609.23404": {
+    "source": "top_journal",
+    "title": "ScaleBlind: Point Cloud Completion under Unknown Scale"
+  },
+  "arxiv:2609.23856": {
+    "source": "top_journal",
+    "title": "Object-Centered Reconstruction for Vision-Based 3D Force Estimation"
+  },
+  "doi:10.1002/inf2.70189": {
+    "source": "top_journal",
+    "title": "Programmable solar‐blind ultraviolet sensors enabling integrated single‐pixel sensing and neuromorphic processing"
   }
 }
