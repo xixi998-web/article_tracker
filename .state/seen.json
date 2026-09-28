@@ -18282,5 +18282,113 @@
   "doi:10.1080/15320383.2026.2733290": {
     "source": "top_journal",
     "title": "Comparative Environmental and Human Health Risk Assessment of Heavy Metal Contamination Near Dhaka’s Tannery Estates"
+  },
+  "arxiv:2609.30393v1": {
+    "source": "arxiv",
+    "title": "LiTe-GS: Oracle-Efficient Next Best View Selection for 3D Gaussian Splatting"
+  },
+  "arxiv:2609.30865v1": {
+    "source": "arxiv",
+    "title": "Reliability-Regulated Trajectory Optimization for Progressive COLMAP-Free 3D Gaussian Splatting"
+  },
+  "arxiv:2609.29374v2": {
+    "source": "arxiv",
+    "title": "FMCW-LIO: A Doppler LiDAR-Inertial Odometry"
+  },
+  "arxiv:2609.25490": {
+    "source": "top_journal",
+    "title": "SAM-V: Geometry-Aware Segment Anything for Multi-View Instance Segmentation"
+  },
+  "arxiv:2609.24839": {
+    "source": "top_journal",
+    "title": "When Wider Views Fail: Stress-Testing Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2609.31248v1": {
+    "source": "arxiv",
+    "title": "Gauss What You Need: Compact Gaussian Splatting Across Scene Scales"
+  },
+  "arxiv:2609.30941v1": {
+    "source": "arxiv",
+    "title": "Spackle: Completing Large View Single Image NVS with Adaptive Gaussians"
+  },
+  "arxiv:2609.30741v1": {
+    "source": "arxiv",
+    "title": "From Mono to Stereo: Accelerating Binocular Gaussian Splatting via Reprojection and Selective Patching"
+  },
+  "doi:10.1088/1361-6501/aea4de": {
+    "source": "top_journal",
+    "title": "Single-frame fringe projection three-dimensional reconstruction by integrating phase priors and deep learning"
+  },
+  "doi:10.1007/s00530-026-02658-3": {
+    "source": "top_journal",
+    "title": "CV-SLAM: coupling vision-enhancement for NeRF-based RGB-D SLAM"
+  },
+  "doi:10.1111/cgf.70650": {
+    "source": "top_journal",
+    "title": "PDRGS: Probabilistic Distribution Reshaping for Specular Geometry Reconstruction in 3D Gaussian Splatting"
+  },
+  "arxiv:2609.31357v1": {
+    "source": "arxiv",
+    "title": "Transformer-based Monte Carlo Localization in Construction Meshes"
+  },
+  "arxiv:2609.30459v1": {
+    "source": "arxiv",
+    "title": "VkVIO: Cross-platform GPU Acceleration for Visual-Inertial Odometry with Vulkan"
+  },
+  "arxiv:2609.23961": {
+    "source": "top_journal",
+    "title": "Colon3R: Cross-Domain 3D Reconstruction from Monocular Colonoscopic Video"
+  },
+  "arxiv:2609.31339v1": {
+    "source": "arxiv",
+    "title": "ChronoFuseGS: Multi-Temporal Gaussian Fusion with Per-Splat Persistence and Change Visualization"
+  },
+  "arxiv:2609.31199v1": {
+    "source": "arxiv",
+    "title": "Enhancing Photogrammetric Digital Surface Models with Pretrained Diffusion Models and Multimodal Conditioning"
+  },
+  "arxiv:2609.31008v1": {
+    "source": "arxiv",
+    "title": "Quadruped Obstacle Avoidance and Footstep Planning with Distributed Low-cost Time-of-Flight Sensors"
+  },
+  "arxiv:2609.30521v1": {
+    "source": "arxiv",
+    "title": "Aerial Manipulation in the Wild with Onboard Perception, Policy Learning, and Whole-Body Control"
+  },
+  "arxiv:2609.30495v1": {
+    "source": "arxiv",
+    "title": "Memory-Aware Multi-Sensor Perception for Efficient and Safe Navigation in Dynamic Environments"
+  },
+  "arxiv:2609.29375v2": {
+    "source": "arxiv",
+    "title": "Free-Init: Scan-Free, Motion-Free, and Correspondence-Free Initialization for Doppler LiDAR-Inertial Systems"
+  },
+  "doi:10.3390/rs18183246": {
+    "source": "top_journal",
+    "title": "Fine-Grained Tree Species Classification in Urban Forests via Phenology–Structure Synergistic Fusion of Multi-Source Remote Sensing Data"
+  },
+  "arxiv:2609.24864": {
+    "source": "top_journal",
+    "title": "SE(3) Neural Potential Fields for 6-DoF Trajectory Planning Directly from Images Without Explicit 3D Reconstruction"
+  },
+  "arxiv:2609.24312": {
+    "source": "top_journal",
+    "title": "AnalogDepth: Multi-view Geometry from FPV drones under Analog Video Transmission"
+  },
+  "arxiv:2609.24158": {
+    "source": "top_journal",
+    "title": "Relightable 3D Avatar Reconstruction with Semantic-Adaptive Motion-Illumination Responses"
+  },
+  "arxiv:2609.24850": {
+    "source": "top_journal",
+    "title": "Revisiting Multi-View Stereo: A Sequence-to-Sequence Formulation"
+  },
+  "arxiv:2609.24069": {
+    "source": "top_journal",
+    "title": "Accurate wall shear stress in immersed flow analysis with application to point cloud-based CFD"
+  },
+  "doi:10.14313/jamris-2026-040": {
+    "source": "top_journal",
+    "title": "Vision-Based Gesture-Controlled Mobile Robot for Human–Robot Interaction Using ROS 2"
   }
 }
