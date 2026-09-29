@@ -18454,5 +18454,125 @@
   "doi:10.1007/s11368-026-04565-6": {
     "source": "top_journal",
     "title": "Integrating spatial drivers and source apportionment of heavy metals in sediments of seasonal isolated lakes: a case study of Poyang Lake National Nature Reserve"
+  },
+  "arxiv:2609.32711v1": {
+    "source": "arxiv",
+    "title": "ProDyGS: Dynamic Gaussian Splatting from a Single Static Monocular Camera"
+  },
+  "doi:10.1109/tvcg.2026.3736699": {
+    "source": "top_journal",
+    "title": "VIP-GS: Enhancing Sparse Novel View Synthesis via In-Place Virtual Viewpoint Inpainting."
+  },
+  "arxiv:2609.33330v1": {
+    "source": "arxiv",
+    "title": "FeCoSplat: Feedback-Guided Compression for Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2609.33939v1": {
+    "source": "arxiv",
+    "title": "EpiTransfer: Sparse, Training-Free Long-Range Depth Estimation from Temporal Monocular Aerial Frames"
+  },
+  "arxiv:2609.32863v1": {
+    "source": "arxiv",
+    "title": "SV2V-RSim: A Comprehensive Benchmark for Self-Selective V2V Cooperative Perception with Near-Realistic Data"
+  },
+  "arxiv:2609.33969v1": {
+    "source": "arxiv",
+    "title": "Gaussian Splatting-based Volumetric Video Compression with Sparse 4D Anchors"
+  },
+  "arxiv:2609.33872v1": {
+    "source": "arxiv",
+    "title": "Robot-GST: geometry-aware spatial-temporal robot policy representation and evaluation"
+  },
+  "arxiv:2609.32399v1": {
+    "source": "arxiv",
+    "title": "Endo-TSR: Temporal Spectral Modeling of Appearance and Motion for Endoscopic Reconstruction"
+  },
+  "arxiv:2609.32177v1": {
+    "source": "arxiv",
+    "title": "Federated 3D Gaussian Splatting for Large-Scale Scene Reconstruction at Wireless Edge"
+  },
+  "arxiv:2609.32175v1": {
+    "source": "arxiv",
+    "title": "OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes"
+  },
+  "arxiv:2609.31509v1": {
+    "source": "arxiv",
+    "title": "ClearGS: Reliability-Aware Gaussian Splatting from Handheld Videos"
+  },
+  "arxiv:2609.31483v1": {
+    "source": "arxiv",
+    "title": "Scaling Density Functional Theory with Gaussian Splatting"
+  },
+  "arxiv:2609.31374v1": {
+    "source": "arxiv",
+    "title": "RECAST: From Log Replay to Closed-Loop Driving Simulation with View-Complete Actors"
+  },
+  "arxiv:2609.31756v1": {
+    "source": "arxiv",
+    "title": "3dgs-sc: a controlled static screen-content benchmark for 3d gaussian splatting"
+  },
+  "doi:10.3390/buildings16193769": {
+    "source": "top_journal",
+    "title": "Three-Dimensional (3D) Semantic Reconstruction of Complex Historical Buildings Based on Multi-Source UAV Images and Deep Learning GAN Model"
+  },
+  "doi:10.1088/1361-6501/aeaaf8": {
+    "source": "top_journal",
+    "title": "Cross-modal point cloud completion for robust non-contact 3D measurement under occlusion"
+  },
+  "arxiv:2609.26795": {
+    "source": "top_journal",
+    "title": "\\phi-RIE: From Photorealistic Reconstruction to Interactive Environments"
+  },
+  "arxiv:2609.31595v1": {
+    "source": "arxiv",
+    "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing"
+  },
+  "arxiv:2609.31396v1": {
+    "source": "arxiv",
+    "title": "Augmented Reality Interfaces for Human-Robot Collaboration: Development of a ROS 2-Based Sensor Streaming Framework and Validation via SLAM Algorithms"
+  },
+  "arxiv:2609.25668": {
+    "source": "top_journal",
+    "title": "CDKF-Track: Cluster-aware Data-Driven Kalman Filtering for Cooperative 3D Multi-Object Tracking"
+  },
+  "arxiv:2609.34014v1": {
+    "source": "arxiv",
+    "title": "LTV-CTDNet: Compositional Turning Decomposition for Short-Term Turning-Movement Forecasting"
+  },
+  "arxiv:2609.33344v1": {
+    "source": "arxiv",
+    "title": "ReLoc: Rethinking Scene Coordinate Regression Architecture for Robust Outdoor LiDAR-based Localization"
+  },
+  "arxiv:2609.33230v1": {
+    "source": "arxiv",
+    "title": "AevaScenes: An FMCW LiDAR Dataset and Benchmark for Long-Range Perception"
+  },
+  "arxiv:2609.32626v1": {
+    "source": "arxiv",
+    "title": "World SLAM Model: Joint World Modeling for SLAM and Navigation"
+  },
+  "arxiv:2609.32323v1": {
+    "source": "arxiv",
+    "title": "FoundDSR: A Generalizable Foundation Model with Guided 2D Gaussian Splatting for Depth Super-Resolution"
+  },
+  "arxiv:2609.32013v1": {
+    "source": "arxiv",
+    "title": "TriO: Tri-Modal Unsupervised Occupancy World Model for Anything Perception"
+  },
+  "arxiv:2609.31572v1": {
+    "source": "arxiv",
+    "title": "OC-GS: Gaussian Splatting for Irregular Turntable Capture"
+  },
+  "arxiv:2609.31418v1": {
+    "source": "arxiv",
+    "title": "CognitiveReality: Robot-Agnostic Semantic Gaussian Mapping with an LLM Agent for Immersive Collaborative VR Teleoperation"
+  },
+  "arxiv:2609.29750v2": {
+    "source": "arxiv",
+    "title": "From Target Selection to Digging: A Learning-Based Framework for Continuous Autonomous Excavation"
+  },
+  "arxiv:2609.25538": {
+    "source": "top_journal",
+    "title": "Point Diffusion Mamba: Unified Diffusion-State-Space Modeling for Single-View 3D Reconstruction under Data Scarcity"
   }
 }
