@@ -18626,5 +18626,125 @@
   "doi:10.9734/ajrcs/2026/v11i4463": {
     "source": "top_journal",
     "title": "Optimising Organic Fertiliser Application to Enhance Photosynthetic Pigments and Physiological Performance in Moringa oleifera Seedlings"
+  },
+  "arxiv:2609.35612v1": {
+    "source": "arxiv",
+    "title": "Remote Sensing Sparse-View 3D Gaussian Splatting via Depth Image-Based Rendering"
+  },
+  "arxiv:2609.34702v1": {
+    "source": "arxiv",
+    "title": "MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation"
+  },
+  "arxiv:2609.36878v1": {
+    "source": "arxiv",
+    "title": "NIDAR: NIR-Guided Intrinsic Decomposition for Scalable Scene-Agnostic LiDAR Intensity Reconstruction"
+  },
+  "arxiv:2609.36693v1": {
+    "source": "arxiv",
+    "title": "AESplat: Advancing Pose-Free Feed-Forward 3D Gaussian Splatting via Decoupled Appearance Modeling"
+  },
+  "doi:10.1088/1361-6501/aeabcb": {
+    "source": "top_journal",
+    "title": "TAGS: Topology-Aware Post-Hoc Object Extraction from 3D Gaussian Splatting for Deployment-Friendly Open-Vocabulary Robotic Perception"
+  },
+  "arxiv:2609.36374v1": {
+    "source": "arxiv",
+    "title": "OTT3R: Multi-View 3D Reconstruction and Fast Dataset Generation at 1% Compute"
+  },
+  "arxiv:2609.35658v1": {
+    "source": "arxiv",
+    "title": "Many Eyes, One World: Feed-Forward 3D Reconstruction from Mixed Cameras"
+  },
+  "arxiv:2609.35573v1": {
+    "source": "arxiv",
+    "title": "Less Is More: Genetic Frame Selection for Efficient Novel View Synthesis"
+  },
+  "doi:10.1109/tvcg.2026.3736595": {
+    "source": "top_journal",
+    "title": "Label-aware Gaussian Splatting for Medical Volume Visualization in Mixed Reality."
+  },
+  "arxiv:2609.36940v1": {
+    "source": "arxiv",
+    "title": "DispFlow-GS: Displacement Flow Supervision with Motion Disentangling for Monocular Deformable 3D Gaussian Splatting"
+  },
+  "arxiv:2609.36753v1": {
+    "source": "arxiv",
+    "title": "Degeneracy-Orthogonal Geometric Constraints for LiDAR SLAM"
+  },
+  "arxiv:2609.36520v1": {
+    "source": "arxiv",
+    "title": "Distilling Privileged Control Barrier Functions into RGB-Only Safety Filters for Dynamic Visual Navigation"
+  },
+  "arxiv:2609.34853v1": {
+    "source": "arxiv",
+    "title": "EviSplat: Preserving Multi-View Evidence in 3D Gaussian Splatting for Open-Vocabulary Segmentation"
+  },
+  "arxiv:2609.35619v1": {
+    "source": "arxiv",
+    "title": "CollisionSplatting: Collision-Aware Motion Planning in 3DGS Scenes with Image-Conditioned Objectives and Adjustable Conservatism"
+  },
+  "arxiv:2609.34579v1": {
+    "source": "arxiv",
+    "title": "GenNVS: Geometry-enhanced Novel View Synthesis via Disentangled 3D Prior"
+  },
+  "arxiv:2609.34176v1": {
+    "source": "arxiv",
+    "title": "AGILE-GS: Anchor-Guided Fast Next-Best-View Selection for Active 3D Gaussian Splatting"
+  },
+  "arxiv:2609.34103v1": {
+    "source": "arxiv",
+    "title": "A Differentiable Optimization Framework for Registering Sequential Bounding Boxes with Point Cloud Stream"
+  },
+  "arxiv:2609.36545v1": {
+    "source": "arxiv",
+    "title": "SCCM: Spherically Consistent Coarse Matching for ERP Dense Feature Correspondence"
+  },
+  "arxiv:2609.36543v1": {
+    "source": "arxiv",
+    "title": "Planning Oriented 3D Scene Completion via Coupled TUDF Occupancy Representation Learning from Partial Observations"
+  },
+  "arxiv:2609.34527v1": {
+    "source": "arxiv",
+    "title": "RRG-SLAM: Real-time Reflection-aware Gaussian SLAM for Indoor Scenes"
+  },
+  "arxiv:2609.34512v1": {
+    "source": "arxiv",
+    "title": "MonoEgo: Monocular Metric Egocentric Demonstration Capture with Passive Wrist Constellations and Sparse Workstation Anchors"
+  },
+  "arxiv:2609.36844v1": {
+    "source": "arxiv",
+    "title": "GlassFormer: Learning Real-time Glass Segmentation using Radar-Depth Fusion"
+  },
+  "arxiv:2609.36432v1": {
+    "source": "arxiv",
+    "title": "Temporal-Aware Fusion for Robust Outdoor LiDAR Localization"
+  },
+  "arxiv:2609.36219v1": {
+    "source": "arxiv",
+    "title": "LeRF: Learning Reference Coordinate Frames for Perspective Taking Reasoning"
+  },
+  "arxiv:2609.35743v1": {
+    "source": "arxiv",
+    "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video"
+  },
+  "arxiv:2609.35482v1": {
+    "source": "arxiv",
+    "title": "ForVis: An In-Field Dataset and Benchmark for VIO Using Under-Canopy UAV Flights in Forests"
+  },
+  "arxiv:2609.35264v1": {
+    "source": "arxiv",
+    "title": "Repair Before You Fuse: Frozen-Host Adaptation for Corrupted-but-Present Sensors"
+  },
+  "arxiv:2609.34367v1": {
+    "source": "arxiv",
+    "title": "Rate-Distortion Adaptive Primitive Selection for Omnidirectional Gaussian Splatting"
+  },
+  "arxiv:2609.34276v1": {
+    "source": "arxiv",
+    "title": "NavHarness: Towards Lifelong Embodied Navigation"
+  },
+  "doi:10.1016/j.compmedimag.2026.102824": {
+    "source": "top_journal",
+    "title": "RC-EndoDepth: Two-stage self-supervised depth and motion estimation with improved scale consistency in endoscopic videos."
   }
 }
