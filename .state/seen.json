@@ -18830,5 +18830,117 @@
   "doi:10.1021/acs.est.6c08439": {
     "source": "top_journal",
     "title": "Methanotroph-Derived\nReactive Oxygen Species Facilitate\nArsenic Oxidation in Paddy Soils"
+  },
+  "arxiv:2609.38592v1": {
+    "source": "arxiv",
+    "title": "StereoGaussians: Feed-Forward 3D Gaussian Splatting from Stereo Images"
+  },
+  "arxiv:2609.29644": {
+    "source": "top_journal",
+    "title": "Markerless Multi-Modal Autonomous Robotic Inspection of Large Space Structures"
+  },
+  "arxiv:2609.39089v1": {
+    "source": "arxiv",
+    "title": "UGOD: Uncertainty-Guided Opacity and Dropout for Sparse-View 3D Gaussian Splatting"
+  },
+  "arxiv:2609.37874v1": {
+    "source": "arxiv",
+    "title": "EndoPrior-GS: Dynamic Endoscopic Reconstruction with a Joint Texture Prior"
+  },
+  "arxiv:2609.36969v1": {
+    "source": "arxiv",
+    "title": "Prior-Driven Enhancements in 3D Gaussian Splatting: Normals and Depths Regularization"
+  },
+  "arxiv:2609.30393": {
+    "source": "top_journal",
+    "title": "LiTe-GS: Oracle-Efficient Next Best View Selection for 3D Gaussian Splatting"
+  },
+  "arxiv:2609.38177v1": {
+    "source": "arxiv",
+    "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering"
+  },
+  "arxiv:2609.38054v1": {
+    "source": "arxiv",
+    "title": "Pow3R-SLAM: Real-Time RGB-D SLAM with 3D Reconstruction Priors"
+  },
+  "arxiv:2609.38635v1": {
+    "source": "arxiv",
+    "title": "TSGL: Teacher-Student Graph Learning for 3DGS Compression"
+  },
+  "arxiv:2609.38488v1": {
+    "source": "arxiv",
+    "title": "Gaussian Stippling: Efficient Sorting-Free 3D Gaussian Rendering through Hybrid Sampling and Spatiotemporal Reconstruction"
+  },
+  "arxiv:2609.38418v1": {
+    "source": "arxiv",
+    "title": "PneuTac: Tactile Manipulation with Soft Pneumatic Robots via Unified MPM-Gaussian Splatting Simulation"
+  },
+  "arxiv:2609.37916v1": {
+    "source": "arxiv",
+    "title": "RLX: A Unified Multi-Backend Tensor Compiler and Distributed Runtime in Rust"
+  },
+  "arxiv:2609.37115v1": {
+    "source": "arxiv",
+    "title": "NRF-GS: Neural Residual Fields for Expressive and Compact Gaussian Splatting"
+  },
+  "arxiv:2609.34579v2": {
+    "source": "arxiv",
+    "title": "GenNVS: Geometry-enhanced Novel View Synthesis via Disentangled 3D Prior"
+  },
+  "doi:10.5171/2026.4723726": {
+    "source": "top_journal",
+    "title": "TransPointNet++: A Hybrid Model for 3D Medical Orthotic Surface Reconstruction from Point Clouds"
+  },
+  "doi:10.3390/su18199811": {
+    "source": "top_journal",
+    "title": "Perception-Oriented Visibility Assessment of Road Signs Using 3D Point Clouds"
+  },
+  "arxiv:2609.37970v1": {
+    "source": "arxiv",
+    "title": "PhysWAM: Physically Consistent World Action Model for Autonomous Driving"
+  },
+  "doi:10.68104/ijasit.v1.i3.32": {
+    "source": "top_journal",
+    "title": "Brain Tumor Progression Prediction and 3D Reconstruction Using ViT–LSTM"
+  },
+  "arxiv:2609.38873v1": {
+    "source": "arxiv",
+    "title": "DODGER: Safety-Guided Reinforcement Learning for Robot Navigation Among Dynamic Obstacles"
+  },
+  "arxiv:2609.38864v1": {
+    "source": "arxiv",
+    "title": "AdaOcc: Adaptive 3D Occupancy Prediction for Embodied Tasks"
+  },
+  "arxiv:2609.38746v1": {
+    "source": "arxiv",
+    "title": "Matisse: Evidence-Space Reasoning for Active 3D Reconstruction"
+  },
+  "arxiv:2609.38622v1": {
+    "source": "arxiv",
+    "title": "Eulerian Motion Reconstruction for Water Scenery"
+  },
+  "arxiv:2609.38116v1": {
+    "source": "arxiv",
+    "title": "GA-EIRFS: A Geometry-Augmented Repeat-Factor Sampling Method for Long-Tailed LiDAR 3D Object Detection"
+  },
+  "arxiv:2609.38106v1": {
+    "source": "arxiv",
+    "title": "Pruning for Efficiency, Paying in Fairness: Demographic Disparities in Pruned Speech-LLMs"
+  },
+  "arxiv:2609.32013v2": {
+    "source": "arxiv",
+    "title": "TriO: Tri-Modal Unsupervised Occupancy World Model for Anything Perception"
+  },
+  "doi:10.1109/jbhi.2026.3737190": {
+    "source": "top_journal",
+    "title": "CC-GAN: Coronary Artery 3D Reconstruction From Two X-Ray Views With Mamba-Based Topology-Aware Generator and Dual-Domain Discriminator."
+  },
+  "doi:10.3390/s26196043": {
+    "source": "top_journal",
+    "title": "An Efficient Transformer Detector for Traffic Scenes via Lightweight Backbone and Multi-Scale Attention"
+  },
+  "doi:10.1117/12.3124551": {
+    "source": "top_journal",
+    "title": "Research on the reform of construction drawing interpretation teaching instruction integrating target detection and AR real-time registration"
   }
 }
