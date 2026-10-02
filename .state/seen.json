@@ -19006,5 +19006,125 @@
   "doi:10.1038/s44264-026-00144-x": {
     "source": "top_journal",
     "title": "Projecting global soil moisture droughts under climate change: characteristics, agricultural exposure, and adaptation insights"
+  },
+  "arxiv:2609.39960v1": {
+    "source": "arxiv",
+    "title": "Reconstructing the Dynamic World: A Representation-Centric View of 4D Scene Reconstruction"
+  },
+  "arxiv:2610.01707v1": {
+    "source": "arxiv",
+    "title": "MEGA: Object-Level Mesh Extraction from 3D Gaussian Splatting via Spatial Visual Distillation"
+  },
+  "arxiv:2610.02110v1": {
+    "source": "arxiv",
+    "title": "GlassGuard: Verified Glass Plane Mapping for Robot Navigation"
+  },
+  "arxiv:2610.01927v1": {
+    "source": "arxiv",
+    "title": "CLoSeR: Closing the Loop for Long-Context Streaming Reconstruction"
+  },
+  "arxiv:2610.01013v1": {
+    "source": "arxiv",
+    "title": "VASC: Value-Aware Sparse Attention with Cross-Layer Memory for Efficient 3D Reconstruction"
+  },
+  "arxiv:2610.01876v1": {
+    "source": "arxiv",
+    "title": "EvenSplat: Coupled 2D-3D Decomposition for Gaussian Splatting under Exposure and Illumination Variation"
+  },
+  "arxiv:2610.00970v1": {
+    "source": "arxiv",
+    "title": "RelationVGGT: Visual Geometry Transformers for 3D Spatial Relation Segmentation"
+  },
+  "arxiv:2610.00822v1": {
+    "source": "arxiv",
+    "title": "TRACE: Privacy-Preserving Next-Best-View Selection over Distributed 3D Gaussian-Splat Maps"
+  },
+  "arxiv:2610.00749v1": {
+    "source": "arxiv",
+    "title": "What Builds the Scene? Luminance Dominates Geometry Formation in 3D Gaussian Splatting"
+  },
+  "arxiv:2609.39553v1": {
+    "source": "arxiv",
+    "title": "EffGS: Efficient and High-Fidelity Gaussian Splatting"
+  },
+  "arxiv:2610.01644v1": {
+    "source": "arxiv",
+    "title": "SonarVoxNet: Diver Detection in 3D Bounding Box using 3D Sonar"
+  },
+  "arxiv:2610.00855v1": {
+    "source": "arxiv",
+    "title": "Lang3DSeg: Annotation-Free Open-Vocabulary 3D Segmentation with Point Transformers"
+  },
+  "arxiv:2609.39841v2": {
+    "source": "arxiv",
+    "title": "DyRAD: Radar Novel View Synthesis for Dynamic Driving Scenes"
+  },
+  "arxiv:2609.39227v1": {
+    "source": "arxiv",
+    "title": "Emergent Multi-View Geometry Through Self-Distillation"
+  },
+  "arxiv:2610.00355v1": {
+    "source": "arxiv",
+    "title": "IndoorBEV: A Lightweight Real-Time LiDAR BEV Perception System for Indoor Mobile Robots"
+  },
+  "arxiv:2610.01910v1": {
+    "source": "arxiv",
+    "title": "Robot Learning on Discrete Surfaces: Theory and Applications"
+  },
+  "arxiv:2610.01863v1": {
+    "source": "arxiv",
+    "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction"
+  },
+  "arxiv:2610.01573v1": {
+    "source": "arxiv",
+    "title": "LiDARFlow: Real-Time Panel-Based MAV Guidance in Unknown Environments"
+  },
+  "arxiv:2610.01314v1": {
+    "source": "arxiv",
+    "title": "ARROW: Arbitrary Reconstruction and Tracking of 4D Observations in the Wild"
+  },
+  "arxiv:2610.01206v1": {
+    "source": "arxiv",
+    "title": "Resolving Mixed Single-Photon LiDAR Returns for Foreground-View and Hidden Scene Reconstruction"
+  },
+  "arxiv:2610.01114v1": {
+    "source": "arxiv",
+    "title": "Affine-Aligned Atlas for Canonical Gaussian Construction in Video Representation"
+  },
+  "arxiv:2610.01098v1": {
+    "source": "arxiv",
+    "title": "MVDG: Efficient Multi-view 3D Disambiguation on Unconstrained Real-World Images"
+  },
+  "arxiv:2610.01056v1": {
+    "source": "arxiv",
+    "title": "HierGF: Hierarchical Gaussian Fields via Geometry-perception Message Passing for Sparse-view 3D Reconstruction"
+  },
+  "arxiv:2609.40208v1": {
+    "source": "arxiv",
+    "title": "Centralized Multi-UAV Exploration and 3D Reconstruction Using Single-UAV Planners"
+  },
+  "arxiv:2609.40085v1": {
+    "source": "arxiv",
+    "title": "BatSLAM 2.0: Sequence-Verified Sonar Place Recognition in a Robust Pose Graph"
+  },
+  "arxiv:2609.39596v1": {
+    "source": "arxiv",
+    "title": "MVP-SLAM: Multi-Camera Visual-Inertial Floorplan-Prior SLAM"
+  },
+  "arxiv:2609.39527v1": {
+    "source": "arxiv",
+    "title": "Lens Flare Removal and Reconstruction"
+  },
+  "arxiv:2609.34367v2": {
+    "source": "arxiv",
+    "title": "Rate-Distortion Adaptive Primitive Selection for Omnidirectional Gaussian Splatting"
+  },
+  "doi:10.1117/12.3129067": {
+    "source": "top_journal",
+    "title": "Binocular 3D reconstruction of local ancient architectural structures enhanced by geometric priors"
+  },
+  "arxiv:2609.31339": {
+    "source": "top_journal",
+    "title": "ChronoFuseGS: Multi-Temporal Gaussian Fusion with Per-Splat Persistence and Change Visualization"
   }
 }
