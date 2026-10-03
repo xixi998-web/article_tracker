@@ -19202,5 +19202,17 @@
   "doi:10.1038/s41467-026-78060-4": {
     "source": "top_journal",
     "title": "Active layer microbial inocula restore missing functions across thawed permafrost soils"
+  },
+  "doi:10.3390/app16199588": {
+    "source": "top_journal",
+    "title": "3D Scene Reconstruction and Immersive VR Environment Generation Using Smartphone-Based Panoramic RGB-D Data"
+  },
+  "arxiv:2609.32177": {
+    "source": "top_journal",
+    "title": "Federated 3D Gaussian Splatting for Large-Scale Scene Reconstruction at Wireless Edge"
+  },
+  "arxiv:2609.32789": {
+    "source": "top_journal",
+    "title": "Hierarchical Frequency-Domain Compression of Implicit Geometric Representations for Large-Scale Point Clouds"
   }
 }
