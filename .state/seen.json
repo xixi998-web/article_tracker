@@ -19246,5 +19246,25 @@
   "doi:10.3390/su18199874": {
     "source": "top_journal",
     "title": "Seasonal and Interannual Dynamics of Soil Organic Carbon and Associated Soil Properties Under Conventional Tillage and No-Till in Continuous Spring Wheat Cultivation in Northern Kazakhstan"
+  },
+  "arxiv:2609.33872": {
+    "source": "top_journal",
+    "title": "Robot-GST: geometry-aware spatial-temporal robot policy representation and evaluation"
+  },
+  "arxiv:2609.33569": {
+    "source": "top_journal",
+    "title": "Information Blackhole: Exploring Backdoor Mechanism in 3D Point Cloud Reconstruction"
+  },
+  "arxiv:2609.34035": {
+    "source": "top_journal",
+    "title": "3D Point Tracking with State Space Models"
+  },
+  "arxiv:2609.33849": {
+    "source": "top_journal",
+    "title": "DAFNet: Dual-path Adaptive Fusion Network for High-Fidelity Cross-Modality Brain MR Image Synthesis"
+  },
+  "doi:10.1007/s11263-026-03055-z": {
+    "source": "top_journal",
+    "title": "High-Fidelity Implicit Text-to-Shape Generation with Voxelized Diffusion"
   }
 }
