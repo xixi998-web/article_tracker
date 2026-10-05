@@ -19298,5 +19298,73 @@
   "doi:10.3390/molecules31193437": {
     "source": "top_journal",
     "title": "Removal of Pb(II) from Water by Potassium Permanganate-Modified Areca Fiber Biochar: Performance and Mechanism"
+  },
+  "arxiv:2609.35612": {
+    "source": "top_journal",
+    "title": "Remote Sensing Sparse-View 3D Gaussian Splatting via Depth Image-Based Rendering"
+  },
+  "doi:10.5194/isprs-annals-xii-4-w1-2026-293-2026": {
+    "source": "top_journal",
+    "title": "Assessing and fixing LOD2 building models for Urban Energy Digital Twin"
+  },
+  "arxiv:2609.36374": {
+    "source": "top_journal",
+    "title": "OTT3R: Multi-View 3D Reconstruction and Fast Dataset Generation at 1% Compute"
+  },
+  "doi:10.5194/isprs-annals-xii-4-w2-2026-57-2026": {
+    "source": "top_journal",
+    "title": "Critical factors in 3D model reconstruction using the Roofer algorithm: an analysis of geometric and topological consistency in mountainous cities"
+  },
+  "arxiv:2610.03162v1": {
+    "source": "arxiv",
+    "title": "Budgeted-GS: Real-Time Large-Scale Gaussian Splatting via Factoring LOD"
+  },
+  "arxiv:2610.02322v1": {
+    "source": "arxiv",
+    "title": "SCION: Scene Composition with Instanced Neural Primitives"
+  },
+  "arxiv:2609.34733": {
+    "source": "top_journal",
+    "title": "SurgGMF: Fully Causal Gaussian Motion Forecasting for Anticipatory Surgical Scene Rendering"
+  },
+  "arxiv:2610.02943v1": {
+    "source": "arxiv",
+    "title": "Kinematics-Induced Multimodal 3D Human Pose Estimation with Subject-Level Privacy"
+  },
+  "arxiv:2610.02382v1": {
+    "source": "arxiv",
+    "title": "FactorSplat: Appearance-Controllable Gaussian Proxies for Medical Volume Rendering"
+  },
+  "doi:10.3390/jmse14191796": {
+    "source": "top_journal",
+    "title": "High-Accuracy 3D Reconstruction of Underwater Objects from Forward-Looking Sonar Using Shape-Specific Synthetic Training Data"
+  },
+  "doi:10.5194/isprs-archives-l-4-w2-2026-201-2026": {
+    "source": "top_journal",
+    "title": "Towards CSG-Based Urban Modelling through Structured Geospatial Data Integration: Preliminary Results"
+  },
+  "arxiv:2609.35743": {
+    "source": "top_journal",
+    "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video"
+  },
+  "doi:10.1007/s11263-026-03022-8": {
+    "source": "top_journal",
+    "title": "G2S2-IR: Glocal Gaussian Splatting with Surface Awareness for Inverse Rendering"
+  },
+  "arxiv:2610.03192v1": {
+    "source": "arxiv",
+    "title": "PocketSplat: Mobile Gaussian Reconstruction via World-Space Latent Allocatio"
+  },
+  "doi:10.3390/electronics15194468": {
+    "source": "top_journal",
+    "title": "Spatially Constrained 3D Scene Graphs for Scene-Grounded Subtask Generation"
+  },
+  "arxiv:2609.34900": {
+    "source": "top_journal",
+    "title": "FILIGREE3D: Scaling Sparse Latent Flow Matching for Ultra-High-Resolution Image-to-3D Generation"
+  },
+  "arxiv:2609.36024": {
+    "source": "top_journal",
+    "title": "CoDimRecon: Agentic Reconstruction of Sim-Ready 3D Scenes with Deformable Curves, Surfaces, and Volumes"
   }
 }
