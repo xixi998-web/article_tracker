@@ -19458,5 +19458,125 @@
   "doi:10.1111/sum.70304": {
     "source": "top_journal",
     "title": "Microbial Community Structure and Metabolic Pathways Influence the Enrichment of Stable Dissolved Organic Matter Under Long‐Term Conservation Tillage Practices in Sloping Farmlands"
+  },
+  "arxiv:2610.04606v1": {
+    "source": "arxiv",
+    "title": "Sparse-View 4D Gaussian Splatting via Spatiotemporal Priors and Generative Assistance"
+  },
+  "arxiv:2610.04013v1": {
+    "source": "arxiv",
+    "title": "Return-to-Home Feasible Micro-Aerial Vehicle Exploration for 3D Gaussian Splatting Reconstruction"
+  },
+  "arxiv:2610.04203v1": {
+    "source": "arxiv",
+    "title": "Sparse-GS2Mesh: 3D Gaussian Splatting Guided by Novel Stereo Views and 2DGS for Sparse View Surface Reconstruction}"
+  },
+  "arxiv:2609.36545v2": {
+    "source": "arxiv",
+    "title": "SCCM: Spherically Consistent Coarse Matching for ERP Dense Feature Correspondence"
+  },
+  "arxiv:2609.37874": {
+    "source": "top_journal",
+    "title": "EndoPrior-GS: Dynamic Endoscopic Reconstruction with a Joint Texture Prior"
+  },
+  "arxiv:2610.05576v1": {
+    "source": "arxiv",
+    "title": "SteadySplats: Resampling of Low-Variance Gaussians for High-Fidelity Stochastic Rendering"
+  },
+  "arxiv:2610.05207v1": {
+    "source": "arxiv",
+    "title": "F$^2$ SLAM: Turning Feed-Forward Geometry into Persistent Factors for SLAM"
+  },
+  "arxiv:2609.36520": {
+    "source": "top_journal",
+    "title": "Distilling Privileged Control Barrier Functions into RGB-Only Safety Filters for Dynamic Visual Navigation"
+  },
+  "arxiv:2609.36940": {
+    "source": "top_journal",
+    "title": "DispFlow-GS: Displacement Flow Supervision with Motion Disentangling for Monocular Deformable 3D Gaussian Splatting"
+  },
+  "arxiv:2610.05758v1": {
+    "source": "arxiv",
+    "title": "A Three-Dimensional Reverse-Projection Method for Sparse Point Cloud Completion and Its Application to High-Speed Train Nose Reconstruction"
+  },
+  "arxiv:2610.05289v1": {
+    "source": "arxiv",
+    "title": "Mobile-4DGS: Unified Static-Dynamic Real-time Mobile Gaussian Splatting"
+  },
+  "arxiv:2610.04336v1": {
+    "source": "arxiv",
+    "title": "A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics"
+  },
+  "arxiv:2610.04076v1": {
+    "source": "arxiv",
+    "title": "VCURF: Virtual Camera-based Uncertainty of Radiance Fields"
+  },
+  "arxiv:2610.03599v1": {
+    "source": "arxiv",
+    "title": "ManifoldSplat: Language-Guided Semantic Shape Editing of 3D Gaussian Head Avatars"
+  },
+  "arxiv:2610.05757v1": {
+    "source": "arxiv",
+    "title": "Human-in-the-Loop Neuro-Symbolic Drift Anticipation for Reliable Visual SLAM"
+  },
+  "arxiv:2610.05531v1": {
+    "source": "arxiv",
+    "title": "Deep Prior Learning for Embodied Perception"
+  },
+  "arxiv:2610.04187v1": {
+    "source": "arxiv",
+    "title": "Autoware in Construction: Gap Analysis and LiDAR Perception Toward Off-Road Autonomous Driving"
+  },
+  "arxiv:2610.05733v1": {
+    "source": "arxiv",
+    "title": "End-to-End Safe Social Navigation via Multi-Task Reinforcement Learning and Probabilistic Perception"
+  },
+  "arxiv:2610.05546v1": {
+    "source": "arxiv",
+    "title": "GR-LIO: A Local Ground-Aware LiDAR-Inertial Odometry System Using Body-to-Ground Height"
+  },
+  "arxiv:2610.05526v1": {
+    "source": "arxiv",
+    "title": "Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants"
+  },
+  "arxiv:2610.05505v1": {
+    "source": "arxiv",
+    "title": "Robust 2D Traversability Mapping for Construction AMRs via Failure-Mode-Aware Fusion of LiDAR Geometry and Monocular Semantics"
+  },
+  "arxiv:2610.04651v1": {
+    "source": "arxiv",
+    "title": "GS-Codec: A Gaussian-Splatting Bottleneck for Neural Audio Coding"
+  },
+  "arxiv:2610.04552v1": {
+    "source": "arxiv",
+    "title": "Online Target-less Radar-LiDAR-Camera Extrinsic Calibration via Joint Optimization"
+  },
+  "arxiv:2610.04551v1": {
+    "source": "arxiv",
+    "title": "NM-LIO: Multiple LiDAR-Inertial Odometry Addressing LiDAR Measurement Noise Discrepancy"
+  },
+  "arxiv:2610.04199v1": {
+    "source": "arxiv",
+    "title": "CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging"
+  },
+  "arxiv:2610.04007v1": {
+    "source": "arxiv",
+    "title": "VolS-GS: Relightable Gaussian Splatting with Volumetric Subsurface Scattering"
+  },
+  "arxiv:2610.03530v1": {
+    "source": "arxiv",
+    "title": "DR-IPC: Disturbance-Resilient Integrated Planning and Control for LiDAR-Based Quadrotor Navigation"
+  },
+  "arxiv:2609.38873v2": {
+    "source": "arxiv",
+    "title": "DODGER: Safety-Guided Reinforcement Learning for Robot Navigation Among Dynamic Obstacles"
+  },
+  "doi:10.3390/buildings16193881": {
+    "source": "top_journal",
+    "title": "An AIGC-Driven Methodological Framework for Authenticity-Oriented Digital Reconstruction of Historic Buildings: A Case Study of Xiangxian Hall in Lanxi, Zhejiang"
+  },
+  "doi:10.1109/tip.2026.3736323": {
+    "source": "top_journal",
+    "title": "Efficient 3D Medical Reconstruction from Sparse Views via 2D Diffusion Models with Curvature Priors."
   }
 }
