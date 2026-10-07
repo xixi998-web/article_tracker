@@ -19658,5 +19658,125 @@
   "doi:10.1039/d6ra07111b": {
     "source": "top_journal",
     "title": "Screening native plants for the sustainable phytoremediation of heavy metals in industrial areas of Bangladesh"
+  },
+  "arxiv:2610.07110v1": {
+    "source": "arxiv",
+    "title": "MoonGS: High-quality Representation of the Lunar Surface via Gaussian Splatting Using Robust Depth Features from Image Pairs"
+  },
+  "arxiv:2609.39960v2": {
+    "source": "arxiv",
+    "title": "Reconstructing the Dynamic World: A Representation-Centric View of 4D Scene Reconstruction"
+  },
+  "arxiv:2610.07958v1": {
+    "source": "arxiv",
+    "title": "DensiTok: Making Feed-Forward 3D Gaussian Splatting See More Views Than It Is Given"
+  },
+  "arxiv:2610.07569v1": {
+    "source": "arxiv",
+    "title": "OpenSplatGraph: From Dense Semantic Maps to Structured Scene Graphs for Open-Vocabulary Robot Perception"
+  },
+  "arxiv:2610.07883v1": {
+    "source": "arxiv",
+    "title": "Revar3r: gauge-aware perturbation uncertainty for feed-forward 3d reconstruction"
+  },
+  "arxiv:2610.07788v1": {
+    "source": "arxiv",
+    "title": "Image-Space Refraction Correction for Underwater 3D Reconstruction: Warping Flat-Port Views into Pinhole Perspective"
+  },
+  "arxiv:2610.06171v1": {
+    "source": "arxiv",
+    "title": "Controllable and Photorealistic Pedestrian Risky Motion Generation for End-to-End Driving Safety Evaluation"
+  },
+  "arxiv:2610.05576v2": {
+    "source": "arxiv",
+    "title": "SteadySplats: Resampling of Low-Variance Gaussians for High-Fidelity Stochastic Rendering"
+  },
+  "arxiv:2610.08756v1": {
+    "source": "arxiv",
+    "title": "Post-Training Semantic Lifting for 3D Gaussian Splatting: Separating Detector, Lifting and Representation Error"
+  },
+  "arxiv:2610.07795v1": {
+    "source": "arxiv",
+    "title": "Efficient Gaussian Splatting Sequence Compression with Standard Video Codecs"
+  },
+  "arxiv:2610.07217v1": {
+    "source": "arxiv",
+    "title": "RoboCap: A New Platform for Egocentric Robot Learning"
+  },
+  "arxiv:2610.02322v2": {
+    "source": "arxiv",
+    "title": "SCION: Scene Composition with Instanced Neural Primitives"
+  },
+  "arxiv:2610.00970v2": {
+    "source": "arxiv",
+    "title": "RelationVGGT: Visual Geometry Transformers for 3D Spatial Relation Segmentation"
+  },
+  "arxiv:2610.00822": {
+    "source": "top_journal",
+    "title": "TRACE: Privacy-Preserving Next-Best-View Selection over Distributed 3D Gaussian-Splat Maps"
+  },
+  "arxiv:2610.06121v1": {
+    "source": "arxiv",
+    "title": "Radar2Plan: Benchmarking 4D Radar for End-to-End Open-Loop Ego-Trajectory Planning"
+  },
+  "arxiv:2610.08620v1": {
+    "source": "arxiv",
+    "title": "LiDAR Resolution Recovery via Foundation-Model-Guided Diffusion"
+  },
+  "arxiv:2610.07472v1": {
+    "source": "arxiv",
+    "title": "SURGE: Sonar-fUsed Reconstruction and localization via image-gated Graph Estimation"
+  },
+  "arxiv:2610.07419v1": {
+    "source": "arxiv",
+    "title": "Learnable Spectral Activations"
+  },
+  "arxiv:2610.07278v1": {
+    "source": "arxiv",
+    "title": "Embedded Bare-Metal Radar-Inertial Odometry"
+  },
+  "arxiv:2610.07231v1": {
+    "source": "arxiv",
+    "title": "Monocular Navigation Relative to Unknown Spacecraft Using a Transformer-Aided Kalman Filter"
+  },
+  "arxiv:2610.07192v1": {
+    "source": "arxiv",
+    "title": "Sim-to-Real Transfer of Vision-Language Navigation in Continuous Environments Using an Ackermann-Steered Mobile Robot"
+  },
+  "arxiv:2610.06813v1": {
+    "source": "arxiv",
+    "title": "Less Context, Better Geometry: Masked Geometric Encoder for Robust 3D Foundation Models"
+  },
+  "arxiv:2610.06594v1": {
+    "source": "arxiv",
+    "title": "VGGT-Bridge: Beyond Sequential Pose Graphs via Coarse-Stride Skip Edges"
+  },
+  "arxiv:2610.06472v1": {
+    "source": "arxiv",
+    "title": "MaRO-GS: Mask-Robust Object-Centric Gaussian Splatting from Inconsistent Multi-view Masks"
+  },
+  "arxiv:2610.05733v2": {
+    "source": "arxiv",
+    "title": "End-to-End Safe Social Navigation via Multi-Task Reinforcement Learning and Probabilistic Perception"
+  },
+  "arxiv:2610.04007v2": {
+    "source": "arxiv",
+    "title": "VolS-GS: Relightable Gaussian Splatting with Volumetric Subsurface Scattering"
+  },
+  "arxiv:2610.03187v2": {
+    "source": "arxiv",
+    "title": "Lightweight and Resource-Efficient Perception for Robotic Guide Dogs"
+  },
+  "arxiv:2609.40208": {
+    "source": "top_journal",
+    "title": "Centralized Multi-UAV Exploration and 3D Reconstruction Using Single-UAV Planners"
+  },
+  "arxiv:2609.38746": {
+    "source": "top_journal",
+    "title": "Matisse: Evidence-Space Reasoning for Active 3D Reconstruction"
+  },
+  "arxiv:2609.39527": {
+    "source": "top_journal",
+    "title": "Lens Flare Removal and Reconstruction"
   }
 }
