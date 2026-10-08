@@ -19894,5 +19894,125 @@
   "doi:10.3389/fenvs.2026.1942861": {
     "source": "top_journal",
     "title": "Divergent recovery trajectories of soil organic and inorganic carbon following artificial grassland restoration in semi-arid mining ecosystems"
+  },
+  "doi:10.1109/lra.2026.3728304": {
+    "source": "top_journal",
+    "title": "HyVGGT-VO: Hybrid Dense Visual Odometry With Classical VO and Feed-Forward Model"
+  },
+  "doi:10.1109/jestie.2026.3701003": {
+    "source": "top_journal",
+    "title": "A ROS 2-Based Visual SLAM Navigation Framework: Integrating cuVSLAM and Nvblox With Nav2 Stack for Autonomous Navigation on Mobile Robot"
+  },
+  "arxiv:2610.09853v1": {
+    "source": "arxiv",
+    "title": "DeltaSplat: Iterative Gaussian Refinement for Pose-Free Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2610.04606v2": {
+    "source": "arxiv",
+    "title": "Sparse-View 4D Gaussian Splatting via Spatiotemporal Priors and Generative Assistance"
+  },
+  "doi:10.1109/lra.2026.3726344": {
+    "source": "top_journal",
+    "title": "PDGS-SLAM: Photorealistic Dense Gaussian Splatting SLAM for Dynamic Scenes"
+  },
+  "arxiv:2610.10181v1": {
+    "source": "arxiv",
+    "title": "Argos: Adapt Rich Geometric Priors for Generalizable Online Scene-Change-Detection"
+  },
+  "arxiv:2610.09343v1": {
+    "source": "arxiv",
+    "title": "TileSkipper: Region-Adaptive Tile Pruning for 3D Gaussian Splatting"
+  },
+  "arxiv:2610.01744": {
+    "source": "top_journal",
+    "title": "3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability"
+  },
+  "arxiv:2610.10387v1": {
+    "source": "arxiv",
+    "title": "NeRFifyMesh: Optimizing Neural Radiance Fields from Textured Meshes for Robotics Scene Building"
+  },
+  "doi:10.1061/jpcfev.cfeng-5468": {
+    "source": "top_journal",
+    "title": "Intelligent Measurement of Length and Width of Long Concrete Cracks on Bridges Using 3D Reconstruction of Binocular Vision"
+  },
+  "arxiv:2610.01013": {
+    "source": "top_journal",
+    "title": "VASC: Value-Aware Sparse Attention with Cross-Layer Memory for Efficient 3D Reconstruction"
+  },
+  "arxiv:2610.10196v1": {
+    "source": "arxiv",
+    "title": "HuLiGen: Human LiDAR Generation from Parametric Body Models"
+  },
+  "arxiv:2610.09116v1": {
+    "source": "arxiv",
+    "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code"
+  },
+  "arxiv:2610.08978v1": {
+    "source": "arxiv",
+    "title": "S2Tok: Streaming 3D Gaussian Reconstruction with Persistent Spatial Tokens"
+  },
+  "doi:10.1109/tcss.2026.3715316": {
+    "source": "top_journal",
+    "title": "CEE-NeRF: Dynamic Neural Radiance Fields With Contrastive Enhanced Expression Representation for 4-D Face Reconstruction"
+  },
+  "arxiv:2610.00970": {
+    "source": "top_journal",
+    "title": "RelationVGGT: Visual Geometry Transformers for 3D Spatial Relation Segmentation"
+  },
+  "arxiv:2610.10396v1": {
+    "source": "arxiv",
+    "title": "Gaussian Density Splatting Network"
+  },
+  "arxiv:2610.10359v1": {
+    "source": "arxiv",
+    "title": "MultiFly: A Real-World Multimodal Aerial Dataset with Annotation-Efficient Label Transfer and Cross-Modal Semantic Consistency"
+  },
+  "arxiv:2610.09828v1": {
+    "source": "arxiv",
+    "title": "Enhancing Robotic Perception and Adaptability through Sensor Fusion and Origami-Inspired Designs"
+  },
+  "arxiv:2610.09720v1": {
+    "source": "arxiv",
+    "title": "DynStream: Online Streaming 4D Gaussian Reconstruction of Dynamic Worlds from Unposed Video"
+  },
+  "arxiv:2610.09200v1": {
+    "source": "arxiv",
+    "title": "StyleFields: Multi-Scale AdaIN-Modulated Implicit SDFs for Coarse-to-Fine 3D Shape Reconstruction and Editing"
+  },
+  "doi:10.1109/tmm.2026.3740231": {
+    "source": "top_journal",
+    "title": "HierGF: Hierarchical Gaussian Fields Via Geometry–Perception Message Passing for Sparse-View 3D Reconstruction"
+  },
+  "arxiv:2610.01057": {
+    "source": "top_journal",
+    "title": "Parallax Depth Sectioning and 3D Reconstruction in 4D-STEM"
+  },
+  "doi:10.1117/12.3120174": {
+    "source": "top_journal",
+    "title": "Coherence-guided 3D computational fluorescence microscopy using incoherent digital holography"
+  },
+  "doi:10.1061/jtepbs.teeng-9585": {
+    "source": "top_journal",
+    "title": "Dynamic Reconstruction and Assessment Model of Road Accident Risk Domain Incorporating Spatial Attenuation Effects and Multidimensional Coupling"
+  },
+  "doi:10.1109/jphot.2026.3722307": {
+    "source": "top_journal",
+    "title": "Single-Shot 3D Shape Measurement Using Speckle-Embedded Colored Fringe Patterns With Neighborhood-Assisted Diffusion Compensation"
+  },
+  "doi:10.1093/jhps/hnag043.281": {
+    "source": "top_journal",
+    "title": "EP1.97 Functional and Gait Outcomes Following Periacetabular Osteotomy and Structured Postoperative Rehabilitation"
+  },
+  "doi:10.1515/cdbme-2026-0164": {
+    "source": "top_journal",
+    "title": "Accuracy of Stereo Endoscope Calibrations for Forward and Oblique Optics"
+  },
+  "doi:10.1063/5.0337440": {
+    "source": "top_journal",
+    "title": "Unsupervised fringe pattern analysis based on regularized phase tracking"
+  },
+  "doi:10.1021/acsnanomed.6c00185": {
+    "source": "top_journal",
+    "title": "DSPE-Based Ligand-Cross-Linked\nLipid Nanoparticles\nfor BBB/BBTB Transport and Glioma Targeting"
   }
 }
