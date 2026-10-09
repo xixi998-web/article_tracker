@@ -20134,5 +20134,125 @@
   "doi:10.15243/jdmlm.2026.134.11185": {
     "source": "top_journal",
     "title": "Stress-driven metabolic adaptation of Passiflora foetida L. root across coal mine reclamation ages: Linking soil chemistry, metabolomics and bioactivity"
+  },
+  "arxiv:2610.11547v1": {
+    "source": "arxiv",
+    "title": "OX-NeRF: 3D X-ray Tomography Reconstruction from Sparse Views Using Implicit Neural Representation"
+  },
+  "arxiv:2610.11011v1": {
+    "source": "arxiv",
+    "title": "PCAsplat: Gaussian Splatting with Local PCA Regularization"
+  },
+  "arxiv:2610.11577v1": {
+    "source": "arxiv",
+    "title": "CoCam4D: Geometry-Aware Cooperative 4D Perception for Camera-Only Autonomous Driving"
+  },
+  "arxiv:2610.04013": {
+    "source": "top_journal",
+    "title": "Return-to-Home Feasible Micro-Aerial Vehicle Exploration for 3D Gaussian Splatting Reconstruction"
+  },
+  "arxiv:2610.11857v1": {
+    "source": "arxiv",
+    "title": "Pose-Free Feed-Forward 3D Inpainting via Learnable Mask Attention and Support Token Refinement"
+  },
+  "arxiv:2610.11612v1": {
+    "source": "arxiv",
+    "title": "PointVGGT: Zero-Shot Multiview RGB-D Point Cloud Registration with Visual Geometry Foundation Priors"
+  },
+  "arxiv:2610.11241v1": {
+    "source": "arxiv",
+    "title": "TAP3D: Thermal-Assisted 3D Human Point Clouds"
+  },
+  "arxiv:2610.04203v2": {
+    "source": "arxiv",
+    "title": "Sparse-GS2Mesh: 3D Gaussian Splatting Guided by Novel Stereo Views and 2DGS for Sparse View Surface Reconstruction"
+  },
+  "arxiv:2610.12127v1": {
+    "source": "arxiv",
+    "title": "LVS: Local View Synthesis from Relative Camera Pose by Reusing Previous Views"
+  },
+  "arxiv:2610.11572v1": {
+    "source": "arxiv",
+    "title": "PAM-ToD: Plug-and-Play Appearance Modeling for Cross-Time-of-Day 3D Gaussian Splatting"
+  },
+  "doi:10.61250/ssmj/v1.i4.12": {
+    "source": "top_journal",
+    "title": "Photogrammetric 3D Digitisation of Bajuni and Pokomo Cultural Artefacts: A 65-Artefact Proof-of-Concept at Fort Jesus, Kenya"
+  },
+  "arxiv:2610.12461v1": {
+    "source": "arxiv",
+    "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs"
+  },
+  "arxiv:2610.12282v1": {
+    "source": "arxiv",
+    "title": "Slot3R: Set-Associative Spatial Memory for Streaming 3D Reconstruction"
+  },
+  "arxiv:2610.11504v1": {
+    "source": "arxiv",
+    "title": "The Operator Mismatch Problem: Deploying BEV Perception with Portable GPU Compute"
+  },
+  "arxiv:2610.11364v1": {
+    "source": "arxiv",
+    "title": "FlyMark: Training-Free Invisible Watermarking of 3D Gaussian Splatting via a Fruit Fly Connectome"
+  },
+  "arxiv:2610.11039v1": {
+    "source": "arxiv",
+    "title": "Rendering-Free Lookahead for Question-Guided Active Vision"
+  },
+  "arxiv:2610.11198v1": {
+    "source": "arxiv",
+    "title": "3DTexMOR: 3D Gaussian Multi-Object Removal via Texture-Space Inpainting"
+  },
+  "arxiv:2610.12411v1": {
+    "source": "arxiv",
+    "title": "GLIO2: A GPU-Parallelized Tightly-Coupled LiDAR-Inertial-GNSS System for Robust and Real-Time Global Localization and Mapping"
+  },
+  "arxiv:2610.11752v1": {
+    "source": "arxiv",
+    "title": "2DGS-Planner: Rasterization-based Path Planning in 2D Gaussian Splatting Map"
+  },
+  "arxiv:2610.11531v1": {
+    "source": "arxiv",
+    "title": "RAGNAROK: Radar-Aided Gravity-Normalized Alignment for Robust Open Keyframe-based Radar-Visual-Kinematic-Inertial SLAM"
+  },
+  "arxiv:2610.11376v1": {
+    "source": "arxiv",
+    "title": "CRISP: Fixing Flying Pixels in Latent LiDAR Generation via Diffusion Decoding"
+  },
+  "arxiv:2610.11308v1": {
+    "source": "arxiv",
+    "title": "Distributed Relative Localization for Homogeneous Multi-Robot Systems through UWB Ranging and Limited Communications"
+  },
+  "arxiv:2610.11141v1": {
+    "source": "arxiv",
+    "title": "Distributed Relative Localization Based on Ultra-WideBand and LiDAR for Multi-robot with Limited Communication"
+  },
+  "arxiv:2610.11072v1": {
+    "source": "arxiv",
+    "title": "Towards Path-Creative Navigation: Robot Navigation through Embodied Interaction"
+  },
+  "arxiv:2610.10396v2": {
+    "source": "arxiv",
+    "title": "Gaussian Density Splatting Network"
+  },
+  "arxiv:2610.10564v1": {
+    "source": "arxiv",
+    "title": "Does Dynamic-Point Filtering Help When Texture Is Scarce? A Controlled Study of ORB-SLAM2 Front-Ends in Synthetic Indoor Scenes"
+  },
+  "arxiv:2610.02943": {
+    "source": "top_journal",
+    "title": "Kinematics-Induced Multimodal 3D Human Pose Estimation with Subject-Level Privacy"
+  },
+  "doi:10.1007/s00138-026-01930-w": {
+    "source": "top_journal",
+    "title": "AF-Net: combining angle features and residual attention for 3D point cloud classification and segmentation"
+  },
+  "doi:10.1007/s00138-026-01931-9": {
+    "source": "top_journal",
+    "title": "A structure-preserving diffusion model for point cloud upsampling"
+  },
+  "arxiv:2610.03717": {
+    "source": "top_journal",
+    "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis"
   }
 }
