@@ -20286,5 +20286,25 @@
   "doi:10.64388/irev10i4-1723600": {
     "source": "top_journal",
     "title": "Bioremediation Potential of Compost and Biochar On Total Hydrocarbon and Heavy Metals Concentration in Crude Oil Contaminated Soil"
+  },
+  "arxiv:2610.04351": {
+    "source": "top_journal",
+    "title": "LoCoSplat: Real-Time Feed-Forward 3D Gaussian Splatting with Minimal 3D Reasoning"
+  },
+  "arxiv:2610.04336": {
+    "source": "top_journal",
+    "title": "A differentiable Lagrangian-coupled 3D Gaussian Splatting-SPH model for forward simulation and inverse analysis in solid mechanics"
+  },
+  "doi:10.1038/s41598-026-72863-7": {
+    "source": "top_journal",
+    "title": "A Stereoscopic display method of multi-reconstructed viewpoints for radar terminal"
+  },
+  "doi:10.3390/rs18193398": {
+    "source": "top_journal",
+    "title": "Satellite-Only 3D Digitization of Hundred-Kilometer-Scale High-Voltage Transmission Lines"
+  },
+  "arxiv:2610.04199": {
+    "source": "top_journal",
+    "title": "CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging"
   }
 }
