@@ -20306,5 +20306,33 @@
   "arxiv:2610.04199": {
     "source": "top_journal",
     "title": "CellSplat4D: PSF-Aware 4D Gaussian Splatting for Sparse Robotic Live-Cell Imaging"
+  },
+  "doi:10.3390/environments13100550": {
+    "source": "top_journal",
+    "title": "Assessment of Organic Waste- and Biomass-Derived Amendments for the Cultivation of Eucalyptus globulus Labill. in Marginal Soils Affected by Pyrite Mining"
+  },
+  "doi:10.1002/ffj.70165": {
+    "source": "top_journal",
+    "title": "No‐Till Improved Peanut Flavour Quality and Aroma Through Soil Nitrogen–Microbiome Regulation"
+  },
+  "doi:10.3390/agriculture16192140": {
+    "source": "top_journal",
+    "title": "Effects of Tea Plantation Chronosequence on Soil Nitrogen Fractions and Microbial Community Structure"
+  },
+  "doi:10.3390/microorganisms14102248": {
+    "source": "top_journal",
+    "title": "Alkaline Soil pH and Phosphorus Depletion Are Associated with Microbial Community Changes Under Long-Term Continuous Cropping of Paeonia ostii"
+  },
+  "doi:10.1007/s10457-026-01687-1": {
+    "source": "top_journal",
+    "title": "An observational assessment of soil physical, chemical, and biological attributes under contrasting land-use systems in Eastern Maranhão, Brazil"
+  },
+  "doi:10.1007/s11368-026-04585-2": {
+    "source": "top_journal",
+    "title": "Soil phosphorus mobilization as an ecological process shaped by microbial and environmental interactions"
+  },
+  "doi:10.69687/ime.nseeepsd.2026.1.50": {
+    "source": "top_journal",
+    "title": "Promoting Sustainable Agricultural Methods: Techniques to Improve Food Security and Ecosystem Health"
   }
 }
