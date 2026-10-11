@@ -20334,5 +20334,29 @@
   "doi:10.69687/ime.nseeepsd.2026.1.50": {
     "source": "top_journal",
     "title": "Promoting Sustainable Agricultural Methods: Techniques to Improve Food Security and Ecosystem Health"
+  },
+  "arxiv:2610.05531": {
+    "source": "top_journal",
+    "title": "Deep Prior Learning for Embodied Perception"
+  },
+  "arxiv:2610.05526": {
+    "source": "top_journal",
+    "title": "Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants"
+  },
+  "doi:10.1145/3776574.3831113": {
+    "source": "top_journal",
+    "title": "Multi-Scale Spatiotemporal EEG and Self-Supervised Audio Fusion: A Mixture-of-Experts Approach to Continuous Affect"
+  },
+  "arxiv:2610.07015": {
+    "source": "top_journal",
+    "title": "LEAP: Making Privileged Geometry Supervision Effective for Visuomotor Learning"
+  },
+  "arxiv:2610.05131": {
+    "source": "top_journal",
+    "title": "RoMod: Temporal Routing Modulation via Mixture-of-Experts for Video Anomaly Detection"
+  },
+  "doi:10.1038/s41598-026-72927-8": {
+    "source": "top_journal",
+    "title": "A unified pipeline for traffic sign detection using resolution aware dataset reduction"
   }
 }
