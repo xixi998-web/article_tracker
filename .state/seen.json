@@ -20374,5 +20374,109 @@
   "doi:10.3390/polym18192422": {
     "source": "top_journal",
     "title": "Preparation and Characterization of Immediate-Release Tablets Containing Calcium Lactate Recovered from Chemically Recycled Poly(lactic acid) 3D Printing Filaments"
+  },
+  "arxiv:2610.13143v1": {
+    "source": "arxiv",
+    "title": "Measurable Semantic 3D Gaussian Splatting with Joint Region and Depth Supervision for Interactive Building Inspection"
+  },
+  "arxiv:2610.07110": {
+    "source": "top_journal",
+    "title": "MoonGS: High-quality Representation of the Lunar Surface via Gaussian Splatting Using Robust Depth Features from Image Pairs"
+  },
+  "arxiv:2610.13757v1": {
+    "source": "arxiv",
+    "title": "Gaussian Splatting with Reflections Guided by What is Seen"
+  },
+  "arxiv:2610.12624v1": {
+    "source": "arxiv",
+    "title": "MemReg: Streaming Outdoor LiDAR Point Cloud Registration with Hybrid Memory Buffers"
+  },
+  "arxiv:2610.13849v1": {
+    "source": "arxiv",
+    "title": "HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation"
+  },
+  "arxiv:2610.13860v1": {
+    "source": "arxiv",
+    "title": "Make It Flow: Animating Water in 3D Gaussian Splatting Scenes"
+  },
+  "arxiv:2610.13309v1": {
+    "source": "arxiv",
+    "title": "NovaSplat: Model-Free 6D Object Pose Estimation via 3D Gaussian Splatting Onboarding and Refinement"
+  },
+  "arxiv:2610.12786v1": {
+    "source": "arxiv",
+    "title": "Domain Adaptation of SAM 2.1 for Building-Component Segmentation in Image-Based 3D Reconstruction"
+  },
+  "arxiv:2610.12727v1": {
+    "source": "arxiv",
+    "title": "Zebra3D: Efficient Hybrid Foundation Models For Scalable 3D Reconstruction"
+  },
+  "arxiv:2610.12568v1": {
+    "source": "arxiv",
+    "title": "MIRAGE: Metric Inference and Reliability-Aware Gaussian Estimation from Feed-Forward Vision"
+  },
+  "arxiv:2610.13945v1": {
+    "source": "arxiv",
+    "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation"
+  },
+  "arxiv:2610.13781v1": {
+    "source": "arxiv",
+    "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models"
+  },
+  "arxiv:2610.13541v1": {
+    "source": "arxiv",
+    "title": "Efficient Confidence-Aware Densification for 3DGS"
+  },
+  "arxiv:2610.13177v1": {
+    "source": "arxiv",
+    "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction"
+  },
+  "arxiv:2610.12895v1": {
+    "source": "arxiv",
+    "title": "MeshBind: Point-to-Mesh Binding for Non-Rigid Scene Flow Automatic Annotation"
+  },
+  "arxiv:2610.13891v1": {
+    "source": "arxiv",
+    "title": "Beyond the Snowflakes: Disentangling Weather Effects from Confounding Meta-Factors in LiDAR Object Detection"
+  },
+  "arxiv:2610.13838v1": {
+    "source": "arxiv",
+    "title": "Mapless, Stabilizing, and Anti-Stuck Flipper Control for Articulated Tracked Robots"
+  },
+  "arxiv:2610.13788v1": {
+    "source": "arxiv",
+    "title": "When LiDAR Fades, Radar Takes Over: LiDAR Reliability-Aware Adaptive Localization Under Airborne Obscurants"
+  },
+  "arxiv:2610.13681v1": {
+    "source": "arxiv",
+    "title": "PhysForge: Material-Controllable 3D Reconstruction with Separable Components"
+  },
+  "arxiv:2610.12871v1": {
+    "source": "arxiv",
+    "title": "ROSETTA: Rotation Subspace Estimation for Training-free Transmodal Alignment"
+  },
+  "arxiv:2610.11072v2": {
+    "source": "arxiv",
+    "title": "Towards Path-Creative Navigation: Robot Navigation through Embodied Interaction"
+  },
+  "arxiv:2610.07472": {
+    "source": "top_journal",
+    "title": "SURGE: Sonar-fUsed Reconstruction and localization via image-gated Graph Estimation"
+  },
+  "arxiv:2610.06594": {
+    "source": "top_journal",
+    "title": "VGGT-Bridge: Beyond Sequential Pose Graphs via Coarse-Stride Skip Edges"
+  },
+  "doi:10.1117/1.jei.35.5.053012": {
+    "source": "top_journal",
+    "title": "SCSA-Unet: cross-spatial positional feature aggregation for event-based semantic segmentation"
+  },
+  "arxiv:2610.05993": {
+    "source": "top_journal",
+    "title": "From Transformation to Target State: Rethinking Query Representation for Zero-Shot Composed Image Retrieval"
+  },
+  "arxiv:2610.06507": {
+    "source": "top_journal",
+    "title": "An Evaluation of the Semantic Understanding Capabilities of Large Language Models for Web Attack Payloads"
   }
 }
