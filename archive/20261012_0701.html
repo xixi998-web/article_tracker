@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-12 07:01 · Core 13 · Proxy 7 · Eco 4</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Agronomic performance and soil chemical properties following the application of pelletized compost and vermicompost derived from vineyard pruning residues and sewage sludge in lettuce production<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: M. C. Morais, E. Nascimento-Gonçalves, Lia-Tânia Dinis, S. Pereira, Zélia Branco...</div>
+<div class="meta-line">Venue: Frontiers in Sustainable Food Systems</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/6bcd92bc56aa3cd824f64e7ba228b5715af5bd0f">Abs</a> · <a href="https://doi.org/10.3389/fsufs.2026.1948663">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ Compost and vermicompost are recognized as effective organic amendments for supporting plant growth, promoting nutrient recycling and enhancing soil quality within circular economy strategies. In this context, the present study evaluated the short-term performance of pelletized compost (CC) and vermicompost (VC) produced from vineyard prunings and sewage sludge on lettuce (
+ Lactuca sativa
+ L.) growth, leaf biochemical traits, mineral composition, and soil chemical properties. The performance of both organic products was compared with a commercial organomineral fertilizer (CF) and an unfertilized control (CT).
+ 
+ 
+ 
+ 
+ 
+ A completely randomized greenhouse pot experiment was conducted for 55 days comprising four treatments with eight replicates each. . Data were analyzed by one-way ANOVA followed by Tukey´s HSD test at
+ p
+ &lt; 0.05, with non-parametric analysis used when ANOVA assumptions were not met.
+ 
+ 
+ 
+ 
+ At the end of the experiment, organic amendments performed comparably to the commercial fertilizer CF for most morphological parameters, despite differences in absolute nutrient inputs among treatments, although shoot fresh weight remained higher under CF. Leaf biochemical responses varied among treatments: CC and CF exhibited high chlorophyll and carotenoid contents, whereas VC and CT showed lower pigment concentrations. Total soluble sugars were highest in CT and lowest in CF, while total protein and phenolic contents were not significantly affected by treatment. Leaf macronutrient concentrations under CC and VC were generally comparable to CF, while for micronutrients Fe and Mn concentrations were higher in CF. Final soil analyses showed higher organic matter, extractable P and K, and cation exchange capacity under organic fertilization, whereas CF showed the lowest soil pH. Trace metal concentration remained low in all treatments.
+ 
+ 
+ 
+ These findings support the potential use of compost and vermicompost derived from vineyard pruning residues and sewage sludge as recycled organic amendments for horticultural production. However, further research is recommended to validate these results under long-term field conditions and diverse soil types.
+</div></details>
+</div>
+<div class="card"><div class="title">Elemental sulfur and Thiobacillus culture alter nutrient availability and maize growth in compost-amended calcareous soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: S. Muminova, B. Makhamedova, Khansulu Kuspangaliyeva, L. Zhussupova, G. Zhaksybayeva...</div>
+<div class="meta-line">Venue: EURASIAN JOURNAL OF SOIL SCIENCE (EJSS)</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7bc12d1aa21a5c292bf4e0097817eaf5aa742c6e">Abs</a> · <a href="https://dergipark.org.tr/en/download/article-file/6272928">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Elemental sulfur can improve nutrient availability in calcareous soils, but its effectiveness depends on oxidation conditions, soil buffering, and associated organic and microbial amendments. A controlled greenhouse experiment evaluated seven elemental sulfur rates (0, 250, 500, 750, 1000, 1250, and 1500 kg ha⁻¹) combined with either sterile water or a live Thiobacillus thioparus culture treatment in a compost-amended calcareous clay soil. Each of the 14 treatment combinations had three replicate pots. All pots received mature composted cattle manure at 20 Mg ha⁻¹ on a dry-matter basis, and one hybrid maize plant was grown per pot for 86 days. Increasing sulfur rate lowered post-harvest soil pH and increased available P, S, Fe, Cu, Zn, Mn, and B. The lowest pH (6.68), highest available P (12.8 mg kg⁻¹), and highest available S (205 mg kg⁻¹) occurred at 1500 kg S ha⁻¹ with the culture treatment. Post-harvest total N declined as shoot N removal increased, whereas available K changed little. Total aboveground dry biomass increased from 466–478 g pot⁻¹ at 0 kg S ha⁻¹ to 744–812 g pot⁻¹ at 1500 kg S ha⁻¹. Uptake of all measured macro- and micronutrients followed a similar increasing pattern. The greatest responses within the tested range occurred at 1500 kg S ha⁻¹, particularly in culture-treated pots. These results show that micronized elemental sulfur, under adequate moisture and warm greenhouse conditions, can substantially alter nutrient availability and maize performance in compost-amended calcareous soil. The highest tested rate should not be interpreted as a field optimum without multi-soil and field validation.</div></details>
+</div>
+<div class="card"><div class="title">Integrated Nutrient Management Improves Potato Growth, Yield Components, and Phosphorus Use Efficiency Across Contrasting Acidic Tropical Soils<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Tamara José Sande, A. M. T. Alovisi, Hamis J. Tindwa, J. Semoka, M. Shitindi</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/02d4cd2d4bfe6b527cea17ea73b1b9dd5caf8576">Abs</a> · <a href="https://doi.org/10.3390/agronomy16191950">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Weathered acidic soils are characterized by severe phosphorus (P) fixation and aluminum (Al3+) toxicity, limiting crop productivity. Integrated nutrient management (INM), combining mineral fertilizers, organic amendments, and biofertilizers, offers a promising strategy to overcome these constraints. Unlike conventional single-site fertilizer comparisons, this study examined how mineral, organic, and phosphate-solubilizing biological inputs interact with contrasting acidic soil environments across successive seasons, allowing simultaneous assessment of immediate crop productivity and residual soil fertility. Field experiments were conducted over two consecutive cropping seasons (2022–2023 and 2023–2024) at three sites in Tete Province, Mozambique: Ntengo-wa-mbalame, Rinzi, and Angónia Research and Technology Transfer Centre (CITTA). The experiment followed a 2 × 3 × 11 factorial arrangement in a randomized complete block design with four replications. Eleven treatments comprising mineral N, P, K, and S fertilizers, vermicompost, and a multifunctional multi-strain phosphate-solubilizing biofertilizer (Bio-Rock P) were evaluated. Soil chemical properties and crop performance were influenced by site and season (p ≤ 0.001). Ntengo-wa-mbalame had the most favorable fertility, achieving a maximum yield of 34.96 t ha−1 in Year 1, whereas high acidity and exchangeable Al at Rinzi restricted canopy development and increased small, non-commercial tubers (&lt;45 mm). Across sites, exclusive mineral fertilization showed numerical trends toward greater soil pH declines (up to 26%), whereas INM treatments maintained more stable soil pH levels (declines limited to 2.2–10.8%) and significantly reduced toxic exchangeable Al3+ down to 0.03 cmolc kg−1, likely through organo-metallic complexation. Treatments combining mineral inputs, vermicompost, and biofertilizers, particularly T7, showed strong residual effects, increasing available P from 55.34 to 87.02 mg kg−1 by Year 2 while maintaining marketable tuber yields and nutrient recovery statistically comparable to or exceeding mineral fertilization. PCA showed that P agronomic efficiency (P-AE) was positively associated with biomass, tuber number, and total tuber yield. Overall, INM improved nutrient availability, moderated soil acidity and Al toxicity, and supported potato productivity, providing an ecologically sustainable strategy for fragile tropical agrosystems.</div></details>
+</div>
+<div class="card"><div class="title">Bio-derived TEMPO-oxidized cellulose nanocrystal (TOCNC) based green solid-state sensor for soil pH monitoring<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: J. Vigneshwar, G. L. Priya, T. Selvamuthukumaran</div>
+<div class="meta-line">Venue: BMC Chemistry</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b1154e43f0f6a671bcfc88b3c41c93f71dd5f0cc">Abs</a> · <a href="https://doi.org/10.1186/s13065-026-01925-8">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Accurate soil pH measurement is critical for developing precision agriculture, assessing environmental impact, and supporting sustainable soil management. Although conventional glass pH electrodes are widely used, these bulky, mechanically vulnerable probes are ill-suited to miniaturized sensing platforms. In this study, we demonstrated an eco-friendly solid-state electrochemical pH sensor using TEMPO-oxidized cellulose nanocrystals (TOCNCs) extracted from sugarcane bagasse as the proton-responsive sensing element. TOCNCs were prepared via TEMPO-mediated oxidation and loaded onto a glassy carbon electrode by a simple drop-casting process to form a Sensing interface. We characterised the chemical state and oxidation structure using XRD, FTIR, XPS, TEM, SEM, UV-Vis spectroscopy, and BET analysis. TEMPO oxidation did not alter cellulose I. The proposed electrode showed a linear open-circuit potential response from pH 3 to 12, with a sensitivity of – 47.98 mV pH − 1 and a coefficient of determination (R² = 0.93541). The sensor showed linear OCP responses over a wide pH range (3 to 12). The proposed pH-sensing mechanism involves reversible Protonation/deprotonation on surface carboxyl groups introduced via TEMPO oxidation. The sensor showed satisfactory repeatability (RSD = 2.14%, 1.19%, and 2.95% at pH 3, 7, and 11, respectively) and satisfactory reproducibility (RSD = 1.40%, 1.08%, and 3.79%, respectively). The sensor also showed high selectivity for H⁺ over the interferents present in the soils (Na + , K + , Ca 2+ , Mg 2+ , NH 4 + , Cl − , NO 3 − , SO 4 2− , HPO 4 2− , HCO 3 − , and humic acid) and maintained a stable sensing response over a 30-day storage period. As expected, the proposed sensor analysed real soil samples, and the measured pH values agreed well with those obtained using a standard commercial glass pH electrode. Therefore, this study offers a cheap, environmentally benign, and reliable sensing material platform (TOCNCs derived from sugarcane bagasse) for soil pH measurement, with strong potential to replace a glass pH electrode.</div></details>
+</div>
+<div class="card"><div class="title">Carbonate rock weathering substantially promotes soil microbial-derived carbon accumulation<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Pei-Lei Hu, Juan Li, Wei Zhang, Ji Liu, J. Peñuelas...</div>
+<div class="meta-line">Venue: National Science Review</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/da1dfcc8f948fe094872666034557733157b2bd1">Abs</a> · <a href="https://academic.oup.com/nsr/advance-article-pdf/doi/10.1093/nsr/nwag627/71604064/nwag627.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Microbial-derived carbon (necromass) is crucial for long-term soil organic carbon (SOC) persistence, yet how carbonate rock weathering regulates its accumulation remains unresolved, despite the global prevalence and rapid weathering of carbonate rocks. Using global synthesis, regional sampling, and microcosms, we tested how carbonate rock weathering affects microbial-derived carbon. Globally, karst soils contained 43.4% more amino sugars and 57.6% more SOC than non-karst soils. Regionally, karst soils had 19.3% higher SOC-normalized amino sugars, 57.8% larger mineral-associated amino sugars, and more oxidized lignin signatures. Within karst soils, weathering rate was the strongest predictor of microbial necromass, and calcium fractions were associated with mineral-associated amino sugars. In microcosms, carbonate rock addition increased soil pH and calcium, shifted enzyme allocation toward oxidative processing of chemically complex native SOC, potentially facilitating microbial necromass formation. Carbonate rock addition also increased incorporation of 13C-labelled labile carbon into microbial necromass by 22–71%. Our findings identify carbonate rock weathering as a geogenic control linking microbial necromass formation with calcium-associated stabilization, highlighting the potential to leverage this weathering pathway to enhance SOC persistence.</div></details>
+</div>
+<div class="card"><div class="title">Seasonal and Spatial Variability of Soil Fertility Status in an Industrial Cluster of the Konkan Region, Maharashtra: A Multivariate Statistical Approach<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Shrikant S. Kekane</div>
+<div class="meta-line">Venue: International Journal of Scientific Research in Science and Technology</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/36b39e1a9147b78193e3100bafee19b012624202">Abs</a> · <a href="https://ijsrst.com/home/article/download/IJSRST2613525/IJSRST2613525">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Understanding spatial and temporal soil fertility dynamics is critical for sustainable land management in industrial landscapes, yet data from Indian coastal industrial clusters remain scarce. This study assessed seasonal and spatial variability of soil fertility in the Mahad MIDC area, Raigad, Maharashtra—a coastal industrial cluster with 106 chemical, pharmaceutical, dye, and petrochemical industries. Surface soils (0–15 cm) from 15 GPS-marked stations were sampled during pre- and post-monsoon over 2017–2019. Parameters included pH, EC, organic carbon (OC), available N, P, K, exchangeable Ca, Mg, S, and micronutrients (Fe, Mn, Zn, Cu). Statistical tools comprised descriptive statistics, Shapiro–Wilk tests, paired t-tests, ANOVA with Tukey’s HSD, Pearson correlation, PCA, and Ward’s hierarchical clustering. Soil pH ranged from 4.75–6.97, with no seasonal difference (p &gt; 0.05). EC increased from 0.065 ± 0.013 to 0.076 ± 0.024 dS/m (p &lt; 0.01), and OC rose from 1.98 ± 0.49% to 2.35 ± 0.50% (p &lt; 0.001). Available N declined from 366.45 ± 55.68 to 299.65 ± 45.82 kg/ha, K from 163.84 ± 52.41 to 121.44 ± 38.76 kg/ha, Ca from 3.83 ± 2.08 to 2.87 ± 1.71 meq/100g, and Mg from 0.82 ± 0.52 to 0.65 ± 0.42 meq/100g (p &lt; 0.001). OC–N, Ca–Mg, and EC–K were positively correlated. PCA extracted three components explaining 78.4% variance. Clustering identified high-, moderate-, and low-fertility stations. Rainfall-driven leaching and industrial land use govern nutrient dynamics, providing a baseline for site-specific nutrient management in industrial landscapes. These insights support sustainable land management.</div></details>
+</div>
+<div class="card"><div class="title">Urea-loaded nanoclay biopolymer composites integrated with beneficial microbes enhance nutrient uptake and mitigate greenhouse gas emissions<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Asheesh Kumar, K. M. Manjaiah, Dibakar Roy, Ravi Saini, Arti Bhatia...</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0de90352f927d2e67a932e065753f52f3538ad30">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00334-6.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Low nitrogen use efficiency of prilled urea contributes to substantial economic loss and environmental pollution through leaching, denitrification, and ammonia volatilization. This study evaluated urea-loaded nanoclay biopolymer composites (NCBPCs), synthesized from clay-acrylic acid + aczrylamide-based polymer composite grafted with maize flour (NCBPC-M) and mango kernel flour (NCBPC-MK), integrated with phosphorus- and zinc-solubilizing bacteria (Lactococcus lactis and Pseudomonas aeruginosa), as a sustainable alternative nitrogen source in a maize–wheat cropping system. FTIR, XRD, and SEM analyses confirmed successful polymerization and clay exfoliation. Both the composites showed high water absorption capacity (NCBPC-M: ~68 g/g; NCBPC-MK: ~62 g/g after 24 h). A field experiment (randomized complete block design) compared ten treatments, including 75% recommended nitrogen delivered via NCBPCs with or without microbial inoculants, against 100% recommended dose through conventional urea. Treatments combining NCBPCs with both phosphorus- and zinc-solubilizing cultures (T9, T10) sustained higher and more synchronized soil ammoniacal and nitrate nitrogen levels, and significantly increased grain and stover phosphorus and zinc content in both crops compared with conventional urea. These treatments also reduced cumulative N2O emissions by 17–29% in wheat and 21–24% in maize relative to full-dose urea, with the maize flour-based composite showing the greatest mitigation potential. These findings demonstrate that microbe-integrated, urea-loaded nanoclay biopolymer composites can simultaneously improve nutrient synchronization, enhance micronutrient biofortification, and mitigate greenhouse gas emissions, offering a promising climate-smart strategy for sustainable nitrogen management in cereal cropping systems.</div></details>
+</div>
+<div class="card"><div class="title">Heavy Metal Contamination and Human Health Risk Assessment of Farmland Soils in Ndele, an Oil-Producing Community in the Niger Delta, Nigeria<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: F. O. Welenya</div>
+<div class="meta-line">Venue: IIARD INTERNATIONAL JOURNAL OF GEOGRAPHY AND ENVIRONMENTAL MANAGEMENT</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/52708f48e6369c37d9ef214cd20234a34d62ce52">Abs</a> · <a href="https://iiardjournals.org/get/IJGEM/VOL. 12 NO. 9 2026/Heavy Metal Contamination and Human 32-42.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Agricultural soils in oil-producing regions of the Niger Delta may receive persistent trace-metal 
+inputs from petroleum-related activities and other anthropogenic sources, creating potential 
+implications for soil quality, crop production and human exposure. This study assessed cadmium 
+(Cd), lead (Pb) and arsenic (As) concentrations and associated human health risks in farmland 
+soils of Mgbu-Oluwa and Mgbu-Ela communities in Ndele, Emohua Local Government Area, 
+Rivers State, Nigeria. Composite topsoil samples (0–15 cm) were collected monthly from four 
+farmland locations for six months (March–August 2025), giving 24 composite samples. Soil pH 
+and temperature were measured in situ, while Cd, Pb and As were determined after acid digestion 
+using atomic absorption spectrophotometry. Data were summarized using descriptive statistics 
+and compared between communities using an independent-samples t-test. Human health risks 
+were evaluated using a United States Environmental Protection Agency (USEPA)-based 
+framework for adult (dermal exposure) and child (soil-ingestion plus dermal exposure). Cadmium 
+was the dominant contaminant, with mean concentrations of 2.19 and 2.77 mg/kg in Mgbu-Oluwa 
+and Mgbu-Ela, respectively. Corresponding mean concentrations were 0.32 and 0.89 mg/kg for 
+Pb and 0.30 and 0.35 mg/kg for As. Differences between communities were not statistically 
+significant for Cd (p=0.64), Pb (p=0.38) or As (p=0.84). Soil pH remained slightly acidic (5.95
+6.25), while temperature declined during the sampling period. Using Nigerian petroleum-sector 
+target values and FAO/WHO soil benchmarks, Cd exceeded the Nigerian target value in 17 of 24 
+samples, whereas Pb and As remained within the comparison values. Non-carcinogenic hazard 
+quotients and hazard indices were below unity for both population groups; child HI values were 
+0.0425 and 0.0537 in Mgbu-Oluwa and Mgbu-Ela, respectively. Arsenic cancer-risk estimates 
+were within the USEPA acceptable range. The findings indicate localized cadmium contamination 
+without evidence of unacceptable health risk under the assessed exposure assumptions, 
+emphasizing the need for continued soil monitoring, pollution prevention and crop-safety 
+surveillance in Ndele.</div></details>
+</div>
+<div class="card"><div class="title">Study on the Divergence Patterns of Soil Physicochemical Properties, Microbial Target Gene Copies and Enzyme Activities Under Different Continuous Cropping Years<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Xue-Li Zhang, Dan Wang, Xian-Fu Yuan</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1801b406f5b8b315eedfea15c3cf126d6aaa634d">Abs</a> · <a href="https://doi.org/10.3390/agronomy16191947">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Continuous cropping obstacles constrain the sustainability of intensive agricultural production, and investigating the dynamics of soil properties across different continuous cropping durations is important for the prevention and control of this problem. This study focused on field-grown Chrysanthemum morifolium and collected soil samples from plots with continuous cropping durations of 1 year (CR1), 3 years (CR3), 5 years (CR5), and 10 years (CR10) with three independent replicate plots per treatment, to analyze the changes and interrelationships among key soil physicochemical and microbial properties. The results showed that different soil properties exhibited distinct divergence patterns with different inflection points. The activities of fluorescein diacetate (FDA) hydrolase and chitinase decreased significantly during the first 1–3 years of continuous cropping and recovered continuously from years 5 to 10, representing the earliest responses. The target gene copies of Fusarium oxysporum f. sp. chrysanthemi (Foc) increased rapidly to a peak at CR5 and declined significantly at CR10; fungal target gene copies showed a similar pattern, peaking at 14.6 × 107 copies·g−1 in CR5. In contrast, bacterial target gene copies remained stable during years 1–5 but increased significantly by CR10. Meanwhile, fungal target gene copies (F), pH, and electrical conductivity (EC) all reached peaks or troughs between years 1 and 5, with significant rebound by year 10. Soil pH and EC dropped to their lowest levels in CR5 (pH 5.1, EC 85 μS·cm−1) and recovered markedly by CR10 (pH 6.5, EC 150 μS·cm−1). Soil organic matter, available phosphorus, and nitrate nitrogen increased continuously, with the highest values recorded in CR10, whereas ammonium nitrogen declined sharply to 0.52 mg·kg−1 in CR5. Correlation analysis and random forest modeling indicated that bacterial target gene copies, FDA hydrolase, chitinase, nitrate (NO3−), and pH were the most important predictors of Foc target gene copies, with fungal target gene copies ranking highest in predictive importance (%IncMSE = 26%), followed by bacterial target gene copies; the latter exhibited a significant negative association with Foc target gene copies. The proportion of antagonistic bacteria declined continuously from 6.0% to 1.0% during years 1–5 and recovered to 5.0% during years 5–10, exhibiting a trade-off pattern with Foc target gene copies. This study shows that different soil properties exhibit clear temporal divergence under continuous cropping, with microbial factors emerging as the dominant predictors of variation in pathogen target gene copies.</div></details>
+</div>
+<div class="card"><div class="title">Pedological and geochemical characteristics of highly weathered soils derived from ophiolitic rocks in Samar, Philippines<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Jertz Vlyn D. Escala, I. Navarrete, Marvin D. Cascante, V. Asio</div>
+<div class="meta-line">Venue: EURASIAN JOURNAL OF SOIL SCIENCE (EJSS)</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8de8addb8ab196c274092bec86285a0bc47e7e83">Abs</a> · <a href="https://dergipark.org.tr/en/download/article-file/6273459">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Limited information is available on the pedology of highly weathered soils derived from ophiolitic rocks in the Philippines. This study evaluated red, highly weathered soils across the ophiolitic landscape of Eastern Samar. Five soil profiles were described and sampled for laboratory analysis. The geochemical composition of the parent materials ranged from mafic to ultramafic. The soils were acidic [pH(H₂O) = 4.97–6.45; pH(CaCl₂) = 3.95–5.96] and contained low concentrations of available P (trace–1.14 mg kg⁻¹), exchangeable K (trace–0.23 cmolc kg⁻¹), Ca (trace–12.66 cmolc kg⁻¹), and Na (trace), together with low Ca/Mg ratios (0.1–41.7). Profile 2 had comparatively high exchangeable Ca concentrations, particularly in deeper horizons. Ca/Mg ratios increased with depth in Profiles 2 and 3 but decreased in Profile 5. In Profiles 1 and 4, Ca/Mg ratios were very low and could not be calculated in several subsurface horizons because exchangeable Ca and/or Mg occurred at trace levels. Extractable Ni concentrations ranged from 0.16 to 22.40 mg kg⁻¹, with the highest concentration occurring in the Bo2 horizon of Profile 4, indicating contributions from ultramafic materials, Ni accumulation, and adsorption onto Fe (oxyhydr)oxides during weathering. The warm, humid climate, highly weatherable ophiolitic parent material, stable, well-drained topography, and original rainforest vegetation promoted the formation of highly weathered Ultisols and Oxisols. Low OM (0.36%–3.60%) and total N (0.04%–0.25%) contents may reflect anthropogenic effects, particularly periodic burning associated with shifting cultivation. The CIA (55.56–99.31), CIW (55.63–99.58), MWPI (0.14–7.44), and Vogt ratio (1.08–63.95) indicated advanced weathering and substantial losses of major cations. These findings demonstrate that ophiolitic soils under humid tropical conditions undergo intense weathering and leaching, resulting in marked profile-scale variation during pedogenic development.</div></details>
+</div>
+<div class="card"><div class="title">Decoupled recovery of soil physicochemistry, microbiome and methane sink function during secondary forest succession in the Eastern Himalayas<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Mian-Hao Zhang, Xiao-Hui Zhao, Yu-Ting Zhao, Dan-Dan Shi, Wen-Zheng Fu...</div>
+<div class="meta-line">Venue: bioRxiv</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/75e96b350ccc4d4f2127d4842e55f71ab1fbe908">Abs</a> · <a href="https://www.biorxiv.org/content/biorxiv/early/2026/10/05/2026.10.04.753464.full.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Secondary forests are increasingly important for biodiversity recovery and ecosystem functioning after disturbance. As vegetation regenerates, accompanying shifts in soil conditions and microbial communities regulate climate-relevant processes such as atmospheric methane (CH4) uptake. Whether these belowground dimensions recover synchronously, however, remains unclear. Here we show that belowground recovery followed asynchronous trajectories across a forest chronosequence in Metok, Eastern Himalayas. Soil inorganic properties and microbial community composition converged progressively on the primary-forest state as soils acidified. By contrast, soil organic carbon, microbial diversity and abundance appeared to recover by 25 years but diverged again at 40 years. Co-occurrence network topology resembled the primary forest by 40 years, yet the keystone taxa underlying it were entirely stage specific. Atmospheric CH4 uptake fluctuated: uptake recovered to primary-forest levels in 25-year stands but weakened in 40-year stands to rates comparable with the recently disturbed 5-year forest. Rather than canonical methane-cycling taxa, four amplicon sequence variants—three assigned to Mycobacterium—tracked CH4 flux closely while acting as hubs or connectors in the co-occurrence networks, warranting genomic and experimental work to resolve their function. Apparent recovery within the first 25 years therefore did not persist, cautioning against inferring restoration success from early succession alone and highlighting the need for longer chronosequences and repeated observation to resolve the dynamics of secondary-forest recovery.</div></details>
+</div>
+<div class="card"><div class="title">Favorable habitats of endangered halophytes harbor unique soil properties and bacterial communities, with a dominant root-associated genus promoting host plant growth<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Hinako Kubo, Riku Murakami, Kodai Kato, Manami Tsuna, T. Koizumi...</div>
+<div class="meta-line">Venue: Frontiers in Soil Science</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9de59aae8bf822fca30f44911fa990530fedfb3f">Abs</a> · <a href="https://www.frontiersin.org/journals/soil-science/articles/10.3389/fsoil.2026.1959075/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Understanding how edaphic factors and root-associated bacterial communities interact to shape plant growth is essential for effective conservation of halophytic species in coastal ecosystems. We investigated relationships among bulk soil, rhizosphere, and root bacterial microbiota; soil physicochemical properties; and
+ Salicornia europaea
+ growth spanning three distinct areas (Lakeside Park, Ubaranai and Misaki) within a brackish lake in Japan. Among the three study areas,
+ S. europaea
+ individuals from Lakeside Park exhibited the highest mean values for shoot length, fresh weight, dry weight, and number of primary branches, which were 1.9-, 11.2-, 12.1-, and 7.2-fold higher than those at Misaki in 2021, and 1.8-, 4.7-, 6.7-, and 4.7-fold higher than those at Misaki in 2022. Bacterial diversity and community composition associated with
+ S. europaea
+ varied in response to differences in plant growth and edaphic conditions. Soil texture, electrical conductivity, pH, total organic carbon, total nitrogen, C/N ratio, and water-soluble Ca
+ 2+
+ were identified as key factors underlying microbial community structures. Based on heatmap and LEfse analyses, six bacterial genera,
+ Bacteroidetes
+ BD2-2,
+ Candidatus Thiobios
+ , SEEP-SRB1,
+ Calditrichaceae
+ ,
+ Bacteroidetes
+ VC2.1 Bac22, and
+ Luteibacter
+ , were significantly enriched in areas where
+ S. europaea
+ exhibited vigorous growth. Among these,
+ Luteibacter
+ was consistently identified as the unique and dominant genus in root samples from the most favorable habitats. Inoculation experiments further demonstrated that
+ L. aegosomatis
+ and
+ L. jiangsuensis
+ significantly enhanced
+ S. europaea
+ growth, with shoot length, fresh weight, and dry weight being 1.4- and 1.2-, 2.1- and 1.6-, and 1.9- and 1.5-fold higher, respectively, than those of non-inoculated controls. These findings highlight that soil physicochemical conditions modulate root-associated bacterial assemblages and that a unique and dominant root-associated genus in favorable habitats may include strains capable of promoting
+ S. europaea
+ growth. Our results provide new ecological insights into plant–microbe–soil interactions and offer a promising framework for
+ in situ
+ conservation and restoration of rare halophytic species in brackish ecosystems.
+</div></details>
+</div>
+<div class="card"><div class="title">  EMISSÃO DE ÓXIDO NITROSO (N₂O) NA AGRICULTURA: UMA ANÁLISE BIBLIOMÉTRICA<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Marciano Tuchtenhagen da Fonseca, L. Stumpf, Luciene da Silva Pizani Rodrigues da Silva Pizani Rodrigue, Letiele Nunes de Freitas, Tainara Hartwig da Silva...</div>
+<div class="meta-line">Venue: Journal of Education Science and Health</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/903120c6e8d7eaae42acc6030ca1277b30019978">Abs</a> · <a href="https://bio10publicacao.com.br/jesh/article/download/780/496">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">O óxido nitroso (N₂O) é um importante gás de efeito estufa associado principalmente às atividades agrícolas, especialmente ao uso de fertilizantes nitrogenados e aos processos microbiológicos do solo, como nitrificação e desnitrificação. Nesse contexto, o objetivo deste estudo foi realizar uma análise bibliométrica da produção científica mundial sobre as emissões de N₂O em função do uso do solo na agricultura no período de 2022 a 2026. A pesquisa foi conduzida na base de dados Web of Science, utilizando os softwares RStudio com o pacote Bibliometrix e VOSviewer para organização e interpretação dos dados. Foram identificados 997 artigos científicos no período analisado, com crescimento contínuo das publicações entre 2022 e 2025. A China destacou-se como principal país produtor de informações sobre o tema, seguida pelos Estados Unidos, Alemanha e Canadá. O Brasil apresentou participação relevante entre os países emergentes. Os periódicos com maior número de publicações foram Science of the Total Environment e Agriculture, Ecosystems &amp; Environment. A análise de palavras-chave revelou predominância dos termos denitrification, nitrification, greenhouse gas emissions, soil e fertilizer, indicando foco nos mecanismos de emissão de N₂O e em estratégias de mitigação. Conclui-se que o tema apresenta elevada relevância científica e caráter multidisciplinar, com tendência de expansão nos próximos anos, impulsionado pela busca por sistemas agrícolas mais sustentáveis e eficientes.</div></details>
+</div>
+<div class="card"><div class="title">Digitalization of saline lands in Kazakhstan&#x27;s pastures using GIS technologies in desert, foothill semi-desert (vertical), semi-desert (latitudinal) and dry steppe zones<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: S. Kaldybayev, K. Erzhanova, N. Bekmukhamedov, K. Kushenov, A. Naushabayev...</div>
+<div class="meta-line">Venue: Soil Science and Agrichemistry</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7efbedf0775638511514c32ed3eb0872963292ef">Abs</a> · <a href="https://journal.soil.kz/jour/article/download/1132/799">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">In Kazakhstan, scientific, methodological and practical approaches to the management and monitoring of salt pasture lands based on digital technologies are at the stage of formation and require further development. The authors have developed and used data from ground-based studies of saline lands on pastures to compile an information database and digitalize agricultural lands in Kazakhstan. The current state of saline lands on pastures has been studied through field work along routes covering the territory of 12 administrative regions of the republic. A database of salt pastures in desert, foothill semi-desert (vertical), semi-desert (latitudinal) and dry-steppe zones has been compiled, including the following indicators: soil type and subtype, profile morphology, humus and nutrient content, water-soluble salts, granulometric composition, absorbed bases and cation exchange capacity.</div></details>
+</div>
+<div class="card"><div class="title">Engineering Design and Operational Characteristics of Brackishwater Shrimp Farms in Relation to Soil, Water and Tidal Conditions<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: M. Tandel, R. Sadawarte, A. Nikhil, Shubham Janbandhu, Bhavika Tandel...</div>
+<div class="meta-line">Venue: Journal of Scientific Research and Reports</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c023d4f18bae983e57b3ef03a110a4664a5b1a60">Abs</a> · <a href="https://doi.org/10.9734/jsrr/2026/v32i104580">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Aim: The present study assessed the engineering characteristics of operational brackishwater farms in Surat district, with emphasis on farm layout, pond and dike geometry, water supply, pumping and aeration systems, pond-bottom soil, source-water quality and tidal effects. 
+Place and Duration of Study: College of Fisheries Science, Navsari Agricultural University, Navsari, Gujarat. All water samples from brackishwater sources were collected from September to February (2020–2021). 
+Methodology: Brackishwater aquaculture along the Gujarat coast is closely influenced by farm design, site conditions, water-supply arrangements, soil characteristics and tidal dynamics. Fifty-four farms were randomly selected from six research sites: OS1, OS2, OS3 and OS4 in Olpad taluka and CS1 and CS2 in Choryasi taluka. Farms were grouped as small (&lt;2 ha), medium (2–5 ha) and large (&gt;5 ha), and classified according to water-supply mode as pump-fed or tide-cum-pump-fed. Source-water samples were collected near the sampled farms from the water sources used for culture. 
+Results: The sample comprised 46 pump-fed and eight tide-cum-pump-fed farms, with medium farms representing the largest group. Farm areas ranged from 2 to 50 ha, while individual pond areas ranged from 0.02 to 2.00 ha. Significant site-wise differences were observed for several pond and partitional-dike parameters, whereas peripheral-dike dimensions were comparatively consistent among medium and large pump-fed farms. Pond-bottom soils were predominantly clay loam, sandy clay loam and sandy clay, with soil pH ranging from 7.6 to 9.38 and electrical conductivity from 3.26 to 24.07 dS m−1 in pump-fed farms. Source-water temperature, pH, salinity, transparency and total suspended solids ranged from 27–32 °C, 7.6–8.3, 16–18 ppt, 22–28 cm and 76–118 mg L−1, respectively. The highest observed high tide was approximately 6.5 m. Although peripheral-dike erosion was observed across farm categories, within-category statistical tests did not show significant differences between tide-affected and unaffected measurements. 
+Conclusion: Overall, the findings indicate that brackishwater farm planning in Surat should integrate pond geometry, dike protection, water conveyance, aerator placement, soil characteristics and tidal exposure rather than treating these components independently.</div></details>
+</div>
+<div class="card"><div class="title">Assembly processes and network structure of rhizosphere fungal communities in healthy and Ralstonia solanacearum-infected tomato plants<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Cai-Xia Liu, Meng-Li Zhao, Qing-Ying Gao, C. Peng, Liang Wang...</div>
+<div class="meta-line">Venue: Frontiers in Plant Science</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e0c50423b88f2d6cf7bae2a6ac587053a720df02">Abs</a> · <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1956668/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ Bacterial wilt caused by
+ Ralstonia solanacearum
+ is a major constraint to tomato production worldwide. Rhizosphere microbial community is closely linked to plant health. However, how
+ R. solanacearum
+ invasion alters the assembly processes and co-occurrence network in tomato rhizosphere fungal communities remains largely unclear.
+ 
+ 
+ 
+ 
+ 
+ Here, we collected rhizosphere soil samples from three major tomato-producing regions in China to investigate how
+ R. solanacearum
+ invasion affects fungal community composition, network topology, and assembly processes in tomato rhizosphere.
+ 
+ 
+ 
+ 
+ 
+ In this study, fungal community structure differed significantly between healthy and diseased rhizosphere soils, driven significantly by soil pH (
+ P
+ &lt; 0.05). The density of pathogen
+ R. solanacearum
+ in the diseased rhizosphere soil was significantly higher than that in the healthy tomato rhizosphere (
+ P
+ &lt; 0.05). Genera
+ Trichoderma
+ ,
+ Talaromyces
+ ,
+ Mortierella
+ , and
+ Penicillium
+ were significantly enriched in healthy soils (
+ P
+ &lt; 0.05). Network analysis revealed diseased soils had simpler and less stable fungal networks, with decreased node and edge numbers, reduced natural connectivity, and a smaller proportion of connectors. The neutral community model and null model revealed that stochastic processes explained 33.10% of the community variation in healthy tomato rhizosphere fungal communities, whereas they explained 47.40% in diseased soils, with a higher migration rate (
+ m
+ ) in diseased soils (0.0050) than in healthy soils (0.0027). These results indicate that fungal assembly was governed by deterministic processes in healthy soils, while stochastic processes dominated in diseased soils. The fungal communities in diseased soils exhibited narrower niche breadth, and lower proportions of generalists and specialists than those in healthy soils. Collectively, these findings indicate that
+ R. solanacearum
+ invasion leads to niche contraction, reduced generalists and specialists, and increased migration rates in fungal communities. These changes render species coexistence more dependent on dispersal and drift, shifting community assembly from deterministic to stochastic processes and potentially reducing network stability. This study provides deeper insights into soil fungal community assembly and structure following
+ R. solanacearum
+ infection in tomato.
+ 
+</div></details>
+</div>
+<div class="card"><div class="title">Variations in Arctic aerosol iron solubility in relation to leaching methodology, air mass characteristics, and seasonality<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: C. Marsay, A. M. Ebling, P. Morton, W. Landing, C. Buck</div>
+<div class="meta-line">Venue: Biogeosciences</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3b3468206e7bb4f379b7549cf11bc4a76a042f3d">Abs</a> · <a href="https://bg.copernicus.org/articles/23/6857/2026/bg-23-6857-2026.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Atmospheric deposition of the essential micronutrient, iron (Fe), can have an important influence on primary production and marine biogeochemistry. In the Arctic Ocean, the ongoing shift towards seasonal ice coverage means that summertime atmospheric deposition increasingly takes place directly to the surface ocean, rather than onto sea ice. As a result, atmospheric deposition of material emitted from natural and anthropogenic sources may become a more relevant Fe input to the region. As part of the U.S. GEOTRACES GN01 section, aerosols and precipitation samples were collected to quantify the atmospheric delivery of Fe and other trace elements to the Arctic Ocean. Aerosol Fe solubility was assessed using three different leaching approaches. The readily soluble fraction, determined by rapid exposure leaches with ultrapure water (UPW) and filtered seawater (SW) was low throughout GN01, averaging 0.7 % and 1.6 %, respectively. Solubility determined using a more aggressive acetic acid (HAc) leach as an upper limit estimate of post-deposition aerosol Fe bioavailability averaged 44 %. Comparison to Fe UPW-solubility data from winter (median 6.5 %) and springtime (median 1.9 %) aerosol samples collected during the MOSAiC expedition suggests a strong seasonality to Arctic aerosol Fe solubility, potentially associated with winter/springtime Arctic haze. Summertime bulk deposition fluxes, calculated by applying the beryllium-7 method to GN01 data, were estimated at 0.9 ± 1.3 nmolm-2d-1 UPW-soluble Fe, 2.4 ± 1.9 nmolm-2d-1 SW-soluble Fe, and 46 ± 48 nmolm-2d-1 HAc-soluble Fe. Thus, the UPW-soluble Fe flux during GN01 was around an order of magnitude lower than that measured during the winter months despite bulk deposition velocity being almost twice as fast during the summer.</div></details>
+</div>
+<div class="card"><div class="title">Decoupled transport pathways and source materials of black carbon in the Pearl River Estuary and the North Yellow Sea.<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Min Liu, Yan Li</div>
+<div class="meta-line">Venue: Marine pollution bulletin</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3ad1b65fca9ff5b250f1209048e1c0f9a7bb8b24">Abs</a> · <a href="https://doi.org/10.1016/j.marpolbul.2026.120427">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Black carbon (BC) buried in marginal sea sediments represents a significant global carbon sink, yet the relative contributions of different transport pathways and source materials under varying climatic and emission regimes remain poorly constrained. In this study, we analyzed BC content, BC/TOC ratio, stable carbon isotopes (δ13CBC), and sediment grain size in surface sediments from two contrasting Chinese marginal seas: the subtropical Pearl River Estuary (PRE) and the temperate North Yellow Sea (NYS). Using a Bayesian mixing model (MixSIAR), we apportioned BC sources along two dimensions: geographic transport pathway and specific source material. BC concentration ranges overlapped widely, yet PRE had a higher mean than NYS, with distinct controls. In the energetic PRE, grain size sorting drove a clear east-west zonation. In the muddy NYS, this sorting was regionally masked by atmospheric deposition of coal combustion BC at nearshore stations. Pathway apportionment revealed two distinct receiving modes: the open PRE was dominated by marine-proximal 13C-enriched pathway (52.8%) against a uniform atmospheric background (27.2%), whereas the NYS acted as a steady-state sink dominated by terrestrial inputs (riverine: 34.5%; atmospheric: 38.4%). In contrast, source-material apportionment was highly consistent across both regions, following the order: fossil fuel combustion (∼45%) &gt; biomass burning (∼35%) &gt; rock weathering (∼20%). This decoupling, regionally divergent pathways but nationally convergent source materials, arises because BC transport is governed by local physical environments, while its composition reflects larger-scale emission patterns. Our findings clarify BC source-sink processes in Chinese marginal seas and provide scientific support for coordinated atmosphere-river-ocean pollution control.</div></details>
+</div>
+<div class="card"><div class="title">INFLUENCE OF EXCESS NITROGEN ON SOIL MICROBIAL COMMUNITIES IN TURFGRASS SYSTEMS<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Satheesh Kumar Mv, C. Rajamanickam, K. Sabarinathan, D. Leninraja, Subesh Ranjith Kumar C...</div>
+<div class="meta-line">Venue: Genetics and Molecular Research</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/50439cdbafe753587aec750c0dd22c6ae0f298a5">Abs</a> · <a href="https://geneticsmr.com/index.php/gmr/article/download/6147/3899">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">As the main factor influencing plant growth with aesthetic quality and stress recovery, nitrogen inputs are essential to the management of turfgrass. The environmental effects of ineffective fertilization are significant due to the large amount of land devoted to managed turfgrass. The main pathways of nitrogen loss nitrate leaching, surface runoff and gaseous emissions (ammonia and nitrous oxide) as well as the ensuing ecological and public health effects such as groundwater contamination along with methemoglobinemia risk and aquatic eutrophication. Evidence suggests that nitrogen loss is not a natural defect of turfgrass systems, but rather a highly management-dependent phenomenon increased environmental risk arises when fertilizer application exceeds plant demand, coincides with excessive irrigation or is poorly matched to soil and turf conditions. Optimizing Nitrogen Use Efficiency (NUE) will lessen these effects.</div></details>
+</div>
+<div class="card"><div class="title">Thresholded acidity-oxygen stress activates Acetilactobacillus jinshanensis and drives a shift toward deterministic community assembly during breakpoint fermentation.<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Liang-Qiang Chen, Bing-Hao He, Yu-Zhang Wu, Guo-Zheng Wang, Fan Yang...</div>
+<div class="meta-line">Venue: Bioresource technology</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bab05e21ec00f2675dcd178459a8a38452b42795">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Multi-round stacking fermentation links successive production rounds with pit fermentation in Moutai-flavor Baijiu, but quantitative indicators of microbial restructuring remain unclear. This study combined physicochemical monitoring, metagenomics, metatranscriptomics and quantitative polymerase chain reaction across 207 samples from three successive stages. Increasing acidity and lactic acid, starch consumption and late-stage community convergence characterized the stage sequence. Fitted community-displacement relationships showed acidity turning points near 1.0-1.2, whereas no universal oxygen threshold was supported. A composite stress index integrating acidity, acetic acid, lactic acid and inverse oxygen showed a pooled Acetilactobacillus jinshanensis abundance turning point near 0.27. This relationship differed among stages and heaps and did not establish a universal activation threshold. Adding the index did not improve between-team abundance prediction under the evaluated models. Community-level transcripts showed selective redistribution of acid-homeostasis, proton-transport, chaperone, organic-acid-metabolism and redox-related functions. Assembly analyses indicated stronger homogeneous-selection signals, whereas network associations varied by stage without demonstrating a universal hub or experimentally verified ecological role. These observations identify candidate transition windows in the studied stacking system and require process-specific validation before operational application.</div></details>
+</div>
+<div class="card"><div class="title">How soil sampling reflects DTPA-extractable micronutrients and their spatial variability in a cultivated field<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: C. Gülser</div>
+<div class="meta-line">Venue: EURASIAN JOURNAL OF SOIL SCIENCE (EJSS)</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ca37d90143f2b77042cdb00e6a9e2d84d7c0bee4">Abs</a> · <a href="https://dergipark.org.tr/en/download/article-file/6330568">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study investigated the spatial variability of DTPA-extractable Fe, Mn, Zn, and Cu in a cultivated field, their relationships with selected soil properties, and the optimum number of samples required to estimate mean micronutrient concentrations precisely. Forty-nine soil samples were collected at 5-m intervals from a square grid within a 30 × 30 m cultivated plot. Mean DTPA-extractable concentrations were 71.80 mg kg⁻¹ for Fe, 350.26 mg kg⁻¹ for Mn, 2.58 mg kg⁻¹ for Zn, and 4.11 mg kg⁻¹ for Cu. The coefficients of variation were higher for Fe (20.6%) and Zn (19.2%) than for Mn (11.8%) and Cu (8.4%). Spatial variability was best described by spherical models for Fe and Mn and exponential models for Zn and Cu. The spatial correlation ranges followed the order Zn (67 m) &gt; Cu (17 m) &gt; Fe (15 m) &gt; Mn (8 m). Nugget-to-sill ratios indicated strong spatial dependence for Fe (0.039%), Mn (8.03%), and Cu (11.32%) and moderate spatial dependence for Zn (42.86%). In principal component analysis, Fe, Cu, and soil organic matter (OM) had high negative loadings on PC1, whereas Zn contributed most strongly to PC2. Fe was positively correlated with soil OM and negatively correlated with Mn, Zn, pH, Ca, and Na. Mn was positively correlated with Zn and Cu, whereas Zn was positively correlated with silt and pH. Cu was negatively correlated with pH, Ca, Mg, and K. The numbers of samples required to estimate mean concentrations within allowable errors of 5%, 10%, and 20% followed the order Fe (69, 17, and 4) &gt; Zn (59, 15, and 4) &gt; Mn (23, 6, and 2) &gt; Cu (11, 3, and 1), respectively. Thus, greater spatial variability in a micronutrient requires a larger sample size to estimate its field mean precisely.</div></details>
+</div>
+<div class="card"><div class="title">Role of Science and Technology in Poverty Alleviation Through Smart Agriculture Process in Nigeria<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: A. Ahmed</div>
+<div class="meta-line">Venue: International Journal of Computer Science and Mathematical Theory</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1825e241148cd8ee5415a880569771a3eb382987">Abs</a> · <a href="https://iiardjournals.org/get/IJCSMT/VOL. 11 NO. 3 2025/Role of Science and Technology 158-165.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">A smart Agriculture, is also known as precision agriculture which is rapidly growing field that
+involves the integration of technology and data analysis to optimize agriculture practice and
+increase efficiency in crop production in Nigeria to control the food shortage and scarcity. The
+smart agricultural it involves the use of sensor, drone satellite imagery and other technologies to
+monitor crops growth, soil condition, and weather partner. this information can be used to
+optimized irrigation, fertilization and pest control practice, ultimately leading to higher crop yield
+and reduce the waste of resource, more also smart agriculture involves the use of data analytic to
+analyze the collected data and identify pattern and correlations. This information can be used to
+informed decision about the planting, harvesting and storage. Automation is another key feature
+of smart agriculture, as it allows for more efficient and cost-effective farming practice, such as
+automated irrigation system and robotic harvesting equipment. Looking Nigeria in food shortage
+there are so many benefit of smart agricultural practice in a numerous way which include, increase
+efficiency, reduce waste and improve sustainability, it can also help to reduce the environmental
+impact of agriculture by reducing the use of pesticide and fertilizer, as well as reducing
+greenhouse gas emission through more efficiency farming practice. So in a nutshell smart
+agriculture present a high significant opportunity to improve the sustainability and productivity
+of agriculture. It can help farmers to make more inform decisions, reduce waste, and increase
+efficiency ultimately leading to a more sustainability and profitable agriculture sector and boost
+the economy growth of Nigeria.</div></details>
+</div>
+<div class="card"><div class="title">Comparative evaluation of halloysite nanotubes and zirconium oxide nanoparticles for agricultural drainage wastewater treatment<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Engy A. Aboelmakrem, S. El-Tantawy, Ahmed M. El-naggar, Mohamed M. A. El-Sokkary</div>
+<div class="meta-line">Venue: Scientific Reports</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5de5593735c9ac6b63cce52f0c9e12751c124932">Abs</a> · <a href="https://www.nature.com/articles/s41598-026-68352-6.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Agricultural drainage wastewater contains complex mixtures of dissolved salts, nutrients, organic pollutants, heavy metals, and microbial genetic material, posing significant challenges for water quality management and agricultural reuse. Unlike most previous studies that investigated synthetic wastewater or single-contaminant systems, this study presents a laboratory-scale comparative evaluation of halloysite nanotubes (HNTs) and zirconium oxide nanoparticles (ZrO₂-NPs) for the treatment of real agricultural drainage wastewater collected from Mansoura University, Egypt. Wastewater quality was evaluated using physicochemical analyses, heavy metal determination, quantitative PCR (qPCR)-based microbial genetic marker analysis, hydrochemical assessment, and multivariate statistical analyses, including Pearson correlation, principal component analysis (PCA), and hierarchical cluster analysis (HCA). Both nanoadsorbents improved wastewater quality under the investigated experimental conditions, although distinct treatment behaviors were observed. HNT₃ produced the greatest reductions in most physicochemical parameters and heavy metal concentrations, whereas ZrO₂-NPs generally resulted in greater reductions in detectable bacterial, protozoan, and viral genetic markers measured by qPCR. Multivariate statistical analyses consistently differentiated treated samples from untreated wastewater and supported the observed treatment patterns. Hydrochemical assessment further demonstrated reductions in salinity- and sodicity-related hazards relative to internationally recognized irrigation water quality criteria, although some irrigation risk indicators remained within categories requiring appropriate management depending on crop type, soil characteristics, and local irrigation conditions. The integrated assessment demonstrates that the complementary performance of HNTs and ZrO₂-NPs extends beyond heavy metal removal to include improvements in physicochemical water quality, reductions in detectable microbial genetic markers, and hydrochemical characteristics relevant to irrigation. These findings provide laboratory-scale evidence supporting the potential application of nanoadsorbents for agricultural drainage wastewater treatment under controlled conditions. However, because adsorption kinetics, adsorbent regeneration, microbial viability, viral infectivity, nanoparticle residuals, environmental risk, and field-scale performance were not evaluated, further investigations are required before practical agricultural wastewater reuse can be recommended.</div></details>
+</div>
+<div class="card"><div class="title">Nutrient Limitations and Bacterial Community Dynamics in Rhizosphere Versus Non-Rhizosphere Soils of Camellia tetracocca Across Plantation Types and Habitats<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Xiao-Hui Xu, Di Meng, Tian-Fei Hu, Shu-Kui Chang, Wen-Min Guo...</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f701fc3cd75ae2777d2e22361aa049cd5420673a">Abs</a> · <a href="https://doi.org/10.3390/agronomy16191944">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Despite the ecological and economic importance of Camellia tetracocca, a rare ancient tea germplasm endemic to karst areas, variation in rhizosphere effects across plantation types and associated soil ecological coupling patterns remain poorly understood. This exploratory study compared physicochemical, biochemical, and bacterial community traits between rhizosphere and non-rhizosphere soils across three C. tetracocca plantation types—wild millennium ancient (MA), century-old cultivated (CC), and modern cultivated (CT)—representing a stand-age and management gradient. Soil nutrient pools, extracellular enzyme activities, bacterial diversity, and taxonomic composition were measured, and permutational multivariate analysis of variance (PERMANOVA), Mantel tests, and co-occurrence networks were integrated to characterize interactive linkages among soil abiotic and biotic variables. Results showed that soil organic matter (SOM) and total nitrogen concentrations in CT were 2.7-fold and 1.6-fold greater than those in MA, respectively. Nutrient limitation patterns diverged by habitat and stand age: non-rhizosphere soils of MA exhibited phosphorus limitation, whereas MA rhizosphere soils and all soils from CC and CT were dominated by nitrogen limitation. Explicit quantification of the rhizosphere effect (RE) revealed complex, indicator-specific patterns rather than a uniform age trend: MA showed the strongest positive RE for available phosphorus (+82.19%) and C-cycling hydrolases (βG: +18.82%, CBH: +29.98%), whereas polyphenol oxidase was the only enzyme showing a consistent increase in RE with cultivation age (MA &lt; CC &lt; CT). PERMANOVA indicated that plantation type explained the largest proportion of variation in bacterial community composition (R2 = 0.400, p &lt; 0.001), whereas habitat (rhizosphere vs. non-rhizosphere) had no significant overall effect (p = 0.829). Mantel tests and network analysis revealed that SOM, rather than pH, was the strongest correlate of microbial community structure in these karst soils, and rhizosphere microhabitats strengthened tight correlations among soil nutrients, enzyme activities, and bacterial communities. These findings advance understanding of age-associated rhizosphere response patterns in rare ancient tea ecosystems and provide theoretical support for germplasm conservation and sustainable management of karst tea plantations.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
