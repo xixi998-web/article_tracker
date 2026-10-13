@@ -20574,5 +20574,17 @@
   "doi:10.3390/agronomy16191944": {
     "source": "top_journal",
     "title": "Nutrient Limitations and Bacterial Community Dynamics in Rhizosphere Versus Non-Rhizosphere Soils of Camellia tetracocca Across Plantation Types and Habitats"
+  },
+  "arxiv:2610.07883": {
+    "source": "top_journal",
+    "title": "Revar3r: gauge-aware perturbation uncertainty for feed-forward 3d reconstruction"
+  },
+  "arxiv:2610.07788": {
+    "source": "top_journal",
+    "title": "Image-Space Refraction Correction for Underwater 3D Reconstruction: Warping Flat-Port Views into Pinhole Perspective"
+  },
+  "arxiv:2610.08978": {
+    "source": "top_journal",
+    "title": "S2Tok: Streaming 3D Gaussian Reconstruction with Persistent Spatial Tokens"
   }
 }
