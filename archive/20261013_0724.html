@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-13 07:24 · Core 7 · Proxy 3 · Eco 2</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Peat Soil Chemistry–Maize Productivity Correlations under Red Mud and Goat Manure Amendments<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: E. Kusuma, D. Suswati</div>
+<div class="meta-line">Venue: Jurnal Biologi Tropis</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/85f7a78fc3d98eaca36aa8f8ef80fecf33a28d9b">Abs</a> · <a href="https://jurnalfkip.unram.ac.id/index.php/JBT/article/download/13507/7581">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Peat soils are characterized by high acidity, low base saturation, and complex nutrient dynamics, making relationships between soil chemical properties and maize productivity important to evaluate under different amendment regimes. This study aimed to explore these relationships under combinations of red mud and goat manure. The experiment was conducted for three months using peat soil from North Pontianak District, Pontianak City, Indonesia, in a 4 × 3 factorial arrangement with four red mud rates (100, 200, 300, and 400 g/polybag) and three goat manure rates (1,000, 2,000, and 3,000 g/polybag), with three replications (36 experimental units). Pearson correlation analysis explored relationships between soil pH, organic C, total N, available P, exchangeable K, Ca, Mg, and Na, cation exchange capacity, base saturation, and maize grain weight and number per cob. Correlation patterns varied among amendment combinations. Nominal associations were observed for pH, exchangeable Ca, K, and Na with grain number or weight in several combinations, while available P and cation exchange capacity were associated with grain weight in selected treatments. Overall, the observed relationships were combination-specific. Because each combination had only three replications and multiple correlations were examined, these findings should be interpreted as exploratory. Further studies with greater replication and factorial analysis are needed to confirm the observed relationships.</div></details>
+</div>
+<div class="card"><div class="title">Amendment-driven changes in nutrient availability and forage uptake in a recently converted boreal soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: Aman Dhindsa, Adrian Unc, A. J. Kedir, M. Oelbermann</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/17072724b583712290b53612e1484da621ba68aa">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00318-6.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Climate change and concerns over regional food security and sovereignty are accelerating the expansion of land-based agriculture into northern boreal regions. This requires tailored solutions to overcome the severe fertility constraints of recently converted Podzolic soils. Organic matter additions and liming agents have been proposed as rapid-solution soil amendments due to their capacity to reduce soil acidity, mediate nutrient availability and uptake, and improve crop nutrient use efficiencies. A randomized complete block design field trial was established in Central Labrador, Canada, from May to September 2023, the first-year post-conversion from forest to agriculture. Treatments included: mineral fertilizer (300 kg/ha 20:10:5 N:P:K + 176 kg/ha potash) or fish meal (1,075 kg/ha), as nutrient sources; biochar (20.8 Mg C/ha), peat (25.1 Mg C/ha), or peat with limestone (25.1 Mg C/ha peat + 5,400 kg/ha limestone), as organic matter inputs / liming agents; and monocrop oat, pea, and oat-pea intercrop, as cropping systems. All 36 treatment combinations were replicated across three blocks. Biochar-amended and peat with limestone-amended plots produced the highest forage crop aboveground biomass, nutrient (N, P, K) uptakes, and use efficiencies (p &lt; 0.05). Treatments that increased soil pH and nutrient supply had immediate positive effects on soil fertility parameters in this sandy acidic Podzolic soil. Biochar, as well as peat with limestone, provided immediate alleviation of Podzolic fertility constraints (low pH, low CEC, poor organic matter functionality) in the first-year post-conversion, enabling oat and pea crop production before long-term soil organic matter accumulation can develop.</div></details>
+</div>
+<div class="card"><div class="title">Multivariate Assessment of Soil Quality under Natural and Conventional Farming Systems in Andhra Pradesh, India<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: D. Bharathi, K. V. Lakshmi, Maderametla Roja Rani, K. S. Kumar, J. Yeluripati</div>
+<div class="meta-line">Venue: Indian Journal Of Agricultural Research</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c98a28d7704ef989b4582c45e556c27b8530d931">Abs</a> · <a href="https://doi.org/10.18805/ijare.a-6617">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Background: Soil quality is a key indicator of sustainable agricultural productivity and ecosystem health. This study evaluated the effects of natural farming (NF) and conventional farming (CF) on soil physicochemical properties and soil quality across three model mandals of Andhra Pradesh, India. Methods: Thirty composite soil samples (15 NF and 15 CF) were collected during the 2024-2025 cropping season and analysed for pH, electrical conductivity, bulk density, porosity, soil organic carbon and available nitrogen, phosphorus and potassium. Soil quality index (SQI), fertility index (FI) and nutrient index (NI) were determined using principal component analysis (PCA)-based weighting and standardized scoring methods. Result: Natural Farming soils exhibited comparatively higher soil organic carbon, lower bulk density and greater porosity than conventional farming soils. Principal component analysis explained 59.3% of the total variance, indicating that soil structural and nutrient attributes were the major contributors to soil quality. Although nutrient availability was comparable between farming systems, Natural farming recorded higher SQI values, indicating improved overall soil quality. These findings demonstrate that natural farming can enhance soil quality while maintaining soil fertility under the agroecological conditions of coastal Andhra Pradesh.</div></details>
+</div>
+<div class="card"><div class="title">Effects of Coal Mining on Soil Physicochemical Properties and Analysis of Soil Heavy Metal Sources<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: De-Jun Yang, Yong Yang, Yan Chen, Hai-Jun He</div>
+<div class="meta-line">Venue: Water, Air, &amp; Soil Pollution</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d7578db69a77c300d061bdb1aaa1f9ef670c0af8">Abs</a></div>
+</div>
+<div class="card"><div class="title">Soil-Specific Nitrogen and Phosphorus Leaching Patterns of Recovered Nutrients<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Bárbara Palacino, Paula de la Sen, Trinidad De Marco</div>
+<div class="meta-line">Venue: Nitrogen</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/52b33740f84034cf62caf70a07c6a41bcd6e5d3d">Abs</a> · <a href="https://doi.org/10.3390/nitrogen7040113">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Products obtained from livestock manure and anaerobic digestion are increasingly promoted as alternatives to conventional mineral fertilisers. However, their environmental performance depends on fertiliser characteristics and soil properties controlling nutrient mobility. This study evaluated nitrogen (N) and phosphorus (P) leaching dynamics following the application of pig slurry, digestate, and ammonium sulphate recovered through digestate stripping. Replicated soil column experiments were conducted using four agricultural soils from three European river basins (Ebro, Lielupe and Danube), three fertiliser treatments, and three replicates per treatment, under controlled climatic conditions (15–25 °C; 50–60% relative humidity; 16 h light/8 h dark cycle) reproducing field climate and water application regimes. Leachates were periodically collected and analysed for ammonium (NH4+-N), nitrate (NO3−-N), and phosphate (PO43−-P). Results showed distinct nutrient release and transport patterns among fertilisers and soils. Ammonium sulphate produced rapid NH4+-N losses immediately after application, whereas digestate and pig slurry exhibited a more gradual nutrient release. The relative contribution of ammonium and nitrate to total N leaching varied among soils, highlighting the influence of soil properties on nitrification and nutrient retention processes. Phosphorus losses remained low across treatments. These findings support nutrient recovery strategies adapted to soil conditions to enhance nutrient circularity while minimizing environmental losses. In practical terms, managers and policymakers should require soil-specific nutrient management plans for recovered fertilisers, prioritising slow-release products such as digestate or pig slurry on soils prone to nitrogen leaching, and restricting ammonium sulphate to soils with lower leaching risk.</div></details>
+</div>
+<div class="card"><div class="title">Sustainable Food Security: Integrating Intensive Duck Farming and FABA Agro-Technology Innovations<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Muhamad Khabib Cahyo Nugroho</div>
+<div class="meta-line">Venue: Prospect: Jurnal Pemberdayaan Masyarakat</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/756d11bbfd5035e293094adf4a4197d3d1114ef3">Abs</a> · <a href="https://prospectpublishing.id/ojs/index.php/jpm/article/download/602/355">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The community of Air Anyir Village faces structural challenges: heavy reliance on unsustainable tin mining and low agricultural productivity caused by acidic, marginal land. This study analyzes the effectiveness of the BAHTERA PETAPA program, initiated by PT PLN Nusantara Power Services (PLTU Bangka), in addressing these vulnerabilities and assesses its contribution to the local community. A mixed-methods approach (qualitative and quantitative) was applied within the Asset-Based Community Development (ABCD) framework, which covers asset identification, mobilization of potential, and sustainable asset management. Primary data were collected from 50 key informants and through laboratory testing. The program successfully integrated the intensive duck farming of the &quot;Taret Jaya&quot; group with the production of &quot;Baratani&quot; fertilizer from FABA (Fly Ash and Bottom Ash) by the &quot;FABA Kite Lestari&quot; group. Its effectiveness is evidenced by a 200% increase in chili productivity (from 1 to 3 tons/ha), a 50.6% reduction in fertilizer costs, an improvement of soil pH to near-neutral (7.79), and a greenhouse gas emission reduction of 0.000092 Gg CO₂e/year. The program&#x27;s sustainability is further reinforced legally by Village Head Decree Number 141/61/SK/2008/2025, which formalizes the community&#x27;s livelihood transition toward institutionalized food self-sufficiency.</div></details>
+</div>
+<div class="card"><div class="title">Assessment of Vermicompost, Biofertilizer and Inorganic Fertilizer Application for Improving Soil Fertility in Sandy Loam Soils of Rajasthan<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Kusum Kurdiya, M. Hindala, Shiv Pratap Choudhary, Ganesh Narayan Meena, Anita Associate...</div>
+<div class="meta-line">Venue: International Journal of Drug Delivery Technology</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/41e0a0a7ebedd514536975bda05d8b2a418bb227">Abs</a> · <a href="https://doi.org/10.25258/ijddt.16.85s.166">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The study evaluated the impact of vermicompost, biofertilizer, and inorganic fertilizers on soil fertility in sandy loam soil under Rajasthan’s semi-arid conditions. The initial soil was slightly alkaline (pH 8.5), non-saline (EC 0.69 dS m⁻¹), low in available nitrogen (81 kg ha⁻¹) and organic carbon (0.25%), and moderate in phosphorus, potassium, sulfur, and micronutrients. After cropping, significant improvements in soil properties were observed under organic treatments. Vermicompost treatment (T₄) recorded the highest electrical conductivity (0.26 dS m⁻¹), organic carbon (0.33%), sulfur (29.63 ppm), and copper (0.44 ppm). The combined application of vermicompost and biofertilizer (T₅) resulted in the highest available nitrogen (119.28 kg ha⁻¹), zinc (0.67 ppm), iron (4.70 ppm), and manganese (3.08 ppm). Treatment T₃ showed the highest soil pH and available phosphorus, while the control treatment retained the highest available potassium. Overall, vermicompost improved soil organic carbon and micronutrient availability, whereas biofertilizer enhanced nitrogen content. The combined application of vermicompost and biofertilizer proved most effective in improving soil fertility and nutrient status under semi-arid conditions</div></details>
+</div>
+<div class="card"><div class="title">Integrated Environmental and Human Health Risk Assessment of Heavy Metal(loid)s in Soils near Coal-Fired Thermal Power Plants in Northeastern Serbia<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Milena Radomirović, M. Vasić, I. Kodranov, Nevenka N. Mijatović, Marina Radenković...</div>
+<div class="meta-line">Venue: Soil Systems</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3b5ff66418f0ce8562ccdcd87344533d435a3018">Abs</a> · <a href="https://doi.org/10.3390/soilsystems10100115">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil contamination with heavy metal(loid)s derived from anthropogenic activities adversely affects soil quality and agricultural productivity. This study aimed to assess the variations in As, Cd, Cr, Cu, Hg, Ni, Pb, and Zn concentrations in soils from 23 sites, located at varying distances from the Kostolac thermal power plants in northeastern Serbia, and evaluated associated ecological and human health risks. The average concentrations of elements were below average values in the continental crust, with the exception of As and Hg, which were 8.44 and 1.75 times higher, respectively. The maximum allowable concentration was exceeded for Cu and Hg at the same sampling location, with Hg exceeding the limit at an additional location. The ecological risk assessment showed high As enrichment, and elevated enrichment of Hg, Pb. The highest values of pollution load index and potential ecological risk index were obtained at a single site. The total hazard index values for children were above the recommended threshold at three locations, suggesting potential health concerns for children due to cumulative exposure. Total carcinogenic risk values across all sites were within acceptable risk limits, with values slightly higher for children compared to adult.</div></details>
+</div>
+<div class="card"><div class="title">Shortleaf Pine-Oak-Hickory-Bluestem: A Distinct Remnant Plant Community within the Longleaf Pine–Dominated North American Coastal Plain<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Kevin M. Robertson, Cinnamon M. Dixon, Monica T. Rother, A. Reid, Jason T. Isbell...</div>
+<div class="meta-line">Venue: Natural Areas Journal</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/107b98937e16ba008881fba1fb901263ec8c636f">Abs</a> · <a href="https://bioone.org/journals/natural-areas-journal/volume-46/issue-4/2162-4399-46.4.4/Shortleaf-Pine-Oak-Hickory-Bluestem--A-Distinct-Remnant-Plant/10.3375/2162-4399-46.4.4.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Identifying a region&#x27;s full range of remnant plant communities is necessary for conserving its biodiversity and associated ecosystem services. The eastern North American Coastal Plain, known for its historical dominance by longleaf pine-wiregrass (Pinus palustris-Aristida beyrichiana) communities, appears to have had embedded landscapes that supported shortleaf pine-oak-hickory-bluestem (Pinus echinata, Quercus spp., Carya spp., Schizachyrium scoparium) communities that preexist European colonization. We investigated this hypothesis in a local landscape by comparing plant community composition and soil chemical and physical characteristics between remnant longleaf pine and shortleaf pine communities and between shortleaf pine and old-field (post-tillage) pine communities. Ordination showed overall plant species composition to be distinct among the three communities, although with considerable overlap of generalist species. Most indicator species for the shortleaf pine community were identified in previous studies as associated with remnant pine communities and having life-history characteristics associated with “old-growth” grasslands, unlike those for the old-field pine community. They also had more northeastern continental distributions than indicator species for the longleaf pine community. The shortleaf pine community generally had higher soil pH and nutrient concentrations than both longleaf pine and old-field pine communities, and it differed from longleaf pine communities in most physical soil characteristics, consistent with broader distributions of the dominant tree species. These results indicate that shortleaf pine-oak-hickory-bluestem is a remnant community distributed according to local physiographic characteristics. We suggest that this community be identified and prioritized for conservation, including minimizing soil disturbance and maintaining appropriate fire regimes.</div></details>
+</div>
+<div class="card"><div class="title">Sorption, desorption, and leaching of S-metolachlor in two soils amended with maize stover<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Maiara Pinheiro da Silva Borges, M. M. Trezzi, A. da Costa Lima, Grazielle Rodrigues Araújo, Vicente Bezerra Pontes...</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/459872b43476eafe5b7a2ac358fca8c2d04cf480">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00333-7.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">S-metolachlor is widely used across various crops for its effectiveness as a grass herbicide and is considered pivotal, particularly amidst multiple cases of resistance in weed biotypes of the Poaceae family. In no-till systems, the presence of surface residues can modify herbicide retention, release, and mobility. This study evaluated the influence of maize stover on the behavior of S-metolachlor in two contrasting soils from Paraná, Brazil: a clayey Oxisol and a sandy Ultisol. Maize stover was applied at rates ranging from 0 to 1% (0 to 20 t w/w). Sorption and desorption were determined using the batch equilibrium method, and leaching was assessed in PVC columns under simulated rainfall (60 mm). Herbicide quantification was performed by high-performance liquid chromatography. Maize stover significantly altered soil chemical attributes (pH, C, P, and K), resulting in increased S-metolachlor sorption. Freundlich sorption coefficients (Kfs) ranged from 3.24 to 5.98 mg(1−1/n) L1/n kg− 1 in the Oxisol and from 1.48 to 2.61 mg (1−1/n) L1/n kg− 1 in the Ultisol. Maximum sorption was observed at the 1% residue rate, reaching approximately 64% in the Oxisol and 37% in the Ultisol. In the absence of maize stover, more than 70% of the herbicide remained within the 0–5 cm soil layer. In the Oxisol, 9–30% of the applied herbicide was retained in the stover layer across application rates ranging from 5 to 20 t ha⁻¹, with greater accumulation in the surface soil. S-metolachlor was detected in the leachate at lower residue rates. These findings demonstrate that maize stover enhances S-metolachlor retention, reduces leaching potential, and may improve herbicide persistence and efficacy while mitigating environmental risks.</div></details>
+</div>
+<div class="card"><div class="title">Reversible Inhibition
+of Ammonia Monooxygenase by
+1,9-Decanediol Triggers a RegB-RegA-Associated Energy Crisis and Stress
+Response in
+ Nitrosomonas europaea<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Wen-Qi Yang, Kai Zhang, Yao Hua, Ze-Dong Chen, E. Kuramae...</div>
+<div class="meta-line">Venue: Journal of Agricultural
+and Food Chemistry</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/cd0df00d43022f53143ca9b535017b736c07eeeb">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 1,9-decanediol, a rice-derived biological nitrification inhibitor (BNI) suppresses soil nitrification and nitrous-oxide emissions, but the mechanisms of action against ammonia-oxidizing bacteria remain unclear. Combining physiology and transcriptomics in Nitrosomonas europaea, we show that a dose-dependent and reversible inhibition of ammonia oxidation by 1,9-decanediol by up to 44.7%, while maintaining high cell viability. Transcriptomics reveal that inhibition of ammonia monooxygenase (AMO) triggered an energy crisis, downregulating the respiratory complexes (nuo, coxA/B, atp). We propose that the RegB-RegA two-component system senses the redox imbalance and contributes to a biosynthesis-to-defense transition, marked by an 8.9-fold induction of amoC3 and suppression of ribosomal and amino-acid synthesis. Activation of RND-efflux pumps and chemotaxis enable active counteraction and escape from the stressor. This study provides crude-enzyme-based evidence for AMO as a primary target of a reversible BNI and integrates it with genome-wide transcriptomics, offering molecular insight into designing nature-based nitrification inhibitors and BNI-enhanced crops.</div></details>
+</div>
+<div class="card"><div class="title">Environmental Sustainability of Soybean Production in the Democratic Republic of Congo: Cases of Production Systems in the South‐Kivu and Kasaï‐Lomami Provinces<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: R. Malembaka, Stephan Pfister, Braida Thom, K. Kintche, Johanna Jacobi</div>
+<div class="meta-line">Venue: Journal of Sustainable Agriculture and Environment</div>
+<div class="meta-line">Published: 2026-10-06</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f2a5247bc9dfd885bb926445fff2eb3698177786">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sae2.70216">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Soybean is increasingly grown in the Democratic Republic of the Congo (DRC), produced mainly in small‐scale systems and supplied locally for human consumption. Prospects of large‐scale expansion and intensification, with potential environmental drawbacks, loom and call for a sustainability analysis of soybean agri‐food systems. We assessed the environmental impacts of different soybean production systems, and evaluated options for inputs reduction and yields improvement, in the east and centre of the DRC. We mapped soybean value chains of production in small and large‐scale systems, used the Life Cycle Assessment (LCA) method for inventory and assessment ecological impacts on climate change, acidification, fossil energy use, particulate matter formation, land use, biodiversity loss, and soil quality. We additionally examined the correlations between productivity and environmental sustainability. Results showed that small‐scale systems were mostly with less than 1 hectare, largely intercropped (&gt; 80%) and had better land‐use efficiencies. Seed and compost inputs rates oscillated significantly across small‐scale farmers&#x27; systems, still their ecological footprints were similar. In contrast, large‐scale soybean productions were monocropped, with no amendment but relied on mineral fertilizers, and mechanized operations with fossil fuels. Large‑scale production delivered about four times more soybean yield but caused severe environmental impacts of tenfold higher than small‑scale production systems, in all the impact categories assessed except for land occupation. In small‐scale production systems, productivity and environmental sustainability indicators correlated positively with each other, but negatively with farm size, pinpointing the need to maintain and support the adoption of better farming practices even as the farm size increases. Our sensitivity analysis suggested that production in small‐scale with improved quantity and quality of seeds and compost inputs could achieve an economically viable yield with still much lower ecological impacts compared to the large‐scale production. Therefore, a system optimizing both productivity and environmental preservation is to be sought after. Our study and the LCA method implementation limitations are discussed and call for further investigation with larger samples sizes and adaptation of emissions modelling to the region for comprehensive LCA.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
