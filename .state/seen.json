@@ -20766,5 +20766,125 @@
   "doi:10.1007/s12518-026-00809-9": {
     "source": "top_journal",
     "title": "Tracing the invisible footprint of mining in Iran: spectral mapping of heavy metal contamination in arid soils with a remote sensing approach"
+  },
+  "doi:10.1145/3857220": {
+    "source": "top_journal",
+    "title": "Heritage3DMtl: An Open Multi-Modal UAV Dataset of Montreal’s Diverse Heritage Buildings for Research"
+  },
+  "arxiv:2610.19847v1": {
+    "source": "arxiv",
+    "title": "VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting"
+  },
+  "arxiv:2610.19742v1": {
+    "source": "arxiv",
+    "title": "HyperLoop: Hyperspectral-Assisted Loop Closure Detection in 3D-SLAM for Planetary Exploration"
+  },
+  "arxiv:2610.19502v1": {
+    "source": "arxiv",
+    "title": "Holi-Spatial 360: Generative Reconstruction from Sparse Panoramas for Spatial Rendering and Intelligence"
+  },
+  "arxiv:2610.16292v1": {
+    "source": "arxiv",
+    "title": "3D Gaussian Splatting for Fine-grained Urban Scene Reconstruction via Semantic-guided Density Control and Loss Design"
+  },
+  "arxiv:2610.15548v1": {
+    "source": "arxiv",
+    "title": "PointWalker: Mapless Quadruped Locomotion Directly From Raw LiDAR Point Clouds"
+  },
+  "arxiv:2610.15157v1": {
+    "source": "arxiv",
+    "title": "RootSLAM: Square Root Bundle Adjustment for Visual-Inertial SLAM"
+  },
+  "arxiv:2610.11241": {
+    "source": "top_journal",
+    "title": "TAP3D: Thermal-Assisted 3D Human Point Clouds"
+  },
+  "arxiv:2610.11857": {
+    "source": "top_journal",
+    "title": "Pose-Free Feed-Forward 3D Inpainting via Learnable Mask Attention and Support Token Refinement"
+  },
+  "arxiv:2610.11612": {
+    "source": "top_journal",
+    "title": "PointVGGT: Zero-Shot Multiview RGB-D Point Cloud Registration with Visual Geometry Foundation Priors"
+  },
+  "arxiv:2610.19681v1": {
+    "source": "arxiv",
+    "title": "MicroSDF: Microfacet-Driven Hybrid Neural SDFs for Mixed-Reflectance Surface Reconstruction"
+  },
+  "arxiv:2610.19674v1": {
+    "source": "arxiv",
+    "title": "Remember, Revisit, Revise: Scaffold Memory for Long-Horizon 3D Geometry"
+  },
+  "arxiv:2610.19097v1": {
+    "source": "arxiv",
+    "title": "Benchmarking 3D Reconstruction for Under-Ice Robotic Perception in Arctic Environments"
+  },
+  "arxiv:2610.18479v1": {
+    "source": "arxiv",
+    "title": "RTISSLAM: In-air Imaging Sonar SLAM using a Robust Pose Graph and Occupancy Grid Mapping"
+  },
+  "arxiv:2610.15854v1": {
+    "source": "arxiv",
+    "title": "Sharper Frames, Worse Rooms: Viewpoint Coverage Dominates Image Quality in Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2610.12568v2": {
+    "source": "arxiv",
+    "title": "MIRAGE: Metric Inference and Reliability-Aware Gaussian Estimation from Feed-Forward Vision"
+  },
+  "arxiv:2610.12727": {
+    "source": "top_journal",
+    "title": "Zebra3D: Efficient Hybrid Foundation Models For Scalable 3D Reconstruction"
+  },
+  "arxiv:2610.12786": {
+    "source": "top_journal",
+    "title": "Domain Adaptation of SAM 2.1 for Building-Component Segmentation in Image-Based 3D Reconstruction"
+  },
+  "arxiv:2610.19786v1": {
+    "source": "arxiv",
+    "title": "LiFi: LiDAR Generation from Multi-View Images via Geometric and Semantic Collaborative Guidance"
+  },
+  "arxiv:2610.19538v1": {
+    "source": "arxiv",
+    "title": "RDCompGS: Rate-Distortion Optimization for Compression of 3D Gaussian Splatting with Image Codecs"
+  },
+  "arxiv:2610.18168v1": {
+    "source": "arxiv",
+    "title": "Back to the Future: Reverse-Consequence Modeling for Long-Horizon Particle Dynamics"
+  },
+  "arxiv:2610.17936v1": {
+    "source": "arxiv",
+    "title": "PUGS: Physics-Guided Uncertainty Modeling for Underwater Dynamic 3D Gaussian Splatting"
+  },
+  "arxiv:2610.17605v1": {
+    "source": "arxiv",
+    "title": "PLEDGE: Progressive Lossy Error-Bounded Compression of 3D Gaussian Splatting"
+  },
+  "arxiv:2610.17521v1": {
+    "source": "arxiv",
+    "title": "YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation"
+  },
+  "arxiv:2610.16692v1": {
+    "source": "arxiv",
+    "title": "3D-VITAL: Visibility-aware Identity Training from Artificial Liftings of 3D Reconstruction model for Cross-View Object Re-Identification"
+  },
+  "arxiv:2610.16177v1": {
+    "source": "arxiv",
+    "title": "DIGS: Distribution-Informed Gaussian Splatting for Training-Free Open-Vocabulary 3D Segmentation"
+  },
+  "arxiv:2610.15745v1": {
+    "source": "arxiv",
+    "title": "SpikeOcc: Towards Resilient Multimodal 3D Occupancy Perception via Spiking Experts"
+  },
+  "arxiv:2610.11039": {
+    "source": "top_journal",
+    "title": "Rendering-Free Lookahead for Question-Guided Active Vision"
+  },
+  "arxiv:2610.18686v1": {
+    "source": "arxiv",
+    "title": "RadarGSOcc: Doppler-Aware 3D Semantic Occupancy Prediction Using 4D Radar Tensor with Geometric-Semantic Feature Extraction"
+  },
+  "arxiv:2610.16906v1": {
+    "source": "arxiv",
+    "title": "Mining Cross-Modal Perception Gaps in Autonomous Driving: When Camera and LiDAR Disagree"
   }
 }
