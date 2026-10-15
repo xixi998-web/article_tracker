@@ -20886,5 +20886,61 @@
   "arxiv:2610.16906v1": {
     "source": "arxiv",
     "title": "Mining Cross-Modal Perception Gaps in Autonomous Driving: When Camera and LiDAR Disagree"
+  },
+  "doi:10.3389/fmicb.2026.1878175": {
+    "source": "top_journal",
+    "title": "Nitrogen addition alters soil microbial community structure and decrease nitrogen cycling gene abundance in acidic macadamia orchard soils"
+  },
+  "doi:10.56201/rjpst.vol.9.no8.2026.pg88.102": {
+    "source": "top_journal",
+    "title": "Assessment of Soil Physicochemical Properties, Heavy Metal Contamination, and their Socioeconomic and Environmental Impacts in Oil-Producing Communities of the Niger Delta, Nigeria"
+  },
+  "doi:10.3390/plants15193073": {
+    "source": "top_journal",
+    "title": "The Influence of Planting Different Green Manures in Apple Orchards on Soil Fertilizer and Apple Quality in the Loess Plateau"
+  },
+  "doi:10.3389/fenvs.2026.1940953": {
+    "source": "top_journal",
+    "title": "Spatial assessment of soil degradation under intensive agricultural pressure in the central loess plateau"
+  },
+  "doi:10.68258/crop_protection_pest_managem.63882": {
+    "source": "top_journal",
+    "title": "Integrated Management of Soil pH, Potassium Nutrition and Drainage for the Control of Panama Disease in ‘William Hybrid’ Banana Production"
+  },
+  "doi:10.3390/land15101890": {
+    "source": "top_journal",
+    "title": "Long-Term Tillage and Straw-Management Effects on Soil Phosphorus Availability and Wheat Production Under Semi-Arid Dryland Monocropping"
+  },
+  "doi:10.1002/agg2.70471": {
+    "source": "top_journal",
+    "title": "Regulated deficit irrigation exhibits limited effects on soil health and microbial communities in processing tomatoes"
+  },
+  "doi:10.54115/jmi.v10i2.171": {
+    "source": "top_journal",
+    "title": "The Identification and Morphological Description of Parmarion martensi in The Protected Forest Area of The Southern Tip of Tarakan"
+  },
+  "doi:10.54115/jmi.v10i2.201": {
+    "source": "top_journal",
+    "title": "Inventory and Morphological Description of Land Snails in the Gunung Selatan Protection Forest, Tarakan Island"
+  },
+  "doi:10.1021/acsagscitech.6c00207": {
+    "source": "top_journal",
+    "title": "Operationally Extractable Copper and Early-Stage Phytotoxicity in Vineyard Soils: Implications for Cu Risk Assessment and Soil Management"
+  },
+  "doi:10.1007/s44378-026-00341-7": {
+    "source": "top_journal",
+    "title": "Comparative assessment of machine learning algorithms and Ordinary Kriging for predictive mapping of soil clay content in a tropical Guinea Savanna"
+  },
+  "doi:10.1021/acsomega.6c06464": {
+    "source": "top_journal",
+    "title": "Plasma-Enhanced\nMultilayer Coatings on Metal Bipolar\nPlates for Corrosion Resistance and High Electrical Conductivity"
+  },
+  "doi:10.36922/ajwep026240166": {
+    "source": "top_journal",
+    "title": "Geographic information systems-based multicriteria model for sustainable landfill site selection and environmental protection in developing regions: A case study of Arbieto, Bolivia"
+  },
+  "doi:10.3390/su181910226": {
+    "source": "top_journal",
+    "title": "Spatial Distribution, Contamination Assessment, and Sustainability Perspectives of Potentially Toxic Elements in Arid Soils: An Integrated GIS and Multivariate Statistical Approach"
   }
 }
