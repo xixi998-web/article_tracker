@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-15 05:38 · Core 11 · Proxy 1 · Eco 2</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Nitrogen addition alters soil microbial community structure and decrease nitrogen cycling gene abundance in acidic macadamia orchard soils<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: Lin-Yu Qu, Ting-Hong Ye, Xi-Yong He, Li-Ping Yang, Xiao-Rong Huang...</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d0dbc5216c8fef7cb2d737479bc04c6f48ca1e6b">Abs</a> · <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1878175/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Nitrogen addition can alter soil microbial communities and regulate nitrogen cycling processes. However, the role of nitrogen-induced soil acidification in modulating nitrogen cycling in macadamia orchard soils remains poorly understood. Based on a 3-year field fertilization experiment, this study established three treatments: no-nitrogen (N0), medium-nitrogen (N1), and high-nitrogen (N2). We systematically investigate the effects of nitrogen addition on soil chemical properties, the abundance of nitrogen cycling genes, enzyme activities, microbial community structure, and co-occurrence networks. The results showed that nitrogen addition significantly increased the contents of alkaline hydrolyzable nitrogen (AHN) and nitrate nitrogen (NO
+ 3
+ –
+ -N), altered soil stoichiometric ratios, and exacerbated soil acidification. Quantitative PCR (qPCR) analysis revealed that nitrogen addition significantly decreased the abundance of nitrification genes (AOA-
+ amoA
+ ), ammonification gene (
+ ureC
+ ), and denitrification genes (
+ narG
+ ,
+ nirK
+ ,
+ nosZ
+ ), while no significant changes were observed for AOB-
+ amoA
+ or
+ nirS
+ . 16S rRNA gene sequencing demonstrated that nitrogen addition altered the succession of microbial communities towards a copiotrophic (R-strategy) state and altered the predicted carbon-metabolism functional profiles. Co-occurrence network analysis showed that the N2 treatment reduced network complexity but enhanced modularity, suggesting that microbial communities may respond to nitrogen addition through functional modular reorganization. The asynchronous changes between key enzyme activities and their corresponding gene abundances revealed the complex regulatory mechanisms of the nitrogen cycle. Furthermore, correlation analyses identified pH, electrical conductivity (EC), and NO
+ 3
+ –
+ -N were important environmental factors affecting nitrogen cycle function gene groups. These findings provide new insights into the response mechanisms of the nitrogen cycle in the soil ecosystem of Macadamia orchards.
+</div></details>
+</div>
+<div class="card"><div class="title">Assessment of Soil Physicochemical Properties, Heavy Metal Contamination, and their Socioeconomic and Environmental Impacts in Oil-Producing Communities of the Niger Delta, Nigeria<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: E. O. Itiotio</div>
+<div class="meta-line">Venue: RESEARCH JOURNAL OF PURE SCIENCE AND TECHNOLOGY</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bfa4c7082e534a2e1ace087a8db8d2ffb3ae4876">Abs</a> · <a href="https://iiardjournals.org/get/RJPST/VOL. 9 NO. 8 2026/Assessment of Soil Physicochemical Properties 88-102.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This research evaluated the physical and chemical characteristics, heavy metal pollution, and the 
+related socioeconomic and environmental consequences of soil contamination in oil-producing 
+regions of the Niger Delta, Nigeria. An approach utilizing mixed methods, which included 
+laboratory evaluations and household interviews, was used. Soil samples were gathered from five 
+different communities—Ogulagha, Odimodi, Forcados Town, Beniboye, and Yobebe—with three 
+sampling locations in each area (n = 15). A total of 400 respondents were chosen for the 
+questionnaire using Taro Yamane&#x27;s sampling method from a population of 78,134. The laboratory 
+evaluation focused on soil pH, organic carbon content, texture, electrical conductivity, moisture 
+levels, and heavy metals (Cd, Pb, Zn, Ni, Cr, Co, and V) through standard methodologies that 
+involved aqua regia digestion and atomic absorption spectrophotometry. Findings revealed that 
+heavy metal levels and hydrocarbon pollution were particularly high in Forcados Town and 
+Ogulagha, often surpassing the permissible limits set by NESREA. Soil pH was found to be 
+moderately acidic to slightly alkaline, and both organic carbon levels and microbial populations 
+displayed variations that matched the degree of pollution. The questionnaire results indicated a 
+strong perception of the effects of soil pollution, with weighted mean scores between 4.19 and 
+4.37. More than 56.57% of respondents strongly believed that soil contamination contributed to 
+decreased agricultural productivity, while 55.05% noted a reduction in crop yields. Furthermore, 
+60.10% reported noticeable soil degradation, and 51.01% frequently observed oil spills on 
+farmland. Analysis using Kruskal-Wallis indicated no statistically significant differences (p &gt; 
+0.05) in perceived pollution impacts among the communities, reflecting a consistent exposure and 
+experience of pollution effects. Economic repercussions included diminished farm income, falling 
+land values, heightened food insecurity, and health issues related to environmental pollution. The 
+geo-accumulation index (Igeo) and contamination factor (CF) indicated moderate to severe 
+pollution levels at most of the sampling locations. The study concludes that soil contamination in 
+the Niger Delta is widespread in terms of environmental impact and disruptive to socioeconomic 
+conditions, highlighting the need for immediate remediation, stricter enforcement of regulations, 
+and sustainable environmental management practices to improve soil health and safeguard the 
+livelihoods in the affected areas.</div></details>
+</div>
+<div class="card"><div class="title">The Influence of Planting Different Green Manures in Apple Orchards on Soil Fertilizer and Apple Quality in the Loess Plateau<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Zhi-Yuan Bian, Yong-Juan Cheng, Yang Lu, Wen-Fang Li, Xin Li...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5b3b3ee8fb19aac002f8cda44b4ea507b517d48d">Abs</a> · <a href="https://doi.org/10.3390/plants15193073">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Long-term clean tillage in apple orchards on the Loess Plateau has degraded soil properties and diminished fruit quality, highlighting the urgent need for sustainable cover cropping strategies. In a two-year field experiment (two consecutive growing seasons), eight green manure species (annual ryegrass, perennial ryegrass, white clover, smooth vetch, common vetch, rapeseed, hairy vetch, and cocksfoot) were compared with a clean-tillage control. Each treatment was replicated three times, and each plot was 100 m2. Soil physicochemical properties, microbial communities (16S rRNA and ITS amplicon sequencing), and fruit quality parameters were systematically assessed. All grass treatments significantly lowered soil pH and increased soil organic matter and total nitrogen, phosphorus, and potassium contents. Hairy vetch (T7) produced the highest soil organic matter (25.86 g kg−1) and total nitrogen (1.43 g kg−1), while rapeseed (T6) reduced pH most markedly (4.28%). White clover (T3) enhanced bacterial and fungal alpha-diversity and enriched beneficial genera (Sphingomonas, Lysobacter, Mortierella, Chaetomium). However, functional predictions based on 16S/ITS data using FAPROTAX and Tax4Fun (PICRUSt-type predictive tools) suggested a potential increase in chemoorganoheterotrophy and saprotrophy; these predicted functions should be interpreted as hypothesis-generating rather than as direct evidence of microbial function. Common vetch (T5) increased soluble sugar content by 28.1%, and cocksfoot (T8) decreased titratable acidity by 30.8%. The comprehensive analysis indicates that hairy vetch and white clover as the most effective species for improving soil fertility, microbial diversity, and fruit quality. We therefore recommend these two legumes as optimal cover crops for sustainable orchard floor management in rain-fed semi-arid regions of the Loess Plateau.</div></details>
+</div>
+<div class="card"><div class="title">Spatial assessment of soil degradation under intensive agricultural pressure in the central loess plateau<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Xian-Dong Hou, Tao Bai</div>
+<div class="meta-line">Venue: Frontiers in Environmental Science</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a29416b0075323e3dfdf7898f9cdd820ab3c9803">Abs</a> · <a href="https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1940953/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Soil degradation (SD) threatens the sustainability of semi-arid agricultural systems in the Central Loess Plateau, where intensive cultivation and repeated land-use cycles accelerate soil deterioration. This study developed a spatially explicit and uncertainty-aware framework for assessing and mapping SD by integrating soil quality indicators (SQIs), environmental data, remote sensing, and Random Forest (RF) modelling. A total of 350 surface-soil samples were collected and analyzed. Principal component analysis and the minimum data set (MDS) approach were used to identify representative soil-quality indicators. The final MDS included clay, soil bulk density, pH, soil organic carbon, calcium carbonate equivalent, cation exchange capacity, potassium, and sodium adsorption ratio. Among these indicators, pH, SAR, CEC, SOC, K, and clay received the greatest weights, highlighting the importance of soil chemical conditions, sodicity, nutrient retention, organic matter, and texture in soil quality assessment. Soil degradation was quantified by comparing SQI values of agricultural soils with reference values from natural ecosystems. Environmental predictors were then incorporated into an RF model to estimate the spatial distribution of SD and assess predictor importance. The model showed good predictive performance, with
+ R
+ 2
+ values of 0.83 for training and 0.76 for validation, and RMSE values ranging from 0.031 to 0.034. Severe degradation was mainly concentrated in the central and southwestern regions, reflecting the cumulative effects of intensive cultivation, nutrient depletion, and SOC loss. Prediction-interval analysis identified areas with greater uncertainty and priority for additional sampling. The proposed framework provides a practical basis for spatially targeted soil conservation, sustainable agricultural management, and long-term ecosystem resilience. Future research should incorporate biological indicators and temporal monitoring to improve SD prediction under changing climatic and land-use conditions.
+</div></details>
+</div>
+<div class="card"><div class="title">Integrated Management of Soil pH, Potassium Nutrition and Drainage for the Control of Panama Disease in ‘William Hybrid’ Banana Production<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Parj Editorial Office, M. M. *. J. Wakagwa, P. G. Maina, P. K. Njagi, E. Momanyi...</div>
+<div class="meta-line">Venue: African Journal of Crop Protection and Pest Management</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/490b88741b9b74ea246b6a72d880f04b94c26d9b">Abs</a> · <a href="https://parj.africa/crop_protection_pest_managem/article/download/integrated-management-of-soil-ph-potassium-nutrition-and-drainag/pdf/102388">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Background: Despite its importance, banana production is constrained by several biotic and abiotic factors, among which Panama disease or Fusarium wilt, caused by Fusarium oxysporum f. sp. cubense (Foc), is one of the most destructive diseases. Fusarium wilt has historically devastated banana industries worldwide and remains one of the greatest threats to global banana production.
+However, information on the combined effects of soil pH management, potassium fertilization, and drainage improvement on Panama disease suppression and growth performance of Williams Hybrid banana is limited. The region falls within the Upper Midland agroecological zone and is characterized by deep, well-drained volcanic soils that are suitable for banana production. Objective: This study evaluated the effects of soil pH, potassium fertilisation, and drainage on Williams Hybrid banana growth, Panama disease incidence and severity, and their interaction effects. Therefore, this study seeks to evaluate the effects of soil pH, potassium levels, and drainage management on plant growth, disease incidence, and disease severity in Williams Hybrid banana production systems, with the aim of developing sustainable strategies for mitigating Panama disease and improving banana productivity. Specific Objectives i. Methods: A greenhouse experiment was conducted at Karatina University from January to June 2025 using a completely randomised factorial design. Eight treatment combinations comprising two soil pH levels (5.5 and 6.5), two potassium levels (none and recommended rate), and two drainage levels (poor and good) were replicated three times, giving 24 experimental units. Data were subjected to factorial ANOVA in R 4.3.1, and significant means were separated using Tukey’s HSD at P ≤ 0.05. Materials and Methods Study Area The study was conducted in a greenhouse at the School of Agriculture and Biotechnology, Karatina University, Kenya, from January to June 2025. Conducting the experiment under greenhouse conditions enabled controlled manipulation of soil pH, potassium fertilization, and drainage treatments while minimising environmental variability.
+Experimental Materials Disease-free tissue culture-derived Williams Hybrid banana seedlings were obtained from the Kenya Agricultural and Livestock Research Organisation, Horticultural Research Institute (KALRO-HRI). The seedlings were certified, screened, and confirmed free from major banana pathogens before use in the experiment. Experimental Design and Layout The experiment was arranged in a Completely Randomized Design (CRD) with a factorial treatment structure involving three factors: soil pH, potassium fertilization, and drainage level. The factors included (i) Soil pH :(pH 5.5 (Acidic), pH 6.5 (Near neutral), (ii) Potassium fertilization: No potassium application, recommended potassium application, and (iii) Drainage: Poor drainage and good drainage Each experimental unit consisted of one potted banana seedling grown under a specific treatment combination. Results: The results showed that Treatment 8 (pH 6.5 + potassium + good drainage) produced the greatest growth, with plant height, pseudostem diameter, and leaf area of 138 cm, 15.1 cm, and 3,110 cm², respectively, at 20 WAP, compared with 82 cm, 8.8 cm, and 1,650 cm² under Treatment 1. Disease incidence declined from 85.0% in Treatment 1 to 10.5% in Treatment 8, while disease severity index decreased from 91.5% to 6.2%. Significant main effects were observed for pH, potassium, and drainage. Significant two-way factor interactions occurred between pH and potassium (P = 0.038), pH and drainage (P = 0.045), and potassium and drainage (P = 0.048) for disease incidence, while the three way factor interaction was highly significant (P &lt; 0.001). For final plant height, the three-way interaction was also significant (P = 0.005).
+The crop is grown in over 135 countries and contributes significantly to food systems in tropical and subtropical regions. East African households derive significant economic benefits from banana production, making the crop an essential component of sustainable agricultural systems (Dotto et al., 2018). Recent projections indicate that the disease could affect up to 17% of global banana-growing areas by 2040, resulting in production losses of approximately 36 million tonnes valued at more than US$10 billion (Staver et al., 2020). In Kisii County, where banana contributes more than 70% of household farm income, Fusarium wilt has been associated with significant reductions in yield and farmer earnings (Momanyi et al., 2021). Consequently, the disease poses a serious economic threat to the Kenyan banana industry through reduced productivity, increased management costs, and loss of marketable produce. Previous studies have demonstrated that soil pH affects pathogen survival and disease development, while adequate potassium nutrition enhances plant vigor and increases resistance to vascular pathogens.</div></details>
+</div>
+<div class="card"><div class="title">Long-Term Tillage and Straw-Management Effects on Soil Phosphorus Availability and Wheat Production Under Semi-Arid Dryland Monocropping<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: N. Z. Sosibo, P. Muchaonyerwa, E. Dube, TJ Tsilo</div>
+<div class="meta-line">Venue: Land</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4fc67213e0763b9e43a82f8d1e47110434e3a700">Abs</a> · <a href="https://doi.org/10.3390/land15101890">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Long-term field trials are important for evaluating the long-term effects of crop and soil management practices on soil properties and productivity. The current study evaluated differences in soil organic carbon (SOC), total nitrogen (N), extractable phosphorus (P) and pH across tillage and straw-management systems of dryland wheat monocrop after approximately 40 years (1979–2018) of experimentation on an acric plinthosol. This study also determined the effects of tillage, straw management and N fertiliser rate on wheat grain yield after every 10 years, over 40 years. Treatments consisted of plots under conventional tillage (CT), stubble mulch (SM) and no-tillage (NT), combined with either straw burning (burnt) or retention (not burnt). Nitrogen fertiliser rates tested were 20, 40 and 60 kg N ha−1. Straw burning significantly increased soil pH and Bray-1 extractable P under NT, but not under other tillage systems. The Bray-1 extractable P declined down the profile, regardless of tillage or straw management. Total soil N was higher under NT than other tillage practices but did not vary with straw management, while SOC was not significantly affected by tillage or straw management. Wheat grain yield was significantly increased by higher N fertiliser levels and wetter seasons in recorded years. The results indicate that long-term NT was associated with greater soil N, while NT combined with straw burning was associated with higher soil pH and extractable P in the surface soil. However, the lack of significant differences in SOC among management treatments indicates that additional strategies may be required to increase SOC under this dryland wheat monocropping system. The observed variation in grain yield among production years points to the importance of water availability for wheat production under semi-arid conditions, although the effect of rainfall was not directly tested in the present study.</div></details>
+</div>
+<div class="card"><div class="title">Regulated deficit irrigation exhibits limited effects on soil health and microbial communities in processing tomatoes<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Kelsey Fenn, Courtney Emerson, Logan A. Ebert, Noelymar Gonzalez-Maldonado, Erika H. Yao...</div>
+<div class="meta-line">Venue: Agrosystems, Geosciences &amp;amp; Environment</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7ad9add8f2dd18b76564cc085a55e6708a07053d">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/agg2.70471">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Regulated deficit irrigation (RDI) has been increasingly adopted in California processing tomato (
+ Solanum lycopersicum
+ L.) systems as a strategy to reduce agricultural water use in water‐limited regions. While late‐season RDI can achieve substantial water savings with minimal yield penalties, its implications for soil health and microbial activity remain poorly understood, particularly in subsurface drip‐irrigated systems where soil wetting is spatially constrained. We evaluated the effects of RDI on soil physicochemical and biological properties across the growing season and within tomato beds at two commercial processing tomato sites in California&#x27;s Central Valley. Treatments included a grower standard control and three RDI regimes of increasingly reduced fractions of crop evapotranspiration (approximately 50%, 43.5%, and 37%). Soil health indicators included electrical conductivity (EC), pH, nitrate, ammonium, potentially mineralizable nitrogen (PMN), and microbial biomass carbon (MBC). Microbial communities were characterized using phospholipid fatty acid (PLFA) analysis. No effects were detected for most soil health indicators, including EC, pH, inorganic nitrogen pools, and MBC, although statistical power was limited for some comparisons. PMN exhibited limited change under Medium RDI but did not show sustained declines under all RDI treatments. PLFA profiles indicated overall microbial community stability, with no consistent shifts toward drought‐tolerant taxa, even under higher RDI levels. Instead, site‐specific characteristics, spatial heterogeneity within beds, and seasonal dynamics exerted stronger control over soil health than the RDI regime. These results suggest that late‐season RDI in subsurface drip‐irrigated processing tomato systems can reduce water inputs without substantially degrading soil health or microbial community composition in the short term.
+</div></details>
+</div>
+<div class="card"><div class="title">The Identification and Morphological Description of Parmarion martensi in The Protected Forest Area of The Southern Tip of Tarakan<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Lisdawati Lisdawati, Bimo Aji Nugroho, Nursia Nursia</div>
+<div class="meta-line">Venue: Jurnal Moluska Indonesia</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a1ab9f51850da6f788dde85ed900c7dc99f9c28a">Abs</a> · <a href="https://www.jurnalmoluskaindonesia.com/index.php/jmi/article/download/171/130">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study aims to identify and describe the morphology of shell-less snails (slugs) in the Gunung Selatan Protected Forest area of ​​Tarakan City. The research used a descriptive qualitative approach with a purposive sampling method. Sampling was conducted from November to December 2025 at four observation stations, each using a 20 x 20 meter plot. The results showed that one shell-less snail species was found at all observation stations, namely Parmarion martensi. This species has unique morphological characteristics in the form of a reduced shell as a form of adaptation to its environment. Environmental conditions at the study site support the survival of this species with average parameters: light intensity 226–911 lux, soil pH 5.2–6.0, air temperature 25.8–29.5°C, air humidity 84.8–94% RH, and soil moisture 3.5–4.5%. This data can help understand the concept of morphological adaptation and the relationship of living things to their environment through real phenomena in the surrounding environment</div></details>
+</div>
+<div class="card"><div class="title">Inventory and Morphological Description of Land Snails in the Gunung Selatan Protection Forest, Tarakan Island<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Chrizt Jensen Palungan, Bimo Aji Nugroho, Vlorensius</div>
+<div class="meta-line">Venue: Jurnal Moluska Indonesia</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b6ef96907a41e819703f018ce7ce18db09340c9c">Abs</a> · <a href="https://www.jurnalmoluskaindonesia.com/index.php/jmi/article/download/201/129">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Gastropods are generally found in aquatic areas, but some gastropods live in terrestrial environments, such as land snails. Forests are ideal habitats for land snails, such as the protected forest area of the southern mountain in Tarakan City. However, preliminary data on land snail species in this area is still limited. This study aims to identify and describe land snail species in the protected forest of the southern mountain in Tarakan City. This study used a purposive sampling method at four research stations, establishing 20 x 20 m plots at each station. Sampling was carried out by four researchers from morning to afternoon at each station, exploring the research plot area and measuring abiotic parameters such as temperature, light intensity, air humidity, soil moisture, and soil pH. The results revealed five land snail species: Macrochlamys tersa, Dyakia rumphii, Japonia borneensis, Quantula striata, and Kaliella doliolum. Furthermore, the measurement results for the parameters indicate conditions favorable for the survival of land snails.</div></details>
+</div>
+<div class="card"><div class="title">Operationally Extractable Copper and Early-Stage Phytotoxicity in Vineyard Soils: Implications for Cu Risk Assessment and Soil Management<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Raquel Vázquez-Blanco, Rocío González-Feijoo, Silvia Romeo-Río, David Fernández-Calviño, M. Conde-Cid...</div>
+<div class="meta-line">Venue: ACS Agricultural Science &amp;amp; Technology</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/cb05f52a8e61e9c395526fe98ba6cdfcb5f57b51">Abs</a> · <a href="https://doi.org/10.1021/acsagscitech.6c00207">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Long-term use of Cu-based fungicides in humid vineyards promotes Cu accumulation in topsoils, but plant risk depends on soil properties and on the Cu pools that are operationally extractable rather than on total Cu alone. In this study, soils were collected from vine rows and inter-row areas in 58 vineyards in Galicia, NW Spain. Soil physicochemical properties and total Cu were determined, and six chemically defined Cu fractions were assessed using deionized water, CaCl2, NH4OAc, NH4Cl, EDTA, and a rhizosphere-simulating organic acid extractant. Early-stage phytotoxicity was evaluated using standardized germination and seedling growth bioassays with Sinapis alba, Lepidium sativum, and Sorghum saccharatum. Total Cu concentrations indicated moderate enrichment typical of long-term vineyard soils affected by Cu fungicide inputs, with a mean of 109 mg kg–1 and a range of 16.4–301 mg kg–1. Water and CaCl2 extracted only approximately 1–2% of total Cu, EDTA extracted approximately 50%, and NH4OAc, NH4Cl, and the rhizosphere method extracted approximately 5–7%. Despite Cu enrichment, all species showed high germination rates under the short-term assay conditions. Early seedling responses were more associated with soil pH, organic matter (OM), texture, and selected extractable Cu fractions than with total Cu alone. S. alba showed predominantly stimulatory early growth responses, suggesting that this species may be a promising candidate for further evaluation as a cover crop in Cu-enriched vineyard soils. These results support the combined use of chemical extractions and early-stage plant bioassays for Cu risk assessment, although longer-term studies are required to evaluate chronic phytotoxicity and agronomic performance.</div></details>
+</div>
+<div class="card"><div class="title">Comparative assessment of machine learning algorithms and Ordinary Kriging for predictive mapping of soil clay content in a tropical Guinea Savanna<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Y. A. Awwal, S. M. Yahaya, C. S. Ogbonnaya</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bf3086c6eddb10c5b58ac7291989a59eba9ffeed">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00341-7.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Clay content is an important determinant of soil physical and chemical behaviour, influencing water retention, nutrient availability, and agricultural productivity. Accurate spatial prediction of clay distribution is therefore important for digital soil mapping and sustainable land management. This study compared Random Forest (RF), Cubist, Gradient Boosting Machine (GBM), and Ordinary Kriging (OK) for predictive mapping of clay content in the tropical Guinea Savanna of Kaduna State, Nigeria. Legacy soil profile data collected between 2005 and 2024 (n = 156) were integrated with terrain, climatic, and Sentinel-2-derived environmental covariates generated in Google Earth Engine. Model performance was evaluated using R2, root mean square error (RMSE), mean absolute error (MAE), and computational time, while SHAP analysis was used to assess predictor importance. Clay content varied substantially (2.3–71.0%), with the ML models predicting higher values mainly along drainage corridors and lower landscape positions. Mean annual precipitation, elevation, Topographic Position Index, EVI, and slope showed the highest mean SHAP importance, although their relative contributions varied among models. Cubist achieved the highest validation accuracy (R2 = 0.67, RMSE = 8.32%, MAE = 6.37%) and shortest execution time (0.14 s), followed by RF (R2 = 0.56) and GBM (R2 = 0.45), while OK recorded R2 = 0.08 and RMSE = 12.44%. Under the configurations tested, environmental-covariate-driven ML models provided more accurate predictions than OK. Cubist was the best-performing model among the evaluated configurations, demonstrating the potential of ML-based digital soil mapping for clay characterization and soil resource management in data-scarce tropical environments.</div></details>
+</div>
+<div class="card"><div class="title">Plasma-Enhanced
+Multilayer Coatings on Metal Bipolar
+Plates for Corrosion Resistance and High Electrical Conductivity<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Prawal P. K. Agarwal, B. Meekins, M. Uddi</div>
+<div class="meta-line">Venue: ACS Omega</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5aad47feaca2b8317290245d0216643c7cac002e">Abs</a> · <a href="https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c06464/68792239/acsomega.6c06464.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Metal bipolar plates are central to lowering the cost and weight of proton exchange membrane fuel cell (PEMFC) stacks, yet their long-term use is limited by aggressive corrosion in the acidic, humid, low-pH cathode environment. Multilayer protective coatings combining adhesion-promoting metal interlayers with chemically inert graphitic carbon are widely regarded as a promising solution, but they have historically been deposited slowly and from precursors such as titanium tetrachloride that are difficult to scale safely. Here, we report the design and operation of a showerhead plasma-enhanced chemical vapor deposition (PECVD) reactor that deposits Ti/TiCx/amorphous-carbon (a-C) multilayer coatings on 304 stainless steel using the comparatively safe titanium isopropoxide (TiPO) precursor in combination with a hydrogen plasma. Both continuous radio frequency (RF) and nanosecond-pulsed glow discharges were tested at 10 W and at substrate temperatures up to 300 °C. Cross-sectional scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDS), X-ray diffraction (XRD), and Raman scattering confirm uniform, pinhole-free multilayers in which Ti is reduced from TiPO by atomic hydrogen and the carbon top layer is sp2-rich and graphitic. Carbon deposition rates of 200–237 nm min–1 were obtained, matching or exceeding the best values reported in the literature. A coupled plasma kinetics and showerhead transport model rationalizes these rates, the distinct microstructures obtained under continuous and nanosecond-pulsed excitation, and the measured coating uniformity. The best carbon coatings reach interfacial contact resistance (ICR) values of 5.4–13.5 mΩ·cm2 at 1.10 MPa, with the lowest well below the 2025 U.S. Department of Energy (DOE) target of 10 mΩ·cm2. The coatings showed no detectable Raman or morphological degradation after accelerated thermal cycling between 30 and 100 °C in pH 3 H2SO4, demonstrating their potential as a fast, safe, and scalable coating route for next-generation PEMFC bipolar plates.</div></details>
+</div>
+<div class="card"><div class="title">Geographic information systems-based multicriteria model for sustainable landfill site selection and environmental protection in developing regions: A case study of Arbieto, Bolivia<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Eliana Tapia Alba, Beatriz Amante García, Paul d&#x27;Abzac</div>
+<div class="meta-line">Venue: Asian Journal of Water, Environment and Pollution</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8a3a334b827bdcd7213d2e379066301279fe396a">Abs</a> · <a href="https://article.accscience.com/journal/AJWEP/online_first/ajwep026240166/article_ajwep0262401661_5ab6c8.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">In many developing countries, the final disposal of municipal solid waste remains an environmental and public health problem due to the use of open dumpsites without technical planning or environmental control. Similar conditions have been reported in Asia, Africa, and Latin America, where inadequate waste disposal contributes to groundwater contamination, surface water pollution, greenhouse gas emissions, soil degradation, and health risks for nearby communities. Studies conducted in India, Ghana, Jordan, Ethiopia, Iran, Iraq, Ecuador, Pakistan, Bangladesh, Indonesia, the Philippines, China, Nepal, Sri Lanka, Malaysia, Peru, and Central Asia have highlighted the importance of geographic information systems (GIS) and multicriteria analysis for improving landfill site selection and supporting sustainable waste management. This is the case in the municipality of Arbieto, Cochabamba, Bolivia, where only one community has a reconditioned dumpsite that does not meet technical or sanitary standards. To address this situation, a GIS-based multicriteria model was applied using ArcGIS software, considering variables such as slope, hydrology, geology, vegetation cover, accessibility, land use, productive potential, groundwater recharge zones, protected areas, and distance to populated centers. The model integrated environmental, technical, geological, hydrological, and social criteria to identify suitable areas for final waste disposal. The selected areas present suitable slope conditions, adequate separation from rivers and populated centers, favorable geological and lithological characteristics, and compliance with environmental protection requirements. The results confirm that combining spatial analysis and multicriteria evaluation is an effective strategy for landfill planning in rural municipalities. The study concludes that the municipality of Arbieto should prioritize implementing a controlled sanitary landfill in the selected areas to improve environmental management and reduce the impacts associated with open dumping. The proposed GIS-based multicriteria methodology may also serve as a replicable planning tool for rural municipalities in Bolivia and other regions facing similar solid waste management challenges.</div></details>
+</div>
+<div class="card"><div class="title">Spatial Distribution, Contamination Assessment, and Sustainability Perspectives of Potentially Toxic Elements in Arid Soils: An Integrated GIS and Multivariate Statistical Approach<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: A. El-Sorogy, M. Shokr, Talal Alharbi, Meshal Alqurashi, Al Moatasim H. Al Faify...</div>
+<div class="meta-line">Venue: Sustainability</div>
+<div class="meta-line">Published: 2026-10-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0e039121303699e33b5d9a03ff15c6bdc2eeeef9">Abs</a> · <a href="https://doi.org/10.3390/su181910226">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This investigation was conducted to evaluate the environmental risks associated with cadmium (Cd), cobalt (Co), chromium (Cr), copper (Cu), iron (Fe), manganese (Mn), nickel (Ni), lead (Pb), and zinc (Zn) in the Faifa region in southwestern Saudi Arabia. To accomplish this objective, several contamination indices were applied in addition to principal component analysis (PCA) and hierarchical cluster analysis (HCA). A total of thirty surface soil samples were collected and analyzed to determine their potential toxic element (PTE) concentrations. Moreover, the Normalized Difference Vegetation Index (NDVI) was derived from satellite imagery of the study area using the Google Earth Engine (GEE) platform. NDVI values ranged from −0.02 to 1, indicating generally high vegetation cover, particularly in the northwestern section of the study area where higher NDVI values were observed. After Box–Cox transformation of the raw concentrations (required because most elements departed from normality), the multivariate analysis retained two principal components explaining 59.6% (PC1) and 24.2% (PC2) of the total variance. Cobalt, chromium, copper, manganese, nickel, lead, and zinc all loaded strongly on PC1, a pattern more consistent with a shared lithogenic (parent-material) control than with a single dominant anthropogenic source, while PC2 was dominated by cadmium and iron, which behaved comparatively independently of the other elements. Cd results are reported as indicative because all values fall below the limit of quantification. Attributing these axes to specific anthropogenic or natural sources with confidence would require additional evidence, such as land-use or isotopic data, which lie beyond the scope of the present dataset. This study revealed that the level of PTEs varied from unpolluted to slightly polluted levels, according to the Pollution Load Index (PLI) and the modified Contamination Index (mCd). Decision-makers can use the spatial distribution maps of pollutant concentrations to plan future monitoring campaigns, which will help prevent soil contamination and promote the achievement of the Sustainable Development Goals.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
