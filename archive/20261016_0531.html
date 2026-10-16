@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-16 05:31 · Core 12 · Proxy 7 · Eco 4</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Long-term peanut cultivation alters soil organic C stocks and aggregate stability: insights from coupled iron oxide, microbial, and lignin phenol analyses<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Ying-Ru Liu, Shun-Li Cui, Sheng-Chun Zhou, Hai-Xin Wang, Yi-Bo Wang...</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9968c3954c4ede7869a57513ef398298b73efe82">Abs</a> · <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1971411/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ The microbial and mineral C pumps play crucial roles in soil organic C (SOC) stabilization via complicated organo-mineral interactions. Yet, how both of them regulate SOC dynamics during peanut cultivation remains elusive.
+ 
+ 
+ 
+ The surface soils from five peanut fields of varying ages (0-, 2-, 5-, 10-, and 20-yr.) were selected to elucidate the temporal variations in SOC dynamics and its potential mineral-microbial synergistic regulation patterns, based on PLFAs, eco-enzymatic activity, amino sugars, lignin phenols and Fe oxides analysis, etc.
+ 
+ 
+ 
+ With increasing peanut cultivation ages, SOC, labile C pools, microbial biomass, hydrolase activities, plant‑ and microbial‑derived C (PC and MRC), all exhibited unimodal patterns, peaking at 2-yr. peanut field before subsequently declining. Furthermore, the decreased Cy/Pre (i.e., the ratio of cyclopropyl PLFAs to their monoenoic precursor) and elevated fungi/bacteria values in older peanut fields indicated intensified bacterial physiological stress and a community shift favoring fungal dominance in these fields. Long-term peanut cultivation (i.e., 10 and 20-yr.) decreased SOC lability, enhanced aggregate stability, and altered SOC origins (i.e., enlarged PC but reduced MRC contribution to SOC). As peanut cultivation ages increased, the aggravated soil acidification (evidenced by a decline in pH from 6.10 to 4.57) concurrently enhanced the activation and complexation of Fe oxides, which was attributed to elevated levels of reactive Fe oxides (i.e., Feo and Fep). This transition altered the Fe–C coupling modes from ‘weak’ adsorption-driven (C:Fe molar ratios &lt; 1) in 0- and 2-yr. peanut fields, to ‘strong’ complexation (1 to 6) in the, 5-, 10-, and 20-yr. peanut fields. The PLS-PM and Mantel test further suggested that intensified soil acidification promote reactive Fe oxides accumulation, while labile C pools and microbial biomass positively affect the accumulation of PC and MRC, respectively. Notably, reactive Fe oxides play a significant role only in MRC, rather than in PC accumulation.
+ 
+ 
+ 
+ Overall, these results elucidate the coupled mineral‑microbial influences on SOC dynamics over the peanut cultivation chronosequence, thereby enhancing our understanding of SOC sequestration processes in China’s peanut-producing regions.
+</div></details>
+</div>
+<div class="card"><div class="title">Effect of fertilizer source and rate on phosphorus leaching and extractable phosphorus in soils with long‐term dairy manure history<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Nora Doonan, Qian-Wen Lu, Abigayle Ward, Richard Meinert, Wayne R. Roper...</div>
+<div class="meta-line">Venue: Agrosystems, Geosciences &amp;amp; Environment</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c7017776f04b922efe184b377d3a48d83c35f960">Abs</a> · <a href="https://doi.org/10.1002/agg2.70468">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Land application of dairy manure is a common practice on dairy farms. Long‐term application of phosphorus (P), in the forms of manure or fertilizers, to cropland can lead to a buildup of P in the soil and increased soil test P. Understanding how additional manure inputs can influence P nutrient balances throughout agroecosystems in Connecticut is critical. Intact soil columns were collected from two hay and two corn (
+ Zea mays
+  L.) fields with long‐term history of manure application. Separated liquid dairy manure (SLM) and granular P (GP) were applied to the surface of the soil columns at rates of 54, 108, and 161 kg P
+ 2
+ O
+ 5
+ ha
+ −1
+ along with no fertilizer control. Columns received weekly irrigation to mimic average monthly rainfall in Connecticut. Leachate was collected across six sampling times during a 21‐week incubation following fertilization. P dynamics from soil and leachate were evaluated by measuring total P (TP), modified Morgan (MM) extractable P, MM‐Ca, and pH. Across most fields, there were no significant differences in TP, MM‐P, MM‐Ca, or pH across fertilizer source or application rate. Exceptions were greater TP leachate concentration in Corn Field 2 by GP, greater MM‐P increase by GP in Corn Field 1, and greater pH change by SLM in Corn Field 2. MM‐P and soil pH declined during incubation, while MM‐Ca increased. These results indicate that leachate TP and MM‐extractable nutrient responses were primarily driven by baseline soil properties, reflecting the legacy effects of historical management, throughout the incubation, rather than fertilization treatments alone.
+</div></details>
+</div>
+<div class="card"><div class="title">Unraveling the biochemical and kinetic mechanisms of potassium solubilization from biotite by a Burkholderia strain<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Zi-Han Dong, Lei Zhang, Yue Miao, Yun Chen, Li-Hong Liu...</div>
+<div class="meta-line">Venue: PLOS One</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/cf09d2b273c15beb20563bc848fa979bdba2654a">Abs</a> · <a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0360380&amp;type=printable">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Potassium solubilizing bacteria (KSB) represent a sustainable strategy for enhancing soil K bioavailability through the dissolution of K-bearing minerals, thereby facilitating nutrient cycling. However, the multifaceted biochemical mechanisms driving mineral weathering remain partially understood. The present study explores the K solubilization characteristic and mechanisms of KSB by analyzing the organic acids they metabolize and their interactions with mineral surfaces. Over 30 d, the strain S1 classified to genus Burkholderia achieved a maximum soluble K+ concentration of 39.8 mg/L, representing a 4.5-fold increase over abiotic controls. Mechanistic analysis revealed a synergistic “dual-attack” strategy: continuous acidification (pH 6.42 to 3.82) promoted proton-driven K+ release, while the dominant secretion of citric and malic acids facilitated ligand-mediated complexation of structural cations, destabilizing the aluminosilicate framework. Additionally, the temporal accumulation of polar and acidic amino acids likely served as biogenic regulators, enhancing bacteria-mineral adhesion and interface interactions. Scanning electron microscopy corroborated these chemical findings, revealing extensive surface etch pits and edge exfoliation. These results suggest that the synergistic interaction of proton attack, ligand-mediated chelation, and amino acid-assisted micro-environment regulation drives mineral weathering. This study provides a comprehensive structural framework for KSB-mediated nutrient mobilization, highlighting the potential of Burkholderia as an efficient bio-fertilizer for potassium-deficient soils.</div></details>
+</div>
+<div class="card"><div class="title">Integrated Biochar and Humic Acid Application Enhances Soil Health and Oat Forage Productivity in the Agro-Pastoral Ecotone of North China<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Li-Ze Lv, Zhen-Peng Xu, Hai-Ming Kan, Lei Zhen, Zhuo Pang...</div>
+<div class="meta-line">Venue: Agriculture</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/6efaa847950dcc8266b40a7a60024cf4abc4efde">Abs</a> · <a href="https://doi.org/10.3390/agriculture16202189">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil degradation in the agro-pastoral ecotone of North China severely constrains the productivity of vital forage crops like oat (Avena sativa L.). While biochar and humic acid are known soil amendments, their combined synergistic effects and optimal application ratios remain poorly understood. This study aimed to investigate the integrated effects of biochar and humic acid on soil properties and oat productivity to identify an optimal co-application strategy for this fragile ecosystem. A three-year field experiment (2023–2025) was conducted using a randomized complete block design. Treatments included a control (CK), sole biochar (B1H0), sole humic acid (B0H1), and three combined biochar-humic acid ratios (7:3, 5:5, and 3:7 by mass; B7H3, B5H5, B3H7). We measured key soil physicochemical and biological properties, as well as oat growth, forage yield, and quality parameters. Partial least squares structural equation modeling (PLS-SEM) was employed to elucidate the causal pathways linking amendments, soil quality, and crop performance. The combined application of biochar and humic acid demonstrated significant synergistic effects, outperforming sole applications in improving soil health and oat productivity. The B5H5 (1:1 ratio) treatment was the most effective, significantly reducing soil bulk density by up to 22.4% and increasing the mean weight diameter of water-stable aggregates by 40.7% compared to the CK. This treatment also led to the greatest increases in soil organic matter (68.9%), microbial biomass carbon (142.2%), and the activities of sucrase (139.8%) and urease. Consequently, the B5H5 treatment enhanced oat forage yield by 56.1% and improved its nutritional quality by reducing acid detergent fiber and neutral detergent fiber content by 22.9% and 12.7%, respectively. The PLS-SEM analysis confirmed that the positive effects of the amendments on crop performance were primarily mediated through the enhancement of soil quality (path coefficient β = 0.75, p &lt; 0.001). The integrated application of biochar and humic acid, particularly at a 1:1 mass ratio, is a highly effective strategy for restoring degraded soils in the agro-pastoral ecotone. These findings provide a strong scientific basis for promoting this co-amendment approach as a sustainable solution to enhance agricultural resilience and productivity in fragile environments.</div></details>
+</div>
+<div class="card"><div class="title">Impacts of Two Land-Use Conversion Pathways on Soil Properties and Microbial Communities in Tropical Forests of Hainan Island<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Gui-Hua Wang, Yu-Bo Li, Feng-Ying Han, Chang-Xi Wang, Qi Yu...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/fdedc12ba0bc89075ed5d5c2eb76572d087da997">Abs</a> · <a href="https://doi.org/10.3390/plants15203091">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Large-scale tropical forest conversion to plantations or cropland severely impacts soil health. However, most studies have relied on pairwise designs, single-type chronosequences, or multi-type comparisons that are often confounded by environmental heterogeneity, thereby overlooking the complexity of successive land-use transitions on a common land-use background. Here, we investigated the responses of soil physicochemical properties and microbial communities to two conversion pathways (NSF → ORF → YRF; NSF → ORF → URF → AL) within a single farm, where shared soil parent material and climate allowed for a direct comparison of land-use types with different conversion pathways. Soil properties and microbial diversity were analyzed using physicochemical methods and high-throughput sequencing, with samples collected from five land-use types (six biological replicates per type). Results showed NSF had the highest soil properties. Along NSF → ORF → YRF, TOC, DOC, TN, IN and C/N declined gradually. In contrast, URF exhibited severe degradation, with AL showing partial recovery. Bacterial diversity remained relatively stable, whereas fungal communities were highly sensitive, with diversity decreasing progressively and dominant phyla shifting with intensified disturbance. DOC, EC and SM were most strongly associated with microbial community ordination, with pH showing no significant association. URF had the highest predicted abundance of C/N/S cycling genes, while NSF maintained a balanced fungal trophic structure. This study provides a comparative assessment of soil properties and microbial communities along two tropical land-use conversion pathways, contributing empirical evidence for sustainable land-use management in tropical regions.</div></details>
+</div>
+<div class="card"><div class="title">Divergent successional responses and environmental drivers of soil bacterial and fungal communities in subalpine forests of the Eastern Qilian Mountains<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Zheng-Ni Chen, Wen-Zheng Zong, Lei Ling, Quan-Lin Ma</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c5874d54853104fa1589289fb8c5e6f6848f7978">Abs</a> · <a href="https://doi.org/10.3389/fmicb.2026.1968766">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Soil microbial communities and extracellular enzyme activities play critical roles in regulating carbon (C), nitrogen (N), and phosphorus (P) cycling in forest ecosystems. However, whether bacterial and fungal communities exhibit similar or divergent successional trajectories, and how environmental factors regulate these responses during long-term subalpine forest succession, remain poorly understood.
+ 
+ 
+ 
+ 
+ We investigated a natural successional sequence from broadleaved mixed forest to mature
+ Picea wilsonii
+ forest in Xinglong Mountain, Eastern Qilian Mountains, using high-throughput sequencing combined with measurements of soil physicochemical properties, microbial biomass, and extracellular enzyme activities.
+ 
+ 
+ 
+ 
+ Forest succession significantly altered soil environmental conditions, with surface soil pH increasing from 7.15 at the S1 stage to 7.49 at the S5 stage, whereas total phosphorus (TP) content decreased during early succession and subsequently remained relatively stable. Forest succession significantly influenced bacterial and fungal community composition but did not significantly affect α-diversity. Bacterial communities exhibited stage-specific shifts in the relative abundances of dominant taxa across the successional stages, whereas surface soil fungal communities showed more pronounced compositional reorganization. Mantel tests revealed that bacterial community composition was significantly associated with a broad suite of soil resource variables and environmental conditions, including pH, C and N availability, microbial biomass, and hydrolytic enzyme activities, whereas fungal community composition was primarily associated with soil pH and TP.
+ 
+ 
+ 
+ Collectively, our findings demonstrate that soil bacterial and fungal communities exhibit divergent successional response strategies during subalpine forest development in the Eastern Qilian Mountains. Bacterial communities were shaped by multiple resource-related and environmental factors, whereas fungal communities were more closely linked to soil pH and TP. This study reveals the divergent successional responses of soil bacterial and fungal communities during subalpine forest development under calcareous soil conditions, providing new insights into microbial community assembly processes and environmental regulation during forest succession.
+</div></details>
+</div>
+<div class="card"><div class="title">Exploratory Evaluation of UAV-Guided and Conventional Soil Sampling Strategies in a Semi-Arid Agroecosystem<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Gilbert Fresh López-López, H. E. González-Ramírez, H. Gutiérrez-Flores, Héctor Flores-Breceda, M. Hinojosa-Rivera...</div>
+<div class="meta-line">Venue: AgriEngineering</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/557f4e6adf0828f0930b33e80fb71f642b454e0c">Abs</a> · <a href="https://doi.org/10.3390/agriengineering8100428">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The transition toward Agriculture 4.0 requires soil sampling strategies that really characterize spatial heterogeneity. This study compared conventional five-point composite (5P) and zigzag (ZZ) sampling methods with multispectral image-guided sampling (MI) using a DJI Mavic 3 unmanned aerial vehicle (UAV) (SZ DJI Technology Co., Ltd.), Shenzhen, Guangdong, China) in a semi-arid agroecosystem of northeastern Mexico. In situ measurements included penetration resistance (PR), volumetric water content (VWC), and apparent electrical conductivity (ECa), while laboratory analyses included bulk density (ρb) and soil pH (H2O). Statistical analyses revealed significant differences among sampling strategies for penetration resistance and volumetric water content (p &lt; 0.05). The MI approach captured greater spatial contrasts in penetration resistance within the 10–20 cm depth interval, with PR values reaching up to 5076 kPa, whereas conventional methods recorded substantially lower PR values. UAV-guided sampling identified sampling locations associated with contrasting VWC and PR measurements relative to conventional composite sampling strategies. Soil pH (H2O) and ECa remained stable among sampling methods; however, highlighting the need for methodological standardization and local calibration. Multispectral image-guided sampling facilitates spatial stratification and the characterization of within-field variability in dynamic soil physical properties, supporting stratified soil management and more efficient resource use in semi-arid agricultural systems.</div></details>
+</div>
+<div class="card"><div class="title">Split Versus Single Applications of Solid and Liquid Vermicompost: Impacts on Growth, Chlorophyll Content and Soil Characteristics of Tea (Camellia sinensis L.) Seedlings<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Türker Oğuztürk, T. Yüksek, Filiz Yüksek, Merve Sipahi, Bahriye Pirim...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a3ebecc06c490c369f56d2e81528ee49de6d6396">Abs</a> · <a href="https://doi.org/10.3390/plants15203082">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Limited information is available on how vermicompost form, form-specific dose, and application schedule jointly affect tea seedling development. This 135-day humid outdoor nursery study evaluated solid and liquid vermicompost applied at two doses as either single or three split applications to 270 individually potted Camellia sinensis seedlings assigned to eight factorial treatments and an untreated control. Repeated measurements of seedling height, root collar diameter, and leaf chlorophyll content were analyzed using linear mixed-effects models fitted by restricted maximum likelihood (REML); the control was retained only in supplementary one-way ANOVAs. Soil pH, electrical conductivity (EC), and temperature were analyzed by two-way ANOVA. Vermicompost form, measurement time, and their interaction significantly affected seedling height and root collar diameter. Application schedule significantly affected root collar diameter (F = 7.35, p = 0.007) and chlorophyll content (F = 19.74, p &lt; 0.001), but not seedling height, whereas dose within form showed no significant main effect on any of these traits. The form × application schedule × time interaction was significant for seedling height, whereas dose within form × application schedule × time was significant for root collar diameter and chlorophyll content. Treatment differences generally emerged from day 30 onward. The 30 g solid vermicompost treatment applied in three equal doses produced the highest final seedling height (24.80 cm) and root collar diameter (14.00 mm) and the highest chlorophyll content recorded during the experiment (914.98 µmol m−2 on day 75). Treatment, measurement time, and their interaction significantly affected soil pH, EC, and temperature; pH remained within 4.90–5.76, and EC values did not indicate salinity stress. Selected split applications of solid vermicompost therefore showed potential to improve tea seedling growth, but significant higher-order interactions demonstrated that responses depended on vermicompost form, dose within form, application schedule, trait, and measurement time.</div></details>
+</div>
+<div class="card"><div class="title">Linking Soil Properties to Grain Quality: Individual and Combined Effects of Rice Husk Biochar and Potassium Humate in Paddy Rice Systems<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Thidarat Rupngam, P. Udomkun, Joachim Müller, Thirasant Boonupara, Puangrat Kaewlom</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/6f8a9207465d7c6cb58855d7f1d0219f966260c2">Abs</a> · <a href="https://doi.org/10.3390/plants15203086">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The integrated effects of biochar and humate on soil nutrient status, shoot nutrient accumulation, and grain composition and quality remain underexplored. This field study evaluated four treatments—control, rice husk biochar (RHB; 15 t/ha), potassium humate (KH; 6.3 kg/ha), and RHB + KH—on soil properties, shoot nutrient accumulation, grain nutrient composition, yield, and grain quality in a premium Thai rice production system. Compared with the control, RHB significantly increased soil pH and shoot accumulation of nitrogen (N; +93%), phosphorus (P; +321%), and potassium (K; +75%) and resulted in a greater grain P concentration and milled grain yield (+56%). RHB also increased volumetric expansion (+42%), with a significant RHB main effect detected in the factorial analysis. KH significantly increased soil total N (+11%) and ammonium (+19%), shoot N (+79%) and P (+363%) accumulation, and grain N concentration relative to the control, while also increasing milled grain yield (+144%) and grain protein content. KH also produced numerical increases in volumetric expansion (+21%) and grain elongation (+4%), although these responses were not significant in the factorial analysis. The RHB + KH treatment significantly increased soil total N (+18%), shoot N (+70%) and P (+423%) accumulation, and the grain K concentration relative to the control and produced treatment-specific changes in the amino acid profile. The amendment treatments generally decreased residual soil nitrate and available P concentrations, although the factorial response of nitrate included a significant RHB effect and RHB × KH interaction but no significant KH main effect. Grain carbohydrate content decreased under the amendment treatments, whereas TPC showed a treatment-specific response characterized by a significant KH effect and RHB × KH interaction. Principal component analysis revealed associations among soil properties, shoot nutrient accumulation, grain nutrient composition, yield, and grain quality attributes. These findings demonstrate distinct effects of RHB and KH, individually and in combination, on soil properties, shoot nutrient accumulation, and grain composition and quality. Overall, the amendments showed potential for modifying soil nutrient dynamics and shoot nutrient accumulation while altering selected grain nutritional and market-relevant quality attributes, although responses varied among individual parameters.</div></details>
+</div>
+<div class="card"><div class="title">Soil health dynamics across moisture regimes and depth in Montado forests under ecological drought: Evidence from the SOLMAN-DCC Project<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Lora Kirova, Elena Todorova, M. Zhiyanski</div>
+<div class="meta-line">Venue: ARPHA Conference Abstracts</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3e29efe37e68f7ead8778c4790a2a54007177f3b">Abs</a> · <a href="https://aca.pensoft.net/article/218813/download/pdf/">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Introduction
+ 
+ Mediterranean montado ecosystems are multifunctional agro-silvo-pastoral landscapes increasingly exposed to drought and climatic variability. Soil properties play an important role in maintaining ecosystem functioning, yet their spatial variability in relation to moisture availability remains insufficiently understood. Combining remotely sensed moisture information with field-based soil observations offers an opportunity to investigate potential relationships between moisture conditions and soil health indicators. This study, conducted within the SOLMAN-DCC project, aims to examine variations in selected soil physical and chemical properties across satellite-derived moisture regimes and soil depths at the LTsER Montado research platform in Portugal.
+ 
+ Materials and methods
+ 
+ The study was conducted at Companhia das Lezírias, part of the LTSER Montado platform. Satellite-derived information from the Soil Moisture Active Passive (SMAP) mission for 2015–2023, combined with the Normalized Difference Moisture Index (NDMI) and vegetation cover information, was used to distinguish three relative moisture regimes: Low, Medium and High. Twelve sampling plots were selected across these regimes. Within each plot, soil sampling locations represented three vegetation settings: beneath cork oak canopies, between overlapping tree crowns and in open pasture. Soil samples were collected at depths of 0–10, 10–20 and 20–30 cm.
+ Laboratory analyses included soil water content, bulk density, coarse fragment content, texture, pH, soil organic carbon (SOC) and total nitrogen (TN). Total porosity, C ratios and carbon and nitrogen stocks were also estimated. Differences among moisture regimes were explored separately for each soil depth using non-parametric statistical tests and post-hoc comparisons.
+ 
+ Results and discussion
+ 
+ Preliminary results suggest spatial variability in soil physical and chemical properties across the investigated moisture regimes and soil depths. Differences appear to be more pronounced in the upper soil layer, particularly for indicators related to soil organic carbon and nitrogen. However, the observed patterns are not uniform across all parameters or moisture categories, suggesting that soil responses may also be influenced by vegetation cover, soil characteristics and local environmental heterogeneity.
+ The findings highlight the potential value of combining satellite-derived moisture information with field-based soil measurements to explore relationships between moisture availability and soil conditions. Further analysis is needed to better understand these relationships and assess their implications for soil health under drought conditions in montado ecosystems.
+ 
+ Conclusions
+ 
+ The preliminary findings indicate that selected soil health indicators, particularly those related to carbon and nitrogen, vary across moisture regimes and soil depths in the studied montado landscape. The surface soil layer appears especially relevant for investigating these relationships. Integrating satellite-derived moisture information with field-based soil measurements provides a promising approach for exploring spatial variability in soil conditions and may contribute to future assessments of drought-related ecosystem vulnerability in Mediterranean agro-silvo-pastoral systems.</div></details>
+</div>
+<div class="card"><div class="title">Evaluating conservation tillage as a strategy for soil and water conservation and yield stability in Ethiopian dryland agriculture<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Mulat Kebede</div>
+<div class="meta-line">Venue: Discover Agriculture</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1ed31b64103833e5f9c35b2822481a2070061977">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44279-026-00801-2.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Traditional agricultural management relying on intense cultivation with the conventional tillage has triggered widespread soil nutrient loss, land degradation, and rapid moisture evaporation across sub-Saharan Africa, jeopardizing food security in the fragile highland ecosystems of Northern Ethiopia. To evaluate sustainable, climate-resilient alternatives, a two-year field experiment was conducted over consecutive cropping seasons (2019–2020) at the Shire-May-Tsebri Agricultural Research Center using a Randomized Complete Block Design with four replications to test five tillage treatments: Zero Tillage (ZT), Mulch Tillage (MT), Reduced Tillage (RT), Strip Tillage (ST), and Conventional Tillage (CT). By testing soil moisture at different depths down to 60 cm, we found that conservation tillage works much better than traditional plowing. It improves the soil’s structure and helps it hold onto more water. In the immediate topsoil layer (0–15 cm), MT and ZT suppressed surface evaporation most effectively, boosting seasonal moisture retention by 103.5% and 76.8% over CT, respectively, while within the sub-surface strata, ST established a definitive hydrological buffer that secured independent moisture premiums of 32.5% (15–30 cm) and 36.3% (30–45 cm) over the control. Physically, ST optimized structural soil health by minimizing bulk density and increasing Total Porosity to 51.75% (versus 49.65% in CT), although short-term management did not induce significant variations in stable chemical parameters such as Organic Carbon, Total Nitrogen, or soil pH. Agronomical, the superior sub-surface water retention and structural improvements under Strip Tillage translated into a highly significant 47.9% crop productivity premium, generating a mean maize (Zea mays L.) grain yield of 4.60 t/ha compared to only 3.11 t/ha in CT. Ultimately, this study demonstrates that immediate physical and hydrological restoration of degraded drylands can be achieved through minimized soil disturbance, indicating that the broad-scale extension adoption of Strip Tillage and Mulch Tillage is an effective strategy to buffer crops against dry spells and optimize smallholder climate resilience in semi-arid farming systems.</div></details>
+</div>
+<div class="card"><div class="title">Extension Interventions for Soil Health Management and Horticultural Development under Semi-Arid Conditions of Pali, Rajasthan, India<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Dheeraj Singh, C. Kumar, A. Dudi, J. M. Tetarwal</div>
+<div class="meta-line">Venue: Journal of Advances in Biology &amp;amp; Biotechnology</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/759685669a1900b955ea74217bda3eaef919538a">Abs</a> · <a href="https://doi.org/10.9734/jabb/2026/v29i104531">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil salinity, poor-quality irrigation water, nutrient imbalance and water scarcity are major constraints to agricultural and horticultural productivity in the semi-arid regions of Rajasthan, where substantial spatial variability in soil and water resources necessitates farmer-oriented, location-specific extension interventions. The present study assessed documented extension interventions of Krishi Vigyan Kendra (KVK), Pali, with particular emphasis on soil-health management, salinity mitigation, crop diversification and horticultural development. Institutional records, documented farmer-participatory interventions and published studies associated with KVK Pali were compiled and analysed using descriptive statistics, including percentage contribution, percentage change, mean, median, minimum, maximum and range, as appropriate. During 2021–22, KVK Pali conducted 6 on-farm tests, 358 crop frontline demonstrations, 100 training programmes and 567 extension activities, besides 12 field days, 11 Kisan Gosthies and 5 Kisan Melas. A salinity-management intervention involving 86 farmers from five villages recorded soil pH of 7.78–9.33, soil electrical conductivity (EC) of 0.29–7.40 dS m⁻¹ and mean soil EC of 1.46 dS m⁻¹, while more than 75% of open-well irrigation-water samples had electrical conductivity of 5.0–13.2 dS m⁻¹. Following the intervention, 63% of beneficiary farmers were reported to be aware of sustainable soil-health management and willing to adopt balanced fertiliser use in accordance with agro-advisories and Soil Health Cards. Eight crop-diversification combinations showed increases in net returns ranging from 16.6 to 28.9%, with a descriptive mean increase of 22.33% and median of 22.10%. In a documented muskmelon intervention, productivity increased from 47.8 to 64.5 t ha⁻¹ between 2016 and 2019, while net income increased from ₹38,475 to ₹52,400 ha⁻¹ and the benefit: cost ratio increased from 2.77 to 4.10. Overall, the evidence supports an integrated extension approach combining diagnosis of soil and water constraints, Soil Health Cards, irrigation-water management, farmer–scientist interaction, improved and salt-tolerant varieties, crop diversification, horticultural technologies, demonstrations, market linkage and follow-up support. Future assessment of extension effectiveness should complement activity-based indicators with longitudinal measurements of technology adoption, soil-quality improvement, water productivity and farm profitability.</div></details>
+</div>
+<div class="card"><div class="title">Species-Specific Molybdenum Enrichment in Peanuts (Arachis hypogaea) from Natural Molybdenum-Rich Agricultural Soils: Uptake Drivers and Dietary Risk Implications<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Can-Mei Wei, Qiu-Yao Dong, Pan Wang, Ming-Jiang Yan, Chao Song</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f1aa8178560371f872290c8395e4a1f31d38a48d">Abs</a> · <a href="https://doi.org/10.3390/agronomy16201997">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Molybdenum (Mo) is an essential plant micronutrient, and legumes may accumulate relatively high Mo because of their greater physiological demand. Field evidence for species-specific Mo transfer in naturally Mo-enriched soils remains limited. Rhizosphere soil and edible seeds/grains were collected from 18 peanut and 19 wheat fields in Xichuan County, Henan Province, China. Soil total and available Mo, grain Mo concentrations, bioaccumulation factors (BCFs), dietary intake, and target hazard quotients (THQs) were evaluated. Soil total Mo ranged from 0.58 to 6.09 mg/kg and available Mo from 0.08 to 0.88 mg/kg. Peanut seeds contained about 8-fold more Mo than wheat grains (3.36 vs. 0.40 mg/kg) and had higher BCFs (0.32–7.95 vs. 0.05–1.29). Path analysis identified total soil Mo as the dominant predictor of available Mo, while peanut seed Mo showed no significant direct association with available Mo but was strongly associated with soil pH. The maximum soil Mo geoaccumulation index (Igeo) was 2.82 (Class 3). All THQs were below 1 under national-average consumption, whereas a hypothetical high-consumption peanut scenario yielded a THQ of 2.37. These findings highlight contrasting soil-to-grain Mo relationships between the two cropping systems and the need for crop-specific dietary risk assessment.</div></details>
+</div>
+<div class="card"><div class="title">Vertical Variation in Soil Bacterial Communities Across Four Contrasting Stands in a Soda Saline–Alkali Wetland Landscape: A Local Case Study with Implications for Future Monitoring<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Jun-Nan Ding, Shao-Peng Yu, Xin Li</div>
+<div class="meta-line">Venue: Sustainability</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/25b2b7a9b7ed810f0c76a40273bad1b221559463">Abs</a> · <a href="https://doi.org/10.3390/su182010242">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Vertical bacterial variation may be relevant to monitoring soda saline–alkali wetlands, but evidence from replicated habitats remains limited. We examined four contrasting local stands in the Halahai landscape: reed wetland, meadow steppe, degraded Suaeda saline patch, and converted farmland. Six paired locations per stand were sampled at 0–20 and 20–40 cm, yielding 48 samples. Soil properties, enzyme activities, and 16S rRNA gene profiles were evaluated using linear mixed-effects models, ordination, and term-specific restricted PERMANOVA. The degraded saline stand had the highest pH and electrical conductivity and the lowest resource availability, microbial biomass, and bacterial alpha diversity. Farmland showed comparatively high nutrient availability and richness, although conversion effects could not be separated from agricultural management. Sampled stand accounted for 44.50% of community variation, whereas depth and the stand × depth interaction accounted for only 1.67% and 2.78%, respectively. Adjusted depth contrasts within stands were nonsignificant, and dispersion differed among stands. Community composition was associated with combined salinity–alkalinity, moisture, and resource gradients rather than independent effects of individual variables. The findings provide a local ecological baseline and support evaluating paired surface and subsurface sampling in future monitoring, but they do not validate microbial indicators or establish restoration or management outcomes.</div></details>
+</div>
+<div class="card"><div class="title">Enhancing the Surface
+Characteristics of Coal Gangue
+through Different Modification Methods and the Improvement of Saline-Alkali
+Soil<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Chuan-Zhi Zhu, Yu-Long Zhong, Meng-Rui Huang, Chong Zhang, Jun Tang...</div>
+<div class="meta-line">Venue: ACS Omega</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5d55a06aba320f16ec94deb734df16d732b4e807">Abs</a> · <a href="https://pubs.acs.org/acsodf/article-pdf/doi/10.1021/acsomega.6c01801/68795558/acsomega.6c01801.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Coal gangue exhibits great application potential in saline-alkali soil amelioration. However, natural coal gangue has a limited improvement effect due to its small specific surface area and poor surface activity. In this study, different modification methods were employed to improve the surface properties of coal gangue. Changes in the surface properties of modified coal gangue and their improvement effects in saline-alkali soil were investigated by XRD, FTIR, SEM, static soil culture tests, and simulated leaching tests. Compared with original coal gangue, modified coal gangue shows significantly enhanced active components, in which the stable kaolinite is transformed into active Al2O3 and SiO2 according to XRD analysis. In addition, the micropore structure of modified coal gangue has changed, showing a rougher surface, larger pore diameter and specific surface area. Especially for calcination-modified coal gangue, the specific surface area is greatly increased from 6.9 m2/g to 34.8 m2/g. The application of coal gangue modified by calcination, acid treatment, and ball milling can effectively reduce the pH of saline-alkali soil from 9.89 to 7.99, 8.40, and 8.74, respectively. Meanwhile, their incorporation can reduce the exchangeable sodium content of saline-alkali soil by 36.2%, 33.6%, and 40.7%, respectively. The addition of modified coal gangue has a significant effect on reducing nutrient loss during the leaching of saline-alkali soil. When the amount of calcination-modified coal gangue added reaches 30%, the loss of soil total nitrogen and total phosphorus can be reduced by 94% and 90%, respectively. The results demonstrate that modified coal gangue, owing to its increased active components and surface sites, can not only reduce the pH and exchangeable sodium content of saline-alkali soil, but also effectively mitigate nutrient leaching losses. In comparison, calcination is the most effective modification method, and a 30% addition rate is sufficient to achieve a desirable amelioration effect on saline-alkali soil. This study provides methodological and theoretical foundations for enhancing the potential of coal gangue in saline-alkali soil improvement, which is of great significance for the resource utilization of coal gangue and the improvement of cultivated land quality.</div></details>
+</div>
+<div class="card"><div class="title">Synthesis and Characterization of Cellulose Acetate and its Derivatives from  Sawdust and Corn Husk Lignocellulosic Biomass Waste<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: N. Ndukwe, O. Ezekiel, N. Ilesanmi</div>
+<div class="meta-line">Venue: Lafia Journal of Scientific and Industrial Research</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1841fbafebb76266d13a677b1ff95de595e99816">Abs</a> · <a href="https://lafiascijournals.org.ng/index.php/ljsir/article/download/950/550">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The recalcitrant nature of cellulosic biomass waste and its environmental pollution arising from incessant burning and indiscriminate dumping continue to raise global health concerns. This study investigated the synthesis and characterization of cellulose acetate derivatives from two lignocellulosic biomass waste, sawdust and corn husk waste. The work was designed to support biomass valorization of agricultural residues into cellulose esters. Sawdust and corn husk waste biomaterials underwent sequential alkaline treatment using 4 and 17.5 % sodium hydroxide, followed by oxidative bleaching to isolate alpha cellulose. The recovered cellulose was acetylated through a heterogeneous esterification route using glacial acetic acid, acetic anhydride and sulphuric acid catalyst to obtain cellulose acetate, cellulose diacetate and cellulose triacetate grades. The products were characterized by FTIR, thermogravimetric analyses and scanning electron microscopy. Sawdust produced a higher cellulose recovery of 52.3 %, compared with 48.5 % from corn husk waste, indicating its higher cellulose content and better purified pulp yield. However, corn husk waste produced higher acetate derivative yields, with cellulose acetate, cellulose diacetate, and cellulose triacetate yields of 78.0, 79.0 and 83.5 %, respectively, compared with 72.0, 76.0 and 80.0 % for sawdust. FTIR spectra confirmed acetylation through the appearance of ester carbonyl absorption around 1740-1750 cm−1, C-O stretching bands and reduced hydroxyl intensity. TGA showed improved thermal resistance of the acetate derivatives, with major degradation occurring above 250 °C and maximum degradation within the industrially relevant processing range. SEM revealed progressive transformation from fibrous cellulose to denser, film-forming acetate matrices suitable for industrial modification. 
+ </div></details>
+</div>
+<div class="card"><div class="title">Fiber optic pH sensing tailored for marine applications using dye immobilized modified silica<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Devika Mohan, T. Khanikar, Alexander Shumski, Khurram Naeem, R. Wright...</div>
+<div class="meta-line">Venue: Unconventional Imaging, Sensing, and Adaptive Optics 2026</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0bd64d5c5a9f84d03dabc9da1bd6b09e8f9513ea">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The continuous decrease in ocean surface pH due to the absorption of anthropogenic carbon dioxide results in acidification of seawater, and research is also underway investigating the impact of alkalinity enhancements on marine CO2 storage potential. Optical fibers which are immune to electromagnetic interference and stable in harsh environments offer the potential for remote and spatially distributed pH sensing in extreme conditions such as marine platforms. In this work, optical fibers coated with sol-gel derived silica incorporated with optical sensitizers such as pH indicator dye is presented and optimized for stability and sensitivity relevant in marine pH sensing applications. The diprotic dye, meta-Cresol purple (mCP) with second dissociation constant in the pH range (pH7.4-9) typical for seawater was selected with high compatibility and stability in seawater compared to other indicator dyes. Controlled sol-gel synthesis of mCP immobilized organically modified silane (ORMOSil) followed by optimized thermal treatment and pre-conditioning of the sensing layer coated optical fiber enhanced the stability and repeatability of the pH sensing performance during continuous exposure in laboratory seawater. Additionally, a pH resolution of &lt;±0.1pH unit from pH 7-9 was achieved which is relevant for the pH variation in seawater. Work was also extended to reel-to-reel coating of these sensing layers over 1m length leading laboratory readiness of the sensor for future distributed pH sensing.</div></details>
+</div>
+<div class="card"><div class="title">Effects of Some Triazole and Benzimidazole Fungicides on Metabolic Activity of Sod-Podzolic Soil<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: V. Kolupaeva, A. Stupkina, N. Butko, R. Streletskii, Oleg Mikituk...</div>
+<div class="meta-line">Venue: Agrochemicals</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3b82ce173d94ba5b648224084a8864246f7c7888">Abs</a> · <a href="https://doi.org/10.3390/agrochemicals5040044">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Triazole and benzimidazole fungicides, used worldwide including in Russia, persist in treated soils for a long time after application, having a prolonged effect on target and non-target soil-borne microorganisms. In this context, we evaluated the effects of difenoconazole, tebuconazole, propiconazole (triazoles), and benomyl (benzimidazole) on the metabolic activity of sod-podzolic soil from a Russian Non-Chernozem region using key soil microbiome indicators, such as basal respiration (BR), substrate-induced respiration (SIR), nitrification (NIT), and enzymatic activity. The used fungicides differed in the nature and dose-rate dynamics of their influence on these processes. Difenoconazole inhibited BR at day 7 after application when applied at a tenfold rate, while tebuconazole and difenoconazole stimulated BR at day 14. Propiconazole and benomyl taken at recommended rates increased SIR at day 7, and difenoconazole at a tenfold rate reduced SIR at days 14 and 28. Benomyl stimulated NIT at days 7, 14, and 28, while the other fungicides suppressed NIT. Triazoles decreased soil dehydrogenase activity throughout 45 days, while benomyl and difenoconazole enhanced it for 10 days. Revealing decreased and increased indicators of the soil metabolism suggests deep changes in the soil microbiome due to fungicide-induced chemical stress. Therefore, further studies of the microbiome exposed to the aforementioned fungicides by metagenomic analysis, including soil metabarcoding, are warranted.</div></details>
+</div>
+<div class="card"><div class="title">Siderophores and siderophore-associated metabolites from Antarctic Pseudomonas sp. ANT_H12B contribute to iron and phosphorus mobilization in soils with contrasting properties<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Xiao-Meng Chen, M. Musiałowski, K. Dębiec-Andrzejewska, R. Stasiuk, L. Celi...</div>
+<div class="meta-line">Venue: Frontiers in Soil Science</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/22bc53f8212272773d5712a3911077539d0d126f">Abs</a> · <a href="https://www.frontiersin.org/journals/soil-science/articles/10.3389/fsoil.2026.1960451/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Iron (Fe) oxy(hydr)oxides regulate soil Fe and phosphorus (P) cycling, but how bacterial siderophores and co-produced metabolites mobilize these nutrients across pH remains unclear. We hypothesized that siderophore-mediated Fe complexation and P mobilization depend on pH and mineral crystallinity and that siderophore-associated metabolites (SAM) are more effective than purified siderophores. A purified pyoverdine-like siderophore fraction from Antarctic
+ Pseudomonas
+ strain ANT_H12B was chemically and spectroscopically characterized and evaluated for Fe³
+ +
+ complexation from FeCl
+ 3
+ between pH 5 and 9. Iron mobilization from ferrihydrite (Fh), goethite (Gt), and hematite (Hm) was examined at pH 5.5 and 8.5 across mineral concentrations of 0.5–2 g L⁻¹; purified siderophores and SAM were compared in four P-deficient soils of contrasting pH. Iron³
+ +
+ complexation increased from 6% at pH 5 to 10% at pH 9, reflecting ligand deprotonation. Ferrihydrite showed the greatest dissolution, although Fe release at pH 8.5 was 30% and 37% lower than at pH 5.5 at 1 and 1.5 g L⁻¹, respectively. Conversely, Gt dissolution at 2 g L⁻¹ was 40% higher at pH 8.5, whereas Hm showed the lowest dissolution, reaching 3 and 1.9 μM at pH 5.5 and 8.5, respectively. Purified siderophores moderately increased Olsen-P in neutral and high-Fe alkaline soils, whereas SAM increased Olsen-P approximately 1- to 26-fold across all soils, with the greatest effect in high-Fe alkaline soil. SAM also increased soluble P 11- to 40-fold and NaOH-EDTA-extractable P by 25–104% relative to controls. The results support our hypothesis, showing that siderophores contribute to Fe and P mobilization but act more effectively within SAM, where organic acids provide complementary dissolution and sorption-competition mechanisms. This finding agrees with previous ANT_H12B studies reporting improved nutrient availability and plant performance and supports using unpurified metabolite mixtures for sustainable P management. Indeed, retaining the co-produced mixture could reduce purification requirements and preserve complementary functions relevant to sustainable P management.
+</div></details>
+</div>
+<div class="card"><div class="title">Soil Heavy Metal Enrichment and Contamination across Selected Mining Communities in Ebonyi State, Southeastern Nigeria<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Ogbonna Kennedy, Aya Friday, Emmanuel Ekechukwu Stephen, Igboke Henry Obinna</div>
+<div class="meta-line">Venue: International Journal of Innovative Science and Research Technology</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/6cef5fa05eae54ad4e1de5d02128406ebbfec63e">Abs</a> · <a href="https://www.ijisrt.com/assets/upload/files/IJISRT26OCT001.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Mining activities can alter soil properties and contribute to the accumulation of potentially toxic metals in surrounding environments. This study assessed the pH and concentrations of lead (Pb), zinc (Zn), copper (Cu), and arsenic (As) in soils from selected mining areas in Ebonyi State, southeastern Nigeria. Soil samples were collected at 0–20 cm depth from three mining locations: Enyigba, Nkaleke Achara–Izzi Unuhu, and Mkpuma Akpatakpa, with Okworike Agbaja Farm serving as the control.</div></details>
+</div>
+<div class="card"><div class="title">Soil quality benefits from shifting toward an alternative olive‑based agroforestry farming system in arid areas<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: H. Ben Mbarek, L. Trabelsi, M. Ghrab, Saida El Fkhih, O. Elloumi...</div>
+<div class="meta-line">Venue: Agroforestry Systems</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a576df317c3d2dfac25353099b156a07bfa1dcee">Abs</a></div>
+</div>
+<div class="card"><div class="title">Seasonal dynamics of heavy metal concentrations from municipal solid waste landfill leachate in Varanasi: impact on groundwater quality and human health<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Katina Chachei, K. Ram</div>
+<div class="meta-line">Venue: Environmental Monitoring and Assessment</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3bcb2dc7b295eba90015a80b33fe36843c3d239c">Abs</a></div>
+</div>
+<div class="card"><div class="title">Mechanisms of POM-mediated Hg immobilization and MeHg suppression in paddy soil: a perspective of coupled geochemical and microbial processes under water management.<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Jian-Wei Chang, Hui-Juan Yu, Wen-Rui Miao, Chun-Dan Gan, Zhi-Peng Hu...</div>
+<div class="meta-line">Venue: Environmental research</div>
+<div class="meta-line">Published: 2026-10-09</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/06dd36375427a223cc34e2d79e2b7b0087c3a7cf">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Particulate organic matter (POM) plays a critical role in Hg biogeochemistry, yet its immobilization mechanisms and interactions with water management remain unclear. This study investigated POM-mediated Hg immobilization under non-flooded and flooded conditions through a 120-day incubation experiment, combined with batch adsorption, multi-technique characterization, and microbial community analysis. POM addition significantly reduced soil available Hg and promoted the redistribution of Hg to operationally defined less-labile or residual fractions, with available Hg reduction reaching 82% under flooded conditions, compared to 61% under non-flooded. Mechanistically, POM immobilized Hg2+ through physical entrapment within its porous structure and chemisorption-dominated surface complexation via sulfur and oxygen-containing functional groups, with reactive organic sulfur as the most active binding site. Indirectly, POM addition increased SOC, and structural equation modeling (SEM) supported a statistical pathway consistent with SOC contributing to Hg transformation under flooding (path coefficients: 0.872-0.902). Additionally, POM dose-dependently suppressed MeHg accumulation by reducing bioavailable Hg pools and decreasing hgcA gene abundance, with microbial community restructuring further contributing to this suppression through enrichment of keystone taxa such as Vicinamibacter. Overall, POM amendment combined with flooding may mitigate Hg bioavailability in contaminated agricultural soils under controlled conditions, but field validation is required before recommending this as a practical strategy.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
