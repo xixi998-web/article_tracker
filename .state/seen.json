@@ -20942,5 +20942,125 @@
   "doi:10.3390/su181910226": {
     "source": "top_journal",
     "title": "Spatial Distribution, Contamination Assessment, and Sustainability Perspectives of Potentially Toxic Elements in Arid Soils: An Integrated GIS and Multivariate Statistical Approach"
+  },
+  "arxiv:2610.13143": {
+    "source": "top_journal",
+    "title": "Measurable Semantic 3D Gaussian Splatting with Joint Region and Depth Supervision for Interactive Building Inspection"
+  },
+  "arxiv:2610.20590v1": {
+    "source": "arxiv",
+    "title": "Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting"
+  },
+  "doi:10.1088/1361-6501/aeb257": {
+    "source": "top_journal",
+    "title": "High-precision 3D reconstruction with multi-line laser scanner based on SLAM framework"
+  },
+  "arxiv:2610.13849": {
+    "source": "top_journal",
+    "title": "HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation"
+  },
+  "arxiv:2610.21297v1": {
+    "source": "arxiv",
+    "title": "GeoPano: Towards Geometrically Accurate 3D Reconstruction from a Single Panorama"
+  },
+  "arxiv:2610.21199v1": {
+    "source": "arxiv",
+    "title": "LIN-SLAM: Lightweight LiDAR--Inertial Neural SLAM for Real-Time Onboard Navigation"
+  },
+  "arxiv:2610.20397v1": {
+    "source": "arxiv",
+    "title": "Where Should the Gaussians Go? Reusable Label-Aware Allocation for Budget-Constrained Gaussian Splatting of Cinematic CT"
+  },
+  "arxiv:2610.21121v1": {
+    "source": "arxiv",
+    "title": "ResStreamGS: Residual-Sensitive Dual-Stream Gaussian Splatting for Mobile Volumetric Video Streaming"
+  },
+  "arxiv:2610.20958v1": {
+    "source": "arxiv",
+    "title": "Line-Augmented cuVSLAM: Robust Visual Odometry in Low-Texture Environments"
+  },
+  "doi:10.1117/12.3113903": {
+    "source": "top_journal",
+    "title": "Efficient color representation for 3D Gaussian splatting via structured spherical harmonic optimization"
+  },
+  "doi:10.3390/rs18203457": {
+    "source": "top_journal",
+    "title": "SAGE: Shadow-Adaptive Geometric Supervision for Earth Observation Gaussian Splatting"
+  },
+  "arxiv:2610.19993v1": {
+    "source": "arxiv",
+    "title": "Why 3D Reconstruction Breaks Down on Under-Ice AUV Video, and How to Predict It"
+  },
+  "arxiv:2610.15357v1": {
+    "source": "arxiv",
+    "title": "UniForge3D: Joint 3D Reconstruction and Generation in a Shared Anchor-Guided Space"
+  },
+  "arxiv:2610.15215v1": {
+    "source": "arxiv",
+    "title": "nanoflann: A Header-Only KD-Tree Library for Exact Nearest-Neighbor Search on Compile-Time Product Manifolds"
+  },
+  "arxiv:2610.15112v1": {
+    "source": "arxiv",
+    "title": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving"
+  },
+  "arxiv:2610.21586v1": {
+    "source": "arxiv",
+    "title": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory"
+  },
+  "arxiv:2610.21409v1": {
+    "source": "arxiv",
+    "title": "CLAD: Keypoint Matching Using Global Line Correspondences"
+  },
+  "arxiv:2610.20476v1": {
+    "source": "arxiv",
+    "title": "Tiered-Resolution Volumetric Mapping for Real-Time Simultaneous Planning and Mapping on Natural Outdoor Environments"
+  },
+  "arxiv:2610.19623v1": {
+    "source": "arxiv",
+    "title": "MagicGarment: Benchmarking Single-Image Standalone 3D Garment Reconstruction"
+  },
+  "arxiv:2610.19541v2": {
+    "source": "arxiv",
+    "title": "GS-PRM: Gaussian Visual Roadmap for Image-Goal Navigation"
+  },
+  "arxiv:2610.19201v1": {
+    "source": "arxiv",
+    "title": "Into the LidarVerse: A Real-Time Unified LiDAR World Model Across Tasks and Sensors"
+  },
+  "arxiv:2610.19120v1": {
+    "source": "arxiv",
+    "title": "DoReMe: Dual optimization of Reconstruction and Motion estimation for self-navigated free-breathing abdominal MRI using Gaussian Splatting"
+  },
+  "arxiv:2610.19044v1": {
+    "source": "arxiv",
+    "title": "RingNav: Task-Shaped Circular Memory for Visual Heading"
+  },
+  "arxiv:2610.18741v1": {
+    "source": "arxiv",
+    "title": "Context-aware Bayesian Fusion for Multimodal Object Detection"
+  },
+  "arxiv:2610.18093v1": {
+    "source": "arxiv",
+    "title": "LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction"
+  },
+  "arxiv:2610.17800v1": {
+    "source": "arxiv",
+    "title": "Multimodal Fusion of RGB and Complementary Modalities for Semantic Segmentation"
+  },
+  "arxiv:2610.17232v1": {
+    "source": "arxiv",
+    "title": "LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors"
+  },
+  "arxiv:2610.16737v1": {
+    "source": "arxiv",
+    "title": "CopyQuad: Quadrupedal Skill Transfer from a Single Side-View Video Without a Depth Model"
+  },
+  "arxiv:2610.16570v1": {
+    "source": "arxiv",
+    "title": "Dense Endoluminal Mapping and Localisation from Monocular Bronchoscopy"
+  },
+  "arxiv:2610.16558v1": {
+    "source": "arxiv",
+    "title": "G$^2$WAM: World Action Models for Efficient and Geometry Grounded Image-Goal Navigation"
   }
 }
