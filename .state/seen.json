@@ -21238,5 +21238,57 @@
   "arxiv:2610.14545": {
     "source": "top_journal",
     "title": "DeepTelecom: A Differentiable Multimodal Framework for Channel Twinning in Dynamic Heterogeneous Wireless Environments"
+  },
+  "doi:10.3390/agriengineering8100432": {
+    "source": "top_journal",
+    "title": "Effects of Food Waste Digestate and Mineral Fertilization on Soil Fertility and Maize Growth"
+  },
+  "doi:10.3390/agriculture16202200": {
+    "source": "top_journal",
+    "title": "Crop-Specific Heavy Metal Transfer in Tropical Agricultural Soils: Soil Drivers and Management Implications Across Hainan Island"
+  },
+  "doi:10.30738/jiagt.v10i2.23695": {
+    "source": "top_journal",
+    "title": "LAND SUITABILITY ASSESSMENT FOR IRRIGATED RICE DEVELOPMENT IN BILAH HULU AND BILAH BARAT DISTRICTS, LABUHANBATU REGENCY, NORTH SUMATRA"
+  },
+  "doi:10.15294/jf.v16i2.38127": {
+    "source": "top_journal",
+    "title": "Characterization of Soil Physical Properties in Rice Fields Affected by Seawater Intrusion in Pemalang Regency"
+  },
+  "doi:10.3390/plants15203098": {
+    "source": "top_journal",
+    "title": "Chemical and Biological Mobilization of Soil Phosphorus by ppk-Expressing Transgenic Rice (Oryza sativa L.)"
+  },
+  "doi:10.1016/j.jenvman.2026.131115": {
+    "source": "top_journal",
+    "title": "Production activity and resulting pollution, not depth, driven microbial community structure, function, and assembly mechanisms in an aged petroleum hydrocarbon contaminated soil."
+  },
+  "doi:10.3390/app162010048": {
+    "source": "top_journal",
+    "title": "Mechanistic Evaluation of Polyvinyl Alcohol (PVA) Coarse-Grained Soil Stabilization and Ecological Restoration on Slopes of Sejila Mountain Section of the G318 Highway"
+  },
+  "doi:10.25258/ijddt.16.62s.32": {
+    "source": "top_journal",
+    "title": "Energy-Efficient Smart Agriculture Management Framework Using IoT and Ensemble Machine Learning for Intelligent Crop Health Monitoring and Resource Optimization"
+  },
+  "doi:10.3390/f17101211": {
+    "source": "top_journal",
+    "title": "Fungal Communities and Their Environmental Correlates in BSCs Under Sand-Fixing Plantations in Alpine Sandy Land"
+  },
+  "doi:10.3390/ecologies7040108": {
+    "source": "top_journal",
+    "title": "Seasonal and Interannual Microbial Community Dynamics in Dacrydium pierrei and Vatica mangachapoi Tropical Rainforest"
+  },
+  "doi:10.3390/agronomy16202007": {
+    "source": "top_journal",
+    "title": "Ball-Milled Humic Acid–Functionalized Layered Double Hydroxides Enable Cd–As Stabilization in Contaminated Agricultural Soils"
+  },
+  "doi:10.3390/molecules31203608": {
+    "source": "top_journal",
+    "title": "Phosphoric Acid-Modified Wood Biochar for Cr(VI) Retention in Aqueous Systems and Sustained Mobility Control Under Dynamic Soil Conditions"
+  },
+  "doi:10.3390/min16101030": {
+    "source": "top_journal",
+    "title": "Selective Nickel Leaching from Cu-Ni Sulfide Ores Using Deep Eutectic Solvents"
   }
 }
