@@ -21154,5 +21154,89 @@
   "doi:10.1016/j.envres.2026.125891": {
     "source": "top_journal",
     "title": "Mechanisms of POM-mediated Hg immobilization and MeHg suppression in paddy soil: a perspective of coupled geochemical and microbial processes under water management."
+  },
+  "arxiv:2610.21634v1": {
+    "source": "arxiv",
+    "title": "Anchor3DGS: Feed-Forward 3D Gaussian Splatting with Compact Anchor-Based Representation"
+  },
+  "arxiv:2610.14951": {
+    "source": "top_journal",
+    "title": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry"
+  },
+  "arxiv:2610.22177v1": {
+    "source": "arxiv",
+    "title": "Motion- and Gravity-Aware Feedforward 3D Reconstruction"
+  },
+  "arxiv:2610.21619v1": {
+    "source": "arxiv",
+    "title": "Training-Free Target-Aware Refinement of 3D Gaussian Language Map"
+  },
+  "arxiv:2610.21668v1": {
+    "source": "arxiv",
+    "title": "Edit4D: Editable 4D Scene Generation with Textual Control"
+  },
+  "arxiv:2610.14963": {
+    "source": "top_journal",
+    "title": "AD-GS: Anatomical Density-guided 3D Gaussian Splatting for Sparse-View Dental CBCT Reconstruction"
+  },
+  "arxiv:2610.22356v1": {
+    "source": "arxiv",
+    "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models"
+  },
+  "arxiv:2610.22215v1": {
+    "source": "arxiv",
+    "title": "FutureLift: Lifting Trajectory Proposals into Bidirectional Future Graphs for Motion Forecasting"
+  },
+  "arxiv:2610.15112": {
+    "source": "top_journal",
+    "title": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving"
+  },
+  "arxiv:2610.22120v1": {
+    "source": "arxiv",
+    "title": "Scene Reconstruction Using Ubiquitous Wireless Signals via Diffusion Posterior Inference Over physics-Grounded Representations"
+  },
+  "arxiv:2610.16330v1": {
+    "source": "arxiv",
+    "title": "BAT3R: Robust Online 3D Reconstruction with Bayesian Adaptive State Updates"
+  },
+  "arxiv:2610.16160v1": {
+    "source": "arxiv",
+    "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning"
+  },
+  "arxiv:2610.16143v1": {
+    "source": "arxiv",
+    "title": "All-St3R SLAM: Real-time RGB Dynamic SLAM with Pixel-wise Motion Masking"
+  },
+  "arxiv:2610.16103v1": {
+    "source": "arxiv",
+    "title": "PathLift: Depth-Conditioned Metric Lifting for Visual-Navigation Priors"
+  },
+  "arxiv:2610.15747v1": {
+    "source": "arxiv",
+    "title": "Model-Based Trailer-Sway Suppression for Autonomous Passenger Vehicles"
+  },
+  "arxiv:2610.15740v1": {
+    "source": "arxiv",
+    "title": "Multimodal Sensor-Gated Mid-Air Launch and Vision-Based Recovery of a Child UAV on a Hovering Mothership Drone"
+  },
+  "arxiv:2610.14734": {
+    "source": "top_journal",
+    "title": "Align-VAE: Aligning Attention and Geometry in VecSet VAEs for 3D Reconstruction"
+  },
+  "doi:10.3390/oceans7050084": {
+    "source": "top_journal",
+    "title": "From Serial Histological Sections to Three-Dimensional Anatomy: Reconstructing Internal Morphology for Systematic Studies"
+  },
+  "arxiv:2610.14492": {
+    "source": "top_journal",
+    "title": "Multi-modal Representation Fusion for Long-term Microsurgical Anastomosis Trajectory Anticipation"
+  },
+  "doi:10.3390/s26206399": {
+    "source": "top_journal",
+    "title": "Real-Time Physical-to-Virtual Scene Reconstruction for Dynamic Manufacturing Systems via Semantic—Spatial Mapping"
+  },
+  "arxiv:2610.14545": {
+    "source": "top_journal",
+    "title": "DeepTelecom: A Differentiable Multimodal Framework for Channel Twinning in Dynamic Heterogeneous Wireless Environments"
   }
 }
