@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-18 05:29 · Core 2 · Proxy 0 · Eco 1</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Seasonal variation in soil macrofauna and soil physical and chemical properties in homegarden agroforestry systems of North Wollo, Ethiopia<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Gebeyehu Alamrie, M. Wondie, Tsegaye Gobezie</div>
+<div class="meta-line">Venue: Discover Environment</div>
+<div class="meta-line">Published: 2026-10-11</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a1cf8e1d8448f859acfb543e2a0f8d84d7d045ba">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44274-026-01112-5.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Homegarden agroforestry systems support soil biodiversity and nutrient cycling, yet seasonal variation in soil macrofauna remains insufficiently documented in northern Ethiopia. This study evaluated seasonal variation in soil macrofauna abundance, biomass, diversity, and selected soil physical and chemical properties in homegarden agroforestry systems of Habru Woreda, North Wollo, Ethiopia. A 2 × 2 factorial design comprising two agroecological zones (midland and lowland) and two seasons (dry and wet) was used. Thirty established homegardens, 15 from each agroecological zone, were sampled during both seasons, resulting in 60 observations. Soil macrofauna were collected using the Tropical Soil Biology and Fertility (TSBF) soil monolith method and pitfall traps, while composite soil samples were collected from 0 to 30 cm depth. Macrofauna were identified primarily to family level. Soil moisture, temperature, pH, bulk density, organic carbon, total nitrogen, and C/N ratio were determined. Data were analyzed using two-way ANOVA, Tukey’s HSD test, and Pearson’s correlation analysis. Macrofauna abundance increased from 246.3 to 300.8 individuals m⁻2 in the midland and from 212.7 to 251.7 individuals m⁻2 in the lowland from the dry to wet season. Earthworms, termites, and ants were the dominant groups, collectively accounting for 70.9–76.6% of total abundance. Shannon diversity increased from 1.68 to 1.82 in the midland and from 1.54 to 1.73 in the lowland. Soil moisture, organic carbon, and total nitrogen increased during the wet season, whereas temperature and bulk density decreased. Macrofauna abundance was positively correlated with soil moisture (r = 0.69), organic carbon (r = 0.66), and total nitrogen (r = 0.57), but negatively correlated with temperature (r = −0.53) and bulk density (r = −0.48). These findings demonstrate that seasonal environmental conditions, particularly soil moisture, are closely associated with soil macrofauna dynamics in homegarden agroforestry systems.</div></details>
+</div>
+<div class="card"><div class="title">Fecal degradation and nutrient loss of manure from cattle offered four bermudagrass cultivars<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Justin C. Burt, A. Hines, Katie Davis, S. L. Dillard, W. B. Smith</div>
+<div class="meta-line">Venue: Agrosystems, Geosciences &amp;amp; Environment</div>
+<div class="meta-line">Published: 2026-10-11</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/19ef887a66203bc16a96afa2e9e2342affdf1b78">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/agg2.70483">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Bermudagrass (
+ Cynodon
+ spp.) is one of the most common warm‐season perennial grasses utilized in the southeastern United States for pasture or stored forage. However, there is a paucity of data evaluating the fecal nutrient losses overtime by cattle grazing different bermudagrass cultivars. Therefore, the objective of this study was to assess the rate of fecal degradation and nutrient loss over time from cattle offered four different bermudagrass cultivars: Coastal, Russell, Tifton 44, or Tifton 85. Manure was collected from four ruminally fistulated heifers offered the bermudagrass cultivars previously mentioned in a 4 × 4 Latin square design. Manure was applied as surface pats into small plots arranged in a randomized complete block design with three replicates. Soil parameters were evaluated by bermudagrass cultivar, days after manure application (0, 28, 56, 84, and 112 days), and soil depth (0–5 cm and 5–10 cm). Concentrations of neutral and acid detergent fibers were greatest in the Coastal bermudagrass diet compared to other cultivars (
+ p
+ ≤ 0.01). A greater dry matter (DM) loss was observed in manure from the Tifton 85 diet compared to other cultivars (
+ p
+  = 0.02). Despite differences in manure fiber characteristics and DM disappearance, manure‐derived nitrogen (N), phosphorus (P), and potassium (K) concentrations did not differ among cultivars. Soil pH, carbon, and N were unaffected by cultivar, while temporal patterns in soil N, P, and K were driven by days after application rather than manure source. These results indicate that bermudagrass cultivar influences manure degradation rates but does not substantially alter short‐term soil nutrient availability.
+</div></details>
+</div>
+<div class="card"><div class="title">Optimizing cyanobacterial pellet formulations to enhance dryland restoration<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Lisa Maggioli, S. Chamizo, E. Rodríguez-Caballero, Janira Fernández-Galera, Yolanda Cantón</div>
+<div class="meta-line">Venue: Restoration Ecology</div>
+<div class="meta-line">Published: 2026-10-11</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8c17b5b391bfefa5770f3b1e9615376662677b11">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/rec.70573">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ Biocrusts, complex communities of microorganisms closely associated with soil, are essential components of drylands, supporting soil stability, water availability, and nutrient cycling. Inoculation with biocrust‐forming cyanobacteria has emerged as a promising nature‐based solution to restore degraded drylands, but large‐scale application is often constrained by challenges in production, storage, transport, and soil establishment.
+ 
+ 
+ 
+ To address these limitations, this study explored the innovative approach of pelletizing biocrust‐forming cyanobacteria with organic amendments (paper residues, biochar, and vermicompost) to enhance inoculum delivery and performance in drylands.
+ 
+ 
+ 
+ Pellets were evaluated for physical stability, cyanobacterial viability during storage, and capacity to facilitate inoculum transfer and colonization of degraded soils.
+ 
+ 
+ 
+ 
+ Paper‐based amendments showed the greatest structural integrity across the three aggregate‐stability assays, with stable fractions approximately nine‐fold higher than in unamended pellets. These formulations created a favorable microenvironment that led to increases in chlorophyll
+ a
+ of up to 89.4 ± 2.7% during mid‐term storage, but did not result in effective soil colonization. In contrast, biochar‐vermicompost pellets facilitated cyanobacterial release, with chlorophyll
+ a
+ concentrations in the underlying soil approximately 16‐fold higher than in the control. The nutrient‐rich composition of vermicompost, combined with the coarse particle size of biochar, likely enhanced inoculum transfer, particularly at lower amendment concentrations.
+ 
+ 
+ 
+ 
+ These findings highlight the importance of tailoring pellet formulations to balance physical stability with efficient inoculum release, providing practical insights for cyanobacteria‐based dryland restoration strategies.
+</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
