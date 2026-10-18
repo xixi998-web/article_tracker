@@ -21290,5 +21290,9 @@
   "doi:10.3390/min16101030": {
     "source": "top_journal",
     "title": "Selective Nickel Leaching from Cu-Ni Sulfide Ores Using Deep Eutectic Solvents"
+  },
+  "arxiv:2610.15854": {
+    "source": "top_journal",
+    "title": "Sharper Frames, Worse Rooms: Viewpoint Coverage Dominates Image Quality in Feed-Forward 3D Reconstruction"
   }
 }
