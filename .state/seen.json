@@ -21306,5 +21306,41 @@
   "doi:10.1111/rec.70573": {
     "source": "top_journal",
     "title": "Optimizing cyanobacterial pellet formulations to enhance dryland restoration"
+  },
+  "doi:10.1145/3822516.3834880": {
+    "source": "top_journal",
+    "title": "PanoGS: Foundation-Depth-Guided High-Resolution Gaussian Splatting from Sparse Panoramic Images for Interactive Web3D Exploration"
+  },
+  "arxiv:2610.16330": {
+    "source": "top_journal",
+    "title": "BAT3R: Robust Online 3D Reconstruction with Bayesian Adaptive State Updates"
+  },
+  "doi:10.1117/12.3132289": {
+    "source": "top_journal",
+    "title": "3D shape measurement under global illumination using window parallel single-pixel imaging"
+  },
+  "doi:10.1145/3822516.3834866": {
+    "source": "top_journal",
+    "title": "From VRML to WebGL: Uses of Interactive 3D in Archaeological Outreach"
+  },
+  "doi:10.1063/5.0357279": {
+    "source": "top_journal",
+    "title": "Spatiotemporal learning parallel single-pixel imaging for dual-layer 3D reconstruction through scattering obstruction"
+  },
+  "arxiv:2610.16160": {
+    "source": "top_journal",
+    "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning"
+  },
+  "arxiv:2610.16737": {
+    "source": "top_journal",
+    "title": "CopyQuad: Quadrupedal Skill Transfer from a Single Side-View Video Without a Depth Model"
+  },
+  "arxiv:2610.16146": {
+    "source": "top_journal",
+    "title": "Unravel: Recovering an Interactive 3D Scene from a Single Image"
+  },
+  "doi:10.1117/12.3132686": {
+    "source": "top_journal",
+    "title": "Reliability of spatial resolution metrics as a function of acquisition parameters in industrial x-ray CT"
   }
 }
