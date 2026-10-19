@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-19 05:48 · Core 11 · Proxy 1 · Eco 7</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Nitrogen Reduction Combined with Calcium-Based Amendments Regulates Soil Acidification Buffering and Maize Productivity in Acidified Croplands of Northeast China<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">10</span></div>
+<div class="meta-line">Authors: Yi-Ting Liu, L. Jin, Na-Hong Yuan, Meng-Meng Bao, Feng-Zhuo Geng...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/74dbae9bedccb1bf8d38b76eba3e0b6f888574b3">Abs</a> · <a href="https://doi.org/10.3390/plants15203116">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Excessive nitrogen fertilization accelerates soil acidification and threatens soil fertility and crop productivity, highlighting the need for management strategies that reduce nitrogen inputs while maintaining soil function and crop production. This study investigated the effects of nitrogen reduction combined with calcium-based amendments on soil acidity, nutrient availability, and maize productivity in an acidified aquic brown soil. A field experiment was conducted with three nitrogen-reduction levels (10%, 20%, and 30%) and four amendment treatments (no amendment, dolomite, quicklime, and fused calcium–magnesium phosphate fertilizer). The results showed that, under non-amended conditions, greater nitrogen reduction resulted in higher soil pH and measured total exchangeable base cations (TEBC), whereas nitrogen-reduction level had no significant effect on soil pH buffering capacity (pHBC). Among the calcium-based amendments, dolomite and quicklime increased pHBC by 25.3% and 21.4%, respectively, relative to the non-amended treatment, while dolomite generally showed higher measured concentrations of exchangeable Ca2+ and Mg2+ and higher TEBC. Amendment effects on nutrient availability differed among treatments: fused calcium–magnesium phosphate fertilizer produced the highest available phosphorus, whereas dolomite increased alkali-hydrolyzable nitrogen and generally resulted in higher NH4+-N and available potassium. Maize grain yield was maintained when nitrogen reduction increased from 10% to 20% but declined significantly under 30% nitrogen reduction. Across nitrogen-reduction levels, dolomite was associated with the highest grain yield, exceeding the non-amended and quicklime treatments by 4.1% and 5.4%, respectively. Overall, moderate nitrogen reduction maintained maize productivity, while dolomite showed favorable responses across multiple indicators of soil acidity, exchangeable base-cation status, nutrient availability, and grain yield. These findings highlight the importance of coordinating nitrogen-reduction intensity with amendment-specific effects to balance soil amelioration and maize productivity in acidified croplands.</div></details>
+</div>
+<div class="card"><div class="title">Soil Nutrients Rather than Heavy Metals Dominate the Succession of Microbial Communities in Subtropical Coal Gangue Piles: A Case Study from a Successional Gradient in Southern China<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: Han-Chang Zhou, Tian Wang, Zi-Ying Zhang, Yi Li, Quan-Quan Jia...</div>
+<div class="meta-line">Venue: Microorganisms</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/645179654ff10bd16935ace69f692a0bb36acb49">Abs</a> · <a href="https://doi.org/10.3390/microorganisms14102322">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The natural revegetation of coal gangue piles relies on microbial community succession, yet limiting factors in subtropical regions remain unclear, hindering the acceleration of natural revegetation. This study examined coal gangue tailings of varying successional ages in southern China to identify the factors that limits on microbial succession. Soil properties, microbial diversity, community structure, network complexity, and heavy metal fractions were analyzed across successional stages. Results show a progressive soil acidification anda shift from carbon/nitrogen limitation to phosphorus limitation as succession progresses. Bacterial richness peaked at middle stage and then declined, while fungal richness shows no significant difference among different stages. Bacterial community structure changed sharply in early successional stage while fungal structure in the mid-stages. The complexity of microbial cooccurance network initially decreased then increased. Heavy metals mostly accumulated in stable residual fractions during succession, which has only limited toxic effects. The nutrient limitation that shift from C/N to P was the dominant factor shaping core functional modules and community composition, though dissolved organic carbon and few heavy metal fractions were also the main driving factors of microbial network complexity. These findings indicate that microbial succession is constrained more by nutrient availability than by heavy metal toxicity, with early stages limited by C/N sources and later stages limited by phosphorus. This provides a basis for targeted management to accelerate natural recovery of coal gangue piles.</div></details>
+</div>
+<div class="card"><div class="title">The effects of co-application of organic fertilizer and limestone powder on soil organic carbon and its fractions in rubber plantations: associations with microbial necromass carbon and Fe/Al oxides<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Ji-Fen Yang, Shun-Jun Geng, Xiao-Ling Shi, Qiang-Hao Zhang, Chun-Xiao Yang</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b78a208f136fca7d65b77e8e9c38501bc3af77cd">Abs</a> · <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1970224/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Rubber plantations serve as significant carbon reservoirs within China’s terrestrial ecosystems. To provide a scientific foundation for improving soil fertility management, this study investigated the response of soil organic carbon and its components in rubber plantations to different soil amendments.
+ 
+ 
+ 
+ Soil samples were collected from the 0–20 cm horizon of acidic soils in second-generation rubber plantations in Jinghong City, Yunnan Province. A laboratory incubation experiment was then conducted with four treatments: an unamended control (CK), organic fertilizer alone (T1), limestone powder alone (T2), and a combined organic fertilizer and limestone powder treatment (T3). The effects of these amendments on soil organic carbon and its fractions, iron and aluminum oxides, and microbial necromass carbon were systematically evaluated.
+ 
+ 
+ 
+ 
+ The results demonstrated that under T3, Organic carbon (SOC) increased significantly by 12.80%, relative to CK (
+ p
+ &lt; 0.05). Treatments T2 and T3 significantly enhanced microbial necromass carbon (by 6.92–10.90%), fungal necromass carbon (by 6.60–11.32%), and bacterial necromass carbon (by 7.79–9.74%) compared to CK (
+ p
+ &lt; 0.05). T3 also significantly increased amorphous (Fe
+ o
+ , Al
+ o
+ ) and complexed (Fe
+ p
+ , Al
+ p
+ ) iron and aluminum oxides
+ (p
+ &lt; 0.05). Two-way ANOVA revealed a significant interaction between organic fertilizer and limestone powder on POC, MAOC, MNC, and oxide forms, indicating an interactive regulatory effect on the distribution of carbon fractions and the transformation of mineral forms. Regression and correlation analyses showed microbial necromass carbon and Fe/Al oxides significantly positively correlated with SOC and its fractions, suggesting close associations among necromass accumulation, oxide protection, and SOC fraction changes. VPA showed that the shared explanatory power of microbial and mineral variables for SOC stabilization exceeded their respective pure effects.
+ 
+ 
+ 
+ 
+ In summary, microbial necromass carbon, iron and aluminum oxides, and pH are closely related to soil organic carbon and its components. The combined application of organic fertilizer and limestone powder is highly effective in mitigating soil acidification and increasing SOC, microbial necromass carbon, and iron and aluminum oxides, and can serve as a reference for soil fertility management and carbon pool regulation in acidified soils of tropical rubber plantations.
+</div></details>
+</div>
+<div class="card"><div class="title">AquaSteady seaweed-derived alginate hydrogel alters soil chemistry and biological indicators in a rate- and soil-dependent manner<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Ayodeji Bello, A. Ojekanmi, O. Idowu, Cindie Kehlet, J. Chorover...</div>
+<div class="meta-line">Venue: Scientific Reports</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/12bc28a922a7c59e25c3cf226b45e0797c590bf8">Abs</a> · <a href="https://www.nature.com/articles/s41598-026-75813-5_reference.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ AquaSteady (AQST) is a biodegradable, alginate-based, seaweed-derived hydrogel used in agriculture to enhance soil water retention, but its effects on soil physicochemical and biological indicators across contrasting soils remain poorly understood. We evaluated four AQST rates (0, 2, 5, and 10 mg/g soil) in six contrasting soils over a 56-day incubation, and measured soil chemistry and phospholipid fatty acid (PLFA)-based biological indicators. Soil pH rose from 7.38 (control) to 8.23 (high rate;
+ p
+  &lt; 0.001), shifting several soils toward alkaline, while cation exchange capacity declined from 25.32 to 23.83 cmolc kg
+ − 1
+ (
+ p &lt; 0.001
+ ). Exchangeable K, Ca, and Mg fell by ~ 13%, 8%, and 12%, and sulfate and nitrate-N decreased by ~ 29% and 62%, at high AQST rates versus control, while Na roughly doubled (271 to 548 mg kg
+ − 1
+ ;
+ p
+  &lt; 0.001), indicating salinization risk in Na-sensitive soils. Total living microbial, fungal, protozoa, and undifferentiated microbial biomass increased mainly at medium and high rates; bacterial biomass and functional diversity showed no dose response. Mantel analysis found no statistically robust physicochemical-biological association after correction for multiple comparisons in any soil. Biological indicators were generally highest at the high rate, though medium (5 mg g⁻¹) did not differ statistically from high for most indicators, while sodium rose less and pH rose comparably at both rates. The medium rate may offer a better trade-off between biological benefit and salinity risk for sodicity-prone soils, pending calibration. These findings show soil-dependent trade-offs between biological stimulation and chemical shifts, indicating field validation is needed before broader AQST recommendations.
+</div></details>
+</div>
+<div class="card"><div class="title">Short-Term Simulated NH4+/NO3− Inputs Reorganize Soil Microbial Communities and Modify N-Cycling Functional Potential in Temperate Forests<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Yun-Zhe Hu, Shu-lan Cheng, Hua-Jun Fang, Ming-Zhu Lu</div>
+<div class="meta-line">Venue: Microorganisms</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/be78e67c46a50583c92cc960eea15a7c102186e6">Abs</a> · <a href="https://doi.org/10.3390/microorganisms14102323">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Forest soil nitrogen (N) turnover and nitrous oxide (N2O) release are strongly influenced by atmospheric N deposition. Although the effects of individual inorganic N species on soil biogeochemistry are well documented, the consequences of changing their relative supply for N2O formation and the underlying microbial pathways remain less clear. We therefore examined soil N2O emissions, microbial communities, and N-transformation potential across a gradient of ammonium-to-nitrate (NH4+/NO3−) inputs in a temperate forest soil from Northeast China. Seven treatments covering NH4+/NO3− ratios from 1:5 to 5:1 were established. Soil physicochemical properties and N2O emissions were measured, while microbial taxonomic profiles and N-cycling genes were characterized by metagenomic sequencing. Altering the composition of inorganic N reorganized the microbial community, including the relative representation of archaeal, bacterial, and eukaryotic groups. N2O release was greatest when NH4+ and NO3− were supplied in equal proportions, a pattern that may reflect a stronger contribution of nitrification-associated processes. Across the treatment gradient, the response of N2O emissions to inorganic N composition was nonlinear. By contrast, the 1:2.5 NH4+/NO3− treatment produced comparatively low N2O emissions and contained a greater representation of genes associated with N2O reduction, consistent with enhanced microbial potential for N2O consumption. Under the more nitrate-dominated 1:5 treatment, genes involved in dissimilatory nitrate reduction to ammonium (DNRA) were enriched, indicating a shift in the potential routes of nitrate transformation. Metagenomic data further revealed marked variation in genes linked to nitrification, denitrification, and biological N fixation. In comparison with these compositional and functional responses, microbial diversity changed relatively little, possibly because overlapping functions were distributed among different taxa under contrasting N inputs. Overall, the findings show that the balance between ammonium and nitrate can affect forest-soil N2O emissions by restructuring microbial assemblages and their potential to transform N. These responses emphasize the need to consider the composition, rather than only the amount, of N deposition when evaluating microbial regulation of ecosystem N cycling and greenhouse-gas release. Field studies are still needed to test the generality of these patterns and their relevance to N management.</div></details>
+</div>
+<div class="card"><div class="title">Viral regulation of N2O emissions depends on soil acidity.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Hai-Lin Zhang, Rui-Yuan Yan, Jiao Wang, Lin-Fa Fang, Xin-Rong Huang...</div>
+<div class="meta-line">Venue: Journal of hazardous materials</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/11e668a48c47584a7aebcc51d465ba1c32a5023d">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Acidification generally enhances N2O emissions from soils. Yet, the adaptive responses of denitrifiers and the regulatory roles of soil viruses in denitrifier-mediated N2O emissions under persistent acidity remain poorly understood. Here, we combined D2O-labeled single-cell Raman spectroscopy, 15N tracing, metagenomics, machine learning, and virus-addition experiments to examine virus-denitrifier interactions across soils with contrasting long-term acidity conditions maintained for &gt; 17 years. Acidic soils showed the highest N2O emissions despite the lowest potential denitrification rate and highest microbial anabolic activity. Denitrifiers and viral populations in acidic soils exhibited reduced microdiversity, stronger purifying selection, and distinct functional specialization, while viruses showed a lower virulent-to-temperate ratio and greater genetic potential for host interaction and persistence. Host antiviral defense capacity was the strongest genomic predictor of abundance responses to active virus. In acidic soils, active viruses increased N2O reductase level by 33.2% without altering nosZ abundance and reduced N2O accumulation by up to 62.5%, indicating an efficiency-optimized response. Neutral soils showed a quantity-driven response, whereas alkaline soils showed no significant reduction in N2O accumulation. These findings reveal acidity-dependent viral regulation of N2O emissions, strongest in long-term acidic soils.</div></details>
+</div>
+<div class="card"><div class="title">A Carboxymethyl Cellulose Hydrogel Switch Enabling pH-Responsive Fertilizer.<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Yang Wang, Yang Lyu, Dongfang Zheng, Miao-Miao Zhang, Juan Li...</div>
+<div class="meta-line">Venue: ACS applied materials &amp; interfaces</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9397a55126c0335bd6b18ff792185016f81f8e66">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The Green Revolution boosted crop yields with synthetic fertilizers, but their high solubility causes environmental pollution and poor synchronization with crop nutrient demands. To address this problem, we developed green intelligent fertilizers (GIF) using a pH-responsive material to enable root-fertilizer feedback. An ultra-sensitive and biodegradable pH-responsive material (pH-B) was synthesized by coordinating carboxymethyl cellulose with Ca2+ and cross-linking, with H+ sensitivity at 10-4 mol L-1. We then constructed a smart release system by embedding this pH-B switch into a 5% polyurethane coating to encapsulate diammonium phosphate (DAP) granules. In this design, the polyurethane matrix impedes the contact between DAP granules and soil water and thus minimizes phosphorus solubilization, leaching, and fixation, while the pH-B switch acts as an acidity-activated gatekeeper whose shrinking enables water penetration through the coating material. In acidic soil, the shoot P content of faba bean increased significantly (by 37-61%) in the treatment with pH-responsive fertilizer compared with DAP. Consequently, in calcareous soils, these fertilizers release nutrients specifically in response to rhizosphere acidification caused by proton exudation from phosphorus-deficient plant roots. This mechanism precisely synchronizes nutrient supply with crop demand. Our work provides a novel strategy for enhancing nutrient-use efficiency and promoting sustainable agriculture.</div></details>
+</div>
+<div class="card"><div class="title">Long term sugarcane cultivation on tropical Ultisols drives changes in available phosphorus and arbuscular mycorrhizal colonization and soil quality indicators<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: N. Gofar, Nabilla Meilasari, S. J. Priatna, Karinda Dwi Paserena, Nova Tri Bhuyana...</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/59387eddc594670ae78bd81b969ac70c41fab582">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00345-3.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Chemical, physical and biological indicators of soil condition are seldom assessed together across a crop cycle on tropical Ultisols. We examined how selected soil quality and arbuscular mycorrhizal (AMF) indicators differ among sugarcane crop stages. Twenty plots at three commercial plantations in South Sumatra, Indonesia, were sampled at four crop stages (3, 5, 7 and 11 months; n = 6, 6, 4 and 4). Soil pH, organic carbon (SOC), Bray-1 available phosphorus (P), aggregate stability (mean weight diameter, MWD), bulk density, AMF spore density, root colonization, Shannon diversity and stalk height were measured, with yield and Pol at harvest. Analyses used one- and two-way ANOVA, correlation, principal component analysis, a soil quality index (SQI) and resampling procedures suited to the modest sample size. Stage mean available P was 66.1, 11.7, 18.3 and 15.3 mg kg⁻¹ at 3, 5, 7 and 11 months. AMF spore density and root colonization were highest at 5 months, and colonization was negatively correlated with available P, although that association is a contrast between the 3-month plots and all others. Plots at later stages had higher MWD, lower bulk density and higher SOC concentration, although SOC stocks differed little. Stage differences persisted after adjustment for site and no stage × site interaction was detected, but two of three sites contributed one block per stage. The SQI ranked the earliest stage lowest, a result determined by construction. These observational findings motivate experimental testing of phosphorus timing.</div></details>
+</div>
+<div class="card"><div class="title">Soil C:N:P Stoichiometric Differences Between Farmland and Shelterbelts and Their Associations with Soil Physicochemical Properties in the Yellow River Floodplain<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Fu-Cheng Lu, Yan-Yan Li, Kong-Sen Wu</div>
+<div class="meta-line">Venue: Forests</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d2d257dc6c55a05d7472d98e49b407d282fb782e">Abs</a> · <a href="https://doi.org/10.3390/f17101218">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Shelterbelts are an important component of ecological restoration in the Yellow River Floodplain, but their associations with soil carbon (C), nitrogen (N), and phosphorus (P) stoichiometry remain incompletely understood. We compared farmland and shelterbelt soils at two depths (0–20 and 20–40 cm) and examined how nutrient indicators were associated with soil physicochemical properties. In the 0–20 cm layer, C/N, C/P, and N/P ratios were significantly higher in shelterbelt than in farmland, whereas total P and inorganic N contents were higher in farmland. Soil organic carbon and total N generally decreased with depth under both land uses. Factorial analysis identified significant land use × soil depth interactions for total P and all three stoichiometric ratios, indicating that their depth-related changes differed between farmland and shelterbelt. Correlation and random forest analyses showed that soil water content, bulk density, particle-size characteristics, and pH were associated with nutrient indicators, with their relative importance varying by land use and depth. These findings reveal land-use- and depth-dependent differences in soil C:N:P stoichiometry and identify soil properties relevant to monitoring soil quality during shelterbelt management in the Yellow River Floodplain.</div></details>
+</div>
+<div class="card"><div class="title">Combined effects of brewer’s spent grain biostimulation and Bacillus bioaugmentation on crude oil biodegradation in contaminated soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: S. Umana, A. Nkanang, C. Udosen, S. Eduok</div>
+<div class="meta-line">Venue: BMC Environmental Science</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c0287dfad99f87178c22392f8ca209375ae107c8">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1186/s44329-026-00066-6.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Petroleum hydrocarbon contamination is a major environmental challenge because of its persistence and adverse effects on soil quality and ecosystem functioning. This study evaluated the combined effects of brewer’s spent grain (BSG) biostimulation and Bacillus bioaugmentation on crude oil biodegradation in contaminated soil. The study was performed using standard microbiological and physicochemical procedures to assess the composition of BSG, soil properties, microbial populations, and petroleum hydrocarbon degradation during remediation. Soil microcosms were amended with 1%, 10%, and 20% BSG and bioaugmented with Bacillus subtilis. Heterotrophic bacterial abundance (HBA), oil-degrading bacteria (ODB), Nitrosomonas, and Nitrobacter populations were monitored during the remediation period, while residual petroleum hydrocarbons were determined at the end of the experiment. The experimental data were subjected to analysis of variance (ANOVA) to determine differences among treatments. The composition of BSG included organic carbon of 76.0 ± 0.84%, protein of 27.5 ± 0.36%, nitrogen of 2.33 ± 0.05%, and a calorific value of 399.4 ± 0.35 kcal, indicating its suitability as a nutrient-rich amendment for stimulating microbial activity. The soil was acidic, with a pH of 5.05 ± 0.18, 7.15 ± 0.25 mg/kg total petroleum hydrocarbons, and 0.57 ± 0.21 mg/kg polycyclic aromatic hydrocarbons. The heterotrophic bacterial abundance of 7.30 ± 0.32 log₁₀ CFU/g and hydrocarbonoclastic bacterial abundance of 2.60 ± 0.61 log₁₀ CFU/g included genera such as Bacillus, Pseudomonas, Alcaligenes, and Micrococcus sp., indicating organisms with intrinsic biodegrading potential. HBA and ODB populations in Controls 1 and 2 differed significantly from those in the amended and treated soils (ANOVA, p &lt; 0.05), indicating enhanced microbial proliferation following nutrient supplementation and bioaugmentation. Biostimulation with 1%, 10%, and 20% BSG amendments improved soil physicochemical conditions, with pH values ranging from 7.26 ± 0.03 to 8.21 ± 0.03, redox potential from 54.0 ± 0.2 to 90.0 ± 0.1 mV, and moisture content from 14.97 ± 0.06 to 16.52 ± 0.43% compared with the untreated controls. Combined treatment stimulated microbial proliferation, with the 10% BSG treatment recording the highest HBA of 8.82 ± 0.88 log₁₀ CFU/g, while oil-degrading bacteria were enriched during remediation. Bioaugmentation with Bacillus subtilis alone resulted in 49.93% hydrocarbon degradation, whereas combined bioaugmentation and BSG biostimulation improved degradation efficiencies to 88.58%, 76.85%, and 68.61% in the 1%, 10%, and 20% BSG treatments, respectively. Preferential degradation of low- and mid-molecular-weight hydrocarbons (C10–C22) and substantial reduction of biodegradation indicator compounds such as pristane and phytane indicated enhanced microbial activity. Although 10% BSG supported heterotrophic bacterial abundance, the 1% BSG treatment achieved the highest hydrocarbon degradation efficiency, suggesting that moderate nutrient supplementation through BSG amendment, rather than excessive organic loading, favored effective biodegradation. These findings indicate that synergy between nutrient-driven microbial stimulation, functional hydrocarbon degraders, and optimized nutrient amendment strategies enhanced bioremediation efficiency and support the sustainable use of agro-industrial wastes as effective biostimulants for environmental remediation.</div></details>
+</div>
+<div class="card"><div class="title">Coarse Woody Debris of Mixed Tree Species Overrides Soil Matrix Constraints on Microbial Richness and Abundance in an Ancient Broad-Leaved Forest<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: L. Khanina, M. Bobrovsky, D. Savelyev, M. Tutukina, T. Bessonova...</div>
+<div class="meta-line">Venue: bioRxiv</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/52fd6f2230cd29597a62ad845cacd55f4da0d8ce">Abs</a> · <a href="https://www.biorxiv.org/content/biorxiv/early/2026/10/12/2026.10.09.757649.full.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Annotation The mechanisms by which coarse woody debris (CWD) affects soil microbial diversity across different spatial scales and forest disturbance regimes remain poorly understood. This study investigated the impact of CWD from multiple tree species on forest floor bacterial and fungal communities under varying landscape-scale conditions, specifically comparing old-growth forests situated on Phaozems and Retisols with mass-windthrow areas located on loamy Retisols and sandy Podzols. We analyzed both chemical compound and metagenomic profiles of 63 CWD-associated soil samples collected from the Kaluzhskie Zaseki Nature Reserve (European part of Russia). High-throughput Illumina sequencing of the 16S rRNA gene and the ITS region was used to profile both bacterial and fungal communities, respectively. Scale-dependent diversity patterns and taxonomic accumulation were assessed using GLM, NMDS, dbRDA, and iNEXT frameworks. Our findings revealed a profound spatial decoupling in forest floor microbial communities, where a localized reduction in alpha-diversity under CWD drove a sharp increase in landscape-scale gamma-diversity. While standard soil physicochemical properties rigidly dictated baseline matrix richness, CWD operated as a powerful micro-environmental hotspot overriding these constraints. Deadwood inputs filtered out dominant matrix-associated taxa, creating highly specialized micro-refugia characterized by high compositional dispersion. This niche selection was particularly pronounced beneath Quercus logs on Phaozems and Retisols. Furthermore, post-windthrow microbial responses were heavily filtered by wood traits and baseline soil textures. On loamy Retisols within the windthrow mosaic, this breakaway dynamic was highly taxon-specific: while Acer and Fraxinus CWD triggered partitioned, site-specific hotspot dynamics yielding an exceptionally large pool of unique ASVs for bacteria, the distinct enrichment for fungal communities was primarily driven by Ulmus CWD and log-free windthrow areas. Ultimately, iNEXT accumulation profiles confirmed that deadwood does not merely multiply common soil taxa, but enriches the forest landscape by injecting critical beta-level heterogeneity into the soil matrix. These insights emphasize the role of diverse CWD retention in buffering forest microbiomes against large-scale environmental disturbances across heterogeneous soil landscapes. Highlights Sandy soils suppress bacterial abundance but trigger massive fungal proliferation. Bacterial richness is determined by soil pH; fungal diversity responds to nitrogen. Soil pH and nitrogen shift fungal composition along decoupled orthogonal axes. Coarse woody debris acts as hotspots of micro-environmental diversity. Post-windthrow microbial hotspots are strongly shaped by tree species.</div></details>
+</div>
+<div class="card"><div class="title">Soil Organic Carbon Dynamics and Carbon Management Index under Forest and Agricultural Land-Use Systems in the Western Himalayas<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Shahzad Naseer Awan, Hamayun Shaheen, Raja Waqar Ahmad Khan, M. E. Dar, Waqas Ahmed...</div>
+<div class="meta-line">Venue: Tarım Bilimleri Dergisi</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e6a2db39c5ea6c23ddd87eca49177f03c4c21f70">Abs</a> · <a href="https://dergipark.org.tr/en/download/article-file/5631175">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Himalayan soils are highly susceptible to the impacts of climate change and land-use shifts. Soil organic carbon (SOC) and the carbon management index (CMI) are key measures of soil health in response to land use changes. This study assessed total organic carbon (TOC), carbon fractions, carbon pool index (CPI), CMI, and physicochemical properties in forest and agricultural land-use systems in the temperate western Himalayas. Soil samples were collected across 32 distinct sites representing forest (FS), wheat (WS), rice (RS), and maize (MS) systems (n = 32). FS exhibited the highest average TOC (25.6 g kg-1), followed by MS (19.3 g kg-1), WS (15.2 g kg-1), and RS (14 g kg-1). TOC levels differed significantly between land-use categories (ANOVA; F = 13.4, P&lt; 0.001), with all agricultural systems showing significantly lower TOC levels than forests. The maximum concentration of labile carbon (LC) was identified in FS (4.3%), while the lowest was observed in WS (2.8%). MS had the highest CPI (0.75), whereas RS had the highest average CMI (85.5), indicating distinct carbon management dynamics despite lower baseline TOC. TOC was positively correlated with altitude and electrical conductivity but negatively correlated with soil pH. Multiple linear regression (R2 = 0.70) confirmed land-use type as the primary predictor of TOC variation, showing significant reductions for RS (11.6 g kg-1), WS (10.7 g kg-1), and MS (4.9 g kg-1) compared to the forest baseline (P&lt; 0.05). Principal component analysis successfully differentiated agricultural and forest systems based on topography, soil properties, and carbon pools. The primary cause of SOC depletion is the initial conversion of forests to farmland, underscoring the need for climate smart land management to maintain ecosystem services and replenish regional carbon stocks.</div></details>
+</div>
+<div class="card"><div class="title">Utilizations of food waste from Cheeryal village, Telangana, India, in various types of agricultural activity<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: P. Supriya, V. Praveenkumar, Subhashish Dey, G. Veerendra</div>
+<div class="meta-line">Venue: Sādhanā</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/94a0cb4fe759aac4cfd0a69f601a73a8a4bf66b1">Abs</a> · <a href="https://doi.org/10.1007/s12046-026-03456-3">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Food waste management is a term that is used to refer to the process of collecting and treating various types of food waste. Waste management is all about how food waste can be reused as a valuable resource. There is a need to control the volume of food waste generated in our society. Every day, a huge quantity of organic waste is disposed at inland fill sites without proper treatment. These landfill sites produce foul smell, underground water pollution, and air pollution. This pollution can affect the health of humans, wildlife, and our environment. Among the many methods of organic food waste management, a composting method for managing the organic waste generated in the Cheeryal village was adopted. The organic wastes comprising rice waste, vegetable waste, and fruit waste were collected from Cheeryal village for composting. The six different compost formulations were prepared by varying the proportions of rice waste, vegetable waste, fruit waste, cow dung, and rock phosphate. A moisture test is conducted to determine the initial moisture content. In this analysis, various types of characterizations, including scanning electron microscopy, X-ray diffraction, Fourier transform infrared, and Brunauer–Emmett–Teller analysis, were performed for measuring the physical and chemical properties of composting samples. Compost maturity, electrical conductivity, and organic content tests were performed to check the quality of produced compost nitrogen, phosphorous, and potassium tests. Proper management of food waste helps reduce environmental pollution, improve soil fertility, reduce greenhouse gas emissions, and convert organic waste materials into a valuable agricultural product through a proper approach.</div></details>
+</div>
+<div class="card"><div class="title">Innovative Bio-sorption of Pb2+ and Cu2+ from Wastewater Samples using Cannabis sativa L. Buds: Kinetics, Isotherm and Re-usability Studies<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Thandeka Mbatha, P. Mahlambi, S. Zondo</div>
+<div class="meta-line">Venue: Water, Air, &amp; Soil Pollution</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8485779666864b41c1fce844cce4cd9f2f570853">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s11270-026-10040-2.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Heavy metal pollution, mainly from industrial wastewater, is an ongoing worldwide concern that threatens water quality. The present study investigated the potential of Cannabis sativa L. buds, both raw and chemically modified with glycine and sodium bicarbonate, to decontaminate Lead (Pb2+) and Copper (Cu2+) ions from wastewater. Fourier transform Infrared spectroscopy results showed that the chemical modification process altered the surface functional groups, as evidenced by shifts in the functional group peak intensities of the modified bio-adsorbents compared to those of the unmodified bio-adsorbent before adsorption. After the adsorption process, a reduction in peak intensities was observed due to adsorption interactions with metal ions. Scanning electron microscopy revealed an irregular and multi-layered surface with interconnected pore network structures of all assessed bio-adsorbents. However, sodium bicarbonate modified cannabis appeared to be more porous than both bio-adsorbents. Energy-dispersive X-ray spectroscopy identified carbon and oxygen as the major elemental components of the bio-adsorbents. X-ray diffraction spectroscopy revealed that the sodium bicarbonate modified bio-adsorbent exhibited a more crystalline form, while thermogravimetric analysis showed that it was more stable than glycine and raw cannabis biomaterial. These findings indicate that bio-adsorbents exhibit an enhanced adsorption capacity, whilst sodium bicarbonate modified cannabis is expected to perform better than the other bio-adsorbents. A batch adsorption method was employed and assessed by varying solution pH, temperature, mass dosage, initial metal concentration, and contact time in a binary system. The optimal adsorption conditions were determined to be a solution pH of 7, reaction time of 10 min, mass dosage of 10 mg, an initial adsorbate concentration of 10 mg/L, and an adsorption temperature of 25 ºC. According to the analysis of variance results, the effects of temperature and adsorbate concentration on the adsorption of metal ions showed the highest (&gt; 61%) and lowest (&gt; 3%) percentage contributions. The adsorption rates of Cu2+ and Pb2+ ions fitted a non-linear pseudo-first-order model, and the sorption mechanism was best described by a multilayered surface (the Freundlich isotherm). The metal ion adsorption process was found to be exothermic, spontaneous, and feasible. Sodium bicarbonate modified cannabis showed a larger maximum adsorption capacity (qmax) (31.222–56.875 mg/g) than glycine modified cannabis (28.983–53.888 mg/g) and raw cannabis (26.151–30.527 mg/g) for Cu2+ and Pb2+ ions, respectively. The percentage removal efficiency in real wastewater samples was 74–88% for the raw bio-adsorbent, 80–100% for glycine, and 96–100% for the sodium bicarbonate-modified bio-adsorbent for Cu2+ and Pb2+ ions, respectively. Though all bio-adsorbents showed good performance in removing both metal ions, sodium bicarbonate-modified cannabis was shown to be superior. This study showed that Cannabis sativa L. buds can be efficiently applied and regenerated at least three times as bio-adsorbents for the removal of metal ions from wastewater samples. Cannabis sativa L. buds offer an efficient, affordable, and eco-friendly alternative for water monitoring compared with conventional adsorbents. Additionally, the potential applicability of Cannabis sativa buds could be further assessed on a large industrial scale analysis.</div></details>
+</div>
+<div class="card"><div class="title">Assessment of Heavy-metal Pollution and Ecological Risk in Soils and Water of Oil-field Communities in Delta State, Nigeria, Using Integrated Pollution Indices<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Sanda Yusuf Sadau, Ishaya Iliyasu, A. M., O. O., Obonyilo Edache Gabriel...</div>
+<div class="meta-line">Venue: Physical Science International Journal</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/789d9b6995889beeea1678b3cedfa08d15ffe971">Abs</a> · <a href="https://doi.org/10.9734/psij/2026/v30i6992">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Petroleum exploration and production can alter the geochemical quality of surrounding soils and water through the introduction and redistribution of potentially toxic metals. This study assessed the degree of heavy-metal pollution and associated ecological risk in soils and water from the Apkai and Umusedege oil-field communities of Ndokwa East and Ndokwa West Local Government Areas, Delta State, Nigeria. Ten heavy metals, namely Ni, Cr, Cu, Co, Pb, Cd, Fe, Mn, As and Zn, were investigated in soil, while the detected subset was assessed similarly in water. Single-element pollution was evaluated using the contamination factor (CF), geo-accumulation index (I-geo), enrichment factor (EF) and potential ecological risk factor (Er); overall environmental quality was evaluated using the pollution load index (PLI), summed pollution index (PIsum), risk index (RI), average pollution index (PIave) and Nemerow pollution index. In soil, Cr, Co, Pb, Cd, As, Zn, Cu and Ni showed moderate contamination, while Fe and Mn showed considerable contamination; Ni, Cr, Cu, Pb and Zn were classified as low ecological risk, and Cd and As as moderate risk; most metals fell within the depletion-to-minimal-enrichment category, with As as the exception at moderate enrichment; and Cr, Fe, Mn and As showed light-to-moderate geo-accumulation, while the remaining metals were non-contaminated. In water, Cr, Cd and Ni showed moderate contamination, Fe and Mn showed considerable contamination, and Pb, Zn and Cu showed very high contamination; Pb showed considerable ecological risk, while Zn, Cu and Cd showed low-to-moderate risk. Mean PLI was 1.3 for soil and 1.7 for water, indicating pollution in both media under the adopted criterion; mean PIsum was 13.3 and 36.6, mean RI was 67.3 and 142.9, and mean PIave was 1.3 and 4.5 for soil and water, respectively, while the Nemerow index was almost identical between the media at 171.8 and 171.9. Collectively, the integrated indices point to measurable degradation of environmental quality in both compartments, with water showing consistently greater pollution pressure than soil, particularly through Pb, Zn and Cu. The results indicate that heavy-metal pollution in this oil-field environment warrants continued environmental monitoring and management, while also establishing an index-based baseline for the geochemical fractionation and human-health risk assessments that build on this dataset.</div></details>
+</div>
+<div class="card"><div class="title">Determination of the Levels of Heavy Metals in Surface Water, Tilapia Fish (Oreochromis Niloticus) and Soil Within the Vicinity of Oil Production Facilities During Wet and Dry Season in Omoku, Rivers State<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Grace Ijeoma Eluozo</div>
+<div class="meta-line">Venue: INTERNATIONAL JOURNAL OF CHEMISTRY AND CHEMICAL PROCESSES</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e7058d8b07fa762f24d165e30ba94d363956a004">Abs</a> · <a href="https://iiardjournals.org/get/IJCCP/VOL. 12 NO. 6 2026/DETERMINATION OF THE LEVELS OF HEAVY 71-92.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study determined the levels of heavy metals in surface water, tilapia fish (Oreochromis 
+niloticus) and soil within the vicinity of oil production facilities during wet and dry seasons in 
+Omoku, Rivers State, Nigeria. Samples of surface water, Oreochromis niloticus and soil were 
+collected from Obrikom River (Onosi Ognu), Onosi Okpasimini and a control location during the 
+wet and dry seasons. The samples were properly preserved, prepared and digested using standard 
+analytical procedures, while the concentrations of lead (Pb), copper (Cu), chromium (Cr), 
+cadmium (Cd), nickel (Ni) and iron (Fe) were determined using atomic absorption 
+spectrophotometry. The data obtained were subjected to appropriate descriptive and pollution 
+assessment indices, including bioaccumulation factor (BAF), contamination factor (CF) and 
+pollution load index (PLI). The results showed that heavy metals occurred in all the investigated 
+matrices, with generally higher concentrations during the dry season. In surface water, Pb 
+concentrations ranged from 1.10 ± 0.00–2.49 ± 0.01 mg/L during the wet season and 1.24 ± 0.01
+2.86 ± 0.01 mg/L during the dry season, while Fe ranged from 45.19 ± 0.23–72.58 ± 0.00 mg/L 
+and 48.76 ± 0.21–79.64 ± 0.12 mg/L, respectively. In O. niloticus, Pb ranged from 1.18 ± 0.03
+3.62 ± 0.08 mg/kg in the wet season and 1.39 ± 0.04–4.26 ± 0.11 mg/kg in the dry season, while 
+Cd ranged from 0.08 ± 0.01–0.61 ± 0.03 mg/kg and 0.10 ± 0.01–0.76 ± 0.04 mg/kg, respectively. 
+Soil Fe concentrations ranged from 421.58 ± 6.73–758.62 ± 9.17 mg/kg during the wet season and 
+458.72 ± 7.18–826.47 ± 10.26 mg/kg during the dry season. The BAF was highest for Cd, while 
+PLI values indicated greater contamination at the oil-production-influenced locations, 
+particularly during the dry season. The findings indicate heavy-metal contamination in the study 
+area, with evidence of seasonal variation and accumulation of selected metals in Oreochromis 
+niloticus. The study provides baseline information for environmental monitoring, pollution control 
+and the protection of aquatic and terrestrial resources in Omoku, Rivers State.</div></details>
+</div>
+<div class="card"><div class="title">Cooperation between eLTER and ICP Forests<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Nathalie Cools</div>
+<div class="meta-line">Venue: ARPHA Conference Abstracts</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0a30feb624d619d14cfd1713315fee8581e8c59d">Abs</a> · <a href="https://aca.pensoft.net/article/213133/download/pdf/">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The International Co-operative Programme on Assessment and Monitoring of Air Pollution Effects on Forests (ICP Forests) was established in 1985 under the Convention on Long-range Transboundary Air Pollution (Air Convention, formerly CLRTAP) of the United Nations Economic Commission for Europe (UNECE). ICP Forests monitors the influence of air pollutants, climate change and other stressors on the condition of forest ecosystems at two levels of monitoring intensity. The Level I monitoring is based on around 6,000 observation plots on a systematic 16 x 16 km transnational grid across Europe and beyond to provide insight into the geographical and temporal variation of forest condition. The Level II intensive monitoring comprises over 600 plots in selected forest ecosystems with the aim of clarifying cause-effect relationships. Currently, 40 European countries as well as the USA and Canada are members of the ICP Forests.
+ 
+ Our
+ mission
+ is to provide long-term, multi-functional monitoring of forests in the UNECE region, and to disseminate scientific knowledge on the effects of air pollution, climate change and other stressors on forest ecosystems. Our
+ vision
+ is a Europe-wide forest monitoring infrastructure, integrating multiple levels and providing high quality, transparent, robust and openly accessible data on
+ 
+ 
+ 
+ 
+ The status and trends of forest health, vitality, productivity and biodiversity
+ 
+ 
+ The risks that forests face from human activity and natural stressors (separately and in combination)
+ 
+ 
+ The achievements in relevant policy objectives to reduce risks.
+ 
+ 
+ 
+ The status and trends of forest health, vitality, productivity and biodiversity
+ The risks that forests face from human activity and natural stressors (separately and in combination)
+ The achievements in relevant policy objectives to reduce risks.
+ 
+ ICP Forests pursues the following
+ aims:
+ 
+ 
+ 
+ 
+ 
+ Forest condition.
+ Provide a continued overview on forest health, vitality, forest soil condition, and biodiversity status in relation to anthropogenic (air pollution, atmospheric deposition, climate change) and natural stressors.
+ 
+ 
+ 
+ 
+ Cause-effect relationships
+ . Contribute to a better understanding of cause-effect relationships between anthropogenic as well as natural stressors and forest condition and processes.
+ 
+ 
+ 
+ 
+ High quality data
+ . Provide high quality and open access data managed in one central database for risk assessment for forests across Europe, large-scale and long-term trend analyses as well as model validation and calibration, serving also as a reference for global assessments.
+ 
+ 
+ 
+ 
+ Research Infrastructure.
+ Develop and maintain highly equipped forest measurement stations as central data hubs and and research infrastructures (RI) to support standardized forest monitoring across Europe.
+ 
+ 
+ 
+ 
+ 
+ Forest condition.
+ Provide a continued overview on forest health, vitality, forest soil condition, and biodiversity status in relation to anthropogenic (air pollution, atmospheric deposition, climate change) and natural stressors.
+ 
+ 
+ Cause-effect relationships
+ . Contribute to a better understanding of cause-effect relationships between anthropogenic as well as natural stressors and forest condition and processes.
+ 
+ 
+ High quality data
+ . Provide high quality and open access data managed in one central database for risk assessment for forests across Europe, large-scale and long-term trend analyses as well as model validation and calibration, serving also as a reference for global assessments.
+ 
+ 
+ Research Infrastructure.
+ Develop and maintain highly equipped forest measurement stations as central data hubs and and research infrastructures (RI) to support standardized forest monitoring across Europe.
+ 
+ 
+ Possibilities for cooperation with the eLTER RI
+ in the field of:
+ 
+ 
+ 
+ 
+ 
+ Standardization and harmonisation
+ 
+ 
+ Measurement protocols and standards
+ 
+ 
+ Data and metadata standards
+ 
+ 
+ 
+ 
+ 
+ Methodological development for both cost efficiency and data accuracy
+ 
+ 
+ Scientific co-operation in data evaluation and analysis
+ 
+ 
+ 
+ Network development for wider spatial coverage of harmonised and standardised environmental monitoring and assessment
+ 
+ 
+ Exchange about the site networks and findings concerning coverage and options for expansion
+ 
+ 
+ Encouragement of national level collaborations to secure cost-efficiency, sustainability and network alignment
+ 
+ 
+ 
+ 
+ 
+ 
+ Service portfolio
+ 
+ 
+ Identification of services of joint interest
+ 
+ 
+ Invitation to collaborate as potential user in service specification
+ 
+ 
+ 
+ 
+ 
+ 
+ Scientific co-operation in data evaluation and analysis
+ 
+ 
+ Long-term trend analysis
+ 
+ 
+ Developing cause-effect relationships
+ 
+ 
+ Modelling (calibration, parameterization and validation)
+ 
+ 
+ Evaluating effects of forest management
+ 
+ 
+ Evaluating effects of environmental policy strategies
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Standardization and harmonisation
+ 
+ 
+ Measurement protocols and standards
+ 
+ 
+ Data and metadata standards
+ 
+ 
+ 
+ Measurement protocols and standards
+ Data and metadata standards
+ Methodological development for both cost efficiency and data accuracy
+ Scientific co-operation in data evaluation and analysis
+ 
+ Network development for wider spatial coverage of harmonised and standardised environmental monitoring and assessment
+ 
+ 
+ Exchange about the site networks and findings concerning coverage and options for expansion
+ 
+ 
+ Encouragement of national level collaborations to secure cost-efficiency, sustainability and network alignment
+ 
+ 
+ 
+ Exchange about the site networks and findings concerning coverage and options for expansion
+ Encouragement of national level collaborations to secure cost-efficiency, sustainability and network alignment
+ 
+ Service portfolio
+ 
+ 
+ Identification of services of joint interest
+ 
+ 
+ Invitation to collaborate as potential user in service specification
+ 
+ 
+ 
+ Identification of services of joint interest
+ Invitation to collaborate as potential user in service specification
+ 
+ Scientific co-operation in data evaluation and analysis
+ 
+ 
+ Long-term trend analysis
+ 
+ 
+ Developing cause-effect relationships
+ 
+ 
+ Modelling (calibration, parameterization and validation)
+ 
+ 
+ Evaluating effects of forest management
+ 
+ 
+ Evaluating effects of environmental policy strategies
+ 
+ 
+ 
+ Long-term trend analysis
+ Developing cause-effect relationships
+ Modelling (calibration, parameterization and validation)
+ Evaluating effects of forest management
+ Evaluating effects of environmental policy strategies</div></details>
+</div>
+<div class="card"><div class="title">Environmental controls of litter decomposition across topographic, soil‑texture, and stand‑structure gradients in mountain forests<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Lora Stoeva, Kristyan Kolev, Lora Kirova, S. Boteva, Boyanka Angelova...</div>
+<div class="meta-line">Venue: ARPHA Conference Abstracts</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a8d61eece39967edc5a028d9596f1e4e192d8b17">Abs</a> · <a href="https://aca.pensoft.net/article/209540/download/pdf/">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Litter decomposition regulates carbon and nutrient cycling in forest ecosystems, yet its response to interacting effects of seasonality, elevation, and microclimate remains poorly understood, especially in mountain forests experiencing climate change (Panayotov and Tsvetanov (2023), Ma et al. (2024)). Slope aspect can generate strong microclimatic contrasts over short distances and may therefore outweigh elevation as a driver of decomposition. We tested this in the Rila Mountains, Bulgaria, across an altitudinal gradient of 1500–1800 m a.s.l. on north- and south-facing slopes during spring, summer, and autumn. Eight permanent plots were established, with four plots per slope aspect. North-facing plots supported mixed montane forest dominated by Norway spruce (
+ Picea abies
+ Karst.) and European beech (
+ Fagus sylvatica
+ L.), whereas south-facing plots were characterized by Norway spruce (
+ Picea abies
+ Karst.) and Scots pine (
+ Pinus sylvestris
+ L.) stands. Litter decomposition was measured using the Tea Bag Index 3.0 protocol (Middelanis et al. 2023), with green tea and rooibos buried at 8 cm depth and excavated at days 20, 40 and 90 per season. Decomposition rate (
+ k
+ , d⁻¹) and labile fraction (
+ a
+ , g g⁻¹) were estimated by nonlinear least squares fitting. Soil moisture, pH, and β-glucosidase activity were measured at each retrieval, while static soil properties, stand mensuration, and species composition were recorded for each plot. Meteorological variables, including air temperature and precipitation, were used to characterize regional conditions during the study period. Environmental controls on decomposition were assessed using Wilcoxon tests, Pearson correlations, season-specific Principal Component Analysis with TBI parameters as supplementary variables and Spearman correlations.
+ 
+ 
+ North- and south-facing slopes differed significantly in CN ratio, soil texture, moisture, β-glucosidase activity, species composition, and stand basal area (Wilcoxon tests, p &lt; 0.05). Multivariate analyses revealed consistent seasonal patterns in the environmental controls of tea decomposition. PCA showed that the main ordination axis (Dim1, ~60% variance) reflected a soil-microclimate gradient driven by moisture, temperature, silt content, basal area, and enzyme activity. North‑ and south‑facing slopes separated clearly in spring and autumn, when microclimatic contrasts were strongest, but converged in summer. The supplementary TBI variables aligned with distinct parts of this gradient: decomposition rate (
+ k
+ ) consistently associated with warmer, drier, more exposed conditions, whereas the stabilization factor (
+ a
+ ) aligned with moister, finer‑textured soils and higher enzymatic activity. Spearman correlations supported these patterns. Moisture was negatively related to
+ k
+ but positively to
+ a
+ , while basal area and enzyme efficiency were strong predictors of stabilization. Silt and temperature-precipitation interactions further modulated decomposition responses. Together, the results indicate that short‑term microclimate controls early mass loss, whereas soil properties and microbial functioning govern stabilization, with exposure acting as a seasonal modifier of these relationships.
+ 
+ Long-term microclimate and soil monitoring is essential for understanding how future climate change may affect decomposition processes and forest carbon balance. Because these findings are based on a single field experiment, broader observations across seasons, sites, and forest types are needed to confirm the patterns observed here and strengthen their general applicability.</div></details>
+</div>
+<div class="card"><div class="title">Physiological Responses and Transcriptomic Characteristics of Exogenous Trehalose Alleviating Cadmium Toxicity in Maize Seedlings<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Cong Li, Jin-Tao Zhao, Xing-Xing Dong, Shuang Yang, Yi-Jun Tang...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-12</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/be37382d6e5b0c7d413efeb9275e85420a4b17eb">Abs</a> · <a href="https://doi.org/10.3390/plants15203117">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Cadmium (Cd) contamination poses a severe ecological risk to ecosystems. Trehalose (TR) is a non-reducing disaccharide which can mitigate the adverse effects of heavy metals. The physiological responses and transcriptomic characteristics underlying TR-mediated heavy metal tolerance remain unclear in maize. In this study, maize seedlings were exposed to 200 mg L−1 CdCl2·2.5H2O with or without 23 mM exogenous TR for 5 days. By phenotypic observation, although TR supplementation could not fully restore maize growth under Cd stress, it significantly alleviated Cd-induced inhibition, increasing shoot and root dry weight by 33.80% and 36.67%, respectively, compared with Cd treatment alone. Exogenous TR also improved the photosynthesis under Cd stress. Cd stress triggered excessive ROS accumulation and membrane lipid peroxidation, whereas trehalose application alleviated oxidative damage by significantly reducing O2−, H2O2, and MDA contents while further enhancing SOD and CAT activities. Compared with Cd treatment, cell-wall fractionation revealed a 20.53% increase in root cellulose under Cd+TR combined treatment. Further, exogenous TR reduced Cd concentrations in roots and shoots by 19% and 33%, respectively. RNA-seq identified enriched GO categories related to cell communication, signal transduction, amino acid transmembrane transport, and membrane components, suggesting possible involvement of these processes in the TR response. These findings collectively demonstrate that exogenous trehalose enhances maize cadmium tolerance through coordinated physiological responses and transcriptional adjustments.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
