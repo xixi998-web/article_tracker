@@ -21418,5 +21418,109 @@
   "doi:10.3390/plants15203117": {
     "source": "top_journal",
     "title": "Physiological Responses and Transcriptomic Characteristics of Exogenous Trehalose Alleviating Cadmium Toxicity in Maize Seedlings"
+  },
+  "arxiv:2610.22450v1": {
+    "source": "arxiv",
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving"
+  },
+  "arxiv:2610.23039v1": {
+    "source": "arxiv",
+    "title": "Frame-Consistent Feed-Forward 3D Gaussian Splatting from Sparse Unposed Images"
+  },
+  "arxiv:2610.24812v1": {
+    "source": "arxiv",
+    "title": "SwitchSplat: Learning Discrete Object States from Casually Captured Scenes"
+  },
+  "arxiv:2610.24811v1": {
+    "source": "arxiv",
+    "title": "Directionally Factorized Illumination with Spherical Harmonic Rotation"
+  },
+  "arxiv:2610.23496v1": {
+    "source": "arxiv",
+    "title": "FLoTS-SLAM: Optical Flow-Derived Uncertainty for Monocular Dynamic SLAM with Two-Stage Optimization"
+  },
+  "arxiv:2610.23237v1": {
+    "source": "arxiv",
+    "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction"
+  },
+  "arxiv:2610.24605v1": {
+    "source": "arxiv",
+    "title": "RoMo-GS: Efficient Online 3D Gaussian Splatting for Robot Mapping via Exposure-Integrated Motion Blur"
+  },
+  "arxiv:2610.22552v1": {
+    "source": "arxiv",
+    "title": "RTISSLAM-3D: Full 6-DoF SLAM With an In-Air 3D Imaging Sonar"
+  },
+  "arxiv:2610.22505v1": {
+    "source": "arxiv",
+    "title": "KFS$^4$LAM: Adaptive KeyFrame Selection with Structure-Aware Mapping for Endoscopic Gaussian Splatting SLAM"
+  },
+  "arxiv:2610.19097": {
+    "source": "top_journal",
+    "title": "Benchmarking 3D Reconstruction for Under-Ice Robotic Perception in Arctic Environments"
+  },
+  "doi:10.1093/bioinformatics/btag754": {
+    "source": "top_journal",
+    "title": "CryoTriplane: Triplane-based Neural Radiance Field Representation for High-resolution Cryo-EM 3D Homogeneous Reconstruction."
+  },
+  "arxiv:2610.24462v1": {
+    "source": "arxiv",
+    "title": "O-SCD++: Replay-Free Online Scene Change Detection via Recursive Evidence Fusion"
+  },
+  "arxiv:2610.23595v1": {
+    "source": "arxiv",
+    "title": "F-LIVO: A Feature-Level Geometric Measurement Framework for LiDAR-Inertial-Visual Odometry"
+  },
+  "arxiv:2610.22778v1": {
+    "source": "arxiv",
+    "title": "Direct Conditional Parameterization for N-Dimensional Splatting"
+  },
+  "arxiv:2610.17521": {
+    "source": "top_journal",
+    "title": "YUBI-Real2Sim: 3DGS Scene Verification for Reliable Policy Evaluation"
+  },
+  "arxiv:2610.24452v1": {
+    "source": "arxiv",
+    "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time"
+  },
+  "arxiv:2610.23250v1": {
+    "source": "arxiv",
+    "title": "LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction"
+  },
+  "arxiv:2610.22509v1": {
+    "source": "arxiv",
+    "title": "TriSAR-3D and PaintFusion: A Novel Trimodal LiDAR-RGB-Thermal Dataset and Method for 3D Person Detection in Search and Rescue"
+  },
+  "arxiv:2610.22606v1": {
+    "source": "arxiv",
+    "title": "Three LiDARs, Twenty-Five Datasets: Cross-Source Generalization in Tree-Species Recognition"
+  },
+  "arxiv:2610.18093v2": {
+    "source": "arxiv",
+    "title": "LynxScenes: A Large-Scale Real-World Benchmark for Outdoor Wheel-Legged Robot Perception, Navigation, Imagination and Reconstruction"
+  },
+  "doi:10.3390/diagnostics16203325": {
+    "source": "top_journal",
+    "title": "PACS-Integrated Artificial Intelligence-Based Software Tool for Rapid and Fully Automatic Bone Fracture Assessment of the Tibial Plateau"
+  },
+  "doi:10.1002/adfm.78995": {
+    "source": "top_journal",
+    "title": "Environment‐Adaptive Neuromorphic Transistor Enabled by Background‐Light‐Driven Response Reconfiguration"
+  },
+  "doi:10.1109/tpami.2026.3743020": {
+    "source": "top_journal",
+    "title": "VistaDreamer: Zero-shot Single-view Scene Reconstruction by Multi-view Consistency Sampling."
+  },
+  "arxiv:2610.18446": {
+    "source": "top_journal",
+    "title": "CoTL: Compact Token Learning for 3D Scene Representation"
+  },
+  "arxiv:2610.17844": {
+    "source": "top_journal",
+    "title": "What Makes a Good Visual Representation for Spatial Understanding in MLLMs?"
+  },
+  "arxiv:2610.18243": {
+    "source": "top_journal",
+    "title": "LiFUSE: Frequency-Spatial Unified Self-Supervised Pretraining for Liver Disease Analysis on Non-contrast CT"
   }
 }
