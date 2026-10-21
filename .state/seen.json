@@ -21706,5 +21706,61 @@
   "arxiv:2610.26780v1": {
     "source": "arxiv",
     "title": "V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos"
+  },
+  "doi:10.1093/ismeco/ycag285": {
+    "source": "top_journal",
+    "title": "Ammonia-oxidizing bacteria dominate active ammonia oxidation during nitrogen fertilizer-induced acidification of a maize-cultivated black soil"
+  },
+  "doi:10.3390/su182010472": {
+    "source": "top_journal",
+    "title": "Influence of Carbon-Input Level on Cadmium Immobilisation by Wheat Straw-Derived Biochar in Contaminated Soil"
+  },
+  "doi:10.51867/ajernet.7.4.36": {
+    "source": "top_journal",
+    "title": "An exploratory pre-planting and post-harvest assessment of short-term soil-chemical changes within a shrub–cereal–legume intercropping experiment in western Kenya"
+  },
+  "doi:10.1021/acs.analchem.6c04325": {
+    "source": "top_journal",
+    "title": "Darkroom-Free pH Planar Optode via Image Color Correction for Portable Imaging of Extreme Acidity"
+  },
+  "doi:10.2478/jlecol-2026-0041": {
+    "source": "top_journal",
+    "title": "Dynamics of Soil Microbial Biomass Carbon and Total Nitrogen Under Different Land Use in Indo-Myanmar Hotspot Region, Nagaland"
+  },
+  "doi:10.1007/s11270-026-10078-2": {
+    "source": "top_journal",
+    "title": "Chicken Manure Application Alters Soil Heavy-Metal Bioavailability and Bacterial Community Structure in Pakchoi Fields"
+  },
+  "doi:10.14719/pst.17174": {
+    "source": "top_journal",
+    "title": "Effects of phosphorus sources and application levels on soil properties and phosphorus dynamics under a pearl millet-mustard cropping system in semi-arid slightly alkaline soils"
+  },
+  "doi:10.3390/nitrogen7040120": {
+    "source": "top_journal",
+    "title": "Short-Term Impact of Multi-Species Cover Cropping on Agrochemical Properties in Cambisols Versus Histosols in Northern Lithuania"
+  },
+  "doi:10.3389/fmicb.2026.1930634": {
+    "source": "top_journal",
+    "title": "Copper and zinc from slurry applications shape grassland soil microbial community structure in a long-term experiment"
+  },
+  "doi:10.3390/land15101967": {
+    "source": "top_journal",
+    "title": "Effects of Fertilization on Aboveground Biomass and Soil Nutrients of Different Grasslands in the Middle Section of the Greater Khingan Mountains, Inner Mongolia"
+  },
+  "doi:10.3389/fpls.2026.1953112": {
+    "source": "top_journal",
+    "title": "Explainable residual CNN with Gramian Angular Field encoding for rapid quantification of soil properties using near-infrared spectroscopy"
+  },
+  "doi:10.3389/fmicb.2026.1979930": {
+    "source": "top_journal",
+    "title": "Rotation system reshapes soil profile environmental gradients to reorganize bacterial communities and decouple potential nitrogen cycling functions"
+  },
+  "doi:10.1007/s10457-026-01701-6": {
+    "source": "top_journal",
+    "title": "Integrated nutrient management enhances wheat performance, soil quality, and bio-economics under wild pomegranate based agroforestry systems in the Western Himalayas"
+  },
+  "doi:10.1186/s13717-026-00757-7": {
+    "source": "top_journal",
+    "title": "Nonlinear threshold responses of agroecosystem water use efficiency to increasing vapor pressure deficit"
   }
 }
