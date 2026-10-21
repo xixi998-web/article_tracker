@@ -21586,5 +21586,125 @@
   "doi:10.3389/fpls.2026.1916768": {
     "source": "top_journal",
     "title": "Silicon-mediated alleviation of cadmium stress in Pennisetum glaucum: insights from physiology and root transcriptomics analysis"
+  },
+  "arxiv:2610.25681v1": {
+    "source": "arxiv",
+    "title": "RxGS: Relightable Gaussian Stylization via BRDF Decomposition"
+  },
+  "arxiv:2610.27712v1": {
+    "source": "arxiv",
+    "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting"
+  },
+  "arxiv:2610.26508v1": {
+    "source": "arxiv",
+    "title": "Learning Geometry-Aware Planning Representations for Monocular Flight with Cross-Modal Supervision"
+  },
+  "arxiv:2610.25011v1": {
+    "source": "arxiv",
+    "title": "FineSplat: Fine Patches, Local Groups, Detailed Splats"
+  },
+  "arxiv:2610.24812v2": {
+    "source": "arxiv",
+    "title": "SwitchSplat: Learning Discrete Object States from Casually Captured Scenes"
+  },
+  "arxiv:2610.19502": {
+    "source": "top_journal",
+    "title": "Holi-Spatial 360: Generative Reconstruction from Sparse Panoramas for Spatial Rendering and Intelligence"
+  },
+  "arxiv:2610.27696v1": {
+    "source": "arxiv",
+    "title": "PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting"
+  },
+  "arxiv:2610.25887v1": {
+    "source": "arxiv",
+    "title": "Rethinking Sparse-View 3D Gaussian Splatting: A Few-Shot Learning Perspective on Overfitting Prevention"
+  },
+  "arxiv:2610.25400v1": {
+    "source": "arxiv",
+    "title": "RAHF-Net: Range-Aware Heterogeneous Fusion for LiDAR-Assisted RGB Semantic Segmentation"
+  },
+  "arxiv:2610.19674": {
+    "source": "top_journal",
+    "title": "Remember, Revisit, Revise: Scaffold Memory for Long-Horizon 3D Geometry"
+  },
+  "doi:10.1117/12.3131389": {
+    "source": "top_journal",
+    "title": "Decoupled progressive mask reconstruction via joint geometric-semantic and spatiotemporal optimization for dynamic visual SLAM"
+  },
+  "arxiv:2610.27776v1": {
+    "source": "arxiv",
+    "title": "Geometry Regularization for Vanilla NeRF via Self-Supervised Cross-Ray Consistency"
+  },
+  "arxiv:2610.27725v1": {
+    "source": "arxiv",
+    "title": "World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation"
+  },
+  "arxiv:2610.27108v1": {
+    "source": "arxiv",
+    "title": "Counting Contributions, Not Views: Occlusion-Aware Densification for 3D Gaussian Splatting"
+  },
+  "arxiv:2610.26816v1": {
+    "source": "arxiv",
+    "title": "Real-Time Radar Semantic and Panoptic Scene Understanding"
+  },
+  "arxiv:2610.25665v1": {
+    "source": "arxiv",
+    "title": "SpaRV: Sparse Radiance Voxels for Scalable Geometrically Consistent LiDAR-Visual Mapping and Rendering"
+  },
+  "arxiv:2610.25068v1": {
+    "source": "arxiv",
+    "title": "Localization and Neural Splatting on the Edge: An FPGA Scene Memory for Robots"
+  },
+  "arxiv:2610.26920v1": {
+    "source": "arxiv",
+    "title": "Codec-Compatible Learned Compression for 3D Gaussian Splatting"
+  },
+  "arxiv:2610.26918v1": {
+    "source": "arxiv",
+    "title": "GTSM: Gaussian Splatting with Thermal State-Space Dynamics for Spatio-Temporal Thermal Field Reconstruction and Prediction"
+  },
+  "arxiv:2610.26898v1": {
+    "source": "arxiv",
+    "title": "EGGHead: Efficient Generalizable Gaussian Heads from a Single Image"
+  },
+  "arxiv:2610.27617v1": {
+    "source": "arxiv",
+    "title": "Provisioning Robust and Efficient LiDAR Perception for Autonomous Driving"
+  },
+  "arxiv:2610.27547v1": {
+    "source": "arxiv",
+    "title": "SynCalib: Breaking Dataset Shortcuts in LiDAR-Camera Calibration via Extrinsic-Controllable Synthesis"
+  },
+  "arxiv:2610.26395v1": {
+    "source": "arxiv",
+    "title": "ForagerSim: Evaluating Embodied Map-Based Reasoning in Large-Scale Dynamic Worlds"
+  },
+  "arxiv:2610.25840v1": {
+    "source": "arxiv",
+    "title": "OV-PEAR: Observation-Verified Pose-Scale Estimation and Reconstruction for Unknown Industrial Manipulation Objects"
+  },
+  "arxiv:2610.25448v1": {
+    "source": "arxiv",
+    "title": "UBD-Bench: Benchmarking and Analyzing Unimodal Branch Degradation in Multimodal Perception for Autonomous Driving"
+  },
+  "arxiv:2610.25245v1": {
+    "source": "arxiv",
+    "title": "GeoV2V: Geometry-Grounded Video Diffusion Model for Driving Scene Generation"
+  },
+  "arxiv:2610.24452v2": {
+    "source": "arxiv",
+    "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time"
+  },
+  "arxiv:2610.19993": {
+    "source": "top_journal",
+    "title": "Why 3D Reconstruction Breaks Down on Under-Ice AUV Video, and How to Predict It"
+  },
+  "arxiv:2610.27622v1": {
+    "source": "arxiv",
+    "title": "A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera"
+  },
+  "arxiv:2610.26780v1": {
+    "source": "arxiv",
+    "title": "V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos"
   }
 }
