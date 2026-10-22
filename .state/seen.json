@@ -21882,5 +21882,81 @@
   "arxiv:2610.26550v1": {
     "source": "arxiv",
     "title": "Learning Wheel Motion Uncertainty for Degeneracy-Aware LiDAR-Inertial Odometry on Quadrupedal Wheel-Legged Robots"
+  },
+  "doi:10.1128/spectrum.04188-25": {
+    "source": "top_journal",
+    "title": "Environmental determinants of phenazine- and 2,4-diacetylphloroglucinol-producing Pseudomonas in the wheat rhizosphere across a precipitation gradient"
+  },
+  "doi:10.3390/agronomy16202039": {
+    "source": "top_journal",
+    "title": "Simulated Environmental Aging Increases Cadmium Extractability in Acidic Soil Amended with Cadmium-Containing Rice-Straw Biochar"
+  },
+  "doi:10.15244/pjoes/224833": {
+    "source": "top_journal",
+    "title": "Spatial Variability and Influencing Factors\nof Soil P and K in a High-Altitude Mining\nArea: A Case Study in Southwest China"
+  },
+  "doi:10.9734/arja/2026/v19i4931": {
+    "source": "top_journal",
+    "title": "Comparative Assessment of Soil Physicochemical Properties across Active Mining, Logistics, Peripheral and Agricultural Zones in the North Karanpura Coalfield, Jharkhand, India"
+  },
+  "doi:10.1007/s42729-026-03632-8": {
+    "source": "top_journal",
+    "title": "Laccase and Tyrosinase Activities Reveal Contrasting Responses Associated with Soil C and N Pools Across Italian Land-Use Systems"
+  },
+  "doi:10.3389/fmicb.2026.1901736": {
+    "source": "top_journal",
+    "title": "The combination of microbial agent, organic fertilizer, and silica powder enhances oat yield and quality through regulating rhizosphere processes"
+  },
+  "doi:10.1016/j.jenvman.2026.131166": {
+    "source": "top_journal",
+    "title": "Remobilization risk of Cd in aged pig manure biochar under rice rhizosphere influence: Evidence from six-season cultivation."
+  },
+  "doi:10.3390/microorganisms14102356": {
+    "source": "top_journal",
+    "title": "Soil Bacterial Diversity and Community Composition Across Contrasting High-Andean Sites in Candarave, Southern Peru"
+  },
+  "doi:10.1134/s1064229326602519": {
+    "source": "top_journal",
+    "title": "Micronutrient and Sulfur Status of Typical Sierozems Formed on Neogene Deposits and Cotton Response to Fertilization"
+  },
+  "doi:10.70382/caijmasr.v13i9.071": {
+    "source": "top_journal",
+    "title": "STATISTICAL MODELLING OF THE INFLUENCE OF SOLUTION pH ON MACRONUTRIENT ADSORPTION BY FORTIFIED WATERMELON RIND FOR SUSTAINABLE SOIL AMENDMENT"
+  },
+  "doi:10.2166/wpt.2026.512": {
+    "source": "top_journal",
+    "title": "Assessment of climate change impacts on hydropower potential in intermittent river basins using bootstrap aggregating machine learning method"
+  },
+  "doi:10.1016/j.jenvman.2026.131143": {
+    "source": "top_journal",
+    "title": "Mealworm frass affects the chemical properties and nutrient dynamics in two lupin varieties under contrasting soils."
+  },
+  "doi:10.9734/ajopacs/2026/v14i4352": {
+    "source": "top_journal",
+    "title": "Evaluation of Heavy Metal Contamination and Excess Lifetime Cancer Risk in Soil Samples Around Some Selected Dump Sites in South-South, Nigeria"
+  },
+  "doi:10.33619/2414-2948/131/07": {
+    "source": "top_journal",
+    "title": "Current Environmental Condition of Floodplain Soils in Shahdag National Park, Azerbaijan"
+  },
+  "doi:10.1080/09603123.2026.2749061": {
+    "source": "top_journal",
+    "title": "Environmental neurotoxicants as accelerators of brain ageing: exposomic mechanisms linking pollution to amyloidogenesis and Alzheimer's disease."
+  },
+  "doi:10.25258/ijddt.16.69s.212": {
+    "source": "top_journal",
+    "title": "Elucidating Soil Micronutrient Transformations under Food Crop Cultivation Using FTIR Spectroscopy"
+  },
+  "doi:10.66691/leco5508": {
+    "source": "top_journal",
+    "title": "WAYS TO IMPROVE LAND USE EFFICIENCY UNDER MODERN CONDITIONS"
+  },
+  "doi:10.1073/pnas.2616616123": {
+    "source": "top_journal",
+    "title": "Abiotic conversion of nitrate to ammonium enhances nitrogen use efficiency in paddy soils."
+  },
+  "doi:10.1134/s1064229326603537": {
+    "source": "top_journal",
+    "title": "Evaluating the Efficiency of Bioremediation of Mine Waste Heaps Soils in the Eastern Donetsk basin (Rostov Region)"
   }
 }
