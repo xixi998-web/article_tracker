@@ -21762,5 +21762,125 @@
   "doi:10.1186/s13717-026-00757-7": {
     "source": "top_journal",
     "title": "Nonlinear threshold responses of agroecosystem water use efficiency to increasing vapor pressure deficit"
+  },
+  "arxiv:2610.21634": {
+    "source": "top_journal",
+    "title": "Anchor3DGS: Feed-Forward 3D Gaussian Splatting with Compact Anchor-Based Representation"
+  },
+  "arxiv:2610.22450": {
+    "source": "top_journal",
+    "title": "DriveWorld3D Evidence Constrained 3D World Modeling and Generative Simulation for Real-World Autonomous Driving"
+  },
+  "arxiv:2610.29517v1": {
+    "source": "arxiv",
+    "title": "AutoPhyX: Automatic Text-Condition Physics Property Generation"
+  },
+  "arxiv:2610.28521v1": {
+    "source": "arxiv",
+    "title": "Latent Bridge: From Video Latents to 3D Geometry via Feature Alignment"
+  },
+  "arxiv:2610.28004v1": {
+    "source": "arxiv",
+    "title": "Differentiable Task-Driven Coded Aperture Camera Design with 3D Gaussian Scene Representations"
+  },
+  "arxiv:2610.22177": {
+    "source": "top_journal",
+    "title": "Motion- and Gravity-Aware Feedforward 3D Reconstruction"
+  },
+  "arxiv:2610.28190v1": {
+    "source": "arxiv",
+    "title": "CrossFit-GS: Out-of-Fold Pose Estimation for COLMAP-Free 3D Gaussian Splatting"
+  },
+  "arxiv:2610.25400v2": {
+    "source": "arxiv",
+    "title": "RAHF-Net: Range-Aware Heterogeneous Fusion for LiDAR-Assisted RGB Semantic Segmentation"
+  },
+  "arxiv:2610.21297": {
+    "source": "top_journal",
+    "title": "GeoPano: Towards Geometrically Accurate 3D Reconstruction from a Single Panorama"
+  },
+  "arxiv:2610.29396v1": {
+    "source": "arxiv",
+    "title": "Progressive Permutation Alignment with Temperature-Controlled Spectral Sharpening"
+  },
+  "arxiv:2610.29374v1": {
+    "source": "arxiv",
+    "title": "AOV-GS: Active Open-Vocabulary Semantic Mapping with 3D Gaussian Splatting"
+  },
+  "arxiv:2610.29106v1": {
+    "source": "arxiv",
+    "title": "DriftNeRF: Cross-Ray Density Drifting for Sparse-View Neural Radiance Fields"
+  },
+  "arxiv:2610.28615v1": {
+    "source": "arxiv",
+    "title": "KoalaGS: Complexity-Aware Continuous Level of Detail for Gaussian Splatting"
+  },
+  "arxiv:2610.28490v1": {
+    "source": "arxiv",
+    "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection"
+  },
+  "arxiv:2610.28131v1": {
+    "source": "arxiv",
+    "title": "OV-Foam: How 3D Representations Shape Semantic Feature Lifting"
+  },
+  "doi:10.1109/jlt.2026.3731937": {
+    "source": "top_journal",
+    "title": "Reconfigurable Optical Phased Array for LiDAR Blind-Spot Compensation and Resolution Enhancement"
+  },
+  "arxiv:2610.28631v1": {
+    "source": "arxiv",
+    "title": "AEON: Unifying Video and 3D World Models"
+  },
+  "arxiv:2610.22356": {
+    "source": "top_journal",
+    "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models"
+  },
+  "arxiv:2610.28954v1": {
+    "source": "arxiv",
+    "title": "Pair-Free Coarse-to-Real Video Generation via Real-to-Coarse Image Supervision"
+  },
+  "arxiv:2610.28791v1": {
+    "source": "arxiv",
+    "title": "VeriCalib: Verifiable Target-Based LiDAR-Camera Calibration"
+  },
+  "arxiv:2610.28598v1": {
+    "source": "arxiv",
+    "title": "Neural Implicit Energy Optimization for LiDAR Mapping"
+  },
+  "arxiv:2610.28571v1": {
+    "source": "arxiv",
+    "title": "Can a Display Be Used for Rapid LiDAR-Camera Extrinsic Calibration?"
+  },
+  "arxiv:2610.28566v1": {
+    "source": "arxiv",
+    "title": "MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration"
+  },
+  "arxiv:2610.28465v1": {
+    "source": "arxiv",
+    "title": "MARE: An Open-Source Lunar Rover Simulator with Shadow Ground Truth for Perception and Autonomy"
+  },
+  "arxiv:2610.28351v2": {
+    "source": "arxiv",
+    "title": "RayCo4D: Ray-Conditioned Continuous Motion Model for Monocular 4D Dynamic Reconstruction"
+  },
+  "arxiv:2610.28701v1": {
+    "source": "arxiv",
+    "title": "Real-Time Ground Normal Vector Estimation for Spherical Mobile 3D Mapping using LiDAR-Inertial Odometry"
+  },
+  "arxiv:2610.28687v1": {
+    "source": "arxiv",
+    "title": "Solar System Surface Technosignatures: Searching for Signs of Artificial Design on Extraterrestrial Terrain"
+  },
+  "arxiv:2610.26633v1": {
+    "source": "arxiv",
+    "title": "CAOS-SLAM: Class-Agnostic Object-Aware Real-Time vSLAM for Dynamic Environments"
+  },
+  "arxiv:2610.26625v1": {
+    "source": "arxiv",
+    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience"
+  },
+  "arxiv:2610.26550v1": {
+    "source": "arxiv",
+    "title": "Learning Wheel Motion Uncertainty for Degeneracy-Aware LiDAR-Inertial Odometry on Quadrupedal Wheel-Legged Robots"
   }
 }
