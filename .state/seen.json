@@ -21958,5 +21958,109 @@
   "doi:10.1134/s1064229326603537": {
     "source": "top_journal",
     "title": "Evaluating the Efficiency of Bioremediation of Mine Waste Heaps Soils in the Eastern Donetsk basin (Rostov Region)"
+  },
+  "arxiv:2610.31186v1": {
+    "source": "arxiv",
+    "title": "RaSFNet: Ray-aligned and Scan-aware Fusion Network for LiDAR Semantic Segmentation"
+  },
+  "arxiv:2610.30468v1": {
+    "source": "arxiv",
+    "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research"
+  },
+  "arxiv:2610.30774v1": {
+    "source": "arxiv",
+    "title": "Evaluation of Front-End Feature Matching for Lunar Visual SLAM"
+  },
+  "arxiv:2610.30319v1": {
+    "source": "arxiv",
+    "title": "TerraTransfer++: Demonstration-Free End-to-End Planner"
+  },
+  "arxiv:2610.30013v1": {
+    "source": "arxiv",
+    "title": "ClunoGS: Compact Language 3D Gaussian Splatting via Unified Optimization"
+  },
+  "arxiv:2610.30910v1": {
+    "source": "arxiv",
+    "title": "H-2DGS: Height-Field Gaussian Splatting for Sharp and Deformable Neurosurgical Surface Reconstruction"
+  },
+  "arxiv:2610.29699v1": {
+    "source": "arxiv",
+    "title": "AirPlayground: Benchmarking Aerial Navigation across Diverse Reconstructed Environments"
+  },
+  "arxiv:2610.28490v2": {
+    "source": "arxiv",
+    "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection"
+  },
+  "arxiv:2610.30619v1": {
+    "source": "arxiv",
+    "title": "GSHeadRelight: Fast Relightability for 3D Gaussian Head Synthesis"
+  },
+  "arxiv:2610.30326v1": {
+    "source": "arxiv",
+    "title": "R4DGS: Referring Segmentation in 4D Gaussian Splatting"
+  },
+  "arxiv:2610.29866v1": {
+    "source": "arxiv",
+    "title": "GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models"
+  },
+  "doi:10.3390/electronics15204779": {
+    "source": "top_journal",
+    "title": "Attention-Based Grouping Distance Stereo Network"
+  },
+  "arxiv:2610.23250": {
+    "source": "top_journal",
+    "title": "LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction"
+  },
+  "arxiv:2610.31123v1": {
+    "source": "arxiv",
+    "title": "WildDepth-v2: A Synchronized RGB--LiDAR--Radar Dataset and Benchmark for Metric Depth, Motion, and Tracking of Wildlife"
+  },
+  "arxiv:2610.29936v1": {
+    "source": "arxiv",
+    "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos"
+  },
+  "arxiv:2610.29845v2": {
+    "source": "arxiv",
+    "title": "RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation"
+  },
+  "arxiv:2610.25637v1": {
+    "source": "arxiv",
+    "title": "TNVD-SC: Diagnosing Scan Context Failures in Forests with Terrain-Normalized Vertical Distributions"
+  },
+  "arxiv:2610.25517v1": {
+    "source": "arxiv",
+    "title": "ReDT: Resolution-Decoupled Visual Geometry Transformer"
+  },
+  "arxiv:2610.25345v1": {
+    "source": "arxiv",
+    "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes"
+  },
+  "doi:10.17586/0021-3454-2026-69-9-789-799": {
+    "source": "top_journal",
+    "title": "An algorithm for 6D object pose estimation based on generative single-image 3D reconstruction"
+  },
+  "arxiv:2610.23050": {
+    "source": "top_journal",
+    "title": "TriFold: Folding irregular 3D Gaussians into structured latents for 3D Scene Generation"
+  },
+  "arxiv:2610.24218": {
+    "source": "top_journal",
+    "title": "Landmark-Free and Scale-Blind Multi-View Registration of Preoperative Liver Models to Intraoperative Surfaces"
+  },
+  "arxiv:2610.23001": {
+    "source": "top_journal",
+    "title": "BRICE: Brain-inspired Recurrent Illusory Contour Encoder for Point Cloud Completion"
+  },
+  "arxiv:2610.22786": {
+    "source": "top_journal",
+    "title": "MultiPASE: Shape-Aware Comparative 3D Genome Analysis"
+  },
+  "doi:10.1371/journal.pone.0349628": {
+    "source": "top_journal",
+    "title": "Relation-aware dynamic knowledge subgraph enhanced large language models for medical multiple-choice question answering"
+  },
+  "doi:10.3389/fpsyt.2026.1962098": {
+    "source": "top_journal",
+    "title": "Context presentation and native conversation structure in large language model responses to escalating suicide risk: a controlled multimodel evaluation"
   }
 }
