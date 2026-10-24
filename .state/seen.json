@@ -22126,5 +22126,33 @@
   "doi:10.55730/1300-011x.3492": {
     "source": "top_journal",
     "title": "The effect of seedling age on nickel (Ni) accumulation in maize (Zea mays L.)"
+  },
+  "doi:10.1007/s44163-026-02207-x": {
+    "source": "top_journal",
+    "title": "Communication-efficient collaborative 4D mapping via federated temporal Gaussian pruning and knowledge-distilled neural radiance fields for post-disaster rescue robotics"
+  },
+  "arxiv:2610.31293v1": {
+    "source": "arxiv",
+    "title": "RecallGS: Geometry-Grounded Recall for Online Semantic Gaussian Splatting"
+  },
+  "arxiv:2610.31645v1": {
+    "source": "arxiv",
+    "title": "OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields"
+  },
+  "arxiv:2610.31320v1": {
+    "source": "arxiv",
+    "title": "Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention"
+  },
+  "arxiv:2610.31635v1": {
+    "source": "arxiv",
+    "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction"
+  },
+  "arxiv:2610.31321v1": {
+    "source": "arxiv",
+    "title": "MVLoMa: Multi-View Local Feature Matching with Any Geometry Foundation Model"
+  },
+  "arxiv:2610.31221v1": {
+    "source": "arxiv",
+    "title": "Consistent Distributed Invariant EKF SLAM with Point and Object Features"
   }
 }
