@@ -22154,5 +22154,21 @@
   "arxiv:2610.31221v1": {
     "source": "arxiv",
     "title": "Consistent Distributed Invariant EKF SLAM with Point and Object Features"
+  },
+  "doi:10.1007/s11270-026-10066-6": {
+    "source": "top_journal",
+    "title": "Availability and Shoot Cadmium Content in Wheat Differentially Respond to Liming: The Impact of Exchangeable Calcium and pH in Bulk and Rhizosphere Soil"
+  },
+  "doi:10.48175/ijarsct-38925": {
+    "source": "top_journal",
+    "title": "An Explainable Uncertainty-Weighted Multi-Task Learning Framework for Joint Crop Recommendation and NPK Prediction with Probabilistic Crop Conditioning"
+  },
+  "doi:10.3390/agriculture16202266": {
+    "source": "top_journal",
+    "title": "Effectiveness of Compost Produced from Spent Substrate of Deep Root Mushroom (Xerula radicata) on the Growth and Yield of Maize (Zea mays L.)"
+  },
+  "doi:10.9734/ijpss/2026/v38i106378": {
+    "source": "top_journal",
+    "title": "Role of Smart Fertilization in Modern Agriculture"
   }
 }
