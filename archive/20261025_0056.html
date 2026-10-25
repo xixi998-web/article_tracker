@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-25 00:56 · Core 4 · Proxy 0 · Eco 1</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">GOFusion: Real-Time Gaussian-Occupancy Submap Fusion for Fisher-Informed Autonomous Robot Navigation<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: Bo-Xin Bu, Simon Boche, Hao-Ming Zhang, Jae-Hyung Jung, Jia-Xin Wei...</div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-10-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c0f9557dc7275fa9b6f1fc316321144b85f2ed3e">Abs</a> · <a href="https://github.com/Bennnoo/GOFusion">Code1</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">In this letter, we present GOFusion, a real-time visual mapping system for autonomous robot navigation that anchors Gaussian primitives to local occupancy maps, providing both spatial awareness for path planning and high-fidelity appearance that enables information-driven robot navigation. GOFusion builds 3D Gaussian maps from pose estimates and local occupancy maps obtained via visual-inertial SLAM and enables pose corrections to maintain both geometric and visual consistency. Furthermore, it restricts the 3D Gaussian Splatting optimization to active submaps to bound GPU memory usage. Building on the appearance-rich Gaussian map, we introduce a rasterizer-integrated Fisher approximation that quantifies per-primitive sensitivity online, serving as an information-driven heuristic for Gaussian pruning and next-best-view planning. We evaluate GOFusion on public datasets and in real-world drone flights. It not only outperforms several baselines in mapping quality, but also achieves real-time, high-fidelity and uncertainty-aware mapping at scale. Finally, we demonstrate fully autonomous drone exploration for Gaussian map refinement using the proposed Fisher-informed heuristic. Code is available at https://github.com/Bennnoo/GOFusion. We provide a supplementary video demonstration at https://youtu.be/pLQKbxQvb6I.</div></details>
+</div>
+<div class="card"><div class="title">FineSplat: Fine Patches, Local Groups, Detailed Splats<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: Hyebin Kim, H. Jeong, Joonhyuk Park, Gyeongjin Kang, Jungwoo Kim...</div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-10-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/94c8256aef46f0a5ee473c1f9880f4d51273839b">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Feed-forward 3D Gaussian Splatting (3DGS) promises instant scene reconstruction with high-quality novel-view synthesis. Yet, fine-grained geometry and appearance remain difficult to recover, motivating us to revisit how feed-forward models represent, aggregate, and refine detailed visual information. We introduce FineSplat, a feed-forward 3DGS framework built around fine-grained image patches. Since global multi-view attention becomes prohibitively expensive at such high token resolutions, we develop a dual-grouping strategy that combines two complementary forms of locality: view-wise grouping enables efficient interaction among neighboring views, while 3D spatial grouping reconnects geometrically related tokens that may never have interacted under view-wise grouping by lifting them into the 3D scene space. We further leverage reconstruction error as direct feedback, providing an explicit rendering-based signal to recover fine-grained structures and appearance, thereby overcoming the limitations of one-pass feed-forward prediction. Finally, a compact Gaussian generation scheme preserves the benefits of fine-grained features without unnecessarily increasing the number of primitives. Together, these designs enable FineSplat to recover richer geometry and appearance while remaining efficient and compact, achieving state-of-the-art results by a substantial margin, under the same or smaller Gaussian budgets than existing methods.</div></details>
+</div>
+<div class="card"><div class="title">Pose-driven neural radiance field fusion with geometric conformance for virtual try-on<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Yi-Jin Tang, Yu-Huan Lv, Zi-Sen Zhou, Wei-Guang Kong</div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-10-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/25cccf3fca8192b16f126c85aa8681c22bdf2c76">Abs</a> · <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14371/3125900/Pose-driven-neural-radiance-field-fusion-with-geometric-conformance-for/10.1117/12.3125900.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Virtual try-on requires geometrically faithful garment reconstruction with pose-consistent dynamic fitting, but current methods struggle to achieve satisfactory reconstruction accuracy, controllability and computational efficiency. Mesh-based approaches miss out high-frequency garment geometry details, single implicit field approaches provide no structured semantic priors. We propose a NeRF–SMPL combination method with three main contributions: a dual-layer Neural Radiance Field that separates body and garment modelling, reducing 21.2% of Chamfer Distance over NeRF models with single implicit fields; a geometric fitting method based on pose-aware constraint with embedded SMPL priors to provide a stable enforcement of contact constraint for garment fitting, suppressing the interpenetration effect by 48.6%; and an adaptive sampling strategy that improves the rendering frame rate approximately by 43% without accuracy degradation. Experiments on popular benchmark datasets demonstrate consistently gained accuracy in reconstruction, suppression in interpenetration, efficiency in rendering, image quality, and ablation study verifies the contribution of each component.</div></details>
+</div>
+<div class="card"><div class="title">ReDT: Resolution-Decoupled Visual Geometry Transformer<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Abteen Arab, Gui-Le Wu, Dong-Feng Bai</div>
+<div class="meta-line">Venue: Computational Visual Media</div>
+<div class="meta-line">Published: 2026-10-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/de611b853cee6897792fddfa93ecae10e3fa9de5">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">We introduce ReDT, a feed-forward visual geometry transformer designed to scale multi-view reconstruction to high-definition (HD) inputs. Existing visual geometry transformers are typically trained at fixed, standard definition (SD) resolutions and exhibit degraded reconstruction quality and poor computational scaling to high input resolutions. While recent efficient architectures reduce the complexity of inter-frame attention, expensive intra-frame and encoder attention remain largely unaddressed, making HD reconstruction impractical with existing architectures. ReDT addresses both limitations with a resolution-aware architecture designed to scale to high-resolution inputs. The key idea of ReDT is to first map each view to a fixed-size set of basis tokens, compute correspondences in this compact constant-size basis space, and then project the outputs back to the original resolution for dense prediction. By decoupling the internal representation from input resolution during attention, ReDT substantially reduces the computational cost of high-resolution 3D reconstruction and improves model performance at all resolutions. Extensive experiments on multiple datasets spanning SD to FHD (2K) show that ReDT outperforms state-of-the-art visual geometry transformers in both reconstruction quality and computational efficiency. For instance, on the ETH3D (2K) dataset, ReDT achieves a $16\times$ speedup, a $34\%$ reduction in peak GPU memory usage, and a $33\%$ reduction in chamfer distance over VGGT-$\Omega$. \href{https://redt.github.io}{Project Website.}</div></details>
+</div>
+<div class="card"><div class="title">Gerchberg-Saxton Optimized Silicon Metasurface for Sinusoidal Structured-Light Three-Dimensional Imaging<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Geng-Yuan Ye, Shu-Ming Wang</div>
+<div class="meta-line">Venue: Image and Vision Computing</div>
+<div class="meta-line">Published: 2026-10-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ad233baceea79d542e1b348a8f19d593b5b19ecf">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Three-dimensional (3D) optical imaging based on structured illumination has attracted considerable attention in applications including machine vision, robotics, and computational sensing. However, conventional structured-light systems generally rely on bulky projection components, such as digital micromirror devices and diffractive optical elements, which limit system miniaturization and integration. Here, we demonstrate a compact structured-light 3D imaging platform enabled by a silicon dielectric metasurface operating at a near-infrared wavelength of 940 nm. The desired sinusoidal fringe illumination is encoded into the metasurface through a Gerchberg-Saxton (GS) phase optimization algorithm, which converts the target far-field distribution into a nanoscale phase profile and subsequently into silicon nanopillar geometries. The fabricated metasurface generates high-quality sinusoidal structured illumination, which is integrated with a four-step phase-shifting reconstruction method to recover 3D object profiles. The proposed approach provides a compact and scalable solution for miniaturized structured-light projection and optical 3D sensing.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
