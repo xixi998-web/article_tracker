@@ -22170,5 +22170,25 @@
   "doi:10.9734/ijpss/2026/v38i106378": {
     "source": "top_journal",
     "title": "Role of Smart Fertilization in Modern Agriculture"
+  },
+  "arxiv:2610.25261": {
+    "source": "top_journal",
+    "title": "GOFusion: Real-Time Gaussian-Occupancy Submap Fusion for Fisher-Informed Autonomous Robot Navigation"
+  },
+  "arxiv:2610.25011": {
+    "source": "top_journal",
+    "title": "FineSplat: Fine Patches, Local Groups, Detailed Splats"
+  },
+  "doi:10.1117/12.3125900": {
+    "source": "top_journal",
+    "title": "Pose-driven neural radiance field fusion with geometric conformance for virtual try-on"
+  },
+  "arxiv:2610.25517": {
+    "source": "top_journal",
+    "title": "ReDT: Resolution-Decoupled Visual Geometry Transformer"
+  },
+  "arxiv:2610.26956": {
+    "source": "top_journal",
+    "title": "Gerchberg-Saxton Optimized Silicon Metasurface for Sinusoidal Structured-Light Three-Dimensional Imaging"
   }
 }
