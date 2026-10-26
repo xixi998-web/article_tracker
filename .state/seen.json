@@ -22214,5 +22214,57 @@
   "doi:10.3390/w18202593": {
     "source": "top_journal",
     "title": "Effects of Reclaimed Water Irrigation on Nutrient Management and Fruiting in Blueberry Production Systems"
+  },
+  "arxiv:2610.31908v1": {
+    "source": "arxiv",
+    "title": "PixGR: Pixel-Space Generative Decoding for Fast Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2610.27712v2": {
+    "source": "arxiv",
+    "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting"
+  },
+  "doi:10.1117/12.3134640": {
+    "source": "top_journal",
+    "title": "Real-time reconstruction frame rate of landscape display scene optimized by 3D Gaussian sputtering"
+  },
+  "doi:10.3390/app162010357": {
+    "source": "top_journal",
+    "title": "MEP-3DGS: Multi-Scale Pyramid Optimization and Event-Aware Masking for Efficient Motion-Deblurred 3D Gaussian Splatting"
+  },
+  "arxiv:2610.26338": {
+    "source": "top_journal",
+    "title": "SplatXR: A Toolkit for Multi-Layered Extended Reality via On-Headset 3D Gaussian Splatting"
+  },
+  "arxiv:2610.32612v1": {
+    "source": "arxiv",
+    "title": "DriveOSS: Dataset and Benchmark for 3D Anomaly Segmentation and Open-set Semantic Segmentation in Autonomous Driving"
+  },
+  "arxiv:2610.27284": {
+    "source": "top_journal",
+    "title": "NeRF-Inspired Neural Fields for 3D Super-resolution of Reacting-Flows"
+  },
+  "arxiv:2610.25840": {
+    "source": "top_journal",
+    "title": "OV-PEAR: Observation-Verified Pose-Scale Estimation and Reconstruction for Unknown Industrial Manipulation Objects"
+  },
+  "doi:10.3390/forensicsci6040092": {
+    "source": "top_journal",
+    "title": "The Golden Hours of Criminal Investigation: AI-Enhanced Decision Support for Data-Driven, Evidence-Based Policing"
+  },
+  "doi:10.3171/case2699": {
+    "source": "top_journal",
+    "title": "Recurrent trigeminal neuralgia caused by an anomalous cerebellar artery arising from the persistent primitive trigeminal artery: illustrative case"
+  },
+  "arxiv:2610.26780": {
+    "source": "top_journal",
+    "title": "V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos"
+  },
+  "doi:10.64898/2026.10.17.759823": {
+    "source": "top_journal",
+    "title": "Robust geometric drift correction and identity reconstruction for biological 3D time-lapse point clouds"
+  },
+  "doi:10.4271/2026-99-2992": {
+    "source": "top_journal",
+    "title": "Robust Cross-Modal UAV Detection via Bidirectional Collaborative\n Energy Field under Weak Calibration"
   }
 }
