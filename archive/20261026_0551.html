@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-26 05:51 · Core 3 · Proxy 0 · Eco 4</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Pesticide leaching in sandy and loamy soil-contrasting impact of polyethylene microplastic pollution and freeze-thaw events.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Si-Qi Wu, Alexander Böhme, Andreas Schäffer, Zhong-Li Chen, Annika Jahnke</div>
+<div class="meta-line">Venue: Journal of hazardous materials</div>
+<div class="meta-line">Published: 2026-10-19</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f03d495aa10c7b18098997a911ec1055cad2a467">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Microplastics (MPs) can alter pesticide migration in soils by modifying soil structure and influencing pesticide sorption and transport. Freeze-thaw cycles (FTCs), which are common in temperate regions, naturally change soil structure and may influence the environmental fate of both MPs and pesticides. We investigated a mixture of 20 pesticides with a broad range of physical-chemical properties in a factorial column experiment combining sandy and loamy soils, room-temperature and FTC treatments, and the presence or absence of 1% (w/w) polyethylene (PE) particles (63-100 μm). Transport was characterized by the pore volumes required to reach 5% and 50% of the nominal influent concentration (BV5 and BV50). FTCs reduced mean breakthrough volumes by approximately 15-35% in sandy soil and 40-85% in loamy soil, whereas PE addition generally increased breakthrough volumes by approximately 7-17% across treatments. Loamy soil showed greater pesticide retention at room temperature and a 1-2.5-fold stronger response to FTCs than sandy soil. Associations with organic-carbon partition coefficients (KOC) and water solubility (Sw) indicated compound-dependent transport. Changes in soil physical properties and complementary experiments with selected triazines suggested possible physical and partitioning-related contributions, particularly in loamy soil, consistent with FTC-induced changes in soil structure and flow pathways.</div></details>
+</div>
+<div class="card"><div class="title">Spatial prediction of the soil-wheat cadmium bioconcentration factor with a knowledge-guided learning model.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Si-Qi Liu, Yan-Ling Li, Yang Yang, Hua-Ding Shi, Yao Zhang...</div>
+<div class="meta-line">Venue: Journal of hazardous materials</div>
+<div class="meta-line">Published: 2026-10-19</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b76bc757cae57751fcd90acdf3eee5e24347f90c">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Cadmium (Cd) readily transfers from contaminated soils into wheat grain, posing dietary risks; however, predicting the spatial distribution of the bioconcentration factor (BCF) remains challenging due to interacting direct and indirect pathways. We developed a knowledge-guided learning model using structural equation modeling to quantify relationships governing BCF. These mechanistic insights guided Random Forest coupled with high-accuracy surface modeling for spatial prediction and informed management strategy evaluation through scenario simulations. The results showed that the BCF was jointly governed by direct soil buffering and Zn-Cd competitive uptake, and indirectly by industrial emissions and wind that degraded soil properties and increased soil Zn concentrations. Validated against a large field dataset from northern China, the model achieved R2 of 0.44-0.84. Spatial predictions revealed a partial mismatch between soil Cd and BCF hotspots, with high-BCF zones occurring where neutral pH, moderate organic matter, and industrial emission-related deposition converged. Scenario simulations suggested that a combined strategy of source control and zinc fertilization could reduce the high-BCF area from 22.7% to 3.9% by 2050. We proposed a spatially differentiated zoning framework for targeted wheat production management. This knowledge-guided learning model provides a transferable methodology for precise control in heavy metal-contaminated agricultural regions.</div></details>
+</div>
+<div class="card"><div class="title">Environmental effects of biodegradable microplastics in cadmium-contaminated soil and their regulation on cadmium bioavailability.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Xu Qin, Qing-Qing Huang, Li-Jie Zhao, Yue-Bing Sun</div>
+<div class="meta-line">Venue: Journal of hazardous materials</div>
+<div class="meta-line">Published: 2026-10-19</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/084e39012026002e7450315dac3b3051dc7bc4ca">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Biodegradable microplastics (BMPs) residues in soil are becoming increasingly prevalent; however, their effects on cadmium (Cd) bioavailability and toxicity in contaminated soils remain poorly understood. A pot experiment was conducted to investigate the effects of four typical BMPs-polylactic acid (PLA), poly(butylene adipate-co-terephthalate) (PBAT), polybutylene succinate (PBS), and polycaprolactone (PCL) on soil physicochemical properties, Cd speciation, pak choi growth, antioxidant responses, and rhizobacterial community structure in Cd-contaminated acidic soil. Results demonstrated that BMPs regulated Cd behavior through dual abiotic (pH, zeta potential, electrical conductivity) and biotic (microbial community restructuring) pathways, with effects highly dependent on BMPs type. PBAT elevated soil pH, increased negative zeta potential, reduced shoot Cd accumulation, alleviated oxidative stress, and enhanced bacterial diversity with enrichment of Cd-immobilising taxa. Conversely, PLA, PBS, and PCL decreased soil pH, increased Cd availability and plant Cd uptake, aggravated lipid peroxidation and leaf tissue damage, and inhibited antioxidant enzyme activity. PLA broadly suppressed soil enzyme activity, whereas PCL reduced bacterial richness and enriched Cd-mobilising taxa. These findings demonstrate that BMPs exert species-specific regulation on Cd fate through combined modifications of soil physicochemical properties and reshaping of functional microbial communities, highlighting the need for risk differentiation when introducing biodegradable plastics into metal-contaminated farmlands.</div></details>
+</div>
+<div class="card"><div class="title">Modeling yield and carbon emissions in a wheat-maize rotation system on saline-alkaline soils using the DNDC model<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Li Wang, Jing-Zhao Lu</div>
+<div class="meta-line">Venue: Seventh International Conference on Green Energy, Environment, and Sustainable Development (GEESD 2026)</div>
+<div class="meta-line">Published: 2026-10-19</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3a81b955356c29aa9509a3f70df144dc6054343e">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study investigated a winter wheat-summer maize rotation system on moderately saline-alkali farmland in Huanghua
+City, Hebei Province, China (0-20 cm soil layer: total salt content 2.1-3.5 g kg-1, pH 8.6-9.2). Through three years of
+empirical field data, we parameterized and validated the DNDC model to quantify the effects of alternative management
+strategies on crop yield and greenhouse gas (N2O, and CO2) dynamics in saline-alkali soils. The DNDC model
+demonstrated excellent performance in simulating crop yield and greenhouse gas (GHG) emissions across four
+management scenarios with high R2 (⪆ 0.80, P ⪅ 0.01) and low NRMSE ( ⪅ 5%). The optimized strategy (S3), combining
+controlled-release fertilizer, organic fertilizer, and CDSI (controlled drainage and sub-irrigation) technology, achieved the
+highest yields: 1207 kg C ha-1 for winter wheat and 740 kg C ha-1 for summer maize, representing 54.5% and 65.9%
+increases over the baseline (BAU), respectively. Our findings show that integrated management (e.g., using controlled-
+release fertilizer, organic amendments, and drip irrigation) can simultaneously enhance productivity and reduce emissions
+in saline-alkali wheat-maize systems.</div></details>
+</div>
+<div class="card"><div class="title">Human health risk assessment and integrated contamination analysis of Cd, Cu and Cr in urban soils of Annaba City, Northeast Algeria<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Omar Omar Tebboub, Seifeddine Sellami, Fares Zaamouche, Said Lifa, A. Hadjela...</div>
+<div class="meta-line">Venue: Global NEST Journal</div>
+<div class="meta-line">Published: 2026-10-19</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0e9d50cde56e1fd8bce8f7a25136844b8132d407">Abs</a> · <a href="https://cosmos.gnest.org/system/files/2026-10/gnest_08452_accepted%20manuscript.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Urban soils represent significant sinks for heavy metals and may constitute potential risks to human health, particularly within rapidly urbanizing and industrialized settings. This study assesses the concentrations, spatial distribution, and associated human health risks of cadmium (Cd), copper (Cu), and chromium (Cr) in surface soils of Annaba City, northeastern Algeria.A total of 25 surface soil samples were collected following a land-use-based sampling design encompassing industrial areas, high-traffic corridors, residential neighborhoods, and urban green spaces, in order to capture spatial heterogeneity and potential contamination sources. The measured concentrations ranged from 0.12 to 14.01 mg·kg⁻¹ for Cd, 30.56 to 152.17 mg·kg⁻¹ for Cu, and 15.24 to 121.24 mg·kg⁻¹ for Cr. Among the analyzed metals, cadmium exhibited the greatest spatial variability and the highest degree of enrichment relative to local background levels.Pollution assessment using the contamination factor (CF) and geo-accumulation index (Igeo) revealed moderate to extreme Cd contamination at several industrial locations. Copper generally fell within moderate contamination categories, whereas chromium concentrations remained predominantly within low to moderate contamination classes when compared with regulatory reference values. Geographic information system (GIS)-based spatial analysis identified distinct contamination hotspots, particularly at sites P-14, P-19, and P-24, which spatially correspond to areas influenced by industrial activities.Human health risk assessment (HHRA) indicated that non-carcinogenic hazard index (HI) values were systematically higher for children than for adults. Nevertheless, all estimated HI values remained below the acceptable risk threshold (HI &lt; 1). Cadmium contributed most substantially to the total non-carcinogenic risk at hotspot locations. The estimated carcinogenic risk associated with Cd inhalation was negligible across all sampling sites, remaining several orders of magnitude below the commonly accepted benchmark level (10⁻⁶).Multivariate statistical analyses, including principal component analysis and hierarchical cluster analysis, corroborated the observed spatial patterns and emphasized the dominant role of cadmium in controlling contamination variability and differentiating industrially impacted soils from less affected areas. Overall, the integrated application of pollution indices, GIS-based spatial mapping, HHRA, and multivariate techniques identifies cadmium as the principal environmental concern in Annaba’s urban soils and provides a robust scientific basis for targeted monitoring strategies and risk-oriented urban soil management.</div></details>
+</div>
+<div class="card"><div class="title">Projected intensification of soil salinization in global drylands under future aridity increase<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Die-Tian Yu, Nan Wang, Amirhossein Hassani, S. Perri, Yi Peng...</div>
+<div class="meta-line">Venue: Nature Communications</div>
+<div class="meta-line">Published: 2026-10-19</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e1ce927ac472b3197a3470a2786eab5db01bcf7c">Abs</a> · <a href="https://www.nature.com/articles/s41467-026-78622-6_reference.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Soil salinization threatens agricultural production, water management, and ecosystem health. Yet, how increasing aridity will reshape 21st-century soil salinity patterns across drylands, particularly in croplands, remains unclear. Here, we compile a relatively comprehensive global soil salinity dataset from the past two decades, projecting future dryland soil salinity dynamics using climate-driven machine learning models with multiple covariates, including dynamic dryland extent and human influences. Our results show an 8% expansion of global drylands saline soils under increasing aridity by 2100 (SSP5-8.5) relative to 2004–2023. Southwestern US, Mexico, southern Europe, central South America, eastern and southern Africa are highest-risk hotspots. We further show dryland croplands face serious salinization, especially irrigated systems, where half of these newly salinized areas project more than 4.9% (maize), 17.2% (dryland rice), 3.3% (sorghum), and 21.2% (wheat) potential production losses. Our findings inform long-term adaptation strategies to mitigate emerging salinization risks and sustain water and food security.</div></details>
+</div>
+<div class="card"><div class="title">Straw and biochar co-application: a strategy to reduce Cd–Zn bioavailability, alleviate microbial nutrient limitations and enhance soil C stability<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Xi-Rui Kang, Na Geng, Ya-Ping Li, Hui Wang, H. Pan...</div>
+<div class="meta-line">Venue: SOIL</div>
+<div class="meta-line">Published: 2026-10-19</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/30b3961a775ecc0c636b1b8569a41fc19aff0252">Abs</a> · <a href="https://soil.copernicus.org/articles/12/1021/2026/soil-12-1021-2026.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Biochar is widely used to remediate heavy metal-contaminated soils; however, it can increase carbon (C) limitation in soil microorganisms, potentially compromising soil ecological sustainability. Effective strategies are, therefore, needed to reduce heavy metal bioavailability while maintaining microbial activity and soil fertility. To this end, we aimed to evaluate the effects of different straw–biochar ratios on heavy metal availability, microbial nutrient limitation, C cycling and soil fertility and to identify an optimal remediation strategy for cadmium (Cd) and zinc (Zn) contaminated soil. Cd- and Zn-contaminated soils were amended with varying straw–biochar ratios (S4C0, S3C1, S2C2, S1C3, S0C4 and control) and incubated for 90 d. Soil heavy metal bioavailability, microbial nutrient limitation, CO
+ 2
+ emissions, enzyme activities and organic C stability were analysed. Compared with the control, the straw–biochar treatment at a 1:3 ratio (S1C3) reduced diethylenetriaminepentaacetic acid–extractable Cd and Zn by 30.22 %–32.81 % and 21.31 %–23.06 %, respectively. S1C3 significantly improved soil organic C content and stability, enhanced available nutrients (nitrogen (N), phosphorus (P) and potassium), increased microbial biomass and elevated enzyme activities related to C, N and P acquisition and alleviated microbial C limitation. The optimized straw–biochar ratio (1:3) provides a novel integrated approach for remediating heavy metal-contaminated agricultural soils while simultaneously enhancing soil C stability, nutrient availability and microbial activity. This strategy offers a practical foundation for sustainable farmland management.
+</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
