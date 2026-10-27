@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-27 06:02 · Core 4 · Proxy 3 · Eco 1</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Short-term Effects of Aquatic Macrophyte Biomass on Chemical and Biological Indicators of Degraded Pasture Soil Under Controlled conditions<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: Carlos R. de Toffoli, R. Pitelli, R. Pitelli, A. N. Campalle, Rinaldo José da Silva Rocha...</div>
+<div class="meta-line">Venue: Journal of Soil Science and Plant Nutrition</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b6db99b4a4bac4efc04caaef0c42a7adeb466349">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s42729-026-03643-5.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ This study aimed to evaluate the short-term effects of incorporating aquatic macrophyte biomass on chemical and biological indicators of degraded pasture soil under controlled conditions, assessing its potential to support soil restoration. A completely randomized design was used with five replications and an additional unamended control. Biomass from four aquatic macrophyte species (
+ Egeria densa
+ ,
+ Myriophyllum aquaticum
+ ,
+ Pistia stratiotes
+ , and
+ Salvinia auriculata
+ ) was incorporated at field-equivalent rates of 5, 10, and 20 t ha⁻¹. Soil chemical attributes, soil organic carbon (SOC), β-glucosidase and arylsulfatase activities, and subsequent
+ Urochloa decumbens
+ growth were evaluated. Integrated analysis was performed using the four-quadrant model (4QM). Biomass incorporation generally increased soil pH, sum of bases, base saturation, nutrient availability, SOC, and enzymatic activity, while reducing potential acidity (H + Al) by approximately 30%. DTPA-extractable micronutrients and trace elements showed species- and rate-dependent responses.
+ P. stratiotes
+ produced particularly favorable changes in soil base status and plant growth, whereas
+ S. auriculata
+ was consistently associated with higher SOC and arylsulfatase activity but showed less consistent plant-growth responses. Aquatic macrophyte biomass showed potential as a short-term organic amendment for improving soil chemical and biological indicators under controlled conditions. However, long-term studies evaluating repeated applications, trace-element accumulation, leaching, and plant uptake are required before its environmental safety and field-scale applicability can be established.
+</div></details>
+</div>
+<div class="card"><div class="title">Mercury dynamics in surface-active soil invertebrates from an ecological reserve in the Brazilian savanna<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Iara Oliveira Fernandes, Lucas Cabrera Monteiro, V. L. de Miranda, J. D. de Souza, Ygor O. S. Rodrigues...</div>
+<div class="meta-line">Venue: Environmental Monitoring and Assessment</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b3b309cb92ec606bcdf601db085f888703ac6ac1">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s10661-026-16051-0.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study evaluated total mercury (THg) distribution and accumulation in soil, litter, and surface-active soil invertebrates at the Águas Emendadas Ecological Station (ESECAE), a savanna reserve in central Brazil. We assessed whether THg differed between soil and litter; whether soil pH and organic matter influenced soil THg, the degree of THg accumulation in invertebrates relative to soil and litter; whether feeding habits structured epigeic soil fauna according to THg concentrations; and whether biomagnification could be inferred within the local trophic network. THg concentrations were significantly higher in litter (51.7 ± 5.6 ng g⁻1) than in soil (34.9 ± 13.5 ng g⁻1; t = 4.402, df = 7, p = 0.0032). Soil organic matter was positively associated with soil THg (R2 = 0.455, p = 0.039), whereas pH showed no significant relationship. Invertebrate THg concentrations ranged from 0.095 to 970.70 ng g⁻1, reaching values approximately 15 times higher than those in soil or litter. Overall, 83.75% of samples showed bioaccumulation potential, and macroaccumulation predominated relative to both soil (80.38%) and litter (68.53%). Grouping by feeding habits revealed consistent accumulation patterns, indicating trophic-level biomagnification. Predator frequency increased from 9.1% in the lowest THg group to 45.5% in the highest, while phytophagous organisms decreased from 26.1% to 2.3%. Our results underscore the complexity of mercury cycling in terrestrial food webs and highlight the role of ecological traits and environmental parameters in modulating mercury bioavailability and transfer.</div></details>
+</div>
+<div class="card"><div class="title">Soil amendments reduced potentially toxic elements (PTEs) in peanuts (Arachis hypogaea L.) grown in farmlands near Cu-Ni mine in Central Botswana.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Koziba Gaothobogwe, Trust Manyiwa, Izabela Sylwia Oleszek, I. Rzeźnicka, Venecio U. Ultra</div>
+<div class="meta-line">Venue: Journal of environmental science and health. Part. B, Pesticides, food contaminants, and agricultural wastes</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0e17aada979208f12587d66716c4b9fbf3b63fce">Abs</a> · <a href="https://www.tandfonline.com/doi/pdf/10.1080/03601234.2026.2749318?needAccess=true">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study evaluated the effects of fly ash (FA), compost (COMP), lignite (LIG), and their combination (FA+COMP+LIG) on soil chemical properties, PTE total and available concentrations, PTE uptake by peanut (Arachis hypogaea L.) tissues, and associated human health risks in agricultural soils near BCL Cu-Ni mine. A field experiment was conducted in three farmlands located 2.6 km, 5 km, and 10 km from the BCL Cu-Ni mine in Selibe-Phikwe, Botswana. The experiment consisted of five treatments arranged in a randomized complete block design (RCBD) with three replications: unamended control, FA at 20 t ha-1, COMP at 20 t ha-1, LIG at 10 t ha-1, and FA+COMP+LIG at 20 + 20 + 10 t ha-1. Amendment application increased soil pH and reduced both total and available PTE concentrations in soils across all farms. Additionally, all amendments improved peanut dry matter yield compared to the control treatment. The combined treatment showed the greatest reduction in PTE accumulation in peanut tissues, particularly in kernels, where the reduction exceeded 30% relative to the control. Estimated daily intake (EDI), hazard quotient (HQ), and hazard index (HI) values for both children and adults were significantly reduced following amendment application, indicating lower dietary exposure to PTEs. However, despite the observed reductions, the HQ and HI values for some PTEs remained above the threshold value of 1, suggesting potential health hazards. Overall, the combined application of FA, COMP, and LIG showed the greatest potential for reducing PTE uptake by peanuts and decreasing associated human health risks in mine-affected agricultural soils. Further long-term field studies are recommended to evaluate the sustainability of these remediation effects.</div></details>
+</div>
+<div class="card"><div class="title">Physicochemical, Elemental, Morphological, and Microbiological Properties of WUPA Sewage Sludge: Implications for Potential Soil Remediation<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: I. C. Nwokorie, Mohammednur Abdulahi, N. V. Anyakora, I. Bala, D. A. Egyegbola</div>
+<div class="meta-line">Venue: FUDMA Journal of Sciences</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1bd1fc47939fbd66abbe0f71b9a7dc268e0f29a9">Abs</a> · <a href="https://fjs.fudutsinma.edu.ng/index.php/fjs/article/download/5955/4140/21860">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Sustainable management of sewage sludge is a persistent environmental challenge, particularly in rapidly developing areas. This study explores the physicochemical, mineralogical, and microbiological properties of raw sewage sludge from the WUPA Wastewater Treatment Plant, Abuja, Nigeria, to establish the quality of the raw sludge prior to conditioning and to evaluate its suitability for use in soil remediation. Analytical techniques employed comprise Energy Dispersive X-ray Fluorescence (EDXRF) for elemental composition SiO2 has concentration of 67.50wt% as the highest and SeO2 with lowest concentration of 0.00040wt%, Scanning Electron Microscopy (SEM) for morphological analysis result show that carbon (79.00 wt.%, 84.55 atomic%) and oxygen (18.14 wt.%), Fourier Transform Infrared Spectroscopy (FTIR) for functional group identification indicate 3698 to 3265cm-1 assigned to O–H stretching of alcohol and hydroxyl compounds, the band at 1543cm-1 is associated with aliphatic nitro compounds, of medium intensity. The analyzed wastewater sludge had a pH of 6.96 which falls within the optimal range of 6.5-7.0 for plant nutrient availability, indicating it is suitable for agricultural application without pH correction, low salinity, and high organic matter content. Heavy metals such as zinc and copper were within permissible limits of 2.00Mg/l &amp; 0.5Mg/l for liquid sludge. SEM micrographs revealed a heterogeneous, porous structure conducive to soil aeration, while FTIR spectra revealed typical absorption bands of humus substances, including hydroxyl, amide, carboxyl, and aliphatic groups consistent with the presence of humus, which plays an important role in nutrient retention, soil aggregation, and organic matter stability. Microbiological analysis identified potential pathogens, underscoring the need...</div></details>
+</div>
+<div class="card"><div class="title">Effects of calcium-based amendments on carbon and nitrogen emissions from soil and composting systems: a meta-analysis.<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Xian-Xian Ren, Qi-Liang Yang, Jian-Kai Tang, Zhi-Peng Sha</div>
+<div class="meta-line">Venue: Environmental research</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9c2d8f8210fa0e5fef984d7a1e7db04d47bc7340">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Nitrogen (N) and carbon (C) losses from cropping and livestock systems contribute significantly to global warming and other ecological crises. Calcium-based materials, such as lime, gypsum, phosphogypsum (PG), and single superphosphate (SSP), are widely used in agriculture because of their affordability and multifunctional benefits; however, their overall efficacy in mitigating C and N losses across soil and compost systems remains insufficiently quantified. Therefore, this study conducted a comprehensive meta-analysis of 279 published studies (200 on soil and 79 on compost) to evaluate the effects of Calcium-based amendments on C and N emissions. The results showed that liming significantly reduced N2O emissions by 27.9% in soil and 36.5% in composting systems. However, liming significantly increased soil NH3 emissions by 68.4% and CO2 emissions by 26%. Gypsum, SSP, and PG reduced NH3 emissions by 15.0%, 49.6%, and 64.6% in soil, and by 39.5%, 39.9%, and 54.8%, respectively, in compost. Gypsum and PG reduced CH4 emissions by 52.7% and 29.2% in soil, and by 23.2% and 71.8%, respectively, in compost. PG reduced soil N2O and CO2 emissions by 17.9% and 20.5%, respectively, but increased N2O emissions from compost by 101.9%. SSP increased soil CO2 emissions by 5.4%, whereas it reduced N2O, CO2, and CH4 emissions from compost by 25.2%, 14.1%, and 36.9%, respectively. Soil N2O emissions decreased with increasing liming rates, whereas C emissions showed the opposite trend. Increasing the N application rate stimulated both N2O and NH3 emissions. In composting systems, the effects of SSP were governed by the application rate, C/N ratio, and initial pH. This study provides a comprehensive assessment of the effects of Calcium-based amendments and identifies key factors influencing their efficacy and differences in their effects across soil and compost systems. These findings provide a scientific basis for developing targeted strategies to mitigate greenhouse gas and NH3 emissions while delivering co-benefits for agriculture and the environment.</div></details>
+</div>
+<div class="card"><div class="title">Depth-Independent
+Soil Organic Carbon Persistence
+across Climate Gradients in Coastal Wetlands<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Le-Le Wu, Zhao-Liang Song, L. van Zwieten, Hao-Bo Wu, Xiao-Min Yang...</div>
+<div class="meta-line">Venue: Environmental Science &amp;amp;
+Technology</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/623df4ddce23fdde26f32f77d5e22b5b8fadc52b">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Coastal wetland soils constitute a major global blue carbon pool. Yet, how soil organic carbon (SOC) persistence varies with soil depth and responds to climate change remains poorly understood. Here, we assessed depth-related patterns and climatic controls on SOC persistence using radiocarbon (Δ14C) measurements from 82 samples across 41 sites spanning temperate to tropical coastal wetlands. Radiocarbon-inferred SOC persistence did not differ significantly between topsoil (0–10 cm) and subsoil (40–60 cm) across climate zones and wetland types, with mean Δ14C values of −179.0 ± 155.5‰ and −200.9 ± 161.8‰, respectively (p &gt; 0.05). Interactions among climate, vegetation, and soil biogeochemistry explained about 55% of the variation in SOC persistence in both topsoil and subsoil. Both layers exhibited comparable sensitivity to mean annual temperature and precipitation. However, the inferred regulatory pathways differed between soil layers, with stronger direct climatic effects in topsoil and greater indirect mediation through soil physicochemical and mineral-associated processes in subsoil. Across spatial climatic gradients, higher mean annual temperature and precipitation were associated with greater SOC accumulation but lower persistence, suggesting a potential trade-off between SOC quantity and persistence. These findings demonstrate limited vertical differentiation in SOC persistence between the 0–10 cm and 40–60 cm layers and highlight the need to better represent depth-specific regulatory processes in carbon-climate feedback frameworks.</div></details>
+</div>
+<div class="card"><div class="title">Zinc isotope fractionation in native and cloned mosses: implications for standardized pollution biomonitoring<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Aridane G. González, O. Pokrovsky, Á. Muñoz-Noval, J. Viers, A. Ostendorf...</div>
+<div class="meta-line">Venue: bioRxiv</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/535d59049696b05dfcdd5527327baf6d89a8e530">Abs</a> · <a href="https://www.biorxiv.org/content/biorxiv/early/2026/10/20/2026.10.19.760122.full.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Mosses are widely used as biomonitors of atmospheric trace-metal deposition, but metal retention by the moss itself may modify source-related isotope signatures. Here, controlled Zn adsorption experiments, stable Zn isotope measurements, surface acid–base characterization, and Zn K-edge X-ray absorption spectroscopy (XAS) were combined to investigate Zn2+ retention and isotope fractionation in four native moss taxa and in vitro-cultivated Sphagnum palustre clones. Zn2+ adsorption was strongly pH-dependent, consistent with progressive deprotonation of reactive surface sites. Moss-associated Zn2+ was slightly enriched in heavy isotopes relative to the coexisting solution, with Δ66Znmoss-solution generally ranging from +0.01 to +0.09‰, but no systematic relationship was observed between isotopic fractionation and the fraction of Zn2+ adsorbed. Linear-combination fitting of X-ray Absorption Near-Edge Structure (XANES) indicated predominantly cellulose-like, O-rich coordination environments, with variable phosphate and minor acetate contributions and only small nominal Zn–S fractions. Extended X-ray Absorption Fine Structure (EXAFS) showed first-shell Zn–O distances of approximately 1.96–2.05 Å and coordination numbers of about 3.6–7.6, confirming substantial structural heterogeneity among samples. Importantly, Δ66Znmoss-solution was not correlated with either Zn–O distance or coordination number, indicating that the net isotope effect cannot be described by a single bulk structural parameter. Native and cultivated Sphagnum showed comparable isotopic offsets within analytical uncertainty despite differences in surface properties and adsorption capacity. These results indicate that Zn isotope fractionation in mosses reflects the integrated response of multiple binding environments and support the use of standardized Sphagnum clones in isotope-based biomonitoring.</div></details>
+</div>
+<div class="card"><div class="title">Quantification of soil loss by using RUSLE model under different land use and land cover conditions in AKANYARU catchment in Rwanda<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Jean Bosco Ntirenganya, E. Bugenimana, R. Niyonkuru, Aphrodice Iragena, Pierre Celestin Uwamahoro...</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-10-20</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/eaae3cd1a5f2442fe793b87c46f80ee545655c99">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00347-1.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study quantified annual soil loss across the Akanyaru Catchment (3,402 km², Rwanda) under four land use and land cover types forest, agriculture, residential, and bare soil using the RUSLE model integrated with GIS. The Rainfall erosivity (R) is derived from 20 years of daily rainfall data obtained from the NASA database. The Soil erodibility (K) used is from global soil texture data; slope length and steepness (LS) from a 30 m DEM; and cover management (C) from Landsat 8 NDVI. The support practice factor (P) was set to 1.0, reflecting the absence of formal conservation structures in the catchment. The Soil loss range from 0 to 51.4391 t/ha/year. Near zero soil loss occurred under dense forest cover, while the highest rates were concentrated in bare and intensively farmed areas on steep slopes particularly in the northeastern and southwestern sub-catchments. The three RUSLE factors showing greatest spatial variationwere steep topography (LS: 0–1.678), degraded or absent vegetation cover (C: 0.0004–0.524), and high rainfall erosivity (R: 527.507–888.624 MJ·mm·ha⁻¹·h⁻¹·yr⁻¹). Findings call for prioritizing terracing and contour farming on steep agricultural slopes, expanding agroforestry and cover crops to reduce surface exposure, and improving soil organic matter in erodible sandy-silty soils. The spatially explicit outputs directly support evidence based targeting of conservation resources by Rwanda’s land and water management authorities.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
