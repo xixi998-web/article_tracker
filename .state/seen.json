@@ -22294,5 +22294,73 @@
   "doi:10.5194/soil-12-1021-2026": {
     "source": "top_journal",
     "title": "Straw and biochar co-application: a strategy to reduce Cd–Zn bioavailability, alleviate microbial nutrient limitations and enhance soil C stability"
+  },
+  "doi:10.1117/12.3132453": {
+    "source": "top_journal",
+    "title": "Real-time 3D Gaussian scene reconstruction based on multisensor fusion SLAM in dynamic scenes"
+  },
+  "arxiv:2610.28521": {
+    "source": "top_journal",
+    "title": "Latent Bridge: From Video Latents to 3D Geometry via Feature Alignment"
+  },
+  "arxiv:2610.33558v1": {
+    "source": "arxiv",
+    "title": "GeoLift: Grounding Video Spatial Reasoning in Explicit 3D Maps"
+  },
+  "arxiv:2610.33868v1": {
+    "source": "arxiv",
+    "title": "RelateGS: Reliable Semantic and Relational Evidence for 3D Scene Understanding with Gaussian Splatting"
+  },
+  "arxiv:2610.33158v1": {
+    "source": "arxiv",
+    "title": "Gaussian Episodic Memory for Long-Term Spatiotemporal Reasoning"
+  },
+  "arxiv:2610.32800v1": {
+    "source": "arxiv",
+    "title": "CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction"
+  },
+  "arxiv:2610.28615": {
+    "source": "top_journal",
+    "title": "KoalaGS: Complexity-Aware Continuous Level of Detail for Gaussian Splatting"
+  },
+  "arxiv:2610.28131": {
+    "source": "top_journal",
+    "title": "OV-Foam: How 3D Representations Shape Semantic Feature Lifting"
+  },
+  "arxiv:2610.33988v1": {
+    "source": "arxiv",
+    "title": "Hybrid Mamba-Transformer Network for Single-Shot 3D Reconstruction from Fringe Patterns"
+  },
+  "arxiv:2610.33802v1": {
+    "source": "arxiv",
+    "title": "ProMo3D: Probing Motion Cues in Frozen 3D Foundation Models"
+  },
+  "arxiv:2610.33656v1": {
+    "source": "arxiv",
+    "title": "FreeView: Robust 3D Reconstruction from Uncurated Views"
+  },
+  "arxiv:2610.33550v1": {
+    "source": "arxiv",
+    "title": "Cross-View and Cross-Time Tracking of Crack Evolution in Concrete"
+  },
+  "arxiv:2610.33174v1": {
+    "source": "arxiv",
+    "title": "Bracketing Shows the Way: Adaptive Multi-Exposure Policy as Input for Robust Visual SLAM"
+  },
+  "arxiv:2610.27594": {
+    "source": "top_journal",
+    "title": "Causal Spatiotemporal State Evolution for Monocular 4D Reconstruction"
+  },
+  "arxiv:2610.28873": {
+    "source": "top_journal",
+    "title": "Improved three component IVIM fitting using physics-informed neural network with multimodal spatial prior"
+  },
+  "arxiv:2610.27604": {
+    "source": "top_journal",
+    "title": "HiQGS: Hierarchical Spatiotemporal Querying for Feed-Forward Gaussian Reconstruction"
+  },
+  "arxiv:2610.28585": {
+    "source": "top_journal",
+    "title": "SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images"
   }
 }
