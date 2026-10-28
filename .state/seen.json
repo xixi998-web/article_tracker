@@ -22394,5 +22394,125 @@
   "doi:10.1007/s44378-026-00347-1": {
     "source": "top_journal",
     "title": "Quantification of soil loss by using RUSLE model under different land use and land cover conditions in AKANYARU catchment in Rwanda"
+  },
+  "arxiv:2610.36853v1": {
+    "source": "arxiv",
+    "title": "LingGS: Decoupling Feed-Forward Geometry Prediction from Camera Tracking for High-Fidelity Gaussian SLAM"
+  },
+  "arxiv:2610.35361v1": {
+    "source": "arxiv",
+    "title": "SG-Splat: Stable Geometry Learning under Pose Uncertainty for Pose-Free 3D Gaussian Splatting"
+  },
+  "arxiv:2610.36312v1": {
+    "source": "arxiv",
+    "title": "SG^2SLAM: Spatial Geometry-Informed 3D Gaussian Splatting SLAM for Monocular Outdoor Navigation"
+  },
+  "arxiv:2610.34745v1": {
+    "source": "arxiv",
+    "title": "SceneAgent: An Agentic Pipeline from 3D and 4D Captures to Simulation Environments"
+  },
+  "arxiv:2610.34632v1": {
+    "source": "arxiv",
+    "title": "RIDE-Splat: Reflection Removal for In-the-Wild Driving Environments"
+  },
+  "arxiv:2610.29517": {
+    "source": "top_journal",
+    "title": "AutoPhyX: Automatic Text-Condition Physics Property Generation"
+  },
+  "arxiv:2610.36876v1": {
+    "source": "arxiv",
+    "title": "HoloRecon: Incremental Reconstruction of Long-Range Panoramas with Global Consistency"
+  },
+  "arxiv:2610.35806v1": {
+    "source": "arxiv",
+    "title": "Does VGGT Know What It Does Not Know?"
+  },
+  "arxiv:2610.35522v1": {
+    "source": "arxiv",
+    "title": "Generative Structure from Motion with Native 3D Diffusion"
+  },
+  "arxiv:2610.34041v1": {
+    "source": "arxiv",
+    "title": "T-ConSG: A LiDAR-Based Real-Time Temporal Construction Scene Graph for Dynamic and Evolving Environments"
+  },
+  "arxiv:2610.37406v1": {
+    "source": "arxiv",
+    "title": "CTBakeGS: training-free baking of photorealistic CT volume renderings into 3D Gaussian splats"
+  },
+  "arxiv:2610.37153v1": {
+    "source": "arxiv",
+    "title": "FastBEVFusion: Simple Multi-Modal Fusion for 3D Object Detection at 50 FPS"
+  },
+  "arxiv:2610.36760v1": {
+    "source": "arxiv",
+    "title": "GeoGSplat: Geometry-Grounded Non-Pixel-Aligned Gaussian Splatting"
+  },
+  "arxiv:2610.36462v1": {
+    "source": "arxiv",
+    "title": "ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting"
+  },
+  "arxiv:2610.35630v1": {
+    "source": "arxiv",
+    "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View"
+  },
+  "arxiv:2610.34845v1": {
+    "source": "arxiv",
+    "title": "PosePlaner: Denoising Any Feed-Forward Pose Predictor from Pairwise Planar Geometry"
+  },
+  "arxiv:2610.37036v1": {
+    "source": "arxiv",
+    "title": "GraftRay: Physically Based Mesh Insertion into Gaussian Splatting Scenes via Path Tracing"
+  },
+  "arxiv:2610.36546v1": {
+    "source": "arxiv",
+    "title": "REACH: An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal"
+  },
+  "arxiv:2610.36168v1": {
+    "source": "arxiv",
+    "title": "PrinGS: Privacy Preservation in Gaussian Splatting"
+  },
+  "arxiv:2610.35756v1": {
+    "source": "arxiv",
+    "title": "VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion"
+  },
+  "arxiv:2610.35626v1": {
+    "source": "arxiv",
+    "title": "Robot-Aligned 3D Gaussian Splatting for Precise Reaching with Wrist-Camera VLA Policies"
+  },
+  "arxiv:2610.35092v1": {
+    "source": "arxiv",
+    "title": "Uncertainty Evaluation to Support Safety of the Intended Functionality Analysis for Determining the Applicability of Performance Targets Across Triggering Conditions in ML-Based LiDAR Object Detection"
+  },
+  "arxiv:2610.34344v1": {
+    "source": "arxiv",
+    "title": "Birth-Death Structural Learning for 3D Gaussian Splatting"
+  },
+  "arxiv:2610.34263v1": {
+    "source": "arxiv",
+    "title": "RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression"
+  },
+  "arxiv:2610.34235v1": {
+    "source": "arxiv",
+    "title": "ParetoGS: High-Quality Continuous-Budget 3D Gaussian Splatting with Sparse Adapted Anchors"
+  },
+  "arxiv:2610.34233v1": {
+    "source": "arxiv",
+    "title": "BoundedGS: Memory-Efficient High-Resolution Training for 3D Gaussian Splatting"
+  },
+  "arxiv:2610.37350v1": {
+    "source": "arxiv",
+    "title": "Generalizable Target-Less Joint Intrinsic-Extrinsic Camera-LiDAR Calibration using Deep Pixel-Point Correspondences"
+  },
+  "arxiv:2610.36454v1": {
+    "source": "arxiv",
+    "title": "SVIn+: Multi-Modal Framework for Robust Underwater State Estimation using 3D Sonar, Visual-Inertial, Water-Pressure, and DVL"
+  },
+  "arxiv:2610.36450v1": {
+    "source": "arxiv",
+    "title": "Ground Sample Distance Constrained k-Coverage Viewpoint Planning via Set Multi-Cover Formulation"
+  },
+  "arxiv:2610.36150v1": {
+    "source": "arxiv",
+    "title": "Any3R: Feedforward 3D Reconstruction from Any Camera Type"
   }
 }
