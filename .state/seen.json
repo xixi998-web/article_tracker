@@ -22582,5 +22582,117 @@
   "doi:10.1002/jpln.70132": {
     "source": "top_journal",
     "title": "Enhancing Rice Yield and Mitigating Greenhouse Gas Emissions Through the Integration of Alternate Wetting and Drying With γ‐Polyglutamic Acid"
+  },
+  "arxiv:2610.31186": {
+    "source": "top_journal",
+    "title": "RaSFNet: Ray-aligned and Scan-aware Fusion Network for LiDAR Semantic Segmentation"
+  },
+  "arxiv:2610.31645": {
+    "source": "top_journal",
+    "title": "OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields"
+  },
+  "arxiv:2610.35642v1": {
+    "source": "arxiv",
+    "title": "VPR-Space: A Benchmark for Visual Place Recognition in Space Analog Domains"
+  },
+  "arxiv:2610.35621v1": {
+    "source": "arxiv",
+    "title": "Synthetic Deformable Tubular Benchmark: A mechanically annotated dataset for evaluating deformable 3D reconstruction"
+  },
+  "arxiv:2610.34093v1": {
+    "source": "arxiv",
+    "title": "LegoOcc++: Towards Consistent Open-Vocabulary 3D Occupancy Prediction"
+  },
+  "arxiv:2610.37668v1": {
+    "source": "arxiv",
+    "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction"
+  },
+  "arxiv:2610.37602v1": {
+    "source": "arxiv",
+    "title": "RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement"
+  },
+  "arxiv:2610.37519v1": {
+    "source": "arxiv",
+    "title": "Leveraging Distributed Sensing and Hyperdimensional Computing for Non-Line-of-Sight Passive Object Sensing"
+  },
+  "arxiv:2610.37403v1": {
+    "source": "arxiv",
+    "title": "AuRaSim: A Ray-Tracing Based Automotive FMCW Radar Simulator for Dynamic Scenarios"
+  },
+  "arxiv:2610.37111v1": {
+    "source": "arxiv",
+    "title": "RAVEN: A Unified Active SLAM System for Rapid Autonomous Visual Exploration with Aerial Robots under Localization Uncertainty"
+  },
+  "arxiv:2610.37046v1": {
+    "source": "arxiv",
+    "title": "Learning to Code the World: Harness Evolution for Compositional 3D Reconstruction"
+  },
+  "arxiv:2610.36816v1": {
+    "source": "arxiv",
+    "title": "Integrated Design and Reproducible Feasibility Analysis of a Four-Wheel Rover with Packet-Commanded Imaging, LiDAR Ranging, and Learning-Assisted Target Recognition"
+  },
+  "arxiv:2610.35224v1": {
+    "source": "arxiv",
+    "title": "GaussianSpline: Adaptive Bézier Splines for Highly Dynamic 4D Gaussian Splatting"
+  },
+  "arxiv:2610.35152v1": {
+    "source": "arxiv",
+    "title": "Complexity-guided Regularization for Generalizable Human Gaussian Splatting"
+  },
+  "arxiv:2610.35110v1": {
+    "source": "arxiv",
+    "title": "Understanding and Repairing Cooperative Perception under Adverse Weather"
+  },
+  "arxiv:2610.35044v1": {
+    "source": "arxiv",
+    "title": "DriveUniTok: A Unified Multimodal Tokenizer for Driving World-Action Models"
+  },
+  "arxiv:2610.35002v1": {
+    "source": "arxiv",
+    "title": "DUET4D: Self-Corrective Coupled Guidance for Sparse-View 4D Reconstruction"
+  },
+  "arxiv:2610.34060v1": {
+    "source": "arxiv",
+    "title": "Learning Interaction-Aware Path Corrections from Unlabeled Trajectories: A LiDAR-Based Sim-to-Real GNN Framework for Construction Robots"
+  },
+  "arxiv:2610.35363v1": {
+    "source": "arxiv",
+    "title": "Resilient Decentralized Radar-LiDAR-Inertial Odometry in Challenging Subterranean Environments"
+  },
+  "doi:10.1021/acsomega.6c04701": {
+    "source": "top_journal",
+    "title": "Characterization\nof Macro-Micro Heterogeneity in Shale\nReservoirs Based on Full-Diameter Core CT Scanning─A Case Study\nof Jurassic Lianggaoshan Formation Shale in Well Ping’an 3,\nSichuan Basin"
+  },
+  "arxiv:2610.31635": {
+    "source": "top_journal",
+    "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction"
+  },
+  "arxiv:2610.34952v1": {
+    "source": "arxiv",
+    "title": "DimFlow: Bidirectional Grid-Expert Learning for Dynamic Gaussian Reconstruction"
+  },
+  "doi:10.1117/12.3130460": {
+    "source": "top_journal",
+    "title": "Building structural damage identification based on 3D point cloud reconstruction and remote sensing imagery fusion"
+  },
+  "arxiv:2610.30908": {
+    "source": "top_journal",
+    "title": "Query-Time Calibration of CLIP Features for Open-Vocabulary 3D Segmentation"
+  },
+  "arxiv:2610.31623": {
+    "source": "top_journal",
+    "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation"
+  },
+  "doi:10.1117/12.3130418": {
+    "source": "top_journal",
+    "title": "EvMamba-HDR: event-guided HDR reconstruction under extreme illumination via Mamba-based temporal-spatial modeling"
+  },
+  "arxiv:2610.31722": {
+    "source": "top_journal",
+    "title": "Autoregressive Multimodal Anomaly Detection with Large Language Models for Microservice Systems"
+  },
+  "doi:10.1007/s44163-026-02423-5": {
+    "source": "top_journal",
+    "title": "Application of BERT-EmoShiftNet fusion framework in psychological stress dialogue"
   }
 }
