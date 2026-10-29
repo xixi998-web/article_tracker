@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-29 06:49 · Core 7 · Proxy 5 · Eco 7</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">The Growth and Physiological Metabolic Responses of Cunninghamia lanceolata Saplings to Interactive Soil Acidification and Nitrogen Application and the Dominant Limiting Factor Determination<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: Ting-Yu Sun, Jin-Chi Zhang, Qin-Yu Li, Yu-Hao Wang, Xin Liu</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bf7079827c8386b5687c8ba9dfa456287d87fb96">Abs</a> · <a href="https://doi.org/10.3390/plants15213248">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">To reveal the relative effects and interaction mechanism of soil acidification and nitrogen regulation on the growth of Chinese fir (Cunninghamia lanceolata) and to provide a scientific basis for the prevention and control of Chinese fir plantation decline, we conducted an 18-month greenhouse pot experiment using 1-year-old Chinese fir saplings. The experiment combined three acid solution spraying gradients to simulate soil acidification (control S0, distilled water; low acidification LS, acid solution pH 4.5; high acidification HS, acid solution pH 3.5; the initial soil pH was 6.3; acidification was simulated by spraying a mixed acid solution of H2SO4 and HNO3 at a molar ratio of 5:1) with three nitrogen application levels (no nitrogen N0, 0; low nitrogen LN, 50 mg N·kg−1 dry soil; high nitrogen HN, 200 mg N·kg−1 dry soil), forming nine treatment groups in total. Correlation analysis and a structural equation model (SEM) were used to analyze the influencing pathways. Soil acidification significantly reduced soil pH and nitrate nitrogen content, inhibited sapling growth, impaired the function of the photosynthetic system, and excessively activated superoxide dismutase (SOD) activity, which showed an extremely significant negative correlation with growth rate (−0.83). The total inhibitory effect of soil acidification on sapling growth reached 0.792, operating through direct growth inhibition, impaired nutrient supply, and enhanced antioxidant defense responses. Nitrogen application significantly increased soil available nitrogen content and alleviated stress under low acidification conditions by improving chlorophyll synthesis and photosynthetic efficiency; however, it had no significant direct effect on growth rate (0.15) and slightly exacerbated soil acidification (−0.45). The alleviating effect of nitrogen was completely lost under high acidification treatment with acid solution pH 3.5. The structural equation model showed a good fit (p = 0.379, GFI = 0.940, RMSEA = 0.051), confirming that soil acidification was the core dominant factor restricting Chinese fir growth. These results provide theoretical support and technical reference for precise nutrient management and decline control of Chinese fir plantations in southern China.</div></details>
+</div>
+<div class="card"><div class="title">Impact of Mineral Fertilization on Soil Fertility and Cocoa Yield in Abengourou, Eastern Côte d&#x27;Ivoire<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Kotaix Acka Jacques Alain, Assi Marise Evelyne Gevere, K. Norbert, K. Hervé</div>
+<div class="meta-line">Venue: Journal of Food Research</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/caf5e85a4425670315fb6b5249e3b9e3c64828e6">Abs</a> · <a href="https://ccsenet.org/journal/index.php/jfr/article/download/0/0/53880/58895">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Background: Cocoa production in Côte d’Ivoire appears to have reached its limits, with declining yields linked to deforestation, the aging of cocoa plantations, various diseases and pests, and the rapid decline in soil fertility. These soils are generally low in plant-available phosphorus and often have a high phosphorus-fixing capacity due to their high acidity. To address this situation, a three-year study examining the use of reactive natural phosphate (RNP), either alone or in combination with a mineral fertilizer containing phosphorus and potassium (PK), was conducted in Abengourou, in eastern Côte d’Ivoire. 
+ 
+Objective: The study aims to ensure the sustainability of cocoa production. More specifically, it seeks to evaluate, on the one hand, the effects of fertilizers on soil nutrients under cocoa trees and, on the other hand, the effects of these fertilizers on cocoa tree yield parameters. 
+ 
+Method: The study was conducted using a completely randomized Fisher-type experimental design with 4 replicates for 6 treatments. The collected data were analyzed using analysis of variance (ANOVA) with SAS 9.4 software. 
+ 
+Results and conclusion: The results showed that, in terms of soil fertility, the treatments that received natural phosphate generally achieved a good level of available phosphorus (≥ 100 ppm) and a good soil pH (5.55–6.41). All treatments had a cation exchange capacity (CEC) below 12 cmol (+) kg⁻¹ (minimum threshold) and low nutrient content. As for yield parameters, treatments T3 (394 g of PNR + 300 g of PK 23-19 per plant per year) and T4 (296 g of PNR + 300 g of PK 23-19 per plant per year) had the highest rates of wilted pods, with 54.67 and 54.91, respectively. For total pod count, treatment T4 (37.48 pods) had the highest value. Regarding the average weight of fresh beans, treatments T3 and T5 (300 g of PK 23-19 per plant per year) yielded the best results: 170 g and 176.70 g, respectively. In terms of potential yield, treatments T2 (2,510.21 kg/ha) and T3 (2,652.59 kg/ha) also yielded the best results. These treatments can be recommended to cocoa farmers in the region to raise the pH of acidic soils, thereby improving cocoa tree nutrition and ensuring sustainable production.</div></details>
+</div>
+<div class="card"><div class="title">A multivariate analysis of the influence of soil conditions on wheat yields<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Richard Gao, Akash Anand, Lu-Jie Lin, Justin Nguyen, Arnav Sinha</div>
+<div class="meta-line">Venue: STEM Fellowship Journal</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2da86918f7087082e66845c276c79680bb283829">Abs</a> · <a href="https://doi.org/10.17975/sfj-2026-025">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Rapid global population growth has led to food demand out-pacing supply, increasing food insecurity. In light of this, the United Nations declared ending hunger as its Second Sustainable Development Goal in 2015. Environmental changes from pollution and climate change further threaten food security. In this study, machine learning regression models were employed to analyze the impact of fertilizer use, soil organic carbon displacement due to erosion, surface water conductivity, soil pH, and organic carbon content on wheat yields. Permutation feature importance scores were used to evaluate the importance of each variable. Through the application of a ridgeCV stacking regression model, we identified that soil pH was the most influential variable in determining wheat yields. In the regressions tested, all p-values were below 0.005, so the null hypothesis could be rejected. The study’s results suggest that regular pH monitoring, building organic carbon-boosting infrastructure, using drainage systems, and employing sustainable agricultural practices are necessary to maximize agricultural production efficiency. Soil pH could further be protected through directed future policymaking. To expand upon the research conducted in this study, investigating the effects of climate change on properties affecting soil quality could yield valuable information on strategies to promote sustainable agriculture. Furthermore, analyzing crops other than wheat would extend the study’s results to different agricultural practices, such as tropical agriculture.</div></details>
+</div>
+<div class="card"><div class="title">Thermal Phase Behavior,
+Structure, Acidity, and Quantum
+Chemical Insights into Novel Hydroxylamine Hydrochloride (HACl)-Methanesulfonic
+Acid (MSA) Deep Eutectic Solvents<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Hosein Ghaedi, Payam Kalhor, Cristian Serrano Araya, Richard Telford, Yosef Ghorbani</div>
+<div class="meta-line">Venue: ACS Omega</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/18b5087c6079e3c6c18316d54ffa51bc142a1a8b">Abs</a> · <a href="https://doi.org/10.1021/acsomega.6c06790">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ The present study undertakes the first characterization of hydroxylamine hydrochloride (HACl)-methanesulfonic acid (MSA) deep eutectic solvents (DESs), a new generation of sustainable, dual-functional solvents with exceptionally strong acidic and inherently reduced properties. Employing FTIR, Raman, and NMR spectroscopy, the nature of HACl-MSA DESs’ molecular interactions was probed with varying molar ratios between 1:4 and 1:8. Differential scanning calorimetry (DSC) revealed composition-dependent phase behavior, transitioning from an amorphous glass-forming liquid at 1:4 (Tg = −89 °C, peak at 85.87 °C) to congruent melting at 1:5 (Tm = +5.43 °C). For 1:6 to 1:8 formulations, invariant eutectic behavior was observed with a shared solidus transition at about −53.80 °C and a clear melting range ending between −45.91 and −39.21 °C. Spectroscopic analyses confirmed the formation of a homogeneous, single-phase protic DES characterized by a robust, shielded hydroxylammonium core ([NH3OH]+) at 9.87–9.88 ppm and a dynamic acid proton pool that shifts downfield from 13.19 to 13.63 ppm. This shifting resonance directly reflects a tunable macroscopic acidity driven by the expansion of the MSA-MSA hydrogen-bonded network. Quantitative Hammett measurements (H0), determined via UV–vis spectroscopy, demonstrated significant acidity, reaching −6.116 at the 1:8 ratio. Density functional theory (DFT) analysis also confirmed the results, revealing a greater internal thermodynamic stability for the 1:5 ratio with a |ΔEint| = 4.280 eV. However, conceptual DFT descriptors, including a smaller energy gap (7.324 eV), a larger global softness value of 0.137 eV–1, and a more negative chemical potential (−4.506 eV), highlight the 1:4 ratio as a promising theoretical candidate for further evaluation in metal coordination processes. While these electronic metrics suggest a highly polarizable microenvironment, direct extraction yields, leaching kinetics, viscosity, and selectivity require future experimental validation. Through correlations established between molecular structure, frontier orbital analysis, and macroscopic Brønsted acidity trends, HACl–MSA DESs are highlighted as promising candidate platforms for potential application in hydrometallurgical leaching processes. However, definitive claims regarding selective metal extraction, long-term stability, recyclability, and environmental sustainability require comprehensive future experimental evaluation.</div></details>
+</div>
+<div class="card"><div class="title">Responses of soil characteristics and bacterial communities to agricultural irrigation with different treatment levels of wastewater<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Li-Yun Cai</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b9d32b6505813db661603042bee8fc63162e6235">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00352-4.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study aimed to investigate the effects of domestic wastewater treated at different treatment levels on the biochemical characteristics of irrigated soils. Raw domestic wastewater was subjected to four treatment processes: (1) grit sedimentation; (2) grit sedimentation combined with ultrafiltration (UF); (3) grit sedimentation combined with anaerobic activated sludge treatment followed by UF; and (4) grit sedimentation combined with aerobic activated sludge treatment followed by UF. The resulting effluents (designated TWW1–TWW4) were used to irrigate soil cultivated with spinach, with tap water irrigation and non-irrigated soil serving as controls. After 50 days of irrigation, soil biochemical properties were determined. TWW1 and TWW2 exhibited COD and fecal coliform concentrations exceeding the Chinese irrigation water quality standards (GB5084-2021), whereas TWW3 and TWW4 met all stipulated requirements. TWW irrigation generally increased soil organic carbon content and electrical conductivity while decreasing soil pH, with the extent of pH reduction depending on the NH₄⁺-N concentration in the TWW. Microbial diversity was higher in TWW-irrigated soils than in controls. Specifically, genera involved in nitrogen cycling (e.g., Rhizobium, Nitrospira, and Nitrosospira) and complex organic compound degradation (e.g., Vicinamibacteria and Blastocatellia) were significantly enriched. This study provides valuable insights for optimizing wastewater treatment strategies to achieve safe and sustainable agricultural reuse.</div></details>
+</div>
+<div class="card"><div class="title">Processed manures sustain silage corn yield with amendment‐specific soil and forage response<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Brad Davis, T. Singh, Earl Creech, Matt A. Yost</div>
+<div class="meta-line">Venue: Agrosystems, Geosciences &amp;amp; Environment</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/735c925a0f98b0f4152102667c1c84be9611cac3">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/agg2.70465">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ In semiarid western US dairy systems, field evidence remains limited on whether processed manure products can sustain silage corn (
+ Zea mays
+ L.) productivity and improve soil health. A field experiment conducted in Logan, UT, during 2021–2022 compared compost, vermicompost, Sedron (a thermally and mechanically processed dairy manure), dissolved air flotation, mineral fertilizer, and unfertilized control for their effects on soil chemical properties, silage corn yield, forage quality, and soil health indicators. Amendments effects on soil pH and total carbon were limited, but the compost + vermicompost mixture produced the highest surface‐soil phosphorus and potassium concentrations of 35.6 and 241 mg kg
+ −1
+ , respectively. Silage corn yield ranged from 21.5 to 27.8 Mg ha
+ −1
+ in 2021 and 17.0 to 25.8 Mg ha
+ −1
+ in 2022. The compost + vermicompost produced the highest yield of 25.8 Mg ha
+ −1
+ in 2022 compared with 17.0 Mg ha
+ −1
+ in the control. Sedron produced the highest crude protein and total digestible nutrients and the lowest acid detergent fiber (ADF), at 8.40%, 73.0%, and 21.1%, respectively. Compost increased soil infiltration to 1.83 cm h
+ −1
+ compared with 0.62 cm h
+ −1
+ in the control. Sedron maintained higher potentially mineralizable nitrogen (N) in the second year. Processed manure products did not consistently outperform compost or mineral fertilizer, but individual products improved specific responses. These materials may therefore be useful in silage corn systems for recycling manure nutrients while improving forage quality, infiltration, or N mineralization. Longer‐term studies are needed to determine whether these effects persist and lead to broader gains in soil health and nutrient‐use efficiency.
+</div></details>
+</div>
+<div class="card"><div class="title">Agronomic Performance of Pelleted Multi-Ingredient Organic-Mineral Recycled Nutrient Fertilizers, Enhanced with Seafood-Waste-Containing Chitosan<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ksawery Kuligowski, Adrian Woźniak, Joanna Strycharz, N. Nawrot</div>
+<div class="meta-line">Venue: Applied Sciences</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bff6914efaeb52af545f8d5bbe40ec57ff7af4e4">Abs</a> · <a href="https://doi.org/10.3390/app162110478">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Recycled nutrient fertilizers (RNFs) derived from organic and industrial waste streams offer a promising approach to nutrient recovery and sustainable agricultural production. However, their agronomic performance and the potential benefits of enrichment with biologically active, waste-derived materials remain insufficiently understood. This study evaluated two multi-component RNFs, four-ingredient pellets, first with biochar (BADSS) and second with bovine shavings (SADSS), with and without enrichment using chitosan-containing seafood waste, in a four-month greenhouse experiment with ryegrass across nitrogen application rates ranging from 20 to 370 kg N ha−1. Biomass production, nitrogen uptake, agronomic effectiveness (AE), apparent nitrogen recovery (ANR), soil chemical properties, and photosystem II efficiency were assessed. The results demonstrated that fertilizer performance depended strongly on matrix composition and nitrogen application rate. BADSS induced a stronger increase in residual soil pH, whereas SADSS maintained more balanced soil conditions. Chitosan enrichment enhanced long-term nitrogen uptake and biomass production when combined with SADSS, while its effects in the BADSS matrix were less consistent, particularly at excessive nitrogen inputs. Correcting fertilizer performance for additional nitrogen introduced with the chitosan-containing amendment substantially reduced apparent AE and ANR, highlighting the importance of complete nutrient accounting when assessing enriched fertilizers. Overall, the findings indicate that seafood-waste-derived chitosan can improve the agronomic performance of recycled nutrient fertilizers, although its effectiveness depends on the composition of the fertilizer matrix and the applied nitrogen rate. Integrating seafood-processing residues into waste-derived fertilizer systems offers a promising strategy for valorizing underutilized resources, improving nutrient management, and supporting circular bioeconomy approaches to sustainable agriculture.</div></details>
+</div>
+<div class="card"><div class="title">Ecological recovery trajectories of coastal wetlands following oil-well abandonment in the Yellow River Delta<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Dan-Dan Rong, Min Song, Yong-Jia Han, Chang-Zhi Yang, Wen-Jun Wei...</div>
+<div class="meta-line">Venue: Frontiers in Plant Science</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0d63ccc61132769272734afcd017955ba6f8b99e">Abs</a> · <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1989517/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Oil-well retirement ends production but may leave physical, chemical and ecological legacies in coastal wetlands.
+ 
+ 
+ 
+ We assessed soil conditions, heavy-metal risk and vegetation across retirement stages in the Yellow River Delta, China, in 2021, using 15 oilfield-associated sites and six natural reference wetlands. Sites were classified as Active, Abandoned, Restored (infrastructure removed and restoration implemented) or Reference, with retired sites assigned to &lt;3, 3–5 and 5–10 year classes.
+ 
+ 
+ 
+ Oilfield sites had lower mean vegetation cover than reference wetlands in June (50.29% versus 69.00%) and December (38.00% versus 56.23%), together with higher pH and generally lower salinity. Cd accounted for 54.3-65.7% of potential ecological risk, and its single-factor index exceeded one at three sites. Mean cover and richness at Restored sites increased across age classes, from 15.8% and 1.5 species at &lt;3 years to 64.2% and 7.0 species at 5–10 years, whereas diversity peaked in the intermediate class. Cd index, pollution load index (PLI) and potential ecological risk index (RI) did not decline monotonically with retirement age. Restored sites had lower mean metal-risk indices than Abandoned sites at 5–10 years but higher means at 3–5 years. Soil pH was positively associated with cover and richness; Cd index and PLI showed no significant associations with vegetation metrics.
+ 
+ 
+ 
+ These descriptive chronosequence patterns indicate that vegetation reorganisation and chemical-risk attenuation do not follow a common trajectory, and that recovery cannot be inferred from retirement age alone. Wetland retirement management should combine site-specific contamination assessment with vegetation and habitat evaluation.
+</div></details>
+</div>
+<div class="card"><div class="title">Integrating Plant Growth-Promoting Rhizobacteria with Coal-Preparation Waste for Mine Soil Reclamation<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Gokhan Sarıhan, Taşkın Deniz Yıldız, F. Sönmez, S. Kızgut, A. Sirkeci...</div>
+<div class="meta-line">Venue: Minerals</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5ed3149e6fa1f4951f397384bf2721603cd2b2ff">Abs</a> · <a href="https://doi.org/10.3390/min16111095">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study evaluated coal-enrichment plant refuse (CEPR) as an amendment combined with plant growth-promoting rhizobacteria (PGPR). Einkorn wheat was grown in a 5 × 2 factorial experiment comprising five CEPR application rates (0%, 5%, 10%, 20%, and 40%) and two PGPR treatments (PGPR− and PGPR+). In addition to plant growth parameters, growing-medium pH and salinity, as well as plant macronutrient, micronutrient, and potentially toxic trace-element concentrations, were evaluated. PGPR increased plant height, fresh biomass, and dry biomass by 285%, 200%, and 270%, respectively, while increasing K, Zn, and Mn concentrations by 132%, 337%, and 53%, respectively; total uptake of these elements was also higher under PGPR treatment. CEPR increased growing-medium pH from 7.54 to 8.03 without increasing salinity risk. Moderate CEPR rates (5%–10%) produced the most favorable growth responses, whereas higher rates (20%–40%) were associated with reduced growth and increased growing-medium pH. Ni and Cd concentrations in plant tissues varied across treatments; these measurements alone do not establish the long-term environmental safety of CEPR application. Under the conditions of this short-term pot experiment, the 5%–10% CEPR treatments showed the most favorable plant-growth responses when combined with PGPR. These findings identify a treatment range for further investigation; its suitability for mine-soil reclamation requires longer-term field testing across different soils and CEPR sources, including assessment under weathering, rainfall, and seasonal variation.</div></details>
+</div>
+<div class="card"><div class="title">Soil Quality Shapes Yield Gains from Improved Management in China’s Cereal Systems<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Guan-Mo Li, Bing-Fu Yao, Jian-Bing Li, Xiao-Lin Qu, Wei Mao...</div>
+<div class="meta-line">Venue: Agriculture</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/efce7aa85289def71918a780eae3d2f816dc5bd6">Abs</a> · <a href="https://doi.org/10.3390/agriculture16212309">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Recovering unrealized crop production through improved field management is important for sustainable agriculture, but the benefits may depend on soil conditions. We aimed to determine how soil quality modifies the yield benefits of management improvement in China’s maize, wheat and rice systems. We test two hypotheses: (1) that higher soil quality is associated with smaller relative yield shortfalls, and (2) that the gains associated with improved technical efficiency (TE) depend on soil quality. Using field observations across China, we quantified the difference between cultivar-specific attainable and actual field yields and combined stochastic frontier estimation, random forest modeling and scenario analysis. The relative shortfall was 8.4 percentage points (pp) lower in maize, 11.0 pp lower in wheat and 11.8 pp lower in rice on high- than low-quality soils. However, its sensitivity to TE improvement declined with soil quality in maize and wheat but increased in rice. Better soils therefore partly compensated for inefficient management in maize and wheat, whereas they enabled greater returns to management improvement in rice. Soil organic matter and available phosphorus were the principal soil attributes associated with lower shortfalls in maize and wheat, whereas available potassium and pH were more influential in rice. Scenarios analyses showed that combined soil and TE improvement reduced predicted relative shortfall by 8.7 pp in maize, 8.9 pp in wheat and 15.1 pp in rice. Spatial prioritization further identified where soil-focused, management-focused or integrated interventions offered the greatest potential. These findings identify crop-specific associations between soil conditions and TE-related yield-shortfall reduction and provide model-based priorities for evaluating soil and management interventions through field testing.</div></details>
+</div>
+<div class="card"><div class="title">Dynamic Interplay
+of Dissolved Ions and Solid Surfaces
+Enables Efficient Nonalkaline Biomass Electrooxidation<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Can Lei, Yuan-Yuan Meng, Hong-Rui Sheng, Shao-Yan Wang, Xu-Dong Liu...</div>
+<div class="meta-line">Venue: ACS Central Science</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/615d2530cc721773790e720799ab1c6edb0026f6">Abs</a> · <a href="https://pubs.acs.org/acscii/article-pdf/doi/10.1021/acscentsci.6c00851/68943969/acscentsci.6c00851.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Earth-abundant transition-metal electrocatalysts often degrade in acidic or neutral media due to reconstruction and leaching, hindering their use for deep electrooxidation processes like the conversion of biomass-derived 5-hydroxymethylfurfural (HMF) to 2,5-furandicarboxylic acid (FDCA), a key monomer for sustainable plastics. Here, we report that under nonalkaline conditions, cobalt ions (Co2+) and electrodeposited cobalt (oxy)hydroxide surfaces, maintained in a dynamic dissolution/deposition equilibrium, act synergistically to drive efficient HMF oxidation. Carboxylate anions, particularly propionate, stabilize dissolved Co2+ as active complexes that are enriched at the electrode interface, while the heterogeneous surfaces facilitate substrate adsorption. This cooperative mechanism enables deep oxidation to FDCA. By optimizing this equilibrium with a potassium propionate electrolyte, we achieved a 93.3% FDCA yield using only 1 mM Co2+. Coupling this anodic process with the oxygen reduction reaction (ORR) allows for low-voltage FDCA production from which FDCA precipitates directly at high concentrations without acidification. This synergy between homogeneous complexes and heterogeneous surfaces offers a new paradigm for stable and efficient electrocatalysis under mild conditions.</div></details>
+</div>
+<div class="card"><div class="title">Dissociation Dynamics
+of Protonated Nitroimidazoles:
+The Ortho Effect as the Mechanistic Trigger for Radical Formation<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: J. Basilio, R. Oliveira, Fábio C. S. Nogueira, Nina D. Ortiz, G. Domont...</div>
+<div class="meta-line">Venue: The Journal of Physical
+Chemistry A</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ed57f3fbe662610d4ef9a39576fc3d520ddac401">Abs</a> · <a href="https://pubs.acs.org/jpcafh/article-pdf/doi/10.1021/acs.jpca.6c04617/68955912/acs.jpca.6c04617.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Substituted 5-nitroimidazoles are recognized as being significantly more effective in treating hypoxic tumors than their 4-nitroimidazole isomers. While classical Quantitative Structure–Activity Relationship (QSAR) models point to electron affinity (EA) as the critical parameter for this activity, recent gas-phase electron-attachment studies reveal a paradox: isolated radical anions of 1-methyl-5-nitroimidazole (1M5NI) do not spontaneously fragment into essential cytotoxic species such as NO• and OH• radicals. To resolve this dilemma, we investigate the high-energy dissociation pathways triggered instead of activated during radiotherapy. Because these radiosensitizers capture secondary electrons and are immediately protonated in the acidic tumor microenvironment, we utilized Electrospray Ionization (ESI) Orbitrap mass spectrometry to generate the [M + H]+ species. This protonated closed-shell cation serves as a rigorous structural and mechanistic analogue to map the reaction topology of the transient in vivo state. By comparing the protonated 1M5NI ([1M5NI + H]+) and 2-methyl-4-nitroimidazole ([2M4NI + H]+) isomers through high-level computational modeling [DFT and CCSD(T)], we elucidate that while EA serves as the initial trigger, the protonated state is mandatory to unlock the fragmentation pathway. Crucially, the massive energy deposition inherent to radiotherapeutic environments provides the necessary driving force to overcome the high-energy dissociation barriers (&gt;3 eV), channeling the internal energy along a specific normal mode of vibration to eject the cytotoxic radicals. These findings provide a fundamental physical chemistry basis for the clinical efficacy of 5-nitroimidazole drugs.</div></details>
+</div>
+<div class="card"><div class="title">Physical property-based screening of polyurethane foam for gold enrichment from rock gold ores<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Cang Gong, Shun-Xiang Wang, Yang Chen, Hai-Chuan Lu, Jiu-Fen Liu...</div>
+<div class="meta-line">Venue: RSC Advances</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2f5c2a3b48f412effba674ef42744d581c406009">Abs</a> · <a href="https://pubs.rsc.org/ra/article-pdf/doi/10.1039/d6ra07061b/14938847/d6ra07061b.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">To address the technical challenges of significant variations in gold extraction efficiency and the absence of a scientific screening basis for commercially available unmodified polyurethane foam (U-PUF) in gold enrichment from rock gold ores, this study systematically investigated the correlations between six physical properties of 18 U-PUF samples and the gold extraction efficiency in accordance with General flexible polyurethane cellular plastics (GB/T 10802-2023). The gold enrichment mechanism was elucidated by combining adsorption kinetics, competitive adsorption characteristics, and microscopic characterization techniques. The results demonstrated that the optimal physical parameters of U-PUF with a gold adsorption rate of ≥95% were determined as follows: white color, density of 30–40 kg m−3, 25% indentation hardness of 105–140 N, 40% indentation hardness of 130–150 N, rebound rate of 50–65%, and pore size of 100–400 µm (fine pore). This type of U-PUF exhibited an optimal adsorption capacity of 3.91 mg g−1, and its adsorption process followed the three-stage intraparticle diffusion model, reaching adsorption equilibrium within 30 min with excellent homogeneous adsorption performance. FTIR analysis confirmed that no chemical bonding was involved in the gold adsorption by U-PUF, while SEM-EDS characterization revealed that the gold existed as multi-scale aggregates with sizes ranging from 300 nm to 15 µm on the porous framework of U-PUF. The enrichment mechanism was clarified as follows: in an acidic system, the secondary amino groups on U-PUF were protonated, which then captured [AuCl4]− anions via electrostatic interaction and subsequently reduced them to elemental gold in situ. The U-PUF screened by the optimal parameters showed good consistency between the determined values and the certified values for 26 gold ore reference materials, and the determined values for actual rock gold ore samples were not significantly different from those obtained by the activated carbon enrichment method and fire assay. The screening standard for U-PUF physical properties established in this study resolves the dilemma of material selection in gold enrichment for batch geological samples, and provides theoretical support and technical specifications for the standardized application of U-PUF.</div></details>
+</div>
+<div class="card"><div class="title">Chitosan-Functionalized Magnetic Nanoparticles for Heavy Metal Remediation of Canal Wastewater<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Um E. Ummara Shafi, M. Zia, Alamdar Hussain, Saad Abdullah, Attarad Ali</div>
+<div class="meta-line">Venue: Water, Air, &amp; Soil Pollution</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2c12bd40fdd4916117d70e8ad08e4acd5886679e">Abs</a></div>
+</div>
+<div class="card"><div class="title">From waste to risk: heavy metal contamination from dumpsites and future perspectives – a case study from Palestine<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: M. I. Al-Sari&#x27;</div>
+<div class="meta-line">Venue: Euro-Mediterranean Journal for Environmental Integration</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/30e9c865977402f7fd43094e0ee30cf6fd18f689">Abs</a></div>
+</div>
+<div class="card"><div class="title">Contrasting isotopic responses of dryland and wetland plants to a century of global anthropogenic changes in nutrient cycling<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: I. Dembicz, Natalia Chojnowska, P. Chibowski, Ł. Kozub</div>
+<div class="meta-line">Venue: Biogeosciences</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/cfb702afddbea64a28853929654b91b9f4ae9d83">Abs</a> · <a href="https://bg.copernicus.org/articles/23/7375/2026/bg-23-7375-2026.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Anthropogenic emissions of carbon dioxide and reactive nitrogen in various forms disrupt the functioning of ecosystems around the world. In Europe, many valuable habitats, particularly wetlands and semi-natural dry grasslands, are under threat from ongoing eutrophication. However, due to contrasting water regimes, the uptake of anthropogenic nitrogen by plants in these ecosystems is different and is also interrelated with an increase in trophic level in both habitats. In our study, we measured the
+ δ
+ 15
+ N and
+ δ
+ 13
+ C values, as well as the total nitrogen content (TN), of 99 pairs of foliar samples collected from 14 species of vascular plants in Poland: seven wetland species and seven dry grassland species. Each pair consisted of a historical sample collected from a herbarium voucher dating from before 1939 (i.e. before artificial fertilisers were widely used in agriculture) and a contemporary sample collected in 2024 from the same species in a similar location. We performed
+ t
+  tests to determine whether there were significant differences in the means of
+ δ
+ 15
+ N, TN and
+ δ
+ 13
+ C between samples from the two different habitats. Next, we calculated the differences in
+ δ
+ 15
+ N, TN and
+ δ
+ 13
+ C between the contemporary and historical samples for each pair. Using the information on date of collection of each herbarium voucher we corrected
+ δ
+ 13
+ C values taking into consideration changes of atmospheric
+ δ
+ 13
+ C due to fossil-fuel combustion (so called Suess effect). We then tested whether the difference for each species and habitat type was significantly different from zero using 90 % confidence intervals. Using multiple linear regression, we analysed the relationships between differences in
+ δ
+ 15
+ N and TN over time and the following factors: habitat type, the proportion of farmland in the surrounding landscape, the consumption of synthetic nitrogen fertiliser, and NO
+ 
+ x
+ 
+ deposition.
+ δ
+ 15
+ N and TN values were lower in dry grassland species than in wetland species, in both the contemporary and historical subsets. For dry grassland species, the mean
+ δ
+ 15
+ N value was lower in contemporary samples than in historical ones. For wetland species, the opposite was true. The difference in
+ δ
+ 15
+ N values between pairs of samples was positively related to the amount of farmland in the surrounding landscape. The mean TN was higher in contemporary than in historical wetland plants, but not in dry grassland plants. The mean
+ δ
+ 13
+ C value, corrected for the Suess effect, was lower in contemporary samples than in historical ones. The mean difference was −0.51 ‰ for dry grassland and −3.85 ‰ for wetland species. Our study revealed that the century of fossil fuel-derived carbon emissions, increased nitrogen input into the environment, and dominance of artificial fertilisers and combustion-derived nitrogen over biological nitrogen sources have not led to consistent responses across habitats and species. While the isotopic composition of nitrogen and carbon in plant leaves in Central Europe has undoubtedly changed, this change is highly context-dependent. Its magnitude and direction are impacted by the type of habitat and the identity and/or ecology of the species. As expected, man-made alterations appear to be more pronounced in wetland environments than in dryland habitats. Furthermore, the source of disruption may differ between the two habitat types. Specifically, wetlands are exposed to a multitude of anthropogenic nitrogen and carbon sources, whereas dry grasslands seem to be predominantly affected by changes in the composition of the atmosphere.
+</div></details>
+</div>
+<div class="card"><div class="title">Physicochemical Characterization and Heavy Metal Pollution Assessment of Electroplating Wastewater in Chanchaga, Nigeria with Implications for Sustainable Treatment<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Salisu Y. Mohammed, A. Jimoh, A. Giwa, A. A. Ibrahim</div>
+<div class="meta-line">Venue: BAYERO JOURNAL OF ENGINEERING AND TECHNOLOGY</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b31b159ecc5184b20536cf8b3daf7589739cb64b">Abs</a> · <a href="https://bjet.ng/index.php/jet/article/download/245/171">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Electroplating wastewater is a major contributor of water contamination as a result of the presence of heavy metals, salts, and acid content. There have been many electroplating industries in Nigeria, but little attention has been paid to the analysis and characterization of the wastewater. Therefore, there is no suitable technique developed for the treatment of such wastewater which could serve to minimize environmental pollution. This work presents the physicochemical characterization of electroplating wastewater sampled from an electroplating industry in Chanchaga Area Council, Niger State, Nigeria. Water samples were taken and characterized using the standard methods recommended by the American Public Health Association (APHA, 2023). While physicochemical parameters were analyzed via standardized methods, the determination of heavy metals was done via the process of microwave plasma atomic emission spectroscopy (MP-AES). According to the study, the wastewater sample was strongly acidic with a pH value of 1.02, high electrical conductivity (EC) of 58,550 µS/cm, total dissolved solids (TDS) of 49,400 mg/L, chemical oxygen demand (COD) of 177.15 mg/L, and high chloride content (Cl) of 932.72 mg/L. All these parameters are above the permissible levels of NESREA and WHO/US-EPA standards. Similarly, high concentrations of nickel (46.43 mg/L), iron (44.41 mg/L), copper (25.46 mg/L), zinc (13.70 mg/L), cadmium (1.96 mg/L), arsenic (0.20 mg/L), and manganese (1.12 mg/L) have been found in electroplating wastewater. In contrast, very low concentrations of Biochemical Oxygen Demand (BOD) of 2.75 mg/L were measured. The obtained findings demonstrate that electroplating wastewater is rich in dissolved inorganic substances and posed a significant threat when discharged to the environment in an untreated form.</div></details>
+</div>
+<div class="card"><div class="title">Machine-Learning Pedotransfer Functions for Modelling Saturated Hydraulic Conductivity in a Semi-Arid Region<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Asmaa O. Abedellatif, Aly S. Abdel-Mawgoud, Abdel-rahman A. Mustafa, M. Shokr</div>
+<div class="meta-line">Venue: Sustainability</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/daec947245d05938773b9a07aebf47f221069efc">Abs</a> · <a href="https://doi.org/10.3390/su182110718">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Accurate values of saturated hydraulic conductivity (Ks) underpin irrigation scheduling, hydrological modelling, and the broader soil-water-plant balance, yet measuring Ks directly in the field is slow, labour-intensive, and rarely practical at large spatial scales. This study therefore examined whether pedotransfer functions (PTFs) built with machine-learning (ML) algorithms can substitute for direct measurement in the alluvial soils of Sohag Governorate, Egypt. A total of 206 surface samples were characterized for particle size distribution, soil organic matter (SOM), bulk density (Bd), pH, electrical conductivity (EC), and Ks, with sand, silt, clay, SOM and Db used as predictors, while pH and EC were measured for soil characterization and were not included as model predictors. After a random calibration-validation split, twenty regression and ML techniques were fitted and compared in R-Studio. Linear formulations captured only a moderate share of the variability, reaching a validation R2 of 0.56, while most nonlinear algorithms performed distinctly better. The radial-basis-function support vector machine (SVM-RBF) gave the strongest overall validation result (R2 = 0.827, RMSE = 12.505 mm h−1, MAE = 6.954 mm h−1, RPD = 2.445). The stacked ensemble reached the highest calibration R2 (0.943), but its validation R2 fell to 0.696, a gap that points to some degree of overfitting. These results indicate that kernel-based and ensemble PTFs offer a practical, time-saving route to estimating Ks and can support irrigation and water-management planning across semi-arid alluvial landscapes without the burden of exhaustive field measurement.</div></details>
+</div>
+<div class="card"><div class="title">SOIL-CEMENT BRICKS WITH EXFOLIATED VERMICULITE: THERMOACOUSTIC AND MECHANICAL PERFORMANCE FOR ECOLOGICAL MASONRY<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: G. M. C. S. Resende, Rafael Farinassi Mendes, Michelly dos Santos Oliveira, M. Guimarães</div>
+<div class="meta-line">Venue: Revista edUCA - Revista Multidisciplinar da Faculdade Católica Paulista</div>
+<div class="meta-line">Published: 2026-10-22</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/6d17ecca76083eef23b65bf2955dba7e355bdd9a">Abs</a> · <a href="https://revistaeduca.com.br/index.php/EDUCA/article/download/1053/681">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The growing interest in sustainable construction materials has increased the use of soil-cement bricks because they eliminate the firing stage, reducing energy consumption and greenhouse gas emissions. These composites also allow the incorporation of alternative materials, such as exfoliated vermiculite, whose low density and porous structure can influence heat transfer, sound attenuation, and mechanical behavior. However, the effects of thermally treated vermiculite on the performance of soil-cement bricks remain poorly understood. This study investigated solid soil-cement bricks containing vermiculite concentrate thermally treated at 800 °C for 10 and 15 min. After identifying the condition that provided the highest degree of exfoliation, the material was incorporated into the soil at volumetric replacement levels of 0%, 2.5%, and 5%. Water absorption, compressive strength, thermal conductivity, acoustic insulation, and durability under accelerated aging conditions were evaluated. Vermiculite addition did not significantly affect water absorption. Compared with the reference mixture, the incorporation of 2.5% vermiculite reduced thermal conductivity by approximately 6%, while the 5% replacement increased acoustic insulation by about 20%. Although the initial compressive strength remained below standard requirements, accelerated aging promoted a substantial increase in strength. These results support the use of exfoliated vermiculite in non-structural soil-cement masonry applications.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
