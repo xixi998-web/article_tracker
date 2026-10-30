@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-30 02:30 · Core 8 · Proxy 0 · Eco 2</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: Muyu Xu, Fangneng Zhan, Yu Wei, Ling Shao, Shijian Lu</div>
+<div class="meta-line">Published: 2026-10-28</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2610.38278v1">Abs</a> · <a href="https://arxiv.org/pdf/2610.38278v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Feed-forward 3D Gaussian Splatting has recently emerged as a promising alternative to per-scene optimization, enabling fast novel view synthesis by predicting Gaussian primitives directly from input images. However, it quickly faces a bottleneck of rendering efficiency while scaling from sparse to dense multi-view inputs, which offer more geometric constraints but produce a rapidly growing set of candidate Gaussians. Existing solutions cannot reliably distinguish redundant primitives, leading to many redundant primitives from repeatedly observed regions and increased rendering cost without much gain in visual quality. We propose BudSplat, a compact feed-forward 3DGS framework that learns to keep the most valuable Gaussians under a limited primitive count. BudSplat has two novel designs. The first is a detail-aware importance score that is extracted from multi-level visual tokens, providing an explicit cue for regions where pruning is likely to harm perceptual quality. The score can be injected into voxel fusion to preserve high-value local contributors during multi-view aggregation. The second is quality-aware Gaussian pruning that selects a compact set of primitives by jointly considering rendering contribution and detail importance. The quality-aware pruning enables local quota redistribution that helps avoid over-allocating primitives to large redundant regions. Experiments on RE10K, DL3DV, and ACID show that BudSplat achieves a favorable trade-off among rendering quality and efficiency.</div></details>
+</div>
+<div class="card"><div class="title">GOFish: Full Field-of-View Gaussian Splatting and Mesh Extraction<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: Allen Tu, Meher Gitika Karumuri, Shifan Zhu, Hailing Wang, Yen-Liang Lin...</div>
+<div class="meta-line">Published: 2026-10-27</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2610.37818v1">Abs</a> · <a href="https://arxiv.org/pdf/2610.37818v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Robots, autonomous vehicles, and consumer 360° cameras use fisheye lenses for wide fields of view (FoVs). Simulation-ready digital twins require photorealistic rendering across the full FoV and an aligned collision mesh. However, prior fisheye Gaussian Splatting methods only rasterize up to 180° and do not produce meshes, while Gaussian surface reconstruction methods assume pinhole training images. We present GOFish, the first 3D Gaussian Splatting surface reconstruction method to train directly on fisheye images, rasterize FoVs beyond 180°, and extract an aligned mesh from the same scene. Calibrated densification recovers the surface across the entire FoV, while Calibrated Mip Filtering and Wide-Angle Appearance Modeling keep pixel blur and lens falloff out of the scene and mesh. Across the 200° FIORD and 205° FullCircle benchmarks, GOFish improves PSNR over the best prior method by 2.28 and 1.97 dB, respectively. It also outperforms fisheye rendering baselines within their own FoVs and achieves the highest mesh F-score on FIORD and the main ScanNet++ set. Together, the Gaussian scene and mesh form a LiDAR-free, simulation-ready digital twin that renders in real time, ray traces the full FoV, and provides collision geometry.</div></details>
+</div>
+<div class="card"><div class="title">Aligning Misaligned Benchmarks for Single-View Novel View Synthesis<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Yang-Che Tseng, Erqun Dong, Jeong-gi Kwak, Gopal Sharma, Shakiba Kheradmand...</div>
+<div class="meta-line">Published: 2026-10-28</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2610.38349v1">Abs</a> · <a href="https://arxiv.org/pdf/2610.38349v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">While single-view novel view synthesis methods have been dramatically enhanced recently, how to quantify their performance has yet to be standardized. In this work, we demonstrate that an important factor lies in how each method&#x27;s own reference frame is aligned with the so-called ground-truth pose. Existing methods often rely on test-time optimization of target poses for this alignment, which inherently is ill-posed due to the complexity of the optimization landscape of camera poses vs render accuracy, leading to methods being evaluated at an arbitrary local optimum. Some recognize this limitation and thus rely on 3D reconstructions of entire scenes using training and test views to align poses, which may be infeasible. In this work, instead, we propose to use traditional 2D-to-2D and 2D-to-3D image matching techniques to align 3D reconstructions. We also evaluate only within co-visible regions, between different views, which is the only place where a `correct&#x27; ground truth can be defined. Our evaluations show that with proper coordinate alignment, novel-view synthesis methods that use explicit 3D Gaussians achieve the state of the art, despite being previously reported in the literature to be outperformed by pure image-based 2D methods. We further provide a simple baseline that directly utilizes an off-the-shelf video generator and a feed-forward geometry estimator. Our simple baseline is already comparable to state-of-the-art methods specifically trained for novel-view synthesis, without any task-specific training.</div></details>
+</div>
+<div class="card"><div class="title">Efficacy of Monocular Depth Estimation in Lunar Environments<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Michael W. Lanighan, Kenji Brameld, Seth Gee</div>
+<div class="meta-line">Published: 2026-10-27</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2610.38080v1">Abs</a> · <a href="https://arxiv.org/pdf/2610.38080v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Recent advances in monocular depth estimation have demonstrated highly accurate 3D reconstructions within in-distribution terrestrial domains. This study investigates the efficacy of several state-of-the-art approaches to reconstruct out-of-distribution lunar environments using the NASA Ames Polar Optical Lunar Analog Reconstruction (POLAR) stereo dataset and Apollo 17 surface imagery. By leveraging these datasets, we establish a robust analog-to-field validation pipeline that evaluates quantitative performance against ground-truth physical analogs and qualitative performance against historical field data. Our results indicate that select state-of-the-art techniques can successfully generalize to produce high-fidelity relative 3D reconstructions of the unstructured lunar surface.</div></details>
+</div>
+<div class="card"><div class="title">Volley3D: Unified 3D Full-Sequence Reconstruction from Monocular Broadcasts<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Noâm Boussouf, Adrien Maglo, Mohamed Chaouch, Hideo Saito</div>
+<div class="meta-line">Published: 2026-10-28</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2610.38358v1">Abs</a> · <a href="https://arxiv.org/pdf/2610.38358v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">3D reconstruction from single-view sports broadcast is a pivotal capability for automated analytics and immersive AR/VR replays, yet notoriously ill-posed due to difficult-to-calibrate moving cameras and depth ambiguity. Unlike widely studied racket sports, team sports such as volleyball feature unpredictable multi-contact sequences and high altitude jumps. These dynamics categorically invalidate the standard planar projection assumptions relied upon by existing methods. To resolve these limitations without 3D training supervision, we propose a complete, physics-grounded pipeline tailored to monocular broadcast volleyball. First, we include a correction module to the perspective drift induced by ground-plane projection by coupling temporal jump spotting with Newtonian interpolation for 3D player placement. Second, for 3D ball trajectory estimation, we design a dedicated sub-trajectory segmentation architecture alongside a collision-matching algorithm. By anchoring physical equations to reconstructed 3D hand vertices, we lift noisy ball 2D detections into a spatiotemporally coherent 3D scene. Evaluations on multi-camera benchmarks demonstrate our approach significantly reduces 3D spatial drift compared to 2D-reprojection baselines.</div></details>
+</div>
+<div class="card"><div class="title">Fusion-based few-shot 3D reconstruction through continuous-time intensity estimation and plenoptic functions<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: M. Silva, Allison M. Davis, Andre Green, A. Cattaneo, D. Mascareñas</div>
+<div class="meta-line">Venue: Signal, Image and Video Processing</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3b43eac18b5c7fc1df127bd24c0bf5d7c5ea30c4">Abs</a></div>
+</div>
+<div class="card"><div class="title">A Gray-Distribution-Based Adaptive Laser Stripe Center Extraction Algorithm<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Jian-Ying Yuan, Yue-Dong Shi, Xu Chen, Chen Cheng, Ying Geng...</div>
+<div class="meta-line">Venue: Measurement Science and Technology</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/19e7b576022922df3c63554cc0330dc35b9ee563">Abs</a> · <a href="https://iopscience.iop.org/article/10.1088/1361-6501/aeb8ae/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Accurate laser stripe center extraction is critical for high-precision line-structured laser 3D reconstruction. Many existing methods assume that the cross-sectional grayscale distribution of a laser stripe follows a fixed pattern. However, in practical scanning, variations in working distance, object geometry, and surface material lead to significant changes in grayscale distributions across the same stripe, which introduce center localization errors and degrade reconstruction accuracy and robustness. To address this issue, this paper proposes an adaptive laser stripe center extraction method with the core idea of adaptively selecting the most suitable center extraction algorithm for each stripe cross-section based on its estimated grayscale distribution model. Specifically, a real laser stripe dataset covering various typical scanning scenarios is first constructed. Based on statistical analysis of this dataset, a cross-sectional grayscale distribution estimation framework integrating four descriptors, namely Gaussianity, Symmetry, Peak Number, and Brightness Uniformity, is established. The optimal extraction algorithm for each grayscale distribution model is then determined through theoretical derivation and simulation analysis. Experimental results demonstrate that the proposed method maintains high extraction completeness while producing more continuous laser stripe center across different grayscale distributions. Under diverse camera exposure configurations, the average 3D reconstruction error is reduced by 0.13 mm, 0.33 mm, and 0.09 mm compared with the Gray Centroid Method, Gaussian Fitting Method, and Steger Method, respectively. Moreover, the proposed algorithm runs 2.02 times faster than the Steger Method, demonstrating superior robustness to stripe profile variations while maintaining high reconstruction accuracy and computational efficiency.</div></details>
+</div>
+<div class="card"><div class="title">A computational framework for modeling fluid and solid stressesin porous tissues with application to the trabeculated embryonic heart.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: C. Buffinton, J. Baish</div>
+<div class="meta-line">Venue: PLoS computational biology</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4ea59398ac0218be3b2c57ca0c899e1985af47b4">Abs</a> · <a href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014896&amp;type=printable">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study provides a framework for efficient solutions of computational fluid-solid interaction models of porous tissue, with a focus on blood flow through the developing heart wall in the critical chamber and valve formation stages, when trabeculation fills much of the ventricles. This porous, trabeculated tissue is the site of complex mechanotransduction processes, but accurately estimating solid and fluid stresses within such intricate geometries is difficult. We addressed this with three levels of modeling and verification. Images of E12.5 mouse ventricles were first obtained through confocal microscopy and 3D reconstruction. These guided creation of explicit pore-scale finite element simulations with fluid-solid interaction. Idealized and image-derived unit cells were analyzed to determine hydraulic permeability. Next, a multi-pore representation of the ventricular wall was solved with full fluid and solid equations. A continuum model based on Brinkman equations then replaced the explicit pore structure, and sensitivity to permeability was evaluated in terms of fluid flow in the open channel and porous region. Permeabilities obtained from unit cell simulations followed trends from Kozeny-Carman solid-pore and fiber theory for the rigid case, while simulations for hyperelastic unit-cell material quantified the effects of tissue elasticity. Comparison of continuum and explicit model results showed the Brinkman equation, which incorporates the diffusion of shear stress from flow in the free fluid into the porous media, but not explicitly inertial effects, could significantly improve the accuracy of continuum models compared to Darcy&#x27;s law. A 3D model of blood flow through the ventricles of the developing mouse heart demonstrated the application of the technique to more realistic geometry, showed locations of peak solid and shear stress, and produced physiologically reasonable flow. Furthermore, we developed methodologies to estimate local wall shear and solid stress from continuum-based calculations. This approach can enable efficient, whole-organ parametric analyses of fluid flow, circumventing the need for computationally expensive explicit pore modeling.</div></details>
+</div>
+<div class="card"><div class="title">Real Time Motion Detection in Video Inspired by Photonic Time Stretch<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Callen MacPhee, Yi-Ming Zhou, Bahram Jalali</div>
+<div class="meta-line">Venue: Science Robotics</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d3adf6c9d0ee4061f22518d681e19a1f56b85613">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Motion perception is fundamental to computer vision and physical AI, and plays a central role in robotics, autonomous vehicles, human-computer interaction, and video compression. Traditional approaches such as background subtraction, frame-differencing and optical flow algorithms often struggle in complex or dynamic scenes, typically sacrificing spatial resolution for computational tractability. Here we introduce MoViD (Motion estimation via Virtual dispersion and phase Detection), a physics-inspired algorithm grounded in the principles that govern photonic time stretch - a highly successful ultrafast realtime data acquisition platform. Drawing inspiration from the optical physics therein, MoViD treats video as a collection of optical time series waveforms associated with pixels. Motion of an object through a pixel broadens the time series spectrum and, after group delay dispersion, induces a temporal phase that exists only if there is motion. Spatiotemporal group delay dispersion templates, corresponding to dielectric functions, classify specific motion trajectories. Unlike conventional empirical phase-based motion-analysis pipelines that require narrow-band spatial channelization and pyramid reconstruction, the physics-based MoViD operates directly on the broadband video signal, vastly increasing its computational speed. The resulting algorithm achieves unprecedented performance in both motion characterization and motion magnification, providing full-resolution motion mapping in real time at nearly 200 frames per second at 4K resolution and 70 frames per second for 8K video - orders of magnitude faster than classical optical flow approaches or learning-based methods. Notably, such extreme performance enables real time motion analysis at ultrahigh resolution for motion detection and compensation in robotics and other autonomous devices.</div></details>
+</div>
+<div class="card"><div class="title">RADIANT: Object-Centric Feed-Forward Global Illumination<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Sarah Zhang, Zhi-Yang Dou, Ming-Hao Guo, B. Jones, Wojciech Matusik</div>
+<div class="meta-line">Venue: Computational Visual Media</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/249bd200e47c65da56c08aab696501c164576db1">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Feed-forward neural renderers synthesize global illumination across novel 3D scenes without per-scene optimization or runtime ray tracing. Existing transformer-based renderers tokenize individual triangles, so self-attention scales quadratically with mesh resolution. Yet macroscopic radiative transport is governed by the underlying surface geometry and object arrangements rather than a particular mesh discretization; finer tessellation can thus inflate token counts without changing the underlying transport physics, motivating a discretization-agnostic and object-centric representation. We introduce RADIANT (RADiance-based Inter-Actor Neural Transformer), an object-centric architecture for feed-forward global illumination from point inputs. By representing each object with a compact budget of 32 surface-patch tokens, RADIANT decouples attention sequence length from polygon counts. In a single network, an inter-object scene transformer models 3D radiative exchange and a view decoder renders images at target camera poses. To capture light transport without materializing O(N^2) bias matrices, invariant form-factor attention embeds geometric distances and surface orientations directly into query-key dot products as SE(3)-invariant inner products weighted by learned area and material gains. For primary visibility without mesh connectivity, camera rays cross-attend scene tokens guided by depth-tested point splats in a shared spherical frame. Across a 1.03M-scene benchmark under matched model capacity, RADIANT reaches 25 dB tone-mapped PSNR in 5x fewer training steps than RenderFormer, and achieves 32.2 dB at 600k steps (+3.3 dB over RenderFormer and +7.6 dB over RenderFormer-V2). We further demonstrate the scalability of RADIANT, which completes a 512x512 forward pass of a 500-object scene in 0.83 s, with computational cost scaling with the number of objects rather than polygons.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
