@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-30 06:51 · Core 14 · Proxy 4 · Eco 5</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Nutrient-Driven Mechanisms of Soil Acidification in Mountain Tea Plantations Along Elevation Gradients: A Case Study of Lushan Tea Plantations in Jiangxi Province, China<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">15</span></div>
+<div class="meta-line">Authors: Xiao-Ling Zhang, Xiao-Bing Lin, Jian-Fu Wu</div>
+<div class="meta-line">Venue: Agriculture</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7369dbd4c7533ddece2b9cb55996a220ccd117e5">Abs</a> · <a href="https://doi.org/10.3390/agriculture16212313">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil acidification and nutrient imbalances threaten mountain tea plantation sustainability, while nutrient-driven acidification mechanisms along elevation gradients in deep soil profiles remain poorly understood. This study examined three tea plantations at different elevations (107, 400, and 711 m) on Mount Lu, Jiangxi Province, sampling soils at five depths to 100 cm. Objectives were to quantify vertical differentiation of acidity, base ions, and nutrients, reveal altitudinal conversion patterns of acidification drivers, and guide fertilizer management. Soils exhibited strongly acidic conditions (pH 3.86–5.46), with the most severe acidification at the mountain foot and surface layer (0–20 cm). Potential acid accumulation in deep soils exceeded 75% (exchangeable aluminum/exchangeable acidity: 80.61%, 77.42%, 80.10% at mountain foot, mountainside, and mountaintop, respectively), and acidification spread was most pronounced at the mountain foot. The mountaintop and surface layer showed strongest acid–base resistance. Cation exchange capacity and base cations decreased with depth; base saturation in surface soil was 47.12% higher than in deeper layers. Organic matter, nitrogen, phosphorus, and available potassium were surface-enriched, whereas total potassium accumulated in deeper layers. Correlation analysis showed that pH was significantly negatively correlated with exchangeable acidity, exchangeable aluminum, organic matter, total nitrogen, and alkaline-hydrolyzable nitrogen, and significantly positively correlated with exchangeable calcium, exchangeable magnesium, and total potassium. Structural equation modeling revealed that nitrogen accumulation was the primary acidification driver, with total effect sizes ranking as total nitrogen (0.549) &gt; organic matter (0.319) &gt; total potassium (0.247) &gt; alkaline-hydrolyzable nitrogen (0.156). Nitrogen drove soil acidification via direct and indirect pathways by increasing exchangeable acidity and depleting base cations dominated by Ca2+. Organic matter exerted bidirectional regulation on soil pH, while total potassium indirectly alleviated soil acidification. These findings underscored the need to adjust the N:K2O ratio from 2:1 to approximately 1.5:1; Organic fertilizers and soil amendments should be applied as base fertilizers, with the mountainside (400 m) being the most suitable elevation for tea cultivation.</div></details>
+</div>
+<div class="card"><div class="title">Type-Specific Restructuring and Nitrogen–Sulfur Functional Degradation of Black-Soil Bacterial Communities Driven by Different Coal-Based Solid Waste Dumping in an Extremely Cold Open-Pit Coal Mine<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: Yi-Fang Long, Zi-Ling Song, Yu Wen</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/797b98d529caf22e82139f2431e8dda9b5dd3e31">Abs</a> · <a href="https://doi.org/10.3390/agronomy16212083">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Coal-based solid waste (CBSW; fly ash, weathered coal, coal gangue) from open-pit coal mining in extremely cold regions differentially releases salinity/alkalinity, heavy metals and acids, altering surrounding black-soil properties and reshaping its bacterial communities. We compared healthy farmland black soil (CK) with three dumping treatments—fly ash (FA), weathered coal (WC) and coal gangue (CG) (six replicates each; n = 24)—using full-length 16S rRNA sequencing (PacBio CCS), physicochemical, phospholipid fatty acid and enzyme-activity analyses. The wastes showed contrasting stress regimes: fly ash was slightly alkaline, saline and heavy-metal-enriched; weathered coal was strongly acidic and saline; and coal gangue was acidic–sulfidic. Dumping significantly altered soil pH, salinity and metal speciation, reducing organic matter by 36–61% and microbial biomass carbon by 45–74%. Alpha diversity responded in a type-specific manner: WC had the lowest Shannon index (4.72, −55.1%) and was dominated by Pseudomonadota (80.6%) with methylotrophy being enriched; FA retained the highest diversity (11.23); and CG was dominated by Actinobacteriota (45.1%). PERMANOVA and ANOSIM confirmed significant community separation. Nitrification was nearly lost under WC, while sulfate respiration was enriched under CG and sulfur respiration under FA, indicating type-specific restructuring of nitrogen and sulfur cycling. These results show that CBSW dumping drives restructuring and nitrogen–sulfur functional degradation of black-soil bacterial communities through type-specific environmental filtering, with weathered coal causing the most severe degradation, informing classified remediation.</div></details>
+</div>
+<div class="card"><div class="title">Ecological Stoichiometry and Microbial Community Dynamics in the Rhizosphere of Parashorea chinensis: Implications for Ex Situ Conservation of Endangered Trees<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: Wan-Nian Li, Yu-Jun Liu, Ting Li, Yuan-Yuan Xu, Xianyu Yao...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/581092482300e2e5eec1af69c38688a5c4938e65">Abs</a> · <a href="https://doi.org/10.3390/plants15213275">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Ex situ conservation of the endangered tree Parashorea chinensis, a national first-class protected species in China, hinges on the development of functional belowground ecosystems, a process that remains mechanistically unclear in restoration ecology. This study evaluated the development of conservation plantations by analyzing rhizosphere soil stoichiometry, enzyme activities, and microbial communities across four growth stages in natural forests and ex situ plantations. Results showed that ex situ plantations exhibited obvious soil acidification and persistently low N:P ratios, with phosphorus acting as the primary limiting nutrient. Fungal α-diversity was strongly correlated with stoichiometric imbalance in ex situ plantations. Artificial management drove microbial community shifts toward fungal-enriched assemblages, forming a distinctive functional microbial portfolio to tolerate combined stresses from acidification and nutrient stoichiometric imbalance. Crucially, these managed ecosystems maintain core nutrient cycling functions, and key microbial indicators show distinct developmental trends toward the conditions observed in natural forests as stands mature. In summary, ex situ conservation alters belowground biogeochemical processes rather than merely supporting plant survival. We propose targeted microbial management, particularly inoculation with native functional taxa from natural forests, to accelerate soil stoichiometry rebalancing and enhance nutrient cycling efficiency. These findings provide both evidence for the ecological feasibility of ex situ conservation and practical strategies for optimizing its long-term success through science-based belowground management.</div></details>
+</div>
+<div class="card"><div class="title">Nitrogen stimulation of soil carbon content differs between two types of mycorrhizal‐dominated ecosystems<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Yuan-Liu Hu, Ji Chen, D. Hui, R. Phillips, Ying-Ping Wang...</div>
+<div class="meta-line">Venue: Functional Ecology</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/05abd50529e4b18472e06e01449d7cbaf03c8836">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2435.70470">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ 
+ Increasing nitrogen (N) deposition has been suggested to favour arbuscular mycorrhizal (AM) plants over ectomycorrhizal (ECM) plants, but how mycorrhizal association mediates N impacts on soil organic carbon (SOC) remains unclear.
+ 
+ 
+ By synthesizing 315 N addition studies globally, we investigated the effects of N addition on SOC content in ecosystems dominated by ECM and AM plants (ECM and AM ecosystems).
+ 
+ 
+ Our results showed that SOC increased by 4.1% in ECM ecosystems, likely due to reduced ligninase activity. In AM ecosystems, SOC did not change during the first 5 years of N addition, but increased by 7.3% over long‐term N addition (≥5 years), driven by increased litter inputs and progressive soil acidification.
+ 
+ 
+ These findings highlight that N addition enhances SOC in both ECM and AM ecosystems via distinct mechanisms and temporal dynamics, implying that the potential of soil C sequestration may differ between the two ecosystems from short‐ to long‐term N addition.
+ 
+ 
+ 
+ 
+ Read the free
+ Plain Language Summary
+ for this article on the Journal blog.
+</div></details>
+</div>
+<div class="card"><div class="title">Magnesium promotes aluminum tolerance in apple by regulating cell wall remodeling through the MdMYB78-MdHCT/MdXTH2 transcriptional module.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Mengxue Lyu, Jing-Quan Liu, Xiu-Zheng Chen, Hao-Nan Cheng, Hong-Hui Liu...</div>
+<div class="meta-line">Venue: Journal of hazardous materials</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/550ef396d90b23c3b66e1676712d1c4ef018a26f">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil acidification-induced aluminum (Al) toxicity severely restricts apple growth and development, threatening apple production and potentially human health. Magnesium (Mg) supplementation can alleviate Al toxicity in plants, but the underlying physiological and molecular mechanisms remain poorly understood. Here, increasing the Mg supply from 0.3 to 3 mM reduced root Al accumulation and increased root dry weight and root length in M26 apple rootstock seedlings exposed to Al stress (1.5 mM). Elemental analysis showed that approximately 60% of the accumulated Al was localized in the root cell wall, with hemicellulose 1 (HC1) exhibiting a greater Al-binding capacity than other cell wall components. Mg supplementation under Al stress reduced the cell wall hemicellulose (HC) and lignin contents, thereby decreasing cell wall thickness and Al accumulation. Integrated transcriptomic and metabolomic analyses identified MdHCT and MdXTH2 as key genes involved in Mg-mediated Al tolerance. Overexpression of MdHCT and MdXTH2 negatively and positively regulate Al tolerance in apple seedlings, respectively, by modulating cell wall modification. Transcription factor analysis identified the MYB family member MdMYB78, which directly binds the ACCAAC motif in promoters of MdHCT and MdXTH2, activating and repressing their transcription, respectively. Transgenic validation results indicate that MdMYB78 negatively regulates Al tolerance in apple seedlings. Collectively, these findings establish MdMYB78 as a key regulator of Mg-enhanced Al tolerance in apple seedlings by coordinately regulating MdHCT and MdXTH2 to remodel the root cell wall and alter its Al-binding capacity. Mg-mediated cell wall remodeling provides a potential strategy for mitigating Al toxicity in acidified soils.</div></details>
+</div>
+<div class="card"><div class="title">Community differentiation and assembly of soil nosZ-type denitrifiers across dominant plant communities in an alpine wetland of Qinghai Lake<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Shi-Jia Zhou, Ni Zhang, Jiao Tang, Ke-Long Chen</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b5b29f926160b87915c7a2debfef17c718d75c6a">Abs</a> · <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1972695/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ Nitrous oxide (N₂O) reduction mediated by
+ nosZ
+ -harboring microorganisms represents the terminal step of denitrification and an important biological sink for N₂O in wetland soils, yet how naturally occurring dominant plant communities are associated with the diversity, taxonomic differentiation, and assembly of
+ nosZ
+ -type communities in alpine wetlands remains poorly understood.
+ 
+ 
+ 
+ 
+ 
+ We investigated four dominant plant communities in wetlands surrounding Qinghai Lake on the northeastern Qinghai–Tibet Plateau, dominated by
+ Blysmus sinocompressus
+ (BS),
+ Carex regescens
+ (CR),
+ Elymus nutans
+ (EN), and
+ Leymus secalinus
+ (LS), and integrated
+ nosZ
+ -targeted amplicon sequencing with vegetation biomass, soil physicochemical properties, environmental-association analyses, and phylogeny-based null models to evaluate variation in community diversity, taxonomic composition, environmental correlates, and assembly processes.
+ 
+ 
+ 
+ 
+ 
+ The four plant communities exhibited pronounced differences in vegetation–soil conditions and supported distinct
+ nosZ
+ -type communities. LS-associated soils showed the highest richness and the largest pool of community-specific OTUs, whereas Proteobacteria and
+ Bradyrhizobium
+ dominated the overall taxonomic composition. Environmental associations differed between community diversity and taxonomic structure: diversity was more strongly associated with plant biomass, soil temperature, and carbon and nitrogen status, whereas compositional variation was more closely related to soil C ratio, pH, total carbon, moisture, and nitrate nitrogen. Phylogeny-based null-model analysis further indicated that community assembly was predominantly associated with variable selection, although the relative contributions of dispersal limitation and other stochastic processes differed among dominant plant communities.
+ 
+ 
+ 
+ 
+ 
+ These findings demonstrate that dominant plant communities in the Qinghai Lake alpine wetland are associated with coordinated differentiation in vegetation–soil environments,
+ nosZ
+ -type community composition, and assembly processes, thereby characterizing the taxonomic differentiation and inferred assembly of the primer-defined soil
+ nosZ
+ community across contrasting plant-community habitats; however, the implications for realized N₂O reduction require direct validation using gene-abundance, transcriptional, enzyme-activity, and gas-flux measurements.
+ 
+</div></details>
+</div>
+<div class="card"><div class="title">Plant-derived high-C:P amendments enhance legacy phosphorus utilization in phosphorus-enriched greenhouse soil via stoichiometric regulation and microbial functional coupling.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Yu-Shu Wang, Hua-Yang Fan, Xiao-Yu Yang, Zhong Wang, Jin-Tao Shang...</div>
+<div class="meta-line">Venue: Journal of environmental management</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b40d5aa0ec6a18624851cbad73e111c20466fe1f">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Long-term intensive fertilization has accumulated large legacy phosphorus (P) pools in greenhouse vegetable soils, while substituting chemical fertilizers with livestock manure may exacerbate soil P loading. We evaluated pakchoi growth and legacy P utilization in an acidified, P-enriched greenhouse soil, comparing an unfertilized, unamended control (CK) with equal-carbon inputs of low-C:P, high-P chicken manure (OF) and high-C:P, low-P plant-derived amendments: alkali lignin (AL), straw (ST), and alkali-lignin-modified straw (AST). Compared with the OF, shoot dry weight was 47.0% and 12.4% higher under ST and AST, respectively, while shoot P uptake increased by 80.2% and 76.8%. OF produced an apparent P surplus, whereas ST and AST generated negative apparent P balances, indicating current-season amendment P inputs could not offset shoot P removal and supporting enhanced legacy P utilization without further accumulation of available or labile inorganic P. Plant-derived amendments increased soil C:P and pH, generally enhanced C- and N-acquiring enzyme activities, and reduced ecoenzymatic vector angles, alleviating relative microbial P-acquisition limitation. Metagenomic and random forest analyses showed that enhanced P acquisition was not primarily linked to a single P-cycling process, but more closely associated with resource stoichiometry and soluble N status, alongside coordinated restructuring of microbial C degradation, N transformation, and P-cycling functions. Overall, AL most strongly ameliorated acidity but elicited weak plant responses; ST produced the strongest biomass response, while AST maintained comparably high P acquisition and markedly improved soil pH. These high-C:P amendments provide a low-P alternative to high-P manure inputs, offering a strategy for reduced-P management and legacy P utilization.</div></details>
+</div>
+<div class="card"><div class="title">Spatial Variability of Soil Properties and Implications for Climate-Smart Rice Production in four Agricultural Zones in Anambra State, Nigeria<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Chidebelu Polycarp Okoyefi, Emeka Iluno</div>
+<div class="meta-line">Venue: Scholarly Journal of Science and Technology Research and Development</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/aa124c2e5b7895be6c65973cf2e71b937b44813b">Abs</a> · <a href="https://www.openjournals.ijaar.org/index.php/sjstrd/article/download/2371/2394">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Spatial variability in soil properties strongly influences water dynamics, nutrient availability, and crop productivity in tropical agroecosystems, thereby affecting the sustainability of climate-smart rice production systems. This study evaluated the spatial variability of selected soil physical, hydraulic, and chemical properties across four agro-ecological zones (Awka, Anambra, Aguata, and Onitsha) of Anambra State, southeastern Nigeria. Surface soil samples (0–30 cm) were collected from georeferenced locations differing in elevation and landscape characteristics. Laboratory analyses were conducted to determine particle size distribution, bulk density (BD), saturated hydraulic conductivity (Ksat), soil pH, and organic matter (OM). Descriptive statistics, analysis of variance (ANOVA), correlation analysis, and principal component analysis (PCA) were employed to evaluate variability and relationships among soil properties. Results revealed considerable spatial heterogeneity across the study area. Sand content ranged from 332 to 582 g kg⁻¹, while clay content varied between 218 and 354 g kg⁻¹. Bulk density ranged from 1.346 to 1.458 g cm⁻³, whereas Ksat varied from 0.0182 to 0.0468 cm hr⁻¹. Soil pH was moderately acidic (5.3–5.7), while OM content ranged from 2.2 to 3.3%. ANOVA indicated no significant zonal differences in Ksat and BD, suggesting that micro-scale variability exerted a stronger influence than agro-ecological classification. PCA explained 96.5% of total variability, with soil texture and hydraulic properties constituting the dominant controlling factors. The findings highlight the importance of site-specific soil and water management strategies for improving rice productivity, enhancing water-use efficiency, and strengthening climate resilience in southeastern Nigeria.</div></details>
+</div>
+<div class="card"><div class="title">Soil Physicochemical Alteration Associated with Dolomite Influx Along the India–Bhutan Border<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Malay Bhattacharya, Sudeshna Nandi, S. Chakraborty</div>
+<div class="meta-line">Venue: Contemporary Agriculture</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7c10eb8ba3c802407c98690c219562b037ac8312">Abs</a> · <a href="https://reference-global.com/download/article/10.2478/contagri-2026-0013.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Abstract Dolomite, a calcium magnesium carbonate mineral, can adversely affect soil properties when present in excessive amounts. The India-Bhutan border region of West Bengal has experienced substantial declines in the quality and yield of fresh tea leaves, potentially associated with dolomite influx from the neighbouring lower Himalayas through recurrent flooding and the use of river water for irrigation. This study assessed the soil status of the affected area. The overall moisture content of the soil was low, with the lowest average values recorded in riverbeds, followed by the tea plantations. The average value of organic carbon, total nitrogen, available phosphate and potash across the study area were 1.34 ± 0.98%, 0.10 ± 0.08%, 20.27 ± 38.58 ppm and 199.18 ± 270.37 ppm, respectively. The soil pH of the study region varied from 7.85 to 3.91, with an average of 6.16 ± 1.02. The riverbeds showed average pH 6.94 ± 0.46, followed by the tea plantations (5.61 ± 0.91) and forest area (5.03 ± 0.53). The quantity of soil calcium carbonate of the area varied between 1% to 14%, with an average of 7.09%, in comparison to 0.4± 0.2% in unaffected areas. The tea plantations near the riverbeds were most affected. Elevated soil pH causes ammonia volatilization reducing the availability of nutrients such as P, N, B, Mn, Cu, Fe and Zn for the tea bushes leading to decline in productivity. Soil reclamation strategies should therefore include the potential use of calcite-solubilising microorganisms, measures to reduce further dolomite influx associated with mining activities, and appropriate hydraulic interventions, including check dams and the management of sediment accumulation in streams and riverbeds. Tea plantations should also consider avoiding river water for irrigation where it contributes to further carbonate accumulation and soil alkalinisation.</div></details>
+</div>
+<div class="card"><div class="title">Long-term salinity is associated with deteriorated soil properties, rhizosphere microbiome restructuring, and elevated wheat crown rot: evidence from a 19-year gradient experiment and a 3-year remediation verification<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ya-Jiao Wang, Sen Han, Xue-Tong Liu, Hong-Kai Dang, Chun-Lian Zheng...</div>
+<div class="meta-line">Venue: Frontiers in Plant Science</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5309dcd37a12aec2c6e4043c51c86afa8776d7aa">Abs</a> · <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1992882/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil salinization threatens global agricultural sustainability and may elevate soil-borne disease risk through coordinated changes in soil conditions and the rhizosphere microbiome, yet long-term field evidence remains limited. Here, a 19-year controlled field experiment with an artificial salinity gradient (non-saline, moderate, and severe) was conducted to characterise salinity-associated responses of soil physicochemical properties, wheat crown rot (WCR), and the rhizosphere microbiome. A 3-year field remediation demonstration was implemented to test whether replacing saline irrigation with non-saline water could reverse soil deterioration and reduce disease severity. The results showed that severe salinity increased soil pH from 7.64 to 8.38 and reduced available phosphorus, total nitrogen, and available potassium by 54.11%, 14.63%, and 37.69%, respectively, while the WCR disease index increased from 10.51 to 32.88. It also reduced microbial richness and diversity, altered rhizosphere community composition, with taxon-specific abundance shifts among halophilic taxa, and redistributed community functional potential, with greater representation of genes associated with compatible-solute metabolism and ion homeostasis alongside changes in carbon, nitrogen, and sulfur metabolism. Remediation reduced soil salinity and pH, improved nutrient availability, and decreased the WCR disease index by 49.17%. Together, our results show that long-term salinization is associated with coordinated deterioration of soil conditions, restructuring of the rhizosphere microbiome, redistribution of microbial functional potential, and increased WCR severity. The remediation experiment showed that reducing salinity improved soil conditions and reduced disease severity. Re-establishing favourable soil abiotic conditions may be a prerequisite for alleviating disease risk in salinized agroecosystems.</div></details>
+</div>
+<div class="card"><div class="title">Multi-Indicator Assessment of Short-Term Forest-Soil Responses to the 2026 Wildfire Period Using Paired Field Observations and Regional GIS Analysis<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: H. Chenaker, Akram Hezil, W. S. Alkhuraiji, Yahia Ouchene, Mohamed Bellaa...</div>
+<div class="meta-line">Venue: Forests</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/84b1fe1958aebc676f1b5d8918d4c8d79cdbfed3">Abs</a> · <a href="https://doi.org/10.3390/f17111276">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Wildfires can rapidly alter soil physicochemical and biological properties, but short-term paired field evidence from North African forests remains limited. We assessed changes in 14 soil indicators at ten forest sites in northeastern Algeria and interpreted these field observations within a regional GIS analysis of Mediterranean wildfire exposure. The same locations were sampled in March 2026, before the seasonal fire period, and revisited in August 2026. The measured variables comprised soil pH, electrical conductivity (EC), soil organic carbon (SOC), total nitrogen (TN), available phosphorus (P), C:N ratio, microbial biomass carbon (MBC), basal respiration, dehydrogenase activity (DHA), MBC:SOC ratio, gravimetric soil moisture, bulk density, water-stable aggregates, and surface litter biomass. Within-site changes were evaluated using exact paired Wilcoxon tests with Holm correction and paired-bootstrap confidence intervals. Across the ten sites, pH increased by 0.60 units, EC by 112.9%, and available P by 79.6%. In contrast, SOC, TN, MBC, basal respiration, soil moisture, water-stable aggregates, and litter biomass decreased by 26.7%, 36.8%, 49.4%, 44.2%, 40.5%, 37.1%, and 71.0%, respectively. Bulk density and C:N increased by 11.2% and 11.3%, while DHA increased by 29.8%. All 14 paired comparisons remained significant after Holm adjustment (adjusted p = 0.027). PCA accounted for 96.2% of the total variance and separated the March and August profiles. At the regional scale, the complementary EFFIS analysis identified 800,540 ha of mapped wildfire exposure through 6 August 2026, with substantial concentration in Spain, Algeria, France, Italy, and Portugal. Collectively, the paired observations indicate a post-fire-period shift characterized by an ash-associated increase in soluble ions and available phosphorus alongside losses of organic matter, microbial biomass, moisture, aggregate stability, and surface litter. Because contemporaneous unburned control plots and independent plot-level burn-severity measurements were unavailable, the observed changes cannot be attributed exclusively to wildfire and may also reflect seasonal environmental variation.</div></details>
+</div>
+<div class="card"><div class="title">Physicochemical and Structural Characterization of Guava-pruned Biochar: Potential as a Sustainable Soil Amendment for Rooting Initiation<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: N. Sivaraj, Akino Asokan, Gopu Balraj, Anbukkarasi Kaliyaperumal, G. Jayaprakash...</div>
+<div class="meta-line">Venue: Agricultural Science Digest - A Research Journal</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bdcea2f4a3478d3496d1e2d57408668c89bb800e">Abs</a> · <a href="https://doi.org/10.18805/ag.d-6496">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Background: Biochar, a high-carbon material produced by the pyrolysis of organic farm waste, has gained substantial attention owing to its potential to improve soil fertility and support sustainable agricultural practices. Guava is an important fruit crop grown extensively in many parts of the world. However, guava pruning waste is usually discarded or burnt, generating environmental and disposal problems. This study presents a detailed examination of biochar from guava-pruned cuttings, aiming to describe its characteristics in line with the Fertilizer (Control) Order 1985. Methods: In addition to the biochar production, the incubation of other soil media and amendments with biochar were observed for soil microbiome dynamics. The feedstock used for producing biochar was guava pruned shoots. The shoots were collected from the college orchard at SRMCAS. The pyrolysis of biochar from guava cuttings provides a green method for utilizing agricultural waste while increasing soil fertility and sequestering carbon. Result: The biochar had an alkaline pH of 8.4, total organic carbon content of 50.40%, carbon-to-nitrogen ratio of 65:1, cation exchange capacity of 30 cmol/kg and anion exchange capacity of 5 cmol/kg. Its 25% water-holding capacity indicates high carbon stability and good capacity for water and nutrient retention. SEM showed a very porous structure with cracks and microbial colonization and XRD analysis of the mineral phase found calcite as the major mineral phase, with lesser peaks for silica, potassium salts and ash minerals, all of which contribute to support processes of nutrient buffering and exchange. FTIR confirmed the presence of functional groups, which are vital for water adsorption, nutrient retention and association with beneficial soil microbes.</div></details>
+</div>
+<div class="card"><div class="title">Cover crop management influences soil properties and grapevine performance across three growing seasons in a subtropical vineyard<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Michelle Barbosa Teixeira-Loss, Bruna da Rosa Dutra, Fernanda Wilkens Costa, A. Goedel, Maria Gabrielle Carniel de Oliveira...</div>
+<div class="meta-line">Venue: Frontiers in Environmental Science</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c1cb25345521608856be965ae9322d0a9f6633ac">Abs</a> · <a href="https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2026.1895755/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Cover crop management can modify soil conditions and grapevine performance, but these responses may depend on the vegetation-management strategy and growing season. This study evaluated the effects of different cover crop management systems on soil, physiological, yield, and fruit technological variables of
+ Vitis vinifera
+ L. cv. Viognier cultivated in Campo Largo, Paraná, Brazil, for three growing seasons (2023–2026; 2023/24, 2024/25, and 2025/26). The treatments were: T1, spontaneous vegetation (white clover in winter and
+ Cynodon
+ spp in summer) with herbicide application in the vine row; T2, spontaneous vegetation without herbicide; T3, black oat in winter and predominantly white clover + angola grass in summer; T4, common vetch in winter and mombaça grass in summer; and T5, multispecies cover crop mixtures in winter (black oat + rye + vetch + forage radish) and summer (
+ Cynodon
+ ssp + buckwheat + mombaça grass). Cover crop biomass and macronutrient accumulation, soil chemical and physical properties, soil water content, and grapevine nutritional, physiological, vegetative, yield, and technological variables were evaluated. Data were analyzed using linear mixed-effects models accounting for repeated measurements across growing seasons, complemented by multivariate analyses. T4 (vetch and mombaça) and T5 (oats + rye + vetch + forage radish; and
+ Cynodon
+ ssp + buckwheat + mombaça) generally showed greater biomass production and accumulation of N, P, K, Ca, and Mg than systems based on spontaneous vegetation. Vegetation management also affected selected surface-soil properties, particularly available P, total organic carbon, total N, cation exchange capacity, bulk density, and soil water content, although responses varied among growing seasons. Grapevine leaf area (LA) and the Yield/LA ratio did not differ among treatments, whereas physiological responses were treatment- and season-dependent. The clearest yield response occurred in 2025/26, when T2 and T4 reached 11.06 and 11.12 Mg ha
+ −1
+ , respectively, approximately 20% greater than T1 (9.21 Mg ha
+ −1
+ ). Soluble solids and pH were unaffected by vegetation management, and differences in titratable acidity occurred only in 2023/24. Global multivariate profiles differed among treatments but were strongly season-dependent. Overall, sown cover crops increased biomass production, nutrient accumulation, and selected surface-soil attributes, but these responses did not consistently translate into greater grapevine yield or fruit technological maturity within the 3-year experimental period.
+</div></details>
+</div>
+<div class="card"><div class="title">Solução natural repelente e fertilizante à base de hortelã-pimenta e banana<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: G. Stocco, Giullia Tedesco Ely, Jéssica Pilger Da Silva</div>
+<div class="meta-line">Venue: Caderno Progressus</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/faf5ef02ae6cf3823874659f8196e0d560527b45">Abs</a> · <a href="https://www.cadernosuninter.com/index.php/progressus/article/download/3510/2659">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Desenvolveu-se e avaliou-se uma solução de dupla finalidade, repelente e fertilizante, formulada com extratos de hortelã-pimenta e casca de banana, álcool 70%, água e amido. A proposta buscou aproveitar resíduos orgânicos e reduzir a dependência de insumos sintéticos, em consonância com os Objetivos de Desenvolvimento Sustentável 2 e 12. A hortelã-pimenta foi submetida à infusão alcoólica, enquanto a casca de banana foi submetida à extração em água quente; após a filtração, os extratos foram combinados com amido gelatinizado em duas formulações. Os testes foram realizados em alface, tomate-cereja, sálvia, salsa e cebolinha, com grupos sem aplicação para comparação. Foram acompanhados a presença de pragas, o crescimento, o pH do solo, a estabilidade e o custo. A formulação diluída apresentou melhor equilíbrio entre repelência e tolerância vegetal. Nos ensaios com alface, registrou-se redução de 95% das pragas após três aplicações e crescimento de 15 cm. Nos testes com tomate-cereja, observou-se crescimento aproximado de 20 cm em três semanas, além de floração e afastamento de larvas e formigas. Os resultados indicam potencial de uso doméstico e em pequena escala, embora sejam necessários testes controlados, replicação e caracterização química para confirmar a eficácia, a segurança e a estabilidade.
+Palavras-chave: agricultura sustentável; casca de banana; fertilizante natural; hortelã-pimenta; repelente vegetal.
+Abstract
+A dual-purpose solution, acting as both a repellent and a fertilizer, was developed and evaluated using peppermint extract, banana peel extract, 70% alcohol, water, and starch. The proposal aimed to make use of organic waste and reduce dependence on synthetic inputs, in line with Sustainable Development Goals 2 and 12. Peppermint was subjected to alcoholic infusion, while banana peels underwent hot-water extraction; after filtration, the extracts were combined with gelatinized starch in two formulations. Tests were conducted on lettuce, cherry tomato, sage, parsley, and chives, with untreated groups used for comparison. Pest presence, plant growth, soil pH, stability, and cost were monitored. The diluted formulation showed the best balance between repellency and plant tolerance. In lettuce trials, a 95% reduction in pests was recorded after three applications, along with plant growth reaching 15 cm. In cherry tomato tests, approximately 20 cm of growth was observed within three weeks, accompanied by flowering and the repulsion of larvae and ants. The results indicate potential for household and small-scale agricultural use; however, controlled trials, replication, and chemical characterization are still required to confirm efficacy, safety, and stability.
+Keywords: sustainable agriculture; banana peel; natural fertilizer; peppermint; plant-based repellent.
+Resumen
+Se desarrolló y evaluó una solución de doble finalidad, repelente y fertilizante, formulada con extractos de menta piperita y cáscara de banana, alcohol al 70%, agua y almidón. La propuesta buscó aprovechar residuos orgánicos y reducir la dependencia de insumos sintéticos, en consonancia con los Objetivos de Desarrollo Sostenible 2 y 12. La menta piperita se sometió a infusión alcohólica y la cáscara de banana, a extracción en agua caliente. Después de la filtración, los extractos se combinaron con almidón gelatinizado en dos formulaciones. Los ensayos se realizaron en lechuga, tomate cereza, salvia, perejil y cebollino, con grupos sin aplicación para su comparación. Se evaluaron la presencia de plagas, el crecimiento, el pH del suelo, la estabilidad y el costo. La formación diluida mostró un mejor equilibrio entre repelencia y tolerancia vegetal. En los ensayos con lechuga se registró una reducción del 95% de las plagas después de tres aplicaciones y un crecimiento de 15 cm. En los ensayos con tomate cereza se observó un crecimiento aproximado de 20 cm en tres semanas, además de floración y alejamiento de larvas y hormigas. Los resultados indician un potencial de uso doméstico y a pequeña escala, aunque se requieren ensayos controlados, replicación y caracterización química para confirmar la eficacia, la seguridad y la estabilidad.
+Palabras clave: agricultura sostenible; cáscara de banana; fertilizante natural; menta piperita; repelente vegetal.</div></details>
+</div>
+<div class="card"><div class="title">NIR-Responsive
+CoSn(OH)6/CuS Heterostructure
+Microneedles Integrate ROS and H2S Generation with Tanshinone
+IIA Delivery for Breast Cancer Therapy<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Shu Shi, Wen-Bo Wang, Chun-Yu Yang, Zhuo-Ran Yang, Wei Guo</div>
+<div class="meta-line">Venue: Langmuir</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/af986b284f5825ca0cee9b3ac5921c688a3f2753">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Coordinating catalytic species, gaseous mediators, and small-molecule drugs at a tumor site remains difficult because each component follows a different activation and release process. To address this challenge, we constructed oxygen-vacancy-enriched hollow CoSn(OH)6/CuS heterostructures (CC) by alkaline etching and subsequent in situ hydrothermal deposition of CuS, and coloaded CC with tanshinone IIA (Tan-IIA) to form CCT; this formulation was then incorporated into a photothermally responsive PCL/PVP microneedle patch, denoted CCT-MN. Hollowing the CoSn(OH)6 cubes increased surface accessibility, whereas interfacial CuS growth extended near-infrared (NIR) absorption, promoted charge transfer, and strengthened photothermal conversion. Upon 808-nm exposure, a CC dispersion reached approximately 54 °C, afforded a photothermal conversion efficiency of 20.8%, and retained its heating performance during repeated irradiation cycles. The vacancy-rich heterostructure promoted singlet-oxygen production; under acidic conditions, Cu2+ sites catalyzed Fenton-like hydroxyl-radical formation, while protonation of sulfide species supplied H2S. The optimized patch possessed intact and mechanically robust needles, penetrated a skin-mimicking hydrogel, dissolved faster under laser heating, and promoted simultaneous H2S generation and Tan-IIA release in response to acidity and NIR irradiation. In 4T1 cells, the laser-activated CCT formulation increased ROS and H2S levels, disrupted lysosomes, collapsed the mitochondrial membrane potential, and caused extensive cell death. In tumor-bearing mice, CCT-MN irradiation increased the tumor-surface temperature from 38.5 to 56.5 °C and achieved the greatest tumor suppression among the tested regimens, without detectable weight loss or histological injury to major organs. These findings establish a locally implanted heterostructure microneedle system that synchronizes photothermal, photodynamic, chemodynamic, gas, and Tan-IIA-assisted antitumor actions.</div></details>
+</div>
+<div class="card"><div class="title">Groundwater Quality Dynamics in a Himalayan Urban Settlement: Evidence from Nagar Panchayat Arki, Solan, Himachal Pradesh, India<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Pawan K. Attri, Utkarsha, Diksha Kumari, Aman Kumar</div>
+<div class="meta-line">Venue: Asian Journal of Geographical Research</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0e3b226118153b983cdc269390a7ea6e02f7b8a1">Abs</a> · <a href="https://doi.org/10.9734/ajgr/2026/v9i4491">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study evaluates groundwater quality dynamics in Nagar Panchayat Arki, Solan, Himachal Pradesh, in the context of rapid urban expansion. Groundwater samples from seven sites (S1–S7) were analysed for physicochemical and biological parameters, revealing significant spatial variations driven by urbanisation, waste disposal, and anthropogenic activities. While pH levels (6.80–7.34) remained within the permissible BIS limit (6.5–8.5), turbidity varied widely (0.6–70.7 NTU), peaking at S1, S2, and S4 due to soil erosion, construction, and urban runoff. Total dissolved solids (195–411 mg/L) and electrical conductivity (up to 642 uS/cm) were elevated in densely populated zones, signalling high ion discharge from sewage, detergents, and construction debris. Fluctuations in hardness and alkalinity reflected both geological factors and household waste leakage. Site S4 showed excessive chloride levels, potentially reflecting wastewater infiltration. Notably, dissolved oxygen dropped dangerously low to 1.9 mg/L, and biochemical oxygen demand exceeded 3 mg/L at several points, indicating possible organic contamination. The Water Quality Index (WQI) categorised groundwater at S1, S2, and S4 as &quot;very poor&quot; (WQI 525–751), whereas S3, S5, and S7 maintained &quot;good&quot; quality. Overall, the findings indicate spatial differences in groundwater quality that warrant investigation of local influences. Implementing sustainable urban planning and proactive management strategies is critical to protecting groundwater resources in this fragile Himalayan ecosystem.</div></details>
+</div>
+<div class="card"><div class="title">Scalable, Acid-Resistant
+Amidoxime-Modified Polyacrylonitrile
+Hollow Fiber for Removal of Hexavalent Cr(VI) Ions in Wastewater<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Lei Ling, Deng-Bing Wang, Jiang-Nan Wang, Yu-Chen Jiang, Kai Chen...</div>
+<div class="meta-line">Venue: ACS Applied Polymer Materials</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c6cc413f2024dd115c2b779a236cb0b9749d9df7">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Hexavalent chromium (Cr(VI)) wastewater poses a severe threat to the ecological environment and human health due to its high toxicity and poor degradability. At present, the development of Cr(VI)-removing materials with high adsorption capacity, excellent stability, and scalable preparation still remains a challenge. Herein, scalable amidoxime-modified polyacrylonitrile (AOPAN) hollow fibers were facilely fabricated via a wet-spinning and chemical modification strategy. The results demonstrate that AOPAN fibers retain a porous structure and the experimental maximum adsorption capacity for Cr(VI) reaches 279.53 mg/g at pH = 2, with an initial concentration of 500 mg/L at 318 K. The adsorption process conforms to the pseudo-second-order kinetics and the Langmuir adsorption isotherm model and is an endothermic, spontaneous, and entropy-increasing process. The adsorption mechanism is attributed to the synergistic effect of electrostatic adsorption-reduction-chelation: amidoxime groups are protonated to form cationic sites under acidic conditions, and nitrogen-containing groups further reduce Cr(VI) to Cr(III). In addition, the material exhibits outstanding acid resistance and anti-interference ability against coexisting ions, with the adsorption capacity remaining at 68.5% after 8 cycles of reuse. Dynamic filtration experiments confirm that AOPAN fibers achieve a Cr(VI) removal rate of 93.2% and a permeation flux of 380 L/(m2·h) at 0.6 bar. This work provides a feasible solution for the industrial treatment of Cr(VI)-containing wastewater and holds broad practical application prospects.</div></details>
+</div>
+<div class="card"><div class="title">Antifibrinolytic
+Agent: Synthesis and Characterization
+of Cocrystal and Salts of Tranexamic Acid<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Bolaji C. Dayo Owoyemi, Adedamola E. Adehinmoye, Matthias Zeller, G. D. de Araújo, S. Byrn...</div>
+<div class="meta-line">Venue: ACS Omega</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3f57626665a3d52a544dd2488204b963917ffa9a">Abs</a> · <a href="https://doi.org/10.1021/acsomega.6c03598">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Tranexamic acid (TXA) is a potent antifibrinolytic agent with poor oral bioavailability (∼35–40%) due to its high polarity and zwitterionic nature, while physicochemical factors, including its structural instability, further hinder its absorption. In this study, the crystal engineering concept is applied to enhance the physicochemical properties of TXA through targeted structural modifications, resulting in the synthesis of pharmaceutically stable cocrystal and salt forms. The application of supramolecular synthon design, pKa rule, and structural geometry (molecular mimicry), resulted in the rational design, synthesis, and structural characterization of eight binary multicomponent forms of TXA: a TXA-adipate salt, monoclinic space group P21/n; a TXA-salicylate salt, monoclinic space group P21/n; a TXA-picolinate salt, monoclinic space group P21/c; a TXA-acetaminophen cocrystal hydrate, monoclinic space group P21; a TXA-malonate salt, orthorhombic space group Pbca; a TXA-maleate salt hydrate, monoclinic space group P21/c; a TXA-malate salt, monoclinic space group P21/c; and a TXA-citrate salt, triclinic space group P1̅ These multicomponent forms were obtained via different hydrogen bonding interactions, some of them charge-assisted (N–H···O, N+–H···O–, O–H···O, and O–H···O–) between NH2 and/or −OH groups of TXA and the carboxyl (−C(O−)═O) functional groups of the coformers. In the cocrystals, TXA exists as zwitterions (zero charge), whereas in the salts, it carries a positive charge due to the protonation of its carboxylic (−COOH) and ammonium (−NH3+) groups. The NH3+ to COO– charge-assisted H-bond provides stabilization to both the coformer COO– as well as the TXA’s NH3+. Solid-state characterization using Raman and FT-Raman spectroscopy, thermal techniques (DSC), and X-ray diffraction analysis (powder and single-crystal XRD) supports and confirms the structural novelty. The superior stability profiles of the new TXA cocrystal and salts under standard conditions (40 °C ± 2 °C, 75% ± 5% RH) establish an improved structure–property profile compared to pure TXA.</div></details>
+</div>
+<div class="card"><div class="title">Copper binding heterogeneity of pH-fractionated soil dissolved organic matter (DOM) revealed by multi-spectroscopy and two-dimensional correlation analysis.<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Jiang Xiao, Jin-Xi Li, Chun-Hua You, Shu-Kui Zhou</div>
+<div class="meta-line">Venue: Environmental technology</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/81de336d42aaaf454e402ef052e20d6222a838d1">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil dissolved organic matter (DOM) plays a pivotal role in governing the environmental behaviour and fate of metal ions. The inherent heterogeneity of DOM, however, leads to complex and poorly understood interactions with heavy metals. In this study, soil DOM was fractionated into four pH-dependent fractions via PPL solid-phase extraction combined with sequential acid elution. The binding interactions of these fractions with Cu(II) were systematically investigated through and, coupled with two-dimensional correlation (2D-COS) analysis. The results indicated that low-pH fractions exhibited enhanced aromaticity and more pronounced spectral responses. Regardless of the DOM fraction, 2D-COS analysis revealed that short-wavelength chromophores (&lt;230 nm) preferentially coordinated with Cu(II), and the binding sequence of fluorescent components followed protein-like &gt; fulvic-like &gt; humic-like components. Moreover, functional group analysis showed that carboxyl C=O groups dominated the binding response, followed by aliphatic C-OH or phenolic O-H, while pH-based fractionation of DOM primarily influenced binding accessibility rather than binding mechanism. Meanwhile, the parallel factor analysis (PARAFAC) results revealed that protein-like substances exhibited higher conditional stability constants, whereas humic-like fractions provided more accessible binding sites among the pH-dependent DOM fractions. Collectively, these findings illuminated that the heterogeneous complexation mechanisms between DOM fractions and Cu(II), and provide a basis for assessing environmental geochemical risks of heavy metals.</div></details>
+</div>
+<div class="card"><div class="title">Agro-Industrial Contributions to Soil Microplastic Pollution: Evidence from a Rice Milling Facility in Birnin Kebbi, Nigeria<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: T. Yahaya, Asmau Muhammad Sfulani, Haliru Abdullahi, J. Bala, A. Izuafa...</div>
+<div class="meta-line">Venue: Global Environmental Science</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/904e2daf61043e0cf3b2b129f16ce75305695a4b">Abs</a> · <a href="https://doi.org/10.53941/ges.2026.100029">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Microplastic contamination in terrestrial environments is an emerging concern, yet its association with agro-industrial activities and heavy metal contamination remains poorly understood. This study characterized microplastics in soils surrounding Labana Rice Mills, Birnin Kebbi, Nigeria, and assessed their co-occurrence with selected heavy metals. Soil samples were collected along four cardinal directions of the facility and analyzed using density separation, stereomicroscopy, and attenuated total reflection–Fourier transform infrared (ATR-FTIR) spectroscopy. Microplastic concentrations ranged from 626 ± 11 to 1112 ± 41 particles kg−1, with the northern axis having the highest. These concentrations were comparable to values reported for agro-environments in Bangladesh (660–1309 particles kg−1) and India (400–1370 particles kg−1). Pellets and fragments were the dominant shapes, while particle size 100–500 µm and transparent/white coloration predominated. Identified polymer types included polypropylene, polyethylene, polyethylene terephthalate, polyvinyl chloride, and polyamide. Iron, copper, and zinc were detected in all samples and showed positive correlations with microplastic abundance (R2 = 0.72, 0.52, and 0.46, respectively; p &lt; 0.01). Contamination factor indicated very high contamination across all axes, while pollution load index (PLI = 8.95) confirmed significant microplastic pollution. Polymer risk assessment classified polypropylene as low risk, polyethylene, polyethylene terephthalate, and polyvinyl chloride as moderate risk, and polyamide as high risk. The predominance of pellets suggests potential contributions from rice milling activities. The co-occurrence of microplastics and heavy metals highlights potential ecological risks and underscores the need for improved waste management practices, routine environmental monitoring, and targeted regulatory interventions in agro-industrial systems.</div></details>
+</div>
+<div class="card"><div class="title">A Current Perspective on Insect Families (Class: Insecta) Evaluated as Bioindicators in Türkiye<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Mehmet Yaran, Fatma Özmen, M. Kütük</div>
+<div class="meta-line">Venue: Kahramanmaraş Sütçü İmam Üniversitesi Tarım ve Doğa Dergisi</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f7df3f23261f4424657af94ca36178e1658e861f">Abs</a> · <a href="http://dogadergi.ksu.edu.tr/en/download/article-file/5481820">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">In this study, a general evaluation was made regarding the orders and families of insects obtained from research on bioindicator insects in Türkiye between 1988 and 2025 and in which regions the research was concentrated. The Shannon–Wiener diversity index (H′) was applied to evaluate family-level diversity for each pollution type. As a result of the studies examined, it was determined that the studies in Türkiye were mostly conducted to determine the pollution of aquatic habitats with a rate of 66%. When examining the number of insect families used as bioindicators for determining environmental pollution in Türkiye, it was found that Trichoptera and Diptera were the most studied insect groups for heavy metal pollution, Diptera and Coleoptera for water pollution, and Hemiptera and Coleoptera for soil pollution. According to the comparison of Shannon–Wiener index (H′) results, the highest diversity was calculated for heavy metal pollution (H′ = 1.97), followed by soil pollution (H′ = 1.82) and water pollution (H′ = 1.78).It is the first study to comprehensively evaluate the situation throughout Türkiye.</div></details>
+</div>
+<div class="card"><div class="title">Organic Compost as a Soil Amendment in a Crop–Livestock Integration System Under Climate Risk: Effects on Microbial Activity and Soil Fertility<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Fabio F. Araujo, M. F. S. Martins, Maria C. Zerbinatti, Erick M. Rampazzo, P. S. Silva...</div>
+<div class="meta-line">Venue: Resources</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b0d02131aaab7875f5a0d54378ceb0150f74aeb6">Abs</a> · <a href="https://doi.org/10.3390/resources15110139">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Sandy soil conditions and climate risk frequently lead to agricultural production failures in these areas, justifying studies to identify management practices that make the soil more resilient to abiotic stresses. The objective of the study was to evaluate the temporal dynamics of microbial activity and soil fertility attributes under an integrated crop–livestock system subjected to the addition of organic compost and influenced by seasonal climatic variations. Soil sampling was conducted at four sampling periods over three years in an experimental area used for pasture and grain cultivation. Nine attributes related to microbial activity and nine related to soil fertility were assessed. Microbial activity was significantly impacted by the temporal factor. Integrated systems resulted in increased microbial biomass nitrogen and glycosidase activity compared to fallow. Multivariate analysis showed that the season factor accounted for 95% of the accuracy in predicting the observed results, with the microbial component driving the majority of this temporal effect. Under the conditions observed, the compost appears to stabilize soil microbial activity in systems containing U. ruziziensis; however, the results do not support claims of a universal effect on soil quality improvement, nor do they allow for a causal link to be established between this stability and water availability.</div></details>
+</div>
+<div class="card"><div class="title">Tracking the Emission Levels of Greenhouse Gases from Agricultural Activities in Nigeria for Global Climate Action<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: G. Buluku, M. S. Shiada, Usman Salifu Oma, Erhuen Ejomafuvwe</div>
+<div class="meta-line">Venue: International Journal of Environment and Climate Change</div>
+<div class="meta-line">Published: 2026-10-23</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/31b9d7ec714db9dab257a37dabe138431a104b8f">Abs</a> · <a href="https://doi.org/10.9734/ijecc/2026/v16i105745">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Greenhouse gas (GHG) emissions associated with livestock, crop production and land-use change are important considerations for climate action in Nigeria. This study assessed concentrations of methane (CH₄), nitrous oxide (N₂O) and carbon dioxide (CO₂) at selected livestock and farmland sites across the country&#x27;s six geopolitical zones. Field measurements were undertaken at 25 sites per zone, while annual emissions were estimated using an IPCC Tier 1 approach with activity data and specified emission factors. Livestock-site concentrations ranged from 1.90 to 3.67 ppm for CH₄, approximately 0.35 to 0.39 ppm for N₂O and 340.3 to 390.1 ppm for CO₂. Corresponding farmland concentrations ranged from 80.44 to 157.2 ppm, 0.293 to 0.330 ppm and 555.21 to 775.31 ppm, respectively. An illustrative emissions inventory based on 150 livestock heads and 100 ha of farmland yielded a total of 67,738,300.75 kg CO₂e/year. Within this estimate, soil-carbon losses associated with land-use change accounted for 67,100,000 kg CO₂e/year, exceeding the contributions of rice cultivation, livestock and nitrogen-related activities. A projection scenario considered annual livestock growth of 2% with farmland area held constant through 2030. The findings identify soil-carbon conservation, improved manure management, more efficient fertiliser application and alternative water management in rice cultivation as relevant mitigation considerations. Further validation of activity data, emission estimates and projections is required before extrapolating these results to national agricultural emissions.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
