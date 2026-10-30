@@ -22770,5 +22770,45 @@
   "doi:10.54901/educa.v9.vn9-001": {
     "source": "top_journal",
     "title": "SOIL-CEMENT BRICKS WITH EXFOLIATED VERMICULITE: THERMOACOUSTIC AND MECHANICAL PERFORMANCE FOR ECOLOGICAL MASONRY"
+  },
+  "arxiv:2610.38278v1": {
+    "source": "arxiv",
+    "title": "BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget"
+  },
+  "arxiv:2610.37818v1": {
+    "source": "arxiv",
+    "title": "GOFish: Full Field-of-View Gaussian Splatting and Mesh Extraction"
+  },
+  "arxiv:2610.38349v1": {
+    "source": "arxiv",
+    "title": "Aligning Misaligned Benchmarks for Single-View Novel View Synthesis"
+  },
+  "arxiv:2610.38080v1": {
+    "source": "arxiv",
+    "title": "Efficacy of Monocular Depth Estimation in Lunar Environments"
+  },
+  "arxiv:2610.38358v1": {
+    "source": "arxiv",
+    "title": "Volley3D: Unified 3D Full-Sequence Reconstruction from Monocular Broadcasts"
+  },
+  "doi:10.1007/s11760-026-05812-6": {
+    "source": "top_journal",
+    "title": "Fusion-based few-shot 3D reconstruction through continuous-time intensity estimation and plenoptic functions"
+  },
+  "doi:10.1088/1361-6501/aeb8ae": {
+    "source": "top_journal",
+    "title": "A Gray-Distribution-Based Adaptive Laser Stripe Center Extraction Algorithm"
+  },
+  "doi:10.1371/journal.pcbi.1014896": {
+    "source": "top_journal",
+    "title": "A computational framework for modeling fluid and solid stressesin porous tissues with application to the trabeculated embryonic heart."
+  },
+  "arxiv:2610.33351": {
+    "source": "top_journal",
+    "title": "Real Time Motion Detection in Video Inspired by Photonic Time Stretch"
+  },
+  "arxiv:2610.32075": {
+    "source": "top_journal",
+    "title": "RADIANT: Object-Centric Feed-Forward Global Illumination"
   }
 }
