@@ -22902,5 +22902,77 @@
   "doi:10.9734/ijecc/2026/v16i105745": {
     "source": "top_journal",
     "title": "Tracking the Emission Levels of Greenhouse Gases from Agricultural Activities in Nigeria for Global Climate Action"
+  },
+  "arxiv:2610.38951v1": {
+    "source": "arxiv",
+    "title": "GradSplat: Gradients Inside the Forward Pass for Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2610.39385v1": {
+    "source": "arxiv",
+    "title": "UMI-Live for In-The-Wild Bimanual Robotics Data Collection"
+  },
+  "arxiv:2610.33558": {
+    "source": "top_journal",
+    "title": "GeoLift: Grounding Video Spatial Reasoning in Explicit 3D Maps"
+  },
+  "arxiv:2610.40495v1": {
+    "source": "arxiv",
+    "title": "LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation"
+  },
+  "arxiv:2610.39691v1": {
+    "source": "arxiv",
+    "title": "Smartphone Indoor Localization Enhanced by Hierarchical Multi-Sensor Context Recognition"
+  },
+  "arxiv:2610.39848v1": {
+    "source": "arxiv",
+    "title": "LiDAR-SHIELD: A Fully Dockerized Adversarial Robustness Assessment Framework for LiDAR-Based 3D Perception Models"
+  },
+  "arxiv:2610.39516v1": {
+    "source": "arxiv",
+    "title": "Robust LIDAR Sensor-to-Sensor Domain Generalization via Accumulated-Point Scene Completion"
+  },
+  "arxiv:2610.39399v1": {
+    "source": "arxiv",
+    "title": "ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting"
+  },
+  "arxiv:2610.39201v1": {
+    "source": "arxiv",
+    "title": "COGS: A Diagnostic Benchmark for Attribute-Aware Object-Level 3D Gaussian Splatting Perception"
+  },
+  "arxiv:2610.36168v2": {
+    "source": "arxiv",
+    "title": "PrinGS: Privacy Preservation in Gaussian Splatting"
+  },
+  "arxiv:2610.39936v1": {
+    "source": "arxiv",
+    "title": "MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments"
+  },
+  "arxiv:2610.40050v1": {
+    "source": "arxiv",
+    "title": "Don't Risk It!: Trajectory-Conditioned Distributional Risk for LiDAR-Only Crowd Navigation"
+  },
+  "arxiv:2610.39147v1": {
+    "source": "arxiv",
+    "title": "Kinematic Causal Attribution: Black-Box Explanations of Motion versus Geometry for 4D Point-Cloud Video Models"
+  },
+  "arxiv:2610.33802": {
+    "source": "top_journal",
+    "title": "ProMo3D: Probing Motion Cues in Frozen 3D Foundation Models"
+  },
+  "arxiv:2610.33550": {
+    "source": "top_journal",
+    "title": "Cross-View and Cross-Time Tracking of Crack Evolution in Concrete"
+  },
+  "doi:10.3390/children13111465": {
+    "source": "top_journal",
+    "title": "Surgery for an Aorto-Left-Ventricular Tunnel in Close Proximity to the Right Coronary Artery: A Case Report"
+  },
+  "arxiv:2610.33656": {
+    "source": "top_journal",
+    "title": "FreeView: Robust 3D Reconstruction from Uncurated Views"
+  },
+  "arxiv:2610.33554": {
+    "source": "top_journal",
+    "title": "End-to-end prostate lesion segmentation and detection from undersampled diffusion-weighted MRI"
   }
 }
