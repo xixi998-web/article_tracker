@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-31 06:40 · Core 7 · Proxy 1 · Eco 3</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Multi-Scenario Contrasts in the Acidification Rate of Red Soil Dry Land in the Jitai Basin Based on Nutrient Management<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">13</span></div>
+<div class="meta-line">Authors: Heng-Yu Zou, Wei-Feng Li, Xi Guo, Ye-Feng Jiang</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8b5ad2196ce4cbfc455837d758a000c0d3b909f9">Abs</a> · <a href="https://doi.org/10.3390/agronomy16212091">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The expansion of intensive agriculture has made soil acidification a key constraint on global agricultural productivity. Thus, comparing acidification rates under alternative management scenarios in current soil conditions and formulating regional governance plans accordingly are critical for ensuring food security. In this study, we systematically investigated red soil dry land in the Jitai Basin, quantified acidification rates via nutrient balance, and compared soil acidification rates under multiple nutrient-management scenarios evaluated in present soil conditions. The results show the following: Crop removal and nitrogen fertilizer input are the main driving factors that lead to the acidification of red soil dry land. The overuse of nitrogen fertilizer accelerates soil acidification. Regular scattering of lime is the most effective scenario for alleviating acidification. The total nitrogen, soil organic matter, cation exchange capacity, soil pH and soil type dominate the spatial distribution of the soil acidification rate. The total soil acidification rate and the actual acidification rate show a concentric-ring pattern, with high rates in the center and at the periphery and lower rates in the intermediate ring, while the potential soil acidification rate shows a gradient difference of “high in the west and low in the east”. By integrating multiple scenarios, the study area is divided into four levels of acidification control zones. It is suggested that, in future treatment of acidification in red soil dry land, fertilization management should be optimized and the rate at which the residual part of the crop harvest is returned to the field should be appropriately increased. The strategy of sprinkling lime can be adopted for areas with severe acidification.</div></details>
+</div>
+<div class="card"><div class="title">Effect of Liming Rates and Application Timing on Soil Properties and Soybean Performance in Acid Soils of West Bengal, India<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: H. Tarafder, A. Rai</div>
+<div class="meta-line">Venue: Archives of Current Research International</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c3d042148e4ff3c4139423b1e84c8362c9cb3be7">Abs</a> · <a href="https://doi.org/10.9734/acri/2026/v26i102240">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil acidity and associated aluminium (Al) toxicity are important constraints to crop production in the acidic hill regions of West Bengal. Liming is widely used to ameliorate soil acidity; however, its effectiveness depends on the rate applied and the interval between lime application and crop establishment. A field experiment was conducted during the kharif seasons of 2023 and 2024 at the Regional Research Station, Uttar Banga Krishi Viswavidyalaya, Kalimpong, West Bengal, to determine a suitable lime rate and application timing for improving soil chemical properties and soybean productivity. Soybean cultivar JS 335 was evaluated using four lime rates (1.5, 3.0, 6.0 and 9.0 t ha-¹) and four application timings (7, 15, 21 and 28 days before sowing) in a factorial randomized complete block design with three replications. Increasing lime rate progressively increased soil pH and reduced soil Al concentration. Soil pH increased with lime application from 5.19 - 5.24 at 1.5 t ha-¹ to 5.89 - 6.27 at 6.0 t ha-¹, while 9.0 t ha-¹ maintained pH values between 6.11 and 6.26. In contrast, soil Al concentration declined from 0.58- 0.46 mg kg-¹ at 1.5 t ha-¹ to 0.34 - 0.23 mg kg-¹ at 9.0 t ha-¹ of lime application. Application timing also influenced soil acidity, with longer intervals between application and sowing generally resulting in greater improvement in pH and reduction in Al concentration at higher lime rates. Soybean growth and yield components, including plant height, seeds pod-¹, 100-seed weight and seed yield plant-¹, generally improved with increasing lime rate up to 6 t ha-1 after which the response became less pronounced at 9.0 t ha-¹. The maximum seed yield (2.40 t ha-¹ and 2.39 t ha-¹) was recorded with 9.0 and 6.0 t ha-¹ of lime application 21 days before sowing. Overall, the findings indicate that liming effectively reduced soil acidity and Al toxicity and improved soybean productivity, with 6.0 t ha-¹ at least 21 days before sowing showing promising potential for acidic hill soils.</div></details>
+</div>
+<div class="card"><div class="title">24-Epibrassinolide Enhances Pb-As Phytostabilization in Willow-Vetiver Intercropping Systems: Plant Accumulation Patterns and Soil Biogeochemical Perspectives<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Ye-Pu Li, Lian-Fu Liang, Qian Dong, Jia-Lu Zhu, Shi-Bo Wei...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c1ef6c1a320ec5e12bac87b65cca0de5dee03c80">Abs</a> · <a href="https://doi.org/10.3390/plants15213281">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil co-contamination with lead (Pb) and arsenic (As) poses severe environmental risks. This study investigated the effects of 24-epibrassinolide (24-Brs) on Pb and As accumulation in willow (Salix babylonica × S. × leucopithecia ‘NJU513’) and vetiver grass (Chrysopogon zizanioides) under monoculture and intercropping in naturally contaminated soil (215.48 mg Pb kg−1, 120.16 mg As kg−1). Plant biomass, metal accumulation, soil physicochemical properties, metal fractionation, and mineral nutrient dynamics were evaluated. Exogenous 24-Brs significantly promoted plant biomass under Pb-As stress (p &lt; 0.05), with the greatest increase up to 114.81% in vetiver monoculture (vs. untreated stress control, NBrs). 24-Brs increased root Pb concentrations in willow (14.23 to 24.55 mg kg−1) and intercropped vetiver (44.51 to 68.58 mg kg−1), and root As in willow (10.80 to 13.55 mg kg−1, not significant). Soil fractionation revealed that 24-Brs shifted Pb and As toward more bioavailable fractions, with exchangeable Pb increasing by 63.22% in willow-planted soil. 24-Brs also reshaped essential mineral nutrient (Zn, Cu, Ni, Mn) fractionation and uptake patterns. Intercropping combined with 24-Brs achieved the lowest As leaching (1.50 μg L−1, a 90.20% reduction compared with the unplanted control at 15.31 μg L−1), although the difference between 24-Brs and NBrs treatments within each planting pattern was not statistically significant. These findings indicate that 24-Brs enhances Pb–As phytostabilization through combined effects on plant metal accumulation and soil biogeochemistry, although the underlying plant physiological mechanisms require further direct investigation.</div></details>
+</div>
+<div class="card"><div class="title">Effects of Residue Burial Depth and Rate on Soil Fertility and Pineapple Yield in Tropical Cultivation Systems<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Shou-Peng Li, Xin Jin, Xiu-Mei Ma, Xiang-Long Dai, Meng-Jie Sun...</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f3da8e1839a410785749696426940d6865ea4824">Abs</a> · <a href="https://doi.org/10.3390/agronomy16212095">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Pineapple is widely cultivated in tropical regions, but intensive management and improper residue disposal can accelerate soil degradation and yield decline. To evaluate under-ridge residue burial (URRB) as a soil improvement practice, parallel field experiments were conducted from 2023 to 2024 at two sites in tropical southern China. A two-factor randomized complete block design was used, with two burial rates (half- and full-rate, i.e., 10 and 20 t ha−1) and three burial depths (10, 20, and 30 cm), plus a residue removal control (CK). Compared with CK, URRB generally increased soil pH and the stocks of soil organic carbon and available nitrogen (N), phosphorus (P), and potassium (K), accompanied by higher leaf area index (LAI), total root surface area (TRSA), photosynthetic pigment contents, fruit vitamin C content, and plant N, P, and K accumulation. Increasing burial rate significantly enhanced plant P and K accumulation and fruit yield, while burial at 30 cm produced greater improvements in soil pH, soil organic carbon (SOC), and available N, P, and K stocks than burial at 10 cm and 20 cm. Compared with other treatments, full-rate residue burial at 30 cm depth under the ridge (FD30) most effectively promoted canopy growth, root development, fruit yield, and chlorophyll a content. On average across the two sites, FD30 increased LAI and TRSA by 20.9% and 34.0%, respectively, compared with CK, with significant increases of 20.1% in fruit yield and 25.3% in fruit vitamin C content. Partial least squares path modeling identified positive indirect associations of soil pH and nutrient availability with yield. Although pineapple yield did not differ significantly between FD30 and FD10, SOC, available N, P, and K stocks were significantly greater under FD30 than under FD10. Thus, FD30 is a more promising strategy for improving both soil fertility and pineapple production under the present experimental conditions. This study also provides new insights into crop residue management in tropical cultivation systems.</div></details>
+</div>
+<div class="card"><div class="title">Effects of Shelterbelts on Soil Archaea Community and Methane Oxidation Potential in the Taklimakan Desert<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Wen-Jing Xu, Yu Wang, Ali Mamtimin, Jia-Cheng Gao, Fan Yang...</div>
+<div class="meta-line">Venue: Microorganisms</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d628c4fecff6dab7782f8cb90a89d607a87fa452">Abs</a> · <a href="https://doi.org/10.3390/microorganisms14112441">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The Taklimakan Desert is extremely arid, with scarce soil carbon and water resources. Although shelterbelt establishment can alter the soil environment, the relationship between archaeal communities and methane oxidation indicators during vegetation restoration remains unclear. To examine this relationship, soil samples were collected from bare sand areas and shelterbelt plots, including the 0–10 cm topsoil layer and the 10–40 cm subsoil layer. Soil physicochemical properties, archaeal community composition, pmoA abundance, and methane monooxygenase (MMO)-related indicators were measured. Associations between shelterbelt-induced soil environmental changes, archaeal functional potential, and methane oxidation were investigated. Significant differences were observed in the soil environment of shelterbelt plots; the pH of the topsoil decreased from 8.21 to 7.73, while soil organic carbon (SOC) increased by 146.88%. Soil water content (SWC) in the subsoil layer increased by 846.15%. Higher archaeal diversity was detected in shelterbelt plots. The Shannon index in the topsoil rose by 26.21%, and microbial diversity associated with carbon and nitrogen cycles increased concurrently. The pmoA gene copy number and MMO-related indicators in shelterbelt soils were significantly higher than those in bare sandy areas, indicating elevated functional potential for methane oxidation. Random forest analysis revealed that environmental factors associated with the target functional indicators varied across soil layers, and no single strongly correlated factor was identified. These findings advance understanding of soil archaea and methane-cycle-related functions following artificial vegetation establishment in deserts and provide a reference for ecological restoration of desert highway shelterbelts and research on soil carbon cycling in arid regions.</div></details>
+</div>
+<div class="card"><div class="title">Soil erosion and land-use management influence bioavailable selenium in a highland agricultural landscape in Kenya<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: J. Isaboke, O. Humphrey, O. Osano, Ruth Njoroge, M. Watts</div>
+<div class="meta-line">Venue: Environmental Geochemistry and Health</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d04f767e17a302a0c4b9d273c889f5fb704701fa">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s10653-026-03557-2.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Selenium (Se) is an essential micronutrient whose availability in agricultural systems is influenced by geochemical, pedological, and anthropogenic factors. The study aimed to investigate the effects of soil erosion, land-use, and management practices on the bioavailability and redistribution of selenium within a soil–plant continuum in a highland agricultural landscape in Nandi County, Kenya. A stratified sampling approach was applied across three plots representing distinct land-use management practices and varying soil erosion rates. Selenium concentrations were measured both in soils and crops (maize, beans, and pumpkin) collected from the experimental sites. Total and bioavailable Se concentrations in soils were evaluated using a mixed acid digestion (HF, HNO3, and H2O2) and an ammonium chloride (NH4Cl) extraction, respectively, followed by ICP-MS analysis. Structural equation modelling and regression analyses revealed that soil pH (β = − 0.41, p &lt; 0.001), organic matter (β = 0.29, p &lt; 0.01), and total Se (β = 0.30, p &lt; 0.001) significantly influenced bioavailable Se, although plant uptake showed weak correlation. Temporal comparisons showed a significant increase in bioavailable Se in Plot 3 from 6.74 µg kg−1 (2021) to 10.03 µg kg−1 (2023), representing a 42% rise. In contrast, Plot 1 experienced a significant decline (p &lt; 0.05) from 14.72 µg kg−1 to 9.56 µg kg−1 over the same period, linked to an increase in erosion rate by 0.58 t ha−1 yr−1. Maize showed significantly higher Se accumulation in Plot 1 (187 µg kg−1) compared to Plot 3 (87 µg kg−1) (p &lt; 0.05), while beans and pumpkin showed no significant differences across plots (p &gt; 0.05). These findings suggest that appropriate land management and erosion mitigation may help maintain soil Se bioavailability, while targeted agronomic strategies could be considered to enhance crop Se concentrations. However, the relatively low Se concentrations observed in several crops suggest a potential concern regarding Se adequacy, and assessment of dietary intake and human biomarkers would be required to establish nutritional risk. Soil erosion and land use influence soil selenium bioavailability. Despite soil selenium concentrations, crops show poor uptake efficiency. Integrated soil management and biofortification may inform local biofortification strategies. Soil erosion and land use influence soil selenium bioavailability. Despite soil selenium concentrations, crops show poor uptake efficiency. Integrated soil management and biofortification may inform local biofortification strategies.</div></details>
+</div>
+<div class="card"><div class="title">Influence of Pre-Emergence Herbicide Mixtures on Growth, Yield and Soil Fertility of Direct-Seeded Rice (Oryza sativa L.)<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Vuchula Krupa Bindu, Seeram Phanindra, P. Fathima</div>
+<div class="meta-line">Venue: International Journal of Environment and Climate Change</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4f4bec78acfc696cac0b199a96278175c7befe5f">Abs</a> · <a href="https://doi.org/10.9734/ijecc/2026/v16i105750">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Direct-seeded rice is vulnerable to early-season weed competition, making effective pre-emergence weed management important for crop growth, grain yield and soil nutrient status.  A field study was conducted at the College of Agriculture, V. C. Farm, Mandya, Karnataka, during the Kharif season of 2021. The experiment was laid out in a randomised block design comprising nine treatments, viz.: T1: Pretilachlor 30% + pyrazosulfuron ethyl 0.75% WG @ 1500, g ha-1 at 0-3 DAS, T2: Pretilachlor 30% + pyrazosulfuron ethyl 0.75% WG @ 2000, g ha-1 at 0-3 DAS,  T3: Pretilachlor 30% + pyrazosulfuron ethyl 0.75% WG @ 2500, g ha-1 at 0-3 DAS, T4: Pyrazosulfuron ethyl 10% WP @ 250 g ha-1 at 3-5 DAS, T5: pretilachlor 50% EC @ 1500 ml ha-1 at 0-5 DAS, T6: Pretilachlor 30% EC + 10% safener @ 1000 ml ha-1 at 3-5 DAS, T7: hand weeding (20 &amp; 40 DAS), T8: weedy check (control), and T9: weed-free check. The experiment was replicated three times on sandy loam soil to investigate the effect of various pre-emergence herbicides on growth attributes such as plant height, leaf area, tiller count and dry matter production in direct-seeded rice. The results indicated that, among the chemical weed management treatments, pretilachlor 30% + pyrazosulfuron ethyl 0.75% WG @ 2500 (g ha-1 ) at 0-3 DAS (T3) recorded higher plant height (25.49, 47.11, 72.13 and 78.93 cm), number of tillers per metre row length (72.20, 170.52, 248.17 and 208.30), leaf area per metre row length (1293.70, 3190.9, 7927.0 and 2665 cm2 per m row length), total dry matter production per metre row length (6.58, 91.24, 226.35 and 607.60 g per m row length) at 30, 60, 90 DAS and at harvest, respectively. These results were statistically comparable with those of the (T9) weed-free check and (T7) hand-weeding treatment at 20 &amp; 40 DAS. The same treatment recorded a higher grain yield (6491 kg ha-1) and straw yield (9584 kg ha-1), which were comparable with those under hand weeding and the weed-free check. Post-harvest soil pH, EC and organic carbon were not significantly affected by the weed management practices. However, available N, P2O5 and K2O were significantly influenced by the treatments. The study indicated that pretilachlor 30% + pyrazosulfuron ethyl 0.75% WG @ 2500 g ha-1 applied at 0-3 DAS was an effective pre-emergence mixture for improving growth and productivity while maintaining favourable post-harvest soil nutrient availability in direct-seeded rice.</div></details>
+</div>
+<div class="card"><div class="title">Machine Learning Reveals Controls on Heavy Metal Distribution in War-Affected Soils of Eastern Ukraine.<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: J. Mandal, O. Bonchkovskyi, P. Ostapenko, S. M. Hutchinson</div>
+<div class="meta-line">Venue: Environmental pollution</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a0098b0a15e370fe3c1e5944180f155062ef79d5">Abs</a> · <a href="https://doi.org/10.1016/j.envpol.2026.129416">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Armed conflict causes severe and lasting soil contamination, yet the relative contributions of military activities, geogenic factors and pre-war anthropogenic influences on heavy metal distributions in war-affected soils remain poorly understood. This study applies generalized additive models (GAM) and Random Forest (RF) algorithms to characterise the multi-factor controls on Cu, Pb, Ni and Zn concentrations in soils from eleven sites across Kharkiv Oblast, eastern Ukraine, affected by hostilities between March and November 2022. A total of 114 soil samples were collected from explosion craters, weapon-damaged fields and sites impacted by specific weapons. Predictor variables encompassed site disturbance category, ammunition type, soil type, land use, pH and soil organic carbon (SOC). Measured pseudo-total concentrations spanned wide ranges Cu 5.2-71.5, Pb 6.1-24.6, Ni 10.1-46.0 and Zn 0.43-114.2 mg kg-1 with the highest values confined to specific disturbance categories. Under repeated cross-validation, Random Forest performed comparably to GAM for Cu, Ni and Zn (RF R2 ≈ 0.82, 0.79 and 0.81, respectively) and significantly better only for Pb, improving mean R2 from 0.56 to 0.67 and reducing root mean square error (RMSE) from 2.60 to 2.06 mg kg-1; its overall advantage was modest and metal-specific.. Two contrasting behavioral groups were identified: Cu and Zn were predominantly associated with indicators of military activity, with ammunition type and helicopter crash site category as the dominant predictors, indicating localized contamination from military activity; Pb and Ni were primarily soil-controlled, governed by pH, organic carbon and soil type rather than disturbance intensity. Random Forest resolves the Cu/Zn point-source signal (spatially random residuals) while residual structure remains for Pb and Ni. These findings demonstrate that non-linear, multi-factor modelling approaches are essential for disentangling war-related geochemical signals from background variability, and that contamination patterns in active conflict zones are markedly more heterogeneous than those reported from military training grounds. The results have important implications for post-war land assessment and soil reclamation strategies in Ukraine.</div></details>
+</div>
+<div class="card"><div class="title">Climate Change Impacts on Pesticide
+Leaching in Agricultural Soils: A PEARL
+(Pesticide Emission Assessment at
+Regional and Local) Model Assessment for
+S-Metolachlor under CMIP6 (Coupled Model
+Intercomparison Project Phase 6) Scenarios<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Abdul Ghafoor, Muhammad Munir, Muhammad Tahir, Khalid Turk, H. Ghazzawy</div>
+<div class="meta-line">Venue: Polish Journal of Environmental Studies</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/39af2af051c3f2fde28f87ddaca7012bc8d96ec1">Abs</a> · <a href="https://www.pjoes.com/pdf-220646-149501?filename=Climate-Change-Impacts-on.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Climate change represents a significant risk to groundwater quality by altering the dynamics of
+pesticide transport in agricultural soils. This study assesses the influence of expected climate change
+using the PEARL (Pesticide Emission Assessment at Regional and Local scales) framework on
+S-metolachlor pesticide leaching. This analysis was based on agricultural loam soil, a historical baseline
+(1981-2010), and two future scenarios: SSP2-4.5 (medium-emission scenario) and SSP5-8.5 (highemission
+scenario) from 2041 to 2070. Calibration with field-derived data (DT50 = 18±4 d ays, K oc =
+200 mL/g) and validation with groundwater observation data showed increased cumulative pesticide
+leaching by +60.5% (SSP2-4.5) and +110.7% (SSP5-8.5) compared to historical data. This indicates that
+the concentration might exceed the regulatory limits by a factor of 0.15-0.25 μg/L (compared with the
+EU groundwater limit of 0.1 μg/L). Reduced sorption at higher temperatures, together with increased
+precipitation, synergistically enhanced pesticide transport. These findings indicate that current pesticide risk assessments may underestimate future groundwater contamination potential, necessitating climateadaptive
+regulatory frameworks and management strategies to protect drinking water quality.</div></details>
+</div>
+<div class="card"><div class="title">Synthesis, Characterization and Application of Azadirachta Indica Leaf-Derived Zinc Oxide Nanoparticle for Remediation of Heavy Metals in Dumpsite-Contaminated Soil<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Kaltume Umar Adam, Sulaiman Mohammed, Abdullahi Yusuf Abubakar, Fatima Mohammed Garkuwa, M. M. Usman...</div>
+<div class="meta-line">Venue: FUDMA Journal of Sciences</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/59b0ba6f36205cbefdd5cd038fc9658822dd169d">Abs</a> · <a href="https://fjs.fudutsinma.edu.ng/index.php/fjs/article/download/6099/4144/21872">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Azadirachta indica (neem) leaf extract-mediated synthesis of zinc oxide nanoparticles (ZnO NPs) provides an eco-friendly, cost-effective, and sustainable approach for heavy metal remediation in contaminated environments. This study evaluated the potential of A. indica-derived green nanoparticles for remediating dumpsite-contaminated soil. Soil samples were collected at a depth of 0–10 cm using a soil auger along the Gujba Road dumpsite in Damaturu, Yobe State, Nigeria. Physicochemical parameters were determined using standard procedures, and heavy metal concentrations were analysed via Atomic Absorption Spectroscopy (AAS). Aqueous extract from 200 g of A. indica leaf powder in 1,000 mL of distilled water was mixed with zinc salt under heated conditions to synthesize ZnO NPs. Characterization by UV-Visible spectroscopy and Fourier-Transform Infrared (FTIR) spectroscopy confirmed the successful green synthesis of ZnO NPs. Phytoremediation efficacy on the contaminated soil was evaluated at 0, 7, 14, 21, and 28-days post-application. Data were analysed using Analysis of Variance (ANOVA) at $p &lt; 0.05$. Results indicated that the dumpsite soil exhibited alkaline pH, elevated electrical conductivity, and high organic carbon and nutrient contents. Prior to treatment, arsenic (As) and cadmium (Cd) concentrations exceeded World Health Organization permissible limits. Application of synthesized ZnO NPs led to a progressive reduction in arsenic, cadmium, and lead (Pb) concentrations across the sampling intervals.</div></details>
+</div>
+<div class="card"><div class="title">Seawater Quality and Heavy Metal (Cd, Pb, Zn) Accumulation in Green Mussels (Perna viridis), Cilincing, North Jakarta<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Aisyah Nurhalimah, Titin Herawati, M. Agung, Eri Bachtiar</div>
+<div class="meta-line">Venue: Jurnal Biologi Tropis</div>
+<div class="meta-line">Published: 2026-10-24</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f91f514b99b99e9d7219c08b14cf98151873fc0a">Abs</a> · <a href="https://jurnalfkip.unram.ac.id/index.php/JBT/article/download/13231/7640">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Anthropogenic pressure in the coastal waters of Cilincing, North Jakarta, degrades water quality and threatens green mussel (Perna viridis) aquaculture safety. This study analyzed water quality status using the Pollution Index (PI), environmental parameter interactions via Principal Component Analysis (PCA), and Cd, Pb, and Zn bioaccumulation based on the Bioconcentration Factor (BCF) in P. viridis across five sampling stations representing estuary, reclamation, and nearest, middle, and farthest aquaculture zones. Water, sediment, and biota samples were analyzed using ICP-OES following SNI and APHA standards. Results showed seawater quality ranged from lightly to moderately polluted (Stations 1, 2, and 5 were moderately polluted; Stations 3 and 4 were lightly polluted). PCA explained 94.3% of total data variability through two principal components (PC1: TSS, oil and grease, ammonia, nitrate, phosphate, salinity, TDS, and transparency; PC2: temperature, pH, and DO). Cd and Pb were undetected in P. viridis, whereas Zn accumulated at a low category (BCF &lt; 100). This study concludes that Cilincing coastal waters are degraded; although Zn bioaccumulation remains low, its concentration exceeds BPOM safe consumption limits. Stricter land-based waste control and periodic surveillance are recommended to ensure food safety and ecosystem sustainability.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
