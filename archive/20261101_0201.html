@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-01 02:01 · Core 2 · Proxy 1 · Eco 2</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Depth-Aware Machine Learning for 3D Reconstruction of Fibrous Porous Electrodes by FIB-SEM Tomography.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Carlota Bozal-Ginesta, Claudia Bissattini Alessi, P. Zeng, Julie Ruellou, J. Drnec...</div>
+<div class="meta-line">Venue: Small methods</div>
+<div class="meta-line">Published: 2026-10-25</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d5b95bd878cda6552d67a00f338134755d6dcd8f">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/smtd.71142">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Quantitative three-dimensional reconstruction of porous polymers with sub-micrometer feature sizes is central to understanding and designing electrochemical interfaces and membranes. However, focused ion beam-scanning electron microscopy tomography combined with conventional segmentation techniques cannot readily reconstruct complex disordered morphologies such as fibers. Standard segmentation workflows misclassify out-of-plane material as in-plane material, distorting the reconstructed pore network, fiber connectivity, and interface area. Here, we introduce an annotation-free, depth-aware machine-learning framework that combines monocular depth estimation, trained on macroscale images, with unsupervised clustering to separate in-plane polymer cross-sections from subsurface contributions in serial FIB-SEM tomography images. Applied to copper-coated electrospun poly(vinylidene fluoride-co-hexafluoropropylene) fiber mats, the approach produces 3D reconstructions that preserve fibrous morphology more faithfully than conventional supervised and unsupervised segmentation. Quantitative validation against capillary flow porometry, pycnometry, and high-resolution wide-angle X-ray computed tomography demonstrates improved agreement across pore cross-section diameter, fiber volume ratio, and Cu depth decrease metrics. This work establishes depth-aware segmentation as a transferable strategy from real-scale to nanoscale imaging, requiring no labeled training data and enabling accurate 3D segmentation and reconstruction from SEM images. This approach opens a path toward more reliable structure-property relationships in disordered porous polymer materials.</div></details>
+</div>
+<div class="card"><div class="title">Hybrid Mamba-Transformer Network for Single-Shot 3D Reconstruction from Fringe Patterns<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Xin-Jie Zhou, Xiao-Lei Li</div>
+<div class="meta-line">Venue: Pattern Recognition</div>
+<div class="meta-line">Published: 2026-10-25</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5fe38c12e30df99a95802c3e7369a6d7d4c9d125">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Deep learning facilitates rapid single shot three dimensional (3D) reconstruction using fringe projection profilometry (FPP), but recovering accurate surface height from a single high frequency fringe image remains challenging because both long-range spatial consistency and fine geometric details must be preserved. Convolutional networks are limited in modeling long range dependencies, whereas window-based Transformers establish global interactions only progressively with increasing depth. To address these limitations, a hybrid Mamba Transformer network is proposed for fringe to height regression. The network adopts a Swin based U shaped architecture and introduces visual state space modeling at the intermediate resolution encoder stage. An axial and dilated vision state space (ADVSS) block is further developed to enhance prescan feature encoding through local, dilated, and axial depthwise convolutions while retaining four directional selective scanning. This design combines linear complexity long range modeling with direction aware preservation of local fringe structures. Experiments on a publicly available FPP dataset show that the proposed method outperforms hNet, SwinConvUNet, UHRNet, and HiDNet in mean absolute error(MAE), root mean square error (RMSE), absolute relative error, and structural similarity index measure (SSIM). Using only one deformed fringe image, the proposed method achieves an RMSE of 0.548 mm and an SSIM of 0.9985, reducing RMSE by 65.2% and 59.6% relative to UHRNet and HiDNet, respectively. These results demonstrate the effectiveness of combining selective state space modeling with hierarchical window based attention for accurate single-shot FPP reconstruction.</div></details>
+</div>
+<div class="card"><div class="title">AGP-MVSNet: diffusion-enhanced adaptive gaussian prior fusion with confidence-aware gating for multi-view stereo<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Ning Zhang, Shao-Yun Xu, Nuo-Qian Xu, Yue-Xing Hao, Ning-Fan Xie...</div>
+<div class="meta-line">Venue: Multimedia Systems</div>
+<div class="meta-line">Published: 2026-10-25</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c917c07606b8f5fa92ea3925d8049f637ce815b7">Abs</a></div>
+</div>
+<div class="card"><div class="title">Automatic recognition method for communicative gestures of virtual interaction participants<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: A. Dvoynikova, A. Karpov</div>
+<div class="meta-line">Venue: Scientific and Technical Journal of Information Technologies, Mechanics and Optics</div>
+<div class="meta-line">Published: 2026-10-25</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ec499a01f6ecbcf76d5414adf283d390c9124524">Abs</a> · <a href="https://ntv.elpub.ru/jour/article/download/674/664">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Currently, interpersonal communication increasingly takes place in virtual environments through teleconferencing systems. Despite the advantages of this format, limited video window size, unstable Internet connections, and reduced transmission quality hinder the perception of nonverbal signals exchanged by participants. During interpersonal interaction, communicative gestures serve as an important means of conveying emotions and engagement, while their automatic analysis can improve the accuracy of systems designed to recognize behavioral and psychological states of participants in virtual communication. This paper proposes a hierarchical method for communicative gesture recognition in virtual communication environments, enabling the joint recognition of both static and dynamic gestures. The proposed method is based on the sequential application of models for gesture type recognition followed by the classification of static and dynamic gestures. At the first stage, gesture type is determined as static, dynamic, or no gesture. At the second stage, specialized models are employed to recognize three classes of static gestures and three classes of dynamic gestures. Various feature types are investigated for video analysis, including body keypoints, their geometric derivative features, optical flow, and features extracted from a pretrained Vision Transformer (ViT) model. Fully connected, convolutionalrecurrent, and transformer-based neural networks are considered as classifiers. In addition, methods for improving classification accuracy under class imbalance and limited data conditions are investigated. Experimental studies were conducted using the multimodal ENERGI dataset containing recordings of group virtual communication annotated with communicative gestures. The best performance for static gesture recognition was achieved using ViT features and a convolutional-recurrent neural network, resulting in an average F1-score of 70.4 %. For dynamic gesture recognition, the most effective combination consisted of geometric derivative features and a fully connected neural network, achieving an average F1-score of 58.1 %. For gesture type recognition, the joint use of ViT features and optical flow yielded the highest average F1-score of 76.5 %. The overall average F1-score for recognizing seven communicative gesture classes reached 68.7 %, whereas the single-model approach achieved only 20.8 %. The results also demonstrate that applying class imbalance compensation techniques further improves classification performance. The results obtained confirm the effectiveness of the hierarchical approach compared to single-model classification due to the decomposition of the task into gesture type recognition and subsequent specialized classification. Different feature types were found to be most effective for different gesture categories: ViT features better capture static pose configurations, whereas geometric derivative features provide more informative representations of motion patterns. The proposed method can be applied in intelligent systems for behavioral analysis of participants in virtual communication, including engagement assessment, emotion recognition, and interaction effectiveness evaluation.</div></details>
+</div>
+<div class="card"><div class="title">PhysCreator: Creating Physically-Attributed 3D Assets at Will<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Shi-Yan Zheng, Ming Li, Lei Han, Xiang-Yu Xu</div>
+<div class="meta-line">Venue: Image and Vision Computing</div>
+<div class="meta-line">Published: 2026-10-25</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8213de6dc74255ec7aa4d9ee6d477c41195891e7">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Significant advancements in 3D asset creation have enabled high-fidelity 3D generation from images. However, most existing representations remain inherently static, lacking the ability to model physically plausible behaviors under dynamic interactions. We present \textbf{PhysCreator}, a unified framework that directly generates simulation-ready 3D representations with spatially varying physical properties from images. Unlike prior approaches that treat physical attributes as simple post-hoc predictions or rely on expensive per-instance optimization, we reformulate physical property estimation within a unified 3D representation learning framework. We introduce a voxel-aligned latent space by lifting image observations into a spatially structured 3D representation, in which geometry, appearance, and physical properties are jointly modeled and inferred in a feed-forward manner. To enable scalable learning without densely annotated physical ground truth, we leverage vision-language distillation to transfer material-aware semantic priors from powerful vision-language models into spatially grounded voxel-level supervision. Experiments demonstrate that our method achieves superior visual quality, physical plausibility, and generalization compared to prior approaches.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
