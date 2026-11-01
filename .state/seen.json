@@ -23018,5 +23018,25 @@
   "doi:10.29303/jbt.v26i4.13231": {
     "source": "top_journal",
     "title": "Seawater Quality and Heavy Metal (Cd, Pb, Zn) Accumulation in Green Mussels (Perna viridis), Cilincing, North Jakarta"
+  },
+  "doi:10.1002/smtd.71142": {
+    "source": "top_journal",
+    "title": "Depth-Aware Machine Learning for 3D Reconstruction of Fibrous Porous Electrodes by FIB-SEM Tomography."
+  },
+  "arxiv:2610.33988": {
+    "source": "top_journal",
+    "title": "Hybrid Mamba-Transformer Network for Single-Shot 3D Reconstruction from Fringe Patterns"
+  },
+  "doi:10.1007/s00530-026-02723-x": {
+    "source": "top_journal",
+    "title": "AGP-MVSNet: diffusion-enhanced adaptive gaussian prior fusion with confidence-aware gating for multi-view stereo"
+  },
+  "doi:10.17586/2226-1494-2026-26-5-1039-1048": {
+    "source": "top_journal",
+    "title": "Automatic recognition method for communicative gestures of virtual interaction participants"
+  },
+  "arxiv:2610.34473": {
+    "source": "top_journal",
+    "title": "PhysCreator: Creating Physically-Attributed 3D Assets at Will"
   }
 }
