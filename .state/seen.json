@@ -23074,5 +23074,57 @@
   "doi:10.3390/app162110565": {
     "source": "top_journal",
     "title": "The Effect of Irrigation and Land Cultivation on the Content of Biomicroelements in Grape Organs and Soil Quality in Northern Part of Fergana Valley (Central Asia, Uzbekistan)"
+  },
+  "arxiv:2610.34745": {
+    "source": "top_journal",
+    "title": "SceneAgent: An Agentic Pipeline from 3D and 4D Captures to Simulation Environments"
+  },
+  "arxiv:2610.35522": {
+    "source": "top_journal",
+    "title": "Generative Structure from Motion with Native 3D Diffusion"
+  },
+  "arxiv:2610.35806": {
+    "source": "top_journal",
+    "title": "Does VGGT Know What It Does Not Know?"
+  },
+  "arxiv:2610.41011v1": {
+    "source": "arxiv",
+    "title": "Prior-Guided Single-Exposure HDR Novel View Synthesis via Base-Gain Representation"
+  },
+  "arxiv:2610.36168": {
+    "source": "top_journal",
+    "title": "PrinGS: Privacy Preservation in Gaussian Splatting"
+  },
+  "arxiv:2610.40935v1": {
+    "source": "arxiv",
+    "title": "Let LiDAR Decide Where to Look: Geometry-Measured Token Selection for Efficient Sparse Latent World Models"
+  },
+  "arxiv:2610.41111v1": {
+    "source": "arxiv",
+    "title": "An Empirical Study on Learning Rooftop Solar Potential from Satellite Imagery Directly Without Explicit Geometry"
+  },
+  "arxiv:2610.34869": {
+    "source": "top_journal",
+    "title": "How Much Sensing is Enough? Landslide Detection from Sparse and Noisy 3D Observations"
+  },
+  "doi:10.30845/ijhss.v16p24": {
+    "source": "top_journal",
+    "title": "Islamic University of Rotterdam: From Interfaith Dialogue to Pluralistic Cooperation"
+  },
+  "arxiv:2610.35152": {
+    "source": "top_journal",
+    "title": "Complexity-guided Regularization for Generalizable Human Gaussian Splatting"
+  },
+  "arxiv:2610.34952": {
+    "source": "top_journal",
+    "title": "DimFlow: Bidirectional Grid-Expert Learning for Dynamic Gaussian Reconstruction"
+  },
+  "doi:10.1145/3795866.3844760": {
+    "source": "top_journal",
+    "title": "WiP: Super-Resolution mmWave Normal Estimation"
+  },
+  "arxiv:2610.34765": {
+    "source": "top_journal",
+    "title": "Efficient Multi-modal Video Fusion Network with Dynamic Region-Guided Temporal Interaction"
   }
 }
