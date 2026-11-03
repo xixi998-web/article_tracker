@@ -23186,5 +23186,69 @@
   "doi:10.1007/s11104-026-09120-3": {
     "source": "top_journal",
     "title": "Soil health and One Health implications in the anthropocene: a perspective on microbiome engineering"
+  },
+  "arxiv:2611.00482v1": {
+    "source": "arxiv",
+    "title": "A Straight Line Is Not a Camera Pose: Auditing Short-Clip Pose Benchmarks"
+  },
+  "arxiv:2610.37818": {
+    "source": "top_journal",
+    "title": "GOFish: Full Field-of-View Gaussian Splatting and Mesh Extraction"
+  },
+  "arxiv:2611.00870v1": {
+    "source": "arxiv",
+    "title": "A Reproducible Reconstruction and Evaluation Framework for Photorealistic Lunar Analog Scene Reconstruction Toward Digital Twins"
+  },
+  "arxiv:2611.00527v1": {
+    "source": "arxiv",
+    "title": "3D Neural Rendering for Automated Ultrasonic Laser Scans"
+  },
+  "arxiv:2611.00375v1": {
+    "source": "arxiv",
+    "title": "MoRE-GS: Motion-Regime Experts for Future Gaussian Splatting"
+  },
+  "arxiv:2610.36876": {
+    "source": "top_journal",
+    "title": "HoloRecon: Incremental Reconstruction of Long-Range Panoramas with Global Consistency"
+  },
+  "arxiv:2610.36760": {
+    "source": "top_journal",
+    "title": "GeoGSplat: Geometry-Grounded Non-Pixel-Aligned Gaussian Splatting"
+  },
+  "arxiv:2611.01162v1": {
+    "source": "arxiv",
+    "title": "SHield: Watermarking 4D Gaussian Splatting via Spherical Harmonic Coefficient Perturbation"
+  },
+  "arxiv:2611.00756v1": {
+    "source": "arxiv",
+    "title": "SceneBound: How Much Should a Streaming 3D Reconstruction Model Remember?"
+  },
+  "arxiv:2610.41602v1": {
+    "source": "arxiv",
+    "title": "DrawSplat: Atlanta World-Guided Implicit Gaussian SLAM for Indoor Reconstruction"
+  },
+  "arxiv:2610.36454": {
+    "source": "top_journal",
+    "title": "SVIn+: Multi-Modal Framework for Robust Underwater State Estimation using 3D Sonar, Visual-Inertial, Water-Pressure, and DVL"
+  },
+  "arxiv:2611.00430v1": {
+    "source": "arxiv",
+    "title": "Real-VAS: a Real-World Video Amodal Segmentation Dataset"
+  },
+  "arxiv:2610.41772v1": {
+    "source": "arxiv",
+    "title": "WorkIng: A Real-World and Synthetic Highway Work-Zone Benchmark Dataset for Autonomous Navigation"
+  },
+  "arxiv:2610.41768v1": {
+    "source": "arxiv",
+    "title": "Visual-Inertial RGB-D SLAM with Encoders for a Differential Wheeled Robot"
+  },
+  "arxiv:2610.41352v1": {
+    "source": "arxiv",
+    "title": "CalibSwitch: Observation-Driven Camera-LiDAR Extrinsic Recovery and Selective Maintenance for Multimodal Perception"
+  },
+  "arxiv:2610.36610": {
+    "source": "top_journal",
+    "title": "4D Reconstruction with Events&RGB"
   }
 }
