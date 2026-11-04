@@ -23314,5 +23314,125 @@
   "doi:10.54254/2753-8818/2027.mb38126": {
     "source": "top_journal",
     "title": "Opposite Environmental Responses of Arsenic and Cadmium Mediated by Redox Conditions, Sulfur Cycling, and Microorganisms"
+  },
+  "arxiv:2610.38278": {
+    "source": "top_journal",
+    "title": "BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget"
+  },
+  "arxiv:2611.02658v1": {
+    "source": "arxiv",
+    "title": "OctreeSplat: Hierarchical Octree-Guided Feed-Forward Gaussian Splatting"
+  },
+  "arxiv:2611.03106v1": {
+    "source": "arxiv",
+    "title": "A Tightly Coupled Magnetic-Inertial SLAM System for Field Robots"
+  },
+  "arxiv:2611.01939v1": {
+    "source": "arxiv",
+    "title": "VLSplat: Vision-Language Guided Object-Centric 3D Gaussian Splatting via Scene Graph"
+  },
+  "arxiv:2611.01682v1": {
+    "source": "arxiv",
+    "title": "Leveraging 2D Foundation Priors for Generalized Category Discovery under Test-Time Adaptation in 3D LiDAR Segmentation"
+  },
+  "doi:10.1117/1.jei.35.5.053028": {
+    "source": "top_journal",
+    "title": "Adaptive keyframe selection and information-guided sampling for efficient RGB-D neural SLAM"
+  },
+  "arxiv:2611.03952v1": {
+    "source": "arxiv",
+    "title": "Do We Still Need Rotation-Invariant Architectures? A Statistical Robustness Benchmark for Point Cloud Classification"
+  },
+  "arxiv:2611.03942v1": {
+    "source": "arxiv",
+    "title": "Camera Radar LiDAR Fusion via Point-Cloud Projection for Multi-Task Learning"
+  },
+  "arxiv:2611.03940v1": {
+    "source": "arxiv",
+    "title": "Coordinate Frame Recovery, Per Class NMS and Null Return Modelling for Sim2Real V2X LiDAR Detection"
+  },
+  "arxiv:2611.03936v1": {
+    "source": "arxiv",
+    "title": "Geometric Refinement and Distributional Alignment for Sim2Real Roadside LiDAR Detection"
+  },
+  "arxiv:2611.03114v1": {
+    "source": "arxiv",
+    "title": "3D Gaussian Splatting within Self-Learned Neural View-Dependent Color Fields"
+  },
+  "arxiv:2611.02786v1": {
+    "source": "arxiv",
+    "title": "Local-Global Joint Modeling for Point Cloud Super-Resolution Guided by Multi-Scale Spatial Priors"
+  },
+  "arxiv:2611.02767v1": {
+    "source": "arxiv",
+    "title": "GaussFlaw: Fine-Grained Perceptual Diagnosis for 3D Gaussian Splatting"
+  },
+  "arxiv:2611.02044v1": {
+    "source": "arxiv",
+    "title": "Unified Loss-Aware Density Control for 3D Gaussian Splatting"
+  },
+  "arxiv:2611.01543v1": {
+    "source": "arxiv",
+    "title": "GSExplorer: Interactive World Generation with a Persistent 3D Gaussian World State"
+  },
+  "arxiv:2611.01534v1": {
+    "source": "arxiv",
+    "title": "AbacusGS: Gaussian Splatting without Per-Splat Sorting"
+  },
+  "arxiv:2611.01400v1": {
+    "source": "arxiv",
+    "title": "RadPose: ISAC-based RF 3D Human Pose Estimation"
+  },
+  "doi:10.3390/buildings16214302": {
+    "source": "top_journal",
+    "title": "A Deep Learning and Digital Twin Framework for Automated Crack Detection and Maintenance-Oriented Condition Assessment of Industrial Buildings"
+  },
+  "arxiv:2611.03932v1": {
+    "source": "arxiv",
+    "title": "CoReMatch: Recurrent Continuous Coordinate Refinement for Real-Time Robotic Feature Matching"
+  },
+  "arxiv:2611.02884v1": {
+    "source": "arxiv",
+    "title": "AnchorHEC: Targetless Hand-Eye Calibration of Wrist and Fixed Cameras"
+  },
+  "arxiv:2611.02648v1": {
+    "source": "arxiv",
+    "title": "ReinSeg: Retrieval-Guided Bounded Multimodal Refinement for 3-D Road Anomaly Segmentation"
+  },
+  "arxiv:2611.02051v1": {
+    "source": "arxiv",
+    "title": "UniGS-SLAM: Monocular Gaussian SLAM with Enhanced Geometry and Open-Vocabulary Semantics"
+  },
+  "arxiv:2611.04300v1": {
+    "source": "arxiv",
+    "title": "CLOCs-R: Radar-Assisted Camera-LiDAR Fusion for Long-Range Object Detection"
+  },
+  "arxiv:2611.04221v1": {
+    "source": "arxiv",
+    "title": "Mamba3R: Fixed-Capacity Selective State Memory for Long-Sequence 3D Reconstruction"
+  },
+  "arxiv:2611.03069v1": {
+    "source": "arxiv",
+    "title": "Shared-Pattern Collaborative Network for Multi-Source Remote Sensing Data Classification"
+  },
+  "arxiv:2611.02204v1": {
+    "source": "arxiv",
+    "title": "Learning from high-resolution 2D images to reconstruct 3D microstructures"
+  },
+  "arxiv:2611.02034v1": {
+    "source": "arxiv",
+    "title": "4D Triangle Splatting Reconstruction of Dynamic Endoscopic Scenes from Monocular Videos"
+  },
+  "arxiv:2611.01937v1": {
+    "source": "arxiv",
+    "title": "Spade-SLAM: Sparse Correspondence Anchors for Dense Self-Supervised Visual SLAM"
+  },
+  "arxiv:2611.01537v1": {
+    "source": "arxiv",
+    "title": "Task-driven sparse-view planar X-ray computed tomography for axial metrology"
+  },
+  "arxiv:2611.01491v1": {
+    "source": "arxiv",
+    "title": "Spectral-Convolutional Factorized Transformer for Joint Multipath Parameter Estimation: Applications to mmWave Positioning and Radio SLAM"
   }
 }
