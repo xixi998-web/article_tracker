@@ -23434,5 +23434,45 @@
   "arxiv:2611.01491v1": {
     "source": "arxiv",
     "title": "Spectral-Convolutional Factorized Transformer for Joint Multipath Parameter Estimation: Applications to mmWave Positioning and Radio SLAM"
+  },
+  "doi:10.3390/agriculture16212359": {
+    "source": "top_journal",
+    "title": "Combined Application of Bamboo Biochar and Lime Alleviates Soil Acidification and Enhances Organic Carbon Stability in an Intensively Managed Acid Bamboo Plantation"
+  },
+  "doi:10.1007/s44378-026-00353-3": {
+    "source": "top_journal",
+    "title": "Optimizing vermicompost and inorganic fertilizer integration for enhancing bread wheat (Triticum aestivum L.) productivity and soil fertility in Northwestern Ethiopia"
+  },
+  "doi:10.3390/agronomy16212121": {
+    "source": "top_journal",
+    "title": "Plant Functional-Group Differentiation and Soil Property Variation Across Hummock–Hollow Microtopography in an Alpine Sedge Peatland on the Qinghai–Tibetan Plateau"
+  },
+  "doi:10.3390/life16111820": {
+    "source": "top_journal",
+    "title": "Microbial Community Structure and Diversity of Idesia polycarpa Under Different Mixed Planting Systems"
+  },
+  "doi:10.33803/wd2fgq": {
+    "source": "top_journal",
+    "title": "Variations in Nematode Assemblages in Response to Forest Disturbance"
+  },
+  "doi:10.3390/polym18212670": {
+    "source": "top_journal",
+    "title": "A Sustainable Approach: Cellulose-Based Biodegradable Water-Retaining Agents Facilitating Mine Restoration in Arid Xinjiang Mining Zones"
+  },
+  "doi:10.1021/acsearthspacechem.6c00224": {
+    "source": "top_journal",
+    "title": "Jarosite\nBiomineralization under a CO2-Rich,\nO2-Limited Atmosphere: Potential Microbial Contributions\nto Martian Sulfate Deposits"
+  },
+  "doi:10.3389/fpls.2026.1942632": {
+    "source": "top_journal",
+    "title": "Nitrogen addition determines whether invasive plant-derived biochar facilitates or suppresses Flaveria bidentis invasion"
+  },
+  "doi:10.58168/pbht2026_311-316": {
+    "source": "top_journal",
+    "title": "THE ENVIRONMENTAL IMPACT OF WASTE MANAGEMENT AND WAYS TO MINIMIZE THE NEGATIVE IMPACT"
+  },
+  "doi:10.7717/peerj.21842": {
+    "source": "top_journal",
+    "title": "Copper removal from synthetic wastewater using the bacterium Achromobacter xylosoxidans: biosorption equilibrium, kinetic, thermodynamic and optimizing parameters by Box-Behnken design approach"
   }
 }
