@@ -23594,5 +23594,81 @@
   "arxiv:2611.05874v1": {
     "source": "arxiv",
     "title": "Feature Puzzles: Single-Image Supervision for Multi-View 3D-Aware Segmentation"
+  },
+  "doi:10.67260/hsd.v27i11.7946": {
+    "source": "top_journal",
+    "title": "Assessment of Soil-Water Interactions and Their Potential Contribution to Drinking Water Acidity in the Prefecture of Kindia, Republic of Guinea"
+  },
+  "doi:10.3390/environments13110592": {
+    "source": "top_journal",
+    "title": "Integrated Soil-Analysis-Based Fertilization, Organically Modified Biochar, and Reduced Tillage Mitigate Nitrous Oxide Emissions and Sustain Maize Productivity"
+  },
+  "doi:10.3390/agronomy16212131": {
+    "source": "top_journal",
+    "title": "Impacts of CaAl- and MgAl-Layered Double Hydroxides and Conventional Amendments on Cd Immobilization, Bacterial Communities, and Rice Cd Accumulation in Tropical Paddy Soils"
+  },
+  "doi:10.64898/2026.10.27.761429": {
+    "source": "top_journal",
+    "title": "Burn intensity regulates post-fire effects on soil N2O emissions: A grassland soil pyrocosm study"
+  },
+  "doi:10.1016/j.jhazmat.2026.144068": {
+    "source": "top_journal",
+    "title": "Biodegradable polylactic acid microplastics pose greater field nitrous oxide emission risks than conventional polyethylene by reshaping microbial production-reduction pathways in a wheat-maize rotation system."
+  },
+  "doi:10.3390/engproc2026163035": {
+    "source": "top_journal",
+    "title": "Development of an Adaptive Grid-Based Soil pH Mapping and Lime Recommendation System"
+  },
+  "doi:10.55927/ijsmr.v4i10.163": {
+    "source": "top_journal",
+    "title": "The Effect of Sago Peel Waste Biochar Dose on pH, Total N, Available P, and K-dd of Kambisol Soil"
+  },
+  "doi:10.3389/fmicb.2026.1986273": {
+    "source": "top_journal",
+    "title": "Natural fire-derived charcoal resembles high-temperature biochar in regulating soil CO2 emissions from a subtropical plantation soil"
+  },
+  "doi:10.18502/kls.v10i2.21952": {
+    "source": "top_journal",
+    "title": "Soil Chemical and Physical Properties of Reforested Mined Land at Different Ages After Reclamation"
+  },
+  "doi:10.64898/2026.10.28.762510": {
+    "source": "top_journal",
+    "title": "Association between soil properties and Grapevine Leaf Stripe Disease (Esca Complex) symptom expression. Part I: soil physical, hydrological and chemical characteristics"
+  },
+  "doi:10.18502/kls.v10i2.21862": {
+    "source": "top_journal",
+    "title": "Effect of NPK Fertilizer and Dolomite on Growth and Yield of Purple Eggplant (Solanum melongena L.) in Ultisols"
+  },
+  "doi:10.20527/jss.v9i5.19193": {
+    "source": "top_journal",
+    "title": "ANALISIS KESEHATAN HUTAN DI LAHAN GARAPAN MAJU LESTARI TAHURA WAR DENGAN METODE FHM"
+  },
+  "doi:10.1002/aoc.70667": {
+    "source": "top_journal",
+    "title": "Water Soluble EDTA and DTPA Ligands Functionalized With 2‐Aminobenzothiazole: Synthesis and Aqueous Metal Ion Equilibrium Studies"
+  },
+  "doi:10.61308/tyih1608": {
+    "source": "top_journal",
+    "title": "Enhancing the seed yield and nutritional quality of Bambara groundnut (Vigna subterranea (L.) Verdc.) through agronomic zinc bio fortification and liming"
+  },
+  "doi:10.67931/1998-5533-2026-3-405-409": {
+    "source": "top_journal",
+    "title": "The State of the Environment in the Territories of the Russian Federation: Donetsk People's Republic, Luhansk People's Republic, Zaporizhia and Kherson Regions During the Special Military Operation, Necessary Measures of Influence, Problems of its Protection and Restoration"
+  },
+  "doi:10.20998/2222-0631.2026.02(11).08": {
+    "source": "top_journal",
+    "title": "MATHEMATICAL MODELS THE SPATIAL DISTRIBUTION OF POLLUTANTS IN SOIL USING METHODS OF POLYNOMIAL INTERLINATION OF FUNCTIONS ON A SYSTEM OF OBSERVATION LINES PASSING THROUGH REGULARLY SPACED SOIL SAMPLING POINTS"
+  },
+  "doi:10.3390/applmicrobiol6110129": {
+    "source": "top_journal",
+    "title": "Effect of Tillage and Management on Physicochemical Properties and Microbiota for the Identification of Initial Soil Health Indicators"
+  },
+  "doi:10.3389/ffgc.2026.1987166": {
+    "source": "top_journal",
+    "title": "Forest expansion, farmland transition, and grain–ecological change in Henan, China: a coupled secondary-data analysis"
+  },
+  "doi:10.1016/j.jenvman.2026.131232": {
+    "source": "top_journal",
+    "title": "Quantifying environment-dependent global antibiotic resistance gene risk patterns and mitigation scenarios using integrated machine learning and counterfactual scenario evaluation."
   }
 }
