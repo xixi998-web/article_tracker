@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-05 07:46 · Core 12 · Proxy 2 · Eco 5</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Assessment of Soil-Water Interactions and Their Potential Contribution to Drinking Water Acidity in the Prefecture of Kindia, Republic of Guinea<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">8</span></div>
+<div class="meta-line">Authors: A. Sylla, Sâa Gérard Tolno, Fatoumata Bah, M. Sylla, Néné Adama Sow...</div>
+<div class="meta-line">Venue: HEALTH SCIENCES AND DISEASE</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5d315e9a2bce5b289c567287b5b4ec9eb455c5a4">Abs</a> · <a href="https://hsd-fmsb.org/index.php/hsd/article/download/7946/6038">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">RÉSUMÉIntroduction. L’acidité des eaux de consommation constitue un enjeu émergent de santé publique en Guinée. Dans la préfecture de Kindia, les eaux issues des forages et des unités de conditionnement sont exposées aux interactions avec des sols naturellement acides, susceptibles d’influencer leurs caractéristiques physicochimiques et leur qualité sanitaire. L’Objectif restant d’Évaluer les caractéristiques physicochimiques des eaux de consommation et des sols associés, ainsi que les interactions sol–eau susceptibles de contribuer à l’acidité des ressources hydriques dans la préfecture de Kindia. Méthodes. Une étude descriptive et analytique transversale a été réalisée sur 605 échantillons, dont 325 échantillons d’eaux de consommation et 280 échantillons de sols associés aux forages, collectés entre 2024 et 2025. Les analyses ont porté sur les paramètres physicochimiques des eaux (pH, conductivité électrique, TDS, alcalinité, ions majeurs et métaux) et sur les propriétés pédologiques des sols (pH KCl, acidité échangeable, capacité d’échange cationique, matière organique et éléments minéraux échangeables). Les interactions sol–eau ont été évaluées par des analyses de corrélation de Pearson et de régression multiple. Les analyses statistiques ont été réalisées avec un seuil de significativité fixé à p &lt; 0,05. Résultats. Les eaux présentaient une acidité persistante avec un pH moyen compris entre 5,77 et 5,89 selon les périodes, avec des variations significatives selon les saisons (p = 0,032) et les types de sources (p = 0,041). Les sols étaient également acides (pH KCl = 5,20 ± 0,12) avec une acidité échangeable élevée (1,25 ± 0,30 cmol(+) /kg). Le pH du sol était positivement corrélé au pH de l’eau (r = +0,62 ; p &lt; 0,01), tandis que l’acidité échangeable présentait une corrélation négative avec le pH de l’eau (r = –0,58 ; p &lt; 0,01). La régression multiple confirmait l’influence du pH du sol (β = +0,58) et de l’acidité échangeable (β = –0,52) sur le pH de l’eau. Conclusion. L’acidité des eaux de consommation dans la préfecture de Kindia est associée aux caractéristiques pédologiques locales. Ces résultats soulignent l’importance d’une surveillance intégrée sol–eau afin d’améliorer la gestion durable des ressources hydriques et de prévenir les risques sanitaires liés à la mobilisation des éléments métalliques.ABSTRACT Introduction. Drinking water acidity driven by naturally acidic soils is an emerging public health concern in Kindia, Guinea. This study evaluated the physicochemical properties of drinking water and associated soils to determine their interactions and contribution to water acidity. Methods. A cross-sectional descriptive and analytical study was conducted on 605 samples—including 325 drinking water samples and 280 soil samples associated with boreholes—collected between 2024 and 2025. Analyses focused on water physicochemical parameters (pH, electrical conductivity, TDS, alkalinity, major ions, and metals) and soil pedological properties (KCl pH, exchangeable acidity, cation exchange capacity, organic matter, and exchangeable mineral elements). Soil–water interactions were assessed using Pearson correlation analyses and multiple regression. Statistical analyses were performed with a significance threshold set at p &lt; 0.05. Results. Waters exhibited persistent acidity with a mean pH ranging from 5.77 to 5.89 across periods, showing significant variations according to seasons (p = 0.032) and source types (p = 0.041). Soils were also acidic (KCl pH = 5.20 ± 0.12) with high exchangeable acidity (1.25 ± 0.30 cmol(+)/kg). Soil pH was positively correlated with water pH (r = +0.62; p &lt; 0.01), whereas exchangeable acidity showed a negative correlation with water pH (r = -0.58; p &lt; 0.01). Multiple regression confirmed the influence of soil pH (β = +0.58) and exchangeable acidity (β = -0.52) on water pH. Conclusion. Drinking water acidity in the prefecture of Kindia is associated with local pedological characteristics. These findings highlight the importance of integrated soil–water monitoring to improve sustainable water resource management and prevent health risks related to metal mobilization.</div></details>
+</div>
+<div class="card"><div class="title">Integrated Soil-Analysis-Based Fertilization, Organically Modified Biochar, and Reduced Tillage Mitigate Nitrous Oxide Emissions and Sustain Maize Productivity<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: P. Sriphirom, Natnaree Ngamnate, Kanokpol Kaewnoi</div>
+<div class="meta-line">Venue: Environments</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b3e6c6a51ec22fe1043b3a79a49cf3790f28bbc5">Abs</a> · <a href="https://doi.org/10.3390/environments13110592">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Mitigating nitrous oxide (N2O) emissions while maintaining maize productivity and soil quality is an important challenge for sustainable crop production. A three-year field experiment comprising six cropping seasons was conducted in tropical Thailand to evaluate the effects of soil-analysis-based fertilization (SF), two organically modified biochars—organic acid-soaked biochar (BI-OS) and co-composted biochar (BI-CP)—and selected combinations of these treatments with reduced tillage (RT) on N2O emissions, grain yield, and soil properties. Compared with traditional farmer practice (TP), SF reduced annual direct N2O emissions by 28.1% without a statistically significant reduction in grain yield. The addition of BI-OS to SF further reduced N2O emissions, whereas BI-CP resulted in emissions comparable to those under SF alone but provided greater improvements in soil fertility indicators. Among the tested treatments, SF+BI-OS+RT achieved the greatest N2O mitigation, reducing annual emissions by 46.6%, from 3.52 kg N2O ha−1 under TP to 1.88 kg N2O ha−1, while maintaining maize productivity and reducing yield-scaled emissions. In contrast, SF+BI-CP+RT produced the greatest increases in soil pH, cation exchange capacity, and soil organic carbon sequestration. Overall, integrating SF, organically modified biochar, and RT improved the environmental performance of tropical maize production, with BI-OS providing greater N2O mitigation and BI-CP offering greater benefits for soil fertility.</div></details>
+</div>
+<div class="card"><div class="title">Impacts of CaAl- and MgAl-Layered Double Hydroxides and Conventional Amendments on Cd Immobilization, Bacterial Communities, and Rice Cd Accumulation in Tropical Paddy Soils<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: Le Wang, Zai-Hua Liu, Ci Hu, Cheng-Cheng Ni, Yi-Zheng Wu...</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b014478b17647615adfa7fccc147c373047b0a71">Abs</a> · <a href="https://doi.org/10.3390/agronomy16212131">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Cadmium (Cd) pollution of paddy soils poses a serious threat to food safety and human health. Calcium- and magnesium-aluminum layered double hydroxides (CaAl-/MgAl-LDHs) have recently been deployed to remediate Cd-contaminated soils; nevertheless, the responses of soil properties and microbial communities to CaAl-/MgAl-LDHs are not well elucidated. Herein, a field trial was implemented to evaluate the impacts of CaAl-/MgAl-LDHs and conventional amendments (lime (LM) and biochar (BC)) on soil Cd availability and bacterial community structure, together with the consequent impacts on rice grain Cd enrichment. Compared with CK without amendments, CaAl-LDHs, MgAl-LDHs, LM, and BC amendments significantly raised rice yield-related agronomic traits, with the greatest yield increment observed in the CaAl-LDHs treatment. The four amendments enhanced soil pH, cation exchange capacity (CEC) and available phosphorus (AP), while reducing DTPA-extractable Cd concentration. Notably, CaAl-LDHs and MgAl-LDHs treatments outperformed LM and BC in suppressing DTPA-extractable Cd at rice-grain filling and maturity stages. The four amendments substantially decreased rice Cd concentration, with the lowest values observed in CaAl-LDHs and MgAl-LDHs treatments. Furthermore, the four amendments boosted bacterial α-diversity and reconstructed bacterial community structure by elevating the phyla Thermodesulfobacteriota, Bacteroidota, and Firmicutes. Based on redundancy and Pearson correlation analyses, soil pH, CEC, available Cd, ExCa, and AP were identified as critical factors governing bacterial community structure. Partial least squares path model suggested that soil amendments modified pH and CEC, which influenced bacterial communities and available soil Cd, thereby suppressing rice Cd accumulation. These findings suggest that bacterial communities and soil chemical properties play critical roles in Cd immobilization upon amendment addition, and support the application potential of CaAl-/MgAl-LDHs to achieve safe rice production in Cd-polluted soils.</div></details>
+</div>
+<div class="card"><div class="title">Burn intensity regulates post-fire effects on soil N2O emissions: A grassland soil pyrocosm study<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Kenneth M. Czapla, Elizah Z. Stephens, Alexander H. Krichels, Maria E. Ordoñez, Basubi B. Zhilik...</div>
+<div class="meta-line">Venue: bioRxiv</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/fc09592396b6192f2ea26babfce30096ace343e5">Abs</a> · <a href="https://www.biorxiv.org/content/biorxiv/early/2026/10/29/2026.10.27.761429.full.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Post-fire soil emissions of nitric oxide (NO) and nitrous oxide (N2O) are important ecosystem nitrogen (N) loss pathways, but their flux dynamics vary widely across studies, making generalizations challenging. Natural variation in burn intensity—or heat energy released during combustion—may help resolve this variability by mediating the soil physicochemical and biological drivers of these emissions. Here, we used an experimental &quot;pyrocosm&quot; system to evaluate how varying burn intensity influences post-fire NO and N2O emissions using soil from a Southern California grassland across 18 weeks. Over several months, we measured soil NO and N2O fluxes alongside soil pH, extractable nitrate (NO3-) and ammonium (NH4+), net NH4+ production, net nitrification, soil carbon (C) pools, microbial biomass C, and the potential activities of five extracellular hydrolytic enzymes under Control, Low-(100.1 ± 20.0 °C peak soil temperature at 5cm), and High-intensity (243.8 ± 7.4 °C peak soil temperature at 5cm) burns. Soil NO emissions were not significantly affected by burn intensity. In contrast, N2O emissions tripled under low burn intensity relative to unburned controls, but did not differ from controls at high burn intensity. This stimulation of N2O emission under low burn intensity was driven by increased denitrification, as supported by elevated soil pH and labile C availability, and an 88% reduction in net nitrification that signaled active NO3-consumption. Under high burn intensity, however, severe loss of microbial biomass, soil C, and NO3-constrained denitrification, with rising hydrolytic enzyme activities over time suggesting C limitation. Together, these findings demonstrate that post-fire N2O emissions reflect a fire intensity-dependent balance between microbial mortality and resource limitation, helping to explain divergent N emissions across ecosystems.</div></details>
+</div>
+<div class="card"><div class="title">Biodegradable polylactic acid microplastics pose greater field nitrous oxide emission risks than conventional polyethylene by reshaping microbial production-reduction pathways in a wheat-maize rotation system.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Chuan Wang, Rui He, Li-Sha Wang, Yuan Li, Rui Li...</div>
+<div class="meta-line">Venue: Journal of hazardous materials</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e7d1162aa1c19c50ff1029b7d118a94ed701f406">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Microplastic contamination in agroecosystems is increasing, yet the field-scale effects of biodegradable microplastics on soil nitrous oxide (N2O) emissions remain unclear. We conducted a wheat-maize rotation field experiment to compare conventional polyethylene microplastics (PE-MPs) and biodegradable polylactic acid microplastics (PLA-MPs) at three application levels. Measurements included N2O fluxes, soil physicochemical properties, N-transformation enzyme activities, potential nitrification and denitrification rates, functional gene abundances, N2O/(N2O+N2) product ratios, 15N-18O-based N2O production pathways. Two-way ANOVA showed that microplastic type was the most consistent determinant of key responses, whereas concentration and interaction effects varied among indicators and seasons. PE-MPs caused weak and variable changes in soil N cycling and cumulative N2O emissions. In contrast, PLA-MPs increased cumulative N2O emissions by 38.9-61.1%, increased dissolved organic carbon, lowered pH, suppressed ammonia monooxygenase activity and nitrification, and stimulated nitrite reductase activity, potential denitrification, and nirK/nirS abundances. Increased N2O/(N2O+N2) and (nirK+nirS)/nosZ ratios indicated a stronger imbalance between N2O production and nosZ-mediated reduction. Dual-isotope tracing further showed that microplastics reduced nitrifier nitrification and shifted N2O production toward nitrifier denitrification, coupled nitrification-denitrification, and heterotrophic denitrification, with the strongest shift under PLA-MPs. These results demonstrate PLA-MPs pose greater N2O emission risks than PE-MPs, biodegradability does not necessarily imply environmental safety.</div></details>
+</div>
+<div class="card"><div class="title">Development of an Adaptive Grid-Based Soil pH Mapping and Lime Recommendation System<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Abdul Rasheed, Thangavel Krishnasamy, Rajesh Moozhiyil Razhikulath</div>
+<div class="meta-line">Venue: ECSA-13</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ef0ef3618cae66dc95da85353d64ec41d0faa2b6">Abs</a> · <a href="https://doi.org/10.3390/engproc2026163035">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Maintaining optimum soil pH for specific crops is essential for improved nutrient intake and maximum yield. Conventional soil testing methods use composite samples tested in laboratories, which fail to capture the spatial variability within the field. This paper presents an adaptive grid-based soil pH mapping and rule-based, zone-specific lime recommendation system. The system incorporates an ESP32-based pH sensing node and a smart phone for fetching GPS coordinates. Bluetooth communication is established between the microcontroller and smart phone. The pH sensor is calibrated using laboratory results for improved measurement accuracy. Median filtering with averaging is used to eliminate sensor noise. Adaptive grid sampling is implemented, so that a greater number of samples is taken from regions with high pH variability and a reduced number of samples from relatively homogenous areas. pH measurements are then used to generate a spatial map with an interpolation technique. Based on the soil pH and agricultural recommendations, the system estimates zone-specific lime requirements for the field. This approach suggests variable-rate lime application for different zones of the field and reduces unnecessary lime usage. The proposed system aims to provide a cost-effective alternative to the conventional technique, suitable for precision agricultural application.</div></details>
+</div>
+<div class="card"><div class="title">The Effect of Sago Peel Waste Biochar Dose on pH, Total N, Available P, and K-dd of Kambisol Soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Charles Silahooy</div>
+<div class="meta-line">Venue: International Journal of Scientific Multidisciplinary Research</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f9e55084484a8e67505ee767693ec3b8d4a650f8">Abs</a> · <a href="https://journalijsmr.my.id/index.php/ijsmr/article/download/163/1064">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study aims to examine the effect of sago husk waste biochar dosage on the chemical properties of Kambisol soil. Observed parameters included pH, total N, available P, and K-dd soil after a 30-day incubation period. The study was conducted using a one-factor Completely Randomized Design (CRD) with five biochar dosage levels, namely 0, 5, 10, 15, and 20 g kg⁻¹ soil. The results showed that increasing the biochar dosage had a positive effect on improving the chemical quality of Kambisol soil. Increasing the dosage showed an upward trend in all test parameters. The soil pH value increased from 5.12 to 5.95 at the highest dose treatment. The total N concentration increased from 0.16 % to 0.21%. Available P availability increased significantly from 8.30 mg kg⁻¹ to 17.50 mg kg⁻¹. Furthermore, soil K-dd content also increased from 0.18 cmol (+) kg⁻¹ to 0.45 cmol(+) kg⁻¹. These findings indicate that sago peel-based biochar is highly effective in increasing fertility and nutrient retention in acidic soils.</div></details>
+</div>
+<div class="card"><div class="title">Natural fire-derived charcoal resembles high-temperature biochar in regulating soil CO2 emissions from a subtropical plantation soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Hui-Ping Liu, Z. Gao, Meng-Yan Huang, Jia-Rui Man, Yao Huang...</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/818781757d8e065aef23e699442b75b5e80d115f">Abs</a> · <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1986273/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Char is a carbon (C)-rich pyrogenic material generated either during natural fire events (natural charcoal) or through the thermochemical conversion of plant biomass (engineered biochar). However, whether these two types of char have comparable effects on soil CO
+ 2
+ emissions remains unclear. In this study, we conducted a 30-day incubation experiment to compare the effects of charcoal produced from
+ Pinus massoniana
+ bark during broadcast burning and engineered biochars produced from the same feedstock at 300, 500, and 900 °C (B300, B500, and B900) on soil CO
+ 2
+ emissions, physicochemical properties, and bacterial diversity and composition. The addition of B300 significantly increased soil CO
+ 2
+ emissions (
+ p
+  &lt; 0.05), whereas B500, B900, and charcoal had no significant effects. B300 addition markedly increased the relative abundances of Proteobacteria and Cyanobacteria while decreasing those of Acidobacteriota, Chloroflexi, and Verrucomicrobiota (
+ p
+  &lt; 0.001). Mixed-effects models accounting for treatment variation showed that soil pH was negatively associated with cumulative CO
+ 2
+ emissions, whereas Proteobacteria exhibited a positive association. Random forest analysis identified Proteobacteria and Acidobacteriota as potential predictors of cumulative CO
+ 2
+ emissions, although these relationships require further validation. In contrast, natural fire-derived charcoal caused minimal changes in bacterial community composition. Overall, our findings demonstrate that high-temperature biochars (&gt;500 °C) exhibit similar effects on soil CO
+ 2
+ emissions and bacterial community to natural charcoal in subtropical plantation soils, highlighting their potential as functional analogues of fire-derived charcoal.
+</div></details>
+</div>
+<div class="card"><div class="title">Soil Chemical and Physical Properties of Reforested Mined Land at Different Ages After Reclamation<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: ᅠ. Wiryono, Ahmad Ilham Ramadhan, M. F. Barchia, A. Munawar, Agus Susatya...</div>
+<div class="meta-line">Venue: KnE Life Sciences</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/893058259c288b95ca052bbace09142dab2368e4">Abs</a> · <a href="https://doi.org/10.18502/kls.v10i2.21952">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Fast-growing legume trees are usually used for revegetation of the mined areas because legumes can fix nitrogen due to their symbiosis with rhizobia. The objective of this study was to analyze the changes in soil properties in reclaimed mined soil after 3, 6, and 9 years of revegetation with sengon (Falcataria moluccana) in North Bengkulu, Indonesia. The fieldwork was conducted from August through October 2023. Soil sampling was done in each site at two soil depths, 0–20 cm and 20–40 cm. Biomass of trees, poles, understory, and litter was measured for each vegetation age. Soil chemical and physical properties measured were pH, organic C, P, N, Ca, K, CEC, FC, BD, and texture (percentage of sand, silt, and clay). The statistical analyses conducted were regression, ANOVA, and LSD. Carbon content (C) and Cation Exchange Capacity (CEC) differed significantly among vegetation ages and soil depths. The bulk density of the soil in 3-year-old vegetation was significantly higher than that in other ages, but there was no significant difference between 9 and 6-year-old vegetation. Total tree, pole, and litter biomass increased with age. Litter biomass was positively correlated with the organic carbon, CEC, and Ca. Soil properties improved over time, indicating the effect of vegetation on soil.</div></details>
+</div>
+<div class="card"><div class="title">Association between soil properties and Grapevine Leaf Stripe Disease (Esca Complex) symptom expression. Part I: soil physical, hydrological and chemical characteristics<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Francesco Bigazzi, Simone Priori, S. Del Duca, Francesco Vitali, S. Mocali...</div>
+<div class="meta-line">Venue: bioRxiv</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/968e6801e6b6517e2ff7b277723b3d2ab18a9785">Abs</a> · <a href="https://www.biorxiv.org/content/biorxiv/early/2026/10/29/2026.10.28.762510.full.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Abstract This study is the first of two companion papers (Part II addresses rhizosphere microbial communities) and aims to investigate the influence of soil properties on GLSD foliar symptom expression by comparing high recurrence of symptomatic vines areas (HRSVAs) and low recurrence of symptomatic vines areas (LRSVAs). The research was conducted in an approximately 1.75-hectare Cabernet Sauvignon vineyard in Tuscany, Italy. Electromagnetic induction (EMI) proximal sensing was combined with kriging-based maps of grapevine leaf stripe disease (GLSD) symptom recurrence over a five-year period, allowing the identification of four vineyard sectors representing contrasting levels of symptom recurrence (high vs. low) and soil apparent electrical conductivity (ECa; medium vs. high). One soil profile was excavated in each sector and characterised through pedological description and physicochemical analysis. GLSD symptoms showed a heterogeneous yet spatially structured distribution, with distinct zones exhibiting contrasting recurrence. Soil properties differed markedly between HRSVAs and LRSVAs. LRSVAs were characterised by clay loam to silty clay loam textures, high lime content, alkaline pH, higher available water capacity (AWC), and lower available manganese concentrations (4.5–4.8 mg kg□¹). In contrast, HRSVAs had sandy loam to sandy clay loam textures, subalkaline pH, greater soil fertility (higher nitrogen and organic matter contents), deeper root distribution, and higher available manganese concentrations (14.7–14.8 mg kg□¹). These findings highlight the importance of investigating soil physicochemical properties in relation to GLSD symptom expression, as both macro- and micronutrient availability may be associated with disease dynamics. The higher manganese availability observed in HRSVAs, together with recent evidence that manganese can stimulate the wood-degrading activity of Fomitiporia mediterranea , warrants further investigation into the potential association between soil manganese bioavailability and disease expression. The spatial correspondence between soil heterogeneity and GLSD symptom recurrence highlights the value of high-resolution investigations of soil–plant interactions for improving our understanding of this complex disease.</div></details>
+</div>
+<div class="card"><div class="title">Effect of NPK Fertilizer and Dolomite on Growth and Yield of Purple Eggplant (Solanum melongena L.) in Ultisols<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: N. Hidayat, F. Fahrurrozi, Fahrurrozi Fahrurrozi, Y. Yulian, U. Nurjanah</div>
+<div class="meta-line">Venue: KnE Life Sciences</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4dfcdbed18c48bfc3d722dec8cf54bca1c66cebc">Abs</a> · <a href="https://doi.org/10.18502/kls.v10i2.21862">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Eggplant is a very popular vegetable for many people since it is nutritious and beneficial for human health. Growing purple eggplant can be practiced in Ultisols, but the use of this type of land must be amended with the proper doses of NPK fertilizer and dolomite. This research aimed to determine the effect of NPK and the dosage of dolomite on the growth and yield of purple eggplant. A field experiment was arranged in a complete randomized block and consisted of two factors. The first factor was the doses of NPK (0, 200, 400, and 600 kg ha−1), while the second factor was dolomite doses (0, 0.5, 1.0, and 1.5 exchangeable aluminium). Results indicated that the use of dolomites increased soil pH and leaf greenness of purple eggplants, but insignificantly affected the growth and yield of purple eggplants. The use of NPK fertilizer increased plant height, leaf numbers, fruit diameter, leaf greenness, fruit weight, fruit numbers plant−1, fruit weight plant−1, fruit weight plot−1, and yield ha−1. There were no interactions between dosages of dolomite and NPK fertilizer in influencing the growth and yields of eggplants. Fertilizing with 600 kg ha-1 of NPK provided the best growth and yield of purple eggplant.</div></details>
+</div>
+<div class="card"><div class="title">ANALISIS KESEHATAN HUTAN DI LAHAN GARAPAN MAJU LESTARI TAHURA WAR DENGAN METODE FHM<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Bilkist Maudy Utari, Rahmat Safe&#x27;i, Eny Puspasari</div>
+<div class="meta-line">Venue: Jurnal Sylva Scienteae</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/89e1ee9370ba8529c457358a16def1674a897901">Abs</a> · <a href="https://doi.org/10.20527/jss.v9i5.19193">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Forest health is a key indicator for assessing sustainable ecosystem management, particularly in conservation areas under land conversion pressure. This study aimed to analyze forest health conditions on cultivated land of Gapoktan Maju Lestari in Tahura Wan Abdul Rachman using the Forest Health Monitoring method. Data collection was conducted on six cluster plots with 5% sampling intensity of the 44 ha cultivated area. Parameters measured included productivity (Basal Area/LBDs), vitality (tree damage/CLI and crown condition/VCR), biodiversity (Shannon-Wiener Index/H&#x27;), and site quality (soil pH). Results showed LBDs values ranged from 50.74–208.69 m²/ha, CLI 4.07–5.43 (good category), VCR 2.80–3.58, H&#x27; 0.18–0.22 (low category), and soil pH 6.47–7.13 (slightly acidic to neutral). The average final forest health value (NKHr) was 4.73, classified as Moderate. This indicates the forest ecosystem is functioning reasonably well despite ecological pressures. Increasing tree species diversity through mixed planting systems is needed to improve long-term ecosystem stability.</div></details>
+</div>
+<div class="card"><div class="title">Water Soluble EDTA and DTPA Ligands Functionalized With 2‐Aminobenzothiazole: Synthesis and Aqueous Metal Ion Equilibrium Studies<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Astrid Hernández-Cruz, H. Santacruz-Ortega, Yedith Soberanes-Duarte, Luis Enrique López González, J. Guerrero-Sánchez...</div>
+<div class="meta-line">Venue: Applied Organometallic Chemistry</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4453a4300afa21a803336b67d34f0951f9a280f2">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aoc.70667">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Water pollution by toxic metals remains a persistent challenge due to their persistence and substantial risk to the environment. The development of water‐soluble ligands for metal‐ion detection is key for enabling effective sensing in aqueous environments. In this work, two water‐soluble receptors were synthesized by coupling 2‐aminobenzothiazole (ABT) with polyaminopolycarboxylic acid backbones derived from ethylenediaminetetraacetic acid (EDTA, R1) and diethylenetriaminepentaacetic acid (DTPA, R2). The resulting ligands integrate strong metal‐binding sites with chromophoric ABT units, enabling simultaneous coordination and optical transduction. Protonation studies in aqueous media revealed three acid–base equilibria for R1 and four for R2, reflecting the increased denticity and basicity of the DTPA scaffold. UV–Vis titrations were performed to examine interactions with Cu
+ 2+
+ , Ni
+ 2+
+ , Pb
+ 2+
+ , and As(V) ions at neutral and basic pH. Distinct spectral responses and binding affinities were observed, with log
+ K
+ values of 4.8–4.9 for divalent metals and enhanced Pb
+ 2+
+ stabilization by R2 (log
+ K
+  ≈ 6.3). These findings demonstrate that incorporating ABT into polyaminocarboxylate frameworks yields water‐soluble receptors with tunable optical behavior. The dual chelating and chromogenic character of these ligands highlight their potential as optical recognition motifs for environmentally relevant metal ions.
+</div></details>
+</div>
+<div class="card"><div class="title">Enhancing the seed yield and nutritional quality of Bambara groundnut (Vigna subterranea (L.) Verdc.) through agronomic zinc bio fortification and liming<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Ekama Derrick Elemi, Patrick Odey Ukatu, Eugenia Amaka Njoku, Emmanuel Bassey Effa, Lawson Enang Isong...</div>
+<div class="meta-line">Venue: Bulgarian Journal of Agricultural Science</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/14bad22243dd8f52826bb58dc380a1fb5a1d5997">Abs</a> · <a href="https://agriacad.eu/ojs/index.php/bjas/article/download/7287/5957">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Agronomic zinc bio fortification of crops is evolving and very imperative as zinc is a very important element in human nutrition and health. A 3 x 4 factorial experiment was laid out in a Randomized Complete Block Design at the Teaching and Research Farm of the Department of Crop Science, Faculty of Agriculture, University of Calabar to evaluate the effect of three rates of calcitic lime (0, 5 and 10 t/ha) in a factorial combination with four rates of soil applied Zn SO4 (0, 10, 20 and 30 kg/ha) on growth, yield and nutritional quality of a landrace of Bambara groundnut (Vigna Subterranea (L.) Verdc). Data collected were analyzed statistically using analysis of variance (ANOVA) and significantly (P&lt; 0.05) different means were separated using New Duncan’s Multiple Range Test Method (NDMRT). Results revealed that zinc and lime applied at 20kg Zn/ha and 5 t/ha, respectively, significantly produced higher grain yield as well as increased zinc concentration of Bambara groundnut grains which are very vital in the diet and nutrition of mankind to curb the ravaging effect of hidden hunger and malnutrition among the rural populace and were therefore suggested for recommendation by farmers in Southeastern Nigeria.</div></details>
+</div>
+<div class="card"><div class="title">The State of the Environment in the Territories of the Russian Federation: Donetsk People&#x27;s Republic, Luhansk People&#x27;s Republic, Zaporizhia and Kherson Regions During the Special Military Operation, Necessary Measures of Influence, Problems of its Protection and Restoration<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: O. R. Sarkisov</div>
+<div class="meta-line">Venue: The Review of Economy, the Law and Sociology</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bd9aca8446c1eeec71b6f87698929bfae9e6836b">Abs</a> · <a href="https://www.vestnykeps.ru/jour/article/download/1159/998">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">In the context of modern military conflicts, the problem of the environmental condition of territories located in combat zones is becoming particularly relevant. The study is devoted to analysing the state of the environment in the regions of Donetsk, Luhansk, Zaporizhzhia, and Kherson during the special military operation.
+ The aim of the work is to assess the environmental damage inflicted on the natural resources of these territories and to develop proposals for restoring a favourable environment.
+ During the research, data on the pollution of atmospheric air, soils, and water bodies were analysed, as well as on the destruction of natural ecosystems and specially protected natural areas. Particular attention was paid to the consequences of military operations for the region’s flora and fauna. It was found that military operations have caused significant damage to natural resources: exceedances of maximum permissible concentrations of harmful substances in the atmosphere were recorded, large scale destruction of forest areas occurred, and soil contamination was observed.
+ The research results can be used in developing programmes for the restoration of natural complexes and a system of measures to minimise environmental damage in armed conflict zones.</div></details>
+</div>
+<div class="card"><div class="title">MATHEMATICAL MODELS THE SPATIAL DISTRIBUTION OF POLLUTANTS IN SOIL USING METHODS OF POLYNOMIAL INTERLINATION OF FUNCTIONS ON A SYSTEM OF OBSERVATION LINES PASSING THROUGH REGULARLY SPACED SOIL SAMPLING POINTS<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: I. Pershyna, T. Nemchenko</div>
+<div class="meta-line">Venue: Bulletin of the National Technical University &quot;KhPI&quot;. Series: Mathematical modeling in engineering and technologies</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a1003908e2ab44f8001b8f7f9c2904a3c509f65f">Abs</a> · <a href="https://mmtt.khpi.edu.ua/article/download/378457/360869">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Monitoring and mathematical modeling of the spatial distribution of heavy metal soil pollution is a critical environmental task, particularly under theconditions of increasing anthropogenic pressure, industrial emissions, and the consequences of warfare. The object of this study is a threedimensional concentration field of heavy metals within a soil mass. The complexity of its modeling lies in the fact that traditional core sampling is destructive anddiscrete, whereas modern non-contact methods provide information in the form of continuous linear structures – namely, vertical measurement profiles.This paper addresses the problem of reconstructing a scalar function of three variables that describes the volumetric concentration of a pollutantbased on the known traces (profile functions) of this function on a system of regular vertical observation lines. To solve this problem, the framework offunction approximation theory is applied, specifically the methods of polynomial interlination of functions on a system of lines. Classical Lagrangebasis polynomials are utilized as approximation operators for individual spatial coordinates. A theorem on the structure of the polynomial interlination operator of a spatial field on a system of regular vertical profiles is formulated and mathematically proven. It is demonstrated that the constructed operator accurately reproduces experimental data at the nodes of the monitoring grid, thereby satisfying the interlination conditions. Analytical expressions for the interlination error at each fixed depth value are obtained, enabling the evaluation of the quality of the field approximation. A numerical experiment was conducted using a test function that simulates the behavior of pollutants in soil, modified by a piecewise-smooth barrier to mimic a geochemical barrier within the soil column. The results show that the proposed method ensures high accuracy in reconstructing the spatial field. Thisapproach allows for the reconstruction of linear surface scanning data from remote sensing alongside vertical profiles from subsurface geophysicalscreening, significantly reducing the need for costly and destructive core drilling.</div></details>
+</div>
+<div class="card"><div class="title">Effect of Tillage and Management on Physicochemical Properties and Microbiota for the Identification of Initial Soil Health Indicators<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: R. G. Reveles-Hernández, F. Echavarría-Cháirez, Rómulo Bañuelos-Valenzuela, L. R. Reveles-Torres, S. Salas-Muñoz...</div>
+<div class="meta-line">Venue: Applied Microbiology</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2c59b102e33bf6f2c08689a06ed788d17cbff64c">Abs</a> · <a href="https://doi.org/10.3390/applmicrobiol6110129">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Degraded soil undergoes long-term physicochemical changes. This study evaluated the relationship among microbial diversity (metagenomic analysis), the possible reactivation of nutrient cycles, and physicochemical parameters in soil subjected to different tillage (zero, minimum, and conventional) and management treatments. The results showed no significant differences (p &gt; 0.05) in any of the physical and chemical characteristics and properties of the soil that were associated with the characteristics inherent to soils in semi-arid regions, such as low natural fertility and limited water availability. Regarding physical properties such as pore radius, bulk density, compaction, and aggregate stability classes, differences (p &lt; 0.05) were found only for soil aggregation. At the phylum level, variations in bacterial and fungal abundances were identified: Proteobacteria predominated across all treatments, linked to carbon and nitrogen cycles; Actinobacteria increased in systems with higher agricultural activity, suggesting an adaptive response to disturbance; and Cyanobacteria appeared exclusively in minimal-intervention treatments, standing out as a conservation bioindicator and nitrogen fixer. These findings demonstrate that low-impact practices and sustainable management emerge as key elements for restoring soil quality and promoting agricultural sustainability in semi-arid regions such as Zacatecas.</div></details>
+</div>
+<div class="card"><div class="title">Forest expansion, farmland transition, and grain–ecological change in Henan, China: a coupled secondary-data analysis<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Zheng-Yang Fang</div>
+<div class="meta-line">Venue: Frontiers in Forests and Global Change</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7cd747a73203ba1f48ea511c8e0aee3c3e4977ea">Abs</a> · <a href="https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2026.1987166/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ In a major grain-producing province, forest expansion, cropland contraction and grain-output change are often discussed as a single conservation–production trade-off. This study examines whether that framing is supported when land-transition pathways, grain-production accounting and ecological outcomes are aligned explicitly across common time intervals.
+ 
+ 
+ 
+ We integrate five benchmark years (2000, 2005, 2010, 2015 and 2020) from official grain statistics and published datasets on land use, ecosystem services and cultivated-land emergy accounting. Independent land-transition matrices decompose gross cropland loss by destination, while grain output is separated into sown-area and yield components. A coupled interval diagnostic aligns transition shares, grain changes and ecosystem-service trajectories for 2000–2010 and 2010–2020. Candidate policy, socioeconomic, management and biophysical drivers are interpreted after the observed trajectories are established by triangulating the integrated results with Henan-specific and national source evidence.
+ 
+ 
+ 
+ Mapped cropland declined by 7.5% from 2000 to 2020, forest area increased by 8.9% and built-up land by 55.6%, while grain production increased by 66.4%. In both decadal transition matrices, about 13.7% of gross cropland loss moved directly to forest and 71.1–73.4% to built-up land; the remaining 13.0–15.2% moved mainly to water and grassland. Grain sown area increased by 18.9% and yield by 39.9%; in the logarithmic production identity, sown-area change represented 34.0% and yield change 66.0% of total output growth. Soil- and water-related services fell to a 2010 trough and then recovered, whereas carbon storage and habitat quality declined modestly. Net ecological supply in the separate emergy framework increased by 69.8%.
+ 
+ 
+ 
+ Henan’s 2000–2020 trajectory is best understood as the interaction of urban expansion, agricultural intensification and service-specific environmental controls. Built-up conversion was the dominant direct destination of lost cropland, while larger annual sown area and higher yield supported continued grain-output growth. The reversal of soil- and water-related services after 2010, despite a stable cropland-to-forest share, is consistent with strong hydroclimatic, topographic, vegetation and accessibility-related controls. These findings highlight the need to coordinate cropland protection, urban land management and service-specific ecological restoration in major grain-producing regions.
+</div></details>
+</div>
+<div class="card"><div class="title">Quantifying environment-dependent global antibiotic resistance gene risk patterns and mitigation scenarios using integrated machine learning and counterfactual scenario evaluation.<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Han-Shu Zhang, Yong-Peng Zhang, Jian-Qiang Su, Yi-Liang He, Peng Li...</div>
+<div class="meta-line">Venue: Journal of environmental management</div>
+<div class="meta-line">Published: 2026-10-29</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4a60ad01e3ecaac4c9ad552bd4f0047fabfec993">Abs</a> · <a href="https://doi.org/10.2139/ssrn.6763498">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Environmental antibiotic resistance genes (ARGs) pose major ecological and public health risks, yet environmentally conditioned risk patterns and mitigation potential remain poorly quantified. This study aimed to characterize global ARG risk patterns, identify associated environmental and agricultural factors, and evaluate potential mitigation scenarios using an integrated machine learning framework. Using 274,382 sample-ARG-environment records and 150 environmental and agricultural variables, quantile models characterized conditional risk index (RI) distributions and upper-tail risks, multi-model analysis assessed predictive variable importance, and DML estimated covariate-adjusted conditional associations. Heterogeneity was assessed across habitats, countries, and ARG categories, followed by directionally constrained counterfactual evaluation of multi-factor mitigation scenarios. Global ARG risk varied strongly with environmental conditions. In predictive importance analyses, winter temperature anomalies, manure nutrient loading, and pesticide application were important for upper-tail RI prediction. Separately, DML identified positive conditional associations of RI with insecticide application, cropland nutrient surplus, and manure loading, and negative associations with nutrient use efficiency. These associations varied across habitats, particularly soil, crop roots, freshwater, and biological waste environments. Under a predefined 50% predicted RI reduction target, nine-factor adjustment reduced mean standardized adjustment distance by 69.1% relative to single-factor adjustment, although outcomes varied among ARG categories. These model-based findings support global ARG risk characterization and management prioritization within the One Health framework, subject to empirical validation.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
