@@ -23670,5 +23670,81 @@
   "doi:10.1016/j.jenvman.2026.131232": {
     "source": "top_journal",
     "title": "Quantifying environment-dependent global antibiotic resistance gene risk patterns and mitigation scenarios using integrated machine learning and counterfactual scenario evaluation."
+  },
+  "arxiv:2611.07081v1": {
+    "source": "arxiv",
+    "title": "Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving"
+  },
+  "arxiv:2611.07463v1": {
+    "source": "arxiv",
+    "title": "FREE-LIVO: Physically Decoupled Yet Tightly Coupled LiDAR-Inertial-Visual Odometry"
+  },
+  "arxiv:2611.06593v1": {
+    "source": "arxiv",
+    "title": "BudgetSplat: Budget-Controllable Generalizable Gaussian Splatting"
+  },
+  "arxiv:2611.07955v1": {
+    "source": "arxiv",
+    "title": "Rotation Is Token-Blind: A Structural Criterion for Post-Training Quantization of Feed-Forward Geometry Transformers"
+  },
+  "doi:10.67541/jdc2612": {
+    "source": "top_journal",
+    "title": "Deep Learning Based Dynamic Object Filtering for Semantic Information Assisted Visual LiDAR SLAM in Dynamic Scenes"
+  },
+  "arxiv:2611.06849v1": {
+    "source": "arxiv",
+    "title": "Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos"
+  },
+  "arxiv:2611.07709v1": {
+    "source": "arxiv",
+    "title": "AffineGS: Unlocking Accurate Geometry in 3DGS via Spatially Varying Affine Rectification"
+  },
+  "arxiv:2611.07613v1": {
+    "source": "arxiv",
+    "title": "Towards Real-Time Full-Waveform LiDAR Transformers via Intensity-Guided Token Reduction and Physics-Aware Augmentation"
+  },
+  "arxiv:2611.05359v2": {
+    "source": "arxiv",
+    "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs"
+  },
+  "doi:10.1186/s44147-026-01306-x": {
+    "source": "top_journal",
+    "title": "Dual-modality BEV fusion with feature reconstruction for 3D object detection"
+  },
+  "arxiv:2611.07902v1": {
+    "source": "arxiv",
+    "title": "XM4D: 4D Reconstruction through Certifiable Geometric Optimization"
+  },
+  "arxiv:2611.07575v1": {
+    "source": "arxiv",
+    "title": "Georeferenced Cross-View 3D Reconstruction from Ground and Satellite Images"
+  },
+  "arxiv:2611.06588v1": {
+    "source": "arxiv",
+    "title": "FOSCo-Net: Ego-centric Voxel Completion for Forest LiDAR Occlusions"
+  },
+  "arxiv:2610.41190": {
+    "source": "top_journal",
+    "title": "FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation"
+  },
+  "arxiv:2611.07909v1": {
+    "source": "arxiv",
+    "title": "EDGAR: Efficient Diffusion-Driven Gaussian Avatar Refinement via Synthetic Failure"
+  },
+  "arxiv:2611.07555v1": {
+    "source": "arxiv",
+    "title": "MetricTrail: Revisiting the Power of Metric Depth and Local Optimization for Long-Sequence Streaming 3D Reconstruction"
+  },
+  "doi:10.1007/s00530-026-02758-0": {
+    "source": "top_journal",
+    "title": "SyncSplat: synchronized pose optimization and geometrically consistent Gaussian splatting from sparse views"
+  },
+  "arxiv:2611.06974v1": {
+    "source": "arxiv",
+    "title": "T$^2$-Splat: Adaptive Topology Mesh Splatting with Texture Residuals"
+  },
+  "doi:10.1021/acsami.6c15891": {
+    "source": "top_journal",
+    "title": "Laser-Fabricated Ordered Tri-Level Hemispherical Microstructures for Flexible Pressure Sensors with Ultrahigh Sensitivity over a Wide Linear Range."
   }
 }
