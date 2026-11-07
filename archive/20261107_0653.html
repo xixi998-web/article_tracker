@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-07 06:53 · Core 11 · Proxy 3 · Eco 3</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Impacts of Opuntia ficus-indica cultivation on soil physicochemical properties across semi-arid and arid ecosystems of Tigray region, Northern Ethiopia<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: Tsegay Lijalem, Tesfay Asgele, Zefere Mulaw, Gebreegziabher Zereu, T. Gebrehiwet</div>
+<div class="meta-line">Venue: Discover Environment</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3bb772e7c1a2f9e937224e007f8af54190c98182">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44274-026-01164-7.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Cactus species is increasingly recognized as a nature-based solution for restoring degraded drylands, yet quantitative evidence of its influence on soil quality across contrasting arid environments remains limited. This study evaluated the effects of three cactus canopy covers (bare, scattered, and dense) on soil physicochemical properties in two zones (EST=Eastern zone and SE=Southeastern zone) of Tigray, Ethiopia. Soil samples were analyzed for key indicators of soil quality, including moisture content (MC), bulk density (BD), pH, electrical conductivity (EC), soil organic carbon (SOC), total nitrogen (TN), available phosphorus (P), exchangeable bases potassium (K), calcium (Ca), magnesium (Mg), sodium (Na), and cation exchange capacity (CEC). Results showed that canopy cover significantly (p &lt; 0.05) influenced SOC, TN, P, and exchangeable cations with dense canopy exhibiting the highest values. Soil moisture content was significantly (p &lt; 0.05) higher in SE than in EST, whereas soil pH also varied significantly between the two sites. In contrast, bare soils consistently showed the lowest nutrient status, indicating severe soil degradation. The findings demonstrate that cactus vegetation acts as an ecosystem engineer by creating fertility islands that promote nutrient accumulation and improve soil functioning in dryland ecosystems. Integrating cactus-based vegetation management into restoration programs may therefore be an effective strategy for enhancing soil quality and supporting sustainable land management in semi-arid and arid regions.</div></details>
+</div>
+<div class="card"><div class="title">Spatio-temporal evolution and driving mechanisms of soil acidification in an intensive agricultural region of Northern China<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Yi Yang, Wei-Jie Wang, Xiao-Guang Zhang, Shu-Qi Xiao, Jia-Ying Yang...</div>
+<div class="meta-line">Venue: Environmental Monitoring and Assessment</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c96124f6a02050c758ec865599c1c238ff929da9">Abs</a></div>
+</div>
+<div class="card"><div class="title">ENHANCING SOIL PROPERTIES AND CAPSICUM (CAPSICUM ANNUUM VAR. GROSSUM L.) PRODUCTIVITY THROUGH THE APPLICATION OF RICE STRAW-DERIVED BIOCHAR<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Rabeka Sultana Smriti, Ashek Mohammad, A. Barman, Z. Alam, S. Sultana...</div>
+<div class="meta-line">Venue: International Journal of Science and Research Archive</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/925be6919c936757e622493835d723017f228e7e">Abs</a> · <a href="https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2026-1814.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Capsicum, often known as sweet pepper (Capsicum annuum var. grossum L.), is becoming more and more popular in Bangladesh as a vegetable. However, a number of obstacles must be overcome for its production to occur, such as limited cation exchange capacity, poor soil fertility, fast mineralization of soil organic matter, and acidity of the soil. These problems are addressed by applying biochar, a carbon-rich biomass made by pyrolysis under low or no oxygen conditions, as a soil amendment. The purpose of this research was to evaluate how applying biochar affected the qualities of the soil and the production of capsicum in the experimental fields of the Soil Science Department at Bangabandhu Sheikh Mujibur Rahman Agricultural University (BSMRAU), Salna, Gazipur 1706. The treatments included T0 (control, no biochar), T1 (2.5 t/ha biochar), T2 (5.0 t/ha biochar), T3 (7.5 t/ha biochar), and T4 (10.0 t/ha biochar). The experiment followed a Randomized Complete Block Design (RCBD) with three replications. Two capsicum genotypes, BU capsicum 1 (G-1) and a capsicum line (G-2), were used as test crops. Biochar application improved soil properties, such as increasing pH, organic carbon (OC), cation exchange capacity (CEC), and the content of nitrogen, phosphorus, and sulfur. Soils amended with rice straw biochar showed significantly higher plant height, fruit number, fruit length, fruit weight, and capsicum yield compared to untreated soils. The most notable improvement in plant growth due to biochar was reflected in the biomass yield. Fruit yield varied significantly, ranging from 54.17 t/ha (T0) to 88.36 t/ha (T2) for G-1 and 92.44 t/ha (T2) for G-2. These findings suggest that converting rice residues into biochar and applying it to soil has significant potential to enhance capsicum production and improve soil health. Farmers are encouraged to apply 5.0 t/ha of rice residue-derived biochar to sustainably increase capsicum yields and improve soil quality.</div></details>
+</div>
+<div class="card"><div class="title">Short‐term surface soil responses to compost rate during peach orchard establishment on sandy Ultisols<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: T. Dam, Binaya Parajuli, Pratima Poudel, Jeffrey Hopkins, Guido Schnabel...</div>
+<div class="meta-line">Venue: Soil Science Society of America Journal</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/193b1977ded72072c2fc85fd80974b6f4dc2e8c5">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/saj2.70392">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Compost amendment can improve soil health, but rate‐dependent responses in sandy orchard soils remain insufficiently characterized. This study evaluated the short‐term effects of compost application on soil physical, chemical, and biological properties during the first 2 years of peach (
+ Prunus persica
+ (L.) Batsch) orchard establishment on a sandy Ultisol at Clemson University&#x27;s Musser Fruit Research Center in South Carolina. Compost was incorporated into soils before planting at rates of 25.6 (1x treatment) and 51.2 Mg ha
+ −1
+ (2x treatment) in 2019, followed by annual spring surface applications at rates of 8.5 and 17.0 Mg ha
+ −1
+ for the 1x and 2x treatments, respectively. A no‐compost control (CT) was included for comparison. Surface soil (0–15 cm) was sampled in spring and fall of 2020 and 2021. Compost increased soil moisture, pH, permanganate oxidizable carbon (C), potentially mineralizable nitrogen (N), extracellular enzyme activities associated with C, N, and phosphorus (P) cycling, and total C and N by the end of the study. In contrast, compost did not increase extractable inorganic N and P. Across most short‐term biological indicators, the increase from CT to 1x was more consistent than the increase from 1x to 2x, indicating limited additional functional gains at the higher compost rate. Overall, compost enhanced surface soil moisture, organic matter accumulation, and biologically mediated nutrient cycling more than short‐term inorganic nutrient pools under this fertilized orchard establishment system. These results suggest that moderate compost input may capture much of the near‐term surface soil functional benefit during peach orchard establishment on sandy Ultisols, although long‐term studies with deeper sampling, tree performance measurements, and economic analysis are needed to identify optimal compost rates for sustainable orchard production.
+</div></details>
+</div>
+<div class="card"><div class="title">Impact of half-amount fertilization patterns on antibiotic resistance gene dynamics in a soil-root-crop system on a long-term manure-amended farm.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Han Wang, Shi-Zhou Shen, Mu-Heng Liu, Shen-Wei Cheng, Cheryl Marie Cordeiro...</div>
+<div class="meta-line">Venue: Ecotoxicology and environmental safety</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b0f4a72a008ad3354010ee97a59e427da9a8a985">Abs</a> · <a href="https://doi.org/10.1016/j.ecoenv.2026.120995">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Optimizing manure recycling and mitigating antibiotic resistance gene (ARG) dissemination are critical for sustainable agriculture. This field study evaluated nutrient-matched half-dose fertilization regimes (T1: organic-chemical mix; T2: organic alone; T3: chemical alone) against conventional full-dose fertilization (TF) and a no-current-season-fertilizer control (CK) along the soil-root-crop continuum. Topsoil under T2 maintained a total nitrogen concentration (1.29 g·kg-1), showed a comparatively narrow nitrate concentration range (4.59-7.39 mg·kg-1), and decreased antibiotic residues by approximately 45% (20.41 μg·kg-1) relative to TF. Hierarchical partitioning showed that soil pH (27.20%) and available nitrogen-related variables had the largest relative explanatory contributions to bulk-soil ARG variation. The rhizosphere-root compartment showed strong microbiome filtering, with the highest relative explanatory contributions from Chloroflexi (96.60%) and WD2101_soil_group (98.10%), whereas bacterial profiles in washed edible tissue samples were most strongly associated with Pantoea and Sphingomonas (combined contribution 23.40%) among the measured genera. Under TF, higher nutrient and contaminant loading was associated with greater enrichment of key resistance genes (fexA, ISCR1, strA, tetQ) in roots and washed edible tissues (BCFRoot &gt; 1.0, TFTotal &gt; 1.0). Under equal macronutrient inputs, T1 and T2 reduced total bulk-soil ARG abundances by 60%-90% compared with TF (p &lt; 0.05), with no significant difference between them. T1 reduced the proportion of manure applied through partial synthetic substitution, whereas T2 retained organic substrate inputs at the reduced rate. Both regimes showed low root and tissue enrichment indices (BCFRoot ≤ 0.03, TFTotal ≤ 0.04), indicating markedly lower relative enrichment than TF. These findings support reduced-input fertilization as a promising strategy for mitigating resistome pressure; regulatory compliance and food-safety implications require separate evaluation.</div></details>
+</div>
+<div class="card"><div class="title">Silicon-Coated Phosphate Fertilizer Affects Soil Phosphorus Availability, Photosynthetic Performance, and Radish Tuber Biomass (Raphanus sativus L.)<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Willian Gonçalves Souza, Aline de Almeida Vasconcelos, Michel Antoni da Silva, M. A. Carnelossi, L. Dinis...</div>
+<div class="meta-line">Venue: Horticulturae</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4230eb23caaeccc5362416769367d400f4a76e39">Abs</a> · <a href="https://doi.org/10.3390/horticulturae12111367">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Phosphorus (P) availability in highly weathered tropical soils is limited by strong adsorption onto iron and aluminum oxides, reducing fertilizer efficiency. Silicon (Si) may modulate P dynamics by competing for adsorption sites. This study evaluated whether silicon-coated triple superphosphate (TSP) improves phosphorus use efficiency, physiological performance, and radish (Raphanus sativus L.) biomass in a greenhouse pot experiment. Six fertilizer treatments (0:0, 1:0, 1:1.5, 1:3, 1:4.5, and 1:6) were assessed using Mehlich-1 P, remaining P, apparent P recovery (PRR) based on whole-plant P uptake, chlorophyll a fluorescence (OJIP), gas exchange, and morpho-agronomic traits. Intermediate P:Si ratios improved extractable P, PRR, photosynthetic responses, and biomass accumulation. The 1:3 treatment gave the highest observed tuber fresh mass (29.38 g plant⁻¹), 66.7% above uncoated TSP (1:0). These associations support further investigation of calcium-silicate-coated TSP; the relative contributions of Si, Ca and possible soil-pH changes could not be separated in this experiment.</div></details>
+</div>
+<div class="card"><div class="title">Soil Health in Scrap Waste Environments: A CHNS and Physico-chemical Approach<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: R. A., Anila George</div>
+<div class="meta-line">Venue: Research Journal of Chemistry and Environment</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4a3ca44554c0d7d91622c15ac8f999f119975e45">Abs</a> · <a href="https://doi.org/10.25303/3012rjce1100119">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">A combined elemental (CHNS) and physico-chemical
+analytical approach was employed to assess the impact
+of scrap debris on soil quality in Attingal Municipality,
+Kerala. During pre-monsoon and post-monsoon
+periods, 66 soil samples were collected at three depth
+intervals (0–15 cm, 15–30 cm and 30–45 cm) from ten
+scrap collection sites and five control locations. CHNS
+elemental analysis revealed that scrap-affected soils
+exhibited elevated sulfur (S), reduced organic matter
+and extreme C/N ratios, indicating poor decomposition
+and pollution. In contrast, control sites contained
+significantly higher levels of carbon (C), nitrogen (N)
+and hydrogen (H).
+Physico-chemical measurements showed that scrap
+sites had acidic pH, increased electrical conductivity
+(EC) and higher bulk density whereas control sites
+showed neutral pH, low EC and greater organic carbon
+content. Post-monsoon samples showed slight
+improvements in water holding capacity (WHC),
+moisture content, C and N, indicating seasonal
+recovery. These findings demonstrate that CHNS
+profiling, combined with physico-chemical assessment,
+is effective for identifying pollution stress and guiding
+soil remediation in urban areas affected by scrap
+debris.</div></details>
+</div>
+<div class="card"><div class="title">Activated chardigestate mixture for the restoration of salinized soils in the commune of Enampore (Lower Casamance, Senegal): Effects on pH, electrical conductivity (EC) and salinity<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Diedhiou Ansoumane, Fatoumata Manga Jeannette, Traore Sada, Ndiaye Momath, Ben Ammar</div>
+<div class="meta-line">Venue: African Journal of Environmental Science and Technology</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4b8cf9ea677f6bfad02f9812cbb2803ffa0e78a3">Abs</a> · <a href="https://academicjournals.org/journal/AJEST/article-full-text-pdf/92BC71375089">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil salinization severely degrades agricultural land in Lower Casamance.Seawater intrusion into the river system reduces rice field fertility, restricting growth and causing land abandonment, particularly in the Enampore commune.Existing technical solutions, such as anti-salinity dykes and chemical fertilizers, remain partial or harmful to soil properties in the medium term.This study proposes a sustainable alternative using local resources, evaluating activated charcoal from ditakh shells and cow dung digestate to restore these soils.Three soil types (cultivated, uncultivated, and abandoned) underwent four treatments (inactivated charcoal, activated charcoal, digestate, and an activated charcoal-digestate mixture) at three mass application rates: 20, 30, and 40% (10, 15, and 20 g per 50 g of soil).Soil pH, electrical conductivity (EC), and salinity were monitored over 30 days.Results indicate that all amendments correct acidity and alter salt dynamics through distinct kinetics.Activated charcoal works via adsorption and high porosity, while digestate primarily supplies mineral elements.The 40% (20 g) activated charcoal and digestate mixture proved most effective, especially on abandoned land, where pH (3.95) neared neutrality (7.3) within a month and salinity dropped drastically (2.5 to 1.6).These local organic inputs represent a major ecological solution for agricultural resilience.</div></details>
+</div>
+<div class="card"><div class="title">EMPLOYING CYANOBACTERIA SP. IN BIOREMEDIATION OF SALINE SOILS TO REDUCE WATER POLLUTION<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: A. G. Abid, I. Gatea, Qusay A. Abdulameer, Adawia B. Sabir, Ansam S. Sabie</div>
+<div class="meta-line">Venue: GSC Advanced Research and Reviews</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/87005d22a35ca8c532a1b31d264737a98f1d4f86">Abs</a> · <a href="https://gscarr.gsconlinepress.com/sites/default/files/fulltext_pdf/GSCARR-2026-0249.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study evaluated the influence of surface-applied wet algal biomass on key physicochemical properties of saline soil collected from the Abu Ghraib region of central Iraq. The algal mixture, a naturally occurring consortium obtained from a freshwater canal located within the University of Baghdad, was taxonomically identified as belonging to four major algal classes: Bacillariophyceae, Chlorophyceae, Cyanophyceae, and Zygnemataceae. These indigenous algae were applied to the soil surface to assess their capacity to modify salinity-related parameters through biological and physicochemical mechanisms. Temporal measurements of electrical conductivity (EC), total dissolved solids (TDS), NaCl percentage, and pH over 24, 48, 72, and 96 hours revealed distinct differences between the Control and algae-amended soils. The untreated Control showed a steady increase in EC, TDS, and NaCl%, indicating progressive dissolution and mobilization of inherent salts within the saline soil matrix. In contrast, soils treated with the algal mixture showed reductions in EC and TDS at most time points, reflecting decreased ionic strength and lower dissolved salt concentrations. NaCl% also declined at later intervals in algae-amended treatments, suggesting effective ion immobilization through biosorption, bioaccumulation, and organic matter interactions associated with the algal biomass. Soil pH remained relatively stable but exhibited slight alkalinization in some treatments, consistent with the release of basic cations and the decomposition of algal organic matter. Collectively, these results demonstrate that indigenous freshwater algae possess significant potential for reducing salt mobility and modifying the chemical behavior of saline soils when applied to the soil surface. The findings underscore the value of native algal communities as sustainable, low-cost bioremediation agents for managing salinity in agricultural systems such as those in Abu Ghraib. Furthermore, the study highlights the necessity of employing multiple salinity indicators (EC, TDS, NaCl%, pH) to capture the complex suite of interactions governing soil algae salt dynamics.</div></details>
+</div>
+<div class="card"><div class="title">Disentangling Pathogen Pressure, Disease Expression, and Yield Loss in Soybean Sudden Death Syndrome in Michigan.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ryan Hamilton, A. Byrne, Angela Tenney, H. Sang, De-Chun Wang...</div>
+<div class="meta-line">Venue: Phytopathology</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5b17e4ca6b68f46343f4804f8121b28996f4db5b">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soybean sudden death syndrome (SDS), caused by Fusarium virguliforme, is a major constraint to soybean (Glycine max) production in North America, yet disease expression and yield loss remain highly variable across environments. From 2017 to 2024, field trials were conducted across 66 site-years in Michigan to evaluate the relative contributions of pathogen pressure, edaphic factors, and management inputs to SDS development and soybean yield. Fusarium virguliforme DNA abundance and soybean cyst nematode (SCN; Heterodera glycines) density were quantified, alongside soil properties, root disease index (RDX), foliar disease index (FDX), and yield, using linear mixed models and multivariate analyses. Across site-years, F. virguliforme DNA abundance and SCN density were consistent predictors of both FDX and yield, while soil pH was significantly associated with pathogen abundance, disease expression, and yield. However, FDX itself was not consistently aligned with yield loss, and substantial yield reductions were observed in the absence of visible foliar symptoms. Significant seed treatment effects were not detected across all site-years but were detected among site-years under high disease pressure, with yield and revenue benefits confined to site-years characterized by elevated pathogen pressure. Similarly, cultivar SDS tolerance reduced disease and protected yield under specific conditions but was not consistently effective across environments. These results demonstrate that SDS is best understood as a context-dependent disease complex structured by interacting soilborne pathogens and environmental gradients, with management inputs exerting secondary, conditional effects. Collectively, these findings support diagnostic-informed, risk-stratified strategies for integrated SDS management.</div></details>
+</div>
+<div class="card"><div class="title">Optimization of Plant Spacing and Fertilizer Inputs for Enhanced Teff Productivity and Nutrient-Use Efficiency<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Manjunath S. Melavanki, B. Boraiah, Kamsali Sukeswara Achari, Shreyas Bagrecha, T. Chandrakar</div>
+<div class="meta-line">Venue: Journal of Scientific Research and Reports</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/da3c1b53c765d7cf77a5417d6f51f0bdec47925b">Abs</a> · <a href="https://doi.org/10.9734/jsrr/2026/v32i114682">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Background: Teff (Eragrostis tef (Zucc.) Trotter) is an underutilised cereal crop with potential for diversification of dryland farming systems due to its adaptability and nutritional value. However, standardised agronomic recommendations for teff cultivation in India remain limited, particularly regarding optimal planting geometry and fertiliser management for improving crop productivity and nutrient-use efficiency. 
+Aims: To evaluate the effects of planting geometry and nutrient management on teff yield, nutrient-use efficiency, and post-harvest soil chemical properties to develop suitable agronomic recommendations. 
+Study Design: Factorial randomised block design with ten treatment combinations and three replications. 
+Place and Duration of Study: Zonal Agricultural Research Station, Gandhi Krishi Vignana Kendra, University of Agricultural Sciences, Bengaluru, Karnataka, India, during the Kharif season of 2021. 
+Methodology: The experiment comprised two planting geometries (30 × 10 cm and 45 × 10 cm) and five nutrient treatments: 50%, 75%, 100%, and 125% of the recommended dose of fertilisers (RDF; 20:20:20 kg ha-1 of N: P2O5:K2O) and an absolute control. Farmyard manure (FYM) was applied at 6 t ha-1 to all treatments except the absolute control. Brown-seeded teff was harvested at 110 days after sowing. Yield parameters, nutrient-use efficiencies, and post-harvest soil pH, electrical conductivity, and organic carbon were assessed. Data were analysed using analysis of variance at the 5% significance level. 
+Results: Planting geometry significantly influenced grain and straw yields. Narrow spacing (30 × 10 cm) recorded higher grain (2.37 q ha-1) and straw (3.65 q ha-1) yields than wider spacing (2.04 and 3.34 q ha-1, respectively). Among nutrient treatments, 100% RDF produced the highest grain yield (2.73 q ha-1), whereas 125% RDF recorded the highest straw yield (4.36 q ha-1). Test weight and harvest index were not significantly affected. Agronomic efficiency and phosphorus physiological efficiency were highest under 100% RDF, reaching 5.00 and 4.81 kg kg-1, respectively, at 30 × 10 cm spacing and 4.95 and 4.87 kg kg-1, respectively, at 45 × 10 cm spacing. Nitrogen recovery efficiency peaked under 125% RDF at 12.31% and 14.73% for the two respective spacings. Treatment interactions did not significantly affect grain or straw yield. Soil pH, electrical conductivity, and organic carbon were not significantly affected. 
+Conclusion: Planting teff at 30 × 10 cm with 100% RDF and FYM at 6 t ha-1 may offer a suitable strategy for improving grain yield and nutrient-use efficiency in the Eastern Dry Zone of Karnataka (Zone-V).</div></details>
+</div>
+<div class="card"><div class="title">Sistem Pendeteksi Penyakit dan Pemantauan Kondisi Tanah serta Rekomendasi Pengendaliannya pada Tanaman Cabai<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Alhafiz Zhurrahman Mirza Utama, Rifki Suwandi, Lathifah Arief</div>
+<div class="meta-line">Venue: CHIPSET</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/81400df0dbb9db1afe36f24cdc011d0d33039837">Abs</a> · <a href="https://chipset.fti.unand.ac.id/index.php/chipset/article/download/282/117">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The cultivation of chili plants faces challenges in early disease detection and accurate soil condition monitoring, which can potentially reduce crop yields and increase the risk of plant damage. This research aims to develop a disease detection and soil condition monitoring system based on Raspberry Pi, utilizing the You Only Look Once (YOLO) version 5 algorithm to detect diseases in chili plants from images captured by a camera. The system uses Raspberry Pi 4B as the data processing center, with a camera for capturing plant images and pH and soil moisture sensors to monitor soil conditions. The data obtained is used to provide better handling recommendations for farmers. Test results show that this system can detect plant diseases with 87.5% accuracy and an F1-score of 93.3% at a distance of 5 to 25 cm, although the accuracy decreases at distances greater than 25 cm. Furthermore, soil condition measurements provide important information about soil pH and moisture, helping farmers make more informed decisions in maintaining plant health. All disease detection and soil condition information is displayed on an LCD screen connected to the Raspberry Pi, making the system user-friendly for farmers. Therefore, this system is expected to be an effective solution for increasing crop yields and reducing losses due to diseases in chili plants, and it can be more broadly applied in the agricultural sector.</div></details>
+</div>
+<div class="card"><div class="title">A Comparative Assessment of the Effects of Industrial Wastewater and Rainwater Irrigation on Soil Characteristics in the Vidarbha Region of Maharashtra<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: G. Tambatkar</div>
+<div class="meta-line">Venue: International Journal for Research in Applied Science and Engineering Technology</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/43e461aa7bf17591b0d6b46d7cedef8233adfc48">Abs</a> · <a href="https://doi.org/10.22214/ijraset.2026.85548">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The safe disposal of industrial wastewater has become a major challenge for industrial managers and scientists. Rapid
+industrialization and urbanization have resulted in the generation of enormous quantities of wastewater. The use of untreated
+industrial wastewater for crop irrigation is a common practice among farmers. One potential solution to the growing problem of
+water scarcity is the reuse of industrial and domestic wastewater for agricultural and related activities after appropriate
+treatment. The present research work investigates the effects of industrial wastewater irrigation on the soil characteristics of
+nearby areas in Buldhana District, Vidarbha region, Maharashtra, India. The data obtained in the present study indicate that
+electrical conductivity (EC), phosphate, total solids (TS), total dissolved solids (TDS), total suspended solids (TSS), calcium (Ca),
+and magnesium (Mg) exhibit higher values in fertilizer industry wastewater, whereas pH, total alkalinity (TA), total hardness
+(TH), and chlorine (Cl₂) exhibit maximum values in sewage water from the Khamgaon MIDC area. At sugar industry sites, the
+values of EC, temperature, phosphate, TDS, Ca, Mg, and Cl₂ are comparatively higher in wastewater. The concentrations of
+organic carbon, available nitrogen (N), potassium (K), phosphorus (P), sodium (Na), sulphate (SO₄), chloride (Cl), magnesium
+(Mg), iron (Fe), copper (Cu), zinc (Zn), and manganese (Mn) are comparatively higher in wastewater-irrigated soils than in
+tube-well-irrigated soils</div></details>
+</div>
+<div class="card"><div class="title">Applications and future potential of nano clay polymer composites in agriculture<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: S. Kaveri, G. Sridevi, P. Kannan, N. Vadivelu, M. Gnanachitra...</div>
+<div class="meta-line">Venue: Plant Science Today</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2bd623bd27ef8425a3d6feb194e20b92b8593bf8">Abs</a> · <a href="https://horizonepublishing.com/journals/index.php/PST/article/download/16847/16861">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Nanotechnology is showing promise as a revolutionary strategy to improve crop productivity, environmental sustainability and resource efficiency. Nano clay polymer composites (NCPCs) have drawn considerable interest among advanced nanomaterials because of their distinct physicochemical characteristics and broad agricultural applications. Montmorillonite, Bentonite and Hectorite are examples of nano clays, which are layered silicate minerals with large surface area, nanoscale dimensions and potent adsorption capabilities. They form hybrid materials with enhanced mechanical strength, thermal stability and barrier properties when integrated into polymer matrices. Water, nutrients and agrochemicals flow through a convoluted diffusion pathway created by the layered structure of nano clays, allowing for regulated and prolonged release. The NCPCs can have phase-separated, intercalated, or exfoliated structures depending on how they are dispersed within the polymer matrix; exfoliated forms function better. In agricultural applications, NCPCs function as soil conditioners, smart fertiliser carriers and plant protection delivery systems. They improve soil aggregation, enhance water retention and increase nutrient availability, particularly in coarse-textured soils. Nano-enabled fertilisers facilitate synchronised nutrient release, improving nutrient use efficiency while minimising leaching and volatilisation losses. Emerging applications include delivery of nucleic acids for plant disease management, antimicrobial crop protection and micronutrient nanocomplexes that enhance bioavailability and soil biological activity. Overall, NCPCs offer a promising pathway toward sustainable and precision agriculture, Future research should focus on developing biodegradable polymer systems, optimising scalable synthesis methods, conducting long term field evaluations and estabilishing regulatory frameworks to enable their safe and agricultural application.</div></details>
+</div>
+<div class="card"><div class="title">AGRICULTURAL CROP-RESIDUE WASTE CONVERTED INTO ELECTRICITY IN INDIA<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: R. Chalannavar, Hosamani Pa, Deepika Gupta, R. B. Malabadi</div>
+<div class="meta-line">Venue: World Journal of Advanced Engineering Technology and Sciences</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8993bf8b4c7d5b11af06ea275b3b72a35a05ea4f">Abs</a> · <a href="https://wjaets.com/sites/default/files/fulltext_pdf/WJAETS-2026-0470.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The importance of adopting a “waste-to-wealth” approach lies in reusing waste as a valuable resource rather than an economic burden and environmental issue. India’s agricultural residues have the potential to generate over 18,000 MW of power annually. Biogas plants are a progressive step taken by the Government of India to curb crop burning to prevent pollution. In India, as agriculture plays a pivotal role in ensuring food and nutritional security, it also generates significant waste during cultivation, harvesting, and processing. Agricultural waste is generated throughout the journey from farm to food plate. Inadequate management of agricultural waste has become a substantial source of environmental contamination affecting air, soil, and water. Agricultural waste management in India presents both significant challenges and opportunities. Traditional practices, particularly crop residue burning, although ingrained, are often unsustainable and environmentally damaging. Residue burning leads to the depletion of soil nutrients, degradation of soil health, and the emission of greenhouse gases. The implementation of advanced waste valorization methods, like thermochemical and biochemical processes, can transform agricultural waste into valuable products, contributing to the circular economy and sustainable development. Various agricultural wastes are generated in large amounts with different compositions, which plays an important role in selecting suitable velarization methods. Addressing the technical, financial, social, cultural, and institutional barriers is crucial for the successful implementation of sustainable waste management. Effective policy implementation is crucial for promoting sustainable agricultural waste management practices in India.</div></details>
+</div>
+<div class="card"><div class="title">QUALITATIVE ENVIRONMENTAL ASSESSMENT OF DIYALA RIVER WATER UPSTREAM OF ITS CONFLUENCE WITH THE TIGRIS RIVER: AN ANALYTICAL STUDY OF PHYSICOCHEMICAL PARAMETERS AND HEAVY METALS<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: AM Mohammed, Anas Abdulrazzaq Mohammed, I. Gatea, Luay Q. Hashim</div>
+<div class="meta-line">Venue: GSC Advanced Research and Reviews</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c0912d8f4568c07ffff4a30220ee4044dad5d251">Abs</a> · <a href="https://gscarr.gsconlinepress.com/sites/default/files/fulltext_pdf/GSCARR-2026-0233.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The lower reach of the Diyala River, southeast of Baghdad, is a vital river system that is nonetheless suffering severe degradation due to persistent human pressures and infrastructure deficiencies. This study assesses the spatial distribution of major untreated sewage outfalls and quantifies the associated environmental risks to nearby residential and urban communities. This study aimed to assess Diyala River water quality by analyzing a range of physical and chemical characteristics at several monitoring sites during the summer and winter seasons, comparing the results against Iraqi standard limits to determine water suitability and identify key pollution sources. The study measured pH, electrical conductivity, turbidity, dissolved and suspended solids, total hardness, cations and anions, nutrients, organic matter, oils, and heavy metals. The results revealed variations across study sites between the summer and winter seasons; while pH values remained within the standard range (7.3–8), concentrations of dissolved salts, electrical conductivity, and total hardness at certain sites exceeded standard limits for river water, reaching levels of 2,173, 4,180, and 1,800 mg/L, respectively, particularly during the summer. Nitrate and phosphate concentrations at several locations exceeded acceptable limits, reflecting the impact of agricultural activities and untreated domestic wastewater discharged into the river. Meanwhile, elevated levels of Chemical Oxygen Demand (COD) and oil were observed, reaching 105 mg/L and 9.8 mg/L, respectively, at certain sites, indicating organic pollution resulting from discharged wastewater. Lead concentrations also exceeded permissible limits for river water; however, concentrations of other elements remained within the acceptable limits established by the Iraqi Ministry of Environment for river water quality assessment.</div></details>
+</div>
+<div class="card"><div class="title">OPTIMIZATION OF ELEMENTS OF SOYBEAN GROWING TECHNOLOGY IN THE CONDITIONS OF THE RIGHT-BANK FOREST-STEP<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: H. Pantsyreva, V. Kovalchuk</div>
+<div class="meta-line">Venue: Agriculture and Forestry</div>
+<div class="meta-line">Published: 2026-10-31</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/bcf3ef0c7ad3745bde0fb7de9b5fd33f58d31979">Abs</a> · <a href="http://forestry.vsau.org/storage/articles/October2026/IgF8OmOTB8ehUykYo0bB.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The article presents the results of studies on the effectiveness of the use of biological preparations and organo-mineral fertilizer in the technology of growing soybeans of the Koroleva variety in the conditions of the Right-Bank Forest-Steppe. The research was conducted during 2024-2026 on the experimental field of the scientific research farm «Agronomichne» of Vinnytsia National Agrarian University on gray forest soils. The aim of the work was to determine the effect of pre-sowing seed treatment with the bacterial preparation Rizoline-r, bioprotector Rizosave-r and organo-mineral fertilizer Helprost Soya on the formation of structural elements of the soybean crop. The effectiveness of the studied technological methods was assessed by the indicators of the number of beans per plant, the average number of seeds in a bean and the mass of 1000 seeds. It was established that the highest values of the studied indicators were obtained with the complex use of Rizoline-r, Rizosave-r and Helprost Soya. In this variant, the number of beans was 16.4 pcs./plant, which was 33.3% higher than the control indicator (12.3 pcs./plant). The average number of seeds in a bean reached 2.60 pcs., which was 14.5% higher than the control (2.27 pcs.). The mass of 1000 seeds was 169.5 g, exceeding the control variant by 13.0 g, or 8.3%. The use of organo-mineral fertilizer Helprost Soya was also characterized by positive dynamics of the formation of structural elements of the crop. In particular, the mass of 1000 seeds was 164.2 g, which was 4.9% higher than the control. Pre-sowing seed treatment with the Rizoline-r + Rizosave-r complex provided an increase in this indicator to 161.8 g, or 3.4% compared to the control. The results obtained indicate the prospects of the integrated use of the studied preparations for improving the formation of structural elements of soybean yield of the Koroleva variety in the conditions of the Right Bank Forest-Steppe. The practical significance of the study lies in the possibility of using the obtained results for further improvement of biologized technologies of soybean cultivation. To confirm the stability of the established patterns, it is advisable to continue evaluating the impact of preparations on seed yield and economic efficiency of production.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
