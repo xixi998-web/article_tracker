@@ -23822,5 +23822,37 @@
   "doi:10.3390/min16111129": {
     "source": "top_journal",
     "title": "Electric Double Layers in Soils as Basis for Micro-Aggregation"
+  },
+  "arxiv:2611.08372v1": {
+    "source": "arxiv",
+    "title": "MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation"
+  },
+  "arxiv:2611.08330v1": {
+    "source": "arxiv",
+    "title": "InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image"
+  },
+  "arxiv:2611.08288v1": {
+    "source": "arxiv",
+    "title": "Hierarchical Incremental Beta Splatting for Online Reconstruction"
+  },
+  "arxiv:2611.00527": {
+    "source": "top_journal",
+    "title": "3D Neural Rendering for Automated Ultrasonic Laser Scans"
+  },
+  "arxiv:2611.06849v2": {
+    "source": "arxiv",
+    "title": "Trainspotting: Learning Object-Centric 3D Reconstruction from Found Photos"
+  },
+  "arxiv:2611.08142v1": {
+    "source": "arxiv",
+    "title": "Educational robotics beyond ROS: a custom library for direct transfer of Webots controllers in the Turtlebot3"
+  },
+  "arxiv:2611.08368v1": {
+    "source": "arxiv",
+    "title": "VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot Perception"
+  },
+  "arxiv:2611.08100v1": {
+    "source": "arxiv",
+    "title": "An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers"
   }
 }
