@@ -23922,5 +23922,101 @@
   "doi:10.37128/2707-5826-2026-4-19": {
     "source": "top_journal",
     "title": "OPTIMIZATION OF ELEMENTS OF SOYBEAN GROWING TECHNOLOGY IN THE CONDITIONS OF THE RIGHT-BANK FOREST-STEP"
+  },
+  "doi:10.1109/jsen.2026.3730883": {
+    "source": "top_journal",
+    "title": "HumetricNeRF: Leveraging Depth Sensor Fusion for Sparse-View Human Radiance Field Reconstruction"
+  },
+  "doi:10.1109/lra.2026.3732909": {
+    "source": "top_journal",
+    "title": "SparKLoc: Sparse Key-Gaussian Matching for 3D Gaussian-Based Visual Localization"
+  },
+  "doi:10.1109/tcsi.2026.3723808": {
+    "source": "top_journal",
+    "title": "A 135-FPS and 0.81-mJ/frame Heterogeneous Processor for Real-Time and Energy-Efficient LiDAR Odometry and Mapping"
+  },
+  "doi:10.1109/jsen.2026.3732664": {
+    "source": "top_journal",
+    "title": "A Reliable Target Recognition Method for Complex Scenarios Based on Multimodal Sensor Information Fusion"
+  },
+  "doi:10.1109/tcad.2026.3674446": {
+    "source": "top_journal",
+    "title": "NeMO: An Efficient Memory Access Architecture for Instant 3D Rendering"
+  },
+  "doi:10.1109/lra.2026.3734880": {
+    "source": "top_journal",
+    "title": "Depth Camera or RGB-to-Depth? A Study of RGB-to-Depth Estimation for Robot Policy Learning"
+  },
+  "doi:10.1007/s11042-026-21998-w": {
+    "source": "top_journal",
+    "title": "Efficient partial updates for 3D Gaussian Splatting to reflect real-world scene changes"
+  },
+  "doi:10.1109/tcsvt.2026.3713140": {
+    "source": "top_journal",
+    "title": "Multi-View 3D Reconstruction by Learning Robust Correspondence Structure With Shape Prior"
+  },
+  "doi:10.1109/lra.2026.3734905": {
+    "source": "top_journal",
+    "title": "DVFusion: Dual-View Attention and Geometry-Guided Fusion for 4D Radar-Camera 3D Detection"
+  },
+  "doi:10.1109/tcsvt.2026.3716507": {
+    "source": "top_journal",
+    "title": "RWSG: Region-Weighted Semantic Guidance for Pose-Free Sparse Multi-View Reconstruction"
+  },
+  "doi:10.1109/lra.2026.3732999": {
+    "source": "top_journal",
+    "title": "Zero-Shot Scene Geometry Recognition From Sparse Partial-View Images: Leveraging Generative Diffusion Models for Robotic Manipulation Tasks"
+  },
+  "doi:10.1109/tcsvt.2026.3718661": {
+    "source": "top_journal",
+    "title": "DepACM: A Depth-Aware Consistency Model for Real-Time Underwater Image Restoration"
+  },
+  "arxiv:2611.01537": {
+    "source": "top_journal",
+    "title": "Task-driven sparse-view planar X-ray computed tomography for axial metrology"
+  },
+  "doi:10.1016/j.jvcir.2026.104943": {
+    "source": "top_journal",
+    "title": "A 3DGS-enhanced VGGT with pseudo-ground truth for few-resource 3D reconstruction"
+  },
+  "doi:10.1007/s11263-026-03117-2": {
+    "source": "top_journal",
+    "title": "Feed-Forward Gaussian Splatting from Asymmetric Dual-Lens Stereo"
+  },
+  "doi:10.1016/j.xcrp.2026.103625": {
+    "source": "top_journal",
+    "title": "Ionic hydrogel sensors for low-latency high-accuracy 3D reconstruction of soft robotic endoscope"
+  },
+  "doi:10.1109/lra.2026.3732837": {
+    "source": "top_journal",
+    "title": "TransDex: Interaction Geometry Enables Robust Visuo-Tactile Dexterous Manipulation of Transparent Objects"
+  },
+  "doi:10.1109/tcsvt.2026.3718643": {
+    "source": "top_journal",
+    "title": "JLSDNet: Jointly Learning Structured Light and Depth Estimation for Active Stereo"
+  },
+  "arxiv:2611.01677": {
+    "source": "top_journal",
+    "title": "Xiaomi Auto World Model 2.0: Causal World Models for Real-World Driving and Embodied Intelligence"
+  },
+  "arxiv:2611.01627": {
+    "source": "top_journal",
+    "title": "EgoMo3R: Joint Egocentric Motion and Scene Reconstruction"
+  },
+  "doi:10.1007/s00530-026-02762-4": {
+    "source": "top_journal",
+    "title": "Enhanced 3D object detection through extended RoI pooling and point-voxel feature fusion"
+  },
+  "doi:10.1109/lra.2026.3734851": {
+    "source": "top_journal",
+    "title": "SSGT: Spatio-Sequential Graph Transformer for Skeleton-Based Person Re-Identification and Out-of-Set Detection"
+  },
+  "doi:10.1109/jssc.2026.3718715": {
+    "source": "top_journal",
+    "title": "MTDiff: A Multi-Task Diffusion Accelerator With Bandwidth-Aware Memory Partition and Efficient Digital Compute-in-Memory"
+  },
+  "doi:10.1109/tmc.2026.3711711": {
+    "source": "top_journal",
+    "title": "Task-Aware Joint Source-Channel Coding for Robust Vibrotactile Transmission"
   }
 }
