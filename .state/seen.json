@@ -24110,5 +24110,69 @@
   "doi:10.1007/s10653-026-03584-z": {
     "source": "top_journal",
     "title": "Heavy metals in Daye mining-district soils: source apportionment, multi-endpoint risk and pH–salinity association"
+  },
+  "arxiv:2611.02658": {
+    "source": "top_journal",
+    "title": "OctreeSplat: Hierarchical Octree-Guided Feed-Forward Gaussian Splatting"
+  },
+  "arxiv:2611.08731v1": {
+    "source": "arxiv",
+    "title": "eSharp: Diffusion-based Sharp Monocular Metric Event-to-Depth Estimation"
+  },
+  "arxiv:2611.02786": {
+    "source": "top_journal",
+    "title": "Local-Global Joint Modeling for Point Cloud Super-Resolution Guided by Multi-Scale Spatial Priors"
+  },
+  "arxiv:2611.02365": {
+    "source": "top_journal",
+    "title": "SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow"
+  },
+  "arxiv:2611.08946v1": {
+    "source": "arxiv",
+    "title": "Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents"
+  },
+  "arxiv:2611.08863v1": {
+    "source": "arxiv",
+    "title": "What Limits mmWave Human-State Sensing for Robot Perception?"
+  },
+  "arxiv:2611.08665v1": {
+    "source": "arxiv",
+    "title": "Dynamic GPU Voxel Grids and Voxel-sequential Processing in NanoVDB"
+  },
+  "arxiv:2611.02884": {
+    "source": "top_journal",
+    "title": "AnchorHEC: Targetless Hand-Eye Calibration of Wrist and Fixed Cameras"
+  },
+  "arxiv:2611.08782v1": {
+    "source": "arxiv",
+    "title": "Extrapolation Matters: Sparse-Only Depth Completion Beyond LiDAR Coverage"
+  },
+  "arxiv:2611.08645v1": {
+    "source": "arxiv",
+    "title": "From Geometry to Function: A Multi-Task LiDAR Benchmark Dataset for Semantic and Functional Parsing of Urban Facades"
+  },
+  "doi:10.3390/photonics13111038": {
+    "source": "top_journal",
+    "title": "Passive Multi-View 3D Reconstruction for Immersive Foreign-Language Interpreting Training Assessment in Intelligent Education: Balancing Cross-Scale Symmetry and Observation Asymmetry Under Non-Ideal Consumer-Camera Acquisition"
+  },
+  "doi:10.3390/app162110851": {
+    "source": "top_journal",
+    "title": "Multi-Criteria Azimuth Correction Method for Monocular Polarization 3D Reconstruction"
+  },
+  "doi:10.1177/10738584261496172": {
+    "source": "top_journal",
+    "title": "No Memory Is an Island: How Social Interactions Transform Autobiographical Memory."
+  },
+  "doi:10.3390/sym18111841": {
+    "source": "top_journal",
+    "title": "Autonomous Vehicle Navigation Using an Integrated Symmetric Multi-Sensor Information Fusion Approach"
+  },
+  "doi:10.1080/15472450.2025.2543825": {
+    "source": "top_journal",
+    "title": "Research on vehicle safety based on multi-sensor feature fusion for autonomous driving task"
+  },
+  "arxiv:2611.02857": {
+    "source": "top_journal",
+    "title": "Solv3R: 3D Looped Transformer as a Multi-view Solver"
   }
 }
