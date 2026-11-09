@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-09 07:43 · Core 8 · Proxy 2 · Eco 5</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Limited effect of basalt amendment and mycorrhizal inoculation on soil chemical properties and maize growth on a nutrient-rich soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">14</span></div>
+<div class="meta-line">Authors: Lucilla Boito, Jet Rijnders, Laura Steinwidder, P. Frings, Arthur Vienne...</div>
+<div class="meta-line">Venue: SOIL</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e956e84faf7ec0ab2e12e0ac0adf50ba38bef8d2">Abs</a> · <a href="https://soil.copernicus.org/articles/12/1057/2026/soil-12-1057-2026.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Enhanced weathering (EW) of silicate minerals has emerged as a promising carbon dioxide removal (CDR) strategy, with potential benefits for soil fertility and crop performance. However, the soil processes that determine these co-benefits remain poorly explained. In particular, interactions between basalt amendments and soil biota such as arbuscular mycorrhizal fungi (AMF) may influence nutrient mobilization and plant uptake, but these effects have rarely been quantified. In a 113 d mesocosm experiment with
+ Zea mays
+ using a Belgian, sandy loam Plaggic anthrosoil (pH = 5.6), we investigated the effect of basalt (applied at 50 t ha
+ −1
+ ) and AMF inoculation on soil properties, nutrient and heavy metal availability, and crop yield and quality. We also assessed potential AMF-driven bio-weathering via cation mass balance and pore water dissolved inorganic carbon (DIC), pH, and alkalinity measurements. In our experiment, basalt application, but not AMF, improved soil pH (+0.71 ± 0.14), cation exchange capacity (+0.43 ± 0.18 meq 100 g
+ −1
+ ), base saturation (+13.6 %± 3.5 %), and generally increased exchangeable Ca and Mg in the 0–40 cm soil profile (+80.2 ± 24.6 and +23.9 ± 4.4 mg per kg soil respectively), whereas most other nutrients in the pore water remained unaffected (all values are mean ± SE). Crop yield and quality were largely unaltered by basalt or AMF, except for an increase in plant Mg with basalt application. Moreover, heavy metal availability and plant uptake were also generally unaffected, with the notable exception of soil pore water and corn Ni, which increased with basalt (+0.02 ± 0.005 mg L
+ −1
+ ; +0.0002 ± 0.0001 mg per g dry biomass; mean ± SE). These results suggest that risks associated with heavy metal contamination are not generic, but may depend on local soil conditions. In our experiment, elevated background Ni concentrations likely contributed to pore water Ni concentrations exceeding the environmental quality standards of the European Union and Australia even in the control treatments. Finally, we found no clear evidence that AMF enhanced basalt weathering rates. Overall, AMF had limited influence on soil chemical fertility and crop performance. On the other hand, basalt application improved key soil chemical indicators and increased the exchangeable fractions of Ca and Mg, demonstrating its role as a soil improver. Unlike several studies conducted in more acidic soils however, these chemical enhancements did not increase maize growth here, suggesting limited short-term agronomic benefits of basalt under the fertile soil studied here.
+</div></details>
+</div>
+<div class="card"><div class="title">Long-Term Field-Based Evidence for Chemical Pathways Reducing Lead Bioaccessibility in Phosphorus-Amended Urban Soils<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: Eduardo Gutiérrez, Ganga M. Hettiarachchi, Amila D. E. Mudiyanselage</div>
+<div class="meta-line">Venue: Soil Systems</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e5674e410070c6ae385b501aa8a6bdb46e05affd">Abs</a> · <a href="https://doi.org/10.3390/soilsystems10110139">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil lead (Pb) is a major source of human lead exposure, especially for children. Phosphorus (P)-based amendments can transform Pb into stable Pb–phosphate minerals, reducing its bioaccessibility and the risk of human exposure. However, field-based studies in moderately contaminated urban soils are lacking. This study aimed to address this knowledge gap by evaluating the effectiveness of in situ P-based amendments in mitigating Pb exposure risks in three moderately to highly contaminated urban vacant lot sites in Kansas City, MO, with average total Pb concentrations ranging from 387 to 727 mg kg−1, under real field conditions. The study evaluated changes in soil chemical properties, Pb bioaccessibility, and Pb speciation following amendment applications to assess whether shifts in Pb speciation were associated with reductions in Pb bioaccessibility. Treatments included inorganic (commercial fertilizers) and organic (Class A biosolids) P sources, along with an untreated control. Phosphorus-based treatments significantly reduced Pb bioaccessibility over time, with maximum reductions of 34.1%, 52.3%, and 53.2% across the three study sites compared with the levels of the untreated control, with effects persisting for the duration tested (24 months). Bioaccessible Pb showed a positive relationship with soil pH and a negative relationship with resin-extractable P, indicating that increased P availability and slight soil acidification favored Pb immobilization into the more stable Pb-P phases, confirmed by XANES analysis, with pyromorphite comprising up to 34% of total Pb. These results suggest that P-based amendments effectively reduce bioaccessible Pb through precipitation and organic complexation mechanisms.</div></details>
+</div>
+<div class="card"><div class="title">Co-application of lime and Ca-Mg-B-Zn-Fe amendment reduces root rot incidence and enhances tobacco growth in a field trial<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Yi-Shuai Yang, Qian-Cheng Lu, Shi-Wen Zhu, Can Wang, Jun Wang...</div>
+<div class="meta-line">Venue: Frontiers in Plant Science</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/aa7ee7fdf3372ce5a6e2fcf24e48ce146a80165b">Abs</a> · <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1997294/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Soil acidification increases the incidence of soil-borne diseases, especially tobacco root rot. Lime and related amendments are widely applied to mitigate soil acidification and crop diseases, whereas their growth-promoting and disease-suppressive mechanisms remain elusive.
+ 
+ 
+ 
+ Using field experiments and high-throughput sequencing, this study investigated the effects of lime-based amendments on acidification alleviation, rhizosphere microbiota reshaping and tobacco root rot suppression. The field trial set five treatments: control (CK), lime alone (C1), lime combined with seaweed extract (C2), lime combined with organic fertilizer (C3), and lime combined with commercial Ca-Mg-B-Zn-Fe amendment (C4). Soil properties, disease incidence, and the agronomic traits of tobacco were measured. Microbial community profiling and co-occurrence network analysis were employed to establish linkages between treatment-driven microbial variations and tobacco plant health.
+ 
+ 
+ 
+ 
+ All treatments effectively alleviated acidification and reduced root rot incidence, with C4 showing the strongest efficacy, as evidenced by its increase in pH from 4.43-5.96 and reducing disease incidence by 62.05%. Lime-based amendments enriched beneficial taxa including
+ Gemmatimonas
+ ,
+ Pseudomonas
+ , and
+ Mortierella
+ , while suppressing the relative abundance of potential pathogenic Setophoma by up to 80.77%. Network analysis showed that C4 treatment shifted genus
+ Setophoma
+ from module hubs to peripheral positions and enhanced microbial network stability.
+ 
+ 
+ 
+ 
+ 
+ Collectively, lime combined with a Ca-Mg-B-Zn-Fe amendment was associated with alleviated soil acidification, lower root rot incidence, and a restructured rhizosphere community in which
+ Setophoma
+ declined and network topology shifted under C4. These field results identify a practical lime-based strategy for acidified tobacco soils.
+ 
+</div></details>
+</div>
+<div class="card"><div class="title">Microbial Inoculant Reduced Cadmium Accumulation in Triticum aestivum L. and Modulated Soil Bacterial Community Composition and Soil Enzyme Activities<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Wen-Hao Yang, Tong Sun, Bai-Wen Jiang, Yue-Bing Sun</div>
+<div class="meta-line">Venue: Microorganisms</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4bfeeffbf668de4d9922420db0da9cc273e4a2ad">Abs</a> · <a href="https://doi.org/10.3390/microorganisms14112502">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Cadmium (Cd) contamination accelerates soil degradation and threatens the safe utilization of agricultural land, making sustainable remediation strategies urgently needed. To evaluate the remediation efficacy of a microbial inoculant (MI) composed of Bacillus subtilis, Bacillus thuringiensis, and Bacillus amyloliquefaciens in Cd-contaminated wheat soils, we conducted a field experiment. The results showed that, compared with the control (CK), MI treatments increased soil pH and soil organic matter (SOM) and enhanced the activities of urease, sucrase, dehydrogenase, and alkaline phosphatase by 3.83–249.28%, 0.54–1.08%, 5.61–109.68%, and 2.76–13.38%, respectively. With MI application, Cd shifted from the exchangeable and Fe-Mn oxide-bound fractions to the residual fraction, a key pathway reducing Cd bioavailability. At the wheat maturity stage, MI treatments reduced Cd content in wheat grains by 12.83–33.15% compared with CK. High-throughput sequencing revealed increased relative abundances of bacteria tolerant to heavy metals and bacteria associated with heavy metal remediation, including the phyla Pseudomonadota, Acidobacteriota, Bacillota, and Actinomycetota and the genera Pseudomonas, Arthrobacter, and Bacillus. Mantel tests indicated that soil pH, SOM, enzyme activities, and Cd accumulation were most strongly correlated with bacterial community composition. Overall, MI demonstrates practical feasibility for remediating Cd-contaminated wheat-field soils.</div></details>
+</div>
+<div class="card"><div class="title">Effect of Mulching and Manure Application Under Drip Irrigation on the Salinity Management and Watermelon (
+ 
+ Citrullus lanatus
+ 
+ ) Productivity in Coastal Saline Soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: P. Vanave, M. Wahane, Bharat Dattu Waghmode, M. Kasture, S. Dodake...</div>
+<div class="meta-line">Venue: Irrigation and Drainage</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c62d217636a591cb562141becb77a8b7aaece8df">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ird.70253">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Salinisation is a major problem that impacts crop growth in coastal regions worldwide. This 4 years (2019–2020, 2020–2021, 2021–2022 and 2022–2023) study examined how mulching (plastic mulch, paddy straw mulch and no mulch) and organic manure (farmyard manure@15 t/ha, vermicomposting@5 t/ha, farmyard manure@7.5 t/ha + vermicomposting@2.5 t/ha and no manure) under drip irrigation can help to control salinity and improve the watermelon yield in coastal saline soils. The study was conducted in a factorial randomised block design with 12 treatment combinations which were replicated thrice. The pooled data showed that the plastic mulch along with farmyard manure and vermicomposting under drip irrigation was the best management practice for having maximum moisture (42.24%) and thereby reducing the salinity (0.99 dS/m) with slightly higher soil pH (7.11), resulting in maximum watermelon productivity. Principal Component Analysis revealed that PC1 described 77.60% of the total variations, with strong positive association between soil moisture, yield and negative relationship with salinity. The findings indicate that combining mulching with organic manure under drip irrigation is a practical and sustainable way to reduce salinity stress, conserve moisture and enhance watermelon production in salt‐affected coastal ecosystems.</div></details>
+</div>
+<div class="card"><div class="title">EFFECT OF COW DUNG INCUBATION ON SOME PHYSICOCHEMICAL PROPERTIES OF A TROPICAL SOIL<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: M. U. Abdurrahman, Abdulbasir A., M. Gambo, N. Gambo</div>
+<div class="meta-line">Venue: Journal of Renewable Agricultural Technology Research</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/92ddd05fdefa8732ee85bd93f4f7bd16becaa9ff">Abs</a> · <a href="http://ssaapublications.com/index.php/sjratr/article/download/1247/1448">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study investigated the effects of cow dung incubation on selected physicochemical properties and sulphate sorption of a tropical soil at Bayero University Kano, Nigeria, within the Sudan Savanna agro-ecological zone. Soil samples were collected from two profile pits and separated into Ap, Bt1 and Bt2 horizons. The samples were incubated with cow dung manure at application rates of 0, 10 and 20 g/kg for two weeks. Laboratory analyses covered soil pH, particle-size distribution, available phosphorus, organic carbon, organic matter, exchangeable bases, iron and sulphur. Sulphate sorption was evaluated following the application of potassium sulphate solutions and 24 hours of shaking. Initial soil pH values were 6.88, 5.53 and 5.80 in the Ap, Bt1 and Bt2 horizons, respectively, while cow dung had a pH of 8.37. Sand content decreased from 80% in the Ap horizon to 62% in Bt2, whereas clay content increased from 8% to 28%. Available phosphorus, organic carbon, organic matter, calcium and magnesium generally declined with depth. Cow dung contained 456.18 mg/kg total phosphorus and 92.86 mg/kg sulphur. Following incubation, manure-treated samples recorded higher organic carbon and extractable potassium values than untreated controls, with the highest reported organic carbon values at 10 g/kg. Sulphate sorption increased with depth in both profiles, ranging from 129.7 to 166.8 mg/kg in Profile 1 and 145.3 to 175.5 mg/kg in Profile 2. The results suggest that cow dung can contribute nutrients and influence selected soil chemical properties, while subsurface horizons retained more sulphate under the experimental conditions.</div></details>
+</div>
+<div class="card"><div class="title">Potassium depletion links to microbial richness loss and functional enrichment in Angelica sinensis rhizosphere under agrivoltaic systems<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Xue-Jiao Huang, Lianliwei Qin, Zhongliang Lyu, Dai-Hua Jiang, Rihua Tuo...</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4c971f0f49b78d3ddba7de5db0b8cdde4f3a90c9">Abs</a> · <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1985450/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ In this study, we aimed to investigate the effects of photovoltaic panel shading on rhizosphere microbial communities of plants with distinct light requirements.
+ 
+ 
+ 
+ 
+ Citrus limon
+ ,
+ Rhodomyrtus tomentosa
+ , and
+ Angelica sinensis
+ were cultivated outside, between, and beneath photovoltaic panels, followed by amplicon sequencing and analyses of soil physicochemical properties and enzyme activity.
+ 
+ 
+ 
+ 
+ 
+ The
+ A. sinensis
+ rhizosphere showed higher bacterial Chao1 index and lower fungal Chao1 index than those of
+ C. limon
+ and
+ R. tomentosa
+ , with enrichment for
+ Lentilactobacillus
+ . Available potassium (AK) was the strongest environmental factor driving variation in microbial community structure. AK contents were significantly lower in the
+ A. sinensis
+ rhizosphere (62.13 mg kg−
+ 1
+ ) than in
+ C. limon
+ (284.59 mg kg−
+ 1
+ ) and
+ R. tomentosa
+ (161.66 mg kg−
+ 1
+ ) rhizospheres and exhibited significant negative correlations with
+ Lentilactobacillus
+ ,
+ Humicola
+ , and
+ Plectosphaerella
+ . Functional prediction revealed reduced chemoheterotrophic functions and increased pathogen-associated functions in the
+ A. sinensis
+ rhizosphere. Fungal functional guild analysis indicated enrichment of endophyte–plant pathogen-associated groups and endomycorrhizal fungi. Responses to shading were stronger for fungal than for bacterial communities and varied among plant species. Photovoltaic shading reduced soil pH, nitrate, and AK contents, while increasing acid phosphatase activity, ammonium nitrogen contents, and soil moisture.
+ 
+ 
+ 
+ 
+ Our findings highlight the strong associations of plant species and AK depletion with microbial restructuring under photovoltaic conditions, and the indirect linkage of photovoltaic panel positioning to microbial communities via alterations in soil moisture and pH conditions. These findings provide scientific guidance for crop selection and soil management strategies in agrivoltaic systems.
+</div></details>
+</div>
+<div class="card"><div class="title">Caracterización fisicoquímica de suelos agrícolas en Santiago de Anaya, Hidalgo<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Luz Hazel Tovar-Mendoza, Brenda Ponce-Lira, F. Lara-Viveros, H. Orozco-Gregorio</div>
+<div class="meta-line">Venue: Revista Mexicana de Ciencias Agrícolas</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4bc40c9afa332b820f3f5d42c2b431bc3982cda1">Abs</a> · <a href="https://cienciasagricolas.inifap.gob.mx/index.php/agricolas/article/download/4219/8843">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil is an essential resource for life, as it provides nutrients, water and ecosystem services. Nevertheless, its degradation seriously affects food production, considering that 95% of food comes from it. FAO estimates that agricultural demand will increase by 60% by 2050; however, 33% of the world’s soil is currently infertile. The study aimed to characterize the physicochemical properties of the soil in Santiago de Anaya, Hidalgo. The research was conducted in 2025 using a randomized complete block experimental design to determine potential crops and promote agricultural production. The results show that the soils have a sandy loam texture, which favors water and nutrient retention and is related to the bulk density that oscillates between clay and loam soils (1.02 to 1.23 g cm-3). All the soils evaluated are classified as having a very low organic matter concentration (less than 4%). Regarding pH, soils are classified from medium to strongly alkaline, with values of up to 9.79. Electrical conductivity indicates low salinity, in ranges of 1.5 to 3 dS m-1. Total carbonates have high values (35%), associated with Leptosols and Phaeozems. The cation exchange capacity is classified as high, with values of 29 to 33.5 Cmol(+) kg-1. Tukey’s multiple mean comparison test (p≤ 0.05) indicates that the soils of Santiago de Anaya, Hidalgo, Mexico are suitable for short-cycle, drought-resistant crops, such as forages, legumes and certain tubers and roots.</div></details>
+</div>
+<div class="card"><div class="title">Effects of Grass Clipping Mulching on Alfalfa Yield and Quality Through Soil Amelioration in Soda Saline–Alkali Soils<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Wei-Guang Yang, Xiao-Jia Shi, Ling Li, Nan Wang, Chang-Yuan Wang...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/54377ed02963fe00fa92d2e2b5962064794fd6ca">Abs</a> · <a href="https://doi.org/10.3390/plants15213393">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Salinization is a major constraint to agricultural sustainability in arid and semi-arid regions worldwide. The ameliorative effects of grass clipping mulching on alfalfa (Medicago sativa L.) growth and forage quality in soda saline–alkali land in Northeast China and its regulatory mechanisms were studied. The trial used a randomized block design with four mulch treatments: no-mulch control (CK), low-density (LC, 6000 kg ha−1, or 6.0 t ha−1), medium-density (MC, 12,000 kg ha−1, or 12.0 t ha−1), and high-density (HC, 18,000 kg ha−1, or 18.0 t ha−1). Compared with CK, MC achieved the highest soil water content (18.3% vs. 14.9% in CK), the lowest bulk density (1.26 vs. 1.48 g cm−3), and the greatest porosity (52.4% vs. 44.2%); pH, electrical conductivity, total salt, and ESP decreased, while organic matter and available nutrients increased. Overwintering survival rose to 89.1% under HC (+9.3%). Net photosynthetic rate, stomatal conductance, and chlorophyll content increased, and first-cut hay yield increased by 27.3% under HC (3938 vs. 3093 kg ha−1). Crude protein reached 20.42%, and relative feed value increased from 158.4 to 167.1. Partial least squares structural equation modeling (PLS-SEM) showed that mulching acted mainly through soil nutrient enrichment, thereby enhancing plant physiology and ultimately forage yield and quality. Grass clipping mulching is a cost-effective strategy for saline–alkali soil remediation and sustainable alfalfa production.</div></details>
+</div>
+<div class="card"><div class="title">From Blue to
+Green: Demonstration of a pH-Dependent
+Fluorescence Shift of Carbon Quantum Dots<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Elisabeth Dietel, Pia Wolken, Pasquale Sladitschek, Oliver Johannesen, Timm Wilke...</div>
+<div class="meta-line">Venue: Journal of Chemical Education</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/50b4c9f791e6e24e3ac9ebfcdaf81fcab5726ea7">Abs</a> · <a href="https://pubs.acs.org/jceda8/article-pdf/doi/10.1021/acs.jchemed.6c00992/69046426/acs.jchemed.6c00992.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Carbon quantum dots (CQDs) have emerged as versatile, water-soluble nanomaterials with strong photoluminescence and tunable optical properties, making them promising candidates for applications in sensing, bioimaging, and optoelectronics. While inorganic quantum dots have long been established in educational settings, organic CQDs, particularly with functional responsiveness, remain underrepresented in K-12 science education. In this paper, we present a simple, safe, and low-cost bottom-up synthesis of fluorescent, pH-sensitive CQDs using ascorbic acid and sodium acetate, which were heated directly over a gas burner. The procedure takes less than 5 min and requires minimal equipment. The resulting CQDs exhibit bright blue-to-turquoise fluorescence under UV light. Under basic conditions, a bathochromic shift to green fluorescence occurs because of deprotonation of surface functional groups, accompanied by self-absorption. This pH-dependent behavior is also visible under daylight, showing a color shift from yellow to orange resulting from absorption and transmission. The experiment provides a tangible demonstration of surface chemistry, electronic transitions, and nanoscale structure–property relationships. Learners perceived the experiment as an easy procedure that contributes to a basic understanding of the nanoscale, as an accompanying assessment shows (n = 20). By combining low-cost materials, rapid synthesis, and vivid visual outcomes, we give an outlook on how this work will contribute to nanoscience education by offering a readily accessible and engaging pathway into the world of functional organic nanomaterials.</div></details>
+</div>
+<div class="card"><div class="title">High-pyrolysis-temperature acidified straw biochar improves soil hydrological functioning and increases maize yield in saline soils<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Hui Zhou, Jia-Wei Guo, Jian Wang, Hu Liu</div>
+<div class="meta-line">Venue: Frontiers in Plant Science</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/83eb0c171db5da6e58cae680c69c1da6ddfd5192">Abs</a> · <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1801904/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Biochar contributes to the restoration of soil fertility and crop productivity in saline-affected farmlands. Soil hydrological functioning is a key indicator for assessing the degradation and rehabilitation of saline soils. However, the mechanisms by which acid-modified maize straw biochar produced at different pyrolysis temperatures regulates the hydrological properties of saline soils remain unclear. In this study, a four-year soil amendment experiment was conducted in moderately saline soils of the Hetao Irrigation District in China to evaluate the effects and underlying mechanisms of acidified biochar produced at three pyrolysis temperatures (C1: 300 °C, C2: 500 °C, and C3: 700 °C) and applied at two rates (T1: 10 Mg ha
+ -
+ ¹ and T2: 20 Mg ha
+ -
+ ¹) on soil hydrological properties. The results showed that: (1) application of acidified biochar significantly decreased soil salinity, pH, and bulk density, while increasing soil water content and organic matter. Moreover, it markedly enhanced crop yield and biomass; (2) acidified biochar markedly improved soil hydrological properties (0–40 cm), with the C3T1 treatment performing best, increasing soil saturated water-holding capacity, field capacity, soil water storage, and saturated hydraulic conductivity by 17.35%, 27.91%, 14.31%, and 26.92%, respectively; (3) Principal component analysis (PCA) and Mantel test results indicated that soil hydrological properties were positively correlated with crop yield, biomass, clay content, soil organic matter, and total porosity (p &lt; 0.05), but negatively correlated with bulk density, electrical conductivity, and sand content (p &lt; 0.05). Random forest analysis further highlighted that improvements in soil hydrological properties were primarily driven by changes in biomass, SOM, bulk density, clay content, and total porosity. Overall, this study demonstrates that acidified biochar produced at a high pyrolysis temperature (700 °C) and applied at 10 Mg ha
+ -
+ ¹ effectively enhances the physicochemical and hydrological properties of saline soils, thereby improving their productivity. These findings provide important guidance for developing biochar-based strategies to rehabilitate saline-affected agricultural soils.
+</div></details>
+</div>
+<div class="card"><div class="title">Characteristics of Soil Microbial Communities and Their Associated Environmental Variables Under Different Vegetation Types in Jianfengling, Hainan<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Xiao-Yan Pan, Yi-Qing Chen, Yuan-Feng Gao, Xiao-Hua Chen, Ting-Tian Wu...</div>
+<div class="meta-line">Venue: Biology</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ba9b234eca58609e78d406fc536710ea88158027">Abs</a> · <a href="https://doi.org/10.3390/biology15211968">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil microorganisms play essential roles in maintaining the function and stability of forest ecosystems. In this study, conducted in the Jianfengling Nature Reserve in Hainan, we performed Illumina high-throughput sequencing, in combination with principal coordinate analysis (PCoA), redundancy analysis, and other statistical methods, to compare the composition, community structure, and diversity of the soil microbiota in four types of forest vegetation, namely, monsoon forest, lowland rainforest, montane rainforest, and artificial forest (AF), and to identify the environmental variables associated with differences among the forest types. Different vegetation types differed significantly with respect to pH, total phosphorus content (TP), elevation, and concentrations of manganese (Mn) and iron (Fe). In contrast, no significant differences were observed in soil water content, bulk density, total nitrogen (TN), and total organic carbon (TOC) content. Compared to AF, natural forests were characterized by higher concentrations of TN, TOC, TP, Mn, and Fe, although the differences in TN and TOC were not statistically significant. For all four of the assessed vegetation types, Pseudomonadota, Actinomycetota, Acidobacteriota, and Verrucomicrobiota were identified as the dominant bacterial phyla, whereas Ascomycota, Basidiomycota, and Mucoromycota were predominant among the fungal phyla, indicating that these phyla are capable of surviving in different soil ecosystems. Although no significant differences in bacterial diversity were detected among vegetation types, PCoA revealed pronounced differentiation in bacterial community composition (PERMANOVA, p = 0.0001). Notably, within-group multivariate dispersion also differed significantly (PERMDISP, p = 0.0129), indicating that the observed compositional differences may be associated with the combined effects of centroid location effect and within-group multivariate dispersion. In contrast, significant differences were observed in fungal diversity, whereas differences in fungal community composition were not significant in the PCoA (PERMANOVA, p = 0.1777). These results suggest that vegetation type primarily influenced fungal diversity rather than fungal community structure. Mn concentration exhibited the highest marginal explanatory power for the variation in the bacterial community, with a significant effect; it was positively correlated with the ACE, Chao1, and Simpson indices, and negatively correlated with the Shannon index. TOC exhibited the highest marginal explanatory power within the fungal community, showing a negative correlation with the ACE, Chao1, and Shannon indices and a positive correlation with the Simpson index. Collectively, these findings provide insights into microbial differentiation within forest soils associated with different vegetation types and highlight distinct patterns in bacterial and fungal diversity, which will potentially serve as a basis for the development of conservation strategies.</div></details>
+</div>
+<div class="card"><div class="title">Keratinolytic fungi mediated composting of chicken feather waste and its potential for promoting growth of vegetable crops<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: M. A. Bagwai, M. Kaur, B. S. Sooch, Ranjeeta Bhari</div>
+<div class="meta-line">Venue: BMC Agriculture</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/74cf40b06a6c588abf5d11b2ee509482347aebf7">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1186/s44399-026-00052-y.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The poultry industry produces millions of tonnes of chicken feather waste annually. Improper disposal of this waste may contribute to environmental pollution, greenhouse gas emissions, and proliferation of insects and pathogens, thereby posing environmental and public health concern. Chicken feathers are a valuable source of keratin with considerable potential for conversion into value-added agricultural resources. This study evaluated the ability of Aspergillus spp. to convert chicken feather waste into feather-amended substrate and assessed their effects on the growth of vegetable crops. Chicken feather waste was subjected to aerobic composting for 60 days in a soil-amended system, using Aspergillus niger and Aspergillus gorakhpurensis. Maturity and phytotoxicity were determined using the seed germination index (GI). Physicochemical characteristics were measured to characterise nutrient profiles. Agronomic performance of spinach, cabbage, and brinjal was evaluated through morphological assessment and analysis of photosynthetic pigments. Composted feather-amended substrate produced using A. gorakhpurensis achieved a germination index (GI) of 62%, reflecting partial maturity and reduced phytotoxicity. Additionally, the substrate exhibited improved physicochemical characteristics, with an electrical conductivity (EC) of 2.08 dS·m− 1 and C/N ratio of 7.22. Total nitrogen and sulfur contents were 0.23% and 0.18% respectively, in contrast to 0.07% nitrogen and 0.03% sulfur in the control soil, consistent with nitrogen and sulfur mineralisation during composting. Higher germination, improved morphological traits, and enhanced chlorophyll and carotenoid contents were observed after application of composted feather substrate in the tested crops. The present study showed that A. gorakhpurensis produced a composted feather-amended substrate with the most favourable physicochemical profile and agronomic performance under the experimental conditions. These findings suggest that fungal-mediated feather composting may represent a promising approach for converting chicken feather waste into nutrient-enriched soil amendment. Not applicable.</div></details>
+</div>
+<div class="card"><div class="title">Micro-Catchment Typology for Integrated Catchment Management<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: S. Ojih, H. Mwada, Elijah Saleh Usman, Aminu Fahad</div>
+<div class="meta-line">Venue: Iconic Research and Engineering Journals</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2c17e20a10c2c2b2df6f89246ce31486d2737502">Abs</a> · <a href="https://www.irejournals.com/formatedpaper/1724529.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Catchment management plans in data-scarce regions usually treat erosion, flooding, runoff and water harvesting separately, so interventions are prioritised hazard by hazard rather than by the combined condition of each land unit. This study developed a multivariate typology of 163 micro-catchments in the 1,641.7 km 2 Idah Catchment, north-central Nigeria. Nine indicators derived from a 12.5 m digital elevation model and open global datasets were reduced with principal component analysis and grouped with k-means clustering. The first component (57.6% of variance) described a gradient from wooded plateau units to cultivated, flood-prone lowland units. Four management zones were identified: wooded plateau headwaters (50.1% of the area), steep, flashy plateau margins (21.7%), cultivated erosion– runoff hotspots (10.4%) and flood-prone floodplain (17.8%). The zones agreed with Ward clustering (adjusted Rand index 0.69), were reproduced by a random forest with 92% out-of-bag accuracy and were spatially coherent (65% of neighbouring units shared a zone, against 32% expected by chance). The hotspot and floodplain zones occupied 28.2% of the area but generated 54.9% of the soil loss and 58.3% of the 25-year runoff, contained 26 of the 28 significant soil-loss hotspots and had the highest groundwater recharge potential. Scenario analysis indicated that conservation agriculture with contour bunds on cropland in these two zones would reduce soil loss by 31.8%, whereas clearing 20% of headwater tree cover would increase it by 89.6%. Check dams outside the floodplain could retain up to 18.7% of the 25-year runoff. Annual rainfall declined significantly in the lowland zones. The typology concentrates management effort where hazards coincide and offers a transferable framework for integrated planning in ungauged</div></details>
+</div>
+<div class="card"><div class="title">Herbivore versus detritivore effect on decomposition through leaf conversion into faeces<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: M. Coulis, C. Mauriol, N. Telle, Sonia Minatchi, Laure Hannibal...</div>
+<div class="meta-line">Venue: Functional Ecology</div>
+<div class="meta-line">Published: 2026-11-02</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7f30a54fb26544079c0ce000dedfd2b478983f7d">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2435.70478">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ 
+ In terrestrial ecosystems, plant residues can reach the soil as senesced leaf litter or green leaves, and both types can be transformed by invertebrates into detritivore or herbivore faeces. Yet, the consequences of this conversion on decomposition rates and soil fertility are largely unknown.
+ 
+ 
+ 
+ To fill this knowledge gap, we collected faeces from caterpillars (
+ Historis odius
+ ; herbivores) and millipedes (
+ Anadenobolus monilicornis
+ ; detritivores), which were fed green and dead leaves of
+ Cecropia schreberiana
+ , respectively, in a tropical ecosystem context. We then incubated green leaves, herbivore faeces, dead leaves and detritivore faeces in a microcosm experiment for 180 days to measure their decomposition and underlying soil parameters.
+ 
+ 
+ 
+ Our results showed significant effects of (1) leaf senescence, with green leaves decomposing faster than leaf litter, and of (2) leaf conversion to invertebrate faeces, with faeces decomposing faster than intact leaves for both herbivore and detritivore faeces. However, contrasting patterns emerged between carbon and nitrogen dynamics, as nitrogen cycling was generally slower for faeces than for litter, with a particularly notable reduction in nitrogen losses for herbivore faeces. Consequences for the biogeochemistry of the underlying soil, specifically soil mineral nitrogen, were also observed.
+ 
+ 
+ This pioneering study on faeces decomposition in a tropical context suggests that leaf‐feeding invertebrates, whether herbivores or detritivores, accelerate decomposition processes by converting leaves into faeces. This consistent acceleration of decomposition could have important consequences for soil organic matter formation and nutrient returns to plants.
+ 
+ 
+ 
+ 
+ Read the free
+ Plain Language Summary
+ for this article on the Journal blog.
+</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
