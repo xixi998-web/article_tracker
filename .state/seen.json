@@ -24234,5 +24234,109 @@
   "doi:10.1111/1365-2435.70478": {
     "source": "top_journal",
     "title": "Herbivore versus detritivore effect on decomposition through leaf conversion into faeces"
+  },
+  "arxiv:2611.10379v1": {
+    "source": "arxiv",
+    "title": "RefineSplat: Reconstruction-Guided Object-Centric Gaussian Splatting for Open-Vocabulary Querying"
+  },
+  "arxiv:2611.10699v1": {
+    "source": "arxiv",
+    "title": "PLS-GS: Probabilistic Lidar Scaffolds for Compact, Surface-Aligned Gaussian Splatting"
+  },
+  "arxiv:2611.10241v1": {
+    "source": "arxiv",
+    "title": "OfficeTwin: Realizing 3D Reconstruction of Redundant Scenes through Partial Viewpoint Perception"
+  },
+  "arxiv:2611.10199v1": {
+    "source": "arxiv",
+    "title": "RigidGS: Geometry-Aware Object Decoupling for Rigid-Body Interaction in 3D Gaussian Splatting"
+  },
+  "arxiv:2611.10566v1": {
+    "source": "arxiv",
+    "title": "Online Geometric Consistency Assessment of LiDAR Measurements via Recursive Bayesian Comparison"
+  },
+  "arxiv:2611.10013v1": {
+    "source": "arxiv",
+    "title": "From Video to Digital Twin: An Exploratory Study of World Models and Gaussian Splatting on In-the-Wild Video"
+  },
+  "arxiv:2611.10821v1": {
+    "source": "arxiv",
+    "title": "AmodalBox: Automated 3D Bounding Box Annotation under Partial Visibility"
+  },
+  "arxiv:2611.10652v1": {
+    "source": "arxiv",
+    "title": "SHIN: Scalable Hierarchy for INcremental 3D Gaussian Splatting"
+  },
+  "arxiv:2611.10370v1": {
+    "source": "arxiv",
+    "title": "ClearForm: Shared-Surface Gaussian Splatting for Transparent and Opaque Scenes"
+  },
+  "arxiv:2611.09170v1": {
+    "source": "arxiv",
+    "title": "FIND: Frequency Invariance Disentanglement for Test-Time Adaptation in LiDAR 3D Detection"
+  },
+  "arxiv:2611.11304v1": {
+    "source": "arxiv",
+    "title": "TransArt3D: From Two States to Articulated 3D Reconstruction with Video Transition Priors"
+  },
+  "arxiv:2611.11169v1": {
+    "source": "arxiv",
+    "title": "Map2SLAM: From Streaming Map Prediction to Real-Time SLAM"
+  },
+  "arxiv:2611.10637v1": {
+    "source": "arxiv",
+    "title": "VAComp: View-Aware Full Projector Compensation"
+  },
+  "arxiv:2611.09664v1": {
+    "source": "arxiv",
+    "title": "Dual Architecture Fusion Vehicle Lidar 3D Target Detection"
+  },
+  "arxiv:2611.11131v1": {
+    "source": "arxiv",
+    "title": "CrossLiDAR: Controllable Multi-Sensor LiDAR Sequence Generation"
+  },
+  "arxiv:2611.10644v1": {
+    "source": "arxiv",
+    "title": "Agent2BIM: A Systematic Evaluation of Reality-Capture Configurations and Prior Models for As-Built Modeling"
+  },
+  "arxiv:2611.10376v1": {
+    "source": "arxiv",
+    "title": "PhysDNet: Physics-Driven Gradient Amplification for Real-Time Image Dehazing"
+  },
+  "arxiv:2611.10239v1": {
+    "source": "arxiv",
+    "title": "DASH-SLAM: Calibration-Free Metric Monocular SLAM via Depth Scale Propagation"
+  },
+  "arxiv:2611.09854v1": {
+    "source": "arxiv",
+    "title": "Super-resolved digital terrain models for GEDI geolocation correction: agreement with airborne LiDAR DTM-based corrections at the beam level, not the footprint level"
+  },
+  "arxiv:2611.09561v1": {
+    "source": "arxiv",
+    "title": "Lightweight Path-Aware Frontier Re-ranking for LiDAR-Based UAV Exploration"
+  },
+  "arxiv:2611.09045v1": {
+    "source": "arxiv",
+    "title": "When to Trust the BIM: Identifiability-Aware LiDAR-Inertial--BIM Fusion under As-Built Deviations"
+  },
+  "arxiv:2611.04221": {
+    "source": "top_journal",
+    "title": "Mamba3R: Fixed-Capacity Selective State Memory for Long-Sequence 3D Reconstruction"
+  },
+  "arxiv:2611.10509v1": {
+    "source": "arxiv",
+    "title": "Scaling Optimization-Oriented Hypernetworks for Implicit Neural Representations"
+  },
+  "arxiv:2611.04452": {
+    "source": "top_journal",
+    "title": "DynOSeg: Dynamic Object Segmentation via Motion-Geometry Fusion"
+  },
+  "doi:10.3390/s26216953": {
+    "source": "top_journal",
+    "title": "RVFNet: 4D mmWave Radar-Vision Fusion Multi-Task Panoptic Perception Network for Unmanned Surface Vehicles"
+  },
+  "arxiv:2611.04524": {
+    "source": "top_journal",
+    "title": "E2I-Flow: EEG-to-Image Reconstruction via Wavelet-Temporal Cross-Attention and Conditional Flow Matching"
   }
 }
