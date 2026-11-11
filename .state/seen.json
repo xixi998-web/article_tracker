@@ -24398,5 +24398,125 @@
   "doi:10.3390/soilsystems10110142": {
     "source": "top_journal",
     "title": "Preliminary Studies on the Impact of Sericultural Compost on Soil Quality and Bombyx mori Nutrient Intake Dynamics"
+  },
+  "arxiv:2611.12932v1": {
+    "source": "arxiv",
+    "title": "URL-Sim: Unified and Regulated LiDAR Simulation for High-Fidelity Reconstruction of Dynamic Driving Scenes"
+  },
+  "arxiv:2611.07081": {
+    "source": "top_journal",
+    "title": "Wide View Synthesis from Overlapping Perspective Cameras in Autonomous Driving"
+  },
+  "arxiv:2611.12038v1": {
+    "source": "arxiv",
+    "title": "DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing"
+  },
+  "arxiv:2611.06258": {
+    "source": "top_journal",
+    "title": "CrossPressor: Scalable Cross-View Fusion for Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2611.13280v1": {
+    "source": "arxiv",
+    "title": "RetinexGS: Retinex-Inspired Gaussian Splatting for Low-Light RAW Reconstruction"
+  },
+  "arxiv:2611.12011v1": {
+    "source": "arxiv",
+    "title": "HIST3R: Decomposing and Rectifying State Updates with History for Streaming 3D Reconstruction"
+  },
+  "arxiv:2611.13453v1": {
+    "source": "arxiv",
+    "title": "Camera3R: Feed-Forward 3D Reconstruction from Heterogeneous Camera Models"
+  },
+  "arxiv:2611.12875v1": {
+    "source": "arxiv",
+    "title": "Click3R: Interactive Stereo 3D Reconstruction with Sparse Correspondence Clicks"
+  },
+  "arxiv:2611.12319v1": {
+    "source": "arxiv",
+    "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs"
+  },
+  "arxiv:2611.11964v1": {
+    "source": "arxiv",
+    "title": "3R-Adapter: Retrieval, Rewiring, and Refinement for Efficient Adaptation of 3D Reconstruction Model"
+  },
+  "arxiv:2611.11912v1": {
+    "source": "arxiv",
+    "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting"
+  },
+  "arxiv:2611.11825v1": {
+    "source": "arxiv",
+    "title": "ACROSSVAM3.0: Resource-Bounded 4D Scene Construction and Adaptive Surface Association"
+  },
+  "arxiv:2611.12949v1": {
+    "source": "arxiv",
+    "title": "Maze Runner: Autonomous Maze Navigation with Line-Based Localization and Control Barrier Functions"
+  },
+  "arxiv:2611.12739v1": {
+    "source": "arxiv",
+    "title": "Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting"
+  },
+  "arxiv:2611.12716v1": {
+    "source": "arxiv",
+    "title": "Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution"
+  },
+  "arxiv:2611.12129v1": {
+    "source": "arxiv",
+    "title": "RAPA: Ray-Aware Physics Augmentation for Robust Camera-LiDAR Calibration"
+  },
+  "arxiv:2611.11809v1": {
+    "source": "arxiv",
+    "title": "Budget-aware Correspondence-driven View Selection for Real-time 3D Perception of Mobile Robots"
+  },
+  "arxiv:2611.11586v1": {
+    "source": "arxiv",
+    "title": "FastGRT: Accelerating Training of 3D Gaussian Ray Tracing"
+  },
+  "doi:10.1109/tvcg.2026.3750350": {
+    "source": "top_journal",
+    "title": "Physics-Driven Extraction of Dynamic Fluid Asset from Monocular Video with Generative 3DGS."
+  },
+  "arxiv:2611.13494v1": {
+    "source": "arxiv",
+    "title": "Route-Time Conflict Maps for Cooperative End-to-End Autonomous Driving"
+  },
+  "arxiv:2611.11951v1": {
+    "source": "arxiv",
+    "title": "UltraVoxelGS: Voxel-First Feed-Forward Gaussian Splatting for 3D Ultrasound Reconstruction"
+  },
+  "arxiv:2611.13229v1": {
+    "source": "arxiv",
+    "title": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing"
+  },
+  "arxiv:2611.12695v1": {
+    "source": "arxiv",
+    "title": "TACTUS: A Robotic Palpation System for Spatially Heterogeneous Hardness Mapping of Woody Breast Myopathy"
+  },
+  "arxiv:2611.12452v1": {
+    "source": "arxiv",
+    "title": "V3DSAM: Semantic-Geometric Loop Verification and Geometry-Anchored Persistent Instance Mapping for Feed-Forward Dense SLAM"
+  },
+  "arxiv:2611.11640v1": {
+    "source": "arxiv",
+    "title": "Feel My Focus: Gaze-Triggered Digital Twin Creation for Remote Collaboration"
+  },
+  "arxiv:2611.08100v2": {
+    "source": "arxiv",
+    "title": "An Integrated Open-Source Stack for Vision-Based Autonomous Navigation of Wheeled Rovers"
+  },
+  "doi:10.4071/001c.173599": {
+    "source": "top_journal",
+    "title": "High-resolution 3D Inspection of Bonding Defects in HBM using Optically-coupled X-ray Computed Laminography"
+  },
+  "arxiv:2611.11602v1": {
+    "source": "arxiv",
+    "title": "Martine: Benchmarking Multi-View 3D Surface Reconstruction Across Viewpoint Coverage, Resolution, and Lighting"
+  },
+  "doi:10.1109/tvcg.2026.3750335": {
+    "source": "top_journal",
+    "title": "WaveNormal: Wavelet-based Geometry-Aware Disentanglement for Point Cloud Normal Estimation."
+  },
+  "arxiv:2611.07049": {
+    "source": "top_journal",
+    "title": "Gaussians Can Subtract: Neural Dissolve Fields for Hybrid Scene Rendering"
   }
 }
