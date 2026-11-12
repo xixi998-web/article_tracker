@@ -24574,5 +24574,73 @@
   "doi:10.65763/jfhb.2026.e265088": {
     "source": "top_journal",
     "title": "Diatomaceous Earth: A Sustainable Resource for Environmental Conservation and Agriculture"
+  },
+  "arxiv:2611.13528v1": {
+    "source": "arxiv",
+    "title": "GEMOR-GS: Global Extrinsic-calibration-refined Mapping and Online Relocalization for 3D Gaussian-Splatting SLAM"
+  },
+  "arxiv:2611.13628v1": {
+    "source": "arxiv",
+    "title": "DepthGS: Depth-Guided Gaussian Splatting with Adaptive Regularization for High-Quality Surface Reconstruction"
+  },
+  "doi:10.1142/s1469026826500641": {
+    "source": "top_journal",
+    "title": "A Computational Intelligence Framework for Staircase Detection and Reconstruction Using Depth-Based Deep Learning"
+  },
+  "arxiv:2611.13808v1": {
+    "source": "arxiv",
+    "title": "FastWild-GS: Minutes-Scale In-the-Wild Gaussian Splatting via Compact Per-Image Appearance Adaptation"
+  },
+  "arxiv:2611.13772v1": {
+    "source": "arxiv",
+    "title": "RF3DGS: Reflection-Free 3D Gaussian Splatting with Self-Priors"
+  },
+  "doi:10.1145/3842564": {
+    "source": "top_journal",
+    "title": "Dynamic GPU Voxel Grids and Voxel-sequential Processing in NanoVDB"
+  },
+  "doi:10.20517/ir.2026.39": {
+    "source": "top_journal",
+    "title": "AME-Net++: adaptive mixture-of-experts for intelligent intraoperative 3D reconstruction"
+  },
+  "arxiv:2611.14135v1": {
+    "source": "arxiv",
+    "title": "Sim(3)-TurboReg: Robust and Efficient Scale-Aware Registration via Tri-Scale Consistency"
+  },
+  "arxiv:2611.14025v1": {
+    "source": "arxiv",
+    "title": "HiPFuse: Real-Time LiDAR Semantic Segmentation for Robotic Perception on Edge Devices"
+  },
+  "arxiv:2611.13784v1": {
+    "source": "arxiv",
+    "title": "Marrying Capacity and Precision for Efficient 2D Gaussian Image Representation"
+  },
+  "arxiv:2611.13782v1": {
+    "source": "arxiv",
+    "title": "Integrating Action Prefix Prediction and Alignment Across Modalities for Multimodal Reinforcement Learning"
+  },
+  "arxiv:2611.13739v1": {
+    "source": "arxiv",
+    "title": "Effects of Laser Beam Width and Measurement Noise on Tree Diameter Estimation in Laser Scanning"
+  },
+  "arxiv:2611.13581v1": {
+    "source": "arxiv",
+    "title": "Lightweight Deep Learning Framework for Astrocyte-Centric 3D Reconstruction across Normal and Stress-associated Ultrastructural States"
+  },
+  "doi:10.3389/feart.2026.1953260": {
+    "source": "top_journal",
+    "title": "Construction of a three-dimensional geological model for mine roadways based on multi-source data fusion"
+  },
+  "doi:10.4071/001c.173628": {
+    "source": "top_journal",
+    "title": "X-Ray Computed Tomography and Laminography Measurements of a 3D-Stacked IC"
+  },
+  "doi:10.1088/2631-8695/aebe9e": {
+    "source": "top_journal",
+    "title": "Contrast-based detectability of structural gaps and hollow defects using 2D and 3D electrical impedance tomography: a finite element evaluation"
+  },
+  "doi:10.1117/12.3129682": {
+    "source": "top_journal",
+    "title": "A multimodal 3D object detection framework based on hybrid radar point generation and dual synchronization fusion"
   }
 }
