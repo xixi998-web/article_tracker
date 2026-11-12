@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-12 08:02 · Core 9 · Proxy 2 · Eco 7</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Slow-release Silicon Amendment from Manganese Slag and Phosphogypsum: Release Performance, Metal Immobilization and Soil Fertility Improvement.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: Ting Wang, Bin-Ni Zhao, Li-Sha Liu, Yi-Peng Li, Xiao-Hong Chen...</div>
+<div class="meta-line">Venue: Environmental research</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2632cc677fb76be6a09a209e6ff1f34d93cefba3">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The large-scale stockpiling of solid waste, such as electrolytic manganese residue (EMR) and phosphogypsum (PG), threatens both environmental and agricultural sustainability due to soil nutrient loss and heavy metal pollution. This study developed a novel slow-release silicon amendment (S/CRF) using EMR as a silicon source and PG as a controlled-release matrix via mechanochemical-thermal activation with biomass and sodium carbonate. The process effectively transformed inert SiO2 into soluble silicates, achieving silicon content that meets national standards. The controlled release was regulated by lipid barriers and dissolution channels, with a release duration of up to 170 days. In soils contaminated with lead and cadmium, 5% S/CRF-1 application reduced weakly acidic Cd and Pb by 2-10% and 13-18%, respectively, and increased their residual forms by 7% and 6%. Soil pH, cation exchange capacity, and essential nutrients (ammonium nitrogen, phosphorus, and potassium) were significantly improved, while beneficial microbial communities were enriched. TCLP tests confirmed heavy metal leaching concentrations met safety standards. This study highlights a novel approach for utilizing industrial waste to remediate contaminated soil and improve fertility.</div></details>
+</div>
+<div class="card"><div class="title">Soil pH primarily explains variation in clubroot disease potential, while exchangeable potassium and cation exchange capacity may also be involved<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: S. Kitabayashi, A. Fukunaga, A. Kawakami, S. Yoshida, Akira Kawaguchi</div>
+<div class="meta-line">Venue: Journal of General Plant Pathology</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ad140ba5e50a57acd2a2a9644e5e5732bd1a3913">Abs</a></div>
+</div>
+<div class="card"><div class="title">Response of Organic Inputs in Modulating Soil Physico-chemical Properties under Finger Millet (Eluecine coracana L.) Cultivation on Terraced Land<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Joram Reena, M. Dutta, K. H. Ngullie, Aienla B. Lemtor, Sewak Ram...</div>
+<div class="meta-line">Venue: Indian Journal Of Agricultural Research</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b831f9d3f21f106f0bd5f38d2b121e18cc4ab199">Abs</a> · <a href="https://doi.org/10.18805/ijare.a-6595">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Background: This investigation is precisely steered to comprehend the constructive implications on soil health as influenced by the incorporation of organic manures into the soil. The global food demand has amplified significantly creating a trend to exploit excessive chemical fertilizer for achieving higher yield. To address these challenges and to demonstrate the potential of organic manures in the production of finger millet, this study was meticulously steered. Methods: An experiment was conducted during the kharif season of 2023-24 at the experimental farm of Department of Soil and Water Conservation, School of Agricultural Sciences, Nagaland University, Medziphema Campus to evaluate the response of organic inputs in modulating soil physico-chemical properties under finger millet (Eluecine coracana L.) cultivation on terraced land. The experiment was designed based on randomized block design (RBD) with nine treatments viz. T1: Control, T2: FYM @ 10 t ha-1, T3: FYM @ 5 t ha-1, T4: poultry manure @ 5 t ha-1, T5: poultry manure @ 2.5 t ha-1, T6: vermicompost @ 5 t ha-1, T7: vermicompost @ 2.5 t ha-1, T8: enriched manure @ 5 t ha-1, T9: enriched manure @ 2.5 t ha-1 which was replicated thrice. Result: Application of organic manures had a significant effect on the substantial fractions of the soil properties analyzed in this study like soil pH (5.21), organic carbon (1.14%), cation exchange capacity {12.11 cmol (p+) kg-1}, available nitrogen (459.95 kg ha-1), available phosphorus (16.52 kg ha-1), available potassium (169.87 kg ha-1), porosity (53.81%), water holding capacity (52.95%), hydraulic Conductivity (3.0 cm h-1), per cent aggregate greater than 0.25 mm (95.57%) and mean weight diameter (1.65 mm).</div></details>
+</div>
+<div class="card"><div class="title">Pyrolysis Temperature-Dependent Biochar Regulates Lead Immobilization and Antioxidant Defense in Wedelia trilobata for Contaminated Soil Remediation<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: A. Abbas, Rashida Hameed, Sidra Balooch, Shi-Meng Yang, A. A. Shahani...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d296f7ae15d7e85d2c2d697e009f7edcf1e99518">Abs</a> · <a href="https://doi.org/10.3390/plants15213445">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study investigated the effects of rice straw biochar produced at 450 °C (RBC450) and 700 °C (RBC700) on Pb immobilization, soil properties, and the physiological and molecular responses of Wedelia trilobata (L.) grown in Pb-contaminated soil. Biochar was applied at 1%, 2.5%, and 5% (w/w) to soil contaminated with 150 mg kg−1 Pb. Changes in soil physicochemical properties, Pb availability and accumulation in plant tissues, physiological performance, oxidative stress indicators, antioxidant enzyme activities, and antioxidant-related gene expression were evaluated. Both biochars reduced soil-available Pb and Pb accumulation in roots and shoots, with RBC700 showing greater Pb immobilization. Biochar application also improved soil pH, electrical conductivity, organic carbon, nitrate nitrogen, and available phosphorus. In plants, biochar enhanced catalase and peroxidase activities while reducing malondialdehyde accumulation and reactive oxygen species production, indicating alleviation of Pb-induced oxidative stress. qRT-PCR analysis further showed modulation of SOD-, POD-, and CAT-related antioxidant responses under Pb stress, with RBC450 treatment strengthening antioxidant defense at the transcriptional level. Overall, rice straw biochar reduced soil-extractable Pb and modified soil physicochemical properties and antioxidant responses in W. trilobata, with RBC700 showing greater effectiveness in decreasing Pb extractability. However, these changes did not consistently restore all physiological parameters under Pb stress.</div></details>
+</div>
+<div class="card"><div class="title">Effects of Fertilisation Practices on Nutrient Cycling Through the Regulation of Soil’s Physicochemical Properties and Microbial Communities<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Qing-Ying Meng, Qiu-Ju Wang, Xin-Yu Li, Zhuo Zhang, Jia-He Zou...</div>
+<div class="meta-line">Venue: Microorganisms</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/fc3360de73eb5b9a53ba11c83de6ae0ccca9fbf0">Abs</a> · <a href="https://doi.org/10.3390/microorganisms14112547">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Continuous cultivation and fertiliser inputs restructure the spatial distribution of soil nutrient pools and drive the evolution of the underlying soil microenvironment. To elucidate the effects of long-term agricultural interventions on nutrient dynamics and crop productivity in farmland, this study systematically evaluated the long-term ecological effects of fertilisation strategies based on a 46-year long-term wheat–soybean rotation experiment. Twelve fertilisation treatments, including an unfertilised control, straw return, organic manure, and different chemical fertiliser rates alone or in combination with organic amendments, were established. The physicochemical properties of non-rhizosphere soil were systematically determined, and metagenomic sequencing was used to characterise the bacterial community’s diversity and structure. Long-term excessive dependence on chemical fertilisers severely disrupted the soil chemical balance, as indicated by the excessive accumulation of available phosphorus, different available potassium levels among treatments, and decline in pH, increasing the environmental risks associated with agricultural production. The manure-only and manure plus low-rate mineral treatments had more available potassium and showed soil surface features of unverified composition in SEM images. Redundancy analysis revealed that the soil pH, available phosphorus, and available potassium were the principal physicochemical environmental factors associated with differences in non-rhizosphere bacterial communities. Structural equation modelling indicated that although high-rate chemical fertilisation directly promoted wheat yields by increasing available phosphorus, it indirectly suppressed non-rhizosphere microbial diversity by decreasing the soil pH, potentially threatening the long-term sustainability of agricultural productivity. Overall, optimising the fertiliser composition and adopting combined organic and mineral fertilisation are important for balancing soil nutrients, maintaining microbial ecological stability, and achieving sustainable agricultural development.</div></details>
+</div>
+<div class="card"><div class="title">Artemisia-Derived Biochar Modulates Ryegrass Growth and Micronutrient Availability in Alkaline Soil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Li-Bing Gao, Jiang-Hao Wang, Xin-Zhi Zhang, Xia-Yang Wu, Jian-Ning Chang...</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9834c90a83605ad369a718482781d9b45309c78a">Abs</a> · <a href="https://doi.org/10.3390/plants15213459">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Biochar performance in alkaline, low-fertility soil depends on feedstock, pyrolysis temperature, and application rate, yet the effects of mining-affected Artemisia biomass remain poorly characterized. Artemisia (SBC) and maize straw (BC) biochars produced at 400, 500, and 600 °C were applied at 1% or 5% (w/w) in a 40-day ryegrass pot experiment. We measured plant growth, chlorophyll, antioxidant enzyme activities, plant tissue Fe, Mn, Cu, and Zn, and soil pH, organic carbon, enzyme activities, and diethylenetriaminepentaacetic acid (DTPA)-extractable micronutrients. At 1%, SBC600 increased plant height and root length by 60.98% and 43.10%, respectively, versus the unamended control; SBC500 increased total chlorophyll by 145.71%. Under L-SBC500, DTPA-extractable Fe, Mn, Cu, and Zn were 100.26%, 80.37%, 153.01%, and 342.86% higher than in the control. The 5% rate raised soil pH to 9.53 and attenuated several plant and soil responses. Converting this locally available mining-area weed into biochar provides a waste-to-resource strategy that simultaneously manages metal-bearing biomass and reshapes the soil micronutrient profile: the Artemisia biochar was intrinsically richer in Fe, Mn, and Cu but lower in Zn than the conventional maize straw biochar, revealing a feedstock-specific nutrient signature. These short-term, concentration-based results demonstrate clear treatment-dependent benefits, although they do not yet quantify the source or transfer of elements or establish long-term environmental safety.</div></details>
+</div>
+<div class="card"><div class="title">Lead Release and Contamination Risks Associated with Soil Application of Lead-Loaded Biochars<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Zheng-Feng An, Chong Li, A. El-Naggar, M. Naeth, S. Chang</div>
+<div class="meta-line">Venue: Land</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/2c35a0bed50a41968641c30ae3f577d255edf551">Abs</a> · <a href="https://doi.org/10.3390/land15112111">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Biochar is increasingly used in environmental applications, such as remediating soils and water contaminated with toxic elements, because of its high adsorption capacity. However, the environmental fate of toxic elements in spent biochar if used as a soil amendment is poorly understood. In this study, wheat straw and cattle manure biochars, with their lead (Pb)-loaded counterparts (spent biochars) prepared in the laboratory, were applied to a Black Chernozemic soil in an 8-week incubation experiment to evaluate the extractability of Pb in the soil–biochar mixtures and the associated risk of Pb contamination. Pb loading lowered biochar pH by 3.70 units for the wheat straw biochar (from 9.91 to 6.21) and by 3.14 units for the cattle manure biochar (from 10.98 to 7.83), corresponding to approximately 5000-fold and 1400-fold increases in H+ activity. Both spent biochars increased organic acid-extractable Pb (phytoavailable) in the soil–biochar mixtures relative to the control, but to different degrees. Pooled across sampling times (geometric means), organic acid-extractable Pb was 20.3 mg kg−1 under the spent wheat straw biochar and 1.7 mg kg−1 under the spent cattle manure biochar, compared with 0.19 mg kg−1 in the control; potentially mobile Pb followed the same order. Between weeks 4 and 8, the potentially mobile Pb increased under both spent biochars, markedly under the spent cattle manure biochar, whereas phytoavailable Pb declined significantly in the control and the two pristine biochar treatments, indicating that the two operationally defined Pb pools changed differently over time. No significant differences in soil pH or electrical conductivity were detected among treatments after the incubation, and treatment mean pH differed by at most 0.12 units. Bulk soil pH is therefore unlikely to explain differences between the two spent biochars. These results do not show which biochar binds Pb more strongly because the amount of Pb retained by each biochar was not quantified; they do show that, under the conditions tested, land application of Pb-loaded biochar can increase extractable Pb in soil, that the magnitude of this increase differed between the two feedstocks, and that this risk should be assessed before spent biochars are used as a soil amendment.</div></details>
+</div>
+<div class="card"><div class="title">Geographic Differentiation of the Thelephora ganbajun Mycosphere Across Multiple Sites and Its Associations with Fruiting-Body Metabolic Phenotypes<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ling Song, Shi-Mei Yang, Fei Wang, Shun-Qing Yang, Ruo-Xi Yan...</div>
+<div class="meta-line">Venue: Journal of Fungi</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/20a774a1b44a2b6e8603ddc54f58cf334145eba1">Abs</a> · <a href="https://doi.org/10.3390/jof12110831">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Thelephora ganbajun is a highly valued edible ectomycorrhizal fungus, but the relationships between its natural distribution and growth and soil environmental conditions remain poorly understood. In this study, mycosphere soils and adjacent control soils were collected from seven geographic sites in Yunnan Province, China. Soil physicochemical properties, enzyme activities, untargeted metabolomics, and bacterial and fungal amplicon sequencing were integrated to characterize geographic variation in the belowground environment and its associations with fruiting-body metabolic phenotypes. Nutrient levels and enzyme activities differed between mycosphere and control soils, and the magnitude of these differences varied among sites. A total of 5006 metabolites were annotated, including 77 differential metabolites shared across all seven sites, although their directions of change were strongly site-dependent. Bacterial and fungal communities in mycosphere soils exhibited significant geographic differentiation. The first two axes of distance-based redundancy analysis cumulatively explained 50.04% and 56.73% of the variation in bacterial and fungal communities, respectively. Soil pH, alkali-hydrolyzable nitrogen, and available phosphorus emerged as key environmental factors, with the latter two significantly associated with both bacterial and fungal community structure. Procrustes analysis further revealed concordant geographic differentiation of the two microbial communities. The volatile, non-volatile, and free amino acid metabolic phenotypes of fruiting bodies were associated with different components of the belowground environment. These findings reveal geographic variation in the belowground environment of T. ganbajun during a single fruiting season and its associations with fruiting-body metabolic phenotypes, providing candidate environmental indicators for future habitat assessment.</div></details>
+</div>
+<div class="card"><div class="title">Nutrient Status and Soil Health after Harvest of Rice, as Influenced by the Application of Organic and Inorganic Sources of Plant Nutrient<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Vikram Khunte, Y. Sao, Prerna Jaiswal, R. Pal</div>
+<div class="meta-line">Venue: Asian Journal of Soil Science and Plant Nutrition</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a9a31f00f55e784a711e653c536175a1efdd041c">Abs</a> · <a href="https://doi.org/10.9734/ajsspn/2026/v12i4791">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">A field experiment conducted during the 2023 kharif season at Bilaspur, Chhattisgarh, India, examined rice yield, plant nutrient uptake and selected post-harvest soil chemical properties under eight nutrient-management treatments arranged in a randomised block design with three replications. Treatments comprised an unfertilised control, 100% recommended mineral fertiliser dose (RDF) and combinations of 50% recommended nitrogen dose (RDN) with foliar slurry, cow-urine or vermiwash applications. The greatest recorded grain and straw yields occurred under 50% RDN plus slurry sprays at 30, 60 and 90 days after transplanting (T5; 46.93 and 63.66 q ha−1, respectively), compared with 46.50 and 62.26 q ha−1 under 100% RDF (T2). The untreated control yielded 20.13 and 32.33 q ha−1. Post-harvest soil available nitrogen, P2O5 and K2O were numerically greatest under T2 (216.36, 13.32 and 286.32 kg ha−1), rather than T5 (201.14, 12.16 and 259.12 kg ha−1). T5 showed the highest recorded grain nitrogen uptake (59.13 kg ha−1) and straw potassium uptake (108.23 kg ha−1). The treatment means for soil pH, electrical conductivity and organic carbon varied over narrow ranges, with no established treatment differences in the reported experiment. These observations suggest that repeated slurry foliar applications combined with reduced mineral nitrogen coincided with a high rice yield in this setting, whereas the full mineral fertiliser treatment maintained the highest measured residual soil macronutrient availability. Interpretation is necessarily descriptive because independently verifiable plot-level variation and complete liquid-input characterisation are unavailable.</div></details>
+</div>
+<div class="card"><div class="title">Systematic Electrochemical Investigation of Iron Removal from Coal Fly Ash Acid Leaching Solution by Electrodeposition<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Shu-Wei Lan, Zhi-Bo Liu, Xian-Wei Hu, Yan-Chen Zheng, Ming-Shun Zhang...</div>
+<div class="meta-line">Venue: Journal of The Electrochemical Society</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/092655c2bae530cbaa6d19ef2f6cfbd7c5733f5f">Abs</a> · <a href="https://iopscience.iop.org/article/10.1149/1945-7111/aebe71/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Electrodeposition is a clean, efficient method for separating Al and Fe from coal fly ash acid leachate. This study systematically investigates Fe electrodeposition removal. Thermodynamic and electrochemical analyses confirm theoretical feasibility, Pb, Cu, Ni co-deposit with Fe, while Na, K, Ca, Mg, Li, Zn, Ga, Cr, Ti do not interfere. Increasing temperature and Fe2+ concentration shifts Fe2+/Fe reduction potential positively, promoting deposition. Titanium and lead electrodes suppress hydrogen evolution. High AlCl3 concentration effectively suppresses hydrogen evolution without significantly inhibiting Fe deposition. Kinetics show that both Fe2+/Fe and Fe3+/Fe2+ reductions are diffusion-controlled, with diffusion coefficients ~2.4×10-5 and 1.0×10-6 cm2/s. With increasing applied potential, Fe nucleation changes from progressive to instantaneous, reducing grain size and transforming morphology from irregular flakes to star-shaped pentagonal structures. This work provides electrochemical theoretical support for optimizing Fe electrodeposition removal from coal fly ash acid leachate.</div></details>
+</div>
+<div class="card"><div class="title">Enmiendas orgánicas aplicadas en cultivos hortícolas protegidos con suelos vertisoles<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Marisol Virginia Cuellas, Margarita Alconada, M. Marasas</div>
+<div class="meta-line">Venue: Revista de la Facultad de Agronomía</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0a17d67dee41cd9bfe4b9b5e0f5f73a6f9cf5bfe">Abs</a> · <a href="https://revistas.unlp.edu.ar/revagro/article/download/15542/24597">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">In the horticultural belt of Gran La Plata, the application of organic amendments of animal origin to the soil is widespread, however their consequences on the soil and productive variables are not studied. The objective of this work was to analyze the effect of applying uncomposted and composted poultry bedding on the salinity and alkalinity of a soil with vertic properties in a greenhouse, with lettuce and tomato crops. Treatments: T1 (control), T2 (fresh chicken litter, dose 30 t.ha-1), T3 (compost chicken bed, dose 47.3 t.ha-1), T4 (double dose T3). Soil variables analyzed: pH, EC and RAS. In crop, yield and size of the fruits were studied. The results showed that the incorporation of organic amendments did not affect the pH. Salinity (CE) increased with higher concentrations in T4 (max 9.33 dS.m-1). Alkalinity was also high at all sites. In yield: the lettuce crop did not present a significant difference between treatments (18,7-21,05 t.ha-1). In tomato, T1 was significantly lower during the first cycle, difference that disappeared in the second cycle (183-216 t.ha-1). The quality of the fruits in the first tomato cycle was lower in T2, with a greater quantity of second rate fruits, T4 had a greater quantity of fruits with BER. These results show that organic amendments of animal origin, applied fresh and composted in high doses, salinize soils. It is very important to continue with these studies to adjust application doses and also find sustainable alternatives for the management of horticultural soils.</div></details>
+</div>
+<div class="card"><div class="title">Spatial variability of soil fertility parameters in Kaski District, Nepal: A geostatistical approach<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Karishma Bhusal, Yojana Adhikari, Nirajan Acharya, Sadikshya Pokharel, Sunil Pandey...</div>
+<div class="meta-line">Venue: PLOS One</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a0d64449c50efa111639eabae76cb1375478a1c0">Abs</a> · <a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0360670&amp;type=printable">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Mapping of soils and depicting spatial variability across agro-ecological regions remains underexplored, especially in Nepal’s hilly areas. The current study aimed to assess spatial variability and map key soil properties such as pH, soil organic matter, total nitrogen, available phosphorus, and available potassium across the Kaski district, Nepal. A total of 263 composite, geo-referenced samples from 0–20 cm depth were collected using a proportional random sampling design across different land- use types. Fertility maps were generated using Inverse Distance Weighting (IDW) interpolation in ArcGIS 10.8. Descriptive statistics revealed significant spatial variability among soil parameters, with a coefficient of variation from 15.2% (low) for pH to 137.93% (high) for available phosphorus. Most soils were moderately to strongly acidic with a mean of 5.48 ± 0.004. Soil organic matter, total nitrogen, and available phosphorus showed medium fertility levels (SNI = 1.91, 2.19 &amp; 1.95), whereas available potassium reflected a low soil nutrient index (SNI = 1.61), indicating potassium deficiency. Spatial autocorrelation analysis confirmed significant positive clustering for SOM and potassium, while nitrogen exhibited a random distribution pattern (I = 0.25, z = 1.46, p = 0.14). Trend analysis revealed directional gradients with saddle-shaped curves in pH, SOM, and total nitrogen, influenced by topography, elevation, and fertilizer management practices. This study provides a comprehensive characterization of soil fertility, highlighting fertility constraints and offering insights for precision agriculture and land-use planning aimed at sustainable soil management in the Kaski district of Nepal.</div></details>
+</div>
+<div class="card"><div class="title">Converting date pits into biochar for the remediation of contaminated soil: A sustainable approach<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: N. Aloui</div>
+<div class="meta-line">Venue: Research in Ecology</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7fae3817250d719f9b14b1f5f3ae94f3cee70ee1">Abs</a> · <a href="https://journals.bilpubgroup.com/index.php/re/article/download/117279">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Oil waste severely affects date production and quality in the Ouargla region, as it disrupts the fragile oasis ecosystem. The coexistence of oil extraction and date cultivation causes soil and water pollution, which directly affects the metabolism of the date palm. Dates have been part of the daily human diet for thousands of years and are an essential component of the diet of Saharan populations. Date palm residues are abundant in many arid regions, presenting both an environmental challenge and an opportunity for sustainable resource management. This study valorizes date palm residues by slow pyrolysis at 600 °C in order to produce biochar suitable for the remediation of soils. Composition is fundamental to the concept of biochar as a means of C sequestration. In recent years, there has been considerable support for biochar use as a soil amendment to help mitigate climate  change  through  increased  C  storage  in  soils  and  reductions  in  net  carbon  dioxide  (CO2) emissions. The biochar is also known to have a high BET surface area, which is suitable to be used as an adsorption media. Thus, it can be a treatment agent for many pollutants such as polycyclic hydrocarbons heavy metals. The date palm residues we used in our study were the date kernels of the &quot;Ghars&quot; variety. Comprising 75.64% organic carbon, 0.16 % phosphorus, 0.65% potassium, 0.73 % magnesium and 0.19 % nitrogen. Scanning electron microscopy analysis of the biochar revealed that the high surface porosity of the product provided better attachment sites for microorganisms, which accelerated the degradation of hydrocarbons. The results of the analysis of hydrocarbons by GC/MS showed a marked reduction in the concentration of toxic compounds after treatment, which testifies to the effectiveness of the biochar treatment in decomposing heavy and complex compounds into lighter and more stable compounds, although some require longer degradation periods, demonstrating the effectiveness of biochar..</div></details>
+</div>
+<div class="card"><div class="title">SCIENTIFIC VALIDATION OF SUSRUTA’S BHUMI-SHODHANA METHOD FOR PURIFICATION OF CONTAMINATED SOIL: A PILOT STUDY ON HIMA-KASHAYA PREPARED FROM VIDANGA (Embelia ribes Burm.f.), PATHA (Cissampelos pareira L.) AND KATABHI (Albizia procera (Roxb.) Benth.)<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: S. Tayade, Anu Prabha, Sandhya Vasantrao Shinde</div>
+<div class="meta-line">Venue: Intemed International Journal of Research in Integrated Medical Sciences (IJ-RIMS)</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b091c277bcbb96b8cabe22bc2c79146fc085025e">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Background
+Soil contamination by industrial pollutants is a
+serious public health problem in India. The Central
+Pollution Control Board has listed 103 heavily
+contaminated sites across the country, of which 21 lie
+in Madhya Pradesh. Susruta Samhita, Kalpasthana
+3/10-12, describes a method for purification of Visha-
+Dushta Bhumi (poison contaminated soil) using a
+cold herbal infusion, Hima-Kashaya, prepared from
+Vidanga (Embelia ribes Burm.f.), Patha
+(Cissampelos pareira L.) and Katabhi (Albizia
+procera (Roxb.) Benth.). This classical prescription
+has not been tested scientifically before the present
+study.
+Objectives
+To prepare the Hima-Kashaya formulation by the
+classical cold infusion method and to evaluate its
+effect on the physicochemical, macronutrient and
+micronutrient status of industrially contaminated soil
+collected from Bhanpur, Bhopal, and to compare the
+treated and untreated soil statistically by paired t-test.
+Methods
+Composite contaminated soil was divided into an
+untreated Control group (S1) and a Treated group
+(S2) which received 100 mL of freshly prepared
+Hima-Kashaya and was incubated for 21 days under
+shade at about 60 per cent moisture. Both samples
+were analysed at the ICAR-Indian Institute of Soil
+Science, Bhopal (Sample ID 34).
+Results
+Available Nitrogen increased by 14.61 per cent (2320
+to 2659 kg/ha), Available Phosphorus by 11.11 per
+cent (18 to 20 kg/ha) and Available Potassium by
+16.22 per cent (894 to 1039 kg/ha) in S2 as compared
+to S1. Organic Carbon rose by 4.73 per cent and soil
+pH improved from 6.62 to 6.76. Available Zinc fell
+by 9.84 per cent, indicating chelation and
+immobilisation. The paired t-test gave t = 1.9634, df
+= 9, p = 0.081, with a mean improvement of 25.58 per
+cent across ten parameters.
+Conclusion
+The Hima-Kashaya formulation produced a
+consistent and favourable change in nearly all the soil
+parameters studied. This pilot study offers the first
+experimental support for the Bhumi-Shodhana
+prescription of Susruta and opens a low cost, eco-
+friendly line of research for the remediation of
+contaminated soil.</div></details>
+</div>
+<div class="card"><div class="title">Differential effects of moisture on surface versus mineral soil microbial communities in the High-Arctic.<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: B. Tytgat, C. Seppey, L. De Maeyer, A. Frossard, D. Velázquez...</div>
+<div class="meta-line">Venue: FEMS microbiology ecology</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9798681cc8d49f8b6244e19ce18002b7d6adde23">Abs</a> · <a href="https://academic.oup.com/femsec/advance-article-pdf/doi/10.1093/femsec/fiag126/73131085/fiag126.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Microorganisms play key roles in nutrient/carbon cycling and greenhouse gas fluxes in High-Arctic soils. However, the influence of soil conditions on tundra microbiomes remains poorly understood. Using high-throughput sequencing, we studied bacterial, fungal and micro-eukaryotic communities in surface soil-biocrust matrices and the underlying mineral soil along two environmental gradients in Svalbard. Both layers harboured highly different communities. Gravimetric water content and pH were the most important factors in explaining the variation in surface communities. Cyanobacteriota were the dominant phototrophs in wetter tundra soils, while Chlorophyta dominated drier ones. In mineral soils, soil texture explained community structure for all three groups, together with carbon-content and carbon: nitrogen-ratio for micro-eukaryotes and bacteria. Chloroflexota and Spirotrichea dominated mineral soils with high clay content, Actinobacteriota positively correlated with sand content. The effects of soil texture and water content were also reflected in co-occurrence networks. Surface communities split into two network clusters linked to either drier or wetter tundra. The mineral soil network was much less coherent, and clustering was related to soil texture. Our findings revealed the important interplay between soil layer, toposequence and soil microbiome in the High-Arctic. As precipitation patterns shift, the impact of topography on tundra microbial communities is likely to intensify.</div></details>
+</div>
+<div class="card"><div class="title">A soil function indicator framework for evaluating biochar in agricultural soils<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Behrouz Gholamahmadi, Christian Wurzer, Ondřej Mašek</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7dd7b71d1f5ed2862207978c502203ced975cf5f">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00371-1.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Agricultural soils underpin global food security but are increasingly constrained by declining organic matter, erosion, and loss of biological functioning under intensified production and climate stress. Biochar has been widely studied as a soil amendment capable of improving these functions while contributing to long-term carbon storage; however, its adoption remains limited by the absence of operational frameworks that translate soil responses into measurable and scalable outcomes. This work presents a soil-science-led conceptual framework that positions biochar application as a soil-function intervention and links biochar-induced processes to a minimal, field-feasible indicator set. The framework centres on a complementary triad comprising a soil enzyme composite index, microbial community composition metrics, and structural stability (aggregate–erosion resistance), representing biochemical, biological, and physical dimensions of soil function. Rather than exhaustive characterisation, the approach emphasises conservative interpretation, site-specific baselines, and repeatable measurements suited to heterogeneous farming contexts. Carbon storage and improvements in soil condition are treated as parallel but analytically distinct outcome pathways, avoiding conflation of carbon quantity with soil quality. By centring on soil functional change, this framework provides a transparent and operational basis for evaluating the impacts of biochar. It supports the integration of soil condition into emerging nature-positive frameworks without reliance on species-level biodiversity metrics. A soil-function indicator framework is proposed for evaluating biochar-amended agricultural soils. Indicators are framed as proxies of soil functional condition, not direct measures of ecosystem processes. Carbon storage and nature-positive soil outcomes are treated as distinct but complementary pathways. A minimal, field-feasible indicator triad supports biochemical, biological, and structural soil functions. The framework enables transparent, scalable assessment aligned with emerging EU carbon and nature policies.</div></details>
+</div>
+<div class="card"><div class="title">Enhancing the Environmental Sustainability of Agroecosystems Under Long-Term No-Till Management in the Ordinary Chernozems of Northern Kazakhstan<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: O. Solovyov, Bagdat Kadirov, K. Akshalov, V. Zaika, V. Kiyan</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0a23cbe343fb973322e0ccc298fed11b11f6f736">Abs</a> · <a href="https://doi.org/10.3390/agronomy16212211">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">One of the factors contributing to the enhanced environmental sustainability of agroecosystems in Northern Kazakhstan is the introduction of intensive farming systems adapted to local climatic conditions. The application of zero-tillage technologies (hereinafter referred to as No-Till) offers several advantages, including the preservation of soil fertility. However, in Northern Kazakhstan, these technologies are currently used on relatively limited areas due to insufficient research and the long adaptation period required for their effective implementation. The aim of this study was to investigate the dynamics of soil organic matter (SOM) stocks under long-term No-Till management in two crop rotation systems. The study was conducted on ordinary chernozem soils of Northern Kazakhstan from 2014 to 2024, with monitoring of soil agrochemical, microbiological, and agrophysical properties, and was primarily exploratory in nature. The research was carried out at the experimental station (North Kazakhstan Region, Republic of Kazakhstan), located in the dry-steppe zone. The results showed that the long-term application of No-Till technology in crop rotation systems increased the soil humus balance by an average of 0.4–0.6%, whereas a decline in this indicator was observed under conventional farming systems. These findings were supported by correlation analysis of the interactions among the studied factors.</div></details>
+</div>
+<div class="card"><div class="title">Forensically significant microbial community responses to aboveground cadaver decomposition in Southeast Texas soils.<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Victoria Nieciecki, Elizabeth Edwards, V. Seitz, Alexandra Emmons, A. Belk...</div>
+<div class="meta-line">Venue: Journal of forensic sciences</div>
+<div class="meta-line">Published: 2026-11-05</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9c62b196a5fea087cabe59427ba21ebc550f938d">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1556-4029.70502">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">During vertebrate decomposition, a purge of nutrient-rich fluids enters the surrounding soil producing a localized nutrient hotspot. The composition of microbial communities at the soil surface is known to predictably change in response to this influx of decomposition fluids over time. However, the depth to which these compositional changes permeate the soil near a decomposing human cadaver and whether specific microbial members exhibit spatial responses to aboveground decomposition both represent significant knowledge gaps. In this study, we longitudinally sampled forest soils adjacent to decomposing human cadavers and from nearby control sites in 2 cm increments to a depth of 10 cm. Soil samples were collected during purge, post purge, and the dry remains stage of decomposition over three seasons at Sam Houston State University&#x27;s Southeast Texas Applied Forensic Science facility. We detected season-dependent microbial community responses in the upper 0-4 cm of soils adjacent to decomposition fluids. On average, microbial community diversity decreased and community composition became increasingly different in comparison to nearby control soils. Cadaver soils remained impacted for the duration of the 4.5-month spring trial and 1.5-month summer trial. Terriglobus, Acidisoma, Ignatzschineria, and Pandoraea may represent forensically informative biological markers, as they significantly increased in response to decomposition. We observed a more limited, yet still detectable response in the lower 6-10 cm of soil. In addition to improving our understanding of decomposition ecology, we anticipate that incorporating these findings into forensic investigations could help strengthen postmortem interval model estimation and better inform investigative sampling practices.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
