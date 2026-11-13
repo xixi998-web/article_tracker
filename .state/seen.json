@@ -24714,5 +24714,73 @@
   "doi:10.1111/1556-4029.70502": {
     "source": "top_journal",
     "title": "Forensically significant microbial community responses to aboveground cadaver decomposition in Southeast Texas soils."
+  },
+  "doi:10.1109/tvcg.2026.3751438": {
+    "source": "top_journal",
+    "title": "3D Scene Completion via Fusion of Diffusion Model Priors and Point Clouds."
+  },
+  "arxiv:2611.15153v1": {
+    "source": "arxiv",
+    "title": "MatrixSplat: Matrix-Parallel and Feature-Scalable 3D Gaussian Splatting Rendering on GPUs"
+  },
+  "arxiv:2611.15435v1": {
+    "source": "arxiv",
+    "title": "ThermalSplat: Generalizable Pose-Free Gaussian Splatting for Sparse-View Thermal 3D Reconstruction"
+  },
+  "doi:10.1109/tpami.2026.3751295": {
+    "source": "top_journal",
+    "title": "DepthGS: Depth-Guided Gaussian Splatting with Adaptive Regularization for High-Quality Surface Reconstruction."
+  },
+  "arxiv:2611.10241": {
+    "source": "top_journal",
+    "title": "OfficeTwin: Realizing 3D Reconstruction of Redundant Scenes through Partial Viewpoint Perception"
+  },
+  "arxiv:2611.15429v1": {
+    "source": "arxiv",
+    "title": "IncR-3DSGG: Incremental Posed RGB Image Based 3D Scene Graph Generation via Privileged Depth Supervision"
+  },
+  "arxiv:2611.14958v1": {
+    "source": "arxiv",
+    "title": "Adapting Monocular Depth Estimation in Novel Scenes through Disparity Refinement and Robot Ego-Motion"
+  },
+  "arxiv:2611.13772v2": {
+    "source": "arxiv",
+    "title": "RF3DGS: Reflection-Free 3D Gaussian Splatting with Self-Priors"
+  },
+  "arxiv:2611.09524": {
+    "source": "top_journal",
+    "title": "RadarDINO: Distilling a Visual Foundation Model into mmWave Radar for Human Mesh Reconstruction"
+  },
+  "doi:10.3390/s26217014": {
+    "source": "top_journal",
+    "title": "ElasticGS: Pose-Aware Dynamic Gaussian Adaptation for Geometry-Consistent Human Digital Twin Reconstruction from Monocular Video"
+  },
+  "arxiv:2611.15280v1": {
+    "source": "arxiv",
+    "title": "Autonomous Trail Racing with a Bicycle Robot"
+  },
+  "arxiv:2611.15143v1": {
+    "source": "arxiv",
+    "title": "Multi-View 3D Reconstruction Using V-JEPA Features"
+  },
+  "arxiv:2611.08946": {
+    "source": "top_journal",
+    "title": "Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents"
+  },
+  "arxiv:2611.15260v1": {
+    "source": "arxiv",
+    "title": "Driving World Models Move the Camera, Not the Scene"
+  },
+  "doi:10.21764/maeuefd.1958929": {
+    "source": "top_journal",
+    "title": "From notes to neurons: An open-source AI pipeline for 3D laryngeal modeling in anatomy and music education"
+  },
+  "doi:10.1145/3799682.3840848": {
+    "source": "top_journal",
+    "title": "Accumulative Modality Tokenization for Multimodal Generative Recommendation"
+  },
+  "doi:10.1145/3799682.3839280": {
+    "source": "top_journal",
+    "title": "Artificial Intelligence for Data Engineering and Management Of Networked Systems (AI4DEMONS)"
   }
 }
