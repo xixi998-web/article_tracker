@@ -24842,5 +24842,77 @@
   "doi:10.2166/wcc.2026.484": {
     "source": "top_journal",
     "title": "Flood risk mitigation for an urban catchment: findings from a grey, nature-based solutions and hybrid strategy approach"
+  },
+  "arxiv:2611.12038v2": {
+    "source": "arxiv",
+    "title": "DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing"
+  },
+  "arxiv:2611.15680v1": {
+    "source": "arxiv",
+    "title": "SpaceMCP: Vision Language Model Spatial Reasoning via Model Context Protocol"
+  },
+  "arxiv:2611.16742v1": {
+    "source": "arxiv",
+    "title": "Fog-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Recovering Fog-Hidden Objects"
+  },
+  "arxiv:2611.16583v1": {
+    "source": "arxiv",
+    "title": "ReFineR: Single image to dense point cloud registration at pixel level with point splatting"
+  },
+  "arxiv:2611.16259v1": {
+    "source": "arxiv",
+    "title": "Reconstruct What You Can: Distractor-free 4D Gaussian Splatting"
+  },
+  "arxiv:2611.16212v1": {
+    "source": "arxiv",
+    "title": "SPEM: Scan-Prior Entropy Modeling for LiDAR Point Cloud Compression"
+  },
+  "arxiv:2611.16162v1": {
+    "source": "arxiv",
+    "title": "GOOSELoc: A Multimodal Benchmark for Ground-to-Aerial Localization in Unstructured Off-Road Terrain"
+  },
+  "arxiv:2611.16840v1": {
+    "source": "arxiv",
+    "title": "Kosmo-GFM: A Production-Ready Geometry Foundation Model"
+  },
+  "arxiv:2611.16205v1": {
+    "source": "arxiv",
+    "title": "QVS-LIVO RiskMap: Health- and Information-Aware View Selection for Multi-Camera LIVO and Off-Road Risk Mapping"
+  },
+  "arxiv:2611.17321v1": {
+    "source": "arxiv",
+    "title": "BrickFlow: Connectivity-Guided Brick Reconstruction"
+  },
+  "arxiv:2611.16918v1": {
+    "source": "arxiv",
+    "title": "CT-SGAL-LIO: Causal Continuous Time Refinement of Discrete LiDAR Inertial Odometry"
+  },
+  "arxiv:2611.16752v1": {
+    "source": "arxiv",
+    "title": "AgriSense: Vision-Language Decision Support and Robotic Intervention in a Virtual Greenhouse Copy title"
+  },
+  "arxiv:2611.16725v1": {
+    "source": "arxiv",
+    "title": "Safe and Efficient Navigation Considering Texting Pedestrians via Attention-Aware Cost-map Tuning"
+  },
+  "arxiv:2611.16472v1": {
+    "source": "arxiv",
+    "title": "RGB-D SLAM on the Edge: Benchmarking and Profiling RTAB-Map and ORB-SLAM3 on the Raspberry Pi 5"
+  },
+  "arxiv:2611.16012v1": {
+    "source": "arxiv",
+    "title": "Topology-Aware 4D Gaussian Splatting for Egocentric Videos"
+  },
+  "arxiv:2611.10562": {
+    "source": "top_journal",
+    "title": "ZARA: Zero-shot Animatable and Relightable 3D Avatar reconstruction from a single image"
+  },
+  "doi:10.3390/designs10060126": {
+    "source": "top_journal",
+    "title": "Implicit Fusion of Disjointed Regions in Computational Reconstruction of Topology-Optimized Structures"
+  },
+  "doi:10.1007/s11701-026-04096-9": {
+    "source": "top_journal",
+    "title": "When does robotics add value in splenic surgery? From total splenectomy to precision and function-oriented spleen preservation"
   }
 }
