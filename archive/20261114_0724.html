@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-14 07:24 · Core 6 · Proxy 1 · Eco 3</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Genetic foundations of copper stress tolerance in safflower: bridging heavy metal contamination and global warming challenges<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: Fawad Ali, Arif Ali, Obaid Ullah Shah, M. A. R. Arif, Muhammad Azhar Nadeem...</div>
+<div class="meta-line">Venue: Plant Cell Reports</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4e8dd66380619c7af701333fcf0e26b11a569d14">Abs</a> · <a href="https://www.researchsquare.com/article/rs-9539129/latest.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Integrated phenotyping and multi-omics approaches identified Cu-tolerant safflower genotypes and candidate genes underpinning Cu stress resilience for climate-adaptive breeding. Copper (Cu) contamination threatens agriculture, yet safflower’s genetic basis for Cu tolerance remains unexplored—especially as global warming intensifies risks through night-time warming and soil acidification. We conducted a pot experiment using 94 safflower genotypes under four copper chloride (CuCl₂) concentrations, revealing substantial variation among genotypes and treatments with trait reductions ranging from 1.75% (root-shoot ratio) (RSR) to 57.14% (dry root weight) (DRW). Correlation analysis showed positive trait relationships, while principal component analysis (PCA) grouped genotypes into three clusters. Ten genotypes consistently performed better under Cu stress, indicating strong tolerance potential for climate-resilient breeding. Genome-wide association study (GWAS) detected 180 significant marker-trait associations (MTAs) across eight traits, and gene annotation linked candidate genes to brassinosteroid signaling, ion homeostasis, metal response, and transport. Co-expression analysis revealed a tightly connected tolerance module in which AT5G01610 and AT5G14640 shared the same top co-expressed partners (r &gt; 0.8), including HMA4, CAX1, and SOS1, suggesting coordinated roles in Cu stress tolerance. Convergent protein–protein interaction (PPI) validation confirmed these candidates as distinct hubs that are physically interacting and transcriptionally co-regulated, supporting their function as Cu tolerance modules. In silico heatmap-based expression profiling showed distinct, stress-specific transcriptional responses in Arabidopsis roots, with Cu inducing, cadmium (Cd) eliciting mixed, and (Al) aluminum repressing expression. RNA-seq analysis identified seven Cu stress tolerance genes, validated by qRT-PCR. These findings highlight promising genotypes for developing Cu-resilient safflower cultivars, while further investigation of the highly expressed genes is needed to clarify their roles under Cu stress.</div></details>
+</div>
+<div class="card"><div class="title">Regional distribution and soil extractability of cadmium in cacao systems across the Cordillera subregion of Nariño in Colombia<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: J. Lerma-Lasso, D. H. Meneses-Buitrago, Diego Leonardo Cortes-Delgdillo, Eliana Martínez, Andrea C. Montenegro</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/100350e08a406f7d9ff6d7a733cc35ddc4033248">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00368-w.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The primary objective of this observational study was to characterize the regional distribution of cadmium (Cd) in cacao-growing soils and beans and to identify soil properties associated with extractable Cd and plant accumulation. A secondary exploratory objective was to describe clone-related patterns at intentionally selected high-risk farms. Sampling was conducted in two phases during 2020–2021. Phase 1 included 143 farms across eight Soil Cartographic Units (SCUs), where pseudo-total and DTPA-extractable soil Cd, soil chemical properties, and bean Cd were evaluated at the farm-plot scale. Phase 2 included seven farms intentionally selected because bean Cd exceeded 1.0 mg kg−1. The Phase 2 analytical dataset comprised 23 tree-level observations (13 CCN-51 and 10 ICS-95); both clones co-occurred in four farms, which provided the independent pairs for exploratory clone comparisons. Pseudo-total soil Cd differed among SCUs, whereas DTPA-extractable Cd did not show significant SCU-level differences. Soil pH, Ca, Mg, P, and Zn were associated with soil Cd fractions and bean accumulation. Median bean Cd was 0.404 mg kg−1, and 20.0% of samples were above the 0.6 mg kg−1 screening benchmark derived from the EU maximum level for certain cocoa products; this comparison does not establish compliance of processed products. Leiva showed the highest regional values. Farm-level paired analyses in Phase 2 did not support a statistically robust clone effect on litter, leaf, or bean Cd. These findings provide a regional Cd baseline and a scale-explicit framework for integrating soil mapping, soil chemistry, plant tissues, and exploratory within-farm clone comparisons in heterogeneous cacao landscapes.</div></details>
+</div>
+<div class="card"><div class="title">Response Surface Optimization of Hydrogen Peroxide Oxidation for Cyanide Remediation of Cassava-Effluent-Impacted Soils in Southern Nigeria<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: S. Okpo, U. D. Ibobo, Mabel Keke, D. E. Rockson-itiveh, F. Ozioko...</div>
+<div class="meta-line">Venue: IPS Journal of Engineering and Technology</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8d428d1fc4a0fa14bd22e6acd6f2d31b540a0ebd">Abs</a> · <a href="https://journals.ipsintelligentsia.com/engineering-technology/index.php/ijet/article/download/46/42">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Cassava-processing wastewater can introduce cyanogenic contaminants into soils receiving untreated discharges. This study evaluated laboratory-scale hydrogen peroxide (H₂O₂) oxidation of cyanide-contaminated soils from three cassava-processing-impacted locations in Ozoro and its environs, Delta State, Nigeria, and optimized the process using response surface methodology. Baseline soil pH, moisture content, electrical conductivity, organic matter and cyanide were determined. Cyanide was analysed by an acid-distillation/colorimetric procedure using copper chloride, sodium hydroxide trapping, chloramine-T and pyridine-barbituric acid, with spectrophotometric measurement at 578 nm. A randomized three-factor, three-level Box–Behnken design comprising 17 runs was executed in Design-Expert 13.0.1.0. The factors were H₂O₂ load (0.5–1.5%), water content (20–100%) and reaction time (24–96 h), while cyanide reduction was modelled separately for Leo, Oroledo and Erovie soils. Baseline pH ranged from 6.32 to 6.81, organic matter from 15.00 to 48.54%, and the cyanide concentrations were 853, 614 and 1041 mg CN⁻ kg⁻¹ dry soil, respectively. All the fitted quadratic equations were significant (p &lt; 0.0001) and the R² values obtained were 0.9911, 0.9934 and 0.9922 for Leo, Oroledo and Erovie respectively. The optimum found in the experimental domain by numerical optimization was 1.0% H₂O₂, 60% water content and 60 h, which resulted in the observed cyanide reduction of 73.44%, 80.85% and 87.14%, respectively. The H₂O₂ quadratic coefficients were all negative, suggesting significant curvature and that further increases in oxidants beyond the centre of the plot did not consistently increase the removal. The results are encouraging for laboratory application, and site-specific results, limitations of available analytical and operational data suggest that field application needs to be independently validated, site-specific oxidant-demand assessment, and full soil-quality characterization.</div></details>
+</div>
+<div class="card"><div class="title">AI-Based Smart Agriculture: An Integrated Machine Learning Framework for Crop Recommendation, Fertilizer Recommendation and Crop Yield Prediction<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Mr. Pol Ganesh Prakash, D. D. Patil, D. D. Patil</div>
+<div class="meta-line">Venue: International Journal of Advanced Research in Science Communication and Technology</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c5e3022946f537394eba2b27edd80c3688704820">Abs</a> · <a href="https://doi.org/10.48175/ijarsct-40704">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Agricultural productivity in India is strongly affected by weather variability, soil degradation and the over- or under-use of fertilizers. Farmers still tend to rely on personal experience when choosing a crop, estimating its yield and deciding how much fertilizer to apply. This paper presents an integrated, web-based decision-support system that performs three tasks within a single framework: crop recommendation, fertilizer recommendation and crop yield prediction. The system takes soil nutrients (nitrogen, phosphorus and potassium), temperature, humidity, soil pH, rainfall, soil moisture, soil type and crop type as inputs. The pipeline consists of data acquisition from public repositories, cleaning and normalisation, correlation-based feature selection, and model training using Artificial Neural Networks (ANN) and Random Forest (RF). Model performance is evaluated with cross-validation using accuracy, precision, recall, F1-score and correlation-based measures. In the reported experiments, the ANN model for yield prediction reached an accuracy of 94.70% and the Random Forest model for fertilizer recommendation reached 93.94%, and the crop recommendation model [insert accuracy] was the best performer for its task. The models are packaged in a Java (JSP/Servlet, Weka, MySQL) web application that lets farmers obtain all three recommendations from one input form..</div></details>
+</div>
+<div class="card"><div class="title">Higher intensity, lower frequency precipitation more effectively alleviates the negative impacts of nitrogen addition on ecosystem stability in a temperate grassland<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Zhi-Hui Liu, Guo-Jiao Yang, Mei-Hua Yang, Long Qian, Qun Guo...</div>
+<div class="meta-line">Venue: Journal Of Plant Ecology</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/56294ee99036187ad978eb0789950dee6892e0ea">Abs</a> · <a href="https://academic.oup.com/jpe/advance-article-pdf/doi/10.1093/jpe/rtag269/73271998/rtag269.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Changes in nitrogen (N) deposition and precipitation regime are widely recognized as key drivers of the structure and functioning of terrestrial ecosystems. Precipitation in semi-arid regions show a trend toward increasing precipitation intensity, however, how ecosystem stability responds to the combined changes in precipitation regime (specifically its intensity and frequency) and N addition, as well as the underlying mechanisms, remains poorly understood. This study focused on a temperate grassland in Inner Mongolia, using 8-year data from a field experiment to investigate the effects of N addition (0, 10, and 40 g N m−2 yr−1) and changes in precipitation regime (addition of 80 mm with two different regime: 10 mm × 8 events and 20 mm × 4 events) on ecosystem stability. The results showed that N addition reduced ecosystem stability by decreasing forb abundance and species asynchrony, mediated by alterations in soil pH. In contrast, increased precipitation alleviated the negative impact of N addition on ecosystem stability. This mitigating effect was more pronounced under higher precipitation intensity (i.e., lower precipitation frequency), mainly driven by precipitation-induced increases in soil moisture and soil pH. Improved soil moisture and pH supported stability through species richness and asynchrony, whereas the stabilizing role of forb abundance was precipitation-regime dependent. Our findings emphasize that shifts in precipitation regimes are indispensable for accurately predicting the responses of grassland ecosystem stability to N deposition.</div></details>
+</div>
+<div class="card"><div class="title">Temporal Dynamics of Carbon Dioxide (CO₂) Fluxes In Swamp Paddy Fields Based On Cultivation Age<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ayatullah Hay, M. Harun, T. Ulqodry, Bakri, Yakup</div>
+<div class="meta-line">Venue: International Journal of Science and Environment (IJSE)</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/58d4a4f6a747d4466607473a2556b16e7a1c05d9">Abs</a> · <a href="https://ijsenet.com/index.php/IJSE/article/download/838/874">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Understanding the dynamics of carbon dioxide (CO₂) fluxes in lebak swamp paddy fields is important for assessing carbon cycling under different land-use histories. This study investigated CO₂ fluxes and their relationships with soil environmental properties across different land-use ages in Pelabuhan Dalam Village, Ogan Ilir, South Sumatra. Three land-use ages were evaluated, 0 years, representing uncultivated swamp as the baseline, 6 and 12 years of continuous paddy cultivation. CO₂ fluxes were measured in the field along with soil temperature, soil water content (SWC), electrical conductivity (EC), pH, soil organic carbon (SOC), bulk density, soil porosity, and soil permeability. CO₂ flux showed a nonlinear pattern, with mean values of 1.42 ± 1.29, 5.97 ± 1.29, and 4.27 ± 1.29 for (0, 6, and 12 year) land-use ages, respectively. However, differences among land-use ages were not statistically significant. Among the measured environmental variables, SOC showed a significant relationship with CO₂ flux (R² = 0.59, p = 0.015), while bulk density, soil porosity, SWC, soil permeability, pH, and EC were not significantly associated with CO₂ flux (p &gt; 0.05). Strong correlations were observed among soil physical properties, particularly between bulk density and soil porosity (r = −1.00). These findings indicate that land-use age alone does not directly determine CO₂ flux, while changes in soil characteristics, particularly SOC, are associated with CO₂ dynamics in lebak swamp paddy fields. The findings provide a basis for evaluating soil carbon dynamics and supporting sustainable management of cultivated lebak swamp ecosystems.</div></details>
+</div>
+<div class="card"><div class="title">MgO-Biochar
+for Selective Orthophosphate Removal from
+Swine Wastewater: Optimization and Environmental Assessment<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: V. Usha, Hossein Jahromi, P. Adhikari, Sushil Adhikari, P. Ivanchenko...</div>
+<div class="meta-line">Venue: Langmuir</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/fef20f1be5ea7a58d56ce829dce3d0127fba155e">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Excess dissolved reactive orthophosphate (DRP) from swine wastewater drives eutrophication, yet its selective removal remains challenging. This study develops a magnesium oxide (MgO)-modified pine biochar for efficient DRP capture and recovery. MgO-PB, CaO-PB, and MgO/CaO-PB were produced by co-pyrolyzing &lt;1 mm pinewood with 2% Mg, Ca, or combined Mg/Ca hydroxides at 450 °C. All Mg-containing biochars exhibited high DRP removal capacities (∼20–24 mg/g) across three simulated orthophosphate systems (10–100 mg/L, pH 5–9), achieving up to ∼99% removal. MgO-PB outperformed MgO/CaO-PB, with a Langmuir maximum capacity of 36.34 mg/g for the mixed H2PO4–/HPO42 system. Removal was then optimized directly in pretreated real swine wastewater by central composite design and validated in quintuplicate. Under the optimum (0.3 g, pH 6.82, 6.5 h), the predicted removal (91.44%) was confirmed experimentally (93.04 ± 0.77%, n = 5), reducing DRP from 28.36 mg/L (after pretreatment of the raw wastewater from 79.63 mg/L) to 1.97 ± 0.22 mg/L, an overall reduction of 97.5%. Mg leaching was limited (∼9%), and the PAH content (1.40 × 10–3 mg/kg BaP-equivalent) was below the US EPA soil screening level, supporting the phosphate-loaded adsorbent as a potential material for soil amendment, pending long-term stability and agronomic confirmation.</div></details>
+</div>
+<div class="card"><div class="title">Soil factors governing shoot metal(loid) concentrations of lettuce and Swiss chard: a multivariate assessment across diffuse soil contamination gradients<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Sibylle Comeliau, Y. Brostaux, G. Colinet</div>
+<div class="meta-line">Venue: Environmental Monitoring and Assessment</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/a65d5f8318e6903fc3cb14e2feb82b92d35bced5">Abs</a></div>
+</div>
+<div class="card"><div class="title">Deep Eutectic
+Solvents as PVDF-HFP Membrane Modifiers:
+Morphology, Performance, and Fouling Impact in Gas–Liquid Methane
+Recovery from Anaerobic Effluents<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: A. Gálvez-Subiela, Rafael Font-Ferreiro, V. Martínez-Soria, J. D. Badia-Valiente, A. Cháfer...</div>
+<div class="meta-line">Venue: ACS Engineering Au</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/47f14779ca4fd2030688597372c978f1e1129990">Abs</a> · <a href="https://pubs.acs.org/aeacb3/article-pdf/doi/10.1021/acsengineeringau.6c00067/69113006/acsengineeringau.6c00067.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Dissolved methane (D-CH4) emissions from anaerobic effluents constitute an energy loss and a source of greenhouse gas emissions, and its recovery by polymeric membranes can be hindered by fouling. In this work, the long-term performance under realistic conditions of poly(vinylidene fluoride-co-hexafluoropropylene) (PVDF-HFP) membranes fabricated with dimethyl sulfoxide (DMSO) as a nontoxic solvent and deep eutectic solvents (DES) as membrane modifiers via non-solvent-induced phase separation was evaluated. An analysis based on Hansen solubility parameters showed the role of polymer–solvent–additive interaction in membrane formation. The moderate affinity between PVDF-HFP and DMSO promoted fast liquid–liquid demixing, yielding porous structures with low crystallinity. The addition of DES modified phase inversion kinetics, increasing porosity and enabling variations in pore size and crystalline phase composition. Choline chloride-based DES (ChCl:glycerol, ChCl:urea and ChCl:ethylene glycol) enhanced the formation of the β-phase fraction from 0.68 to 0.85 and reduced the pore size from 0.44 to 0.23–0.32 μm, whereas thymol:menthol DES promoted larger pores of 0.54 ± 0.01 μm and α-phase fraction, evidencing the key role of additive polarity in solid–liquid demixing. All fabricated membranes exhibited D-CH4 removal efficiency (RE) profiles fully comparable to those of commercial PVDF (≈36%), achieving a RE at 5 h in the range of 36.4–41.7%. Long-term tests using the anaerobic effluent revealed a progressive RE decline to ≈20% in both the pristine membrane and with ChCl:EG due to fouling, with the latter showing a less pronounced RE decline during the initial hours (&lt;100 h), though the final RE at 300 h was similar. The performance decline was due to surface deposition of organic foulants (extracellular polymeric substances and fatty acids) and inorganic salts, and the ultrasonic-driven cleaning process with water and citric acid partially removed the fouling. Overall, this study demonstrates that nontoxic DMSO with DES addition could replace hazardous traditional solvents in membrane fabrication without compromising D-CH4 RE.</div></details>
+</div>
+<div class="card"><div class="title">Heavy metal contamination and associated risks in agricultural soil and crops under industrial land sprawling in Central Bangladesh<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Arjun Sarker Piash, Shimul Roy, Md. Ferdous Alam, I. Bahar, N. Dafader...</div>
+<div class="meta-line">Venue: Discover Soil</div>
+<div class="meta-line">Published: 2026-11-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4f50e4a9544ef7e54d26fa1cbbf835604be2a811">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s44378-026-00370-2.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Heavy metal (HM) contamination in agricultural soils and crops pose serious threats to agricultural productivity, environmental quality, and human health. Rapid industrial expansion in Bangladesh has increased concerns about HM accumulation in agricultural lands and the associated risks in industrial areas. This study investigated seasonal variations in potentially toxic HM concentrations (Cr, Cu, Mn, Ni, Zn, and Cd) in soils and crops collected from agricultural fields in central Bangladesh that are influenced by multiple industrial activities. Surface soil (0–15 cm) and edible crop samples (vegetables and rice) were collected during winter and summer, and HM concentrations were analyzed to determine bioaccumulation factors (BaF), pollution levels, sources, and ecological and human health risks. HM concentrations in both soil and crops were generally higher in winter than in summer, although metal-specific variations were observed. In soils, mean concentrations (mg/kg) of Cr, Cu, Mn, Ni, Zn, and Cd were 40.88, 5.16, 192.31, 55.80, 279.14, and 0.92 in winter, and 39.52, 4.27, 189.65, 56.62, 274.78, and below the detection limit (BDL) in summer. In crops, corresponding winter concentrations (mg/kg) were 83.34, 12.11, 390.80, 106.13, 891.89, and BDL, and 45.57, 12.21, 300.76, 92.18, 376.80, and BDL in summer. BaF values followed Zn&gt;Cu&gt;Cr&gt;Mn&gt;Ni&gt;Cd in winter and Cu&gt;Zn&gt;Ni&gt;Mn&gt;Cr&gt;Cd in summer. Correlation analysis suggested possible common sources and similar environmental behavior of several HMs. Pollution load indices (Pi ≤ 1.0) indicated relatively low-level soil pollution, while ecological risk indices showed low to moderate risks (Ri: 5.41–187.41). Despite relatively low soil pollution indices, the health risk assessment indicated potential chronic non-carcinogenic risks associated with dietary exposure to multiple HMs. These findings highlight the need for regular monitoring of agricultural soils and crops, effective management of industrial wastewater, and appropriate measures to minimize HM exposure in rapidly industrializing areas.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
