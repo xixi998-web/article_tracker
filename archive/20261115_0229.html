@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-15 02:29 · Core 3 · Proxy 0 · Eco 1</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">CAD-free fine-grained industrial part recognition via 3D Gaussian Splatting<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Chen-Xi Tao, Hong-in Won, Seung-Kyum Choi</div>
+<div class="meta-line">Venue: Machine Vision and Applications</div>
+<div class="meta-line">Published: 2026-11-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f3a4bd59b0799fb7bffa4ff85daad8ebfb2d0c57">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s00138-026-01945-3.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Fine-grained industrial parts such as screw, nut, and gear variants differ only in subtle threading, tooth count, or dimensions, and CAD models and large labeled datasets are rarely available in production. We present a CAD-free, video-based recognizer that distinguishes near-identical parts from a single short turntable video per part, with no CAD or manual labels. From the video we reconstruct a 3D Gaussian Splatting (3DGS) twin of each part and render it from 360 viewpoints as a label-free training source. A compact two-layer head, meta-trained over a frozen DINOv2 backbone with a 1-nearest-neighbor (1-NN)-consistent objective, classifies a real part by its most similar reference view. On a self-collected 18-part dataset, evaluated on a separately captured test video from the same rig to control leakage, it reaches 91.6% accuracy from 10 real shots and 75.5% with zero real labels; meta-learning and a strong frozen backbone are both decisive. We compare the renders with the video’s own masked frames, the CAD-free alternative that needs no reconstruction. On the same rig the frames are the stronger source, by 2.4 points at 10 shots and 6.7 points zero-shot with matched view counts, because fine thread relief is not reproduced faithfully. In a hand-held phone capture under different lighting, surface, and viewpoints the order reverses: the renders lead by 11.7 points zero-shot with matched views and by 14 points on nuts, and labeled shots taken on the rig do not transfer. We also report the twin’s reconstruction fidelity, blind zones, and computational cost.</div></details>
+</div>
+<div class="card"><div class="title">TransArt3D: From Two States to Articulated 3D Reconstruction with Video Transition Priors<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Chen-Hao Guan, Liying Yang, Xin-Xing Yu, Hao Mo, Tian-Shun Han...</div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-11-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/76df62a537c60e100a29d1f7329adcd15c123659">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Reconstructing interactable articulated assets from a few images is key to robotics and simulation, yet highly underconstrained. Existing optimization-based methods fit an articulated asset under a static 3D prior that scores each state independently, so per-state reconstruction errors leak into the estimated moving part and joint as false motion. Video diffusion models capture how objects move between states, but only implicitly in 2D. To this end, we present TransArt3D, an optimization-based framework that reconstructs an articulated 3D asset from two endpoint images by translating this video transition prior into explicit part structure and joint kinematics. It first lifts frames generated between the endpoints with a transition-coupled 3D consensus that applies the static 3D prior jointly across frames, stabilizing unchanging regions and initializing the parts and joint. A rectified-flow kinematic refinement then lets the video prior supervise a 3D motion field over the whole transition, while part assignment and a shared joint constrain the field throughout optimization, keeping per-state errors out of the articulation. Finally, a motion-aware canonical appearance fusion uses the recovered articulation to map both endpoint images onto one canonical surface, texturing regions that only one state reveals. On PartNet-Mobility, TransArt3D outperforms methods given the same two endpoints in geometry and joint accuracy, and surpasses methods given six observed states in articulated-state geometry, joint localization and appearance.</div></details>
+</div>
+<div class="card"><div class="title">Large‐Depth‐of‐Focus and High‐Quality Layer‐Based Holographic 3D Display System Based on Liquid Crystal Axicon<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Fan-Chuan Lin, Qian Huang, Yi-Long Li, Rui-Yi Zhao, Qiong-Hua Wang...</div>
+<div class="meta-line">Venue: Laser &amp;amp; Photonics Reviews</div>
+<div class="meta-line">Published: 2026-11-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e65d4853a578af9e48d6198270f44f6797907443">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ As a promising 3D display technology, holographic display can reconstruct full light field information of 3D scenes, including depth cues. While depth‐dependent defocus naturally provides these depth cues, the limited depth of focus (DOF) restricts the axial range of image clarity, posing a significant challenge for layer‐based holographic displays. In this work, we innovatively propose a large‐DOF and high‐quality layer‐based holographic 3D display system based on a liquid crystal axicon. The core components of the proposed system include a spatial light modulator (SLM) loaded with high‐quality holograms and a specially designed liquid crystal axicon. As for the hardware, a liquid crystal axicon is designed based on the principle of non‐diffracting Bessel beam generation to break the DOF limitations. As for the software, a multi‐plane hologram optimization method is proposed to suppress boundary crosstalk, which cooperates with the liquid crystal axicon to realize large‐DOF and high‐quality layer‐based holographic 3D reconstruction. The proposed system achieves reconstruction within a continuous focal segment of 2 cm, representing over a two‐times increase compared to reported large‐DOF systems. This work effectively promotes the applications of holographic displays in diverse fields such as industry, education, and entertainment.</div></details>
+</div>
+<div class="card"><div class="title">SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Jia-Xin Guo, Wen-Zhen Dong, Tao-Yu Wu, Hao-Min Kuang, Meng-Ya Xu...</div>
+<div class="meta-line">Venue: Machine Vision and Applications</div>
+<div class="meta-line">Published: 2026-11-08</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8c64c7bad34374fdf11e921ceafb73054e720bb6">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Understanding 3D scene dynamics in minimally invasive surgery (MIS) is a fundamental step toward physically intelligent and autonomous surgical systems. However, existing public datasets offer limited scalability and diversity in real-world clinical scenarios. Moreover, annotations typically focus on either tissue or instruments alone, overlooking tool-tissue interactions. This gap limits applications such as augmented reality guidance and autonomous surgery driven by vision-language-action (VLA) models or world models, which demand large-scale, high-quality 3D supervision. In this work, we construct SurgTAP-3D, a large-scale in-vivo pseudo-3D surgical motion tracking dataset and benchmark, comprising 520K frames, 4,549 action clips, and 1.4M 2D/3D point trajectories from diverse robotic and manual procedures under unified action categories. To make annotation scalable, we design a unified framework for surgical 3D point tracking that converts uncalibrated monocular surgical videos into structured 4D annotations through contact-region prompting, active-tool segmentation, dynamic bundle adjustment, and global 4D refinement. This pipeline adapts foundation priors to surgical videos and produces temporally consistent trajectories, pseudo-scale geometry, camera poses, and instrument masks. The dataset captures realistic challenges inherent to surgical environments, including occlusions, smoke, bleeding, and rapid instrument motion. We establish a comprehensive benchmark on SurgPose, SurgT, and STIR, covering both instrument and tissue tracking. We demonstrate instrument displacement estimation, deformable surface reconstruction, and foundation-model fine-tuning. Extensive experiments and analysis demonstrate the effectiveness of our dataset and annotation framework for 3D surgical point tracking, reconstruction, and surgical action understanding. Homepage: https://wrld.github.io/surgtap-3d/</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
