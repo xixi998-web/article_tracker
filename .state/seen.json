@@ -24954,5 +24954,21 @@
   "doi:10.1007/s44378-026-00370-2": {
     "source": "top_journal",
     "title": "Heavy metal contamination and associated risks in agricultural soil and crops under industrial land sprawling in Central Bangladesh"
+  },
+  "doi:10.1007/s00138-026-01945-3": {
+    "source": "top_journal",
+    "title": "CAD-free fine-grained industrial part recognition via 3D Gaussian Splatting"
+  },
+  "arxiv:2611.11304": {
+    "source": "top_journal",
+    "title": "TransArt3D: From Two States to Articulated 3D Reconstruction with Video Transition Priors"
+  },
+  "doi:10.1002/lpor.72201": {
+    "source": "top_journal",
+    "title": "Large‐Depth‐of‐Focus and High‐Quality Layer‐Based Holographic 3D Display System Based on Liquid Crystal Axicon"
+  },
+  "arxiv:2611.11697": {
+    "source": "top_journal",
+    "title": "SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking"
   }
 }
