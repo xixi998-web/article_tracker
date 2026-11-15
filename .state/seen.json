@@ -24970,5 +24970,21 @@
   "arxiv:2611.11697": {
     "source": "top_journal",
     "title": "SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking"
+  },
+  "doi:10.3390/agronomy16212237": {
+    "source": "top_journal",
+    "title": "Reclamation of Saline–Alkali Soils Using Fulvic Acid: Mechanism and Field Effects"
+  },
+  "doi:10.1002/ldr.70950": {
+    "source": "top_journal",
+    "title": "Linking Hydrodynamic Transport and Nutrient Fluxes to Land‐Use Patterns: A Predictive Framework for Soil Conservation in a Mountainous Catchment"
+  },
+  "doi:10.1007/s41742-026-01282-3": {
+    "source": "top_journal",
+    "title": "Effects of Biochar on Soil Greenhouse Gas Emissions: A Comparative Study of Pristine, Freeze-Thaw Aged, and Magnesium-Modified Biochar"
+  },
+  "doi:10.3390/agronomy16212235": {
+    "source": "top_journal",
+    "title": "Source Analysis and Health Risk Assessment of Heavy Metals in Farmland Soil Based on Receptor Models and Machine Learning in a Typical Province of Northeastern China"
   }
 }
