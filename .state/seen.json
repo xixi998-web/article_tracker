@@ -24986,5 +24986,121 @@
   "doi:10.3390/agronomy16212235": {
     "source": "top_journal",
     "title": "Source Analysis and Health Risk Assessment of Heavy Metals in Farmland Soil Based on Receptor Models and Machine Learning in a Typical Province of Northeastern China"
+  },
+  "doi:10.1145/3767308.3836488": {
+    "source": "top_journal",
+    "title": "SemRegGS: Semantic Guided Registration for 3D Gaussian Splatting Models"
+  },
+  "doi:10.1145/3767308.3835495": {
+    "source": "top_journal",
+    "title": "DynamicDriver: LiDAR and Optical Flow Fusion-Based Generalizable Gaussian Splatting for Lane Switching in Dynamic Driving Scenes"
+  },
+  "arxiv:2611.17752v1": {
+    "source": "arxiv",
+    "title": "Stage-wise Lineage-aware Dropout for Sparse-View 3D Gaussian Splatting"
+  },
+  "doi:10.1145/3842515": {
+    "source": "top_journal",
+    "title": "Joint Orientation and Weight Optimization for Robust Watertight Reconstruction from Unoriented Points"
+  },
+  "doi:10.1145/3767308.3835027": {
+    "source": "top_journal",
+    "title": "Reliability-Boosted and Distribution-Aligned Distillation for Monocular Depth Estimation"
+  },
+  "doi:10.1145/3842581": {
+    "source": "top_journal",
+    "title": "MeRM: Large Mesh Reconstruction Model via Neural Geometry Tokens"
+  },
+  "doi:10.1145/3767308.3835431": {
+    "source": "top_journal",
+    "title": "ThermalGaussian-X: RGB and Thermal Alignment via 3D Gaussian Splatting"
+  },
+  "doi:10.1145/3767308.3835148": {
+    "source": "top_journal",
+    "title": "ThermalDiffusion: Confidence-Aware Diffusion for Sparse-View Thermal Infrared Novel View Synthesis"
+  },
+  "doi:10.1145/3767308.3835455": {
+    "source": "top_journal",
+    "title": "Learning Robust 3D Gaussian Representations via Discrepancy-Aware Infrared and Visible Modality Fusion"
+  },
+  "doi:10.1145/3767308.3835734": {
+    "source": "top_journal",
+    "title": "RP2Track: Reflectance-Aware 3D Single Object Tracking via Dual-Branch Fusion"
+  },
+  "doi:10.1145/3842587": {
+    "source": "top_journal",
+    "title": "AnyStitch: Generative Large Parallax Image Stitching"
+  },
+  "doi:10.1145/3841456.3841514": {
+    "source": "top_journal",
+    "title": "Touch Once, Grasp Better: Gaussian-Guided Active Touch for Multisensory Grasp Stability Prediction"
+  },
+  "arxiv:2611.11809": {
+    "source": "top_journal",
+    "title": "Budget-aware Correspondence-driven View Selection for Real-time 3D Perception of Mobile Robots"
+  },
+  "arxiv:2611.17598v1": {
+    "source": "arxiv",
+    "title": "X-Nav Technical Report: Real-World Long-Horizon Indoor-to-Outdoor Navigation on a Humanoid Robot"
+  },
+  "doi:10.1145/3767308.3835673": {
+    "source": "top_journal",
+    "title": "SMPLiketch: Multi-scale Feature Learning for Robust 3D Human Mesh Recovery from Monocular Sketches"
+  },
+  "doi:10.1145/3842588": {
+    "source": "top_journal",
+    "title": "High-fidelity Multi-view Hair Reconstruction via Spherical Orientation Distribution Functions"
+  },
+  "arxiv:2611.13229": {
+    "source": "top_journal",
+    "title": "Incorporating World Models in Decision Making for Next Best View Selection in Active Sensing"
+  },
+  "doi:10.1145/3767308.3836020": {
+    "source": "top_journal",
+    "title": "PGI-Net: Deep Geometry Image Representation for 3D Point Clouds via Progressive Parameterization and Optimization"
+  },
+  "doi:10.1145/3767308.3839060": {
+    "source": "top_journal",
+    "title": "From Research to Reality: Building and Delivering Production GenAI Diffusion Models"
+  },
+  "doi:10.3390/app162111077": {
+    "source": "top_journal",
+    "title": "A Field-Deployed Dual-View 3D Perception and Dynamic Spatial Alignment Framework for Unstructured Heavy-Duty Industrial Environments"
+  },
+  "doi:10.1145/3767308.3835143": {
+    "source": "top_journal",
+    "title": "Selective Fusion of Raw Radar and Camera for Robust Motion Perception with a Bidirectional BEV-to-3D Architecture"
+  },
+  "doi:10.1145/3767308.3836599": {
+    "source": "top_journal",
+    "title": "ElevC2F: Elevation-Aware Coarse-to-Fine Fusion of 4D Radar and Camera for 3D Object Detection"
+  },
+  "doi:10.1145/3767308.3836045": {
+    "source": "top_journal",
+    "title": "Beyond Token Stacking: Multi-scale Visual Modulation and Adaptive Fused-feature Calibration for MLLMs"
+  },
+  "doi:10.1177/09544070261503026": {
+    "source": "top_journal",
+    "title": "A Fourier attention network for vehicle trajectory prediction with multi-dimensional information fusion"
+  },
+  "doi:10.1145/3842524": {
+    "source": "top_journal",
+    "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain"
+  },
+  "doi:10.1109/tpami.2026.3751312": {
+    "source": "top_journal",
+    "title": "Unified Human Motion Pretraining via Generative Chrono-Structural Decomposition and Alignment."
+  },
+  "doi:10.1145/3767308.3835519": {
+    "source": "top_journal",
+    "title": "Where and How Well: Reliability-Guided Dual-View Displacement Learning for Micro-Expression Recognition"
+  },
+  "doi:10.1097/rli.0000000000001319": {
+    "source": "top_journal",
+    "title": "Can CT Phantoms Produce Realistic CT Images of Human Anatomy? Physics-Based Evaluation of Multimaterial 3D-Printed CT Phantoms From CT Data."
+  },
+  "doi:10.1145/3767308.3842133": {
+    "source": "top_journal",
+    "title": "The 1st International Workshop on Agentic Multimodal Intelligence: Models, Benchmarks, and Applications"
   }
 }
