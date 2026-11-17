@@ -25142,5 +25142,105 @@
   "doi:10.5334/cstp.956": {
     "source": "top_journal",
     "title": "Adapting Citizen Science for Environmental Research in Post-War South Lebanon: Civilian Science in Action"
+  },
+  "arxiv:2611.19773v1": {
+    "source": "arxiv",
+    "title": "SemLite-GS: Semantic-Selective Parallel Gaussian Splatting for Lightweight Building Reconstruction from UAV Oblique Imagery"
+  },
+  "arxiv:2611.19765v1": {
+    "source": "arxiv",
+    "title": "M-CROSS: A Multisensor Simulation Dataset for SLAM across Water--Land Transitions"
+  },
+  "arxiv:2611.19381v1": {
+    "source": "arxiv",
+    "title": "AcousticBEV: Acoustic BEV Object Localization for Intelligent Vehicles"
+  },
+  "arxiv:2611.18099v1": {
+    "source": "arxiv",
+    "title": "EcoVGGT: Pinned-Key Inference for Efficient and Streamable Feed-Forward 3D Reconstruction from Long Videos"
+  },
+  "arxiv:2611.18778v1": {
+    "source": "arxiv",
+    "title": "Third-Place Solution for the UCF UrbanTwin V2X-Real Track at ECCV 2026: Synthetic Point Cloud Generation and Sim-to-Real 3D Object Detection"
+  },
+  "doi:10.1145/3767308.3832541": {
+    "source": "top_journal",
+    "title": "Appearance-Semantic balanced 3D Feature Gaussian Representation"
+  },
+  "arxiv:2611.13453": {
+    "source": "top_journal",
+    "title": "Camera3R: Feed-Forward 3D Reconstruction from Heterogeneous Camera Models"
+  },
+  "arxiv:2611.19429v1": {
+    "source": "arxiv",
+    "title": "Prepare Lighter and Faster for Open-Vocabulary Queries: A Query-Wise 3D Segmenter for Gaussian Splatting"
+  },
+  "arxiv:2611.18267v1": {
+    "source": "arxiv",
+    "title": "TetraCoder: Adaptive Tetrahedral Encoding for Neural Fields"
+  },
+  "doi:10.1145/3767308.3835336": {
+    "source": "top_journal",
+    "title": "LDSG: Learning Decoupled Structured Gaussians for Improved Dynamic Rendering and Reconstruction"
+  },
+  "arxiv:2611.20089v1": {
+    "source": "arxiv",
+    "title": "See the Lives of Stars in a Handful of Light"
+  },
+  "arxiv:2611.18744v1": {
+    "source": "arxiv",
+    "title": "Neural Latent Gaussian Process for 3D reconstruction of Mouse Brain Lipids"
+  },
+  "arxiv:2611.20025v1": {
+    "source": "arxiv",
+    "title": "acuSimNet: Multi-View Self-Occlusion-Awared Visibility Learning for Cranio-Cervical Acupuncture Points"
+  },
+  "arxiv:2611.19894v1": {
+    "source": "arxiv",
+    "title": "EasyNav: A Modular Architecture for Real-Time Navigation Across Heterogeneous Robot Environments"
+  },
+  "arxiv:2611.19534v1": {
+    "source": "arxiv",
+    "title": "Depth-Aware Path Planning and Collision Avoidance for Robotic Nursing Assistants Using Real-Time 3D Vision"
+  },
+  "arxiv:2611.19485v1": {
+    "source": "arxiv",
+    "title": "PALIN: Pixel-Aligned LiDAR-NIR Multimodal 3D Object Detection with Benchmark"
+  },
+  "arxiv:2611.19366v1": {
+    "source": "arxiv",
+    "title": "Enforcing Ellipsoidal Constraints in Neural Networks with a Polynomial Safety Layer"
+  },
+  "arxiv:2611.18340v1": {
+    "source": "arxiv",
+    "title": "DIRT: Depth-completed Image-based Rendering using Two-band Blending for Live Novel-view Synthesis"
+  },
+  "arxiv:2611.18243v1": {
+    "source": "arxiv",
+    "title": "D2ToF: One-Step Diffusion for Depth Super-Resolution from Lightweight Single-Photon LiDAR Waveforms"
+  },
+  "arxiv:2611.18078v1": {
+    "source": "arxiv",
+    "title": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes"
+  },
+  "arxiv:2611.17957v1": {
+    "source": "arxiv",
+    "title": "MacroGS: Macro-Pixel Shared Gaussian Primitives for Arbitrary-Scale Light Field Super-Resolutio"
+  },
+  "arxiv:2611.15260v2": {
+    "source": "arxiv",
+    "title": "Driving World Models Move the Camera, Not the Scene"
+  },
+  "doi:10.1088/2631-8695/aec064": {
+    "source": "top_journal",
+    "title": "Wave-optical adaptation of feed-forward 4D Gaussian splatting for real-time dynamic holographic rendering"
+  },
+  "doi:10.1021/jacs.6c19944": {
+    "source": "top_journal",
+    "title": "Dynamic\nMetal Encapsulation in a Pt/TiO\n x\n system\nRegulated by Pt-Assisted TiO2 Amorphization"
+  },
+  "doi:10.32782/it/2026-3-22": {
+    "source": "top_journal",
+    "title": "BIG DATA ANALYSIS AND ANALYTICS TO SUPPORT THE ACCELERATION OF INNOVATIVE BUSINESS PROJECTS IN THE MODERN DYNAMIC CONDITIONS OF UNCERTAINTY, TURBULENCE AND SYSTEMIC RISKS OF THE GLOBAL ENVIRONMENT"
   }
 }
