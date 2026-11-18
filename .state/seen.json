@@ -25286,5 +25286,125 @@
   "doi:10.5604/01.3001.0055.9842": {
     "source": "top_journal",
     "title": "NATURAL AND ARTIFICIAL RADIOACTIVITY, HEAVY METALS AND PHYSICOCHEMICAL PROPERTIES OF LOESS SOILS IN THE “KORZENIOWY DÓŁ” GULLY (KAZIMIERZ LANDSCAPE PARK, POLAND)"
+  },
+  "arxiv:2611.15435": {
+    "source": "top_journal",
+    "title": "ThermalSplat: Generalizable Pose-Free Gaussian Splatting for Sparse-View Thermal 3D Reconstruction"
+  },
+  "arxiv:2611.23051v1": {
+    "source": "arxiv",
+    "title": "Refin3R: Geometry-Guided Refinement for Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2611.21302v1": {
+    "source": "arxiv",
+    "title": "Déjà-Events: Multi-view 3D Geometry with Event Cameras via Sparsity-Aware Adaptive Gating"
+  },
+  "arxiv:2611.21253v1": {
+    "source": "arxiv",
+    "title": "QuantileGS: Quantile-Based Conformal Bounds on RGB Rendering Errors for Novel View Synthesis with 3D Gaussian Splatting"
+  },
+  "arxiv:2611.20502v1": {
+    "source": "arxiv",
+    "title": "Pointillist Maize: 3D Reconstruction of Field-Grown Maize Using RGB UAV Imagery"
+  },
+  "arxiv:2611.15680": {
+    "source": "top_journal",
+    "title": "SpaceMCP: Vision Language Model Spatial Reasoning via Model Context Protocol"
+  },
+  "arxiv:2611.22235v1": {
+    "source": "arxiv",
+    "title": "CoSphere-SLAM: Multi-Agent Panoramic Gaussian Splatting SLAM with Spherical Loop Closure"
+  },
+  "arxiv:2611.20570v1": {
+    "source": "arxiv",
+    "title": "OrthoMark: Place Recognition with Point-Anchored Orthographic Height Mark"
+  },
+  "arxiv:2611.18099v2": {
+    "source": "arxiv",
+    "title": "Eco3R: Pinned-Key Inference for Efficient and Streamable Feed-Forward 3D Reconstruction from Long Videos"
+  },
+  "arxiv:2611.23054v1": {
+    "source": "arxiv",
+    "title": "ReTouchGS: Ultralight Render-free Aesthetic Color Enhancement and Transfer for 3D Gaussian Splatting"
+  },
+  "arxiv:2611.22385v1": {
+    "source": "arxiv",
+    "title": "DGV-DLIVO: Degeneracy-Guided Visual Fusion for Direct LiDAR-Inertial-Visual Odometry in Degenerate Tunnel Environments"
+  },
+  "arxiv:2611.22240v1": {
+    "source": "arxiv",
+    "title": "Cross3DGS: Unified Vulkan-Based 3D Gaussian Splatting Training from Workstations to Mobile Devices"
+  },
+  "arxiv:2611.22047v1": {
+    "source": "arxiv",
+    "title": "SE(3)-LIVOM: Adaptive Multi-LiDAR-Inertial-Visual Odometry and Mapping"
+  },
+  "arxiv:2611.21438v1": {
+    "source": "arxiv",
+    "title": "Power Line Detection in Point Clouds with Point-SAM and RANSAC"
+  },
+  "arxiv:2611.21383v1": {
+    "source": "arxiv",
+    "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation"
+  },
+  "arxiv:2611.21162v1": {
+    "source": "arxiv",
+    "title": "DRaGAN: Dynamic Graph Attention Network for Multi-Radar Point Cloud Encoding in Automotive Radar Perception"
+  },
+  "arxiv:2611.21126v2": {
+    "source": "arxiv",
+    "title": "IGRecon4D: Dynamic-Object-Aware Feed-Forward Reconstruction of Driving Scenes"
+  },
+  "arxiv:2611.20872v1": {
+    "source": "arxiv",
+    "title": "MVSTF: Multi-View Spatio-Temporal Fusion for LiDAR-Based Moving Object Segmentation"
+  },
+  "arxiv:2611.20546v1": {
+    "source": "arxiv",
+    "title": "A Gaussian Primitive Data Management Framework for Efficient 3DGS Trajectory Rendering"
+  },
+  "arxiv:2611.18267v2": {
+    "source": "arxiv",
+    "title": "TetraCoder: Adaptive Tetrahedral Encoding for Neural Fields"
+  },
+  "arxiv:2611.23120v1": {
+    "source": "arxiv",
+    "title": "Pressure Drop: Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array"
+  },
+  "arxiv:2611.22415v1": {
+    "source": "arxiv",
+    "title": "SpatialMind: Adaptive Multi-Level Geometric Fusion for Spatial Reasoning in Multimodal Large Language Models"
+  },
+  "arxiv:2611.22244v1": {
+    "source": "arxiv",
+    "title": "PhyVGGT: Feed-Forward Articulated Object Reconstruction from Monocular Videos"
+  },
+  "arxiv:2611.21789v1": {
+    "source": "arxiv",
+    "title": "ASTRA: ASV Simulator for Transferable Realistic Autonomy"
+  },
+  "arxiv:2611.20737v1": {
+    "source": "arxiv",
+    "title": "CLIFT: Contrastive LiDAR Instance Features for 3D Pedestrian Tracking"
+  },
+  "arxiv:2611.20431v1": {
+    "source": "arxiv",
+    "title": "UrbanTwin Sim2Real LiDAR Challenge 2026: Site-Calibrated Synthetic Data and Multi-Detector Fusion for Roadside 3D Detection"
+  },
+  "arxiv:2611.23048v1": {
+    "source": "arxiv",
+    "title": "Wall-to-wall maps of canopy height and aboveground carbon across the Atlantic Forest"
+  },
+  "arxiv:2611.22669v1": {
+    "source": "arxiv",
+    "title": "Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather"
+  },
+  "arxiv:2611.22636v1": {
+    "source": "arxiv",
+    "title": "Sub-Meter Canopy Height Synthesis from Sentinel-2 via Anchored Residual Flow"
+  },
+  "arxiv:2611.22508v1": {
+    "source": "arxiv",
+    "title": "Reliability-Driven Feature Correction for Hyperspectral and LiDAR Classification"
   }
 }
