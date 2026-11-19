@@ -25582,5 +25582,49 @@
   "arxiv:2611.20703v1": {
     "source": "arxiv",
     "title": "Efficient Multi-View Generation with Iterative Global-Local Proxy Attention"
+  },
+  "doi:10.3390/agronomy16222270": {
+    "source": "top_journal",
+    "title": "Effects of Liquid Microbial Fertilizer on Tomato Yield, Fruit Chemical Quality, and Rhizosphere Soil Quality in Acidified Phosphorus-Enriched Greenhouse Soil"
+  },
+  "doi:10.55677/csrb/02-v03i11y2026": {
+    "source": "top_journal",
+    "title": "Land Suitability Assessment for Avocado Cultivation in Agricultural Areas Affected by Volcanic Materials in the Mount Sinabung Highlands, Indonesia"
+  },
+  "doi:10.1007/s44371-026-01068-8": {
+    "source": "top_journal",
+    "title": "Assessment of heavy metal contamination in soil and native vegetation at municipal solid waste dumpsites in Akure North, Nigeria"
+  },
+  "doi:10.3389/fmicb.2026.1947416": {
+    "source": "top_journal",
+    "title": "Soil reclamation induced salinity decline is associated with shifts in bacterial, fungal and protistan communities and higher wheat yield in saline-alkali fields"
+  },
+  "doi:10.1007/s44378-026-00363-1": {
+    "source": "top_journal",
+    "title": "Biological nitrogen enriched biochar enhances maize productivity, soil fertility and pest management in the humid tropical zone of Buea and the sub humid western highlands of Mbouda, Cameroon"
+  },
+  "doi:10.31285/agro.30.2012": {
+    "source": "top_journal",
+    "title": "Trace Element Transfer and Distribution in the Rock-Soil-Plant System"
+  },
+  "doi:10.3390/agriculture16222482": {
+    "source": "top_journal",
+    "title": "A Subsoiling–Aluminum Sulfate Spraying System for Whole–Plow–Layer Improvement of Soda Saline–Alkali Land"
+  },
+  "doi:10.9734/sajrm/2026/v20i11547": {
+    "source": "top_journal",
+    "title": "Bioremediation of Artisanal Refinery Contaminated Soils Enhanced with Biostimulant"
+  },
+  "doi:10.17268/sci.agropecu.2026.068": {
+    "source": "top_journal",
+    "title": "Soil fertility response to land-use changes in agroforestry and silvopastoral systems of the Ecuadorian Amazon: A multivariate and stratification ratio approach"
+  },
+  "doi:10.3390/life16111908": {
+    "source": "top_journal",
+    "title": "Growing Media Effects on Low-Altitude Adaptation of Geranium psilostemon Ledeb.: Growth, Leaf Chlorophyll Content, and ANN Modeling"
+  },
+  "doi:10.3390/land15112165": {
+    "source": "top_journal",
+    "title": "Soil Erosion and Carbon Cycling in Farmland Under Climate Change: A Bibliometric Analysis and Research Progress"
   }
 }
