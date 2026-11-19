@@ -25462,5 +25462,125 @@
   "doi:10.1175/bams-d-26-0074.1": {
     "source": "top_journal",
     "title": "Syukuro Manabe’s Contributions to the Hydrologic Sciences: A Land Model Development Perspective"
+  },
+  "arxiv:2611.23935v1": {
+    "source": "arxiv",
+    "title": "Facet-SLAM: Real-Time Triangle Splatting SLAM"
+  },
+  "arxiv:2611.23450v1": {
+    "source": "arxiv",
+    "title": "NIRJALA: Draining the Sea out of Gaussian Splatting with Three-Path Optics and Reversible Physics"
+  },
+  "arxiv:2611.23444v1": {
+    "source": "arxiv",
+    "title": "Gaussian Splatoms: Direct Atomic Structure Identification in Electron Tomography"
+  },
+  "arxiv:2611.23930v1": {
+    "source": "arxiv",
+    "title": "A Hierarchical Onboard Vision-Language-Navigation Framework for Aerial Robots in Complex Environments"
+  },
+  "arxiv:2611.23416v1": {
+    "source": "arxiv",
+    "title": "OCLDA-GS: Object-Centric Local Deformation-Aware Gaussian Streaming"
+  },
+  "arxiv:2611.18267v3": {
+    "source": "arxiv",
+    "title": "TetraCoder: Adaptive Tetrahedral Encoding for Neural Fields"
+  },
+  "arxiv:2611.24007v1": {
+    "source": "arxiv",
+    "title": "Freeforward4d: Annotation-free feed-forward 4d reconstruction of driving scenes"
+  },
+  "arxiv:2611.22852v1": {
+    "source": "arxiv",
+    "title": "Technical Report of Mobile Manipulator Robot for Industrial Environments"
+  },
+  "arxiv:2611.22850v1": {
+    "source": "arxiv",
+    "title": "Pelorus: Resource-Aware Lidar-Inertial Odometry"
+  },
+  "doi:10.1117/12.3132816": {
+    "source": "top_journal",
+    "title": "CAD-driven spectrum simulation and FDK-guided score-diffusion MoDL for industrial cone-beam CT reconstruction"
+  },
+  "arxiv:2611.24352v1": {
+    "source": "arxiv",
+    "title": "OCTR2A: Real-Time RGB-to-BEV Trajectory Projection and Forecasting at Urban Intersections"
+  },
+  "arxiv:2611.24310v1": {
+    "source": "arxiv",
+    "title": "Proprioceptive Simultaneous Base and Terrain Elevation Estimation for Legged Robot Locomotion"
+  },
+  "arxiv:2611.24244v1": {
+    "source": "arxiv",
+    "title": "CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning"
+  },
+  "arxiv:2611.24191v1": {
+    "source": "arxiv",
+    "title": "High-Precision Docking of Differential-Drive Mobile Robots Through LiDAR and Vision Collaboration"
+  },
+  "arxiv:2611.24155v1": {
+    "source": "arxiv",
+    "title": "BEV-Diffusion: Camera-Only Traversability Navigation with BEV Memory and Efficient Cross-Robot Adaptation"
+  },
+  "arxiv:2611.23972v1": {
+    "source": "arxiv",
+    "title": "Agreement Is Not Accuracy: LiDAR Elevation Errors Hidden in LiDAR-Camera Extrinsics"
+  },
+  "arxiv:2611.23720v1": {
+    "source": "arxiv",
+    "title": "Do 3D Point Representations Encode Architectural Functions? Probing Supervised and Pretrained Models on Urban Facades"
+  },
+  "arxiv:2611.23719v1": {
+    "source": "arxiv",
+    "title": "Improving While Deployed: Learning Proactive End-to-End Driving from Imperfect Human Takeover Data"
+  },
+  "arxiv:2611.23554v1": {
+    "source": "arxiv",
+    "title": "Layer-Matched Sparse Attention for Low-Redundancy 3D Reconstruction"
+  },
+  "arxiv:2611.23048v2": {
+    "source": "arxiv",
+    "title": "Wall-to-wall maps of canopy height and aboveground carbon across the Atlantic Forest"
+  },
+  "arxiv:2611.22898v1": {
+    "source": "arxiv",
+    "title": "You Only Encode Once: Sub-Pixel-Shifted Frames for Arbitrary-Scale Remote Sensing Super-Resolution with 2D Gaussian Splatting"
+  },
+  "arxiv:2611.22669v2": {
+    "source": "arxiv",
+    "title": "Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather"
+  },
+  "arxiv:2611.22095v1": {
+    "source": "arxiv",
+    "title": "CueSplat: Learning to Schedule Sparse Deformation for Dynamic Gaussian Splatting on Edge Devices"
+  },
+  "arxiv:2611.22080v1": {
+    "source": "arxiv",
+    "title": "CRA: Continuous Risk Assessment for Safety-critical Visual Navigation"
+  },
+  "arxiv:2611.21996v1": {
+    "source": "arxiv",
+    "title": "Beyond Appearance: Where Forest Visual Place Recognition Actually Fails"
+  },
+  "arxiv:2611.21507v1": {
+    "source": "arxiv",
+    "title": "GHySSeg: Real-Time Geometric Ground and Road Segmentation for Hybrid Solid-State LiDAR"
+  },
+  "arxiv:2611.21143v1": {
+    "source": "arxiv",
+    "title": "WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning"
+  },
+  "arxiv:2611.20788v1": {
+    "source": "arxiv",
+    "title": "VA-Assembly: View-Aligned Score Guidance for Training-Free 3D Part Assembly"
+  },
+  "arxiv:2611.20720v1": {
+    "source": "arxiv",
+    "title": "AVD: A Multi-Sensor Teleoperated Wheelchair Platform with Safety-Aware Control"
+  },
+  "arxiv:2611.20703v1": {
+    "source": "arxiv",
+    "title": "Efficient Multi-View Generation with Iterative Global-Local Proxy Attention"
   }
 }
