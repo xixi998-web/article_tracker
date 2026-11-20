@@ -25626,5 +25626,117 @@
   "doi:10.3390/land15112165": {
     "source": "top_journal",
     "title": "Soil Erosion and Carbon Cycling in Farmland Under Climate Change: A Bibliometric Analysis and Research Progress"
+  },
+  "arxiv:2611.25523v1": {
+    "source": "arxiv",
+    "title": "Multi-View Relighting with Mergeable Radiance Fields"
+  },
+  "arxiv:2611.25934v1": {
+    "source": "arxiv",
+    "title": "AGSR: Aperture-Guided Super-Resolution for Gaussian Splatting"
+  },
+  "arxiv:2611.24976v1": {
+    "source": "arxiv",
+    "title": "Improving On-board Shape Models Using Sun Sensors and Implicit Representations"
+  },
+  "arxiv:2611.18099": {
+    "source": "top_journal",
+    "title": "Eco3R: Pinned-Key Inference for Efficient and Streamable Feed-Forward 3D Reconstruction from Long Videos"
+  },
+  "arxiv:2611.25979v1": {
+    "source": "arxiv",
+    "title": "Multi-View Transformer with Geometry-Guided Multi-Modal ControlNet for 3D Virtual Try-On"
+  },
+  "arxiv:2611.24404v1": {
+    "source": "arxiv",
+    "title": "RAPID: Reconstruction Accelerated by Polarization-Informed Depth for 2D Gaussian Splatting"
+  },
+  "arxiv:2611.21438v2": {
+    "source": "arxiv",
+    "title": "Power Line Detection in Point Clouds with Point-SAM and RANSAC"
+  },
+  "doi:10.3390/jimaging12110573": {
+    "source": "top_journal",
+    "title": "A Pairwise-Cascade Distributed 3D Reconstruction Method for Multi-View Industrial Robot Scanning"
+  },
+  "arxiv:2611.18267": {
+    "source": "top_journal",
+    "title": "TetraCoder: Adaptive Tetrahedral Encoding for Neural Fields"
+  },
+  "arxiv:2611.26045v1": {
+    "source": "arxiv",
+    "title": "PaveSplat: Resolution-Robust Feed-Forward Gaussian Splatting with Residually Corrected Surface-Aligned Covariances"
+  },
+  "arxiv:2611.26035v1": {
+    "source": "arxiv",
+    "title": "Fixing the Twin, Not the Detector: Sim-to-Real Roadside LiDAR Detection from Digital-Twin Data"
+  },
+  "arxiv:2611.25787v1": {
+    "source": "arxiv",
+    "title": "GeoPillars: A Large-Kernel Pillar Detector for Single-Sweep LiDAR Under Point Sparsity, and a Decomposition of Its Gain"
+  },
+  "arxiv:2611.25578v1": {
+    "source": "arxiv",
+    "title": "QFT-Based Hybrid PointNet-Quantum Neural Networks for LiDAR Point-Cloud Classification"
+  },
+  "arxiv:2611.25279v1": {
+    "source": "arxiv",
+    "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU"
+  },
+  "arxiv:2611.25249v1": {
+    "source": "arxiv",
+    "title": "A Synthetic Multi-Modal Testbed for Security Stress Testing of Agentic Counter-UAS Systems"
+  },
+  "arxiv:2611.25061v1": {
+    "source": "arxiv",
+    "title": "Infer3D: Inverse Generative Modeling Enables Robust 3D Reconstruction"
+  },
+  "arxiv:2611.24723v1": {
+    "source": "arxiv",
+    "title": "Multi-Band Galaxy Novel-View Synthesis with Radiative Gaussian Fields"
+  },
+  "arxiv:2611.24721v1": {
+    "source": "arxiv",
+    "title": "Induction Head Origins of SLAM-ASR Speech Recognition Models"
+  },
+  "arxiv:2611.24455v2": {
+    "source": "arxiv",
+    "title": "Homeward: No Place Like the Training View"
+  },
+  "arxiv:2611.21691v1": {
+    "source": "arxiv",
+    "title": "AdaFlowLite: Scalable and Non-blocking Inference on Asynchronous Mobile Data"
+  },
+  "arxiv:2611.20568v1": {
+    "source": "arxiv",
+    "title": "sqrtVINS-Based 360 Visual-Inertial SLAM Systems: Hilti-Trimble SLAM Challenge 2026 Entry"
+  },
+  "doi:10.1111/cgf.70646": {
+    "source": "top_journal",
+    "title": "PCAD‐Flow: Point Clouds Anomaly Detection via Normalizing Flow"
+  },
+  "arxiv:2611.18078": {
+    "source": "top_journal",
+    "title": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes"
+  },
+  "arxiv:2611.20283v2": {
+    "source": "arxiv",
+    "title": "CiGS: Conduction in Gaussian Splats for Interior Temperature Field from Thermal Images"
+  },
+  "doi:10.3390/drones10110853": {
+    "source": "top_journal",
+    "title": "PeirceTriadicNet: A Peircean Triadic Three-Branch Fusion Network for Non-Cooperative Signal Recognition in UAV Communications"
+  },
+  "doi:10.1111/cgf.70604": {
+    "source": "top_journal",
+    "title": "An Electrostatic Field‐Driven Method for Point Cloud Normal Orientation"
+  },
+  "arxiv:2611.17919": {
+    "source": "top_journal",
+    "title": "Vessel2Brain: Edge-Aware Multi-Scale Flow Matching for 3D Brain Image Generation from Vessel Masks"
+  },
+  "doi:10.1117/12.3116741": {
+    "source": "top_journal",
+    "title": "Edge-aware sparse point selection for efficient SPAD dToF imaging"
   }
 }
