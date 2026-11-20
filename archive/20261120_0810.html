@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-20 08:10 · Core 12 · Proxy 4 · Eco 1</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Soil Fertility and Foliar Nutritional Profiles of Arabica Coffee in the Matas de Minas, Brazil<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: V. M. D. de Andrade, Aline da Silva Bhering, W. Faria Barbosa, Cileimar Aparecida da Silva, Andressa Barcellos da Silva...</div>
+<div class="meta-line">Venue: Coffee Science</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3a04c27a82768298b30a4457abce3fc7c1a1c237">Abs</a> · <a href="https://coffeescience.ufla.br/index.php/Coffeescience/article/download/2527/2612">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Brazil is the world’s leading coffee producer, and the Matas de Minas region ranks as the second-largest coffee-producing area in Minas Gerais State. Although the nutritional requirements of Coffea arabica L. are well established, recent studies have identified recurring issues related to nutrient imbalances. This study aimed to characterize soil fertility and foliar nutritional status in arabica coffee plantations in the Matas de Minas region and to differentiate production areas using redundancy analysis (RDA). Investigations were conducted on 16 commercial farms, involving chemical analyses of the surface soil layer (0–20 cm) and foliar nutrient assessments across 130 field plots. Soil analysis revealed that pH (low in 68.75% of the samples) and base saturation (V%) (low in 56.25% of
+the samples) were the most limiting fertility attributes, whereas exchangeable calcium and aluminum saturation (m%) were generally within the adequate range. Foliar nitrogen (N), phosphorus (P), and potassium (K) levels were excessive in 25%, 75%, and 25% of the samples, respectively, likely resulting from the prolonged use of commercial fertilizer formulations. Copper (Cu) foliar levels also exceeded recommended values in 44% of the samples. RDA effectively distinguished groups of farms based on cation exchange capacity at pH 7.0 (T), phosphorous (P), pH and exchangeable potassium (K), as well as foliar levels of Cu, manganese (Mn), calcium (Ca), and iron (Fe). These findings highlight the need to adjust fertilization practices based on soil and leaf analyses, particularly
+regarding proper soil acidity management and the excessive nutrient application in arabica coffee plantations.
+
+Key words: Coffea arabica; plant nutrition; redundancy analysis; fertilizer management; nutrient imbalance.</div></details>
+</div>
+<div class="card"><div class="title">Attributes of C and N natural abundances and the stoichiometry of extractable nutrients as influenced by different land use types: Application of stable isotopes<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: A. Chimdi, G. A. Gurmesa, Ang Wang, Fedhasa Benti, Alemayehu Adugna...</div>
+<div class="meta-line">Venue: Agrosystems, Geosciences &amp;amp; Environment</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/b1a4fe9f835a452bd3947cc5939e11630af55b04">Abs</a> · <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/agg2.70506">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Understanding the transformation of soil nutrients and characteristics of ecological stoichiometry in soils is vigorous in sustainable land management and ecosystem health. This study characterized the soil carbon(C), nitrogen (N) natural abundances and stoichiometric relationships of C, N, P (phosphorus), extractable nutrients including potassium (K), zinc (Zn), manganese (Mn), nickel (Ni), copper (Cu), and chromium (Cr) across various land use types and soil depths of Jeldu District, West Showa zone, Oromia, Ethiopia. The soil samples collected from different land use types and soil depths in 2025 were analyzed for soil pH, cation exchange capacity (CEC), available P, total P, extractable nutrients, C, N concentrations, natural abundances of δ
+ 1
+ 3
+ C, and δ
+ 1
+ 5
+ N isotopes using their corresponding standard laboratory procedures and instruments. It had been shown that there are decreasing trends in soil pH; CEC, total phosphorus, and extractable K were revealed from soils of (forest → grazing → cultivated) lands. The concentrations of C and N in the litter layer have shown significant variations with increasing soil depths. Similarly, the total C, N concentrations, and ratios of C:N and N:P have also shown significant variation across different soil depths of forest land and at 0‐ to 20‐cm depths of other land use types, whereas the values of δ
+ 1
+ 3
+ C and δ
+ 1
+ 5
+ N isotopes did not show significant variation. The findings indicate that the litter layer of forest land holds higher levels of soil C and N concentrations, total N, C:N, and N:P, and some extractable nutrients than other land use types and deeper soils. Our study details that variations in land use types and soil depths were found to be the main indicators that control the contents, stoichiometric features, dynamics, and natural abundances of soil nutrients. Furthermore, this study enhances an understanding of soil C and N natural abundance and stoichiometric ratios of C:N and N:P across land use types and soil depths, and it provides comprehensions for sustainable management of soil nutrients, natural resources, and health of the ecosystem.
+</div></details>
+</div>
+<div class="card"><div class="title">Assessing Early-Stage Net CO
+ 2
+ Fluxes From Soils and Maize Plants During a Short-Term Enhanced Weathering Mesocosm Trial<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Isabella Chiaravalloti, Shuang Zhang, A. Knudsen, N. Planavsky</div>
+<div class="meta-line">Venue: American Journal of Science</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/cf1b3eb573ff5de0d38aed5054bffdaebf5f7db7">Abs</a> · <a href="https://ajsonline.org/article/167596.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ It is becoming increasingly accepted that annual gigatonne-scale carbon dioxide (CO
+ 2
+ ) removal, in conjunction with rapid decarbonization, is necessary to meet international climate goals and limit global warming below 2 °C. This will require the development and rapid scaling of new forms of carbon management. When developing new carbon dioxide removal (CDR) techniques, complete accounting of how the process affects greenhouse gas fluxes is essential. Enhanced weathering (EW), the spreading of weatherable, cation-rich crushed rocks to soils, has the potential to sequester significant amounts of CO
+ 2
+ while improving soil health. Yet, the effect that increases in soil pH from EW has on soil organic carbon (SOC) decomposition remains debated. A potential concern is that increasing soil pH can lead to enhanced SOC remineralization, although more data is needed. Additionally, many studies do not measure CO
+ 2
+ fluxes continuously, capture net top-of-column CO
+ 2
+ fluxes, or monitor established key levers on CO
+ 2
+ emission from soils. To add to this debate, we present soil carbon pool data from a ~3 month time series encompassing sequential net CO
+ 2
+ flux experiments from an EW greenhouse study in large mesocosms. We focused on mildly acidic soils where, on short time scales, cations from weathering quantitively moved into the exchangeable fraction. Therefore, gas flux changes in this system should be largely linked to changes in organic carbon (SOC stores and plant processes). We find no significant correlation between CO
+ 2
+ fluxes and soil pH and no significant correlation between CO
+ 2
+ fluxes and rock application. Although this does not rule out a link between soil pH and SOC remineralization rates, the effect is small relative to other factors, like temperature and soil moisture. Although minor increases in total inorganic carbon were observed in basalt-amended soils, these increases did not support a direct link between soil pH and increased CO
+ 2
+ emissions.
+</div></details>
+</div>
+<div class="card"><div class="title">Chemical Weathering in Small Catchments with Contrasting Lithologies and the Influence of Exogenous Acids on CO2 Consumption in Headwater Catchments of South China<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Shuang-Yuan Liu, Zhao Zhang, Quan-Zhou Gao, Yu-Ting Xie, Ruo-Wen Wang</div>
+<div class="meta-line">Venue: Water</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/72eff59edf1bc2c5a7e34ea7cd4c99c97727b3f9">Abs</a> · <a href="https://doi.org/10.3390/w18222837">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Geological carbon sequestration is an important component of the global terrestrial carbon sink and plays a crucial role in the global carbon cycle and contributes to regional carbon-neutrality goals. However, acid deposition and exogenous acid pollution can substantially modify the hydrochemical characteristics of surface runoff, thereby affecting the assessment of regional geological carbon sequestration. In this study, we investigated stream-water chemistry in two small headwater catchments in the Pearl River Basin, South China, with contrasting lithologies: the Dinghushan (DH) catchment, which is dominated by silicate rocks, and the Niudu stream (ND) catchment, which contains both silicate and carbonate rocks. We examined the effects of lithology and exogenous acid inputs on the solute composition of stream water and estimated CO2 consumption associated with chemical weathering. The results indicate that lithological composition, atmospheric precipitation, and human activities jointly influence mineral weathering and stream-water chemistry in both catchments. Under the humid and warm climate, the two catchments exhibited different chemical weathering rates, and the intensity of carbonate mineral weathering was substantially greater than that of silicate mineral weathering. After excluding the contribution of exogenous acids to rock and mineral weathering, the estimated carbon dioxide consumption for silicate weathering in the DH basin was 1.34 × 105 mol km−2 yr−1. In the ND basin, the corresponding estimated values for silicate and carbonate weathering were 1.30 × 105 and 8.93 × 105 mol km−2 yr−1, respectively. However, ignoring the influence of exogenous acids would lead to an overestimation of the silicate weathering estimate in the DH basin by approximately 167%, while for the ND basin, the silicate and carbonate weathering would be overestimated by 15.38% and 60.13%, respectively. Exogenous acid inputs have different effects on the enhancement of silicate and carbonate mineral weathering, but neglecting their effects leads to an overestimation of regional carbon sinks.</div></details>
+</div>
+<div class="card"><div class="title">Chromium pollution and its effects on soil health, microbial diversity, and sugarcane production in the Vellore sugarcane belt: a metagenomic and geochemical assessment<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: S. Gowtham, M. Sugumaran, E. Parameswari, A. R. U. Pragadeesh, T. Kalaiselvi...</div>
+<div class="meta-line">Venue: World Journal of Microbiology &amp; Biotechnology</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1f5fd928d675cb0627077f8d3b1c4d5b77918d6d">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s11274-026-05402-1.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Disposal of tannery effluent has elevated soil chromium (Cr) across the Vellore sugarcane belt of southern India, yet its integrated consequences for soil health, bacterial communities and sugarcane productivity remain poorly characterised. Nine composite soil samples from a recognised tannery-affected belt were pre-stratified into High, Low and Near-threshold Cr sites. Soils and irrigation water were geochemically characterised for total and speciated heavy metals and profiled by full length (V1-V9) 16S rRNA gene amplicon sequencing on an Oxford Nanopore GridION. Soil total Cr increased from 29.10 ± 0.14 to 180.51 ± 2.95 mg kg− 1, the alkaline-extractable Cr (VI) fraction rising from 2.92 ± 0.09 to 52.07 ± 0.11 mg kg⁻¹ and co-occurring Cd and Ni increasing across strata. Soil pH shifted alkaline (7.74 to 8.48), organic carbon declined by up to 31.7% and exchangeable Ca and Mg by up to 40.4%. Tissue Cr followed root &gt; shoot &gt; leaf but peaked at Near-threshold rather than High Cr sites, indicating bioavailability-driven uptake. Cane and stalk fresh weight declined 25.8–31.3% at High Cr sites, whereas sucrose, Brix, purity and fibre remained largely unchanged. Alpha diversity followed a threshold structured rather than linear dose response, with observed richness in High Cr levels reduced to 74–76% that in Low Cr levels alongside parallel declines in Shannon diversity and Pielou’s evenness. NMDS resolved three non-overlapping community clusters. A Cr-resilient core (Sphingomonas panacis, Nitrospira lenta) persisted alongside elevated prediction of azoR/acpD and chrA abundance, defining a chromium-tolerance signature in tannery-impacted sugarcane soils.</div></details>
+</div>
+<div class="card"><div class="title">Growing-season variability and environmental controls of CH
+ 4
+ and N
+ 2
+ O fluxes across high-latitude terrestrial ecosystems<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Johannes Niemi, M. Luoto, Anna-Maria Virkkala, Johanna Lehtinen, J. Hultman</div>
+<div class="meta-line">Venue: Biogeosciences</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0ca536b6dac550dae5c9a4398cfb44b5293a0eac">Abs</a> · <a href="https://bg.copernicus.org/articles/23/8289/2026/bg-23-8289-2026.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Rapid warming and accelerating ecological change across high-latitude (&gt;66° N) terrestrial environments are reshaping greenhouse gas dynamics. However, spatiotemporal patterns and environmental drivers of CH
+ 4
+ and N
+ 2
+ O fluxes in high-latitude ecosystems remain poorly understood. In this study we describe the seasonal and spatial variation in CH
+ 4
+ and N
+ 2
+ O fluxes across key subarctic and boreal environmental gradients. A secondary aim is to examine the environmental drivers underlying these flux patterns. We measured fluxes during the snow-free season of 2024 and 2025 in northern Finland, starting early June (spring snowmelt) and ending late September (first snowfall). We conducted 1272 chamber measurements at 144 locations spanning eight high-latitude land cover classes: bare tundra, dwarf-shrub tundra, deciduous forest, evergreen forest, fen, bog, permafrost bog and tundra wetland. Bare tundra, dwarf-shrub tundra, deciduous forest and evergreen forest sites acted as net CH
+ 4
+ sinks (mean flux of −0.16 to −0.05 mgm-2h-1, depending on land cover class) and as both N
+ 2
+ O sources and sinks (−0.69 to 1.69 µgm-2h-1). Fen, bog, permafrost bog and tundra wetland sites were net CH
+ 4
+ sources (mean flux of 0.93 to 27.81 mgm-2h-1) and net N
+ 2
+ O sinks (−0.89 to −6.53 µgm-2h-1). Highest mean CH
+ 4
+ fluxes occurred in fens (23.4 mgm-2h-1) and permafrost bogs (27.8 mgm-2h-1) which often coincided with substantial N
+ 2
+ O sinks (mean flux of −6.53 in fens and −5.40 µgm-2h-1 in permafrost bogs). Seasonal trends were present for CH
+ 4
+ but were land cover-dependent, with both sinks and sources typically peaking during July–August. Land cover class, soil temperature, and soil pH had the strongest effects on CH
+ 4
+ fluxes while variation in N
+ 2
+ O was best explained by soil pH and land cover class. However, a significant portion of the variability in N
+ 2
+ O remained unexplained. These results demonstrate that strong spatial heterogeneity and pronounced seasonal dynamics during the snow-free period generate substantial variability in CH
+ 4
+ and N
+ 2
+ O fluxes across high-latitude ecosystems. Our findings suggest that monthly measurements of insitu gas fluxes and soil conditions in combination with accurate land cover mapping are essential for modelling and upscaling of GHG fluxes. This is especially important in high-latitude regions, where rapid warming is altering both ecosystem distributions and soil conditions with significant consequences for current and future GHG budgets.
+</div></details>
+</div>
+<div class="card"><div class="title">Protein-Based Liquid Fertilizers Improve Soil Fertility and Stabilize the Soil Microbiome in Water-Saving and Drought-Resistance Rice Paddies<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Xian-Xian Zhang, Jun-Guo Bi, Hui-Feng Sun, Ji-Ning Zhang, Cong Wang...</div>
+<div class="meta-line">Venue: Microorganisms</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/3b1f3f1f2fc8a0d988b96a789084533dde413f68">Abs</a> · <a href="https://doi.org/10.3390/microorganisms14112635">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Replacing synthetic nitrogen fertilizer with protein-based liquid fertilizers (PLFs) is a promising strategy for sustainable crop production, yet its impacts on soil fertility and soil microbiomes remain poorly understood. In a field experiment, we compared Control (unfertilized, CK; urea, CKU) with PLFs applied at 50% (C1) and 100% (C2) substitution rates across three formulations (P1–P3) at the tillering-stage topdressing fertilization, and assessed soil properties, microbial communities and functional genes. Partial substitution significantly increased soil pH by 8.2–10.0% and enhanced phosphorus and potassium availability (e.g., total P by 21.1%, available P by 59.6%), whereas full substitution maintained soil nitrogen at levels comparable to urea. The integrated fertility index (IFI) ranged from 1.60 to 1.78 and was significantly higher under C1 than under C2 and the Control. Metagenomic analysis revealed that microbial α- and β-diversity, community composition, and all 25 C/N/P functional gene groups showed no significant responses to fertilization, and field block effects often exceeded treatment effects. However, co-occurrence network analysis revealed that C1 and C2 increased network edges by 10.3% and 96.6% relative to the Control, and raised mean degree from 2.90 (CK) to 3.20 (C1) to 5.70 (C2). Structural equation modeling indicated that treatment directly shaped functional gene profiles (β = +0.41), while fertility–community–function pathways were weak, and fertilization explained 76.4% of IFI variation but only 17.3% of functional variation. Overall, these findings demonstrate that partial substitution of PLFs, particularly the silicon-enriched formulation, represents a possible strategy for improving soil fertility while preserving the soil microbiome.</div></details>
+</div>
+<div class="card"><div class="title">Effects of Tillage and Fertilization on Soil Aggregate Stability and Agricultural Sustainability in a Wheat–Rice Rotation System<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ya-Kang Jin, Rui-Bo Sun, Meng-Meng Gong, Hui Dong, Bing-Bing Luo...</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8b14e8ae7994d1108bb2b2890fd154a2d9a5ae2d">Abs</a> · <a href="https://doi.org/10.3390/agronomy16222285">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Appropriate tillage and fertilization patterns play a crucial role in enhancing agricultural sustainability. Nevertheless, limited information is available regarding soil aggregate stability, soil nutrient content and the sustainability of wheat–rice rotation systems (W-Rs) under deep tillage (DT) when adopting organic fertilizer substitution (OFS) and biochar-based fertilizer substitution (BFS). A two-year split-plot experiment was conducted in the W-R on the Yangtze River Plain of China to address this issue, with the main plots receiving tillage patterns (shallow rotary tillage (RT) and DT) and subplots receiving fertilization patterns (chemical fertilizer (CF), OFS, BFS, and organic biochar fertilization (OBF)). Compared with the RT, the DT reduced the plow pan thickness by 24.4%, but increased topsoil depth, geometric mean diameter (GMD), and the sustainability evaluation index (SEI) of the W-R by 15.2%, 6.9%, and 10.1%, respectively. Compared with the CF, both BFS and OBF significantly increased the proportion of aggregates &gt; 0.25 mm, the values of mean weight diameter, GMD and pH, the contents of soil organic carbon, available phosphorus, available potassium, cation exchange capacity, exchangeable Ca2+ and exchangeable Mg2+, the annual average grain yields, and the SEI with the trend of OBF &gt; BFS &gt; OFS &gt; CF. Among all treatments, the DT + OBF had the highest SEI value, higher by 35.5% than that under RT + CF. Therefore, the organic biochar fertilization coupled with deep tillage ameliorated soil structure, elevated soil nutrient status, and improved the sustainability of the W-R. This finding supplies strong evidence to optimize field management strategies for the wheat–rice rotation system, favoring sustainable agricultural production on the Yangtze River Plain of China.</div></details>
+</div>
+<div class="card"><div class="title">Crop Management and Seasonal Soil Health Dynamics Are Associated With Soybean Cyst Nematode Reproduction.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ambria Small, Sandip Mondal, E. Hawkins, J. Ippolito, H. López-Nicora</div>
+<div class="meta-line">Venue: Plant disease</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/562d29dc6bed57ba7de65230e3219e27ec793172">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soybean cyst nematode (SCN) remains the most economically damaging soybean pathogen in North America. While its relationship with soil texture is well documented, less is known about how soil health properties and crop management practices are related to SCN population dynamics under field conditions. This study evaluated SCN reproductive factor (RF) in relation to: 1) soil texture and its interaction with crop management, 2) key soil physicochemical properties and their seasonal changes, and 3) the predictive performance of individual soil properties versus the Comprehensive Assessment of Soil Health (CASH) soil health indices. In 2023 and 2024, soil samples from 185 Ohio fields were collected during spring and fall. Hierarchical modeling and zero-inflated negative binomial regression were used to evaluate relationships among soil texture, management practices, and SCN RF. Soil texture explained little variation in SCN RF, whereas crop rotation with non-host crop was the strongest management factor, with non-host crops associated with a 79% reduction in RF. Seven variables were significantly associated with increased or decreased SCN RF, including seasonal changes in permanganate oxidizable carbon (POXC), pH, and macroaggregates, spring measurements of potassium, pH, and POXC, and the presence of a non-host crop. The final individual soil property model (RF6) explained 2.8 times more variation in SCN RF than the best-performing model based on composite CASH indices. These findings reinforce the importance of crop rotation with non-host crop, and continued SCN monitoring as part of integrated management strategies for soybean production systems, and suggest that seasonal changes in soil properties merit further study as indicators of SCN dynamics.</div></details>
+</div>
+<div class="card"><div class="title">Influence of biodegradable microplastic alteration during composting and drying/rewetting cycles on soil physicochemical properties<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Mélissa Bakhos, C. Rumpel, D. Patureau, I. Kowalewski, P. Biron...</div>
+<div class="meta-line">Venue: Frontiers in Soil Science</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/10129457bd63b58ff3587078a162d7aceeca1e97">Abs</a> · <a href="https://www.frontiersin.org/journals/soil-science/articles/10.3389/fsoil.2026.1958556/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Biodegradable microplastics (MPs) may enter soils either as pristine materials during agricultural plastic use or through organic fertilizers after partial degradation during composting. Their impacts on soil properties may be influenced by climatic conditions. The aim of this study was to investigate how (i) MP degradation state (pristine or composted) and (ii) physical stress cycles (alternating freeze–thaw, drying–rewetting) influence soil properties. To this end, one Cambisol was exposed in controlled conditions to three types of MPs at a concentration of 1% (w/w), with four soil incubation replicates: a conventional polyethylene (PE) film, and two biodegradable films, a poly(butylene adipate terephthalate) and starch (PBAT/starch) film, and an ethylcellulose-based (EC-based) film. MPs were introduced either as pristine or after composting, then visible fragments were removed after a 59-day incubation period, to evaluate the effects of incubation on soil physical properties after removal of visible plastic fragments, rather than their physical presence. However, some leachates or small plastic fragments may still be present. Incubation was conducted either under constant conditions or under alternating physical stress cycles. Soil physicochemical and aggregation properties were measured and SOC composition analyzed using Rock-Eval
+ ®
+ pyrolysis. Soil responses varied primarily according to plastic type and degradation state. No significant effects on the measured properties were observed during the 59-day incubation with PE MPs, whether pristine or composted, whereas state-dependent responses were observed for biodegradable MPs. Pristine PBAT/starch and EC-based MPs changed soil pH and electrical conductivity, and increased mean weight diameter (MWD). Composting attenuated several of these effects, particularly for PBAT/starch. For EC-based MPs, composting attenuated responses for mean weight diameter and SOC content, whereas pH and electrical conductivity showed opposite trends between pristine and composted MP treatments. Alternating physical stress cycles selectively modulated specific soil properties in a treatment- and plastic composition-dependent manner, with effects mainly observed for MWD, soil pH, and electrical conductivity.
+</div></details>
+</div>
+<div class="card"><div class="title">Dissolved
+Organic Matter Charge Dynamics over Three
+Decades<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: A. Lackner, R. Vogt, C. Sjöstedt, J. Gustafsson, K. Bishop</div>
+<div class="meta-line">Venue: Environmental Science &amp;amp;
+Technology</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7644f9bba1cd1c059bd875790fe3e62a2a675c19">Abs</a> · <a href="https://pubs.acs.org/esthag/article-pdf/doi/10.1021/acs.est.6c11339/69181802/acs.est.6c11339.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Dissolved organic matter (DOM) is a crucial component of aquatic ecosystems, influencing pH, metal speciation, and the bioavailability of trace elements. The influence of DOM on water quality depends not only on its concentration but also on its chemical characteristics. To quantify the site density (SD) of organic acid functional groups, a key characteristic of DOM, this study utilized data from over 31,000 water samples collected from 110 watercourses between 1995 and 2024 by Swedish national monitoring programs. We found systematic dynamic trends in SD across Sweden. The analysis revealed an increase in SD from 1995 to 2003, followed by a decline from 2003 to 2010. Since 2010, SD has stabilized, although modest increases remain evident at many sites. Earlier trends were potentially governed by changes in DOM mobility associated with recovery from acid deposition, whereas more recent trends are likely linked to DOM source characteristics.</div></details>
+</div>
+<div class="card"><div class="title">Maize–Urochloa Intercropping Enhances Soybean Yield Across Phosphorus Rates<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Bárbara de F. S. Moura, Guilherme Verdicchio Pompermayer, H. M. Souza, Diego G. N. de Moraes, P. Iori...</div>
+<div class="meta-line">Venue: Agronomy</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7f7545183504bf764aedfd02c8341f95065d9179">Abs</a> · <a href="https://doi.org/10.3390/agronomy16222296">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Phosphorus (P) management and residue production are important challenges for sustainable crop intensification in highly weathered tropical soils. This study evaluated maize–Urochloa ruziziensis intercropping and P fertilization effects on aboveground biomass, residue nutrient pools, soil chemical attributes, and maize and subsequent soybean performance over three growing seasons (2017/2018–2019/2020). Maize monoculture and maize–Urochloa intercropping, both followed by soybean, were evaluated under three P rates (40, 60, and 80 kg ha−1 of P2O5 applied separately to each crop per season). Intercropping increased the measured aboveground dry biomass by 26–30% and resulted in greater macronutrient pools in the combined plant material without significantly reducing maize grain yield. Differences in nutrient pools between maize harvest and soybean sowing were greatest for K, but independent sampling did not allow nutrient-release rates to be determined. Soybean following intercropping yielded 8.3% more grain, accompanied by a 6.8% greater number of pods per plant and higher leaf P and Mg concentrations, although the underlying mechanisms were not established. Higher P rates were associated with greater Mehlich-1-extractable P concentrations at the final soil sampling but provided no consistent additional grain yield benefit. Intercropping was also associated with lower soil pH and exchangeable base cations in surface layers at the final sampling. These findings support maize–Urochloa intercropping as a means of increasing aboveground biomass and subsequent soybean yield under the evaluated conditions. However, the absence of a zero-P treatment and the previous fertilization history limit conclusions regarding minimum P requirements.</div></details>
+</div>
+<div class="card"><div class="title">Systematic evaluation of charge state effects on the soil-organic carbon partition coefficient (KOC) of plant protection products.<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Reiner Amir Yah, I. Roessink, N. Sutton, W. Beltman, G. Sigmund...</div>
+<div class="meta-line">Venue: Environmental science. Processes &amp; impacts</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5b2c261afb0a690baa7ada97aaa674cbd27f7783">Abs</a> · <a href="https://pubs.rsc.org/em/article-pdf/doi/10.1039/D6EM00767H/14991102/d6em00767h.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The soil-organic carbon (OC) partition coefficient (KOC) is the universal parameter used to describe the mobility of plant protection product (PPP) active substances (A.S.) in soil, where a log KOC &lt; 2 indicates high leaching potential. Although predictive models for the KOC of neutral A.S. have been established, the sorption of charged A.S. is poorly understood and current research highlights that it is influenced by the A.S. charge state, soil characteristics and pH. Therefore, this study systematically evaluated the influence of A.S. charge states on the magnitude and variability of KOC using a self-curated dataset of 1313 unique A.S. derived from the Pesticide Properties DataBase (PPDB). Via data harmonization, including pKa verification and SMILES code modification to reflect formal charges, A.S. were classified by their charge states considering environmentally relevant pH (4-9). Our analysis reveals that 30% of A.S. with KOC data available are predominantly charged within this pH range. This is a substantial fraction of chemicals whose sorption behavior is overlooked in the current KOC concept and existing regulation. Charged A.S., particularly fully or partially acidic ones, are more mobile than uncharged and neutral A.S., with 55% and 21% of these A.S. having a log KOC &lt; 2, respectively. The KOC variability is driven by pH-dependent electrostatic interactions and soil mineralogy (e.g., Fe/Al oxides), and emphasizes the inadequacy of a single reported geometric mean KOC value for charged compounds. 2,4-D is used as an example to quantitatively demonstrate how sorption is not only governed by OC, but by its charge state and site-specific soil chemistry. The insights presented here highlight the need for integrating charge states of both the solute and soil in mobility assessment given the limitations of OC normalization of Kd.</div></details>
+</div>
+<div class="card"><div class="title">Characterization of anaerobic bacterial populations putatively involved in the degradation of Chlorine pesticides in mangrove soils of Guadeloupe (Lesser Antilles)<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: E. Ousselin, O. Gros</div>
+<div class="meta-line">Venue: bioRxiv</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7e325a139a15e2d33bc17bee076997818541c14b">Abs</a> · <a href="https://www.biorxiv.org/content/biorxiv/early/2026/11/13/2026.11.12.766228.full.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Due to their position at the land-sea interface and their proximity to contaminated agricultural areas, mangroves are ecosystems potentially exposed to chlordecone pollution. This study aims to describe, for the first time, the composition of bacterial communities in mangrove soils and their distribution according to chlordecone contamination. The results revealed marked inter-site heterogeneity in bacterial communities across the three study sites, encompassing both an uncontaminated mangrove (Manche à eau; chlordecone concentrations below the detection limit, &lt;5 µg kg−1) and contaminated mangroves (Sarcelle and Petite rivière de Goyave), where soil chlordecone concentrations ranged from &lt;5 to 118.8 µg kg−1 along the coastal-to-agricultural transects. Between 60 and 90% of the detected taxa belong to groups involved in the degradation of aromatic compounds, while 5 to 15% correspond to genera associated with nitrification processes. This diversity does not appear to be directly correlated with the presence of chlordecone, suggesting the predominant influence of other environmental factors. Nevertheless, two bacterial genera of interest were identified, Dehalogenimonas and Desulfomonile, known for their involvement in the degradation of aromatic compounds according to the FAPROTAX analysis. Furthermore, functional analysis based on the KEGG database suggests the presence of vitamin B12 biosynthesis pathways in Dehalogenimonas and Desulfomonile (found in coastal areas), as well as in Burkholderia (found in agricultural soils). These results suggest the existence of metabolic potential to intervene in both the chemical and biological processes of chlordecone degradation. Finally, mangroves appear to have purification potential favorable to chlordecone degradation, due to the presence of Dehalogenimonas and several other bacterial genera capable of participating in the chemical and/or biological degradation processes of chlordecone.</div></details>
+</div>
+<div class="card"><div class="title">Termite mounds as fertility islands and their benefits for raised-field agriculture in the floodplain of the Bangweulu Basin, Zambia<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: R. Blatrix, O. Bartholomée, M. Kalebe, Sesele B. Sokotela, Mélisse Durécu...</div>
+<div class="meta-line">Venue: Peer Community Journal</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/0874cfc9cf56465872af82a34ff0271d97131ecf">Abs</a> · <a href="https://peercommunityjournal.org/item/10.24072/pcjournal.822.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Termite mounds are conspicuous features in tropical savannas, where the role of termites as ecosystem engineers is widely acknowledged. Among the many impacts of termites on the environment, modifications of the physicochemical properties of the soil are prominent, to the point that termites have influenced the agricultural and cultural practices of local communities. However, most studies have focused on dry savannas. We investigated the role of termite mounds as fertility islands, and their role in subsistence agriculture, in one of the world’s most extensive floodplain savannas, the Bangweulu basin in Zambia. First, based on inspection of satellite images, we showed that termite savannas and areas of raised-field agriculture (the main type of subsistence agriculture in the region) covered respectively 14 % and 23 % of the studied surface area, and overlapped. Second, investigating more specifically the area near the village of Yongolo, we evidenced two superimposed patterns of spatial distribution of termite mounds, one involving large mounds (mean height 1.7 m) and one involving small mounds (mean height 0.6 m), both regularly spaced with an average inter-mound distance of 68 m and 8 m, respectively. The two types of mounds differed in their termite communities, the large ones each hosting one nest of
+ Odontotermes
+ , the small ones hosting mostly nests of
+ Trinervitermes
+ and
+ Cubitermes
+ . Both mound types had soil properties that differed from those of the basin soil, leading to an expected increase in soil fertility on mounds (higher contents of N, C, organic matter and clay). Woody plants, including trees, occurred only on large mounds. On small mounds, the epigeal structure of termite nests was higher where depth of flood water was higher, showing plasticity in nest construction in response to environmental constraints. Termite mounds were extensively used by local people, in particular as preferred plots for building raised fields for cassava cultivation. Raised fields on termite mounds were richer in nitrogen and clay, but had a thinner layer of dark soil, than those off termite mounds. The main benefits of building raised fields on termite mounds appeared to be a longer duration of the cultivation period (allowing cultivation during the inundation period) and increased soil fertility through weathering of termite nest structures. Termite mounds (as fertility islands) and raised fields (built by piling up topsoil) both result in nutrient concentration. In addition, both termite nests and raised fields are built taller where flooding is deeper. Thus, termites and humans rely on analogous strategies to mitigate constraints in seasonally flooded savannas, showing convergence in niche construction.
+</div></details>
+</div>
+<div class="card"><div class="title">Defect Passivation
+in Perovskite Solar Cells: From
+Trap Suppression to Stable Interfaces<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Young Wook Noh, Jin-Song Huang</div>
+<div class="meta-line">Venue: Accounts of Materials Research</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c638305efd20fdbaadfcbd8f20abf8d66f182e89">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Halide perovskites combine strong light absorption and long carrier-diffusion lengths with an unusual tolerance to defects, which is commonly attributed to the predominantly shallow electronic states associated with many intrinsic defects. Nevertheless, defects at surfaces, grain boundaries, and buried interfaces continue to limit the efficiency and operational durability of perovskite solar cells. These defects can be electronically active, ionically charged, chemically reactive, and mobile under illumination, heat, and electrical bias. Passivation in perovskites therefore cannot be understood solely as the termination of dangling bonds. It must simultaneously address defect chemistry, local charge balance, interfacial energetics, carrier selectivity, and the persistence of these functions during device operation.
+ In this Account, we trace the development of defect-passivation concepts through our group’s research and organize them into five principal mechanisms. First, Lewis acid–base interactions reduce trap activity through complementary chemical interactions: Lewis bases coordinate with electron-deficient, undercoordinated Pb2+ sites, whereas Lewis acids interact with electron-rich halide-related defects. Our early studies of fullerene and nonfullerene acceptors further demonstrated that chemical passivation can be coupled with selective electron extraction to suppress interfacial recombination and hysteresis. Second, ionic charge compensation uses complementary cationic and anionic species to neutralize defects of opposite polarity. Third, band-bending passivation, conceptually analogous to field-effect passivation in silicon heterojunction solar cells, uses interfacial doping, molecular dipoles, or nonuniform ion distributions to separate carriers from residual defects. Fourth, surface-phase conversion reconstructs a defective three-dimensional perovskite surface into a low-dimensional perovskite, lead oxysalt, or another robust wide-bandgap phase that provides both electronic passivation and chemical protection. Fifth, the charge recombination lifetime is extended by increasing surface strain which pushes deep traps into shallow ones.
+ We further discuss how passivation can be extended from initial trap suppression to long-term stability enhancement. Bilateral molecular anchoring can improve the retention of passivators at surfaces and grain boundaries, whereas strongly bound buried interlayers can preserve energy alignment and carrier selectivity while suppressing detrimental interfacial reactions. Conversely, initially beneficial passivators may become degradation sources if they desorb, redistribute, deprotonate, react with the perovskite, or lose their electronic function during operation. These examples illustrate why improvements in fresh-device photoluminescence, open-circuit voltage, or power-conversion efficiency do not necessarily translate into durable device performance.
+ Future passivators should therefore be evaluated according to whether their chemical, electrostatic, structural, and interfacial functions persist under simultaneous illumination, heat, electrical bias, ultraviolet exposure, and humidity. They must also remain compatible with scalable deposition and preserve their effects across large-area films and modules. We argue that the next stage of passivator development should prioritize persistent multifunctional interfaces and rigorous operational testing rather than further expand empirical libraries of additives that improve only initial performance.</div></details>
+</div>
+<div class="card"><div class="title">Environmental Mapping of the Regional Chemical Exposome of Legacy Pollutants and Contaminants of Emerging Concern Across Texas and New Mexico<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: T. Maduoma, Oluwaferanmi F. Fadare, Climesia E. Soglohu, Idowu Blessing Apara, Olukemi O. Ogunyebi...</div>
+<div class="meta-line">Venue: Pollutants</div>
+<div class="meta-line">Published: 2026-11-13</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d0afbc2438a5da598922b6502c68becf6e9fc985">Abs</a> · <a href="https://doi.org/10.3390/pollutants6040074">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The environmental chemical exposome encompasses legacy pollutants and emerging contaminants that collectively shape ecological and human health risks. Texas and New Mexico contain petrochemical, agricultural, mining, and energy production regions, yet no quantitative synthesis has characterized exposure research or identified knowledge gaps that limit environmental management. We present a bibliometric and text-mining assessment of research on environmental pollution across both states from 1999 to 2024. A search of Web of Science and PubMed yielded 4936 records, of which 191 met eligibility criteria. Keyword normalization, trend factor and co-occurrence analyses, geospatial mapping, and domain classification characterized the landscape. The most frequent keywords were air pollution, lead, arsenic, and polycyclic aromatic hydrocarbons, reflecting emphasis on legacy contaminants and industrial air pollution. Trend factor analysis revealed growth in PFAS, EDCs, pharmaceuticals, black carbon, microplastics, and nanoplastics during 2020 to 2024; normalization of the log response ratio by period reproduced the ranking (Spearman rho = 0.999). Air (31.9%), soil and sediment (25.7%), and water (25.7%) dominated, whereas health and exposure (16.3%) and environmental justice (11.6%) remained underrepresented. Clusters included Industrial Air Quality and Health (n = 85) and Heavy Metals in Soil and Water (n = 72). Studies concentrated in the Houston Gulf Coast region, while New Mexico contributed 9.4% of publications. Population normalization, however, showed 2.2 times as many studies per resident in New Mexico as in Texas, whereas Texas had 3.2 times as many studies per unit land area. Approximately 82% did not address environmental justice. Persistent gaps include PFAS homologs, 6PPD quinone, flame retardants, neuroactive pharmaceuticals, transboundary waterways, and Indigenous communities. These findings establish an evidence-based framework for prioritizing regional monitoring, biomonitoring, environmental justice research, and regulatory decisions.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
