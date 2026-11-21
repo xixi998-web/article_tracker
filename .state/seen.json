@@ -25806,5 +25806,29 @@
   "doi:10.3390/pollutants6040074": {
     "source": "top_journal",
     "title": "Environmental Mapping of the Regional Chemical Exposome of Legacy Pollutants and Contaminants of Emerging Concern Across Texas and New Mexico"
+  },
+  "arxiv:2611.26321v1": {
+    "source": "arxiv",
+    "title": "FirstCross: Convex Single-Photon 3D Reconstruction from Sparse Views"
+  },
+  "arxiv:2611.26493v1": {
+    "source": "arxiv",
+    "title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention"
+  },
+  "arxiv:2611.26276v1": {
+    "source": "arxiv",
+    "title": "I See You: Initial Multi-Robot LiDAR Registration with Mutual-Observation Checks"
+  },
+  "doi:10.1111/cgf.70649": {
+    "source": "top_journal",
+    "title": "Reliability‐Aware Adaptive Gaussian Propagation for Low‐Texture Dynamic Outdoor Scenes"
+  },
+  "arxiv:2611.26128v1": {
+    "source": "arxiv",
+    "title": "CryoGaussian: Heterogeneous Cryo-EM Reconstruction Made Explicit with Gaussian Splatting"
+  },
+  "doi:10.11648/j.ijaaa.20261204.12": {
+    "source": "top_journal",
+    "title": "Application of UAV Oblique Photogrammetry and \nClose-range Aerial Video Fusion Technology in 3D Modeling of Ancient Village Buildings"
   }
 }
