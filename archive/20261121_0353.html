@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-21 03:53 · Core 6 · Proxy 0 · Eco 0</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">FirstCross: Convex Single-Photon 3D Reconstruction from Sparse Views<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: Chi-Wei Lee, Cheng-Han Chiang, Yi-Chun Chang, An-Kai Chen, Po-Chih Kuo</div>
+<div class="meta-line">Published: 2026-11-19</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2611.26321v1">Abs</a> · <a href="https://arxiv.org/pdf/2611.26321v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Single-photon lidar records the arrival time of each returning photon, enabling 3D reconstruction from few views and scarce photons. However, leading neural methods such as Transientangelo require over an hour of non-convex per-scene optimization, and their accuracy degrades as photon flux decreases. We propose FirstCross, a network-free approach that instead solves a short sequence of convex problems on a voxel grid. For a solid object, the Poisson likelihood of a ray with given signal and background rates depends on the scene solely through its first crossing, the point where the ray first enters the object. Decomposing this likelihood yields two tractable terms. The first penalizes surfaces in front of detected photons and admits a tight convex closure, namely volume rendering with a running-maximum transmittance in place of NeRF&#x27;s product transmittance. The second accounts for photons that no surface explains and admits a convex upper bound once the object is assumed to be thick behind each detected surface point. Compared with Transientangelo under its own real-data protocol, FirstCross achieves lower depth error across every test scene, view count, and flux level. With three views and 100 times fewer photons than at the protocol&#x27;s lowest flux, our mean object depth error stays under half of Transientangelo&#x27;s with all photons. Given our detected surface points, the best classical fusion has 1.3 to 1.8 times our three-view error across flux levels. On real room-scale captures with 1% of their photons, TransientNeRF has 2.8 to 7.7 times our error. FirstCross lets few-view single-photon scanners cut exposure to 1% and reconstruct an object in about a minute on one GPU.</div></details>
+</div>
+<div class="card"><div class="title">SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Aoxiang Fan, Maria Pilligua, Corentin Dumery, Oliver Heinimann, Pascal Fua</div>
+<div class="meta-line">Published: 2026-11-19</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2611.26493v1">Abs</a> · <a href="https://arxiv.org/pdf/2611.26493v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Feed-forward models have been very successful in 3D reconstruction with ad hoc attention designs that relate all view patches densely. However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings. In this paper, we argue that most dense attention computations are unnecessary from a classical structure-from-motion perspective: 3D structures stem from geometrically matching regions in 2D. We bring this principle to learning-based feed-forward reconstruction with our Sparse Geometric Attention Reconstruction (SGAR) method. In SGAR, each patch token attends to only a small set of patch tokens from other views, chosen by a lightweight learned key selection module trained to predict cross-view 3D proximity of tokens. Thus, dense global attention is replaced by much more efficient geometric-similarity-guided sparse attention. SGAR is a general method that can be applied to different feed-forward models by fine-tuning. In our experiments, we show that SGAR is the fastest among both state-of-the-art dense and sparse methods and the most accurate sparse one. It runs up to 12-times faster than dense attention at 1,000 views with stable pose accuracy where existing sparse methods fail, and shows the best performance in reconstructing more complete geometries on the same time budget.</div></details>
+</div>
+<div class="card"><div class="title">I See You: Initial Multi-Robot LiDAR Registration with Mutual-Observation Checks<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Jonathan Lichtenfeld, Oskar von Stryk</div>
+<div class="meta-line">Published: 2026-11-19</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2611.26276v1">Abs</a> · <a href="https://arxiv.org/pdf/2611.26276v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Compared to single-robot deployments, multi-robot teams can significantly improve search-and-rescue (SAR) mission success by covering large areas in parallel. To collaborate effectively, these robots must be registered in a common reference frame. Standard registration methods typically rely on external infrastructure or significant map overlap, but real deployments require infrastructure-free, stationary initial alignment for immediate operation. While global LiDAR point cloud registration addresses this, existing single-scan methods often fail silently in aliased or degenerate environments. Approaches scaling beyond two agents also remain rarely evaluated in real-world scenarios. We propose a centralized, deployment-ready framework for pre-mission multi-robot registration. Our system performs pairwise coarse-to-fine alignment and actively rejects impossible pose hypotheses via deterministic plausibility checks. We validate the framework on a real-world custom dataset of four synchronized robots in various environments with ground truth. The checks reject more than a third of the incorrect pairwise registrations while falsely rejecting less than 1% of the correct ones, and reduce the number of team registrations with a wrong robot pose by 38%. Dataset and code are publicly available.</div></details>
+</div>
+<div class="card"><div class="title">Reliability‐Aware Adaptive Gaussian Propagation for Low‐Texture Dynamic Outdoor Scenes<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Yu Cao, Xiao-Qun Wu</div>
+<div class="meta-line">Venue: Computer Graphics Forum</div>
+<div class="meta-line">Published: 2026-11-14</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/37cf0a8636cffe38dce6d24859e54d0ca0dae577">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 3D Gaussian Splatting (3DGS) remains challenging in dynamic outdoor scenes where dynamic distractors are coupled with large low‐texture regions such as roads and walls. Binary mask‐based foreground removal is insufficient—dynamic boundaries corrupt static optimization, while low‐texture regions lack reliable matching cues. In our method, we propose Reliability‐Aware Adaptive Gaussian Propagation (RAGP) for low‐texture dynamic outdoor scenes. Our method adapts patch scales based on local structure and static reliability for pixel‐level propagation, and fuses dynamic probability maps with rendering residuals into continuous reliability weights to constrain supervision, propagation filtering, and densification. Unlike foreground masking, RAGP converts dynamic priors into static reliability constraints and embeds them into geometric propagation. Experiments on dynamic outdoor benchmarks demonstrate that RAGP reduces artifacts and erroneous densification while improving low‐texture reconstruction and rendering fidelity.</div></details>
+</div>
+<div class="card"><div class="title">CryoGaussian: Heterogeneous Cryo-EM Reconstruction Made Explicit with Gaussian Splatting<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ziwen Wang, Jiajun Fan, Chaoran Cheng, Ruihan Guo, Yanru Qu...</div>
+<div class="meta-line">Published: 2026-11-19</div>
+<div class="links" style="margin-top:8px"><a href="https://arxiv.org/abs/2611.26128v1">Abs</a> · <a href="https://arxiv.org/pdf/2611.26128v1">PDF</a> · <a href="https://huggingface.co/huggingface">Code1</a> · <a href="https://huggingface.co/docs/hub/spaces">Code2</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Single-particle cryo-electron microscopy (cryo-EM) determines macromolecular structures from noisy particle images. However, rare, transient compositional states and subtle, continuous conformational variation are difficult to resolve. We present CryoGaussian, a Gaussian splatting method for heterogeneous cryo-EM reconstruction that fits an explicit Gaussian density representation directly to the particle images through a differentiable rasterizer rendering orthographic line integrals modulated by the contrast transfer function. The Gaussians are initialized randomly, with their number derived from the estimated spatial support of the molecular density and their minimum size bounded by the Nyquist frequency of the particle images. To capture the compositional and conformational variation across particle images, we learn particle-image and per-Gaussian latents that jointly modulate the base position, amplitude, and scale of each Gaussian. Each structural state is then reconstructed by fitting the Gaussians conditioned on its inferred latent. On CryoBench, CryoGaussian achieves state-of-the-art reconstruction accuracy for both compositional and conformational heterogeneity. On experimental data, it resolves a rare compositional state of the 50S ribosomal subunit (class C4, 1.3% of particles) with rRNA helix 68 docked in the absence of the central protuberance, and continuous conformational motion of the SF3b and helicase subcomplexes of the pre-catalytic spliceosome. We further optimize the rasterizer for additive cryo-EM projection, reducing training time by 12.8-28.0$\times$.</div></details>
+</div>
+<div class="card"><div class="title">Application of UAV Oblique Photogrammetry and 
+Close-range Aerial Video Fusion Technology in 3D Modeling of Ancient Village Buildings<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Xin Yang, Dong-Ping Chen, Yan Wu, Jia-Hong Liang, Min-Hui Cai...</div>
+<div class="meta-line">Venue: International Journal of Architecture, Arts and Applications</div>
+<div class="meta-line">Published: 2026-11-14</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1348a12c779063e3490880c8a95e297e6d92997f">Abs</a> · <a href="http://article.sciencepg.com/pdf/j.ijaaa.20261204.12">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Objective:
+ Ancient architectures in traditional villages are characterized by high vulnerability and high maintenance costs. Digital three-dimensional (3D) modeling has become a mainstream and efficient technical solution for the protection of ancient architectures. Nevertheless, due to the complex structures and unique flying eaves and warped corners of ancient buildings in traditional villages, 3D modeling based on conventional oblique photogrammetry is prone to model holes and distortions in sheltered eaves areas and internal building spaces.
+ Methods:
+ To address the limitations of traditional oblique photogrammetry, this study proposes an air-ground combined technology that integrates UAV oblique photography images and UAV close aerial videos to realize the 3D reconstruction of ancient buildings.
+ Results:
+ The results show that the air-ground combined technology can effectively supplement the structural information of building eaves and internal spaces of ancient architectures. The holes and distortions of the 3D model are significantly eliminated, and the internal textures of the building are authentic, clear and geometrically accurate.
+ Conclusion:
+ This Technology can effectively solve the defect of missing and distorted models in the 3D modeling of ancient architectures, which possesses promising application potential in the protection of ancient architectural heritage.
+</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
