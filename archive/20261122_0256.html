@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-22 02:56 · Core 1 · Proxy 0 · Eco 4</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">TJBe-GS: Rigid Trajectory-Guided Bézier Gaussian Splatting for RGB-D Dynamic Reconstruction<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">10</span></div>
+<div class="meta-line">Authors: Wei Wei, Chao Li, Xiang-Hui Pan, Jia-Yuan Du, Cheng-Ju Liu...</div>
+<div class="meta-line">Venue: IEEE Sensors Journal</div>
+<div class="meta-line">Published: 2026-11-15</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/742f3917aa0c488267ea0021d79726a21bece85a">Abs</a> · <a href="https://github.com/wei17861101975-hash/TJBe-GS">Code1</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Dynamic scene reconstruction via vision sensors is a crucial basis for accurate spatiotemporal environment perception and geometric modeling. Against this backdrop, accurately modeling the continuous pose variations of dynamic objects over time is crucial for applications such as simultaneous localization and mapping (SLAM), autonomous driving, and robot imitation learning. However, existing 3-D Gaussian splatting (3DGS) methods couple object-level rigid motion with local deformation, which increases motion ambiguity and may cause trajectory drift, dragging artifacts, or blurred local geometry under complex RGB-D dynamics. To address this, we propose TJBe-GS, a novel 4-D reconstruction framework for precise dynamic modeling. Unlike traditional mesh- or anchor-based methods, we formulate the continuous evolution of dynamic objects as a superposition of global rigid displacements and local nonrigid deformations. Specifically, we leverage synchronized RGB-D streams, and instance masks are used to separate dynamic objects from the static background, acquiring precise point-prior trajectories for the dynamic elements by a geometrically guided initialization and filtering module (GIFM). We then establish static and dynamic Gaussian primitives: static primitives are enhanced via temporal accumulation and random downsampling, while each dynamic Gaussian is assigned a learnable Bézier curve to model continuous local deformation. Furthermore, we introduce a motion smoothness constraint to enforce physical plausibility and temporal coherence. Extensive experiments and ablation studies conducted on the TUM, BONN, and custom datasets demonstrate that TJBe-GS reconstructs dynamic objects with superior quality and precise geometric details compared to existing methods. Demos and code are available at https://github.com/wei17861101975-hash/TJBe-GS</div></details>
+</div>
+<div class="card"><div class="title">Anatomy-Aware 3D GAN with Local Mask Refinement for Brain MRI Inpainting<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: A. F. Rahimi, H. M. Rai, S. Y. A. Mushtaq</div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-11-15</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/24eeda86429702ee835e7480d559e57645ca1103">Abs</a> · <a href="https://www.medrxiv.org/content/medrxiv/early/2026/11/15/2026.11.12.26367904.full.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Brain tumor MRI inpainting aims to synthesize plausible healthy-appearing tissue in regions removed from pathological scans. We present an anatomy-aware three-dimensional generative adversarial network for Task 4 of the BraTS 2026 challenge. The method combines mask-aware gated convolutions, mirrored contralateral context, attention-modulated skip fusion, boundary-aware refinement, and a local masked-region refiner, each adapted from established components in the image synthesis and inpainting literature. The model is trained with a two-stage objective that first emphasizes voxel-wise and structural reconstruction and then applies low-weight adversarial fine-tuning. On a deterministic local held-out split, the proposed method substantially improves over a simple 3D AutoEncoder baseline but does not surpass the challenge&#x27;s Pix2Pix3D baseline. On the official BraTS 2026 Task 4 evaluation server, the submitted model obtained a mean SSIM of 0.658 and a mean PSNR of 14.81~dB over 219 evaluated cases, lower than the local held-out figures. We report these results transparently, analyze likely contributing factors, and identify the controlled ablations (removal of the mirrored-context channel and of the two-stage schedule) required to isolate the contribution of each architectural component.</div></details>
+</div>
+<div class="card"><div class="title">Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Jin-Feng Xu, Zhe-Yu Chen, Shuo Yang, Jin-Ze Li, Wen-Hao Yuan...</div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-11-15</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/28602c14042cc23b41e33c730887282ac31dba5d">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Although multimodal recommendations have shown the ability to learn user preferences and item properties by leveraging explicit multimodal information, they remain constrained by two critical limitations: low-quality representation learning and modality fusion. For the former, existing solutions primarily focus on multi-granularity representation learning; however, we argue that training such representations is difficult due to the inherent data sparsity problem in recommendation scenarios. For the latter, existing solutions often rely on contrastive learning to align representations of different modalities to facilitate modality fusion, yet alignment-only objectives may over-compress valuable modality-specific information. To this end, we suggest \underline{``Take a Step Back&quot;} and propose a \textbf{D}ual-granularity raw feature empowered \textbf{I}ntermediate fusion \textbf{G}raph \textbf{C}onvolutional \textbf{N}etwork (\textbf{DIGCN}) for multimodal recommendation. DIGCN leverages the multimodal understanding capabilities of Large Language Models (LLMs) to construct dual-granularity raw features directly. Furthermore, DIGCN introduces an intermediate fusion graph convolutional network equipped with dynamic cross-modality weight correction, designed to capture cross-modality signals and achieve effective modality fusion. Comprehensive experiments on four real-world datasets validate that DIGCN consistently outperforms a variety of strong baselines. Additional analyses confirm its superiority under varying levels of data sparsity and cold-start scenarios. Notably, DIGCN demonstrates high extensibility, capable of further benefiting from additional contrastive learning-based alignment tasks.</div></details>
+</div>
+<div class="card"><div class="title">Geo2Gcode: From 3D Geometry to CNC Programs through Structured Machining Primitives<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Sang-Min Hong, D. Cho, Mohsen Yavartanoo, Kyoung Mu Lee</div>
+<div class="meta-line">Venue: Pattern Recognition</div>
+<div class="meta-line">Published: 2026-11-15</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1d01c657469e732da8d48656b8e0cd2d3bdb896f">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Turning a 3D shape into a Computer Numerical Control (CNC) program is still largely manual. For every part, a machinist chooses setups, tools, step-downs, and toolpath patterns. We present Geo2Gcode, which converts a target mesh directly into standard G-code through structured machining primitives. Each primitive couples an indexed machining direction, a closed per-view reconstruction of the target, and explicit tool-radius, layer-height, and clearing-pattern parameters, and compiles deterministically into layerwise toolpaths via signed-distance queries. Most of the fidelity comes from this compiler. A lightweight selector trained with a voxel stock simulator fills in primitive parameters without per-part manual settings, approaching the finest fixed setting at about a quarter of its toolpath length. In simulation on ABC parts, Geo2Gcode reaches roughing fidelity comparable to an expert-tuned commercial CAM setup with a moderately longer toolpath, and clearly improves on a default CAM configuration. Generated programs run in a commercial G-code simulator, and one part is machined on a physical CNC mill. These results demonstrate that roughing programs can be generated directly from geometry without per-part CAM tuning.</div></details>
+</div>
+<div class="card"><div class="title">DGAOT: Dynamic Graph Attention With Optimal Transport Based Re-Ranking for Mobile Robot Visual Place Recognition<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Xin-Yu Jiang, Zhao-Ning Ge, Yi-Meng Jiang, De-Jing Zhou, Zhi-Jie Liu...</div>
+<div class="meta-line">Venue: IEEE Internet of Things Journal</div>
+<div class="meta-line">Published: 2026-11-15</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e342d3ac1726d64586f7491b6d750c63e6036781">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">A two-stage pipeline is widely used in visual place recognition (VPR) for mobile robotics to improve robustness under challenging conditions. It typically consists of two steps: &lt;italic&gt;descriptor generation&lt;/italic&gt; and &lt;italic&gt;re-ranking&lt;/italic&gt;. In descriptor generation, a backbone network generates descriptors for the query and database images. Then, re-ranking performs three steps: 1) top-&lt;inline-formula&gt; &lt;tex-math notation=&quot;LaTeX&quot;&gt;$k$ &lt;/tex-math&gt;&lt;/inline-formula&gt; candidate descriptors are selected the database; 2) these candidates are aggregated into a global descriptor; and 3) a &lt;italic&gt;re-ordered&lt;/italic&gt; list of candidates is returned according to similarity scores against the global descriptor. However, current re-ranking methods suffer from two critical limitations: 1) &lt;italic&gt;false positive aggregation&lt;/italic&gt;: Under texture variations, positive and negative database samples may produce similar descriptors. As a result, some negative samples may be selected into re-ranking, contaminating the aggregation and hence, incorrect top-&lt;inline-formula&gt; &lt;tex-math notation=&quot;LaTeX&quot;&gt;$k$ &lt;/tex-math&gt;&lt;/inline-formula&gt; similarity scores; and 2) &lt;italic&gt;limited similarity correction&lt;/italic&gt;: Most re-ordering is typically nondifferentiable, so that &lt;italic&gt;no&lt;/italic&gt; matching error can be back-propagated to train the re-ranking stage to learn calibrated similarity scores during network training. To address these issues, we propose a novel re-ranking framework called dynamic graph attention optimal transport (DGAOT), comprising two key re-ranking modules built upon optimal transport (OT) theory. First, a dynamic graph aggregation (DGA) module is designed to convert the pairwise affinities of the top-&lt;inline-formula&gt; &lt;tex-math notation=&quot;LaTeX&quot;&gt;$k$ &lt;/tex-math&gt;&lt;/inline-formula&gt; query–candidate graph into an OT-constrained joint coupling, down-weight the falsely selected candidates, and aggregate the descriptors under consistent distributional patterns, improving robustness to texture variations. Second, a differentiable re-ordering layer (DRL)–a differentiable score calibration layer—is designed to perform differentiable score re-allocation via Sinkhorn iterations. Finally, a new coarse-to-fine average precision (CFAP) loss is proposed to supervise DGA and DRL, enabling end-to-end re-ranking. Extensive experiments show that DGAOT achieves high retrieval performance, with about &lt;bold&gt;5.3% relative&lt;/bold&gt; and &lt;bold&gt;3.35% absolute improvement&lt;/bold&gt; in R@1 on average.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
