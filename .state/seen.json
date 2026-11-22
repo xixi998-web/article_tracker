@@ -25842,5 +25842,25 @@
   "doi:10.36348/sjls.2026.v11i11.002": {
     "source": "top_journal",
     "title": "Assessment of Heavy Metals Accumulation in Freshwater Snails (Physella acuta) as Potential Bioindicators of Aquatic Pollution"
+  },
+  "doi:10.1109/jsen.2026.3734149": {
+    "source": "top_journal",
+    "title": "TJBe-GS: Rigid Trajectory-Guided Bézier Gaussian Splatting for RGB-D Dynamic Reconstruction"
+  },
+  "doi:10.64898/2026.11.12.26367904": {
+    "source": "top_journal",
+    "title": "Anatomy-Aware 3D GAN with Local Mask Refinement for Brain MRI Inpainting"
+  },
+  "arxiv:2611.19974": {
+    "source": "top_journal",
+    "title": "Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation"
+  },
+  "arxiv:2611.20092": {
+    "source": "top_journal",
+    "title": "Geo2Gcode: From 3D Geometry to CNC Programs through Structured Machining Primitives"
+  },
+  "doi:10.1109/jiot.2026.3731460": {
+    "source": "top_journal",
+    "title": "DGAOT: Dynamic Graph Attention With Optimal Transport Based Re-Ranking for Mobile Robot Visual Place Recognition"
   }
 }
