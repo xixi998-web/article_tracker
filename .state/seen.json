@@ -25910,5 +25910,65 @@
   "doi:10.3329/bjb.v55i30.94406": {
     "source": "top_journal",
     "title": "Generational differences in the sustainability of maize production under extended land contracts in northeast China"
+  },
+  "arxiv:2611.27719v1": {
+    "source": "arxiv",
+    "title": "VeilGS: Solving Darkness as a Veil of 2D Basis Maps over Retinex 3DGS"
+  },
+  "arxiv:2611.26730v1": {
+    "source": "arxiv",
+    "title": "SparseHPS: A Unified Model for Human Pose and Shape across Depth Cameras and LiDARs"
+  },
+  "arxiv:2611.27407v1": {
+    "source": "arxiv",
+    "title": "BladeR: Scalable, Shape-Guided 3D Reconstruction of Wind Turbine Blades from UAV Imagery"
+  },
+  "arxiv:2611.27633v1": {
+    "source": "arxiv",
+    "title": "Instant-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Compact Geometry and a Bounded Single-Reference-Frame Map"
+  },
+  "arxiv:2611.27379v1": {
+    "source": "arxiv",
+    "title": "A Lightweight Method for Validating Simulated LiDAR Configurations Based on Point Density over Distance"
+  },
+  "arxiv:2611.26715v1": {
+    "source": "arxiv",
+    "title": "SCATR-ITS: a scalable transformer for large-area individual tree segmentation from LiDAR point clouds"
+  },
+  "doi:10.3390/rs18223927": {
+    "source": "top_journal",
+    "title": "Experimental Study of Spectral Radiometric Correction for Underwater 3D-Imaging by Hyperspectral LiDAR"
+  },
+  "arxiv:2611.27223v1": {
+    "source": "arxiv",
+    "title": "LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer"
+  },
+  "arxiv:2611.26916v1": {
+    "source": "arxiv",
+    "title": "RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning"
+  },
+  "doi:10.1073/pnas.2620173123": {
+    "source": "top_journal",
+    "title": "isSPA-vesicle: AI-assisted structure determination of membrane proteins on vesicles."
+  },
+  "arxiv:2611.20703": {
+    "source": "top_journal",
+    "title": "Efficient Multi-View Generation with Iterative Global-Local Proxy Attention"
+  },
+  "arxiv:2611.21143": {
+    "source": "top_journal",
+    "title": "WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning"
+  },
+  "arxiv:2611.27224v1": {
+    "source": "arxiv",
+    "title": "EAST: Event-Anchored Surface Transport for Event-Based Gaussian Reconstruction"
+  },
+  "doi:10.3390/app162211351": {
+    "source": "top_journal",
+    "title": "Dynamic Thematic Map Generation from Multi-Source Post-Earthquake Data Based on Large Language Models"
+  },
+  "arxiv:2611.20767": {
+    "source": "top_journal",
+    "title": "UNITE: Consolidating Embodied VLM Specialists via Shared-Anchor One-Bit Factorization"
   }
 }
