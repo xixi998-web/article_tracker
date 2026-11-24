@@ -26150,5 +26150,53 @@
   "arxiv:2611.30072v1": {
     "source": "arxiv",
     "title": "HERO: Hierarchical Region-Aware Reinforcement Learning for Autonomous Exploration"
+  },
+  "doi:10.3390/atmos17111133": {
+    "source": "top_journal",
+    "title": "Estimation and Spatial Distribution of Critical Loads for Acid Deposition in South Korea"
+  },
+  "doi:10.3389/fsoil.2026.1991373": {
+    "source": "top_journal",
+    "title": "Pedogenic factors associated with soil fertility constraints in the Northern Guinea Savanna of Nigeria and their implications for soil management"
+  },
+  "doi:10.3390/agronomy16222318": {
+    "source": "top_journal",
+    "title": "Analysis of Key Factors Influencing Soil Property Changes in Continuously Cropped Greenhouse Strawberry in the Guiyang Area"
+  },
+  "doi:10.1016/j.envres.2026.126224": {
+    "source": "top_journal",
+    "title": "Conversion of coastal wetlands to rice cultivation increases methane and nitrous oxide emissions through altered microbial communities in the Sundarban, India."
+  },
+  "doi:10.3389/fmicb.2026.2014154": {
+    "source": "top_journal",
+    "title": "Ecological consequences of coastal land formation: soil bacterial succession and assembly mechanisms along a reclamation chronosequence"
+  },
+  "doi:10.1002/ldr.70938": {
+    "source": "top_journal",
+    "title": "Microbial Inoculants and Substrate Amendments Restructure the Rhizosphere and Non‐Rhizosphere Microbial Communities in Saline‐Sodic Soil"
+  },
+  "doi:10.1007/s11270-026-10161-8": {
+    "source": "top_journal",
+    "title": "Combustion Increases the Acid-leachable Fraction of Potentially Toxic Elements in Cigarette Waste: a Brand-replicated Leaching Study of Whole Cigarettes, Butts, Filters, and Ash"
+  },
+  "doi:10.1007/s00414-026-04059-7": {
+    "source": "top_journal",
+    "title": "Assessing the suitability of a new porcine dry bone scoring method for South African burial taphonomy when applied to two posthumous human skeletal samples."
+  },
+  "doi:10.3390/su182211703": {
+    "source": "top_journal",
+    "title": "Depth-Dependent Dynamics of Humus Composition and Clay Minerals in Albic Soils: Arbor Woodland and Dryland in Northeast China"
+  },
+  "doi:10.18412/1816-0395-2026-10-66-71": {
+    "source": "top_journal",
+    "title": "Heavy Metals in Catchment Soils and Bottom Sediments of the Zainskaya SDPP Cooling Reservoir"
+  },
+  "doi:10.3389/fsoil.2026.1974047": {
+    "source": "top_journal",
+    "title": "Coupled carbon-nitrogen dynamics and soil stabilization under perennial alley cover cropping in raspberry planting"
+  },
+  "doi:10.9734/ajarr/2026/v20i121516": {
+    "source": "top_journal",
+    "title": "Assessment of Physical Composition of Municipal Solid Waste in Ikot Ekpene Metropolis, Akwa Ibom State, Nigeria"
   }
 }
