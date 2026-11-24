@@ -26030,5 +26030,125 @@
   "doi:10.1038/s41598-026-78227-5": {
     "source": "top_journal",
     "title": "Composite approach to quantifying regulating soil-based ecosystem services using multiple indicators"
+  },
+  "arxiv:2611.30787v1": {
+    "source": "arxiv",
+    "title": "BridgeMVS: Bridging Multi-View Stereo and Monodepth via Bidirectional Dynamic Fusion"
+  },
+  "arxiv:2611.30184v1": {
+    "source": "arxiv",
+    "title": "OmniSLAM: Evidence-Authorized Revision of Persistent Object Maps"
+  },
+  "arxiv:2611.28520v1": {
+    "source": "arxiv",
+    "title": "VG3R: Video Generation Model for Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2611.30283v1": {
+    "source": "arxiv",
+    "title": "AdvMTO: Multimodal and Temporal Adversarial Object Attacks via 2D Gaussian Splatting for BEV-Based 3D Object Detection"
+  },
+  "arxiv:2611.23051": {
+    "source": "top_journal",
+    "title": "Refin3R: Geometry-Guided Refinement for Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2611.29236v1": {
+    "source": "arxiv",
+    "title": "Complementary Geometry in Gaussian Splatting"
+  },
+  "arxiv:2611.28802v1": {
+    "source": "arxiv",
+    "title": "Not All Directions Are Flat: Decomposed-Gradient Flatness for Sparse-View 3D Gaussian Splatting"
+  },
+  "arxiv:2611.28792v1": {
+    "source": "arxiv",
+    "title": "ArgsWorld: Unifying 3DGS Scene Reconstruction, Generation and Extrapolation with Autoregressive Diffusion Transformer"
+  },
+  "arxiv:2611.28545v1": {
+    "source": "arxiv",
+    "title": "Reconstruction-Guided Dual-Branch Learning for LiDAR Anomalous Object Detection"
+  },
+  "arxiv:2611.22235v2": {
+    "source": "arxiv",
+    "title": "CoSphere-SLAM: Multi-Agent Panoramic Gaussian Splatting SLAM with Spherical Loop Closure"
+  },
+  "arxiv:2611.23444": {
+    "source": "top_journal",
+    "title": "Gaussian Splatoms: Direct Atomic Structure Identification in Electron Tomography"
+  },
+  "arxiv:2611.30602v1": {
+    "source": "arxiv",
+    "title": "GSDet: Gaussian Splatting for Oriented Object Detection"
+  },
+  "arxiv:2611.30102v1": {
+    "source": "arxiv",
+    "title": "LMnOP: Pruning 3D Gaussian Splatting via Leave-Many-Out Importance"
+  },
+  "arxiv:2611.29148v1": {
+    "source": "arxiv",
+    "title": "ArborNet: Volume- and skeleton-aware completion of tree quantitative structure models from incomplete point clouds using anchor-conditioned graph learning"
+  },
+  "arxiv:2611.28197v1": {
+    "source": "arxiv",
+    "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment"
+  },
+  "arxiv:2611.28111v1": {
+    "source": "arxiv",
+    "title": "GC-GS: Optimizing 3D Gaussian Splatting with Gradient Conflict as a Geometry Signal"
+  },
+  "arxiv:2611.30402v1": {
+    "source": "arxiv",
+    "title": "GeLiFiSH: Recursive LiDAR Keypoint Estimation with Ground and Moving Object Segmentation"
+  },
+  "arxiv:2611.30176v1": {
+    "source": "arxiv",
+    "title": "OmniSenMo: A Unified Multisensory Language Model for Generalizable Human Motion Estimation, Understanding, and Prediction"
+  },
+  "arxiv:2611.29753v1": {
+    "source": "arxiv",
+    "title": "DREAM: Dual-Memory Reasoning for Anticipatory 3D Perception in Autonomous Driving"
+  },
+  "arxiv:2611.22244v2": {
+    "source": "arxiv",
+    "title": "PhyVGGT: Feed-Forward Articulated Object Reconstruction from Monocular Videos"
+  },
+  "arxiv:2611.22415": {
+    "source": "top_journal",
+    "title": "SpatialMind: Adaptive Multi-Level Geometric Fusion for Spatial Reasoning in Multimodal Large Language Models"
+  },
+  "arxiv:2611.30869v1": {
+    "source": "arxiv",
+    "title": "XFreq: Geometry-Aligned Cross-View Residual Learning for Sparse 3D Ultrasound Reconstruction"
+  },
+  "arxiv:2611.30859v1": {
+    "source": "arxiv",
+    "title": "CableMoE: Harm-Regularized Mean-Residual Expert Fusion for Transmission-Corridor Segmentation"
+  },
+  "arxiv:2611.30802v1": {
+    "source": "arxiv",
+    "title": "Go Far, Look Less: Active Multi-Room Reconstruction with Persistent Goals and Selective Views"
+  },
+  "arxiv:2611.30741v1": {
+    "source": "arxiv",
+    "title": "Place-Revisit Consistency Evaluation of Reference Poses"
+  },
+  "arxiv:2611.30463v1": {
+    "source": "arxiv",
+    "title": "Autonomous UAV Navigation in an Unknown Environment via Multi-Trajectory Model Predictive Control"
+  },
+  "arxiv:2611.30351v1": {
+    "source": "arxiv",
+    "title": "NNS-GS: Non-Local Neural Scattering for Relightable Gaussian Splatting"
+  },
+  "arxiv:2611.30173v1": {
+    "source": "arxiv",
+    "title": "Confidently Lost: Silent Failure and Edge Deployment of Dense Visual SLAM under Photon Starvation"
+  },
+  "arxiv:2611.30166v1": {
+    "source": "arxiv",
+    "title": "Toward Open Room-Scale Scanning with Consumer LiDAR via Depth-Inertial Odometry"
+  },
+  "arxiv:2611.30072v1": {
+    "source": "arxiv",
+    "title": "HERO: Hierarchical Region-Aware Reinforcement Learning for Autonomous Exploration"
   }
 }
