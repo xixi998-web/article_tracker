@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-25 09:36 · Core 4 · Proxy 1 · Eco 4</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Basic soil characteristics of natural soils on the Black Sea coast of Russia and their relationship with the molecular-structural composition of humic substances<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: S. Gorbov, E. Abakumov, V. Polyakov, S. Tagiverdiev, I. Lobzenko...</div>
+<div class="meta-line">Venue: Frontiers in Soil Science</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/82510053a223c4fdfb19eb5897b2597648316de2">Abs</a> · <a href="https://www.frontiersin.org/journals/soil-science/articles/10.3389/fsoil.2026.1993904/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ The molecular-structural organization of humic substances reflects the direction and intensity of soil-forming processes, yet comparative molecular data for metamorphic soils of the humid subtropics remain scarce, and
+ 13
+ C nuclear magnetic resonance (NMR) data for the humic acids of zheltozems are virtually absent from the international literature. This descriptive case study compared the physicochemical properties and molecular-structural composition of humic acids in two soil profiles — one zheltozem and one burozem — developed under oak–hornbeam forests. Particle-size distribution, pH, bulk elemental composition (portable XRF), organic and dissolved organic carbon, as well as the elemental composition and CP/MAS
+ 13
+ C NMR spectra of extracted humic acids were determined for representative genetic horizons. Both soils contained high amounts of organic carbon in the topsoil (4.6% in zheltozem and 5.2% in burozem), with concentrations decreasing exponentially with depth. The zheltozem profile was strongly acidic and had higher SiO
+ 2
+ and TiO
+ 2
+ contents, whereas the burozem profile was characterized by near-neutral topsoil pH and higher concentrations of base-forming elements, phosphorus, and manganese. Humic acids of the zheltozem profile had higher C and N and lower O contents and lower C/N and O/C ratios than those of the burozem profile (the ranges of horizon values did not overlap), and tended to show higher aromaticity (36–39% vs 31–37%) and hydrophobicity index values (49–52 vs 46–49), although these ranges partly overlapped. Humic acids of the burozem profile contained relatively more O-alkyl carbon (60–105 ppm: 16–20% vs 13–18%) and had a more hydrophilic composition. As only one profile of each soil was examined, these contrasts are not generalised to the soil groups but provide testable hypotheses on soil organic matter stabilization and the resilience of subtropical soils to environmental change. These results also provide a baseline for evaluating cultivation-induced changes in soil organic matter and for developing soil-management strategies aimed at maintaining carbon stability and nutrient-retention functions in humid-subtropical agricultural landscapes.
+</div></details>
+</div>
+<div class="card"><div class="title">PHYSICO-CHEMICAL ASSESSMENT AND FERTILITY EVALUATION OF AGRICULTURAL SOILS FOR SUSTAINABLE NUTRIENT MANAGEMENT IN TELANGANA<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Ashok Gellu, S. V. Rajashekar Reddy</div>
+<div class="meta-line">Venue: EPRA International Journal of Agriculture and Rural Economic Research</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/fdf3693d7cd5c1c9c76dc34655243e11ef0a89d9">Abs</a> · <a href="https://cdn.eprapublishing.org/article/1795013910627-1.EPRA32164.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Soil fertility is a critical factor influencing agricultural productivity, nutrient availability, and sustainable crop production. The present study was undertaken to evaluate the physicochemical properties and fertility status of selected agricultural soils and to assess their suitability for sustainable nutrient management. Surface soil samples were collected from representative agricultural fields and analyzed using standard laboratory procedures for soil pH, electrical conductivity, organic carbon, available nitrogen, available phosphorus, and available potassium. The obtained data were interpreted using established soil fertility classification criteria. The findings revealed that the soils were generally slightly alkaline in reaction and non-saline in nature. Organic carbon content ranged from low to medium, indicating moderate soil organic matter status. Nutrient analysis showed that available nitrogen levels were low across the sampled soils, whereas phosphorus status was categorized as medium and potassium availability was high. The results indicate that nitrogen constitutes the primary limiting nutrient affecting soil fertility. In contrast, phosphorus and potassium levels were generally adequate to support crop growth under normal management conditions. The study emphasizes the importance of regular soil fertility evaluation, balanced fertilizer application, and integrated nutrient management practices for maintaining long-term soil productivity. Incorporation of organic amendments and appropriate nutrient supplementation can improve soil health, enhance nutrient-use efficiency, and support sustainable agricultural production. The findings provide valuable baseline information for farmers, soil scientists, and agricultural planners seeking to develop site-specific nutrient management strategies and promote sustainable agriculture in Telangana.</div></details>
+</div>
+<div class="card"><div class="title">Temperature modulates soil moisture effects on multi-fraction soil carbon dynamics in desert ecosystems<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Qian-Qian Dong, Ke-Xuan Zhu, Hui Wang, Wan Duan, Wen-Li Cao...</div>
+<div class="meta-line">Venue: Carbon Balance and Management</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c3370e2caa9f8dabd6c871a14722da5fac00b54b">Abs</a> · <a href="https://doi.org/10.1186/s13021-026-00548-9">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ Hyperarid desert soils are vital terrestrial carbon pools dominated by soil inorganic carbon (SIC) and underpin global carbon cycling. However, how multiple soil carbon fractions respond to temperature and soil moisture changes, as well as their time-dependent regulatory mechanisms, remains poorly understood. Here, we established a 60-day microcosm incubation experiment with monthly sampling to investigate the interactive effects of experimental warming and altered soil moisture on different desert soil carbon fractions (soil organic carbon (SOC), particulate organic carbon (POC), and mineral-associated organic carbon (MAOC), SIC), combined with analyses of soil physicochemical properties, enzyme activities, and litter decomposition. Our results demonstrated that SIC dominated carbon storage in desert soils, with SIC stocks approximately nine-fold higher than SOC. Temperature and soil moisture exerted synergistic control on soil total carbon contents, with temperature acting as the primary limiting factor modulating carbon cycle processes. Experimental warming reduced SIC in the early stage, but facilitated its accumulation in the late stage. Increased soil moisture accelerated SIC loss under ambient temperature conditions. While climate perturbation showed minimal effects on total SOC content under warming scenarios, it substantially reshaped SOC component composition. Specifically, increased soil moisture increased the proportion of labile POC in the early stage and enhanced the abundance of stable MAOC in the late stage, indicating a temperature-dependent stabilization process of SOC. Notably, the dominant regulatory pathways controlling soil carbon dynamics exhibited stage-specific variability: soil enzyme activities governed carbon transformation in the early incubation stage, whereas soil physicochemical properties (e.g., pH and NH
+ 4
+ +
+ -N) and litter decomposition regulated late-stage carbon turnover. Collectively, this study verifies temperature overrides soil moisture in regulating multi-component soil carbon fractions and identifies stage-specific mechanisms of climate-mediated soil carbon dynamics in deserts. These findings suggest that climate-adaptive desert management should explicitly account for temperature-moisture interactions, particularly in SIC-dominated desert soils where warming and altered precipitation jointly reshape inorganic and organic carbon turnover. This evidence-based information helps improve desert carbon balance assessments and supports the development of targeted management strategies for preserving soil carbon sinks under climate change.
+</div></details>
+</div>
+<div class="card"><div class="title">Air–Water
+Interfacial Secondary Hydroxylation
+of SO2: An Overlooked and Rapid Pathway to Sulfuric Acid
+in Tropical Coastal Industrial Areas<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Ji-Huan Yang, Xiao-Kai Guo, Rui Su, Xu-Nian Ren, Hao-Yu Feng...</div>
+<div class="meta-line">Venue: Environmental Science &amp;amp;
+Technology</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/9d52c0088cec5981c0a9ebcd6c783c41bb05c610">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Atmospheric sulfuric acid (H2SO4) is a key driver of acid deposition, aerosol growth, and new particle formation. Its formation is initiated by rapid OH addition to SO2 to produce HOSO2, but direct hydroxylation of HOSO2 is kinetically unfavorable. Consequently, the accepted route to H2SO4 proceeds via O2 oxidation of HOSO2 to SO3, followed by hydrolysis. Here, using classical molecular dynamics (MD) and Born–Oppenheimer MD simulations, we identify an alternative interfacial pathway that directly converts HOSO2 and OH into H2SO4. Strong interfacial affinity of both reactants drives this transformation at the air–water interface with a free-energy barrier of only 1.73 kcal·mol–1, substantially lower than that of gas-phase SO3 hydrolysis. Kinetic analysis further indicates that, under conditions of elevated OH, HOSO2, and low SO3, this pathway can outpace gas-phase SO3 hydrolysis by more than 3 orders of magnitude. These results reveal an efficient interfacial source of atmospheric H2SO4, offering a mechanistic basis for its elevated abundance in polluted coastal environments and improving the representation of sulfur oxidation in atmospheric models.</div></details>
+</div>
+<div class="card"><div class="title">Interaction of
+Components in Aqueous Systems Involving
+Alkanolamines and Ethanedioic Acid Under Polythermal Conditions and
+Atmospheric Pressure<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: S. Khamdamova, Akbarjon Marufjonov, O. Porubay</div>
+<div class="meta-line">Venue: Journal of Chemical &amp;amp;
+Engineering Data</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/1f9d4d3d6427b24b22275855b51dc221399ce28e">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ The interaction of oxalic acid with mono-, di-, and triethanolamine in aqueous systems over a wide range of temperatures and concentrations was investigated. Phase equilibria in the ternary systems H2C2O4–HOCH2CH2NH2–H2O, H2C2O4–NH(C2H4OH)2–H2O, and H2C2O4–N(CH2CH2OH)3–H2O were established using visual-polythermal, chemical, and physicochemical analysis methods. Based on experimental solubility data, polythermal diagrams were constructed, in which the crystallization fields of the initial components and new compounds with the compositions H2C2O4·HOCH2CH2NH2·2H2O, H2C2O4·NH(C2H4OH)2·2H2O, and H2C2O4·N(CH2CH2OH)3·3H2O were delineated. The resulting compounds were isolated from the corresponding crystallization regions and identified by FTIR spectroscopy, elemental analysis, and simultaneous thermal analysis. It was established that the interaction of oxalic acid with ethanolamines is acid–base in nature and is accompanied by protonation of the nitrogen atom, formation of the hydrogen oxalate anion, and formation of ethanolammonium crystalline hydrate salts. Spectral and thermal data also indicate the presence of an extensive system of intermolecular hydrogen bonds involving hydroxyl groups and molecules of crystallization water. The obtained results characterize the features of phase formation and salt formation in “dicarboxylic acid–ethanolamine” systems and can be used in developing approaches to the preparation of new functional compounds for chemical technology and agrochemistry.</div></details>
+</div>
+<div class="card"><div class="title">Decoupled soil–landform relationships in a temperate monsoonal riparian wetland: The role of vegetation and anthropogenic disturbance<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Heejong Ko, Keonhak Lee, Sojung Kim, Daehyun Kim</div>
+<div class="meta-line">Venue: Progress in Physical Geography: Earth and Environment</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e8bc15c70cdcdffc9fbd7fe362923476b0cf54d0">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Traditional soil–landform interpretation assumes that topographic position provides the primary basis for explaining spatial soil heterogeneity. However, in riparian wetlands where vegetation cover and disturbance legacy can influence near-surface conditions, this assumption may not adequately account for variation in soil properties. This case study examined an approximately 4-ha temperate monsoonal riparian wetland along the middle reach of the Seomjingang River, South Korea, to evaluate the relative roles of topography, vegetation cover, and disturbance history in explaining surface soil heterogeneity. A total of 78 soil samples were analyzed for moisture content, pH, electrical conductivity, and soil organic matter. Their relationships with DEM-derived topographic variables, vegetation types, and disturbance history were assessed using correlation analysis, independent-samples
+ t
+ -tests, and analysis of covariance (ANCOVA). Overall, within the focal wetland, surface soil heterogeneity was only weakly related to most of the measured topographic variables, whereas vegetation cover and disturbance history showed more consistent associations with soil properties. Among the topographic variables, only profile curvature exhibited weak but significant relationships with moisture, electrical conductivity, and soil organic matter. Furthermore, ANCOVA indicated that vegetation cover and disturbance history generally explained more variance than did the topographic variables. These findings do not imply that topography is generally unimportant. Rather, under observed field conditions, vegetation cover and disturbance history were more informative than the measured within-wetland topographic variables. This study extends soil–landform interpretation by demonstrating that, in contemporary riparian wetlands, topographic context should be interpreted alongside vegetation cover and disturbance history.
+</div></details>
+</div>
+<div class="card"><div class="title">Declining soil organic matter as a dominant control on agricultural nitrogen loss<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Hariom Yadav, G. Sanford, A. V. von Haden, Randall D. Jackson, S. Hall</div>
+<div class="meta-line">Venue: Environmental Research Letters</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/afb3e1eb4201c08d6a057bfe0e59b4f88b72c3ba">Abs</a> · <a href="https://iopscience.iop.org/article/10.1088/1748-9326/aec3c4/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Nitrogen (N) losses from agricultural soils that pollute water and air and threaten biodiversity are often assumed to result from excessive fertilizer and manure applications. Yet, soil organic matter is the largest pool of N in agricultural systems and its contribution to environmental N loss remains poorly quantified. We combined comprehensive field-specific data on external N inputs and crop N removal with soil N stock measurements from a 30-y experiment including six contrasting grain and forage cropping systems typical of the US Midwest. The N removal in harvested crops approximately balanced total N inputs in most grain and forage systems, suggesting relatively efficient use of N inputs. Nevertheless, soil N stocks declined over 30 y in most systems, such that N released during organic matter decomposition contributed disproportionately to environmental N losses. Despite receiving lower fertilizer input, cropping systems including soybean [Glycine max (L.) Merr.] in rotation with maize (Zea mays L.) had significantly higher environmental N losses than the other grain and forage systems because they lost more N from soil organic matter. Our results suggest that effective management of N fertilizer and manure is necessary but insufficient to reduce environmental N loss from intensive agricultural systems, underscoring the importance of adopting agricultural practices that maintain or enhance soil organic matter, and policies that support them.</div></details>
+</div>
+<div class="card"><div class="title">Ecological Status of Soils near a Medical Waste Incinerator: A Baseline for Environmental Monitoring<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: S. Akhmetzhanova, Z. Rakhymzhan, Z. Oralbekova, R. Zhumagulova, A. Abduvalova...</div>
+<div class="meta-line">Venue: Processes</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4b2edbec5a08b2c05637366d7f293b85dfccce4c">Abs</a> · <a href="https://doi.org/10.3390/pr14223704">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">This study evaluated the microbiological status of soils situated in the vicinity of a medical waste incinerator located within the industrial zone of Taraz, Zhambyl Region, Kazakhstan. Soil samples were collected across five distinct points positioned 50–190 m from the facility, alongside a designated background control site. The analyses determined the total microbial count (TMC)—a key proxy for soil biological activity—as well as the abundances of micromycetes (fungi) and actinomycetes. Total microbial counts in the experimental samples exceeded baseline levels by 1.3 to 4.4 times relative to the control sample (17.5 × 106 CFU/g), with peak values observed in sample No. 1 (77.0 × 106 CFU/g) and sample No. 2 (45.4 × 106 CFU/g). Furthermore, confluent fungal proliferation exceeding countable thresholds (too numerous to count, TNTC) was documented in samples No. 1, No. 3, and No. 5. This pronounced fungal dominance corresponded with diminished populations of actinomycetes, which serve critical roles as soil organic matter decomposers; minimum values for this group were registered in samples No. 3 and No. 4. Taken together, these patterns indicate a shift in the soil microbial community in the vicinity of the incinerator. While the elevated counts may reflect organic inputs acting as a microbial substrate, this and alternative mechanistic explanations—such as combustion by-products functioning as stressors—remain hypotheses, given that soil chemistry was not measured. The primary limitations of this study are the lack of direct soil chemical analyses and incomplete fungal quantification resulting from TNTC (too numerous to count) colonies. Furthermore, the application of microbial indicators for automated environmental surveillance is presented here as a conceptual framework rather than an operational IoT-GIS platform, providing a baseline for future empirical validation. The observed shifts are therefore correlative and do not demonstrate a direct causal effect of incinerator emissions.</div></details>
+</div>
+<div class="card"><div class="title">Effect of Fertilizers and Pesticide Application on Soil Heavy Metal Concentration in Cotton Field<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Saba Bhatti, F. Talpur, J. Baig, Z. Chandio, S. Bughio...</div>
+<div class="meta-line">Venue: Bulletin of Environmental Contamination and Toxicology</div>
+<div class="meta-line">Published: 2026-11-18</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8869ef0a444ad7219d2a9c15b92487c616114073">Abs</a></div>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
