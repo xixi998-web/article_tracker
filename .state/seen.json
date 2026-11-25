@@ -26198,5 +26198,125 @@
   "doi:10.9734/ajarr/2026/v20i121516": {
     "source": "top_journal",
     "title": "Assessment of Physical Composition of Municipal Solid Waste in Ikot Ekpene Metropolis, Akwa Ibom State, Nigeria"
+  },
+  "arxiv:2611.32335v1": {
+    "source": "arxiv",
+    "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM"
+  },
+  "arxiv:2611.32025v1": {
+    "source": "arxiv",
+    "title": "View Management with Gaussian Placement and Opacity Regularization for Online 3DGS"
+  },
+  "arxiv:2611.31023v1": {
+    "source": "arxiv",
+    "title": "WildAnySplat: Feed-Forward 3D Gaussian Splatting in the Wild"
+  },
+  "arxiv:2611.32628v1": {
+    "source": "arxiv",
+    "title": "Completion-Aware Compression for Progressive 3D Gaussian Splatting"
+  },
+  "arxiv:2611.28520v2": {
+    "source": "arxiv",
+    "title": "VG3R: Video Generation Model for Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2611.32816v1": {
+    "source": "arxiv",
+    "title": "SpatialArena: Where Do Geometric Foundation Models Stand?"
+  },
+  "arxiv:2611.30184v2": {
+    "source": "arxiv",
+    "title": "OmniSLAM: Evidence-Authorized Revision of Persistent Object Maps"
+  },
+  "arxiv:2611.33157v1": {
+    "source": "arxiv",
+    "title": "PointX: Multi-View Consistent Intrinsics by Querying Surface Points"
+  },
+  "arxiv:2611.33145v1": {
+    "source": "arxiv",
+    "title": "Lost on Campus: Evaluating Embodied Spatial Reasoning of Vision-Language Models in the Wild"
+  },
+  "arxiv:2611.32735v1": {
+    "source": "arxiv",
+    "title": "AnyPrune: Optimization-Free Pruning for Any Feedforward 3D Gaussian Splatting Pipeline"
+  },
+  "arxiv:2611.32588v1": {
+    "source": "arxiv",
+    "title": "CoReQ: Condition-Aware Cross-Modal Repair and Quality-Guided Robust Collaborative Perception"
+  },
+  "arxiv:2611.32475v1": {
+    "source": "arxiv",
+    "title": "ROVO: Robust Rotation-Only Visual Odometry for UAVs at Low and Moderate Altitudes"
+  },
+  "arxiv:2611.31918v1": {
+    "source": "arxiv",
+    "title": "HiGS: A Hierarchical Architecture for Fast Differentiable 3D Gaussian Splatting"
+  },
+  "doi:10.64898/2026.11.09.765489": {
+    "source": "top_journal",
+    "title": "Learning spatial cellular state through 3D reconstruction of the cell"
+  },
+  "arxiv:2611.33137v1": {
+    "source": "arxiv",
+    "title": "Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action"
+  },
+  "arxiv:2611.32491v1": {
+    "source": "arxiv",
+    "title": "X-3DComposer: Feed-Forward 3D Scene Composition with Any Assets from Any Views"
+  },
+  "arxiv:2611.32054v1": {
+    "source": "arxiv",
+    "title": "SurgGenesis: A Generative Surgical World Model for Future-Aware Surgical Understanding"
+  },
+  "arxiv:2611.32042v1": {
+    "source": "arxiv",
+    "title": "Instant LiDAR: Feed-Forward Gaussian Reconstruction for LiDAR Simulation"
+  },
+  "arxiv:2611.31516v1": {
+    "source": "arxiv",
+    "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion"
+  },
+  "arxiv:2611.31475v1": {
+    "source": "arxiv",
+    "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents"
+  },
+  "arxiv:2611.24007": {
+    "source": "top_journal",
+    "title": "Freeforward4d: Annotation-free feed-forward 4d reconstruction of driving scenes"
+  },
+  "arxiv:2611.32998v1": {
+    "source": "arxiv",
+    "title": "First-Hit Photoconsistency for Neural Surface Reconstruction"
+  },
+  "arxiv:2611.32863v1": {
+    "source": "arxiv",
+    "title": "CityRecast: Suppressing Persistent Artifacts in Generative Satellite 3D Reconstruction"
+  },
+  "arxiv:2611.32718v1": {
+    "source": "arxiv",
+    "title": "Seeing to Drive on a Single Board: Attention-Free Depth for Onboard Robot Navigation"
+  },
+  "arxiv:2611.32584v1": {
+    "source": "arxiv",
+    "title": "An XR-Based System for Enhanced Spatial Awareness in Mobile Robot Teleoperation"
+  },
+  "arxiv:2611.32523v1": {
+    "source": "arxiv",
+    "title": "AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System"
+  },
+  "arxiv:2611.32493v1": {
+    "source": "arxiv",
+    "title": "CoFiNav: VLM-Guided Coarse-to-Fine Semantic Navigation for Open-Ended Last-Mile UAV Delivery"
+  },
+  "arxiv:2611.32431v1": {
+    "source": "arxiv",
+    "title": "NRG-Twins: Pixel-Level Ground Truth for Rigidity Violations in Generated Videos"
+  },
+  "arxiv:2611.32231v1": {
+    "source": "arxiv",
+    "title": "ST-SfM: Spatio-Temporal Structure-from-Motion for Initialising 4D Gaussian Splatting"
+  },
+  "arxiv:2611.31812v1": {
+    "source": "arxiv",
+    "title": "Generalizable Feed-Forward 3D Hand-Object Reconstruction with Coarse-to-Fine Contact Estimation"
   }
 }
