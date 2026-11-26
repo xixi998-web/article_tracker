@@ -26354,5 +26354,125 @@
   "doi:10.1007/s00128-026-04368-y": {
     "source": "top_journal",
     "title": "Effect of Fertilizers and Pesticide Application on Soil Heavy Metal Concentration in Cotton Field"
+  },
+  "arxiv:2611.33380v1": {
+    "source": "arxiv",
+    "title": "FOCI: Trajectory Optimization on Gaussian Splats for Gaussian Robots"
+  },
+  "arxiv:2611.32335v2": {
+    "source": "arxiv",
+    "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM"
+  },
+  "arxiv:2611.26321": {
+    "source": "top_journal",
+    "title": "FirstCross: Convex Single-Photon 3D Reconstruction from Sparse Views"
+  },
+  "arxiv:2611.34155v1": {
+    "source": "arxiv",
+    "title": "OceanFix: Reference-Guided Diffusion for Sparse-View Underwater 3D Reconstruction"
+  },
+  "doi:10.3390/computers15110854": {
+    "source": "top_journal",
+    "title": "DynamicGS: Spatiotemporal Motion Distillation for Dynamic Scene Reconstruction with Gaussian Splatting"
+  },
+  "arxiv:2611.34489v1": {
+    "source": "arxiv",
+    "title": "Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans"
+  },
+  "arxiv:2611.26493": {
+    "source": "top_journal",
+    "title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention"
+  },
+  "arxiv:2611.34944v1": {
+    "source": "arxiv",
+    "title": "AnyCam: Anything Can Represent Camera for Video Generation"
+  },
+  "arxiv:2611.34932v1": {
+    "source": "arxiv",
+    "title": "MERLoc: Robust Robot Localization in Dynamic Environments with Pose-Based Retrieval over 3D Gaussian Splatting References"
+  },
+  "arxiv:2611.34053v1": {
+    "source": "arxiv",
+    "title": "xFORM: Accelerating Fixed-Lag LiDAR Odometry with Exact Factor Compression"
+  },
+  "arxiv:2611.33920v1": {
+    "source": "arxiv",
+    "title": "UPP-Gauss: Ultrasound Propagation Physics-informed Gaussian Splatting for B-mode Novel-View Synthesis"
+  },
+  "arxiv:2611.33905v1": {
+    "source": "arxiv",
+    "title": "Tortho-Gaussian++: Suppressing Geometric Drift and Floaters for Robust Gravity-Aligned TDOM Generation in Large-Scale Aerial Scenes"
+  },
+  "arxiv:2611.33796v1": {
+    "source": "arxiv",
+    "title": "SprintGS: Eliminating Redundancy for Fast 3D Gaussian Splatting Training"
+  },
+  "arxiv:2611.33698v1": {
+    "source": "arxiv",
+    "title": "Efficient Scene-Distribution-Aware Second-Order Optimization for 3D Gaussian Splatting"
+  },
+  "arxiv:2611.33567v1": {
+    "source": "arxiv",
+    "title": "ProPolar: Progressive Polar Decomposition for Implicit Neural Representations"
+  },
+  "arxiv:2611.34724v1": {
+    "source": "arxiv",
+    "title": "LiDAR Intensity Reconstruction with Limited Real Data: An Architecture Benchmark under Fixed-Epoch Training"
+  },
+  "arxiv:2611.34478v1": {
+    "source": "arxiv",
+    "title": "Feed-Forward Adaptive Gaussian Splatting for Interactive Medical Volume Rendering"
+  },
+  "arxiv:2611.33824v1": {
+    "source": "arxiv",
+    "title": "Revisiting Monocular In-Hand Object Scanning: Dataset, Pose Estimation, and Surface Reconstruction"
+  },
+  "arxiv:2611.33374v1": {
+    "source": "arxiv",
+    "title": "VersionGS: Compact and Motion-Robust Dynamic Gaussian Splatting via Versioned Gaussians"
+  },
+  "arxiv:2611.30176v2": {
+    "source": "arxiv",
+    "title": "OmniSenMo: A Unified Multisensory Language Model for Generalizable Human Motion Estimation, Understanding, and Prediction"
+  },
+  "doi:10.26599/jicv.2026.9210111": {
+    "source": "top_journal",
+    "title": "FGA-BEVFusion: Frequency-Guided Attention for LiDAR–Camera BEV Fusion in 3D Object Detection"
+  },
+  "arxiv:2611.25722": {
+    "source": "top_journal",
+    "title": "DACA: Dual-Anchor Collaborative Agent for Zero-Shot 3D Visual Grounding"
+  },
+  "arxiv:2611.34939v1": {
+    "source": "arxiv",
+    "title": "A Mesh for Every Moment"
+  },
+  "arxiv:2611.34894v1": {
+    "source": "arxiv",
+    "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video"
+  },
+  "arxiv:2611.34810v1": {
+    "source": "arxiv",
+    "title": "WorldExpand: Building Coherent 3D Worlds via Sparse Joint Panoramic Expansion"
+  },
+  "arxiv:2611.34549v1": {
+    "source": "arxiv",
+    "title": "CADENCE: Sensor-GroundedWorld-Consistent Gaussian SLAM for Collaborative Mobile Reconstruction"
+  },
+  "arxiv:2611.34246v1": {
+    "source": "arxiv",
+    "title": "Autonomous Vineyard Exploration using LiDAR Sensing: A Field Evaluation on Legged-Wheeled Quadruped Robot"
+  },
+  "arxiv:2611.34223v1": {
+    "source": "arxiv",
+    "title": "AnyCam4D: Ray-Based 4D Gaussian Rendering for Arbitrary Camera Models"
+  },
+  "arxiv:2611.34046v1": {
+    "source": "arxiv",
+    "title": "End-to-End Image-Goal Navigation for Agile Quadrotors via Recurrent State Distillation"
+  },
+  "arxiv:2611.33775v1": {
+    "source": "arxiv",
+    "title": "CHD-Bench: Diagnosing Congenital Heart Disease through Interactive Examination"
   }
 }
