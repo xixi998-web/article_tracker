@@ -26474,5 +26474,49 @@
   "arxiv:2611.33775v1": {
     "source": "arxiv",
     "title": "CHD-Bench: Diagnosing Congenital Heart Disease through Interactive Examination"
+  },
+  "doi:10.3389/fpls.2026.2001065": {
+    "source": "top_journal",
+    "title": "Sulfur, organic, and inorganic soil acidification effects on HLB-affected citrus tree productivity"
+  },
+  "doi:10.3390/plants15223618": {
+    "source": "top_journal",
+    "title": "N, P, and K Fertilization Differentially Regulates Catalpa bungei Growth and Soil Greenhouse Gas Fluxes"
+  },
+  "doi:10.3390/ani16223675": {
+    "source": "top_journal",
+    "title": "Land-Use Type Regulates Soil Macrofaunal Community Structure via Soil Properties in a Reclaimed Coastal Area, China"
+  },
+  "doi:10.5564/mgs.v31i63.5901": {
+    "source": "top_journal",
+    "title": "Assessing Agricultural Land Capacity as a Proxy for Drought Resilience Under Climate Change in Mongolia"
+  },
+  "doi:10.1002/ldr.70946": {
+    "source": "top_journal",
+    "title": "Microbial Resurgence in Degraded Soils: Early‐Stage Recovery of Biological Quality by Legume Cover Crops in Alluvial Gold‐Mining Areas"
+  },
+  "doi:10.61577/jec.2026.100008": {
+    "source": "top_journal",
+    "title": "Invasion driven changes in soil nutrient dynamics by Conyza Canadensis (L.) in the Kashmir Himalaya"
+  },
+  "doi:10.3390/f17111381": {
+    "source": "top_journal",
+    "title": "Short-Term Variation in Soil Organo-Mineral Associations in Alpine Forest–Shrub Transitional Zone on the Eastern Tibetan Plateau"
+  },
+  "doi:10.9734/ijpss/2026/v38i116440": {
+    "source": "top_journal",
+    "title": "Responses of Extractable Phosphorus, Zinc and Related Soil Properties to Triple Superphosphate–Zinc Sulphate Combinations in an Acidic Tea-plantation Soil"
+  },
+  "doi:10.55180/aei.v4i1.2187": {
+    "source": "top_journal",
+    "title": "Pemanfaatan Sistem Informasi Geografis (Gis) untuk Pemetaan Sifat Fisik dan Kesuburan Tanah di Kebun S.E.A.T Ungaran"
+  },
+  "doi:10.1007/s42729-026-03700-z": {
+    "source": "top_journal",
+    "title": "Phenology-Driven Improvements in Soil Salinity, Forage Quality, and Rhizosphere Microbiomes by Sesbania cannabina in Saline–Alkali Soils"
+  },
+  "doi:10.3390/geosciences16110481": {
+    "source": "top_journal",
+    "title": "Source-Resolved Ecological Risk of Soil Heavy Metals in an Industrial–Mining Town of South China: From Source Apportionment to Spatial Risk Attribution"
   }
 }
