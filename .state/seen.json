@@ -26518,5 +26518,125 @@
   "doi:10.3390/geosciences16110481": {
     "source": "top_journal",
     "title": "Source-Resolved Ecological Risk of Soil Heavy Metals in an Industrial–Mining Town of South China: From Source Apportionment to Spatial Risk Attribution"
+  },
+  "arxiv:2611.28197": {
+    "source": "top_journal",
+    "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment"
+  },
+  "arxiv:2611.33650v1": {
+    "source": "arxiv",
+    "title": "Linear-Time Online Visual Geometry Transformer with Hybrid Architecture"
+  },
+  "arxiv:2611.33387v1": {
+    "source": "arxiv",
+    "title": "Synchronizing Cameras via 3D Object Relationships"
+  },
+  "arxiv:2611.31757v1": {
+    "source": "arxiv",
+    "title": "Xtream: An Explicit Metric State for Large-Scale Streaming Reconstruction"
+  },
+  "arxiv:2611.31435v1": {
+    "source": "arxiv",
+    "title": "Tornado4D: Physics-Guided 4D Gaussian Reconstruction of a Laboratory Tornado from Sparse One-Sided Videos"
+  },
+  "arxiv:2611.31428v1": {
+    "source": "arxiv",
+    "title": "Enhancing Sparse-View Gaussian Splatting with Feed-Forward Priors via Spectral Fusion and Distillation"
+  },
+  "arxiv:2611.30935v1": {
+    "source": "arxiv",
+    "title": "FGSCalib: Targetless Camera-LiDAR Extrinsic Calibration from Foreground Segmentation"
+  },
+  "arxiv:2611.30007v1": {
+    "source": "arxiv",
+    "title": "One Latent World for Heterogeneous LiDARs: A Scan Pattern Agnostic 4D World Model via Direct Ray Decoding"
+  },
+  "arxiv:2611.29678v1": {
+    "source": "arxiv",
+    "title": "Ref2Light: From One Image to Interactive Glasses-Free 3D Characters"
+  },
+  "arxiv:2611.29630v1": {
+    "source": "arxiv",
+    "title": "SuperFine3D: Efficient Global-Local Recursive Refinement for Extremely Detailed 3D Geometry Generation"
+  },
+  "arxiv:2611.29614v1": {
+    "source": "arxiv",
+    "title": "GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame"
+  },
+  "arxiv:2611.29388v1": {
+    "source": "arxiv",
+    "title": "SpectralGS: Spectral Gaussian Splatting for Unsupervised Spectral Super-Resolution"
+  },
+  "arxiv:2611.29294v1": {
+    "source": "arxiv",
+    "title": "RSLaA: Self-Reconfiguring Roadside LiDARs as Agents for 3D Traffic Perception"
+  },
+  "arxiv:2611.28917v1": {
+    "source": "arxiv",
+    "title": "Div3DAfford: Diverse 3D affordance grounding"
+  },
+  "arxiv:2611.28905v1": {
+    "source": "arxiv",
+    "title": "Beyond the section plane: Robust 3D reconstruction of multiplex immunofluorescence exposes limitations of 2D spatial cell statistics"
+  },
+  "arxiv:2611.28793v1": {
+    "source": "arxiv",
+    "title": "STAC++: Plug-and-Play Adaptive Spatio-Temporal Aware Cache Compression for Streaming 3D Reconstruction"
+  },
+  "arxiv:2611.28608v1": {
+    "source": "arxiv",
+    "title": "VUOD: A Versatile Unsupervised Outlier Detection Framework for Natural, Industrial, Medical Images and Beyond"
+  },
+  "arxiv:2611.28591v1": {
+    "source": "arxiv",
+    "title": "CAR3T: Generalizable Calibration-Guided Reference-View Attention Reuse for Multi-View 3D Transformers"
+  },
+  "arxiv:2611.28403v1": {
+    "source": "arxiv",
+    "title": "Occupancy Planar Patch: Incremental Probabilistic Bounded-Plane Reconstruction from LiDAR Data"
+  },
+  "arxiv:2611.27817v1": {
+    "source": "arxiv",
+    "title": "BRINA: Bottom-Referenced Inertial Navigation with AKAZE, a Sonar SLAM for Autonomous Marine Vehicles"
+  },
+  "arxiv:2611.28191v1": {
+    "source": "arxiv",
+    "title": "BReD: BEV Residual Diffusion for Feed-Forward Road Gaussian Reconstruction"
+  },
+  "doi:10.64898/2026.11.20.767507": {
+    "source": "top_journal",
+    "title": "Saddle Buckling of a Multicellular Alga Driven by Differential Growth"
+  },
+  "doi:10.1038/s41598-026-77779-w": {
+    "source": "top_journal",
+    "title": "LAR-Net: a lightweight adaptive receptive field network for point cloud segmentation of pharmaceutical deposits on reactor inner walls"
+  },
+  "arxiv:2611.32202v1": {
+    "source": "arxiv",
+    "title": "SplatTok: Data-Driven Compression of 3D Gaussian Splats with Scene-Level Tokens"
+  },
+  "arxiv:2611.27003": {
+    "source": "top_journal",
+    "title": "S2D-Splat: Static-First Gaussian Reconstruction of Dynamic Driving Scenes with Layer-Wise Feature Guidance"
+  },
+  "doi:10.3390/rs18223994": {
+    "source": "top_journal",
+    "title": "A High-Precision Three-Dimensional Branch Reconstruction Method for Tree Morphological Phenotype"
+  },
+  "doi:10.1145/3847401.3847442": {
+    "source": "top_journal",
+    "title": "Are Point Cloud Digital Twins Enough for XR Remote Robot Teleoperation? A Pick-and-Place Study with a Local MR Baseline"
+  },
+  "arxiv:2611.27459": {
+    "source": "top_journal",
+    "title": "Ego2Ego: Generative Visual Perspective Taking Across Collaborators"
+  },
+  "arxiv:2611.32547v1": {
+    "source": "arxiv",
+    "title": "Contact Geometry for Generative Models: An Unbalanced Optimal Transport Formulation"
+  },
+  "doi:10.1109/tnnls.2026.3751564": {
+    "source": "top_journal",
+    "title": "Hierarchical Probabilistic Intention Inference in Partially Observable Environments."
   }
 }
