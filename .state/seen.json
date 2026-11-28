@@ -26666,5 +26666,25 @@
   "doi:10.1016/j.marpolbul.2026.120503": {
     "source": "top_journal",
     "title": "Biogeochemical processes and benthic impacts of submarine mine tailings: A case study from Jøssingfjorden, Norway."
+  },
+  "arxiv:2611.28792": {
+    "source": "top_journal",
+    "title": "ArgsWorld: Unifying 3DGS Scene Reconstruction, Generation and Extrapolation with Autoregressive Diffusion Transformer"
+  },
+  "arxiv:2611.28802": {
+    "source": "top_journal",
+    "title": "Not All Directions Are Flat: Decomposed-Gradient Flatness for Sparse-View 3D Gaussian Splatting"
+  },
+  "doi:10.1186/s10195-026-00983-x": {
+    "source": "top_journal",
+    "title": "Three-dimensional CT analysis of intra-articular glenoid fractures: limitations of current classifications and identification of unclassifiable patterns in 279 cases"
+  },
+  "arxiv:2611.29071": {
+    "source": "top_journal",
+    "title": "Projecting Beauty: Transferring Image Aesthetic Analysis onto 3D Heritage and Urban Scenes"
+  },
+  "arxiv:2611.28913": {
+    "source": "top_journal",
+    "title": "From Dense to Sparse: Morton-Ordered Sparse Mapping for Efficient 3D Mesh Generation"
   }
 }
