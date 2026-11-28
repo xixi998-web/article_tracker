@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-28 04:38 · Core 3 · Proxy 1 · Eco 1</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">ArgsWorld: Unifying 3DGS Scene Reconstruction, Generation and Extrapolation with Autoregressive Diffusion Transformer<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Wei-Ming Chen, Shuai-Yan Liu, Xin-Yu Shao, Zhe-Wen Chen, Tian Guan...</div>
+<div class="meta-line">Venue: Science Robotics</div>
+<div class="meta-line">Published: 2026-11-21</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e8bf29d9c8f734f5f4866a531a06e2b233d8585f">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Autoregressive diffusion world models deliver strong video generation performance, yet they typically output only RGB frames rather than explicit 3D Gaussian Splatting (3DGS) scene representations, creating a gap between learned visual world dynamics and usable 3D assets for downstream robotics, simulation and rendering. To bridge this gap, we introduce ArgsWorld, an autoregressive diffusion model that also produces an explicit 3DGS scene. For each generation chunk, the diffusion transformer jointly processes clean historical image latents and noisy latents for new views. It keeps the historical image latents fixed and refreshes the scene features so that the Gaussian representation can be revised as new regions come into view. Our 3D Self-Forcing Distillation trains the model on its own generated histories using a mixture of single-view and multi-view data. Distribution matching supervises direct image latents and latents of Gaussian renderings at both generation and additional cameras. ArgsWorld unifies 3D scene reconstruction from posed images, scene generation from image or text prompts, and scene extrapolation across camera segments with disconnected endpoints. Experimental results demonstrate that ArgsWorld achieves state-of-the-art performance across multiple 3D scene modeling tasks. Project page: https://m4a1tastegood.github.io/ArgsWorld/</div></details>
+</div>
+<div class="card"><div class="title">Not All Directions Are Flat: Decomposed-Gradient Flatness for Sparse-View 3D Gaussian Splatting<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Ungbae Yoon, Kwanyoung Kim</div>
+<div class="meta-line">Venue: Science Robotics</div>
+<div class="meta-line">Published: 2026-11-21</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5775a1a1cb43a411d6e852949c6520b7eb394bd6">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Many applications of novel view synthesis, such as augmented reality and robotics, can afford only a few input views, since dense capture is costly. With such sparse views, however, 3D Gaussian Splatting (3DGS) overfits the training views and degrades at unseen viewpoints. Among the approaches to this problem, flat-minima optimization treats the Gaussians as trainable parameters and steers training toward flat minima, which generalize better, by perturbing the Gaussians with random noise or along the training gradient. However, these perturbations ignore their direction relative to the other training views. Interestingly, we find that the direction of the perturbation determines whether it improves generalization. Specifically, we decompose the gradient of each training view into a component parallel to the average gradient of all views, on which the views agree, and an orthogonal component, on which they disagree. Perturbing along the orthogonal component improves generalization, whereas perturbing along the parallel component does not. We further find that the flatness correction often opposes the reconstruction gradient, shrinking or even reversing the reconstruction step. Based on these findings, we propose DecoFlat, which perturbs each Gaussian along the orthogonal component together with random noise. Furthermore, we introduce a conflict-aware correction, which removes the part of the flatness correction that opposes the reconstruction gradient, and a rescheduling of the spherical-harmonics color, which suppresses the overfitting of view-dependent appearance. Extensive experiments demonstrate that DecoFlat, as a plug-in optimizer, consistently improves vanilla 3DGS and a wide range of sparse-view 3DGS methods.</div></details>
+</div>
+<div class="card"><div class="title">Three-dimensional CT analysis of intra-articular glenoid fractures: limitations of current classifications and identification of unclassifiable patterns in 279 cases<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: C. Fossati, S. Cascini, C. Stoppani, P. Fici, Federico Romani...</div>
+<div class="meta-line">Venue: Journal of Orthopaedics and Traumatology</div>
+<div class="meta-line">Published: 2026-11-21</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/59347cfd07faa457133dbaca4463087969298422">Abs</a> · <a href="https://doi.org/10.1186/s10195-026-00983-x">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ We aimed to evaluate the epidemiology and three-dimensional computed tomography (3D CT)-based morphology of intra-articular glenoid fractures, assess the performance of current classification systems, and identify fracture patterns not captured by existing frameworks.
+ 
+ 
+ 
+ Design: this was a retrospective observational study. Setting: Two orthopedic hospital sites within a single academic health system from 2013 to 2022. Patient selection criteria: patients with shoulder trauma who underwent CT with 3D reconstructions; intra-articular glenoid fractures were included. Exclusions included fractures identified only on radiographs or magnetic resonance imaging (MRI) and pathological fractures. Outcome measures and comparisons: Fractures were classified using the Arbeitsgemeinschaft für Osteosynthesefragen/Orthopaedic Trauma Association (AO/OTA), Ideberg/Goss, and Bartoníček systems. Demographic data and associated injuries were recorded. The primary outcome measure was the proportion of fractures classifiable within existing systems; secondary outcomes included fracture pattern distribution and the identification and morphological characterization of unclassifiable fracture patterns.
+ 
+ 
+ 
+ A total of 279 intra-articular glenoid fractures were identified among 2863 CT studies performed after shoulder trauma (9.75%). These CT examinations represented a selected subset of 13,664 shoulder trauma imaging presentations recorded during the study period. Patients had a mean age of 60 years and were predominantly male (61.4%). Associated injuries, including glenohumeral dislocation and proximal humeral fractures, were frequently observed. Most fractures were classified as AO/OTA F1.1 patterns (72.8%). A previously undescribed triangular subtype within the F1.1B group was observed in 14 cases (5.0%). Ten fractures (3.6%) could not be classified using any of the evaluated systems and were descriptively grouped into five morphological patterns (nonclassifiable pattern [NC]1–NC5) based on shared 3D CT features.
+ 
+ 
+ 
+ Current classification systems capture most intra-articular glenoid fractures but do not fully represent the spectrum of fracture morphology identified on 3D CT. A small but consistent subset of fractures remains unclassifiable, which may limit the accuracy of fracture description and communication. These preliminary observations require confirmation in larger independent cohorts and external validation before their potential integration into existing classification frameworks can be considered.
+ 
+ 
+ 
+ Level IV
+</div></details>
+</div>
+<div class="card"><div class="title">Projecting Beauty: Transferring Image Aesthetic Analysis onto 3D Heritage and Urban Scenes<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: S. Kovalenko, A. Rusnak, Vittoria Meroni, Yasmine Kroknes-Gomez, Frédéric Kaplan</div>
+<div class="meta-line">Venue: Image and Vision Computing</div>
+<div class="meta-line">Published: 2026-11-21</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/fc7da329664e063116dd0fae0447fd5c0ff6c8d8">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Judgments about the beauty of buildings and streets inform architectural design, urban planning, and heritage conservation, yet increasingly rely on scanned 3D models over material fabric. Automatic aesthetic assessment remains largely confined to 2D photographs. We ask what survives when image aesthetic assessment crosses this dimensional gap to produce dense, per-point aesthetic descriptions of heritage and urban point clouds. We examine three routes that sidestep costly, and sometimes ethically dubious, human labeling at scale: (1) lifting scalar scores from image aesthetic models (NIMA, SAAN) onto geometry; (2) training Aesthetic Visual Analysis (AVA) regression heads on frozen vision backbones (DINOv3, TIPS, SigLIP2, PE, RADSeg) or, in a 3D-native variant, a generalist point encoder on feed-forward AVA reconstructions; and (3) querying lifted vision-language features with a natural-language aesthetic label, taking similarity as a score. The two supervised routes transfer poorly: heads fitting AVA in-domain produce architectural class profiles that neither reproduce one another nor track other signals, while the 3D-native probe stays near chance due to reconstruction geometry quality. Text querying is markedly more coherent. Projecting out the class-text direction from point features raises mean cross-model agreement on architectural part profiles from +0.035 to +0.352, and from +0.113 to +0.293 per point; the four backbones passing a semantic sanity check correlate at 0.31-0.73, while the failing one remains an outlier. Since model agreement is not agreement with human aesthetic perception, we detail a part-aware rating protocol to clarify where human and automatic ratings disagree. We provide a reproducible transfer protocol, an account of which pseudo-labeling routes carry signal, and dense aesthetic pseudo-labels meant as hypotheses rather than ground truth.</div></details>
+</div>
+<div class="card"><div class="title">From Dense to Sparse: Morton-Ordered Sparse Mapping for Efficient 3D Mesh Generation<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Jun-Jie Yang, Rui Qian, Yi-Jiang Li, Jin-Yi Xu, Yu-Hao Yan...</div>
+<div class="meta-line">Venue: Pattern Recognition</div>
+<div class="meta-line">Published: 2026-11-21</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/d11a9f37b796992a24ffd24e28e9efb12d8034d5">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Unified 3D understanding and generation require compact sequences preserving spatial structure. Dense grids yield long sequences, while serialization can separate spatial neighbors. We propose Sparse Proximity Aware Compression (SPAC), a shared sparse SDF vocabulary combining sparse encoding with reversible spatial merging. A Sparse SDF VQ-VAE quantizes near-surface features while retaining explicit coordinates, using reconstruction supervision for surface fidelity and detail. 3D Byte-Pair Encoding (3D-BPE) merges recurring face-adjacent patterns using relative offsets before serialization. Macro tokens expand exactly into leaf tokens and coordinates. After Morton serialization, a shared LLM reads geometry for captioning and predicts tokens that decode into meshes for text-conditioned generation. With fixed geometry, architecture, and band width in voxels, sparse encoder cost grows approximately quadratically with resolution. 3D-BPE reduces mean complete LLM sequence length by 45.4 percent, including coordinates, text, and control tokens. SPAC achieves strong results in both 3D captioning and text-conditioned mesh generation. Ablations show gains over leaf tokens and Morton 1D-BPE in both tasks. The project page at https://yangjj007.github.io/spac/ .</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
